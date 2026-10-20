@@ -41,6 +41,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Claude Code's personal settings; .claude/skills/ is committed (ADR 0004)
+.claude/settings.local.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
