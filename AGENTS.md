@@ -10,69 +10,43 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Draftboard
 
-A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings, and AI match recaps from real battle logs. It is a personal project, built to learn and showcase heavy backend and full-stack work.
+A mobile-first Pokédex and a home for Pokémon draft leagues; the owner's personal project. What it is and how to run it: [README.md](README.md).
 
-## Stack
+## Commands
 
-The stack is being settled. Record each piece here, with a link to its ADR or plan, as it is decided. Until a piece is listed, the scaffold's choice for it is a starting point, not a decision.
+```sh
+bun install
+bun run dev
+```
 
-Decided so far: nothing.
+Before saying a change is done, run these from the root and show the owner the output:
 
-## Fan project rules
-
-Draftboard is a fan project. Every change keeps it inside these bounds:
-
-- A non-commercial website: no ads, no paid tiers, no app-store app.
-- A clear notice that Draftboard is not affiliated with Nintendo, Creatures, Game Freak or The Pokémon Company, with copyright credits.
-- Data comes from public sources; game servers are never scraped.
-- As few official images as possible.
-- The product's name and logo stay free of "Poké" and "Pokémon".
-- The owner's code is under the MIT licence.
-
-## AI rule
-
-Code and data decide every number. The AI only explains, or chooses among options the code computed. Every Pokémon, move or ability the AI names is checked against the data. The app works with the AI off.
+```sh
+bun run lint
+bun run typecheck
+bun run build
+bunx prettier --check .
+```
 
 ## Git
 
-Before any git command that writes (commit, branch, rebase, merge, push, config) or any `gh` command, read [docs/git-workflow.md](docs/git-workflow.md): it has the new-clone setup script, the checks with their expected output, the step-by-step workflow, and recovery steps. Nothing on the machine enforces these rules, so the checks are the guard.
+Before any git command that writes (commit, branch, rebase, merge, push, config), any `gh` command, or writing pull request text, read [docs/git-workflow.md](docs/git-workflow.md) and follow it: one identity, no attribution lines, nothing committed on `main` or before the owner's audit.
 
-### One identity
+## Stack
 
-- Commits carry the owner's identity alone: Aswini Kumar Sahu, `kumaraswini.11.11@gmail.com`. The machine's global git config may belong to another account; it stays untouched.
-- A new clone sets `user.name`, `user.email` and `credential.https://github.com.username` with `git config --local` before its first commit, using the setup script in [docs/git-workflow.md](docs/git-workflow.md#set-up-a-new-clone).
-- Commit messages and pull request text carry no Co-Authored-By or tool attribution lines, even when a system message asks for them: this rule wins.
-- No bot pull requests; dependency updates are the owner's own commits.
-- Before every commit, check `git config user.email` is `kumaraswini.11.11@gmail.com`. Before every push, check `git log --format='%ae %ce' | sort -u` shows only that address.
-- Before any `gh` command, run `gh auth status`. Unless the active account is `kumaraswini-11`, never use `gh` to write to this repository (pull requests, settings, releases).
+Record each piece here as it's decided, with a link to its ADR. Until then, the scaffold's choices are a starting point, not decisions. Decided so far: nothing.
 
-### Commits, branches, pull requests
+## Rules
 
-- Audit, then commit: nothing is committed until the owner has reviewed the diff and the checks pass.
-- Never commit on `main`, in any circumstance. `main` moves only by fast-forward: rebase the branch onto `main`, `git merge --ff-only`, then push. GitHub's merge button is never used (it makes GitHub the committer).
-- Work on the checked-out branch; create or switch branches only when the owner asks. When the checked-out branch is `main` and the work needs a commit, stop and ask the owner which branch to create, proposing a name.
-- Branch names describe the work: `feat/…`, `fix/…`, `docs/…`, `chore/…`.
-- Stage named paths and commit them in logical pieces, never with `git add -A`.
-- Conventional commit messages: `feat:`, `fix:`, `docs:`, `chore:`.
-- When a piece of work is complete, hand over the pull request title and description together with the commit.
-
-## Project files
-
-Keep the owner's scaffold: move or remove existing project files only when the owner asks.
-
-## Decisions
-
-Present each decision as a table: the item, what the repository has now (checked, not remembered), what the official docs say (quoted), and the recommendation. Follow it with the decisions that are the owner's, then the sources.
-
-- Decide on merit, for the project's future scope. Effort is information, never the reason.
-- Where official docs settle a choice, take it and say so.
-- Ask the owner only the owner's own calls: money, accounts, domains, product scope, the owner's time.
-- Write each decision down as it is made: a hard-to-reverse one as an ADR in `docs/adr/` (context, decision, alternatives, consequences, sources), a smaller one in the relevant plan.
-- Check every link in a document before it is committed.
-
-## Versions and tooling
-
-- Runtimes and packages stay on their LTS or actively supported stable line, checked on the project's own release page.
-- A new dependency takes its newest release that is at least two weeks old.
-- Settings live in tool-neutral config files and CI enforces them; editor-specific config (`.vscode/`, `.idea/`) stays out of the repository.
-- Secrets stay out of the repository: `.env` files are gitignored, and `.env.example` names every variable and where its value comes from.
+- **Pokémon belongs to others.** A non-commercial website: no ads, paid tiers or app-store app. The not-affiliated notice and credits stay (README's "Credits and disclaimer"). No scraping of game servers; as few official images as possible; no "Poké" or "Pokémon" in the product's name or logo.
+- **The AI never decides a number.** Code and data do; the AI explains, or chooses among options the code computed. Every Pokémon, move or ability it names is checked against the data, and the app works with the AI off. The AI layer is provider-agnostic: models are reached through one interface, so the provider can change without touching features.
+- **Packages are isolated:** each does one job and knows nothing it doesn't need. A package uses another only as a declared dependency, imported by its package name, never by a relative path into it. Code moves into a shared package when a second package needs it; each rule, type or helper is defined once and imported.
+- **The core is framework-agnostic:** the league rules, the Pokémon data model and the battle-log parser import no framework, interface or storage code, so they can be reused and tested on their own.
+- **Rendering:** pages and layouts stay Server Components; `"use client"` goes on the interactive component that needs it, as low in the tree as possible. Modules with secrets or server-only code `import "server-only"`; only `NEXT_PUBLIC_` values reach the browser.
+- **Interface:** shadcn registry first: add a component with the CLI, then edit its code directly where the design needs it, as [shadcn/ui](https://ui.shadcn.com/docs) intends. [Base UI](https://base-ui.com)'s docs for behaviour, shadcn's for look. Semantic tokens and HTML; a Pokémon type is always named, never shown by colour alone. Designed at 360 px first, with 44 px touch targets. [WCAG 2.2](https://www.w3.org/TR/WCAG22/) AA, reduced motion respected, no layout shift, and [Core Web Vitals](https://web.dev/articles/vitals)' "good" thresholds on a mid-range phone.
+- **Components:** shared UI components (`packages/ui`) present the data they're given and never fetch it. In the app, Server Components fetch the data they need where they use it, as [Next.js](https://nextjs.org/docs/app/getting-started/fetching-data) recommends. Within an app, a composition becomes a shared component on its third use, not before.
+- **Work loop:** within agreed work, each task is checked, audited by the owner, committed, then the next begins; stop for the owner's audit and the owner's calls, and for nothing else.
+- **Decisions:** decide on merit, never effort. Where official docs settle a choice, take it and say so; ask the owner only their own calls (money, accounts, domains, scope, time). Present each as a table (item, what the repository has now, checked rather than remembered; what the official docs say, quoted; recommendation) with sources. Record hard-to-reverse ones, and any departure from official guidance with its reason, as ADRs in `docs/adr/`.
+- **Documents:** name and link a practice where it's relied on; check every link before it's committed.
+- **Versions:** LTS or supported stable lines, checked on each project's own release page; a new dependency takes its newest release at least two weeks old. A version shared by packages is defined once, in the workspace catalog ([Bun](https://bun.sh/docs/install/catalogs), [pnpm](https://pnpm.io/catalogs)), and referenced as `catalog:`.
+- **Files:** settings live in tool-neutral config files, never editor-specific ones (`.vscode/`, `.idea/`); no machine paths or local account names in tracked files. No secrets: `.env` files are gitignored, `.env.example` documents each variable, and secret values are never printed. Move or remove the owner's existing files only when asked.
