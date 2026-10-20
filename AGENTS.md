@@ -10,7 +10,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Draftboard
 
-A mobile-first Pokédex and a home for Pokémon draft leagues; the owner's personal project. What it is and how to run it: [README.md](README.md).
+A mobile-first Pokédex and a home for Pokémon draft leagues; the owner's personal project. What it is and how to run it: [README.md](README.md). Before building a feature, read the part of [docs/project-doc.md](docs/project-doc.md) it touches: the product decisions and the reasoning behind them.
 
 ## Commands
 

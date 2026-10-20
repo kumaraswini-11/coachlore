@@ -132,8 +132,8 @@ Planned: each of these will be a check that runs, not a promise.
 
 ## What's next
 
-1. The project doc and glossary: what Draftboard is, and one meaning for each
-   term (coach, league, tier, pick, match).
+1. The glossary: one meaning for each term (coach, league, tier, pick,
+   match). The [project doc](docs/project-doc.md) is written.
 2. The stack's decisions, each recorded with its alternatives: the package
    manager, the API, the database, real-time and hosting.
 3. Specs in build order, starting with the platform and the Dex.
@@ -222,6 +222,9 @@ import { Button } from "@workspace/ui/components/shadcn-ui/button"
   versions and tooling
 - [Git workflow](docs/git-workflow.md): a new clone's setup, the checks before
   a commit or push, and recovery
+- [Project doc](docs/project-doc.md): the product decisions behind the build,
+  with their reasoning
+- [Research](docs/research/): the dated research that led to Draftboard
 
 ## Credits and disclaimer
 
