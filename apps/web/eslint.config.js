@@ -1,5 +1,6 @@
-import { nextJsConfig } from "@workspace/eslint-config/next-js"
 import { defineConfig } from "eslint/config"
+
+import { nextJsConfig } from "@workspace/eslint-config/next-js"
 
 const eslintConfig = defineConfig([
   ...nextJsConfig,

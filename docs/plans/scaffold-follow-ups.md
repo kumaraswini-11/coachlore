@@ -46,10 +46,11 @@ Clean-ups:
 - **`paths`** removed from `packages/ui/tsconfig.json`, and the
   `@workspace/ui/*` path from `apps/web/tsconfig.json`, which reached into
   `packages/ui/src` around the package's `exports`.
-- **Unused dependencies** removed: `next-themes`, `zod`, `lucide-react` and
-  `@turbo/gen` from `packages/ui` (and its unused `tsconfig.lint.json`);
-  `lucide-react` from `apps/web`. The shadcn CLI adds `lucide-react` back when
-  a component needs it.
+- **Unused dependencies** removed from `packages/ui`: `next-themes` (the app
+  uses it, and keeps it), `zod` and `@turbo/gen`, with its unused
+  `tsconfig.lint.json`. `lucide-react` stays in both, from the catalog:
+  `components.json` names Lucide as the icon library, and registry components
+  import it (`dialog` imports `XIcon`) without the CLI installing it.
 - **`@source` lines in `globals.css`:** both `../../../` lines pointed into
   `packages/`; see ADR 0002.
 - **`publishConfig.access`** removed from `packages/typescript-config`.

@@ -49,6 +49,7 @@ Import by subpath, as the `exports` in `package.json` define:
 
 ```tsx
 import "@workspace/ui/globals.css"
+
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 ```
 

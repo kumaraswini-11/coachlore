@@ -146,8 +146,7 @@ considered.
 
 - **The app**: [Next.js](https://nextjs.org) 16 on React 19;
   [shadcn/ui](https://ui.shadcn.com) on [Base UI](https://base-ui.com), with
-  [Tailwind CSS](https://tailwindcss.com) 4 and next-themes; Lucide is the
-  shadcn icon library, added with the first component that uses an icon
+  [Tailwind CSS](https://tailwindcss.com) 4, Lucide icons and next-themes
 - **Tooling**: TypeScript, ESLint, Prettier, [Bun](https://bun.sh) workspaces
   and [Turborepo](https://turborepo.dev)
 
@@ -204,7 +203,7 @@ package; Prettier runs once, over the whole repository.
 | `bun run build`        | Builds every app and package                          |
 | `bun run lint`         | Lints every app and package; any warning fails it     |
 | `bun run typecheck`    | Type-checks every app and package                     |
-| `bun run format`       | Formats every file with Prettier                      |
+| `bun run format`       | Formats every file with Prettier and sorts imports    |
 | `bun run format:check` | Checks every file's formatting without changing files |
 
 CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the same

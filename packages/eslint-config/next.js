@@ -1,6 +1,6 @@
-import eslintConfigPrettier from "eslint-config-prettier/flat"
 import nextVitals from "eslint-config-next/core-web-vitals"
 import nextTs from "eslint-config-next/typescript"
+import eslintConfigPrettier from "eslint-config-prettier/flat"
 import jsxA11y from "eslint-plugin-jsx-a11y"
 import { defineConfig, globalIgnores } from "eslint/config"
 
