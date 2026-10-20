@@ -90,7 +90,11 @@ function ThemeHotkey() {
         return
       }
 
-      if (event.key.toLowerCase() !== THEME_HOTKEY) {
+      // Chrome's autofill sends keydown events without a `key`, whatever the types say.
+      if (
+        typeof event.key !== "string" ||
+        event.key.toLowerCase() !== THEME_HOTKEY
+      ) {
         return
       }
 
