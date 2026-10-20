@@ -204,4 +204,4 @@ When a machine this repository was used on is handed back:
 
 - **2026-10-20, no git hooks.** The rules live in AGENTS.md and this file, and agents run the checks themselves.
   - Alternatives: tracked hooks in `.githooks/` enabled per clone with `core.hooksPath` (built and tested, then removed at the owner's request); agent-specific hooks such as Claude Code's `PreToolUse`.
-  - Consequence: nothing on the machine blocks a mistake. Claude Code's [memory docs](https://code.claude.com/docs/en/memory) say instruction files are treated "as context, not enforced configuration". The checks above and the GitHub ruleset carry the weight; a CI check of commit emails can be added once CI exists.
+  - Consequence: nothing on the machine blocks a mistake. Claude Code's [memory docs](https://code.claude.com/docs/en/memory) say instruction files are treated "as context, not enforced configuration". The checks above and the GitHub ruleset carry the weight, with CI's "Commit identity" job ([`.github/workflows/ci.yml`](../.github/workflows/ci.yml)) checking every pushed commit's author and committer email.
