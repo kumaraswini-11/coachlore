@@ -116,9 +116,9 @@ No stack and no folder names here; those are recorded as decisions. These are co
 
 **Results come from the battle log.** A Showdown replay is downloaded once, kept, and parsed by code into the score, each Pokémon's KOs and faints, and the winner. Both coaches confirm. Typing a result by hand stays possible, and says so.
 
-**Anything the outside world hears about goes through a queue.** Discord posts, recaps and reminders are jobs, retried on failure, and each happens once even if it's retried. Nothing a coach does waits for Discord to answer.
+**Anything the outside world hears about goes through a queue.** Discord posts, recaps and reminders are jobs, retried on failure. A retry can't know for certain whether the first try reached Discord before it failed, so each job carries an idempotency key and checks whether its effect already happened before trying again: a retried post appears once. Nothing a coach does waits for Discord to answer.
 
-**The AI is provider-agnostic, traced and cached.** Models are reached through one interface; every call is traced, answers are cached, and a cache hit is a recorded run with no model call. Each person has a daily allowance, and when it's spent, the feature says so and everything else works.
+**The AI is provider-agnostic, traced and cached.** Models are reached through one interface; every call is traced, answers are cached, and a cache hit is a recorded run with no model call. A cached answer is keyed by everything that shaped it, the league and what the asker may see included, and is returned only to someone allowed to see it. Each person has a daily allowance, and when it's spent, the feature says so and everything else works.
 
 ## The interface
 
@@ -141,6 +141,12 @@ A calm, fast app for a phone, not a dense desktop tool. Big artwork, clear numbe
 **Collect as little as possible.** The Dex needs no account and stores nothing about its visitors. Sign-in keeps what Leagues need: a Discord ID, a name and an avatar. A person can delete their account and what it holds. Pokémon's audience includes children, which is one more reason the Dex stays account-free and analytics, if any, keep nothing on the device.
 
 **Everything a person sends is checked on the server:** league settings, picks, trades and results, whatever the interface allowed. Text written by users (team names, chat, replay player names) reaches a model as data, never as instructions.
+
+**A model gets only what the feature needs.** No Discord ID or other account detail goes to a model provider, and names people wrote (team and player names) only when the feature needs them. Each AI feature names the data it sends; a league can turn its AI features off, and then none of its data is sent. `/legal` names the provider and whether it keeps requests or uses them to improve its products (a free tier may).
+
+**Sign-in is Discord's OAuth, done properly:** the `state` parameter checked on return, as Discord's [OAuth2 documentation](https://docs.discord.com/developers/topics/oauth2) recommends (and PKCE, if Discord's documentation confirms it when sign-in is built); an exact redirect URL; sessions in `httpOnly`, `Secure`, `SameSite` cookies, renewed at sign-in and revocable; and protection against cross-site requests on anything that changes data.
+
+**Stored replays have rules before they're stored.** Who can see a league's replays, what deleting an account or a league removes, and how long a finished league's replays are kept are decided and written here before replay storage is built.
 
 **Failures are seen before users report them:** errors and slow requests are reported without personal data, and every job that fails is visible and retried.
 
