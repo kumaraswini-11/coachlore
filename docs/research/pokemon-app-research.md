@@ -1,7 +1,7 @@
 # A Pokémon web app: research and recommendation
 
 > **A dated snapshot, not maintained.** This is the research that led to
-> Draftboard, kept as it was written. Where it and a later document
+> Coachlore, kept as it was written. Where it and a later document
 > disagree, the later one wins: the [project doc](../project-doc.md), then
 > the specs and decision records.
 
@@ -302,14 +302,15 @@ domain and GitHub name before choosing. Availability wasn't checked here.
 
 | Name             | Feel                               |
 | ---------------- | ---------------------------------- |
-| **Draftboard**   | Plain: says what it does           |
+| **Coachlore**    | Coaches and what they know         |
 | **Snakedraft**   | The draft format itself            |
 | **Leaguewright** | A league-maker                     |
 | **Tierlist**     | The heart of every draft league    |
 | **Typecast**     | A play on types; fits the Dex side |
 | **Metagame**     | Fits competitive play              |
 
-**Recommended:** _Draftboard_ for the product, with "Dex" as a section name
+**Recommended:** _Coachlore_ for the product (chosen, with its checks, in
+[ADR 0005](../adr/0005-product-name.md)), with "Dex" as a section name
 (the word _dex_ alone is generic; _Pokédex_ isn't).
 
 ---

@@ -30,13 +30,13 @@ a Function") to tell development from the rest, rather than reading
 ## Departures from official guidance
 
 - **Referrer-Policy.** Next.js's headers example uses
-  `origin-when-cross-origin`; Draftboard uses
+  `origin-when-cross-origin`; Coachlore uses
   `strict-origin-when-cross-origin`, the browsers' default, which sends no
   referrer from HTTPS to HTTP ([MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy)).
 - **`global-not-found.tsx`.** The production checklist suggests it, but it's
   experimental, and its docs say it's for apps that "can't build a 404 page
   using a combination of `layout.js` and `not-found.js`" (several root
-  layouts, or one under a dynamic segment). Draftboard has one root layout,
+  layouts, or one under a dynamic segment). Coachlore has one root layout,
   so `not-found.tsx` serves.
 - **The owner's metadata plan**, where the docs differ: the canonical URL is
   set by each page, not the root layout (metadata merges shallowly, so every

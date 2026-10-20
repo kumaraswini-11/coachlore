@@ -9,7 +9,7 @@ import { cn } from "@workspace/ui/lib/utils"
 // content="noindex"> to this page itself.
 export const metadata: Metadata = {
   title: "Page not found",
-  description: "There’s no page at this address on Draftboard.",
+  description: "There’s no page at this address on Coachlore.",
 }
 
 export default function NotFound() {

@@ -19,12 +19,12 @@ Nothing on the machine enforces these rules: the repository has no git hooks (se
 
 This repository's history carries one identity:
 
-| Setting         | Value                                              |
-| --------------- | -------------------------------------------------- |
-| `user.name`     | `Aswini Kumar Sahu`                                |
-| `user.email`    | `kumaraswini.11.11@gmail.com`                      |
-| GitHub account  | `kumaraswini-11`                                   |
-| Remote `origin` | `https://github.com/kumaraswini-11/draftboard.git` |
+| Setting         | Value                                             |
+| --------------- | ------------------------------------------------- |
+| `user.name`     | `Aswini Kumar Sahu`                               |
+| `user.email`    | `kumaraswini.11.11@gmail.com`                     |
+| GitHub account  | `kumaraswini-11`                                  |
+| Remote `origin` | `https://github.com/kumaraswini-11/coachlore.git` |
 
 The machine this repository is cloned on may have a different global git identity (a work account, for example). That identity must never reach this repository, and the global config stays untouched: everything below uses `git config --local`.
 
