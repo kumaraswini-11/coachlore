@@ -1,0 +1,12 @@
+# Bun's settings for this repository: https://bun.com/docs/runtime/bunfig
+
+[install]
+# `bun add` writes an exact version, not a caret range; versions shared by
+# packages still go in the workspace catalog (AGENTS.md, "Versions").
+exact = true
+
+# When Bun picks a version from a range, it skips versions published less
+# than 14 days (in seconds) ago, as AGENTS.md ("Versions") requires. A version
+# requested exactly (`bun add name@1.2.3`) is installed whatever its age, so
+# check its date before pinning it.
+minimumReleaseAge = 1209600
