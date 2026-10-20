@@ -34,7 +34,10 @@ Before any git command that writes (commit, branch, rebase, merge, push, config)
 
 ## Stack
 
-Record each piece here as it's decided, with a link to its ADR. Until then, the scaffold's choices are a starting point, not decisions. Decided so far: nothing.
+Record each piece here as it's decided, with a link to its ADR. Until then, the scaffold's choices are a starting point, not decisions. Decided so far:
+
+- Node.js 24 LTS, TypeScript 6.0, ESLint with typescript-eslint and `eslint-config-next` (any warning fails), shared versions in the workspace catalog, and a 14-day minimum release age: [ADR 0002](docs/adr/0002-toolchain-baseline.md).
+- UI component layout: [ADR 0001](docs/adr/0001-ui-component-layout.md).
 
 Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan before starting its work, and mark it done when it's finished.
 
@@ -52,3 +55,14 @@ Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan b
 - **Documents:** name and link a practice where it's relied on; check every link before it's committed.
 - **Versions:** LTS or supported stable lines, checked on each project's own release page; a new dependency takes its newest release at least two weeks old. A version shared by packages is defined once, in the workspace catalog ([Bun](https://bun.sh/docs/install/catalogs), [pnpm](https://pnpm.io/catalogs)), and referenced as `catalog:`.
 - **Files:** settings live in tool-neutral config files, never editor-specific ones (`.vscode/`, `.idea/`); no machine paths or local account names in tracked files. No secrets: `.env` files are gitignored, `.env.example` documents each variable, and secret values are never printed. Move or remove the owner's existing files only when asked.
+
+<!-- BEGIN:turborepo-agent-rules -->
+
+# This is NOT the Turborepo you know
+
+Turborepo configuration, task behavior, and CLI commands can vary between installed versions and may differ from your training data. Resolve the `turbo` package from this file's directory or relevant workspace; in monorepos, it may not be visible from the repository root. For example, run `node -p "require.resolve('turbo/package.json')"` from a workspace that depends on `turbo`.
+
+Read `docs/README.md` inside that installed package first, then read the relevant pages from its `docs/` directory before changing Turborepo configuration or commands. Heed deprecation notices. These bundled docs match the installed package version and are available without network access.
+
+This block is written and re-added by `turbo` before repository-scoped commands when an AI agent is detected. In the Turborepo source repository, its template is defined in `crates/turborepo-cli/src/cli/agent_guidance.rs`. Removing the managed block while updates are enabled means a later qualifying invocation will add it again. Set `"agentGuidance": false` in the root `turbo.json` or `turbo.jsonc` to opt out; this does not remove an existing block. Keep the block committed with your work to avoid an uncommitted change on the next agent invocation.
+<!-- END:turborepo-agent-rules -->

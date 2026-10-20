@@ -8,7 +8,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-000000?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)](https://tailwindcss.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.sh)
-[![Turborepo](https://img.shields.io/badge/Turborepo-FF1E56?style=for-the-badge&logo=turborepo&logoColor=white)](https://turborepo.com)
+[![Turborepo](https://img.shields.io/badge/Turborepo-FF1E56?style=for-the-badge&logo=turborepo&logoColor=white)](https://turborepo.dev)
 
 > The name comes from the **draft board** of a sports draft: the board where
 > every pick goes up as it's made, round by round, so everyone in the room
@@ -146,9 +146,10 @@ considered.
 
 - **The app**: [Next.js](https://nextjs.org) 16 on React 19;
   [shadcn/ui](https://ui.shadcn.com) on [Base UI](https://base-ui.com), with
-  [Tailwind CSS](https://tailwindcss.com) 4, Lucide icons and next-themes
+  [Tailwind CSS](https://tailwindcss.com) 4 and next-themes; Lucide is the
+  shadcn icon library, added with the first component that uses an icon
 - **Tooling**: TypeScript, ESLint, Prettier, [Bun](https://bun.sh) workspaces
-  and [Turborepo](https://turborepo.com)
+  and [Turborepo](https://turborepo.dev)
 
 Planned, with each tool still to be chosen: an API with a relational
 database and a cache, real-time updates for the draft room, background jobs,
@@ -177,7 +178,8 @@ docs/
 ## Getting started
 
 Requires [Bun](https://bun.sh) (the version is set by `packageManager` in
-`package.json`) and [Node.js](https://nodejs.org) 20.9 or later.
+`package.json`) and [Node.js](https://nodejs.org) 24, the LTS line (set by
+`engines` in `package.json`).
 
 ```bash
 git clone https://github.com/kumaraswini-11/draftboard.git
@@ -193,16 +195,20 @@ The app runs at <http://localhost:3000>.
 
 ## Scripts
 
-Run from the repository root. Turborepo runs each one in every app and
-package.
+Run from the repository root. Turborepo runs the first four in every app and
+package; Prettier runs once, over the whole repository.
 
-| Script              | What it does                         |
-| ------------------- | ------------------------------------ |
-| `bun run dev`       | Starts the app in development mode   |
-| `bun run build`     | Builds every app and package         |
-| `bun run lint`      | Lints every app and package          |
-| `bun run typecheck` | Type-checks every app and package    |
-| `bun run format`    | Formats the TypeScript with Prettier |
+| Script                 | What it does                                          |
+| ---------------------- | ----------------------------------------------------- |
+| `bun run dev`          | Starts the app in development mode                    |
+| `bun run build`        | Builds every app and package                          |
+| `bun run lint`         | Lints every app and package; any warning fails it     |
+| `bun run typecheck`    | Type-checks every app and package                     |
+| `bun run format`       | Formats every file with Prettier                      |
+| `bun run format:check` | Checks every file's formatting without changing files |
+
+CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the same
+checks on every pull request and push to `main`.
 
 ## Adding UI components
 
