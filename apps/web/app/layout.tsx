@@ -1,26 +1,33 @@
-import type { Metadata } from "next"
-import { Geist_Mono, Inter } from "next/font/google"
+import type { Metadata, Viewport } from "next"
 
 import "@workspace/ui/globals.css"
 
-import { cn } from "@workspace/ui/lib/utils"
-
 import { ThemeProvider } from "@/components/theme-provider"
+import { rootClassName } from "@/lib/fonts"
+import { OPEN_GRAPH, SITE, SITE_URL } from "@/lib/site"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
-
-const fontMono = Geist_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-})
-
+// The share image comes from the opengraph-image.png file convention, and
+// each page sets its own canonical URL and og:url: Next.js merges metadata
+// shallowly, so either set here would apply to every page.
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: "Draftboard",
-    template: "%s | Draftboard",
+    default: SITE.title,
+    template: `%s · ${SITE.name}`,
   },
-  description:
-    "A fast, mobile-first Pokédex and a home for Pokémon draft leagues.",
+  description: SITE.description,
+  applicationName: SITE.name,
+  openGraph: OPEN_GRAPH,
+  twitter: {
+    card: "summary_large_image",
+  },
+}
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: SITE.colors.light },
+    { media: "(prefers-color-scheme: dark)", color: SITE.colors.dark },
+  ],
 }
 
 export default function RootLayout({
@@ -29,16 +36,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html
-      lang="en"
-      suppressHydrationWarning
-      className={cn(
-        "antialiased",
-        fontMono.variable,
-        "font-sans",
-        inter.variable
-      )}
-    >
+    <html lang="en" suppressHydrationWarning className={rootClassName}>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
