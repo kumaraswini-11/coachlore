@@ -3,6 +3,8 @@
 import * as React from "react"
 import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
 
+import { useThemeHotkey } from "@/hooks/use-theme-hotkey"
+
 function ThemeProvider({
   children,
   ...props
@@ -36,8 +38,13 @@ function isTypingTarget(target: EventTarget | null) {
 
 function ThemeHotkey() {
   const { resolvedTheme, setTheme } = useTheme()
+  const [enabled] = useThemeHotkey()
 
   React.useEffect(() => {
+    if (!enabled) {
+      return
+    }
+
     function onKeyDown(event: KeyboardEvent) {
       if (event.defaultPrevented || event.repeat) {
         return
@@ -63,7 +70,7 @@ function ThemeHotkey() {
     return () => {
       window.removeEventListener("keydown", onKeyDown)
     }
-  }, [resolvedTheme, setTheme])
+  }, [enabled, resolvedTheme, setTheme])
 
   return null
 }

@@ -1,5 +1,7 @@
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 
+import { ThemeToggle } from "@/components/theme-toggle"
+
 export default function Page() {
   return (
     <div className="flex min-h-svh p-6">
@@ -10,8 +12,12 @@ export default function Page() {
           <p>We&apos;ve already added the button component for you.</p>
           <Button className="mt-2">Button</Button>
         </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
+        <div className="flex items-center gap-3">
+          <ThemeToggle />
+          <p className="font-mono text-xs text-muted-foreground">
+            (Press <kbd>d</kbd> to toggle dark mode; turn it off in the theme
+            menu)
+          </p>
         </div>
       </div>
     </div>

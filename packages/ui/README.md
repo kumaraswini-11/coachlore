@@ -2,8 +2,8 @@
 
 Draftboard's shared interface: [shadcn/ui](https://ui.shadcn.com) components
 built on [Base UI](https://base-ui.com), the Tailwind CSS 4 theme
-(`src/styles/globals.css`) and the `cn` class-name helper. Today it holds one
-component, `Button`.
+(`src/styles/globals.css`) and the `cn` class-name helper. Today it holds two
+registry components, `Button` and `DropdownMenu`.
 
 ## Why a separate package
 

@@ -18,12 +18,12 @@ done are in [AGENTS.md](../../AGENTS.md), "Commands".
 
 ## Folders
 
-| Folder        | What goes in it                                                             | Now                                                     |
-| ------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- |
-| `app/`        | routes: layouts, pages and other route files                                | the root layout, the starter page and the favicon       |
-| `components/` | components only this app uses; one feature's own in `components/<feature>/` | `theme-provider.tsx`: light and dark themes (press `d`) |
-| `hooks/`      | hooks used only by this app                                                 | empty                                                   |
-| `lib/`        | helpers used only by this app                                               | empty                                                   |
+| Folder        | What goes in it                                                             | Now                                                                                                                                                                   |
+| ------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `app/`        | routes: layouts, pages and other route files                                | the root layout, the starter page and the favicon                                                                                                                     |
+| `components/` | components only this app uses; one feature's own in `components/<feature>/` | `theme-provider.tsx`: light and dark themes, and the `d` key that toggles them; `theme-toggle.tsx`: the theme menu (light, dark or system, and the `d` key on or off) |
+| `hooks/`      | hooks used only by this app                                                 | `use-theme-hotkey.ts`: whether the `d` key is on, remembered per browser (WCAG 2.1.4 requires a way to turn a single-key shortcut off)                                |
+| `lib/`        | helpers used only by this app                                               | empty                                                                                                                                                                 |
 
 Imports starting with `@/` resolve from this folder, for example
 `@/components/theme-provider`. Shared components belong in
