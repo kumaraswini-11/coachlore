@@ -208,11 +208,11 @@ With the shadcn CLI, from the repository root:
 bunx --bun shadcn@latest add button -c apps/web
 ```
 
-The component lands in `packages/ui/src/components`, and the app imports it
-from the `ui` package:
+The component lands in `packages/ui/src/components/shadcn-ui`, and the app
+imports it from the `ui` package:
 
 ```tsx
-import { Button } from "@workspace/ui/components/button"
+import { Button } from "@workspace/ui/components/shadcn-ui/button"
 ```
 
 ## References

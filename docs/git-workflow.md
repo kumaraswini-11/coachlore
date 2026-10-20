@@ -88,7 +88,7 @@ Any other origin (a global or system file) or any other address means the clone 
 4. **Commit in logical pieces.** Stage named paths, never `git add -A`. Run the before-commit checks, then commit with a conventional message (`feat:`, `fix:`, `docs:`, `chore:`), then run the after-commit check.
 
    ```sh
-   git add apps/web/app/page.tsx packages/ui/src/components/button.tsx
+   git add apps/web/app/page.tsx packages/ui/src/components/shadcn-ui/button.tsx
    git commit -m "feat: add move search"
    ```
 
