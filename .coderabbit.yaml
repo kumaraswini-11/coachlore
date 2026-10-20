@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# CodeRabbit's settings for this repository:
+# https://docs.coderabbit.ai/reference/configuration
+reviews:
+  path_filters:
+    # Agent skills are upstream's files, pinned by commit and content hash in
+    # skills-lock.json (ADR 0004): editing them would break the pin. Known
+    # issues in them are listed in ADR 0004 instead.
+    - "!.agents/skills/**"
+    - "!.claude/skills/**"
+    - "!skills-lock.json"
+    # Dated research snapshots, kept as they were written; the maintained
+    # requirements are in docs/project-doc.md.
+    - "!docs/research/**"

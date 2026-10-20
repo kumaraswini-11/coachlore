@@ -27,6 +27,7 @@ dist
 # misc
 .DS_Store
 *.pem
+*.key
 
 # debug
 npm-debug.log*
@@ -36,9 +37,13 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
+
+# Claude Code's personal settings; .claude/skills/ is committed (ADR 0004)
+.claude/settings.local.json
 
 # typescript
 *.tsbuildinfo

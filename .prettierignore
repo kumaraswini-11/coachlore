@@ -5,3 +5,9 @@ node_modules/
 coverage/
 pnpm-lock.yaml
 .pnpm-store/
+
+# Agent skills: upstream's files, installed by the skills CLI and pinned in
+# skills-lock.json (ADR 0004); formatting them would make every update a diff.
+.agents/skills/
+.claude/skills/
+skills-lock.json

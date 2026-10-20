@@ -1,5 +1,5 @@
 {
-  "$schema": "https://turbo.build/schema.json",
+  "$schema": "https://turborepo.dev/schema.json",
   "ui": "tui",
   "tasks": {
     "build": {
@@ -7,14 +7,14 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**", "!.next/dev/**"]
     },
-    "lint": {
-      "dependsOn": ["^lint"]
+    "transit": {
+      "dependsOn": ["^transit"]
     },
-    "format": {
-      "dependsOn": ["^format"]
+    "lint": {
+      "dependsOn": ["transit"]
     },
     "typecheck": {
-      "dependsOn": ["^typecheck"]
+      "dependsOn": ["transit"]
     },
     "dev": {
       "cache": false,

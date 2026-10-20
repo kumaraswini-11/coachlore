@@ -1,5 +1,6 @@
 {
   "name": "@workspace/eslint-config",
+  "description": "Draftboard's ESLint settings, one source for every package: base, Next.js and React-library configs.",
   "version": "0.0.0",
   "type": "module",
   "private": true,
@@ -9,16 +10,17 @@
     "./react-internal": "./react-internal.js"
   },
   "devDependencies": {
-    "@babel/core": "^8.0.7",
-    "@babel/eslint-parser": "^8.0.7",
-    "@babel/preset-typescript": "^8.0.7",
-    "@eslint/js": "^10",
-    "@next/eslint-plugin-next": "^16.4.0",
-    "eslint": "^10",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-only-warn": "^1.2.1",
-    "eslint-plugin-react-hooks": "^7.1.1",
-    "eslint-plugin-turbo": "^2.11.7",
-    "globals": "^17.13.0"
+    "@eslint/js": "10.0.1",
+    "eslint": "catalog:",
+    "eslint-config-next": "16.4.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "eslint-plugin-turbo": "2.11.7",
+    "globals": "17.13.0",
+    "react": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "8.71.1"
   }
 }
