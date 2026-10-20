@@ -38,6 +38,7 @@ Record each piece here as it's decided, with a link to its ADR. Until then, the 
 
 - Node.js 24 LTS, TypeScript 6.0, ESLint with typescript-eslint and `eslint-config-next` (any warning fails), shared versions in the workspace catalog, and a 14-day minimum release age: [ADR 0002](docs/adr/0002-toolchain-baseline.md).
 - UI component layout: [ADR 0001](docs/adr/0001-ui-component-layout.md).
+- Rendering with Cache Components, the error and not-found pages, and the security headers: [ADR 0003](docs/adr/0003-rendering-and-production-defaults.md).
 
 Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan before starting its work, and mark it done when it's finished.
 
@@ -47,6 +48,7 @@ Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan b
 - **The AI never decides a number.** Code and data do; the AI explains, or chooses among options the code computed. Every Pokémon, move or ability it names is checked against the data, and the app works with the AI off. The AI layer is provider-agnostic: models are reached through one interface, so the provider can change without touching features.
 - **Packages are isolated:** each does one job and knows nothing it doesn't need. A package uses another only as a declared dependency, imported by its package name, never by a relative path into it. Code moves into a shared package when a second package needs it; each rule, type or helper is defined once and imported.
 - **The core is framework-agnostic:** the league rules, the Pokémon data model and the battle-log parser import no framework, interface or storage code, so they can be reused and tested on their own.
+- **Metadata:** every page has its own title and description, written as [apps/web/README.md](apps/web/README.md) ("Titles and descriptions") describes.
 - **Rendering:** pages and layouts stay Server Components; `"use client"` goes on the interactive component that needs it, as low in the tree as possible. Modules with secrets or server-only code `import "server-only"`; only `NEXT_PUBLIC_` values reach the browser.
 - **Interface:** shadcn registry first: add a component with the CLI, then edit its code directly where the design needs it, as [shadcn/ui](https://ui.shadcn.com/docs) intends. [Base UI](https://base-ui.com)'s docs for behaviour, shadcn's for look. Semantic tokens and HTML; a Pokémon type is always named, never shown by colour alone. Designed at 360 px first, with 44 px touch targets. [WCAG 2.2](https://www.w3.org/TR/WCAG22/) AA, reduced motion respected, no layout shift, and [Core Web Vitals](https://web.dev/articles/vitals)' "good" thresholds on a mid-range phone.
 - **Components:** shared UI components (`packages/ui`) present the data they're given and never fetch it. In the app, Server Components fetch the data they need where they use it, as [Next.js](https://nextjs.org/docs/app/getting-started/fetching-data) recommends. Within an app, a composition becomes a shared component on its third use, not before.

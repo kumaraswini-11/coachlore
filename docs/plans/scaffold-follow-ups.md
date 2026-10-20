@@ -10,10 +10,14 @@ moves on.
 
 ## Open
 
-| Item            | The repository now                                                                               | To decide                                                                                                       |
-| --------------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| Package manager | Bun 1.3.8 (`packageManager`, `bun.lock`); pnpm traces in `.prettierignore` and an empty `.npmrc` | Bun or pnpm, quoting each one's docs and the shadcn, Turborepo and Next.js docs; then remove the other's traces |
-| Bun version     | 1.3.8; the current line is 1.4 (newest at least two weeks old on 2026-10-20: 1.4.2)              | the upgrade, as its own tested step, once the package manager is decided                                        |
+| Item               | The repository now                                                                               | To decide                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Package manager    | Bun 1.3.8 (`packageManager`, `bun.lock`); pnpm traces in `.prettierignore` and an empty `.npmrc` | Bun or pnpm, quoting each one's docs and the shadcn, Turborepo and Next.js docs; then remove the other's traces |
+| Bun version        | 1.3.8; the current line is 1.4 (newest at least two weeks old on 2026-10-20: 1.4.2)              | the upgrade, as its own tested step, once the package manager is decided                                        |
+| Test runner        | none; `site.ts` has no logic yet, so nothing needs a unit test                                   | Vitest (Next.js's and Turborepo's guides), `bun test`, or another; and Playwright for end-to-end                |
+| Hosting and domain | none; `NEXT_PUBLIC_SITE_URL` defaults to `http://localhost:3000`                                 | the host and domain; then set the variable in production builds and add `Strict-Transport-Security`             |
+| Share image        | `app/opengraph-image.png`, `apple-icon.png` and `icon.svg` are placeholders                      | the owner supplies or approves the design                                                                       |
+| Error reporting    | `error.tsx` and `global-error.tsx` log to the browser console                                    | a service (with the hosting decision)                                                                           |
 
 ### Repository settings (the owner, on github.com)
 
