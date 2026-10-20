@@ -10,12 +10,13 @@ A change to how the repository type-checks is one edit here.
 
 ## Use
 
-Add it, with TypeScript, to the package's `devDependencies`:
+Add it, with TypeScript from the workspace catalog, to the package's
+`devDependencies`:
 
 ```json
 "devDependencies": {
   "@workspace/typescript-config": "workspace:*",
-  "typescript": "^5"
+  "typescript": "catalog:"
 }
 ```
 
@@ -29,11 +30,23 @@ Then extend a preset in the package's `tsconfig.json`:
 
 ## Files
 
-| File                 | Extends     | For             | Extended by                                                   |
-| -------------------- | ----------- | --------------- | ------------------------------------------------------------- |
-| `base.json`          | (nothing)   | every package   | the root `tsconfig.json`, `nextjs.json`, `react-library.json` |
-| `nextjs.json`        | `base.json` | Next.js apps    | `apps/web`                                                    |
-| `react-library.json` | `base.json` | React libraries | `packages/ui` (`tsconfig.json` and `tsconfig.lint.json`)      |
+| File                 | Extends     | For             | Extended by                         |
+| -------------------- | ----------- | --------------- | ----------------------------------- |
+| `base.json`          | (nothing)   | every package   | `nextjs.json`, `react-library.json` |
+| `nextjs.json`        | `base.json` | Next.js apps    | `apps/web`                          |
+| `react-library.json` | `base.json` | React libraries | `packages/ui`                       |
+
+There's no root `tsconfig.json`: each package has its own, as Turborepo's
+[TypeScript guide](https://turborepo.dev/docs/guides/tools/typescript)
+advises, so a change at the root doesn't invalidate every package's cache.
+Packages import each other by package name, through each package's `exports`,
+never through `compilerOptions.paths`: the same guide warns that such paths
+"can cause failed compilation when using Just-in-Time Packages".
+
+TypeScript is 6.0, the newest line that
+[typescript-eslint](https://typescript-eslint.io/users/dependency-versions/)
+supports. TypeScript 7 has no stable JavaScript API yet; see
+[ADR 0002](../../docs/adr/0002-toolchain-baseline.md).
 
 ## Why these settings
 
