@@ -78,8 +78,11 @@ An audit of the scaffold on 2026-10-20 found the checks in AGENTS.md
   A version requested exactly (`bun add <name>@1.2.3`) is installed whatever
   its age (tested with Bun 1.3.8), so its date is checked by hand first.
 - A security fix younger than 14 days is pinned exactly if it's a direct
-  dependency; a transitive one needs `minimumReleaseAgeExcludes` for that
-  version. Either way, the reason is recorded.
+  dependency; any of its own dependencies that are just as new go in
+  `minimumReleaseAgeExcludes` in `bunfig.toml`, by package name (Bun 1.3.8
+  doesn't take `name@version`), so they must be pinned exactly too. The
+  reason and a removal date go beside the entry. First used on 2026-10-21 for
+  Next.js 16.4.1 (three advisories against 16.4.0).
 
 ## Sources
 
