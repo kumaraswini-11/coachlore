@@ -74,7 +74,15 @@ composition beside it. Weigh before deciding:
 - `apps/web/README.md`: `components/<feature>/` and what goes there.
 - AGENTS.md links to these instead of repeating them.
 
-## 4. Agent skills for interface work (needs the owner's approval)
+## 4. Agent skills for interface work (done: see ADR 0004)
+
+Researched across the whole project and installed on 2026-10-21; the
+findings, what was installed and what's still open are in
+[ADR 0004](../adr/0004-agent-skills.md). That research added
+`better-interface`, `better-colors` and `better-writing` (which
+`interface-review` needs), made `emil-design-eng` and `performance`
+optional, and found that only the owner can start `interface-review`. The
+starting list:
 
 | Source                          | Skills                                                                                        |
 | ------------------------------- | --------------------------------------------------------------------------------------------- |
