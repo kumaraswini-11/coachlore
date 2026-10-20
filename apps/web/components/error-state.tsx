@@ -13,11 +13,10 @@ function ErrorState({ digest, retry }: { digest?: string; retry: () => void }) {
       <EmptyState
         titleAs="h1"
         role="alert"
-        title="Something went wrong"
+        title="This page couldn’t load"
         description={
           <>
-            This page couldn&apos;t load. Try again; if it keeps happening, come
-            back later.
+            Try again. If it keeps happening, come back later.
             {digest ? <> (Error reference: {digest})</> : null}
           </>
         }

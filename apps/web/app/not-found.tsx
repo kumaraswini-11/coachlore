@@ -9,7 +9,7 @@ import { cn } from "@workspace/ui/lib/utils"
 // content="noindex"> to this page itself.
 export const metadata: Metadata = {
   title: "Page not found",
-  description: "There's no page at this address on Draftboard.",
+  description: "There’s no page at this address on Draftboard.",
 }
 
 export default function NotFound() {
@@ -18,7 +18,7 @@ export default function NotFound() {
       <EmptyState
         titleAs="h1"
         title="Page not found"
-        description="There's no page at this address. Check the link, or start again from the home page."
+        description="There’s no page at this address. Check the link, or start again from the home page."
       >
         {/* A link styled as a button keeps its link role, as shadcn's
             Base UI Button docs advise. */}

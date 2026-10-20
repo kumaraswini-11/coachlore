@@ -28,7 +28,7 @@ export default function GlobalError({
   return (
     <html lang="en" suppressHydrationWarning className={rootClassName}>
       <body>
-        <title>{`Something went wrong · ${SITE.name}`}</title>
+        <title>{`This page couldn’t load · ${SITE.name}`}</title>
         <ThemeProvider>
           <ErrorState digest={error.digest} retry={retry} />
         </ThemeProvider>

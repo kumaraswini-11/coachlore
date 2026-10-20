@@ -40,7 +40,10 @@ function EmptyState({
       <EmptyHeader>
         {media ? <EmptyMedia variant="icon">{media}</EmptyMedia> : null}
         <EmptyTitle>
-          <Heading>{title}</Heading>
+          {/* A page's own title stands out from the description beneath it. */}
+          <Heading className={Heading === "h1" ? "text-lg" : undefined}>
+            {title}
+          </Heading>
         </EmptyTitle>
         {description ? (
           <EmptyDescription>{description}</EmptyDescription>
