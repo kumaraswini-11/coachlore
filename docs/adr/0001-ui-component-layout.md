@@ -10,7 +10,7 @@ The shadcn CLI writes each component into the folder that the `ui` alias in
 shared package: "the CLI will install the button component under
 `packages/ui`" ([shadcn/ui, Monorepo](https://ui.shadcn.com/docs/monorepo)).
 
-Draftboard needs three kinds of component code: registry output from the CLI,
+Coachlore needs three kinds of component code: registry output from the CLI,
 its own compositions shared across features, and compositions only one
 feature uses. Two rules constrain where they go: shared UI components never
 fetch data or know routes, and a composition becomes shared on its third use
@@ -26,7 +26,7 @@ Folders say where code comes from and who uses it:
 | Folder                                  | Holds                                                                                |
 | --------------------------------------- | ------------------------------------------------------------------------------------ |
 | `packages/ui/src/components/shadcn-ui/` | registry output, written by the CLI (the `ui` alias in both `components.json` files) |
-| `packages/ui/src/components/`           | Draftboard's own shared compositions                                                 |
+| `packages/ui/src/components/`           | Coachlore's own shared compositions                                                  |
 | `apps/web/components/<feature>/`        | compositions only that feature uses                                                  |
 | `apps/web/app/`                         | layouts and pages (Next.js)                                                          |
 
@@ -69,7 +69,7 @@ Atomic Design is the vocabulary, not the folders. Its levels map onto them:
 ## Consequences
 
 - Registry components are imported from
-  `@workspace/ui/components/shadcn-ui/<name>`, Draftboard's own shared ones
+  `@workspace/ui/components/shadcn-ui/<name>`, Coachlore's own shared ones
   from `@workspace/ui/components/<name>`.
 - Both `components.json` files keep the same `ui` alias. A dry run
   (`shadcn add card --dry-run`) confirmed new components land in

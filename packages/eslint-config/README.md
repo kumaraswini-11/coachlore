@@ -1,6 +1,6 @@
 # @workspace/eslint-config
 
-Draftboard's shared ESLint settings:
+Coachlore's shared ESLint settings:
 [flat configs](https://eslint.org/docs/latest/use/configure/configuration-files)
 that every app and package extends, so the lint rules are set in one place.
 

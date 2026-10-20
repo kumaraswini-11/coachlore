@@ -1,4 +1,4 @@
-# Draftboard
+# Coachlore
 
 | Status | Owner             | Last updated |
 | ------ | ----------------- | ------------ |
@@ -14,7 +14,7 @@ Two things on one website.
 
 **The Dex.** Open it on a phone, type a name or a question, and find any Pokémon: its stats, what it's weak to, how it evolves, where to catch it in your game, which moves it learns, and how it's used competitively. Build a team of six and see at a glance what it's weak to and what it can't hit. No sign-in, no ads, and it keeps working without a connection.
 
-**Leagues.** Sign in with Discord, create a draft league and invite your friends. Each coach drafts a team of Pokémon in a live draft room, each Pokémon priced in points. Through the season, coaches play their matches on Pokémon Showdown and paste the replay; Draftboard reads the battle, updates the standings and the stats, handles trades, and posts it all to the league's Discord channel.
+**Leagues.** Sign in with Discord, create a draft league and invite your friends. Each coach drafts a team of Pokémon in a live draft room, each Pokémon priced in points. Through the season, coaches play their matches on Pokémon Showdown and paste the replay; Coachlore reads the battle, updates the standings and the stats, handles trades, and posts it all to the league's Discord channel.
 
 Where a model helps, it explains: it turns a question into filters, explains why a team is weak to Ice, suggests a pick from options the code worked out, and writes a match recap from what really happened in the battle.
 
@@ -49,7 +49,7 @@ And, because this is a personal project built to learn:
 
 Pokédex sites are a crowded field, and a Pokédex alone is a beginner's project; the Dex here earns its place by being the fastest, calmest one on a phone, and by being the data the Leagues stand on.
 
-League tools are the gap. A few leagues have built their own sites, each for one league. Nothing general has stuck, most likely because the work is in the parts nobody sees: a draft that stays fair when two people pick at the same moment, results that come from the battle rather than from someone's typing, and a bot that posts reliably. That's backend work, and it's the reason this project exists: Draftboard is built to learn and show exactly that kind of work.
+League tools are the gap. A few leagues have built their own sites, each for one league. Nothing general has stuck, most likely because the work is in the parts nobody sees: a draft that stays fair when two people pick at the same moment, results that come from the battle rather than from someone's typing, and a bot that posts reliably. That's backend work, and it's the reason this project exists: Coachlore is built to learn and show exactly that kind of work.
 
 That's the bet. It is a bet, and it should be stated as one.
 
@@ -57,7 +57,7 @@ That's the bet. It is a bet, and it should be stated as one.
 
 Each was weighed in the research, and each could reasonably have been the project:
 
-- **A Pokédex alone.** Quick to build and well served already; shows interface work but little backend. It survives as half of Draftboard, not the whole.
+- **A Pokédex alone.** Quick to build and well served already; shows interface work but little backend. It survives as half of Coachlore, not the whole.
 - **A team builder for competitive play, with usage statistics.** Real users and a ready damage calculator, but strong tools already exist, and its backend is mostly data import.
 - **A trading-card collection and price tracker.** Real demand, but the price data is paid or closed to new users, and one app dominates.
 - **A project outside Pokémon** (an invoicing platform, for example). Would show payments and billing, which a non-commercial Pokémon project can't. Kept for later; this one wins on being something the owner will finish and real people will use.
@@ -74,7 +74,7 @@ The reason: a league runs on trust. If a recap says a Pokémon got three KOs and
 
 **The server decides the draft.** Whose turn it is, whether a pick is allowed, and what's been taken are decided in one place, by the server, and a Pokémon can be taken once per league. The interface shows the draft; it never decides it. A draft that lets two coaches take the same Pokémon, even once, has failed at the one thing it's for.
 
-**Pokémon belongs to others.** Draftboard is an independent, unofficial, non-commercial project: no ads, no paid tiers, no app-store app, as few official images as possible, a clear notice that it isn't affiliated, and no scraping of game servers. Pressure to break this will come from wanting the app to look more official. It's refused.
+**Pokémon belongs to others.** Coachlore is an independent, unofficial, non-commercial project: no ads, no paid tiers, no app-store app, as few official images as possible, a clear notice that it isn't affiliated, and no scraping of game servers. Pressure to break this will come from wanting the app to look more official. It's refused.
 
 ## Scope
 
@@ -94,12 +94,12 @@ The reason: a league runs on trust. If a recap says a Pokémon got three KOs and
 
 Each of these is something a model will propose, because each sounds like an improvement. The reason matters more than the refusal.
 
-- **Simulating battles.** Showdown does it, and does it well. Draftboard reads the result; it never plays the match.
+- **Simulating battles.** Showdown does it, and does it well. Coachlore reads the result; it never plays the match.
 - **Money.** Ads, subscriptions, tips behind features: the franchise's terms rule them out, and a personal project doesn't need them.
 - **A mobile app in the stores.** Pokémon apps get taken down. A website that works well on a phone, and offline for the Dex, is the answer.
 - **The trading card game, Pokémon GO, and other games' formats.** Each is a product of its own. Getting the main-series games and draft leagues right is the whole proposition.
 - **The AI picking for you.** Auto-pick drafts the first available Pokémon from the coach's own wishlist. A model drafting a team is a different game, and not this one.
-- **Win predictions and "best Pokémon" rankings.** Once there's a score, people argue with the score. Draftboard shows usage, records and matchups, and lets coaches decide.
+- **Win predictions and "best Pokémon" rankings.** Once there's a score, people argue with the score. Coachlore shows usage, records and matchups, and lets coaches decide.
 - **Scraping.** Data comes from public sources that allow it, cached as they ask; game servers are never touched.
 
 ## How it works

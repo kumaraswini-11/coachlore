@@ -4,7 +4,7 @@
 - Written: 2026-10-20, from the owner's draft, reviewed against the sources
   linked below
 
-Bring Draftboard's engineering and interface rules to the standard of the
+Bring Coachlore's engineering and interface rules to the standard of the
 owner's other projects, and write the UI conventions down once. AGENTS.md
 gets one-line rules; the detail goes in the README of the package it belongs
 to, never both.

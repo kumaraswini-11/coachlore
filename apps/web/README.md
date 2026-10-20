@@ -1,6 +1,6 @@
 # web
 
-Draftboard's web app, built with [Next.js](https://nextjs.org) 16 on the App
+Coachlore's web app, built with [Next.js](https://nextjs.org) 16 on the App
 Router and React 19. Today it shows the scaffold's starter page; the Dex and
 Leagues are planned to live here (see the [root README](../../README.md)).
 
@@ -53,11 +53,11 @@ Every page has a title and a description, written with Next.js's
 from [`lib/site.ts`](lib/site.ts):
 
 - **The root layout** sets the defaults: the home page's title, the title
-  template `%s · Draftboard`, the description, Open Graph and the Twitter card.
+  template `%s · Coachlore`, the description, Open Graph and the Twitter card.
   The share image is `app/opengraph-image.png` (with its alt text in
   `opengraph-image.alt.txt`); Twitter's card reuses it.
 - **A static page** exports `metadata` with its own title (just the page's
-  name: the template adds `· Draftboard`), a one-sentence description of what
+  name: the template adds `· Coachlore`), a one-sentence description of what
   the page offers, unique across the site, and its own path twice: as
   `alternates.canonical`, and as `openGraph.url` in
   `openGraph: { ...OPEN_GRAPH, url }` (Open Graph requires `og:url`). Neither
@@ -75,10 +75,10 @@ from [`lib/site.ts`](lib/site.ts):
 - **The sitemap** ([`app/sitemap.ts`](app/sitemap.ts)) lists every public
   page; Dex pages are added from the data once it exists.
 
-| Page      | Title                                    | Description                                                                                                                    |
-| --------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `/`       | `Draftboard · Pokédex and draft leagues` | A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings and match recaps. |
-| not found | `Page not found · Draftboard`            | There’s no page at this address on Draftboard.                                                                                 |
+| Page      | Title                                   | Description                                                                                                                    |
+| --------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `/`       | `Coachlore · Pokédex and draft leagues` | A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings and match recaps. |
+| not found | `Page not found · Coachlore`            | There’s no page at this address on Coachlore.                                                                                  |
 
 Update the table when a page is added.
 
@@ -93,6 +93,6 @@ Each one is documented in [`.env.example`](.env.example), as
 
 ## See also
 
-- [README](../../README.md): what Draftboard is.
+- [README](../../README.md): what Coachlore is.
 - [AGENTS.md](../../AGENTS.md): how to work in this repository.
 - [`@workspace/ui`](../../packages/ui): the shared components and theme.

@@ -19,12 +19,12 @@ Nothing on the machine enforces these rules: the repository has no git hooks (se
 
 This repository's history carries one identity:
 
-| Setting         | Value                                              |
-| --------------- | -------------------------------------------------- |
-| `user.name`     | `Aswini Kumar Sahu`                                |
-| `user.email`    | `kumaraswini.11.11@gmail.com`                      |
-| GitHub account  | `kumaraswini-11`                                   |
-| Remote `origin` | `https://github.com/kumaraswini-11/draftboard.git` |
+| Setting         | Value                                             |
+| --------------- | ------------------------------------------------- |
+| `user.name`     | `Aswini Kumar Sahu`                               |
+| `user.email`    | `kumaraswini.11.11@gmail.com`                     |
+| GitHub account  | `kumaraswini-11`                                  |
+| Remote `origin` | `https://github.com/kumaraswini-11/coachlore.git` |
 
 The machine this repository is cloned on may have a different global git identity (a work account, for example). That identity must never reach this repository, and the global config stays untouched: everything below uses `git config --local`.
 
@@ -160,6 +160,8 @@ Stop and tell the owner before rewriting anything. Rewrites below apply only to 
   ```sh
   git rebase origin/main --exec "git commit --amend --reset-author --no-edit"
   ```
+
+- **A pull request was merged with GitHub's merge button.** GitHub becomes the committer (`GitHub <noreply@github.com>`) of the merge commit, so CI's "Commit identity" job fails on that push to `main`. The commit is pushed, so it stays (no force-push without the owner's decision). Later pushes are checked only from it onward, so they pass. This happened once: `4f6ea87`, pull request 1, 2026-10-20, kept by the owner's decision; its files are the same as the branch's last commit.
 
 - **The last commit message has an attribution line.** Rewrite the message with `git commit --amend -m "<message>"`; for an older commit, reword it in a rebase.
 

@@ -1,4 +1,4 @@
-# Draftboard: screens, UI and the AI angle
+# Coachlore: screens, UI and the AI angle
 
 > **A dated snapshot, not maintained.** The first screen-by-screen design,
 > kept as it was written. Where it and a later document disagree, the later
@@ -36,7 +36,7 @@ possible).
 
 ## 1. The idea in one paragraph
 
-**Draftboard** is a fast, beautiful Pokédex anyone can use on their phone,
+**Coachlore** is a fast, beautiful Pokédex anyone can use on their phone,
 and a home for Pokémon draft leagues: create a league, draft live with
 friends, play the matches on Showdown, and let the app keep the schedule,
 standings, trades and stats. **AI helps without guessing:** it turns plain
@@ -163,7 +163,7 @@ five tabs.
 
 ```text
 ┌──────────────────────────────┐
-│ ◆ Draftboard        🔍   (A) │  top bar: search opens the palette
+│ ◆ Coachlore         🔍   (A) │  top bar: search opens the palette
 ├──────────────────────────────┤
 │                              │
 │         page content         │
@@ -178,7 +178,7 @@ sidebar lists the league's sections.
 
 ```text
 ┌────────────────────────────────────────────────────────────────────┐
-│ ◆ Draftboard     [ Search or ask…            ⌘K ]        🔔   (A) │
+│ ◆ Coachlore      [ Search or ask…            ⌘K ]        🔔   (A) │
 ├──────────────┬─────────────────────────────────────────────────────┤
 │ Dex          │                                                     │
 │ Types        │                                                     │
@@ -209,7 +209,7 @@ Pokémon, moves, abilities, leagues and coaches as you type, and offers
 
 ```text
 ┌──────────────────────────────┐
-│ ◆ Draftboard        🔍   (A) │
+│ ◆ Coachlore         🔍   (A) │
 ├──────────────────────────────┤
 │ Good evening, Ash            │
 │ ┌──────────────────────────┐ │

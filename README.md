@@ -1,4 +1,4 @@
-# Draftboard | Pokédex and Draft League Manager
+# Coachlore | Pokédex and Draft League Manager
 
 <!-- Badges follow the Stack section's order: the app, then the tooling. Only what the repository uses today gets a badge; planned tools get one when they're added. Each takes its brand's colour (Simple Icons, from each brand's guidelines; React's from react.dev); where shields' white text on it would read under 3:1, the badge is black and the logo carries the colour. -->
 
@@ -10,13 +10,13 @@
 [![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.sh)
 [![Turborepo](https://img.shields.io/badge/Turborepo-FF1E56?style=for-the-badge&logo=turborepo&logoColor=white)](https://turborepo.dev)
 
-> The name comes from the **draft board** of a sports draft: the board where
-> every pick goes up as it's made, round by round, so everyone in the room
-> sees who took whom.
+> The name joins two words. In a draft league the players are **coaches**:
+> each one drafts a team of Pokémon, each priced in points, and runs it
+> through a season. **Lore** is the knowledge a coach builds up: what every
+> Pokémon, move and matchup does, and the league's own history of picks,
+> trades, replays and rivalries.
 >
-> In a Pokémon draft league, coaches draft Pokémon instead of players, each
-> one priced in points. Draftboard is that board for them, with a Pokédex
-> beside it.
+> Coachlore keeps both: the Pokédex is the first kind, the league the second.
 
 A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live
 drafts, schedules, trades, standings and AI match recaps from real battle
@@ -28,20 +28,20 @@ logs.
 
 ## About
 
-Draftboard has two halves:
+Coachlore has two halves:
 
 - **The Dex**: a Pokédex anyone can use on a phone, with no sign-in, no ads
   and nothing that jumps around while it loads.
 - **Leagues**: for the draft leagues that run on Discord and spreadsheets
   today. A league is created, its coaches draft live, they play their
-  matches on Pokémon Showdown, and Draftboard keeps the schedule, results,
+  matches on Pokémon Showdown, and Coachlore keeps the schedule, results,
   trades, standings and stats.
 
 Every number comes from data and code. Where a model helps, it explains
 or chooses among options the code worked out, and what it says is checked
 against the data.
 
-Draftboard is a personal project, built to learn and show heavy backend and
+Coachlore is a personal project, built to learn and show heavy backend and
 full-stack work. It's independent, unofficial and non-commercial (see
 [Credits and disclaimer](#credits-and-disclaimer)).
 
@@ -170,7 +170,7 @@ docs/
   project-doc.md       the product decisions, with their reasoning
   adr/                 architecture decision records
   plans/               open work and pending decisions
-  research/            the dated research that led to Draftboard
+  research/            the dated research that led to Coachlore
   git-workflow.md      a new clone's setup, the checks, branches and merging
 ```
 
@@ -181,8 +181,8 @@ Requires [Bun](https://bun.sh) (the version is set by `packageManager` in
 `engines` in `package.json`).
 
 ```bash
-git clone https://github.com/kumaraswini-11/draftboard.git
-cd draftboard
+git clone https://github.com/kumaraswini-11/coachlore.git
+cd coachlore
 bun install
 bun run dev
 ```
@@ -233,13 +233,13 @@ import { Button } from "@workspace/ui/components/shadcn-ui/button"
   a commit or push, and recovery
 - [Project doc](docs/project-doc.md): the product decisions behind the build,
   with their reasoning
-- [Research](docs/research/): the dated research that led to Draftboard
+- [Research](docs/research/): the dated research that led to Coachlore
 - [Decisions](docs/adr/): the architecture decision records
 - [Plans](docs/plans/): open work and pending decisions
 
 ## Credits and disclaimer
 
-Draftboard is an independent, unofficial and non-commercial project. It is
+Coachlore is an independent, unofficial and non-commercial project. It is
 not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak
 or The Pokémon Company. Pokémon and Pokémon character names are trademarks of
 Nintendo, Creatures and Game Freak; Pokémon images and names © Nintendo,
@@ -247,6 +247,6 @@ Creatures, Game Freak and The Pokémon Company.
 
 ## License
 
-Draftboard's own code is under the [MIT License](LICENSE). The Pokémon names,
+Coachlore's own code is under the [MIT License](LICENSE). The Pokémon names,
 images and data it shows belong to their owners (see
 [Credits and disclaimer](#credits-and-disclaimer)).

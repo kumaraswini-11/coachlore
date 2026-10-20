@@ -1,5 +1,5 @@
 /**
- * Draftboard's name, line and address: the one source for page titles,
+ * Coachlore's name, line and address: the one source for page titles,
  * descriptions, link previews (Open Graph, https://ogp.me/), the web app
  * manifest, robots and the sitemap. Titles and descriptions follow Google's
  * guidance on title links and snippets
@@ -7,9 +7,9 @@
  * https://developers.google.com/search/docs/appearance/snippet).
  */
 export const SITE = {
-  name: "Draftboard",
+  name: "Coachlore",
   // The home page's title: the brand, then what it is.
-  title: "Draftboard · Pokédex and draft leagues",
+  title: "Coachlore · Pokédex and draft leagues",
   description:
     "A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings and match recaps.",
   locale: "en_US",

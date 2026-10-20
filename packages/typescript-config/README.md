@@ -1,6 +1,6 @@
 # @workspace/typescript-config
 
-Draftboard's shared TypeScript settings: one base and two presets that every
+Coachlore's shared TypeScript settings: one base and two presets that every
 app and package extends, so compiler options are set in one place.
 
 ## Why a separate package
