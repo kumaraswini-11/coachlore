@@ -167,6 +167,10 @@ packages/
   eslint-config/, typescript-config/
                        the settings every package shares
 docs/
+  project-doc.md       the product decisions, with their reasoning
+  adr/                 architecture decision records
+  plans/               open work and pending decisions
+  research/            the dated research that led to Draftboard
   git-workflow.md      a new clone's setup, the checks, branches and merging
 ```
 
@@ -225,6 +229,8 @@ import { Button } from "@workspace/ui/components/shadcn-ui/button"
 - [Project doc](docs/project-doc.md): the product decisions behind the build,
   with their reasoning
 - [Research](docs/research/): the dated research that led to Draftboard
+- [Decisions](docs/adr/): the architecture decision records
+- [Plans](docs/plans/): open work and pending decisions
 
 ## Credits and disclaimer
 

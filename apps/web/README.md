@@ -18,16 +18,18 @@ done are in [AGENTS.md](../../AGENTS.md), "Commands".
 
 ## Folders
 
-| Folder        | What goes in it                                                                              | Now                                                     |
-| ------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| `app/`        | routes: layouts, pages and other route files                                                 | the root layout, the starter page and the favicon       |
-| `components/` | components used only by this app; shared ones belong in [`@workspace/ui`](../../packages/ui) | `theme-provider.tsx`: light and dark themes (press `d`) |
-| `hooks/`      | hooks used only by this app                                                                  | empty                                                   |
-| `lib/`        | helpers used only by this app                                                                | empty                                                   |
+| Folder        | What goes in it                                                             | Now                                                     |
+| ------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- |
+| `app/`        | routes: layouts, pages and other route files                                | the root layout, the starter page and the favicon       |
+| `components/` | components only this app uses; one feature's own in `components/<feature>/` | `theme-provider.tsx`: light and dark themes (press `d`) |
+| `hooks/`      | hooks used only by this app                                                 | empty                                                   |
+| `lib/`        | helpers used only by this app                                               | empty                                                   |
 
 Imports starting with `@/` resolve from this folder, for example
-`@/components/theme-provider`. `components.json` is the shadcn CLI's
-configuration for the app.
+`@/components/theme-provider`. Shared components belong in
+[`@workspace/ui`](../../packages/ui). `components.json` is the shadcn CLI's
+configuration for the app. Where each kind of component goes, and why:
+[ADR 0001](../../docs/adr/0001-ui-component-layout.md).
 
 ## Environment variables
 

@@ -36,6 +36,8 @@ Before any git command that writes (commit, branch, rebase, merge, push, config)
 
 Record each piece here as it's decided, with a link to its ADR. Until then, the scaffold's choices are a starting point, not decisions. Decided so far: nothing.
 
+Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan before starting its work, and mark it done when it's finished.
+
 ## Rules
 
 - **Pokémon belongs to others.** A non-commercial website: no ads, paid tiers or app-store app. The not-affiliated notice and credits stay (README's "Credits and disclaimer"). No scraping of game servers; as few official images as possible; no "Poké" or "Pokémon" in the product's name or logo.

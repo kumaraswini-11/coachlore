@@ -13,6 +13,19 @@ nothing about Next.js, routes, data or any app: its components present the
 data they're given and never fetch it (see [AGENTS.md](../../AGENTS.md),
 "Components").
 
+## Folders
+
+| Folder                      | Holds                                           |
+| --------------------------- | ----------------------------------------------- |
+| `src/components/shadcn-ui/` | registry components, written by the shadcn CLI  |
+| `src/components/`           | Draftboard's own shared compositions (none yet) |
+| `src/hooks/`                | shared hooks (none yet)                         |
+| `src/lib/`                  | helpers: `utils.ts` exports `cn`                |
+| `src/styles/`               | the theme: `globals.css`                        |
+
+Why it's laid out this way, and how Atomic Design's levels map onto it:
+[ADR 0001](../../docs/adr/0001-ui-component-layout.md).
+
 ## Use
 
 Add it to the app's `package.json`:
