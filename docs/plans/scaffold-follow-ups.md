@@ -25,12 +25,57 @@ moves on.
   through GitHub's public API). The recommended rules are in
   [the git workflow](../git-workflow.md#github-settings); the repository is
   public, so they're available on GitHub Free.
+- **Secret scanning push protection and Dependabot alerts** (alerts only, no
+  pull requests, as the git workflow requires): both free for public
+  repositories.
+
+### From the skills audit (2026-10-21)
+
+Found by the installed skills (`better-interface`, `core-web-vitals`,
+`security-and-hardening`, `turborepo`, `codebase-design`); the fixes made
+that day are under [Done](#done-2026-10-21). Still open:
+
+| Item                         | Found                                                                                                                                                                                                                                  | When                                                                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Theme control's first open   | Opening the theme menu the first time took 712–1,392 ms at 4× CPU slowdown (INP "poor" is over 500 ms), mostly Base UI positioning and animating the popup. Keeping the popup mounted didn't help (824–1,320 ms) and slowed page load. | The owner's design call when the header is built: a lighter control than a floating menu, or re-measure on a real phone |
+| Production site URL          | A production build without `NEXT_PUBLIC_SITE_URL` silently uses `http://localhost:3000` for canonical URLs and link previews.                                                                                                          | With hosting: fail the production build when it's unset                                                                 |
+| CSP `'unsafe-inline'`        | Safe while the site shows no user content.                                                                                                                                                                                             | Before league names, chat or AI recaps render: nonces, or Subresource Integrity once stable                             |
+| Theme colours in two places  | `apps/web/lib/site.ts` copies `--background` from `globals.css` as hex.                                                                                                                                                                | When the palette is designed: `@workspace/ui` owns them                                                                 |
+| App-wide components' home    | ADR 0001 names `components/<feature>/` only; the theme and error components sit at `components/`.                                                                                                                                      | With the first feature folder: a row in ADR 0001                                                                        |
+| Core packages' conventions   | No naming or rules yet for the framework-agnostic packages; `typescript-config/base.json` includes `DOM`, and no lint rule keeps React or Next.js out.                                                                                 | Before the first core package: a DOM-free preset, a `core` lint config, and `turbo boundaries` (experimental) in CI     |
+| `eslint-config` isn't linted | The package has no `lint` script.                                                                                                                                                                                                      | Minor, any time                                                                                                         |
+| CI speed                     | Every CI run starts with an empty Turborepo cache; the steps run one at a time.                                                                                                                                                        | When CI time matters: remote cache (an account decision) or `actions/cache`                                             |
+| Button `transition-all`      | The registry Button transitions every property.                                                                                                                                                                                        | With the interface plan's decision on editing registry files                                                            |
+| The placeholder home page    | No `<main>`, a button that does nothing, a 14 px title.                                                                                                                                                                                | Replaced by the real home page                                                                                          |
 
 ### Documents
 
 - In [the research](../research/pokemon-app-research.md), the Bulbagarden
   forum link blocks automated checks and has no archived copy; open it in a
   browser and replace it if it's gone.
+
+## Done (2026-10-21)
+
+From the skills audit, each checked in a browser or against its source:
+
+- **Security:** Next.js 16.4.1, which fixes three advisories against 16.4.0
+  (two remote code execution, one denial of service), exempted from the
+  14-day rule in `bunfig.toml` with the reason (ADR 0002);
+  `"trustedDependencies": []`, so no package's install scripts run unless
+  listed; `bun audit` in CI, with the one advisory that has no fix ignored
+  and dated; `*.key` gitignored; `eslint-config-next` 16.4.0, now two weeks
+  old, matching `next`.
+- **Focus:** the `--ring` token reaches 3:1 against the background (3.40:1
+  light, 4.48:1 dark, from 1.55:1 and 1.89:1); a focus outline in forced
+  colours; theme menu items show a focus outline (17.93:1) and are 44 px tall.
+- **Motion:** with reduced motion, the menu's open and close animations fade
+  without moving or scaling.
+- **Copy and type:** the error page's title says what failed ("This page
+  couldn’t load"); typographic apostrophes; an `EmptyState` page title is
+  larger than its description; the shortcut switch reads "Switch theme with
+  D".
+- **Code:** the `d` key, its on/off preference and its listener live in one
+  module (`apps/web/components/theme-hotkey.tsx`).
 
 ## Done (2026-10-20)
 
