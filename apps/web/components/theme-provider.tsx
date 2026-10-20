@@ -5,6 +5,8 @@ import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
 
 import { useThemeHotkey } from "@/hooks/use-theme-hotkey"
 
+// The theme's settings live here, once, for both places that render the
+// provider: the root layout and global-error.tsx.
 function ThemeProvider({
   children,
   ...props
