@@ -2,8 +2,8 @@
 
 Draftboard's shared interface: [shadcn/ui](https://ui.shadcn.com) components
 built on [Base UI](https://base-ui.com), the Tailwind CSS 4 theme
-(`src/styles/globals.css`) and the `cn` class-name helper. Today it holds two
-registry components, `Button` and `DropdownMenu`.
+(`src/styles/globals.css`) and the `cn` class-name helper. Today it holds three
+registry components: `Button`, `DropdownMenu` and `Empty`.
 
 ## Why a separate package
 
@@ -15,13 +15,13 @@ data they're given and never fetch it (see [AGENTS.md](../../AGENTS.md),
 
 ## Folders
 
-| Folder                      | Holds                                           |
-| --------------------------- | ----------------------------------------------- |
-| `src/components/shadcn-ui/` | registry components, written by the shadcn CLI  |
-| `src/components/`           | Draftboard's own shared compositions (none yet) |
-| `src/hooks/`                | shared hooks (none yet)                         |
-| `src/lib/`                  | helpers: `utils.ts` exports `cn`                |
-| `src/styles/`               | the theme: `globals.css`                        |
+| Folder                      | Holds                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------- |
+| `src/components/shadcn-ui/` | registry components, written by the shadcn CLI                                         |
+| `src/components/`           | Draftboard's own shared compositions (see [Shared compositions](#shared-compositions)) |
+| `src/hooks/`                | shared hooks (none yet)                                                                |
+| `src/lib/`                  | helpers: `utils.ts` exports `cn`                                                       |
+| `src/styles/`               | the theme: `globals.css`                                                               |
 
 Why it's laid out this way, and how Atomic Design's levels map onto it:
 [ADR 0001](../../docs/adr/0001-ui-component-layout.md).
@@ -38,14 +38,14 @@ Add it to the app's `package.json`:
 
 Import by subpath, as the `exports` in `package.json` define:
 
-| Import                                      | What it is                                                     |
-| ------------------------------------------- | -------------------------------------------------------------- |
-| `@workspace/ui/components/shadcn-ui/<name>` | a component added with the shadcn CLI, for example `button`    |
-| `@workspace/ui/components/<name>`           | a shared component of Draftboard's own (none yet)              |
-| `@workspace/ui/lib/utils`                   | the `cn` helper                                                |
-| `@workspace/ui/hooks/<name>`                | a shared hook (none yet)                                       |
-| `@workspace/ui/globals.css`                 | the theme; import it once, in the app's root layout            |
-| `@workspace/ui/postcss.config`              | the PostCSS config; re-export it from the app's PostCSS config |
+| Import                                      | What it is                                                        |
+| ------------------------------------------- | ----------------------------------------------------------------- |
+| `@workspace/ui/components/shadcn-ui/<name>` | a component added with the shadcn CLI, for example `button`       |
+| `@workspace/ui/components/<name>`           | a shared component of Draftboard's own, for example `empty-state` |
+| `@workspace/ui/lib/utils`                   | the `cn` helper                                                   |
+| `@workspace/ui/hooks/<name>`                | a shared hook (none yet)                                          |
+| `@workspace/ui/globals.css`                 | the theme; import it once, in the app's root layout               |
+| `@workspace/ui/postcss.config`              | the PostCSS config; re-export it from the app's PostCSS config    |
 
 ```tsx
 import "@workspace/ui/globals.css"
@@ -77,6 +77,17 @@ built from them, such as `login-01`, land in `apps/web/components`. Both
 
 How to change an added component, and when a composition becomes shared:
 [AGENTS.md](../../AGENTS.md), "Interface" and "Components".
+
+## Shared compositions
+
+Draftboard's own components, in `src/components/`, built from the registry
+ones. Each became shared on its third use; each presents what it's given and
+knows nothing about Next.js or routes, so actions (a link, a button) come in
+as `children`.
+
+| Composition  | For                                                                                                                                                                                                                                                                                                                                | Used by                                                                                    |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `EmptyState` | anything with nothing to show: an empty list, no results, a page that isn't there, an error. A title (its heading level set by `titleAs`, `h2` by default, `h1` when it is the whole page), a description, an optional `media` icon, and the actions as `children`; built on `Empty`. Pass `role="alert"` when it reports an error | `apps/web`: `not-found.tsx`, and `error.tsx` and `global-error.tsx` (through `ErrorState`) |
 
 ## Status
 

@@ -69,8 +69,8 @@ composition beside it. Weigh before deciding:
 
 - `packages/ui/README.md`: the element-to-component table, how to add a
   component (exists), and each shared composition as it's added, with a line
-  on what it's for. Record that an empty-state composition is expected, built
-  on shadcn's Empty, and made on its third use, not before.
+  on what it's for. The first, `EmptyState` (built on shadcn's Empty, made on
+  its third use: the 404, error and global-error pages), is listed there.
 - `apps/web/README.md`: `components/<feature>/` and what goes there.
 - AGENTS.md links to these instead of repeating them.
 
