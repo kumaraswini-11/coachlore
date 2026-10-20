@@ -238,37 +238,20 @@ and others) are general workflows the project doesn't need yet.
 and `skill-creator`, also global on the owner's machine, aren't needed by
 the project: this record describes how skills are found and added.
 
-## Decision (proposed)
+## Decision
 
-Install the skills in [Recommended now](#recommended-now) that the owner
-keeps, and the others when their decision comes, like this:
+The skills in [Recommended now](#recommended-now) that the owner keeps, and
+the others when their decision comes, are installed like this:
 
-- **Where:** in the project. The canonical copy in `.agents/skills/`, the
-  folder most agents share; Claude Code's own copy in `.claude/skills/`, the
-  one agent-specific folder, accepted as an exception to the tool-neutral
-  rule because Claude Code reads nowhere else.
-- **How:** `DISABLE_TELEMETRY=1 bunx skills@1.7.0 add <source> --skill <names>
--a universal -a claude-code --copy -y`, checked first against that
-  version's `--help`. `--copy`, because git on Windows doesn't check out
-  symlinks by default.
-- **Line endings, on Windows:** also set `GIT_CONFIG_COUNT=1
-GIT_CONFIG_KEY_0=core.autocrlf GIT_CONFIG_VALUE_0=false` for the command.
-  The CLI clones with git, and Git for Windows' installer turns on
-  `core.autocrlf` for the whole machine, so without it the skills arrive with
-  CRLF line endings and `skills-lock.json` hashes those, while
-  `.gitattributes` commits LF: the hashes would no longer match the files of
-  a fresh clone. The variables apply to that command only; the machine's git
-  configuration is untouched.
-- **Pinned:** to the source repository's newest commit (or release tag) at
-  least two weeks old, passed in the URL
-  (`https://github.com/<owner>/<repo>/tree/<commit>`); `skills-lock.json`,
-  which records each skill's source, commit and content hash, is committed.
-- **Project only:** nothing relies on skills installed on the owner's machine,
-  which may change; anything the project needs is installed in it.
-- **Read first:** a skill is re-read in full at the commit installed, and the
-  folders are added to `.prettierignore`, since their files are upstream's.
-- **AGENTS.md:** one line naming the skills and when to use them, and that
-  the owner runs `/interface-review` before a UI change is done.
+| Item          | Before (checked 2026-10-21)                                        | Official docs (quoted)                                                                                                                                                                                       | Decision                                                                                                                                                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Where         | no skills in the repository; some installed on the owner's machine | Claude Code: "Commit `.claude/skills/` to version control." The `skills` CLI: project scope is "committed with your project, shared with team"                                                               | In the project only, nothing relying on the machine, which may change: the canonical copy in `.agents/skills/` (the folder most agents share), Claude Code's copy in `.claude/skills/` (it reads nowhere else; the one exception to the tool-neutral rule)                                 |
+| How           | –                                                                  | The CLI: "Copy: creates independent copies for each agent. Use when symlinks aren't supported."                                                                                                              | `DISABLE_TELEMETRY=1 bunx skills@1.7.0 add <source> --skill <names> -a universal -a claude-code --copy -y`, checked against that version's `--help`. `--copy`, because git on Windows checks symlinks out as plain files unless `core.symlinks` is on                                      |
+| Line endings  | Git for Windows sets `core.autocrlf=true` for the whole machine    | –                                                                                                                                                                                                            | On Windows, also `GIT_CONFIG_COUNT=1 GIT_CONFIG_KEY_0=core.autocrlf GIT_CONFIG_VALUE_0=false` for the command only, so the files arrive LF, as `.gitattributes` commits them, and `skills-lock.json` hashes what a fresh clone has                                                         |
+| Pinned        | –                                                                  | AGENTS.md: "a new dependency takes its newest release at least two weeks old"                                                                                                                                | The source repository's newest commit (or release tag) at least two weeks old, in the URL (`https://github.com/<owner>/<repo>/tree/<commit>`); `skills-lock.json` (source, commit, content hash) committed                                                                                 |
+| Read first    | –                                                                  | Claude Code: "review the `allowed-tools` of skills checked into a repository before you run Claude Code there." The CLI, after installing: "Review skills before use; they run with full agent permissions." | Each skill read in full at the commit installed; none may set `allowed-tools` or run commands when it loads without the owner's approval                                                                                                                                                   |
+| Upstream text | –                                                                  | –                                                                                                                                                                                                            | Never edited: the folders are in `.prettierignore` and excluded from CodeRabbit's reviews (`.coderabbit.yaml`); a skill's mistakes are listed under [Known issues](#known-issues-in-the-installed-skills), and AGENTS.md, WCAG and the bundled docs win over a skill that contradicts them |
+| AGENTS.md     | no mention of skills                                               | –                                                                                                                                                                                                            | One line: where skills live, when to use each, and that the owner runs `/interface-review` before a UI change is done                                                                                                                                                                      |
 
 ### The owner's calls
 
@@ -310,6 +293,21 @@ folders and the lock file are in `.prettierignore`, and
 
 Not installed yet: `shadcn` and `next-dev-loop` (the owner's calls 2 and 3),
 and the [later](#later-once-the-related-decision-is-made) skills.
+
+## Known issues in the installed skills
+
+Found by CodeRabbit's review of pull request 1 (2026-10-20) and checked
+against the sources cited. The skills' files stay as upstream wrote them
+(editing them would break their pin); each issue is handled as below, and is
+worth reporting upstream.
+
+| Skill                                            | Issue                                                                                                                                                                                                                                                                               | Here                                                                                                                                                   |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `better-colors` (`contrast.md`)                  | Says placeholder text has no contrast requirement; WCAG's [Understanding 1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) says the criterion "applies to text in the page, including placeholder text". Disabled controls are exempt; placeholders aren't. | Placeholder text meets 4.5:1 (AGENTS.md, "Interface": WCAG 2.2 AA)                                                                                     |
+| `core-web-vitals` (`references/LCP.md`)          | Its Next.js examples use the Pages Router (`getServerSideProps`, `getStaticProps`, `export const config`); this app uses the App Router. Two more snippets were already known (finding in [Recommended now](#recommended-now)).                                                     | The bundled Next.js docs win: data in async Server Components, route options as direct exports                                                         |
+| `domain-modeling` (`ADR-FORMAT.md`)              | A one-paragraph ADR template with optional sections, and an ADR only when a decision is hard to reverse _and_ surprising _and_ a real trade-off.                                                                                                                                    | AGENTS.md: ADRs keep this repository's format, and every hard-to-reverse decision and departure from official guidance gets one, whatever a skill says |
+| `better-accessibility` (`focus-and-keyboard.md`) | Makes `#app-content` inert behind a custom overlay without saying the overlay must sit outside it; an overlay inside would become inert too.                                                                                                                                        | A custom overlay renders outside the content it makes inert, or the Base UI dialog (which handles this) is used                                        |
+| `interface-review` (`scope-resolution.md`)       | The pull request refspec lacks `+`, so a force-pushed pull request fails to update ([git fetch](https://git-scm.com/docs/git-fetch)); a `staged` review also takes untracked files, and gives no `git diff --cached` command.                                                       | The owner runs it; reviewing a pull request after a force-push, or only staged changes, needs those two corrections by hand                            |
 
 ## Alternatives considered
 
