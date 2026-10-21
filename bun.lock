@@ -27,7 +27,7 @@
       },
       "devDependencies": {
         "@tailwindcss/postcss": "catalog:",
-        "@types/node": "24.19.1",
+        "@types/node": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
         "@workspace/eslint-config": "workspace:*",
@@ -72,6 +72,7 @@
       },
       "devDependencies": {
         "@tailwindcss/postcss": "catalog:",
+        "@types/node": "catalog:",
         "@types/react": "catalog:",
         "@types/react-dom": "catalog:",
         "@workspace/eslint-config": "workspace:*",
@@ -81,6 +82,7 @@
         "react-dom": "catalog:",
         "tailwindcss": "4.3.3",
         "typescript": "catalog:",
+        "vitest": "catalog:",
       },
       "peerDependencies": {
         "react": "^19.0.0",
@@ -90,6 +92,7 @@
   },
   "catalog": {
     "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "24.19.1",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "eslint": "10.12.0",

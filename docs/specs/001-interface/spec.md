@@ -1167,3 +1167,7 @@ From the screens research, left out of v1:
   edge cases, and Out of scope.
 - 2026-10-21: languages (ADR 0007): English and Hindi, the language menu,
   logical directions, Hindi copy rules.
+- 2026-10-21: built. The contrast test found shadcn's light muted text at
+  4.34:1 on the muted background; it's darkened from `oklch(0.556 0 0)` to
+  `oklch(0.54 0 0)` (4.64:1). Motion uses Tailwind's own `ease-out` and
+  `ease-in-out` beside the two duration tokens.

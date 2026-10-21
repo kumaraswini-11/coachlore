@@ -25,6 +25,46 @@
   --color-input: var(--input);
   --color-border: var(--border);
   --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-type-normal: var(--type-normal);
+  --color-type-normal-foreground: var(--type-normal-foreground);
+  --color-type-fire: var(--type-fire);
+  --color-type-fire-foreground: var(--type-fire-foreground);
+  --color-type-water: var(--type-water);
+  --color-type-water-foreground: var(--type-water-foreground);
+  --color-type-electric: var(--type-electric);
+  --color-type-electric-foreground: var(--type-electric-foreground);
+  --color-type-grass: var(--type-grass);
+  --color-type-grass-foreground: var(--type-grass-foreground);
+  --color-type-ice: var(--type-ice);
+  --color-type-ice-foreground: var(--type-ice-foreground);
+  --color-type-fighting: var(--type-fighting);
+  --color-type-fighting-foreground: var(--type-fighting-foreground);
+  --color-type-poison: var(--type-poison);
+  --color-type-poison-foreground: var(--type-poison-foreground);
+  --color-type-ground: var(--type-ground);
+  --color-type-ground-foreground: var(--type-ground-foreground);
+  --color-type-flying: var(--type-flying);
+  --color-type-flying-foreground: var(--type-flying-foreground);
+  --color-type-psychic: var(--type-psychic);
+  --color-type-psychic-foreground: var(--type-psychic-foreground);
+  --color-type-bug: var(--type-bug);
+  --color-type-bug-foreground: var(--type-bug-foreground);
+  --color-type-rock: var(--type-rock);
+  --color-type-rock-foreground: var(--type-rock-foreground);
+  --color-type-ghost: var(--type-ghost);
+  --color-type-ghost-foreground: var(--type-ghost-foreground);
+  --color-type-dragon: var(--type-dragon);
+  --color-type-dragon-foreground: var(--type-dragon-foreground);
+  --color-type-dark: var(--type-dark);
+  --color-type-dark-foreground: var(--type-dark-foreground);
+  --color-type-steel: var(--type-steel);
+  --color-type-steel-foreground: var(--type-steel-foreground);
+  --color-type-fairy: var(--type-fairy);
+  --color-type-fairy-foreground: var(--type-fairy-foreground);
   --color-accent-foreground: var(--accent-foreground);
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
@@ -61,7 +101,8 @@
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
+  /* shadcn's 0.556 reaches only 4.34:1 on --muted; 0.54 reaches 4.64:1. */
+  --muted-foreground: oklch(0.54 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
@@ -84,6 +125,55 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* Each is text on its foreground and text on the background, at 4.5:1 or
+     more; contrast.test.ts checks every pair in both themes. */
+  --success: oklch(0.527 0.154 150.069);
+  --success-foreground: oklch(1 0 0);
+  --warning: oklch(0.555 0.163 48.998);
+  --warning-foreground: oklch(1 0 0);
+  /* The type colours, the same in both themes: Bulbapedia's type colour
+     templates, Fire darkened one step to pass with white text, and the text
+     colour that contrasts more (spec 001, "Type colours"). */
+  --type-normal: #9fa19f;
+  --type-normal-foreground: #0a0a0a;
+  --type-fire: #e42829;
+  --type-fire-foreground: #ffffff;
+  --type-water: #2980ef;
+  --type-water-foreground: #0a0a0a;
+  --type-electric: #fac000;
+  --type-electric-foreground: #0a0a0a;
+  --type-grass: #3fa129;
+  --type-grass-foreground: #0a0a0a;
+  --type-ice: #3dcef3;
+  --type-ice-foreground: #0a0a0a;
+  --type-fighting: #ff8000;
+  --type-fighting-foreground: #0a0a0a;
+  --type-poison: #9141cb;
+  --type-poison-foreground: #ffffff;
+  --type-ground: #915121;
+  --type-ground-foreground: #ffffff;
+  --type-flying: #81b9ef;
+  --type-flying-foreground: #0a0a0a;
+  --type-psychic: #ef4179;
+  --type-psychic-foreground: #0a0a0a;
+  --type-bug: #91a119;
+  --type-bug-foreground: #0a0a0a;
+  --type-rock: #afa981;
+  --type-rock-foreground: #0a0a0a;
+  --type-ghost: #704170;
+  --type-ghost-foreground: #ffffff;
+  --type-dragon: #5060e1;
+  --type-dragon-foreground: #ffffff;
+  --type-dark: #624d4e;
+  --type-dark-foreground: #ffffff;
+  --type-steel: #60a1b8;
+  --type-steel-foreground: #0a0a0a;
+  --type-fairy: #ef70ef;
+  --type-fairy-foreground: #0a0a0a;
+  /* Motion (spec 001, "Motion"): feedback, and a panel arriving. With
+     Tailwind's ease-out for what arrives and ease-in-out for what moves. */
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
 }
 
 .dark {
@@ -118,6 +208,10 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --success: oklch(0.792 0.209 151.711);
+  --success-foreground: oklch(0.145 0 0);
+  --warning: oklch(0.828 0.189 84.429);
+  --warning-foreground: oklch(0.145 0 0);
 }
 
 @layer base {
