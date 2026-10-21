@@ -78,16 +78,24 @@ In `overrides/`, each entry with its reason:
 
 The sources are pinned in [`sources.json`](sources.json). A new pin is the
 newest commit or month at least two weeks old (AGENTS.md, "Versions").
+Every month on the 16th, the "Data freshness" workflow looks for newer pins
+and opens an issue when there are some; it never commits
+([ADR 0009](../../docs/adr/0009-pokemon-data-imported-and-refreshed.md)).
+On a branch, from the repository's root:
 
 ```sh
-bun run --filter @workspace/dex import       # downloads what's missing, imports, prints what changed
-bun run --filter web import-images           # the sprites and artwork for the forms imported
-bun run --filter @workspace/dex test         # the hand-checked forms, integrity, size
+bun run data:refresh   # new pins, then the import (prints what changed), then the images
 ```
 
+That runs, in turn, `update-pins` and `import` here and `import-images` in
+`apps/web`; each also runs alone with `bun run --filter …`.
+`bun packages/dex/scripts/update-pins.ts --check`, what the monthly workflow
+runs, only reports.
+
 Downloads go to `.cache/` (gitignored) and are reused. Review the change
-summary and the diff, then commit `data/`, `sources.json` and the images
-together. When the import starts reading a new field or endpoint,
+summary and the diff, run the checks in AGENTS.md (the hand-checked forms,
+integrity and size are in `bun run test`), then commit `data/`,
+`sources.json` and the images together. When the import starts reading a new field or endpoint,
 `bun run --filter @workspace/dex make-fixture` rebuilds the test sample in
 `test/fixtures/` from the cache.
 
