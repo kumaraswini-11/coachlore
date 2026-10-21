@@ -268,16 +268,16 @@ palette opens from a shortcut.
 
 ## Tasks
 
-Progress (2026-10-21): tasks 1 to 8 built (the fixtures at `/en/fixtures/states` and `/en/fixtures/list` wait for the owner's review on a phone). Open before 001 is done:
+Progress (2026-10-21): tasks 1 to 9 built. Fonts use `display: "optional"`: a Hindi page reflowed by a line when Noto Sans Devanagari swapped in, and `cls.spec.ts` now passes with 0 on every page. Open before 001 is done: the owner's review of the fixtures (`/en/fixtures/states`, `/en/fixtures/list`) on a phone and `/interface-review`, and:
 
-- **Performance:** after the shell, `/en` is 306 KB with LCP 2.7–2.9 s on
-  a throttled mid-range phone (Playwright, 4× CPU, slow 4G), over the 2.5 s
-  "good" threshold; the display menu's Base UI code now loads on every
-  page. Fix before task 9's `cls.spec.ts` and the owner's review.
-- **Navigation:** the bottom tabs and sidebar arrive with their first item
-  (spec 003), and the footer's About and Legal links with task 9: nothing
-  links to a page that doesn't exist (spec rule 4).
-- Tasks 8 and 9, then the performance pass with Lighthouse (owner, 2026-10-21: last).
+- **The performance pass, last** (the owner, 2026-10-21). Lighthouse 13.5
+  (mobile) on `/en`: LCP 3.5–4.0 s and TBT 0.8–1.0 s, the same as before
+  the shell and over the 2.5 s and 200 ms "good" thresholds. The LCP element
+  is the footer's notice on the placeholder home page, and most of the
+  main-thread time is React's and Next.js's own runtime.
+- **Navigation:** the bottom tabs and sidebar arrive with their first item,
+  the Dex (spec 003): nothing links to a page that doesn't exist (spec
+  rule 4).
 
 1. **Rules.** AGENTS.md's interface lines and `packages/ui/README.md`'s
    element-to-component table, from the interface standards plan (its

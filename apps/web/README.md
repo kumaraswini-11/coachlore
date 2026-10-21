@@ -82,10 +82,13 @@ description })` from `i18n/metadata.ts`: its title from its messages (just
   page in every language, with its alternates; Dex pages are added from the
   data once it exists.
 
-| Page      | Title                                                                                    | Description                                                                                                                    |
-| --------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `/`       | `Coachlore · Pokédex and draft leagues` (Hindi: `Coachlore · पोकेडेक्स और ड्राफ़्ट लीग`) | A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings and match recaps. |
-| not found | `Page not found · Coachlore`                                                             | There’s no page at this address on Coachlore.                                                                                  |
+| Page       | Title                                                                                    | Description                                                                                                                    |
+| ---------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| `/`        | `Coachlore · Pokédex and draft leagues` (Hindi: `Coachlore · पोकेडेक्स और ड्राफ़्ट लीग`) | A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings and match recaps. |
+| not found  | `Page not found · Coachlore`                                                             | There’s no page at this address on Coachlore.                                                                                  |
+| `/about`   | `About · Coachlore`                                                                      | What Coachlore is: a fan-made Pokédex and a home for Pokémon draft leagues, and the sources it credits.                        |
+| `/legal`   | `Legal · Coachlore`                                                                      | Coachlore’s not-affiliated notice, the licences of the data and images it uses, and how it handles your data.                  |
+| `/offline` | `You’re offline · Coachlore`                                                             | This page isn’t saved for offline use on Coachlore. (`noindex`)                                                                |
 
 Update the table when a page is added.
 

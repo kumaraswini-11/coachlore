@@ -75,6 +75,8 @@ test("fills a phone's screen", async ({ page }) => {
 test("the setting turns the single-key shortcuts off, and is remembered", async ({
   page,
 }) => {
+  // Several steps and a reload: a long test.
+  test.slow()
   const html = page.locator("html")
   await expect(async () => {
     await page.locator("main").click()

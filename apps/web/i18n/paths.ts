@@ -8,18 +8,17 @@ import { routing } from "@/i18n/routing"
  * metadata take paths from. paths.test.ts checks that each has its
  * `app/[lang]/…/page.tsx`. A spec that adds a page adds it here.
  */
-export const PAGES = ["/"] as const
+export const PAGES = ["/", "/about", "/legal", "/offline"] as const
 
 export type Path = (typeof PAGES)[number]
 
-/** The sitemap's pages: the public ones (all of them today). */
-export const PUBLIC_PAGES: readonly Path[] = PAGES
+/** The sitemap's pages: the public ones (`/offline` is for the offline Dex). */
+export const PUBLIC_PAGES: readonly Path[] = ["/", "/about", "/legal"]
 
 /**
  * An address in a language: `/hi/about` from `hi` and `/about`. Typed routes
- * include the language and the catch-all matches any of them, so `Path` is
- * what's checked, and the result is cast once, here (Next.js's TypeScript
- * docs: "cast with `as Route`").
+ * see `/[lang]/…`, so it's `Path` that's checked, and the result is cast
+ * once, here (Next.js's TypeScript docs: "cast with `as Route`").
  */
 export function localeHref(locale: Locale, path: Path): Route {
   return (path === "/" ? `/${locale}` : `/${locale}${path}`) as Route

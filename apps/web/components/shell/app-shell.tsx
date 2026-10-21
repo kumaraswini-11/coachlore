@@ -2,6 +2,9 @@ import type * as React from "react"
 import Link from "next/link"
 import { getLocale, getMessages, getTranslations } from "next-intl/server"
 
+import { buttonVariants } from "@workspace/ui/components/shadcn-ui/button"
+import { cn } from "@workspace/ui/lib/utils"
+
 import { SearchButton } from "@/components/search/search-button"
 import { DisplayMenu } from "@/components/shell/display-menu"
 import { LanguageLinks } from "@/components/shell/language-links"
@@ -18,7 +21,8 @@ import { SITE } from "@/lib/site"
  *
  * The bottom tabs and the sidebar arrive with their first item, the Dex
  * (spec 003): until a page exists, nothing links to it (spec 001, "No dead
- * controls").
+ * controls"). The footer links to `/about` and `/legal` in the page's
+ * language.
  */
 async function AppShell({ children }: { children: React.ReactNode }) {
   const locale = await getLocale()
@@ -76,6 +80,21 @@ async function AppShell({ children }: { children: React.ReactNode }) {
         <div className="mx-auto flex max-w-(--breakpoint-xl) flex-col gap-2">
           <p>{footer("notice")}</p>
           <p>{footer("credits")}</p>
+          <ul className="flex flex-wrap gap-x-4">
+            {(["/about", "/legal"] as const).map((path) => (
+              <li key={path}>
+                <Link
+                  href={localeHref(locale, path)}
+                  className={cn(
+                    buttonVariants({ variant: "link" }),
+                    "h-11 px-0 text-xs"
+                  )}
+                >
+                  {footer(path === "/about" ? "about" : "legal")}
+                </Link>
+              </li>
+            ))}
+          </ul>
           <LanguageLinks
             languages={otherLocales(locale).map((other) => ({
               locale: other,
