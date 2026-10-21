@@ -36,7 +36,8 @@
     },
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "passThroughEnv": ["DEV_ORIGINS"]
     },
     "//#lint:logical-css": {
       "inputs": [
