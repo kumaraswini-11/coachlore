@@ -43,6 +43,8 @@ shell is prerendered ([ADR 0003](../../docs/adr/0003-rendering-and-production-de
 | `app/error.tsx`        | an error in a page, with Try again (`retry`, which fetches and renders the page again)                      |
 | `app/global-error.tsx` | an error in the root layout itself; it replaces the layout, so it brings its own `<html>`, styles and fonts |
 
+Both error pages report to Sentry; so do server errors, through `onRequestError` in `instrumentation.ts`. The settings, shared by the browser, server and edge set-ups, are in `lib/sentry-options.ts`: no personal data (ADR 0006), and nothing is sent without a real DSN. In the browser, Sentry loads only on the first error (the strategy of Sentry's Loader Script, served from our own address), so a page without errors pays nothing; it reports errors only, no tracing. Reports go through `/monitoring` on our own address, so the content security policy stays `'self'`; a future `proxy.ts` must not intercept that path. `/error-check` throws on purpose to test it, and is a 404 in production.
+
 No `loading.tsx`: Next.js advises Suspense boundaries close to the data that
 waits, not one around the whole page.
 
@@ -87,9 +89,15 @@ Update the table when a page is added.
 Each one is documented in [`.env.example`](.env.example), as
 [AGENTS.md](../../AGENTS.md) ("Files") requires.
 
-| Variable               | What it is                                                                                                                           |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `NEXT_PUBLIC_SITE_URL` | the site's public address; defaults to `http://localhost:3000`, so a production build must set it (Next.js inlines it at build time) |
+| Variable                                            | What it is                                                                                                    |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| `NEXT_PUBLIC_SITE_URL`                              | optional override of the site's address; otherwise `siteUrl()` takes it from Vercel, or uses `localhost:3000` |
+| `NEXT_PUBLIC_SENTRY_DSN`                            | where error reports go; unset (or a placeholder), nothing is sent                                             |
+| `SENTRY_ORG`, `SENTRY_PROJECT`, `SENTRY_AUTH_TOKEN` | the source-map upload at build; the token is secret, and set only in Vercel                                   |
+
+## Deploys
+
+Vercel builds production from `main` and a private preview of every pull request (signed-in Vercel accounts only, and `noindex`). Its project's Root Directory is `apps/web`; the Sentry variables are set for Production and Preview. A broken production deploy is rolled back from Vercel's dashboard, and the fix goes through a pull request as usual.
 
 ## See also
 

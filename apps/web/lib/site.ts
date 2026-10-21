@@ -1,5 +1,5 @@
 /**
- * Coachlore's name, line and address: the one source for page titles,
+ * Coachlore's name and line: the one source for page titles,
  * descriptions, link previews (Open Graph, https://ogp.me/), the web app
  * manifest, robots and the sitemap. Titles and descriptions follow Google's
  * guidance on title links and snippets
@@ -29,11 +29,3 @@ export const OPEN_GRAPH = {
   type: "website",
   locale: SITE.locale,
 } as const
-
-/**
- * The site's address, for canonical URLs, link previews, robots and the
- * sitemap. Next.js inlines NEXT_PUBLIC_ variables at build time, so a
- * production build must set it; see apps/web/.env.example.
- */
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"

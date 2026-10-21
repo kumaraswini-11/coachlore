@@ -111,7 +111,9 @@ finds "Pokémon").
   language we have, else the best match in `Accept-Language` (`en` or
   `hi`, any region), else `en`; the response redirects (307) to
   `/${locale}${path}${search}`. The guide's matcher shape, extended to skip
-  `/api`, files and metadata routes.
+  `/api`, files and metadata routes, and `/monitoring`, Sentry's tunnel (spec
+  000): Sentry's docs say to "exclude the tunnel route" from a proxy's
+  matcher.
 - **The language switch** is in three places: the display menu (its
   button's accessible name is "Display: theme and language"), the footer
   (the other language, written in that language) and `/me` (spec 006).

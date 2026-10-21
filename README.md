@@ -101,7 +101,7 @@ bun install
 bun run dev        # http://localhost:3000
 ```
 
-`bun run lint`, `typecheck`, `build` and `format:check` are the checks CI
+`bun run lint`, `typecheck`, `test`, `build` and `format:check` are the checks CI
 runs on every pull request. Before your first commit, set up the clone as
 [docs/git-workflow.md](docs/git-workflow.md) describes.
 

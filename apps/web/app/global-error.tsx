@@ -8,6 +8,7 @@ import "@workspace/ui/globals.css"
 import { ErrorState } from "@/components/error-state"
 import { ThemeProvider } from "@/components/theme-provider"
 import { rootClassName } from "@/lib/fonts"
+import { reportError } from "@/lib/sentry-client"
 import { SITE } from "@/lib/site"
 
 // Replaces the root layout when the root layout itself fails, so it brings
@@ -21,8 +22,9 @@ export default function GlobalError({
   retry: () => void
 }) {
   useEffect(() => {
-    // Reaches the browser console until an error-reporting service is chosen.
-    console.error(error)
+    // Sent to Sentry if it happened in the browser; the server reports its
+    // own errors (spec 000).
+    reportError(error)
   }, [error])
 
   return (

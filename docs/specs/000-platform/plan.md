@@ -90,12 +90,17 @@ stackFrameVariables: false }`, as
   `request.data` as a second guard. A test captures an error with the
   transport mocked and checks the outgoing event has no IP, user, cookies,
   headers or stack-frame variables.
-- **Traces:** a sample rate of 0.1 in production, 1.0 in previews.
+- **Traces:** on the server only, a sample rate of 0.1 in production, 1.0 in previews.
+- **The browser loads Sentry on the first error.** Next.js runs `instrumentation-client` before hydration and asks: "Keep instrumentation code lightweight" ([instrumentation-client](https://nextjs.org/docs/app/api-reference/file-conventions/instrumentation-client)). Sentry's Loader Script "won't load the full SDK until triggered by" an error, to keep "pageload performance high" ([Loader](https://docs.sentry.io/platforms/javascript/install/loader/)); its tree-shaking options "are not supported for Turbopack builds". So `instrumentation-client.ts` only listens for errors, and `lib/sentry-client.ts` loads a small chunk with `init` and `captureException` on the first one, with tracing, web vitals, sessions and Sentry's own global handlers off. Measured: a normal page load fetches 2 KB more JavaScript than before Sentry, not 59 KB. The trade-off, as Sentry states it: no breadcrumbs before the first error.
 - **The content security policy:** the build plugin's tunnel route sends
   reports to a path on our own address, so `connect-src` stays `'self'`
   (ADR 0003).
 - **Source maps:** uploaded at build with `SENTRY_AUTH_TOKEN`, then deleted
   from the build output, so the browser never gets them.
+- **Placeholders count as unset:** `.env.example` shows required values as
+  `<placeholder>`, so a value still in angle brackets (a copied file not yet
+  filled in) is treated as unset: no reporting without a real DSN, and no
+  source-map upload without a real token. A test covers both.
 - **Environments:** `VERCEL_ENV` is the Sentry environment (`production`,
   `preview`, `development`); nothing is sent in development unless the DSN
   is set locally.

@@ -161,7 +161,7 @@ Stop and tell the owner before rewriting anything. Rewrites below apply only to 
   git rebase origin/main --exec "git commit --amend --reset-author --no-edit"
   ```
 
-- **A pull request was merged with GitHub's merge button.** GitHub becomes the committer (`GitHub <noreply@github.com>`) of the merge commit, so CI's "Commit identity" job fails on that push to `main`. The commit is pushed, so it stays (no force-push without the owner's decision). Later pushes are checked only from it onward, so they pass. This happened once: `4f6ea87`, pull request 1, 2026-10-20, kept by the owner's decision; its files are the same as the branch's last commit.
+- **A pull request was merged with GitHub's merge button.** GitHub becomes the committer (`GitHub <noreply@github.com>`) of the merge commit, so CI's "Commit identity" job fails on that push to `main`. The commit is pushed, so it stays (no force-push without the owner's decision). Later pushes are checked only from it onward, so they pass. It has happened three times, each kept by the owner's decision, each merge's files the same as its branch's last commit: `4f6ea87` (pull request 1, 2026-10-20), `9cd239a` (pull request 2, 2026-10-21) and `c541fb9` (pull request 3, 2026-10-21).
 
 - **The last commit message has an attribution line.** Rewrite the message with `git commit --amend -m "<message>"`; for an older commit, reword it in a rebase.
 

@@ -3,7 +3,8 @@ import type { Metadata } from "next"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 
 import { ThemeToggle } from "@/components/theme-toggle"
-import { OPEN_GRAPH, SITE, SITE_URL } from "@/lib/site"
+import { OPEN_GRAPH, SITE } from "@/lib/site"
+import { siteUrl } from "@/lib/site-url"
 
 // No title: the home page shows the root layout's title.default, since a
 // layout's title template doesn't apply to the page in its own segment.
@@ -19,7 +20,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: SITE.name,
-  url: SITE_URL,
+  url: siteUrl(),
 }
 
 export default function Page() {
