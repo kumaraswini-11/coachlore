@@ -1170,4 +1170,5 @@ From the screens research, left out of v1:
 - 2026-10-21: built. The contrast test found shadcn's light muted text at
   4.34:1 on the muted background; it's darkened from `oklch(0.556 0 0)` to
   `oklch(0.54 0 0)` (4.64:1). Motion uses Tailwind's own `ease-out` and
-  `ease-in-out` beside the two duration tokens.
+  `ease-in-out` beside the two duration tokens. Toasts are shadcn's `toast`,
+  on Base UI's Toast, not Sonner (the owner, 2026-10-21): no extra package.
