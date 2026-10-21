@@ -27,7 +27,7 @@
 | `apps/web/components/offline/sw-register.tsx`        | Client: registers the service worker, in production only                                                                                                                                                                                                                                                                                                               |
 | `apps/web/app/sw.js/route.ts`                        | The service worker, served by a static Route Handler so its cache name carries the deployment's commit                                                                                                                                                                                                                                                                 |
 | `apps/web/app/manifest.ts`, `apps/web/public/icons/` | The manifest (exists) gains `icon-192.png` and `icon-512.png`, rendered from `icon.svg` at build of the icons, committed                                                                                                                                                                                                                                               |
-| `apps/web/proxy.ts`                                  | The matcher also excludes `sw.js`, `dex-images/`, `dex-data/` and `icons/`: Proxy runs on "assets in the `public/` folder" (bundled docs: `proxy.md`), so next-intl would redirect them to `/en/…`, a 404. `proxy.test.ts` checks each                                                                                                                                 |
+| `apps/web/proxy.ts`                                  | The matcher also excludes `sw.js`, `dex-data/` and `icons/` (`dex-images/` already, since spec 002): Proxy runs on "assets in the `public/` folder" (bundled docs: `proxy.md`), so next-intl would redirect them to `/en/…`, a 404. `proxy.test.ts` checks each                                                                                                        |
 | `turbo.json`                                         | The build's `env` gains `VERCEL_GIT_COMMIT_SHA`: in Strict Mode a task sees "only those that are specified in the `globalEnv` and `env` keys" (Turborepo's `using-environment-variables.mdx`), so without it every deployment's cache is named `dev`                                                                                                                   |
 
 ## Components
@@ -182,7 +182,9 @@ None.
    count, every state, at 360 and 1024 px. Done when: the owner has reviewed
    it on a desktop and a phone.
 4. **`/dex` on the real index.** The page, the Suspense fallback, the index
-   import, filters in the address. Done when: acceptance criteria 1–5 pass.
+   import, filters in the address, and the images' credit ("Pokémon images
+   © The Pokémon Company, from PokéAPI's sprites", from `credits`) in the
+   footer and on `/legal`. Done when: acceptance criteria 1–5 pass.
 5. **Home and `/games/[game]`.** Recently viewed (written by spec 004's
    pages; read here), the browse links, the game and version pickers, the
    incomplete-data notice, titles, descriptions (from the dictionaries)

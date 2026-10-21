@@ -26,16 +26,24 @@ const app = join(import.meta.dirname, "app")
 const rootFiles = readdirSync(app, { withFileTypes: true })
   .filter((entry) => entry.isFile())
   .map((entry) => entry.name)
+// Each file at the root of `public/`, and one file from each folder in it:
+// the matcher excludes a folder whole, and the Dex's has thousands.
 const publicDir = join(import.meta.dirname, "public")
 const publicFiles = existsSync(publicDir)
-  ? readdirSync(publicDir, { recursive: true, withFileTypes: true })
-      .filter((entry) => entry.isFile())
-      .map((entry) =>
-        `/${join(entry.parentPath, entry.name).slice(publicDir.length + 1)}`.replaceAll(
-          "\\",
-          "/"
-        )
-      )
+  ? [
+      ...new Map(
+        readdirSync(publicDir, { recursive: true, withFileTypes: true })
+          .filter((entry) => entry.isFile())
+          .map((entry) => {
+            const path =
+              `/${join(entry.parentPath, entry.name).slice(publicDir.length + 1)}`.replaceAll(
+                "\\",
+                "/"
+              )
+            return [path.slice(0, path.lastIndexOf("/")) || path, path] as const
+          })
+      ).values(),
+    ]
   : []
 
 describe("the site's files skip the Proxy", () => {

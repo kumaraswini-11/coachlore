@@ -11,11 +11,12 @@ export default createMiddleware(routing)
 
 export const config = {
   // Every address but Next.js's own (`/_next`, `/api`, Vercel's), Sentry's
-  // tunnel `/monitoring` (Sentry's docs say to "exclude" it), and the site's
-  // files, each named whole, as Next.js's "Negative matching" example does.
+  // tunnel `/monitoring` (Sentry's docs say to "exclude" it), the Dex's
+  // images (`/dex-images`, spec 002), and the site's files, each named
+  // whole, as Next.js's "Negative matching" example does.
   // So `/missing.txt` and `/apiary` still get a language and its not-found
   // page. proxy.test.ts fails when a file at the root of `app/` is missing
   // here.
   matcher:
-    "/((?!(?:api|_next|_vercel|monitoring)(?:/|$)|(?:favicon\\.ico|icon\\.svg|apple-icon\\.png|manifest\\.webmanifest|robots\\.txt|sitemap\\.xml)$).*)",
+    "/((?!(?:api|_next|_vercel|monitoring|dex-images)(?:/|$)|(?:favicon\\.ico|icon\\.svg|apple-icon\\.png|manifest\\.webmanifest|robots\\.txt|sitemap\\.xml)$).*)",
 }

@@ -250,7 +250,10 @@ function listSummary(
   if (before === stableJson(value)) {
     return `${path}: unchanged`
   }
-  if (before === undefined || !Array.isArray(value)) {
+  const hasKeys = (items: unknown): items is { key: string }[] =>
+    Array.isArray(items) &&
+    items.every((item) => typeof (item as { key?: unknown }).key === "string")
+  if (before === undefined || !hasKeys(value)) {
     return `${path}: ${before === undefined ? "new" : "changed"}`
   }
   const keyed = (items: { key: string }[]) =>
@@ -270,6 +273,18 @@ function listSummary(
     ...(gone.length > 0 ? [`  removed: ${list(gone)}`] : []),
     ...(changed.length > 0 ? [`  changed: ${list(changed)}`] : []),
   ].join("\n")
+}
+
+/** The battle simulator's data package, at the version package.json pins. */
+function pkmnVersion(): string {
+  const manifest = JSON.parse(
+    readFileSync(join(import.meta.dirname, "..", "..", "package.json"), "utf8")
+  ) as { devDependencies: Record<string, string> }
+  const version = manifest.devDependencies["@pkmn/dex"]
+  if (version === undefined || !/^\d+\.\d+\.\d+$/.test(version)) {
+    throw new Error("@pkmn/dex must be pinned to an exact version.")
+  }
+  return version
 }
 
 /** Each source, its licence and the version imported (spec 002, criterion 9). */
@@ -295,6 +310,13 @@ function credits(sources: Sources) {
       link: "https://www.smogon.com/stats/",
       licence: "Credited; no licence stated",
       version: `${sources["smogon-usage"].month}, ${sources["smogon-usage"].formats.join(" and ")} at ${sources["smogon-usage"].cutoff}`,
+    },
+    {
+      source: "pkmn-dex",
+      name: "Pokémon Showdown's data, through @pkmn/dex",
+      link: "https://github.com/pkmn/ps",
+      licence: "MIT",
+      version: pkmnVersion(),
     },
   ]
 }

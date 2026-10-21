@@ -10,10 +10,12 @@
     "start": "next start",
     "lint": "eslint --max-warnings 0",
     "typecheck": "next typegen && tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "import-images": "bun scripts/import-images.ts"
   },
   "dependencies": {
     "@sentry/nextjs": "11.4.0",
+    "@workspace/dex": "workspace:*",
     "@workspace/ui": "workspace:*",
     "lucide-react": "catalog:",
     "next": "16.4.1",
@@ -32,6 +34,7 @@
     "@workspace/eslint-config": "workspace:*",
     "@workspace/typescript-config": "workspace:*",
     "eslint": "catalog:",
+    "sharp": "0.35.5",
     "typescript": "catalog:",
     "vitest": "catalog:"
   }
