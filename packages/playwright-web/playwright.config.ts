@@ -21,8 +21,10 @@ export default defineConfig({
     { name: "webkit", use: { ...devices["Desktop Safari"] } },
   ],
   webServer: {
-    command: `bunx next start -p ${PORT}`,
-    cwd: "../../apps/web",
+    // The web app's own start script, found by its package name: no path
+    // into another package (Turborepo, "Common pitfalls").
+    command: "bun run --filter web start",
+    env: { PORT: String(PORT) },
     url: `http://localhost:${PORT}`,
     reuseExistingServer: !CI,
     timeout: 120_000,
