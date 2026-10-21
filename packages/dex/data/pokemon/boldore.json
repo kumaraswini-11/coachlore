@@ -1,0 +1,1317 @@
+{
+  "category": "Ore Pokémon",
+  "entries": [
+    {
+      "text": "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+      "version": "black"
+    },
+    {
+      "text": "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+      "version": "white"
+    },
+    {
+      "text": "When it is healthy, its core sticks out. Always facing the same way, it swiftly moves front to back and left to right.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it is healthy, its core sticks out. Always facing the same way, it swiftly moves front to back and left to right.",
+      "version": "white-2"
+    },
+    {
+      "text": "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+      "version": "x"
+    },
+    {
+      "text": "When it is healthy, its core sticks out. Always facing the same way, it swiftly moves front to back and left to right.",
+      "version": "y"
+    },
+    {
+      "text": "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it is healthy, its core sticks out. Always facing the same way, it swiftly moves front to back and left to right.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its orange crystal is a mass of energy. Just one crystal fragment would provide enough fuel for a hundred dump trucks.",
+      "version": "sun"
+    },
+    {
+      "text": "It explores caves in search of underground water. It’s not comfortable around water, so this Pokémon takes great care in lapping it up.",
+      "version": "moon"
+    },
+    {
+      "text": "The energy overflowing from its body has turned into orange crystals that are hard enough to smash diamonds.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its orange crystals are lumps of powerful energy. They’re valuable, so Boldore is sometimes targeted for them.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "If you see its orange crystals start to glow, be wary. It’s about to fire off bursts of energy.",
+      "version": "sword"
+    },
+    {
+      "text": "It relies on sound in order to monitor what’s in its vicinity. When angered, it will attack without ever changing the direction it’s facing.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "roggenrola",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "roggenrola",
+      "to": "boldore",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "boldore",
+      "to": "gigalith",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "weak-armor"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/boldore.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 15,
+            "location": "mirage-spot-cave-north-of-route-124",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "mirage-spot-cave-south-east-of-route-129",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "mirage-spot-cave-west-of-rustburo",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          }
+        ],
+        "black": [
+          {
+            "chance": 20,
+            "location": "challengers-cave-1f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b1f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 59
+          },
+          {
+            "chance": 50,
+            "location": "guidance-chamber-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 50,
+            "location": "mistralton-cave-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "trial-chamber-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 143,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-4f-middle-room",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-54",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-55",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-57",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-59",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-60",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-61",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-62",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-63",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-64",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-65",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-66",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "clay-tunnel-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 35,
+            "location": "glacier-room-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "guidance-chamber-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "iron-room-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "mistralton-cave-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 39,
+            "location": "relic-passage-pwt-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 34,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-49",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-50",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-51",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-52",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-53",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-54",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-55",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-56",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-57",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-58",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-59",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-60",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "seaside-cave-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "seaside-cave-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 120,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 35,
+            "location": "underground-ruins-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-74",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 100,
+            "location": "unova-victory-road-7f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 50,
+            "location": "wellspring-cave-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "moon": [
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-inside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 15,
+            "location": "mirage-spot-cave-north-of-route-124",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "mirage-spot-cave-south-east-of-route-129",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "mirage-spot-cave-west-of-rustburo",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-8-main",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 540,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 31
+          },
+          {
+            "chance": 540,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 31
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 300,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-inside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-8-main",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 180,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 31
+          },
+          {
+            "chance": 180,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 31
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 45,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 45,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-inside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-inside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "challengers-cave-1f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b1f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 59
+          },
+          {
+            "chance": 50,
+            "location": "guidance-chamber-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 50,
+            "location": "mistralton-cave-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "trial-chamber-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 143,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-4f-middle-room",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-54",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-55",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-57",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-59",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-60",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-61",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-62",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-63",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-64",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-65",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "unova-victory-road-unknown-area-66",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "clay-tunnel-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 35,
+            "location": "glacier-room-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "guidance-chamber-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "iron-room-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "mistralton-cave-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 39,
+            "location": "relic-passage-pwt-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 34,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-49",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-50",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-51",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-52",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-53",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-54",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-55",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-56",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-57",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-58",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-59",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "reversal-mountain-unknown-area-60",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "seaside-cave-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "seaside-cave-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 120,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 35,
+            "location": "underground-ruins-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-74",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 100,
+            "location": "unova-victory-road-7f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 50,
+            "location": "wellspring-cave-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "boldore",
+      "kind": "default",
+      "name": "Boldore",
+      "number": 525,
+      "pokemon": "boldore",
+      "sourceId": 525,
+      "sprite": "/dex-images/sprites/boldore.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 105,
+        "defense": 105,
+        "hp": 70,
+        "special-attack": 50,
+        "special-defense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 1020
+    }
+  ],
+  "generation": 5,
+  "key": "boldore",
+  "name": "Boldore",
+  "names": {
+    "de": "Sedimantur",
+    "en": "Boldore",
+    "es": "Boldore",
+    "es-419": "Boldore",
+    "fr": "Géolithe",
+    "it": "Boldore",
+    "ja": "ガントル",
+    "ja-hrkt": "ガントル",
+    "ja-roma": "Gantle",
+    "ko": "암트르",
+    "zh-hans": "地幔岩",
+    "zh-hant": "地幔岩"
+  },
+  "number": 525
+}

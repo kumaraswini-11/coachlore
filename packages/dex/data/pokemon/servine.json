@@ -1,0 +1,120 @@
+{
+  "category": "Grass Snake Pokémon",
+  "entries": [
+    {
+      "text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+      "version": "black"
+    },
+    {
+      "text": "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+      "version": "white"
+    },
+    {
+      "text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+      "version": "white-2"
+    },
+    {
+      "text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+      "version": "x"
+    },
+    {
+      "text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+      "version": "y"
+    },
+    {
+      "text": "It moves along the ground as if sliding. Its swift movements befuddle its foes, and it then attacks with a vine whip.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it gets dirty, its leaves can’t be used in photosynthesis, so it always keeps itself clean.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snivy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "snivy",
+      "to": "servine",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "servine",
+      "to": "serperior",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "contrary"
+        }
+      ],
+      "artwork": "/dex-images/artwork/servine.webp",
+      "encounters": {},
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "servine",
+      "kind": "default",
+      "name": "Servine",
+      "number": 496,
+      "pokemon": "servine",
+      "sourceId": 496,
+      "sprite": "/dex-images/sprites/servine.webp",
+      "statTotal": 413,
+      "stats": {
+        "attack": 60,
+        "defense": 75,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 83
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 160
+    }
+  ],
+  "generation": 5,
+  "key": "servine",
+  "name": "Servine",
+  "names": {
+    "de": "Efoserp",
+    "en": "Servine",
+    "es": "Servine",
+    "es-419": "Servine",
+    "fr": "Lianaja",
+    "it": "Servine",
+    "ja": "ジャノビー",
+    "ja-hrkt": "ジャノビー",
+    "ja-roma": "Janovy",
+    "ko": "샤비",
+    "zh-hans": "青藤蛇",
+    "zh-hant": "青藤蛇"
+  },
+  "number": 496
+}

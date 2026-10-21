@@ -1,0 +1,588 @@
+{
+  "category": "Floating Pokémon",
+  "entries": [
+    {
+      "text": "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+      "version": "black"
+    },
+    {
+      "text": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+      "version": "white"
+    },
+    {
+      "text": "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+      "version": "black-2"
+    },
+    {
+      "text": "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+      "version": "white-2"
+    },
+    {
+      "text": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+      "version": "x"
+    },
+    {
+      "text": "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+      "version": "y"
+    },
+    {
+      "text": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It wraps its veillike arms and legs around prey swimming by and drags them down to the depths of the ocean.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Using the invisible poison spikes on its veillike arms and legs, it paralyzes its enemies and causes them to drown.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It envelops its prey in its veillike arms and draws it down to the deeps, five miles below the ocean’s surface.",
+      "version": "sword"
+    },
+    {
+      "text": "Legend has it that the residents of a sunken ancient city changed into these Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "frillish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "frillish",
+      "to": "jellicent",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "cursed-body"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/frillish-male.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "driftveil-city-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 100,
+            "location": "p2-laboratory-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-17-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-18-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 65,
+            "location": "humilau-city-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "seaside-cave-1f",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "undella-town-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "unova-route-13-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "virbank-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "virbank-complex-outer",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "shield": [
+          {
+            "chance": 20,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 600,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 460,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 600,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 424,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 42
+          },
+          {
+            "chance": 25,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 360,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 38
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 600,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 460,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 600,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 424,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 42
+          },
+          {
+            "chance": 25,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 360,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 38
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 130,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 272,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 130,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 130,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 272,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 130,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 135,
+            "location": "alola-route-14-area",
+            "maxLevel": 34,
+            "method": "static",
+            "minLevel": 34
+          },
+          {
+            "chance": 135,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 135,
+            "location": "alola-route-14-area",
+            "maxLevel": 34,
+            "method": "static",
+            "minLevel": 34
+          },
+          {
+            "chance": 135,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "driftveil-city-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 100,
+            "location": "p2-laboratory-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-17-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-18-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 65,
+            "location": "humilau-city-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "seaside-cave-1f",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "undella-town-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "unova-route-13-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "virbank-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "virbank-complex-outer",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ]
+      },
+      "formName": "Male",
+      "games": ["black-white", "black-2-white-2", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "frillish-male",
+      "kind": "default",
+      "name": "Frillish",
+      "number": 592,
+      "pokemon": "frillish",
+      "sourceId": 592,
+      "sprite": "/dex-images/sprites/frillish-male.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 40,
+        "defense": 50,
+        "hp": 55,
+        "special-attack": 65,
+        "special-defense": 85,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["water", "ghost"],
+      "weight": 330
+    }
+  ],
+  "generation": 5,
+  "key": "frillish",
+  "name": "Frillish",
+  "names": {
+    "de": "Quabbel",
+    "en": "Frillish",
+    "es": "Frillish",
+    "es-419": "Frillish",
+    "fr": "Viskuse",
+    "it": "Frillish",
+    "ja": "プルリル",
+    "ja-hrkt": "プルリル",
+    "ja-roma": "Pururill",
+    "ko": "탱그릴",
+    "zh-hans": "轻飘飘",
+    "zh-hant": "輕飄飄"
+  },
+  "number": 592
+}

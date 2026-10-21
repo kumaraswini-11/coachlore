@@ -1,0 +1,850 @@
+{
+  "category": "Insect Pokémon",
+  "entries": [
+    {
+      "text": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+      "version": "red"
+    },
+    {
+      "text": "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
+      "version": "blue"
+    },
+    {
+      "text": "Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes.",
+      "version": "yellow"
+    },
+    {
+      "text": "Its eyes also function as radar units. It catches and eats small bugs that hide in darkness.",
+      "version": "gold"
+    },
+    {
+      "text": "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light.",
+      "version": "silver"
+    },
+    {
+      "text": "The small bugs it eats appear only at night, so it sleeps in a hole in a tree until night falls.",
+      "version": "crystal"
+    },
+    {
+      "text": "VENONAT is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even miniscule prey.",
+      "version": "ruby"
+    },
+    {
+      "text": "VENONAT is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even miniscule prey.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its coat of thin, stiff hair that covers its entire body is said to have evolved for protection. Its large eyes never fail to spot even miniscule prey.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its eyes act as radar, enabling it to be active in darkness. The eyes can also shoot powerful beams.",
+      "version": "firered"
+    },
+    {
+      "text": "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its eyes also function as radar units. It catches and eats small bugs that hide in darkness.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Poison oozes from all over its body. It catches and eats small bugs at night that are attracted by light.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "black"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "white"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its big eyes are actually clusters of tiny eyes. At night, its kind is drawn by light.",
+      "version": "x"
+    },
+    {
+      "text": "Lives in the shadows of tall trees where it eats bugs. It is attracted by light at night.",
+      "version": "y"
+    },
+    {
+      "text": "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "venonat",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 31
+      },
+      "from": "venonat",
+      "to": "venomoth",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "compound-eyes"
+        },
+        {
+          "hidden": false,
+          "key": "tinted-lens"
+        },
+        {
+          "hidden": true,
+          "key": "run-away"
+        }
+      ],
+      "artwork": "/dex-images/artwork/venonat.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "unova-route-3-hidden-grotto-pond",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "blue": [
+          {
+            "chance": 20,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 30,
+            "location": "ilex-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-43-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-43-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "national-park-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "firered": [
+          {
+            "chance": 10,
+            "location": "berry-forest-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 5,
+            "location": "bond-bridge-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "gold": [
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 20,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 35,
+            "location": "johto-route-43-area",
+            "maxLevel": 18,
+            "method": "headbutt",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "lake-of-rage-area",
+            "maxLevel": 19,
+            "method": "headbutt",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 10,
+            "location": "berry-forest-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 5,
+            "location": "bond-bridge-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 9
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 9
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "red": [
+          {
+            "chance": 20,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 20,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "silver": [
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 35,
+            "location": "johto-route-43-area",
+            "maxLevel": 18,
+            "method": "headbutt",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "lake-of-rage-area",
+            "maxLevel": 19,
+            "method": "headbutt",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "unova-route-3-hidden-grotto-pond",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 19,
+            "location": "kanto-route-14-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 19,
+            "location": "kanto-route-15-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-24-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-25-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "venonat",
+      "kind": "default",
+      "name": "Venonat",
+      "number": 48,
+      "pokemon": "venonat",
+      "sourceId": 48,
+      "sprite": "/dex-images/sprites/venonat.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 55,
+        "defense": 50,
+        "hp": 60,
+        "special-attack": 40,
+        "special-defense": 55,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 300
+    }
+  ],
+  "generation": 1,
+  "key": "venonat",
+  "name": "Venonat",
+  "names": {
+    "de": "Bluzuk",
+    "en": "Venonat",
+    "es": "Venonat",
+    "es-419": "Venonat",
+    "fr": "Mimitoss",
+    "it": "Venonat",
+    "ja": "コンパン",
+    "ja-hrkt": "コンパン",
+    "ja-roma": "Kongpang",
+    "ko": "콘팡",
+    "zh-hans": "毛球",
+    "zh-hant": "毛球"
+  },
+  "number": 48
+}

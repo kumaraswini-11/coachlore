@@ -1,0 +1,377 @@
+{
+  "category": "Windveiled Pokémon",
+  "entries": [
+    {
+      "text": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+      "version": "black"
+    },
+    {
+      "text": "Riding whirlwinds, they appear. These Pokémon sneak through gaps into houses and cause all sorts of mischief.",
+      "version": "white"
+    },
+    {
+      "text": "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+      "version": "black-2"
+    },
+    {
+      "text": "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+      "version": "white-2"
+    },
+    {
+      "text": "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+      "version": "x"
+    },
+    {
+      "text": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+      "version": "y"
+    },
+    {
+      "text": "They appear along with whirlwinds. They pull pranks, such as moving furniture and leaving balls of cotton in homes.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It rides on the wind and slips into people’s homes. After it has turned a room into a cotton- filled mess, it giggles to itself and takes off.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon appears, riding upon the wind. But if the wind gusts up, it’ll blow the cotton on this Pokémon’s head clean off.",
+      "version": "moon"
+    },
+    {
+      "text": "This nuisance sneaks into people’s homes, where it hides important things and scatters cotton all over the place.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Whimsicott doesn’t live in a fixed location. It floats around on whirling winds, appearing all over the place to perform its mischief.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It scatters cotton all over the place as a prank. If it gets wet, it’ll become too heavy to move and have no choice but to answer for its mischief.",
+      "version": "sword"
+    },
+    {
+      "text": "As long as this Pokémon bathes in sunlight, its cotton keeps growing. If too much cotton fluff builds up, Whimsicott tears it off and scatters it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cottonee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "cottonee",
+      "to": "whimsicott",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prankster"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "chlorophyll"
+        }
+      ],
+      "artwork": "/dex-images/artwork/whimsicott.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 17,
+            "method": "grass-spots",
+            "minLevel": 17
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "castelia-city-area",
+            "maxLevel": 18,
+            "method": "grass-spots",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "shield": [
+          {
+            "chance": 80,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 30,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 80,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 25,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 200,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 200,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "whimsicott",
+      "kind": "default",
+      "name": "Whimsicott",
+      "number": 547,
+      "pokemon": "whimsicott",
+      "sourceId": 547,
+      "sprite": "/dex-images/sprites/whimsicott.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 67,
+        "defense": 85,
+        "hp": 60,
+        "special-attack": 77,
+        "special-defense": 75,
+        "speed": 116
+      },
+      "tags": [],
+      "types": ["grass", "fairy"],
+      "weight": 66
+    }
+  ],
+  "generation": 5,
+  "key": "whimsicott",
+  "name": "Whimsicott",
+  "names": {
+    "de": "Elfun",
+    "en": "Whimsicott",
+    "es": "Whimsicott",
+    "es-419": "Whimsicott",
+    "fr": "Farfaduvet",
+    "it": "Whimsicott",
+    "ja": "エルフーン",
+    "ja-hrkt": "エルフーン",
+    "ja-roma": "Elfuun",
+    "ko": "엘풍",
+    "zh-hans": "风妖精",
+    "zh-hant": "風妖精"
+  },
+  "number": 547
+}

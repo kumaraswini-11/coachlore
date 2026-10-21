@@ -1,0 +1,170 @@
+{
+  "category": "Moth Pokémon",
+  "entries": [
+    {
+      "text": "It loves the honey of flowers and steals honey collected by COMBEE.",
+      "version": "diamond"
+    },
+    {
+      "text": "It does not keep a nest. It flies over fields and mountains in constant search of floral honey.",
+      "version": "pearl"
+    },
+    {
+      "text": "While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from COMBEE.",
+      "version": "platinum"
+    },
+    {
+      "text": "It flutters around at night and steals honey from the COMBEE hive.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It flutters around at night and steals honey from the COMBEE hive.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from Combee.",
+      "version": "black"
+    },
+    {
+      "text": "While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from Combee.",
+      "version": "white"
+    },
+    {
+      "text": "While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from Combee.",
+      "version": "black-2"
+    },
+    {
+      "text": "While it loves floral honey, it won’t gather any itself. Instead, it plots to steal some from Combee.",
+      "version": "white-2"
+    },
+    {
+      "text": "It loves the honey of flowers and steals honey collected by Combee.",
+      "version": "x"
+    },
+    {
+      "text": "It flutters around at night and steals honey from the Combee hive.",
+      "version": "y"
+    },
+    {
+      "text": "It loves the honey of flowers and steals honey collected by Combee.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It flutters around at night and steals honey from the Combee hive.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Scatters steel-colored scales as it flaps its wings. Despite being observed feeding primarily on the nectar of flowers, Mothim is not often seen around flower gardens.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "burmy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "wormadam-plant",
+        "gender": 1,
+        "min_level": 20,
+        "required_pokemon_form": "burmy-plant"
+      },
+      "from": "burmy",
+      "to": "wormadam",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "wormadam-sandy",
+        "gender": 1,
+        "min_level": 20,
+        "required_pokemon_form": "burmy-sandy"
+      },
+      "from": "burmy",
+      "to": "wormadam",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "wormadam-trash",
+        "gender": 1,
+        "min_level": 20,
+        "required_pokemon_form": "burmy-trash"
+      },
+      "from": "burmy",
+      "to": "wormadam",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "gender": 2,
+        "min_level": 20
+      },
+      "from": "burmy",
+      "to": "mothim",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": true,
+          "key": "tinted-lens"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mothim.webp",
+      "encounters": {},
+      "games": ["diamond-pearl", "platinum", "x-y", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mothim",
+      "kind": "default",
+      "name": "Mothim",
+      "number": 414,
+      "pokemon": "mothim",
+      "sourceId": 414,
+      "sprite": "/dex-images/sprites/mothim.webp",
+      "statTotal": 424,
+      "stats": {
+        "attack": 94,
+        "defense": 50,
+        "hp": 70,
+        "special-attack": 94,
+        "special-defense": 50,
+        "speed": 66
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 233
+    }
+  ],
+  "generation": 4,
+  "key": "mothim",
+  "name": "Mothim",
+  "names": {
+    "de": "Moterpel",
+    "en": "Mothim",
+    "es": "Mothim",
+    "es-419": "Mothim",
+    "fr": "Papilord",
+    "it": "Mothim",
+    "ja": "ガーメイル",
+    "ja-hrkt": "ガーメイル",
+    "ja-roma": "Gamale",
+    "ko": "나메일",
+    "zh-hans": "绅士蛾",
+    "zh-hant": "紳士蛾"
+  },
+  "number": 414
+}

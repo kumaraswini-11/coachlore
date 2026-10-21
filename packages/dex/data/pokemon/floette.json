@@ -1,0 +1,324 @@
+{
+  "category": "Single Bloom Pokémon",
+  "entries": [
+    {
+      "text": "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+      "version": "x"
+    },
+    {
+      "text": "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
+      "version": "y"
+    },
+    {
+      "text": "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It raises flowers and uses them as weapons. The more gorgeous the blossom, the more power it contains.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "flabebe",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-red",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-red"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-yellow",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-yellow"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-orange",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-orange"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-blue",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-blue"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-white",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-white"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-red",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-red"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-yellow",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-yellow"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-orange",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-orange"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-blue",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-blue"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-white",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-white"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flower-veil"
+        },
+        {
+          "hidden": true,
+          "key": "symbiosis"
+        }
+      ],
+      "artwork": "/dex-images/artwork/floette.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fairy",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fairy",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Red Flower",
+      "games": ["x-y", "ultra-sun-ultra-moon", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "floette",
+      "kind": "default",
+      "name": "Floette",
+      "number": 670,
+      "pokemon": "floette",
+      "sourceId": 670,
+      "sprite": "/dex-images/sprites/floette.webp",
+      "statTotal": 371,
+      "stats": {
+        "attack": 45,
+        "defense": 47,
+        "hp": 54,
+        "special-attack": 75,
+        "special-defense": 98,
+        "speed": 52
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 9
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flower-veil"
+        },
+        {
+          "hidden": true,
+          "key": "symbiosis"
+        }
+      ],
+      "artwork": "/dex-images/artwork/floette-eternal.webp",
+      "encounters": {},
+      "formName": "Eternal Flower",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "floette-eternal",
+      "kind": "other",
+      "name": "Floette-Eternal",
+      "number": 670,
+      "pokemon": "floette",
+      "sourceId": 10061,
+      "sprite": "/dex-images/sprites/floette-eternal.webp",
+      "statTotal": 551,
+      "stats": {
+        "attack": 65,
+        "defense": 67,
+        "hp": 74,
+        "special-attack": 125,
+        "special-defense": 128,
+        "speed": 92
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 9
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "fairy-aura"
+        }
+      ],
+      "artwork": "/dex-images/artwork/floette-mega.webp",
+      "encounters": {},
+      "formName": "Mega Floette",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 2,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "floette-mega",
+      "kind": "mega",
+      "name": "Floette-Mega",
+      "number": 670,
+      "pokemon": "floette",
+      "sourceId": 10296,
+      "sprite": "/dex-images/sprites/floette-mega.webp",
+      "statTotal": 651,
+      "stats": {
+        "attack": 85,
+        "defense": 87,
+        "hp": 74,
+        "special-attack": 155,
+        "special-defense": 148,
+        "speed": 102
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 1008
+    }
+  ],
+  "generation": 6,
+  "key": "floette",
+  "name": "Floette",
+  "names": {
+    "de": "Floette",
+    "en": "Floette",
+    "es": "Floette",
+    "es-419": "Floette",
+    "fr": "Floette",
+    "it": "Floette",
+    "ja": "フラエッテ",
+    "ja-hrkt": "フラエッテ",
+    "ja-roma": "Floette",
+    "ko": "플라엣테",
+    "zh-hans": "花叶蒂",
+    "zh-hant": "花葉蒂"
+  },
+  "number": 670
+}

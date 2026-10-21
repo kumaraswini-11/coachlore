@@ -1,0 +1,332 @@
+{
+  "category": "Cave Pokémon",
+  "entries": [
+    {
+      "text": "There is a long-held belief that medicine made from its scales will heal even incurable illnesses.",
+      "version": "diamond"
+    },
+    {
+      "text": "It habitually digs up and hoards gems in its nest. Its loot is constantly targeted by thieves.",
+      "version": "pearl"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "platinum"
+    },
+    {
+      "text": "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
+      "version": "heartgold"
+    },
+    {
+      "text": "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "black"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "white"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "black-2"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "white-2"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "x"
+    },
+    {
+      "text": "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
+      "version": "y"
+    },
+    {
+      "text": "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
+      "version": "sun"
+    },
+    {
+      "text": "Shiny objects are its passion. It can be found in its cave, scarcely moving, its gaze fixed on the jewels it’s amassed or Carbink it has caught.",
+      "version": "moon"
+    },
+    {
+      "text": "It loves shiny things. When it finds a Sableye trying to catch a Carbink, Gabite becomes furiously angry and attacks the Sableye.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It sheds its skin and gradually grows larger. Its scales can be ground into a powder and used as raw materials for traditional medicine.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
+      "version": "sword"
+    },
+    {
+      "text": "Jewels are buried in the caves these Pokémon nest in, but you’ll be torn apart by claws and fangs the moment you enter one of these caves.",
+      "version": "shield"
+    },
+    {
+      "text": "Though Gabite are usually of a violent disposition, when I gave one a glass bead it had been eyeing covetously, it suddenly became quite docile.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gible",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "gible",
+      "to": "gabite",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "gabite",
+      "to": "garchomp",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "rough-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gabite.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 28
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 28
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 140,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 32
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 32
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 4,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gabite",
+      "kind": "default",
+      "name": "Gabite",
+      "number": 444,
+      "pokemon": "gabite",
+      "sourceId": 444,
+      "sprite": "/dex-images/sprites/gabite.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 90,
+        "defense": 65,
+        "hp": 68,
+        "special-attack": 50,
+        "special-defense": 55,
+        "speed": 82
+      },
+      "tags": [],
+      "types": ["dragon", "ground"],
+      "weight": 560
+    }
+  ],
+  "generation": 4,
+  "key": "gabite",
+  "name": "Gabite",
+  "names": {
+    "de": "Knarksel",
+    "en": "Gabite",
+    "es": "Gabite",
+    "es-419": "Gabite",
+    "fr": "Carmache",
+    "it": "Gabite",
+    "ja": "ガバイト",
+    "ja-hrkt": "ガバイト",
+    "ja-roma": "Gabite",
+    "ko": "한바이트",
+    "zh-hans": "尖牙陆鲨",
+    "zh-hant": "尖牙陸鯊"
+  },
+  "number": 444
+}

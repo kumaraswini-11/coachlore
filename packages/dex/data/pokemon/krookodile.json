@@ -1,0 +1,297 @@
+{
+  "category": "Intimidation Pokémon",
+  "entries": [
+    {
+      "text": "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+      "version": "black"
+    },
+    {
+      "text": "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
+      "version": "white"
+    },
+    {
+      "text": "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+      "version": "black-2"
+    },
+    {
+      "text": "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+      "version": "white-2"
+    },
+    {
+      "text": "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+      "version": "x"
+    },
+    {
+      "text": "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+      "version": "y"
+    },
+    {
+      "text": "Very violent Pokémon, they try to clamp down on anything that moves in front of their eyes.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They never allow prey to escape. Their jaws are so powerful, they can crush the body of an automobile.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its unique faculty of sight can detect small prey more than 30 miles away, even in the midst of a sandstorm.",
+      "version": "sun"
+    },
+    {
+      "text": "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+      "version": "moon"
+    },
+    {
+      "text": "When it spots prey, even at a distance of over 30 miles, it swims through the desert as if it were water, then jumps out and chomps them.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It conceals itself in sandstorms that Flygon whip up and waits patiently for prey to appear.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon is known as the Bully of the Sands. Krookodile’s mighty jaws can bite through heavy plates of iron with almost no effort at all.",
+      "version": "sword"
+    },
+    {
+      "text": "While terribly aggressive, Krookodile also has the patience to stay hidden under sand for days, lying in wait for prey.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sandile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 29
+      },
+      "from": "sandile",
+      "to": "krokorok",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "krokorok",
+      "to": "krookodile",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "moxie"
+        },
+        {
+          "hidden": true,
+          "key": "anger-point"
+        }
+      ],
+      "artwork": "/dex-images/artwork/krookodile.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 50,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 50,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 50,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 50,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "krookodile",
+      "kind": "default",
+      "name": "Krookodile",
+      "number": 553,
+      "pokemon": "krookodile",
+      "sourceId": 553,
+      "sprite": "/dex-images/sprites/krookodile.webp",
+      "statTotal": 519,
+      "stats": {
+        "attack": 117,
+        "defense": 80,
+        "hp": 95,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 92
+      },
+      "tags": [],
+      "types": ["ground", "dark"],
+      "weight": 963
+    }
+  ],
+  "generation": 5,
+  "key": "krookodile",
+  "name": "Krookodile",
+  "names": {
+    "de": "Rabigator",
+    "en": "Krookodile",
+    "es": "Krookodile",
+    "es-419": "Krookodile",
+    "fr": "Crocorible",
+    "it": "Krookodile",
+    "ja": "ワルビアル",
+    "ja-hrkt": "ワルビアル",
+    "ja-roma": "Waruvial",
+    "ko": "악비아르",
+    "zh-hans": "流氓鳄",
+    "zh-hant": "流氓鱷"
+  },
+  "number": 553
+}

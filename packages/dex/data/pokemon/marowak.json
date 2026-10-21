@@ -1,0 +1,815 @@
+{
+  "category": "Bone Keeper Pokémon",
+  "entries": [
+    {
+      "text": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "version": "red"
+    },
+    {
+      "text": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "version": "blue"
+    },
+    {
+      "text": "Small and weak, this POKéMON is adept with its bone club. It has grown more vicious over the ages.",
+      "version": "yellow"
+    },
+    {
+      "text": "It has been seen pounding boulders with the bone it carries in order to tap out messages to others.",
+      "version": "gold"
+    },
+    {
+      "text": "It collects bones from an unknown place. A MAROWAK graveyard exists somewhere in the world, rumors say.",
+      "version": "silver"
+    },
+    {
+      "text": "Somewhere in the world is a cemetery just for MAROWAK. It gets its bones from those graves.",
+      "version": "crystal"
+    },
+    {
+      "text": "MAROWAK is the evolved form of a CUBONE that has overcome its sadness at the loss of its mother and grown tough. This POKéMON’s tempered and hardened spirit is not easily broken.",
+      "version": "ruby"
+    },
+    {
+      "text": "MAROWAK is the evolved form of a CUBONE that has overcome its sadness at the loss of its mother and grown tough. This POKéMON’s tempered and hardened spirit is not easily broken.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A MAROWAK is the evolved form of a CUBONE that has grown tough by overcoming the grief of losing its mother. Its tempered and hardened spirit is not easily broken.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is small and was originally very weak. Its temperament turned ferocious when it began using bones.",
+      "version": "firered"
+    },
+    {
+      "text": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "diamond"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "pearl"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "platinum"
+    },
+    {
+      "text": "It has been seen pounding boulders with the bone it carries in order to tap out messages to others.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It collects bones from an unknown place. Some whisper that a MAROWAK graveyard exists somewhere in the world.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "black"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "white"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "black-2"
+    },
+    {
+      "text": "From its birth, this savage Pokémon constantly holds bones. It is skilled in using them as weapons.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is small and was originally very weak. Its temperament turned ferocious when it began using bones.",
+      "version": "x"
+    },
+    {
+      "text": "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
+      "version": "y"
+    },
+    {
+      "text": "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon’s tempered and hardened spirit is not easily broken.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon’s tempered and hardened spirit is not easily broken.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Originally, it was weak and timid. After evolution, its temperament becomes violent, and it begins to wield bones as weapons.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon is out for vengeance on its natural enemy, Mandibuzz. It throws bones like boomerangs to try to take it down.",
+      "version": "moon"
+    },
+    {
+      "text": "It throws bones at Mandibuzz to knock it down. It’s thought that Marowak is trying to avenge its parent.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Small and weak, this Pokémon is adept with its bone club. It has grown more vicious over the ages.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Small and weak, this Pokémon is adept with its bone club. It has grown more vicious over the ages.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
+      "version": "sword"
+    },
+    {
+      "text": "When this Pokémon evolved, the skull of its mother fused to it. Marowak’s temperament also turned vicious at the same time.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cubone",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "cubone",
+      "to": "marowak",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "marowak-alola",
+        "min_level": 28,
+        "region": "alola",
+        "time_of_day": "night"
+      },
+      "from": "cubone",
+      "to": "marowak",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": true,
+          "key": "battle-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/marowak.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "blue": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 4,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-9-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "sevault-canyon-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 4,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "sevault-canyon-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "red": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 4,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 4,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 40,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 70,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 70,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 70,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 70,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 70,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 70,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-dome-1f",
+            "maxLevel": 44,
+            "method": "snag",
+            "minLevel": 44
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "red-green-japan", "blue-japan", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "marowak",
+      "kind": "default",
+      "name": "Marowak",
+      "number": 105,
+      "pokemon": "marowak",
+      "sourceId": 105,
+      "sprite": "/dex-images/sprites/marowak.webp",
+      "statTotal": 425,
+      "stats": {
+        "attack": 80,
+        "defense": 110,
+        "hp": 60,
+        "special-attack": 50,
+        "special-defense": 80,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 450
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cursed-body"
+        },
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": true,
+          "key": "rock-head"
+        }
+      ],
+      "artwork": "/dex-images/artwork/marowak-alola.webp",
+      "encounters": {
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "fuchsia-city-area",
+            "maxLevel": 38,
+            "method": "npc-trade",
+            "minLevel": 38
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "fuchsia-city-area",
+            "maxLevel": 38,
+            "method": "npc-trade",
+            "minLevel": 38
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ]
+      },
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "marowak-alola",
+      "kind": "regional",
+      "name": "Marowak-Alola",
+      "number": 105,
+      "pokemon": "marowak",
+      "sourceId": 10115,
+      "sprite": "/dex-images/sprites/marowak-alola.webp",
+      "statTotal": 425,
+      "stats": {
+        "attack": 80,
+        "defense": 110,
+        "hp": 60,
+        "special-attack": 50,
+        "special-defense": 80,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["fire", "ghost"],
+      "weight": 340
+    }
+  ],
+  "generation": 1,
+  "key": "marowak",
+  "name": "Marowak",
+  "names": {
+    "de": "Knogga",
+    "en": "Marowak",
+    "es": "Marowak",
+    "es-419": "Marowak",
+    "fr": "Ossatueur",
+    "it": "Marowak",
+    "ja": "ガラガラ",
+    "ja-hrkt": "ガラガラ",
+    "ja-roma": "Garagara",
+    "ko": "텅구리",
+    "zh-hans": "嘎啦嘎啦",
+    "zh-hant": "嘎啦嘎啦"
+  },
+  "number": 105
+}

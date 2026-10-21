@@ -1,0 +1,509 @@
+{
+  "category": "Brutal Star Pokémon",
+  "entries": [
+    {
+      "text": "Toxapex crawls along the ocean floor on its 12 legs. It leaves a trail of Corsola bits scattered in its wake.",
+      "version": "sun"
+    },
+    {
+      "text": "Those attacked by Toxapex’s poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.",
+      "version": "moon"
+    },
+    {
+      "text": "To attack, this Pokémon sends toxic spikes flying at its enemies. Ones that come close get mown down by the claws on its feet.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "With its 12 legs, it creates a dome to shelter within. The flow of the tides doesn’t affect Toxapex in there, so it’s very comfortable.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat.",
+      "version": "sword"
+    },
+    {
+      "text": "Within the poison sac in its body is a poison so toxic that Pokémon as large as Wailord will still be suffering three days after it first takes effect.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mareanie",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "mareanie",
+      "to": "toxapex",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "merciless"
+        },
+        {
+          "hidden": false,
+          "key": "limber"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toxapex.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 58,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 58,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 58,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 58,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 58,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 58,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 58,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 58,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 58,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 58,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 800,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 800,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "toxapex",
+      "kind": "default",
+      "name": "Toxapex",
+      "number": 748,
+      "pokemon": "toxapex",
+      "sourceId": 748,
+      "sprite": "/dex-images/sprites/toxapex.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 63,
+        "defense": 152,
+        "hp": 50,
+        "special-attack": 53,
+        "special-defense": 142,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["poison", "water"],
+      "weight": 145
+    }
+  ],
+  "generation": 7,
+  "key": "toxapex",
+  "name": "Toxapex",
+  "names": {
+    "de": "Aggrostella",
+    "en": "Toxapex",
+    "es": "Toxapex",
+    "es-419": "Toxapex",
+    "fr": "Prédastérie",
+    "it": "Toxapex",
+    "ja": "ドヒドイデ",
+    "ja-hrkt": "ドヒドイデ",
+    "ja-roma": "Dohidoide",
+    "ko": "더시마사리",
+    "zh-hans": "超坏星",
+    "zh-hant": "超壞星"
+  },
+  "number": 748
+}

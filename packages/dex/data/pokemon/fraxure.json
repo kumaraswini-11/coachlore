@@ -1,0 +1,244 @@
+{
+  "category": "Axe Jaw Pokémon",
+  "entries": [
+    {
+      "text": "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they’ve been fighting.",
+      "version": "black"
+    },
+    {
+      "text": "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+      "version": "white"
+    },
+    {
+      "text": "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+      "version": "black-2"
+    },
+    {
+      "text": "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+      "version": "white-2"
+    },
+    {
+      "text": "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+      "version": "x"
+    },
+    {
+      "text": "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+      "version": "y"
+    },
+    {
+      "text": "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "A broken tusk will not grow back, so it diligently sharpens its tusks on river rocks after the end of a battle.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
+      "version": "sword"
+    },
+    {
+      "text": "Its skin is as hard as a suit of armor. Fraxure’s favorite strategy is to tackle its opponents, stabbing them with its tusks at the same time.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "axew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "axew",
+      "to": "fraxure",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "fraxure",
+      "to": "haxorus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": false,
+          "key": "mold-breaker"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/fraxure.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-victory-road-outside",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "shield": [
+          {
+            "chance": 55,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 135,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-victory-road-outside",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "fraxure",
+      "kind": "default",
+      "name": "Fraxure",
+      "number": 611,
+      "pokemon": "fraxure",
+      "sourceId": 611,
+      "sprite": "/dex-images/sprites/fraxure.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 117,
+        "defense": 70,
+        "hp": 66,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 67
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 360
+    }
+  ],
+  "generation": 5,
+  "key": "fraxure",
+  "name": "Fraxure",
+  "names": {
+    "de": "Sharfax",
+    "en": "Fraxure",
+    "es": "Fraxure",
+    "es-419": "Fraxure",
+    "fr": "Incisache",
+    "it": "Fraxure",
+    "ja": "オノンド",
+    "ja-hrkt": "オノンド",
+    "ja-roma": "Onondo",
+    "ko": "액슨도",
+    "zh-hans": "斧牙龙",
+    "zh-hant": "斧牙龍"
+  },
+  "number": 611
+}

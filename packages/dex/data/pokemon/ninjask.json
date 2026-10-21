@@ -1,0 +1,291 @@
+{
+  "category": "Ninja Pokémon",
+  "entries": [
+    {
+      "text": "NINJASK moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this POKéMON was long believed to be invisible.",
+      "version": "ruby"
+    },
+    {
+      "text": "If NINJASK is not trained properly, it will refuse to obey the TRAINER and cry loudly continuously. Because of this quality, this POKéMON is said to be one that puts the TRAINER’s abilities to the test.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Because it darts about vigorously at high speed, it is very difficult to see. Hearing its distinctive cries for too long induces a headache.",
+      "version": "emerald"
+    },
+    {
+      "text": "This POKéMON is so quick, it is said to be able to avoid any attack. It loves to feed on tree sap.",
+      "version": "firered"
+    },
+    {
+      "text": "This POKéMON is so quick, it is said to be able to avoid any attack. It loves to feed on tree sap.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "diamond"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "pearl"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "black"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "white"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "black-2"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible.",
+      "version": "x"
+    },
+    {
+      "text": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+      "version": "y"
+    },
+    {
+      "text": "Ninjask moves around at such a high speed that it cannot be seen, even while its crying can be clearly heard. For that reason, this Pokémon was long believed to be invisible.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If Ninjask is not trained properly, it will refuse to obey the Trainer and cry loudly continuously. Because of this quality, this Pokémon is said to be one that puts the Trainer’s abilities to the test.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its cry leaves a lasting headache if heard for too long. It moves so quickly that it is almost invisible.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon is so quick, it is said to be able to avoid any attack. It loves to feed on tree sap.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nincada",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "nincada",
+      "to": "ninjask",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "nincada",
+      "to": "shedinja",
+      "trigger": "shed"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "speed-boost"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ninjask.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1800,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1800,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 55,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 55,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sword-shield"],
+      "gen9": false,
+      "generation": 3,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ninjask",
+      "kind": "default",
+      "name": "Ninjask",
+      "number": 291,
+      "pokemon": "ninjask",
+      "sourceId": 291,
+      "sprite": "/dex-images/sprites/ninjask.webp",
+      "statTotal": 456,
+      "stats": {
+        "attack": 90,
+        "defense": 45,
+        "hp": 61,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 160
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 120
+    }
+  ],
+  "generation": 3,
+  "key": "ninjask",
+  "name": "Ninjask",
+  "names": {
+    "de": "Ninjask",
+    "en": "Ninjask",
+    "es": "Ninjask",
+    "es-419": "Ninjask",
+    "fr": "Ninjask",
+    "it": "Ninjask",
+    "ja": "テッカニン",
+    "ja-hrkt": "テッカニン",
+    "ja-roma": "Tekkanin",
+    "ko": "아이스크",
+    "zh-hans": "铁面忍者",
+    "zh-hant": "鐵面忍者"
+  },
+  "number": 291
+}

@@ -1,0 +1,495 @@
+{
+  "category": "Puppy Pokémon",
+  "entries": [
+    {
+      "text": "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+      "version": "black"
+    },
+    {
+      "text": "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+      "version": "white"
+    },
+    {
+      "text": "Though it is a very brave Pokémon, it’s also smart enough to check its foe’s strength and avoid battle.",
+      "version": "black-2"
+    },
+    {
+      "text": "Though it is a very brave Pokémon, it’s also smart enough to check its foe’s strength and avoid battle.",
+      "version": "white-2"
+    },
+    {
+      "text": "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+      "version": "x"
+    },
+    {
+      "text": "Though it is a very brave Pokémon, it’s also smart enough to check its foe’s strength and avoid battle.",
+      "version": "y"
+    },
+    {
+      "text": "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Though it is a very brave Pokémon, it’s also smart enough to check its foe’s strength and avoid battle.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Because it doesn’t yelp, it’s extremely popular with Trainers who live in apartment buildings.",
+      "version": "sun"
+    },
+    {
+      "text": "The long fur surrounding its face functions as radar, enabling it to probe the condition of its battle opponents.",
+      "version": "moon"
+    },
+    {
+      "text": "This Pokémon has excellent judgment. If it decides it can’t defeat an opponent, it immediately turns tail and vamooses.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This Pokémon is popular with beginners because it’s intelligent, obedient to its Trainer’s commands, and easy to raise.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon is courageous but also cautious. It uses the soft fur covering its face to collect information about its surroundings.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon is far brighter than the average child, and Lillipup won’t forget the love it receives or any abuse it suffers.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "lillipup",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "lillipup",
+      "to": "herdier",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "herdier",
+      "to": "stoutland",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "vital-spirit"
+        },
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": true,
+          "key": "run-away"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lillipup.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 50,
+            "location": "unova-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-2-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 40,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "paniola-ranch-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "paniola-ranch-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 155,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1274,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 1274,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 155,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1274,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 1274,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 50,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 50,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "paniola-ranch-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 50,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 50,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "paniola-ranch-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "white": [
+          {
+            "chance": 50,
+            "location": "unova-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-2-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lillipup",
+      "kind": "default",
+      "name": "Lillipup",
+      "number": 506,
+      "pokemon": "lillipup",
+      "sourceId": 506,
+      "sprite": "/dex-images/sprites/lillipup.webp",
+      "statTotal": 275,
+      "stats": {
+        "attack": 60,
+        "defense": 45,
+        "hp": 45,
+        "special-attack": 25,
+        "special-defense": 45,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 41
+    }
+  ],
+  "generation": 5,
+  "key": "lillipup",
+  "name": "Lillipup",
+  "names": {
+    "de": "Yorkleff",
+    "en": "Lillipup",
+    "es": "Lillipup",
+    "es-419": "Lillipup",
+    "fr": "Ponchiot",
+    "it": "Lillipup",
+    "ja": "ヨーテリー",
+    "ja-hrkt": "ヨーテリー",
+    "ja-roma": "Yorterrie",
+    "ko": "요테리",
+    "zh-hans": "小约克",
+    "zh-hant": "小約克"
+  },
+  "number": 506
+}

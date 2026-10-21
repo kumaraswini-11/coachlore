@@ -1,0 +1,272 @@
+{
+  "category": "Big Jaw Pokémon",
+  "entries": [
+    {
+      "text": "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
+      "version": "gold"
+    },
+    {
+      "text": "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+      "version": "silver"
+    },
+    {
+      "text": "This rough critter chomps at any moving object it sees. Turning your back on it is not recommended.",
+      "version": "crystal"
+    },
+    {
+      "text": "Despite the smallness of its body, TOTODILE’s jaws are very powerful. While the POKéMON may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+      "version": "ruby"
+    },
+    {
+      "text": "Despite the smallness of its body, TOTODILE’s jaws are very powerful. While the POKéMON may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Despite its small body, TOTODILE’s jaws are very powerful. While it may think it is just playfully nipping, its bite has enough strength to cause serious injury.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves.",
+      "version": "firered"
+    },
+    {
+      "text": "Its well-developed jaws are powerful and capable of crushing anything. Even its TRAINER must be careful.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "diamond"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "black"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "white"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "black-2"
+    },
+    {
+      "text": "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves.",
+      "version": "x"
+    },
+    {
+      "text": "Its powerful, well-developed jaws are capable of crushing anything. Even its Trainer must be careful.",
+      "version": "y"
+    },
+    {
+      "text": "Despite the smallness of its body, Totodile’s jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Despite the smallness of its body, Totodile’s jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "totodile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "totodile",
+      "to": "croconaw",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "croconaw",
+      "to": "feraligatr",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/totodile.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "littleroot-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "seaward-cave-area",
+            "maxLevel": 12,
+            "method": "island-scan",
+            "minLevel": 12
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "seaward-cave-area",
+            "maxLevel": 12,
+            "method": "island-scan",
+            "minLevel": 12
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "mt-battle-lobby",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "totodile",
+      "kind": "default",
+      "name": "Totodile",
+      "number": 158,
+      "pokemon": "totodile",
+      "sourceId": 158,
+      "sprite": "/dex-images/sprites/totodile.webp",
+      "statTotal": 314,
+      "stats": {
+        "attack": 65,
+        "defense": 64,
+        "hp": 50,
+        "special-attack": 44,
+        "special-defense": 48,
+        "speed": 43
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 95
+    }
+  ],
+  "generation": 2,
+  "key": "totodile",
+  "name": "Totodile",
+  "names": {
+    "de": "Karnimani",
+    "en": "Totodile",
+    "es": "Totodile",
+    "es-419": "Totodile",
+    "fr": "Kaiminus",
+    "it": "Totodile",
+    "ja": "ワニノコ",
+    "ja-hrkt": "ワニノコ",
+    "ja-roma": "Waninoko",
+    "ko": "리아코",
+    "zh-hans": "小锯鳄",
+    "zh-hant": "小鋸鱷"
+  },
+  "number": 158
+}

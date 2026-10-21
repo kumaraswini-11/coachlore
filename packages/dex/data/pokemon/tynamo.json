@@ -1,0 +1,311 @@
+{
+  "category": "EleFish Pokémon",
+  "entries": [
+    {
+      "text": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+      "version": "black"
+    },
+    {
+      "text": "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+      "version": "white"
+    },
+    {
+      "text": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+      "version": "black-2"
+    },
+    {
+      "text": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+      "version": "white-2"
+    },
+    {
+      "text": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+      "version": "x"
+    },
+    {
+      "text": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+      "version": "y"
+    },
+    {
+      "text": "While one alone doesn’t have much power, a chain of many Tynamo can be as powerful as lightning.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tynamo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39
+      },
+      "from": "tynamo",
+      "to": "eelektrik",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "eelektrik",
+      "to": "eelektross",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tynamo.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-cave-north-of-fallarbor",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-cave-north-of-fortree",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-cave-north-of-route-132",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-cave-south-east-of-route-129",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-cave-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "mirage-spot-cave-west-of-rustburo",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 2,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 2,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 8,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 2,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 2,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 8,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 5,
+            "location": "seaside-cave-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-cave-north-of-fallarbor",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-cave-north-of-fortree",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-cave-north-of-route-132",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-cave-south-east-of-route-129",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-cave-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "mirage-spot-cave-west-of-rustburo",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "white": [
+          {
+            "chance": 2,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 2,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 8,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 2,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 2,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 8,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 5,
+            "location": "seaside-cave-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-teal-mask", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 5,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tynamo",
+      "kind": "default",
+      "name": "Tynamo",
+      "number": 602,
+      "pokemon": "tynamo",
+      "sourceId": 602,
+      "sprite": "/dex-images/sprites/tynamo.webp",
+      "statTotal": 275,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 45,
+        "special-defense": 40,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 3
+    }
+  ],
+  "generation": 5,
+  "key": "tynamo",
+  "name": "Tynamo",
+  "names": {
+    "de": "Zapplardin",
+    "en": "Tynamo",
+    "es": "Tynamo",
+    "es-419": "Tynamo",
+    "fr": "Anchwatt",
+    "it": "Tynamo",
+    "ja": "シビシラス",
+    "ja-hrkt": "シビシラス",
+    "ja-roma": "Shibishirasu",
+    "ko": "저리어",
+    "zh-hans": "麻麻小鱼",
+    "zh-hant": "麻麻小魚"
+  },
+  "number": 602
+}

@@ -1,0 +1,258 @@
+{
+  "category": "Long Body Pokémon",
+  "entries": [
+    {
+      "text": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter.",
+      "version": "gold"
+    },
+    {
+      "text": "There is no telling where the tail begins. Despite its short legs, it is quick at hunting RATTATA.",
+      "version": "silver"
+    },
+    {
+      "text": "It lives in narrow burrows that fit its slim body. The deeper the nests go, the more mazelike they become.",
+      "version": "crystal"
+    },
+    {
+      "text": "FURRET has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this POKéMON is very nimble and fleet.",
+      "version": "ruby"
+    },
+    {
+      "text": "FURRET has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this POKéMON is very nimble and fleet.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A FURRET has a very slim build. When under attack, it can squirm through narrow spaces and get away. In spite of its short limbs, it is very nimble and fleet.",
+      "version": "emerald"
+    },
+    {
+      "text": "There is no telling where its tail begins. Despite its short legs, it is quick at hunting RATTATA.",
+      "version": "firered"
+    },
+    {
+      "text": "It makes a nest to suit its long and skinny body. The nest is impossible for other POKéMON to enter.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "diamond"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "pearl"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "platinum"
+    },
+    {
+      "text": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
+      "version": "heartgold"
+    },
+    {
+      "text": "There is no telling where the tail begins. Despite its short legs, it is quick and likes to chase RATTATA.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "black"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "white"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "black-2"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "white-2"
+    },
+    {
+      "text": "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+      "version": "x"
+    },
+    {
+      "text": "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
+      "version": "y"
+    },
+    {
+      "text": "Furret has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this Pokémon is very nimble and fleet.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Furret has a very slim build. When under attack, it can slickly squirm through narrow spaces and get away. In spite of its short limbs, this Pokémon is very nimble and fleet.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sentret",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "sentret",
+      "to": "furret",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/furret.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-town-entrance",
+            "maxLevel": 33,
+            "method": "snag",
+            "minLevel": 33
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 30,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "furret",
+      "kind": "default",
+      "name": "Furret",
+      "number": 162,
+      "pokemon": "furret",
+      "sourceId": 162,
+      "sprite": "/dex-images/sprites/furret.webp",
+      "statTotal": 415,
+      "stats": {
+        "attack": 76,
+        "defense": 64,
+        "hp": 85,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 325
+    }
+  ],
+  "generation": 2,
+  "key": "furret",
+  "name": "Furret",
+  "names": {
+    "de": "Wiesenior",
+    "en": "Furret",
+    "es": "Furret",
+    "es-419": "Furret",
+    "fr": "Fouinar",
+    "it": "Furret",
+    "ja": "オオタチ",
+    "ja-hrkt": "オオタチ",
+    "ja-roma": "Ootachi",
+    "ko": "다꼬리",
+    "zh-hans": "大尾立",
+    "zh-hant": "大尾立"
+  },
+  "number": 162
+}

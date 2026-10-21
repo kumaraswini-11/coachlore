@@ -1,0 +1,88 @@
+{
+  "category": "Tumbleweed Pokémon",
+  "entries": [
+    {
+      "text": "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bramblin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_steps": 1000
+      },
+      "from": "bramblin",
+      "to": "brambleghast",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "wind-rider"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bramblin.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bramblin",
+      "kind": "default",
+      "name": "Bramblin",
+      "number": 946,
+      "pokemon": "bramblin",
+      "sourceId": 946,
+      "sprite": "/dex-images/sprites/bramblin.webp",
+      "statTotal": 275,
+      "stats": {
+        "attack": 65,
+        "defense": 30,
+        "hp": 40,
+        "special-attack": 45,
+        "special-defense": 35,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["grass", "ghost"],
+      "weight": 6
+    }
+  ],
+  "generation": 9,
+  "key": "bramblin",
+  "name": "Bramblin",
+  "names": {
+    "de": "Weherba",
+    "en": "Bramblin",
+    "es": "Bramblin",
+    "es-419": "Bramblin",
+    "fr": "Virovent",
+    "it": "Bramblin",
+    "ja": "アノクサ",
+    "ja-hrkt": "アノクサ",
+    "ja-roma": "Anokusa",
+    "ko": "그푸리",
+    "zh-hans": "纳噬草",
+    "zh-hant": "納噬草"
+  },
+  "number": 946
+}

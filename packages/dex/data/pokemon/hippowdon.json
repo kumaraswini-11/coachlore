@@ -1,0 +1,264 @@
+{
+  "category": "Heavyweight Pokémon",
+  "entries": [
+    {
+      "text": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its huge mouth is almost seven feet across. It has enough power to completely crush a car.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+      "version": "platinum"
+    },
+    {
+      "text": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+      "version": "black"
+    },
+    {
+      "text": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+      "version": "white"
+    },
+    {
+      "text": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is surprisingly quick to anger. It holds its mouth agape as a display of its strength.",
+      "version": "white-2"
+    },
+    {
+      "text": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+      "version": "x"
+    },
+    {
+      "text": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+      "version": "y"
+    },
+    {
+      "text": "It brandishes its gaping mouth in a display of fearsome strength. It raises vast quantities of sand while attacking.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It blasts internally stored sand from ports on its body to create a towering twister for attack.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
+      "version": "sword"
+    },
+    {
+      "text": "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm.",
+      "version": "shield"
+    },
+    {
+      "text": "Short-tempered and easily moved to violence. It whips up whirlwinds of sand to crush its foes' spirits, then goes in for the attack.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "hippopotas",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "hippopotas",
+      "to": "hippowdon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-stream"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/hippowdon.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 30,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 30,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 30,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 8,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 8,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "hippowdon",
+      "kind": "default",
+      "name": "Hippowdon",
+      "number": 450,
+      "pokemon": "hippowdon",
+      "sourceId": 450,
+      "sprite": "/dex-images/sprites/hippowdon.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 112,
+        "defense": 118,
+        "hp": 108,
+        "special-attack": 68,
+        "special-defense": 72,
+        "speed": 47
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 3000
+    }
+  ],
+  "generation": 4,
+  "key": "hippowdon",
+  "name": "Hippowdon",
+  "names": {
+    "de": "Hippoterus",
+    "en": "Hippowdon",
+    "es": "Hippowdon",
+    "es-419": "Hippowdon",
+    "fr": "Hippodocus",
+    "it": "Hippowdon",
+    "ja": "カバルドン",
+    "ja-hrkt": "カバルドン",
+    "ja-roma": "Kabaldon",
+    "ko": "하마돈",
+    "zh-hans": "河马兽",
+    "zh-hant": "河馬獸"
+  },
+  "number": 450
+}

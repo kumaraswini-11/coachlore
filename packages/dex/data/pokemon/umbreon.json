@@ -1,0 +1,425 @@
+{
+  "category": "Moonlight Pokémon",
+  "entries": [
+    {
+      "text": "When agitated, this POKéMON protects itself by spraying poisonous sweat from its pores.",
+      "version": "gold"
+    },
+    {
+      "text": "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.",
+      "version": "silver"
+    },
+    {
+      "text": "On the night of a full moon, or when it gets excited, the ring patterns on its body glow yellow.",
+      "version": "crystal"
+    },
+    {
+      "text": "UMBREON evolved as a result of exposure to the moon’s waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack.",
+      "version": "ruby"
+    },
+    {
+      "text": "UMBREON evolved as a result of exposure to the moon’s waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack.",
+      "version": "sapphire"
+    },
+    {
+      "text": "UMBREON evolved from exposure to the moon’s energy pulses. It lurks in darkness and waits for its foes to move. The rings on its body glow when it leaps to attack.",
+      "version": "emerald"
+    },
+    {
+      "text": "When darkness falls, the rings on its body begin to glow, striking fear in the hearts of anyone nearby.",
+      "version": "firered"
+    },
+    {
+      "text": "When agitated, this POKéMON protects itself by spraying poisonous sweat from its pores.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The light of the moon changed EEVEE’s genetic structure. It lurks in darkness for prey.",
+      "version": "diamond"
+    },
+    {
+      "text": "The light of the moon changed EEVEE’s genetic structure. It lurks in darkness for prey.",
+      "version": "pearl"
+    },
+    {
+      "text": "When exposed to the moon’s aura, the rings on its body glow faintly and it gains a mysterious power.",
+      "version": "platinum"
+    },
+    {
+      "text": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "When exposed to the moon’s aura, the rings on its body glow faintly and it gains a mysterious power.",
+      "version": "black"
+    },
+    {
+      "text": "When exposed to the moon’s aura, the rings on its body glow faintly and it gains a mysterious power.",
+      "version": "white"
+    },
+    {
+      "text": "When exposed to the moon’s aura, the rings on its body glow faintly and it’s filled with a mysterious power.",
+      "version": "black-2"
+    },
+    {
+      "text": "When exposed to the moon’s aura, the rings on its body glow faintly and it’s filled with a mysterious power.",
+      "version": "white-2"
+    },
+    {
+      "text": "The light of the moon changed Eevee’s genetic structure. It lurks in darkness for prey.",
+      "version": "x"
+    },
+    {
+      "text": "When exposed to the moon’s aura, the rings on its body glow faintly and it’s filled with a mysterious power.",
+      "version": "y"
+    },
+    {
+      "text": "Umbreon evolved as a result of exposure to the moon’s waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Umbreon evolved as a result of exposure to the moon’s waves. It hides silently in darkness and waits for its foes to make a move. The rings on its body glow when it leaps to attack.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes.",
+      "version": "sun"
+    },
+    {
+      "text": "With its black fur, it blends into the darkness. It bides its time, and when prey appears, this Pokémon goes for its throat, and then eats it.",
+      "version": "moon"
+    },
+    {
+      "text": "This Pokémon is nocturnal. Even in total darkness, its large eyes can spot its prey clearly!",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It lurks in the dark of night looking for prey. At the moment it pounces, the rings on its body glow dimly but ominously.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "When this Pokémon becomes angry, its pores secrete a poisonous sweat, which it sprays at its opponent’s eyes.",
+      "version": "sword"
+    },
+    {
+      "text": "On the night of a full moon, or when it gets excited, the ring patterns on its body glow yellow.",
+      "version": "shield"
+    },
+    {
+      "text": "It is most active in the wee hours of the night, when moonlight bathes the land. Its large eyes can pierce the darkness and perceive prey with absolute clarity.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "eevee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "vaporeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "jolteon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "fire-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "flareon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "day"
+      },
+      "from": "eevee",
+      "to": "espeon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "night"
+      },
+      "from": "eevee",
+      "to": "umbreon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "leafeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "ice-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "glaceon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move_type": "fairy",
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "sylveon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/umbreon.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "outskirt-stand-outside",
+            "maxLevel": 26,
+            "method": "gift",
+            "minLevel": 26
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "umbreon",
+      "kind": "default",
+      "name": "Umbreon",
+      "number": 197,
+      "pokemon": "umbreon",
+      "sourceId": 197,
+      "sprite": "/dex-images/sprites/umbreon.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 65,
+        "defense": 110,
+        "hp": 95,
+        "special-attack": 60,
+        "special-defense": 130,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 270
+    }
+  ],
+  "generation": 2,
+  "key": "umbreon",
+  "name": "Umbreon",
+  "names": {
+    "de": "Nachtara",
+    "en": "Umbreon",
+    "es": "Umbreon",
+    "es-419": "Umbreon",
+    "fr": "Noctali",
+    "it": "Umbreon",
+    "ja": "ブラッキー",
+    "ja-hrkt": "ブラッキー",
+    "ja-roma": "Bracky",
+    "ko": "블래키",
+    "zh-hans": "月亮伊布",
+    "zh-hant": "月亮伊布"
+  },
+  "number": 197
+}

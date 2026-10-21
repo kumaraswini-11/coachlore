@@ -198,6 +198,21 @@ export type Usage = {
 }
 
 /**
+ * Showdown's names for our forms, moves and abilities (spec 002's plan,
+ * step 9): what a battle log, a Showdown export or Smogon's usage writes.
+ */
+export type ShowdownNames = {
+  /** Showdown's ID ("rotomwash") → our form. */
+  ids: Record<string, string>
+  /** Our form → its Showdown name ("Rotom-Wash"), where it has its own. */
+  names: Record<string, string>
+  /** Showdown's move ID ("uturn") → our move ("u-turn"). */
+  moves: Record<string, string>
+  /** Showdown's ability ID → our ability. */
+  abilities: Record<string, string>
+}
+
+/**
  * Each attacking type's multiplier against each defending type, from
  * PokéAPI's current damage relations: only the entries that aren't 1.
  */

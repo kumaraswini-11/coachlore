@@ -1,0 +1,497 @@
+{
+  "category": "Sound Wave Pokémon",
+  "entries": [
+    {
+      "text": "They live in pitch-black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+      "version": "x"
+    },
+    {
+      "text": "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+      "version": "y"
+    },
+    {
+      "text": "They live in pitch-black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Fruits are its favorite foods. This gourmet carefully picks out just the ripe ones using its sonar.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It flies around in search of fruit to eat. It uses ultrasonic waves to detect which fruits are ripe.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.",
+      "version": "sword"
+    },
+    {
+      "text": "No wavelength of sound is beyond Noibat’s ability to produce. The ultrasonic waves it generates can overcome much larger Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "noibat",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "noibat",
+      "to": "noivern",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/noibat.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 65,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 830,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 830,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 27
+          },
+          {
+            "chance": 830,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 24,
+            "method": "overworld",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 800,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 26
+          }
+        ],
+        "sword": [
+          {
+            "chance": 65,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 830,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 830,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 27
+          },
+          {
+            "chance": 830,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 24,
+            "method": "overworld",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 800,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 26
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "dyna-tree-hill-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-m",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frostpoint-field-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-u",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "dyna-tree-hill-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-m",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frostpoint-field-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-u",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 19,
+            "method": "npc-trade",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "verdant-cavern-trial-site",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 19,
+            "method": "npc-trade",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "verdant-cavern-trial-site",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 22,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "noibat",
+      "kind": "default",
+      "name": "Noibat",
+      "number": 714,
+      "pokemon": "noibat",
+      "sourceId": 714,
+      "sprite": "/dex-images/sprites/noibat.webp",
+      "statTotal": 245,
+      "stats": {
+        "attack": 30,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 45,
+        "special-defense": 40,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["flying", "dragon"],
+      "weight": 80
+    }
+  ],
+  "generation": 6,
+  "key": "noibat",
+  "name": "Noibat",
+  "names": {
+    "de": "eF-eM",
+    "en": "Noibat",
+    "es": "Noibat",
+    "es-419": "Noibat",
+    "fr": "Sonistrelle",
+    "it": "Noibat",
+    "ja": "オンバット",
+    "ja-hrkt": "オンバット",
+    "ja-roma": "Onbat",
+    "ko": "음뱃",
+    "zh-hans": "嗡蝠",
+    "zh-hant": "嗡蝠"
+  },
+  "number": 714
+}

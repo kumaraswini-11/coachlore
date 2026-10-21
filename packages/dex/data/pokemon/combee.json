@@ -1,0 +1,1107 @@
+{
+  "category": "Tiny Bee Pokémon",
+  "entries": [
+    {
+      "text": "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
+      "version": "diamond"
+    },
+    {
+      "text": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+      "version": "pearl"
+    },
+    {
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please VESPIQUEN.",
+      "version": "platinum"
+    },
+    {
+      "text": "At night, COMBEE sleep in a group of about a thousand, packed closely together in a lump.",
+      "version": "heartgold"
+    },
+    {
+      "text": "At night, COMBEE sleep in a group of about a thousand, packed closely together in a lump.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+      "version": "black"
+    },
+    {
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+      "version": "white"
+    },
+    {
+      "text": "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
+      "version": "black-2"
+    },
+    {
+      "text": "This Pokémon is a set of three. When they sleep, they gather up and form a giant hive of 100 Combee.",
+      "version": "white-2"
+    },
+    {
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+      "version": "x"
+    },
+    {
+      "text": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+      "version": "y"
+    },
+    {
+      "text": "The trio is together from birth. It constantly gathers honey from flowers to please Vespiquen.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The members of the trio spend all their time together. Each one has a slightly different taste in nectar.",
+      "version": "sword"
+    },
+    {
+      "text": "It ceaselessly gathers nectar from sunrise to sundown, all for the sake of Vespiquen and the swarm.",
+      "version": "shield"
+    },
+    {
+      "text": "They swear fealty to a queen Pokémon and work diligently to gather nectar. Each swarm produces a different flavor of honey.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "combee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "min_level": 21
+      },
+      "from": "combee",
+      "to": "vespiquen",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "honey-gather"
+        },
+        {
+          "hidden": true,
+          "key": "hustle"
+        }
+      ],
+      "artwork": "/dex-images/artwork/combee.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "dark-grass",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 75,
+            "location": "lostlorn-forest-hidden-grotto",
+            "maxLevel": 24,
+            "method": "hidden-grotto",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 39
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 60,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "celadon-city-area",
+            "maxLevel": 20,
+            "method": "headbutt",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "cerulean-city-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 26
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "headbutt",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-7-area",
+            "maxLevel": 20,
+            "method": "headbutt",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "headbutt",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "national-park-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "vermilion-city-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 60,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 60,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 120,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 40,
+            "location": "celadon-city-area",
+            "maxLevel": 20,
+            "method": "headbutt",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "cerulean-city-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 26
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "headbutt",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-7-area",
+            "maxLevel": 20,
+            "method": "headbutt",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "headbutt",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "national-park-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "vermilion-city-area",
+            "maxLevel": 16,
+            "method": "headbutt",
+            "minLevel": 11
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 120,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 1808,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 1808,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 1808,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 1808,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 1808,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 1808,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 599,
+            "location": "honeycalm-island-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "dark-grass",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 75,
+            "location": "lostlorn-forest-hidden-grotto",
+            "maxLevel": 24,
+            "method": "hidden-grotto",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 39
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "kalos-berry-fields-area",
+            "maxLevel": 15,
+            "method": "berry-trees",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 6
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "kalos-berry-fields-area",
+            "maxLevel": 15,
+            "method": "berry-trees",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 6
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "combee",
+      "kind": "default",
+      "name": "Combee",
+      "number": 415,
+      "pokemon": "combee",
+      "sourceId": 415,
+      "sprite": "/dex-images/sprites/combee.webp",
+      "statTotal": 244,
+      "stats": {
+        "attack": 30,
+        "defense": 42,
+        "hp": 30,
+        "special-attack": 30,
+        "special-defense": 42,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 55
+    }
+  ],
+  "generation": 4,
+  "key": "combee",
+  "name": "Combee",
+  "names": {
+    "de": "Wadribie",
+    "en": "Combee",
+    "es": "Combee",
+    "es-419": "Combee",
+    "fr": "Apitrini",
+    "it": "Combee",
+    "ja": "ミツハニー",
+    "ja-hrkt": "ミツハニー",
+    "ja-roma": "Mitsuhoney",
+    "ko": "세꿀버리",
+    "zh-hans": "三蜜蜂",
+    "zh-hant": "三蜜蜂"
+  },
+  "number": 415
+}

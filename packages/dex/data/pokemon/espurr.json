@@ -1,0 +1,227 @@
+{
+  "category": "Restraint Pokémon",
+  "entries": [
+    {
+      "text": "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+      "version": "x"
+    },
+    {
+      "text": "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+      "version": "y"
+    },
+    {
+      "text": "The organ that emits its intense psychic power is sheltered by its ears to keep power from leaking out.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Though Espurr’s expression never changes, behind that blank stare is an intense struggle to contain its devastating psychic power.",
+      "version": "sword"
+    },
+    {
+      "text": "There’s enough psychic power in Espurr to send a wrestler flying, but because this power can’t be controlled, Espurr finds it troublesome.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "espurr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "meowstic-male",
+        "gender": 2,
+        "min_level": 25
+      },
+      "from": "espurr",
+      "to": "meowstic",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "meowstic-female",
+        "gender": 1,
+        "min_level": 25
+      },
+      "from": "espurr",
+      "to": "meowstic",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "own-tempo"
+        }
+      ],
+      "artwork": "/dex-images/artwork/espurr.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 20,
+            "location": "galar-route-5-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 260,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "galar-route-5-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 260,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 11
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 11
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "espurr",
+      "kind": "default",
+      "name": "Espurr",
+      "number": 677,
+      "pokemon": "espurr",
+      "sourceId": 677,
+      "sprite": "/dex-images/sprites/espurr.webp",
+      "statTotal": 355,
+      "stats": {
+        "attack": 48,
+        "defense": 54,
+        "hp": 62,
+        "special-attack": 63,
+        "special-defense": 60,
+        "speed": 68
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 35
+    }
+  ],
+  "generation": 6,
+  "key": "espurr",
+  "name": "Espurr",
+  "names": {
+    "de": "Psiau",
+    "en": "Espurr",
+    "es": "Espurr",
+    "es-419": "Espurr",
+    "fr": "Psystigri",
+    "it": "Espurr",
+    "ja": "ニャスパー",
+    "ja-hrkt": "ニャスパー",
+    "ja-roma": "Nyasper",
+    "ko": "냐스퍼",
+    "zh-hans": "妙喵",
+    "zh-hant": "妙喵"
+  },
+  "number": 677
+}

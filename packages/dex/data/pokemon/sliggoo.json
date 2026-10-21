@@ -1,0 +1,359 @@
+{
+  "category": "Soft Tissue Pokémon",
+  "entries": [
+    {
+      "text": "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can’t see anything.",
+      "version": "x"
+    },
+    {
+      "text": "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+      "version": "y"
+    },
+    {
+      "text": "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can’t see anything.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It has trouble drawing a line between friends and food. It will calmly try to melt and eat even those it gets along well with.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon’s mucous can dissolve anything. Toothless, it sprays mucous on its prey. Once they’re nicely dissolved, it slurps them up.",
+      "version": "moon"
+    },
+    {
+      "text": "It crawls along sluggishly. The swirly protrusion on its back is filled with its brain and other organs.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its entire body is covered with gooey mucus that can dissolve anything. Be sure to put gloves on if you’re going to touch it.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Although this Pokémon isn’t very strong, its body is coated in a caustic slime that can melt through anything, so predators steer clear of it.",
+      "version": "sword"
+    },
+    {
+      "text": "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies.",
+      "version": "shield"
+    },
+    {
+      "text": "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "goomy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "goomy",
+      "to": "sliggoo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sliggoo-hisui",
+        "min_level": 40,
+        "region": "hisui"
+      },
+      "from": "goomy",
+      "to": "sliggoo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 50,
+        "needs_overworld_rain": true
+      },
+      "from": "sliggoo",
+      "to": "goodra",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "goodra-hisui",
+        "min_level": 50,
+        "needs_overworld_rain": true,
+        "required_pokemon_form": "sliggoo-hisui"
+      },
+      "from": "sliggoo",
+      "to": "goodra",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sap-sipper"
+        },
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": true,
+          "key": "gooey"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sliggoo.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "sos",
+            "minLevel": 40
+          }
+        ],
+        "shield": [
+          {
+            "chance": 145,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 125,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "sos",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 80,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "purple-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "rough-terrain",
+            "minLevel": 47
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "surf",
+            "minLevel": 47
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "yellow-flowers",
+            "minLevel": 46
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "purple-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "rough-terrain",
+            "minLevel": 47
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "surf",
+            "minLevel": 47
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "yellow-flowers",
+            "minLevel": 46
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sliggoo",
+      "kind": "default",
+      "name": "Sliggoo",
+      "number": 705,
+      "pokemon": "sliggoo",
+      "sourceId": 705,
+      "sprite": "/dex-images/sprites/sliggoo.webp",
+      "statTotal": 452,
+      "stats": {
+        "attack": 75,
+        "defense": 53,
+        "hp": 68,
+        "special-attack": 83,
+        "special-defense": 113,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 175
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sap-sipper"
+        },
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "gooey"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sliggoo-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "sliggoo-hisui",
+      "kind": "regional",
+      "name": "Sliggoo-Hisui",
+      "number": 705,
+      "pokemon": "sliggoo",
+      "sourceId": 10241,
+      "sprite": "/dex-images/sprites/sliggoo-hisui.webp",
+      "statTotal": 452,
+      "stats": {
+        "attack": 75,
+        "defense": 83,
+        "hp": 58,
+        "special-attack": 83,
+        "special-defense": 113,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["steel", "dragon"],
+      "weight": 685
+    }
+  ],
+  "generation": 6,
+  "key": "sliggoo",
+  "name": "Sliggoo",
+  "names": {
+    "de": "Viscargot",
+    "en": "Sliggoo",
+    "es": "Sliggoo",
+    "es-419": "Sliggoo",
+    "fr": "Colimucus",
+    "it": "Sliggoo",
+    "ja": "ヌメイル",
+    "ja-hrkt": "ヌメイル",
+    "ja-roma": "Numeil",
+    "ko": "미끄네일",
+    "zh-hans": "黏美儿",
+    "zh-hant": "黏美兒"
+  },
+  "number": 705
+}

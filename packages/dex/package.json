@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "private": true,
+  "sideEffects": false,
   "scripts": {
     "lint": "eslint --max-warnings 0",
     "typecheck": "tsc --noEmit",
@@ -13,7 +14,9 @@
     "make-fixture": "bun scripts/make-fixture.ts"
   },
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./files": "./src/files.ts",
+    "./type-chart": "./src/type-chart.ts"
   },
   "devDependencies": {
     "@pkmn/data": "0.10.11",

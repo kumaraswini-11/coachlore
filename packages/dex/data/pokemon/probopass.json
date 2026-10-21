@@ -1,0 +1,156 @@
+{
+  "category": "Compass Pokémon",
+  "entries": [
+    {
+      "text": "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
+      "version": "diamond"
+    },
+    {
+      "text": "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
+      "version": "pearl"
+    },
+    {
+      "text": "It freely controls three small units called Mini-Noses using magnetic force.",
+      "version": "platinum"
+    },
+    {
+      "text": "It controls three units called Mini-Noses using magnetic force. With them, it can attack the foe from three directions.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It controls three units called Mini-Noses using magnetic force. With them, it can attack the foe from three directions.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It freely controls three small units called Mini-Noses using magnetic force.",
+      "version": "black"
+    },
+    {
+      "text": "It freely controls three small units called Mini-Noses using magnetic force.",
+      "version": "white"
+    },
+    {
+      "text": "It freely controls three units called Mini-Noses using magnetic force.",
+      "version": "black-2"
+    },
+    {
+      "text": "It freely controls three units called Mini-Noses using magnetic force.",
+      "version": "white-2"
+    },
+    {
+      "text": "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
+      "version": "x"
+    },
+    {
+      "text": "It freely controls three small units called Mini-Noses using magnetic force.",
+      "version": "y"
+    },
+    {
+      "text": "It exudes strong magnetism from all over. It controls three small units called Mini-Noses.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It freely controls three small units called Mini-Noses using magnetic force.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It radiates such a powerful magnetic field that nearby electrical appliances become unusable.",
+      "version": "sun"
+    },
+    {
+      "text": "The main body controls three mobile units called Mini-Noses, which it maneuvers to catch prey.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it can control its units known as Mini-Noses, they sometimes get lost and don’t come back.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It is able to emit powerful magnetism, allowing it control over the iron sand that forms its luscious mustache. Using this iron sand, Probopass forms hard stones with which it smites its prey.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nosepass",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "nosepass",
+      "to": "probopass",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "magnet-pull"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/probopass.webp",
+      "encounters": {},
+      "games": ["platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "probopass",
+      "kind": "default",
+      "name": "Probopass",
+      "number": 476,
+      "pokemon": "probopass",
+      "sourceId": 476,
+      "sprite": "/dex-images/sprites/probopass.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 55,
+        "defense": 145,
+        "hp": 60,
+        "special-attack": 75,
+        "special-defense": 150,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["rock", "steel"],
+      "weight": 3400
+    }
+  ],
+  "generation": 4,
+  "key": "probopass",
+  "name": "Probopass",
+  "names": {
+    "de": "Voluminas",
+    "en": "Probopass",
+    "es": "Probopass",
+    "es-419": "Probopass",
+    "fr": "Tarinorme",
+    "it": "Probopass",
+    "ja": "ダイノーズ",
+    "ja-hrkt": "ダイノーズ",
+    "ja-roma": "Dainose",
+    "ko": "대코파스",
+    "zh-hans": "大朝北鼻",
+    "zh-hant": "大朝北鼻"
+  },
+  "number": 476
+}

@@ -1,0 +1,290 @@
+{
+  "category": "Single Bloom Pokémon",
+  "entries": [
+    {
+      "text": "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+      "version": "x"
+    },
+    {
+      "text": "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind’s embrace with an untroubled heart.",
+      "version": "y"
+    },
+    {
+      "text": "It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind’s embrace with an untroubled heart.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It’s not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Flabébé wears a crown made from pollen it’s collected from its flower. The crown has hidden healing properties.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "flabebe",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-red",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-red"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-yellow",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-yellow"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-orange",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-orange"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-blue",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-blue"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-white",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-white"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-red",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-red"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-yellow",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-yellow"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-orange",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-orange"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-blue",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-blue"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-white",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-white"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flower-veil"
+        },
+        {
+          "hidden": true,
+          "key": "symbiosis"
+        }
+      ],
+      "artwork": "/dex-images/artwork/flabebe.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "x": [
+          {
+            "chance": 70,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 6
+          },
+          {
+            "chance": 75,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "purple-flowers",
+            "minLevel": 12
+          },
+          {
+            "chance": 75,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 75,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "yellow-flowers",
+            "minLevel": 12
+          }
+        ],
+        "y": [
+          {
+            "chance": 70,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 6
+          },
+          {
+            "chance": 75,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "purple-flowers",
+            "minLevel": 12
+          },
+          {
+            "chance": 75,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 75,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "yellow-flowers",
+            "minLevel": 12
+          }
+        ]
+      },
+      "formName": "Red Flower",
+      "games": ["x-y", "ultra-sun-ultra-moon", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 1,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "flabebe",
+      "kind": "default",
+      "name": "Flabébé",
+      "number": 669,
+      "pokemon": "flabebe",
+      "sourceId": 669,
+      "sprite": "/dex-images/sprites/flabebe.webp",
+      "statTotal": 303,
+      "stats": {
+        "attack": 38,
+        "defense": 39,
+        "hp": 44,
+        "special-attack": 61,
+        "special-defense": 79,
+        "speed": 42
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 1
+    }
+  ],
+  "generation": 6,
+  "key": "flabebe",
+  "name": "Flabébé",
+  "names": {
+    "de": "Flabébé",
+    "en": "Flabébé",
+    "es": "Flabébé",
+    "es-419": "Flabébé",
+    "fr": "Flabébé",
+    "it": "Flabébé",
+    "ja": "フラベベ",
+    "ja-hrkt": "フラベベ",
+    "ja-roma": "Flabebe",
+    "ko": "플라베베",
+    "zh-hans": "花蓓蓓",
+    "zh-hant": "花蓓蓓"
+  },
+  "number": 669
+}

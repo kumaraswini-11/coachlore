@@ -1,0 +1,112 @@
+{
+  "category": "Pop Star Pokémon",
+  "entries": [
+    {
+      "text": "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards its enemies.",
+      "version": "sun"
+    },
+    {
+      "text": "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
+      "version": "moon"
+    },
+    {
+      "text": "It gets excited when it sees a dance it doesn’t know. This hard worker practices diligently until it can learn that dance.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It attacks by smacking its enemies with the exploding water balloons that it creates.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "As if dancing, it artfully dodges the attacks of its enemies. All the while, it’s busy forming a bunch of balloons to overwhelm its foes.",
+      "version": "sword"
+    },
+    {
+      "text": "On nights when the sea is calm, Brionne dance with one another to the singing of the Primarina that’s leading them.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "popplio",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "popplio",
+      "to": "brionne",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "brionne",
+      "to": "primarina",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "liquid-voice"
+        }
+      ],
+      "artwork": "/dex-images/artwork/brionne.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "brionne",
+      "kind": "default",
+      "name": "Brionne",
+      "number": 729,
+      "pokemon": "brionne",
+      "sourceId": 729,
+      "sprite": "/dex-images/sprites/brionne.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 69,
+        "defense": 69,
+        "hp": 60,
+        "special-attack": 91,
+        "special-defense": 81,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 175
+    }
+  ],
+  "generation": 7,
+  "key": "brionne",
+  "name": "Brionne",
+  "names": {
+    "de": "Marikeck",
+    "en": "Brionne",
+    "es": "Brionne",
+    "es-419": "Brionne",
+    "fr": "Otarlette",
+    "it": "Brionne",
+    "ja": "オシャマリ",
+    "ja-hrkt": "オシャマリ",
+    "ja-roma": "Osyamari",
+    "ko": "키요공",
+    "zh-hans": "花漾海狮",
+    "zh-hant": "花漾海獅"
+  },
+  "number": 729
+}

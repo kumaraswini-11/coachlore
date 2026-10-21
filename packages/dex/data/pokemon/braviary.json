@@ -1,0 +1,365 @@
+{
+  "category": "Valiant Pokémon",
+  "entries": [
+    {
+      "text": "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+      "version": "black"
+    },
+    {
+      "text": "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
+      "version": "white"
+    },
+    {
+      "text": "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+      "version": "black-2"
+    },
+    {
+      "text": "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+      "version": "white-2"
+    },
+    {
+      "text": "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+      "version": "x"
+    },
+    {
+      "text": "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+      "version": "y"
+    },
+    {
+      "text": "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They fight for their friends without any thought about danger to themselves. One can carry a car while flying.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "With its brave disposition, it fears nothing—not even death. Ancient Alolan people respected it, referring to it as “the hero of the sky.”",
+      "version": "sun"
+    },
+    {
+      "text": "It’s thought that people disturbed their habitats in the past, so Braviary banded together to fight back.",
+      "version": "moon"
+    },
+    {
+      "text": "The more scars it has on its front, the more heroic it’s considered to be. Those with many scars on their back are mocked by the flock.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Known as “the hero of the skies,” this Pokémon is so proud and so brave that it will never retreat, even when it’s injured.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Known for its bravery and pride, this majestic Pokémon is often seen as a motif for various kinds of emblems.",
+      "version": "sword"
+    },
+    {
+      "text": "Because this Pokémon is hotheaded and belligerent, it’s Corviknight that’s taken the role of transportation in Galar.",
+      "version": "shield"
+    },
+    {
+      "text": "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rufflet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 54
+      },
+      "from": "rufflet",
+      "to": "braviary",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "braviary-hisui",
+        "min_level": 54,
+        "region": "hisui"
+      },
+      "from": "rufflet",
+      "to": "braviary",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/braviary.webp",
+      "encounters": {
+        "sun": [
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1796,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 45,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 75,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1400,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 75,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          }
+        ],
+        "white": [
+          {
+            "chance": 25,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "braviary",
+      "kind": "default",
+      "name": "Braviary",
+      "number": 628,
+      "pokemon": "braviary",
+      "sourceId": 628,
+      "sprite": "/dex-images/sprites/braviary.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 123,
+        "defense": 75,
+        "hp": 100,
+        "special-attack": 57,
+        "special-defense": 75,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 410
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "tinted-lens"
+        }
+      ],
+      "artwork": "/dex-images/artwork/braviary-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "braviary-hisui",
+      "kind": "regional",
+      "name": "Braviary-Hisui",
+      "number": 628,
+      "pokemon": "braviary",
+      "sourceId": 10240,
+      "sprite": "/dex-images/sprites/braviary-hisui.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 83,
+        "defense": 70,
+        "hp": 110,
+        "special-attack": 112,
+        "special-defense": 70,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["psychic", "flying"],
+      "weight": 434
+    }
+  ],
+  "generation": 5,
+  "key": "braviary",
+  "name": "Braviary",
+  "names": {
+    "de": "Washakwil",
+    "en": "Braviary",
+    "es": "Braviary",
+    "es-419": "Braviary",
+    "fr": "Gueriaigle",
+    "it": "Braviary",
+    "ja": "ウォーグル",
+    "ja-hrkt": "ウォーグル",
+    "ja-roma": "Warrgle",
+    "ko": "워글",
+    "zh-hans": "勇士雄鹰",
+    "zh-hant": "勇士雄鷹"
+  },
+  "number": 628
+}

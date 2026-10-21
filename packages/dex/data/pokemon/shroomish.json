@@ -1,0 +1,375 @@
+{
+  "category": "Mushroom Pokémon",
+  "entries": [
+    {
+      "text": "SHROOMISH live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This POKéMON feeds on compost that is made up of fallen, rotted leaves.",
+      "version": "ruby"
+    },
+    {
+      "text": "If SHROOMISH senses danger, it shakes its body and scatters spores from the top of its head. This POKéMON’s spores are so toxic, they make trees and weeds wilt.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It loves to eat damp, composted soil in forests. If you enter a forest after a long rain, you can see many SHROOMISH feasting on composted soil.",
+      "version": "emerald"
+    },
+    {
+      "text": "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+      "version": "firered"
+    },
+    {
+      "text": "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "diamond"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "pearl"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "platinum"
+    },
+    {
+      "text": "If it senses danger, it scatters spores from the top of its head to protect itself.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If it senses danger, it scatters spores from the top of its head to protect itself.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "black"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "white"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "black-2"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "white-2"
+    },
+    {
+      "text": "It prefers damp places. By day it remains still in the forest shade. It releases toxic powder from its head.",
+      "version": "x"
+    },
+    {
+      "text": "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+      "version": "y"
+    },
+    {
+      "text": "Shroomish live in damp soil in the dark depths of forests. They are often found keeping still under fallen leaves. This Pokémon feeds on compost that is made up of fallen, rotted leaves.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If Shroomish senses danger, it shakes its body and scatters spores from the top of its head. This Pokémon’s spores are so toxic, they make trees and weeds wilt.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shroomish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 23
+      },
+      "from": "shroomish",
+      "to": "breloom",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "effect-spore"
+        },
+        {
+          "hidden": false,
+          "key": "poison-heal"
+        },
+        {
+          "hidden": true,
+          "key": "quick-feet"
+        }
+      ],
+      "artwork": "/dex-images/artwork/shroomish.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "petalburg-woods-area",
+            "maxLevel": 3,
+            "method": "horde",
+            "minLevel": 3
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 15,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "petalburg-woods-area",
+            "maxLevel": 3,
+            "method": "horde",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 15,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 15,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-lab-bf1",
+            "maxLevel": 15,
+            "method": "snag",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet"],
+      "gen9": true,
+      "generation": 3,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "shroomish",
+      "kind": "default",
+      "name": "Shroomish",
+      "number": 285,
+      "pokemon": "shroomish",
+      "sourceId": 285,
+      "sprite": "/dex-images/sprites/shroomish.webp",
+      "statTotal": 295,
+      "stats": {
+        "attack": 40,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 40,
+        "special-defense": 60,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 45
+    }
+  ],
+  "generation": 3,
+  "key": "shroomish",
+  "name": "Shroomish",
+  "names": {
+    "de": "Knilz",
+    "en": "Shroomish",
+    "es": "Shroomish",
+    "es-419": "Shroomish",
+    "fr": "Balignon",
+    "it": "Shroomish",
+    "ja": "キノココ",
+    "ja-hrkt": "キノココ",
+    "ja-roma": "Kinococo",
+    "ko": "버섯꼬",
+    "zh-hans": "蘑蘑菇",
+    "zh-hant": "蘑蘑菇"
+  },
+  "number": 285
+}

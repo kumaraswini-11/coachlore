@@ -1,0 +1,393 @@
+{
+  "category": "Flowering Pokémon",
+  "entries": [
+    {
+      "text": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      "version": "black"
+    },
+    {
+      "text": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+      "version": "white"
+    },
+    {
+      "text": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+      "version": "black-2"
+    },
+    {
+      "text": "The fragrance of the garland on its head has a relaxing effect, but taking care of it is very difficult.",
+      "version": "white-2"
+    },
+    {
+      "text": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+      "version": "x"
+    },
+    {
+      "text": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      "version": "y"
+    },
+    {
+      "text": "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
+      "version": "sun"
+    },
+    {
+      "text": "As soon as it finds a male to be its partner, the beautiful flower on its head darkens, droops, and withers away.",
+      "version": "moon"
+    },
+    {
+      "text": "The fragrance of its flower differs slightly depending on the soil where it grew up. Sniffing the aroma calms your heart and mind.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It’s well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It’s believed that even first-rate gardeners have a hard time getting the flower on a Lilligant’s head to bloom.",
+      "version": "sword"
+    },
+    {
+      "text": "Essential oils made from Lilligant flowers have a sublime scent, but they’re also staggeringly expensive.",
+      "version": "shield"
+    },
+    {
+      "text": "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "petilil",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "petilil",
+      "to": "lilligant",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lilligant-hisui",
+        "item": "sun-stone",
+        "region": "hisui"
+      },
+      "from": "petilil",
+      "to": "lilligant",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lilligant.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 135,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 45
+          },
+          {
+            "chance": 135,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 135,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 135,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 135,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 45
+          },
+          {
+            "chance": 135,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 135,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 135,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 17,
+            "method": "grass-spots",
+            "minLevel": 17
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "castelia-city-area",
+            "maxLevel": 18,
+            "method": "grass-spots",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lilligant",
+      "kind": "default",
+      "name": "Lilligant",
+      "number": 549,
+      "pokemon": "lilligant",
+      "sourceId": 549,
+      "sprite": "/dex-images/sprites/lilligant.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 60,
+        "defense": 75,
+        "hp": 70,
+        "special-attack": 110,
+        "special-defense": 75,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 163
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lilligant-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "lilligant-hisui",
+      "kind": "regional",
+      "name": "Lilligant-Hisui",
+      "number": 549,
+      "pokemon": "lilligant",
+      "sourceId": 10237,
+      "sprite": "/dex-images/sprites/lilligant-hisui.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 105,
+        "defense": 75,
+        "hp": 70,
+        "special-attack": 50,
+        "special-defense": 75,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["grass", "fighting"],
+      "weight": 192
+    }
+  ],
+  "generation": 5,
+  "key": "lilligant",
+  "name": "Lilligant",
+  "names": {
+    "de": "Dressella",
+    "en": "Lilligant",
+    "es": "Lilligant",
+    "es-419": "Lilligant",
+    "fr": "Fragilady",
+    "it": "Lilligant",
+    "ja": "ドレディア",
+    "ja-hrkt": "ドレディア",
+    "ja-roma": "Dredear",
+    "ko": "드레디어",
+    "zh-hans": "裙儿小姐",
+    "zh-hant": "裙兒小姐"
+  },
+  "number": 549
+}

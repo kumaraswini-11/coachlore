@@ -1,0 +1,359 @@
+{
+  "category": "Constraint Pokémon",
+  "entries": [
+    {
+      "text": "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+      "version": "x"
+    },
+    {
+      "text": "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
+      "version": "y"
+    },
+    {
+      "text": "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Revealing the eyelike patterns on the insides of its ears will unleash its psychic powers. It normally keeps the patterns hidden, however.",
+      "version": "sword"
+    },
+    {
+      "text": "The defensive instinct of the males is strong. It’s when they’re protecting themselves or their partners that they unleash their full power.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "espurr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "meowstic-male",
+        "gender": 2,
+        "min_level": 25
+      },
+      "from": "espurr",
+      "to": "meowstic",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "meowstic-female",
+        "gender": 1,
+        "min_level": 25
+      },
+      "from": "espurr",
+      "to": "meowstic",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "prankster"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meowstic-male.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 90,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-7-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Male",
+      "games": ["x-y", "sword-shield", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "meowstic-male",
+      "kind": "default",
+      "name": "Meowstic",
+      "number": 678,
+      "pokemon": "meowstic",
+      "sourceId": 678,
+      "sprite": "/dex-images/sprites/meowstic-male.webp",
+      "statTotal": 466,
+      "stats": {
+        "attack": 48,
+        "defense": 76,
+        "hp": 74,
+        "special-attack": 83,
+        "special-defense": 81,
+        "speed": 104
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 85
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "competitive"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meowstic-female.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 90,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-7-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Female",
+      "games": [],
+      "gen9": true,
+      "generation": 6,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "meowstic-female",
+      "kind": "other",
+      "name": "Meowstic-Female",
+      "number": 678,
+      "pokemon": "meowstic",
+      "sourceId": 10025,
+      "sprite": "/dex-images/sprites/meowstic-female.webp",
+      "statTotal": 466,
+      "stats": {
+        "attack": 48,
+        "defense": 76,
+        "hp": 74,
+        "special-attack": 83,
+        "special-defense": 81,
+        "speed": 104
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 85
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "trace"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meowstic-female-mega.webp",
+      "encounters": {},
+      "formName": "Mega Meowstic",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 8,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "meowstic-female-mega",
+      "kind": "mega",
+      "name": "Meowstic-Female-Mega",
+      "number": 678,
+      "pokemon": "meowstic",
+      "sourceId": 10326,
+      "sprite": "/dex-images/sprites/meowstic-female-mega.webp",
+      "statTotal": 566,
+      "stats": {
+        "attack": 48,
+        "defense": 76,
+        "hp": 74,
+        "special-attack": 143,
+        "special-defense": 101,
+        "speed": 124
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 101
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "trace"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meowstic-male-mega.webp",
+      "encounters": {},
+      "formName": "Mega Meowstic",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 8,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "meowstic-male-mega",
+      "kind": "mega",
+      "name": "Meowstic-Male-Mega",
+      "number": 678,
+      "pokemon": "meowstic",
+      "sourceId": 10314,
+      "sprite": "/dex-images/sprites/meowstic-male-mega.webp",
+      "statTotal": 566,
+      "stats": {
+        "attack": 48,
+        "defense": 76,
+        "hp": 74,
+        "special-attack": 143,
+        "special-defense": 101,
+        "speed": 124
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 101
+    }
+  ],
+  "generation": 6,
+  "key": "meowstic",
+  "name": "Meowstic",
+  "names": {
+    "de": "Psiaugon",
+    "en": "Meowstic",
+    "es": "Meowstic",
+    "es-419": "Meowstic",
+    "fr": "Mistigrix",
+    "it": "Meowstic",
+    "ja": "ニャオニクス",
+    "ja-hrkt": "ニャオニクス",
+    "ja-roma": "Nyaonix",
+    "ko": "냐오닉스",
+    "zh-hans": "超能妙喵",
+    "zh-hant": "超能妙喵"
+  },
+  "number": 678
+}

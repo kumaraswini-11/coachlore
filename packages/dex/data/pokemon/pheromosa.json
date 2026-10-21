@@ -1,0 +1,128 @@
+{
+  "category": "Lissome Pokémon",
+  "entries": [
+    {
+      "text": "One of the dangerous Ultra Beasts, it has been spotted running across the land at terrific speeds.",
+      "version": "sun"
+    },
+    {
+      "text": "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
+      "version": "moon"
+    },
+    {
+      "text": "A life-form that lives in another world, its body is thin and supple, but it also possesses great power.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pheromosa",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pheromosa.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 400,
+            "location": "verdant-cavern--trial-site-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "verdant-cavern-trial-site",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-desert",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pheromosa",
+      "kind": "default",
+      "name": "Pheromosa",
+      "number": 795,
+      "pokemon": "pheromosa",
+      "sourceId": 795,
+      "sprite": "/dex-images/sprites/pheromosa.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 137,
+        "defense": 37,
+        "hp": 71,
+        "special-attack": 137,
+        "special-defense": 37,
+        "speed": 151
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["bug", "fighting"],
+      "weight": 250
+    }
+  ],
+  "generation": 7,
+  "key": "pheromosa",
+  "name": "Pheromosa",
+  "names": {
+    "de": "Schabelle",
+    "en": "Pheromosa",
+    "es": "Pheromosa",
+    "es-419": "Pheromosa",
+    "fr": "Cancrelove",
+    "it": "Pheromosa",
+    "ja": "フェローチェ",
+    "ja-hrkt": "フェローチェ",
+    "ja-roma": "Pheroache",
+    "ko": "페로코체",
+    "zh-hans": "费洛美螂",
+    "zh-hant": "費洛美螂"
+  },
+  "number": 795
+}

@@ -1,0 +1,224 @@
+{
+  "category": "Wood Gecko Pokémon",
+  "entries": [
+    {
+      "text": "TREECKO has small hooks on the bottom of its feet that enable it to scale vertical walls. This POKéMON attacks by slamming foes with its thick tail.",
+      "version": "ruby"
+    },
+    {
+      "text": "TREECKO is cool, calm, and collected - it never panics under any situation. If a bigger foe were to glare at this POKéMON, it would glare right back without conceding an inch of ground.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It makes its nest in a giant tree in the forest. It ferociously guards against anything nearing its territory. It is said to be the protector of the forest’s trees.",
+      "version": "emerald"
+    },
+    {
+      "text": "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day’s weather.",
+      "version": "firered"
+    },
+    {
+      "text": "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day’s weather.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "diamond"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "pearl"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "platinum"
+    },
+    {
+      "text": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "black"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "white"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "black-2"
+    },
+    {
+      "text": "The soles of its feet are covered by countless tiny spikes, enabling it to walk on walls and ceilings.",
+      "version": "white-2"
+    },
+    {
+      "text": "It quickly scales even vertical walls. It senses humidity with its tail to predict the next day’s weather.",
+      "version": "x"
+    },
+    {
+      "text": "Small hooks on the bottom of its feet catch on walls and ceilings. That is how it can hang from above.",
+      "version": "y"
+    },
+    {
+      "text": "Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Treecko is cool, calm, and collected—it never panics under any situation. If a bigger foe were to glare at this Pokémon, it would glare right back without conceding an inch of ground.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "treecko",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "treecko",
+      "to": "grovyle",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "grovyle",
+      "to": "sceptile",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "unburden"
+        }
+      ],
+      "artwork": "/dex-images/artwork/treecko.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "saffron-city-silph-co",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "saffron-city-silph-co",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 3,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "treecko",
+      "kind": "default",
+      "name": "Treecko",
+      "number": 252,
+      "pokemon": "treecko",
+      "sourceId": 252,
+      "sprite": "/dex-images/sprites/treecko.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 45,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 65,
+        "special-defense": 55,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 50
+    }
+  ],
+  "generation": 3,
+  "key": "treecko",
+  "name": "Treecko",
+  "names": {
+    "de": "Geckarbor",
+    "en": "Treecko",
+    "es": "Treecko",
+    "es-419": "Treecko",
+    "fr": "Arcko",
+    "it": "Treecko",
+    "ja": "キモリ",
+    "ja-hrkt": "キモリ",
+    "ja-roma": "Kimori",
+    "ko": "나무지기",
+    "zh-hans": "木守宫",
+    "zh-hant": "木守宮"
+  },
+  "number": 252
+}

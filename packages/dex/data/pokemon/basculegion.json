@@ -1,0 +1,147 @@
+{
+  "category": "Big Fish Pokémon",
+  "entries": [
+    {
+      "text": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "basculin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "basculegion-male",
+        "gender": 2,
+        "min_damage_taken": 294,
+        "required_pokemon_form": "basculin-white-striped"
+      },
+      "from": "basculin",
+      "to": "basculegion",
+      "trigger": "recoil-damage"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "basculegion-female",
+        "gender": 1,
+        "min_damage_taken": 294,
+        "required_pokemon_form": "basculin-white-striped"
+      },
+      "from": "basculin",
+      "to": "basculegion",
+      "trigger": "recoil-damage"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "adaptability"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/basculegion-male.webp",
+      "encounters": {},
+      "formName": "Male",
+      "games": ["legends-arceus", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "basculegion-male",
+      "kind": "default",
+      "name": "Basculegion",
+      "number": 902,
+      "pokemon": "basculegion",
+      "sourceId": 902,
+      "sprite": "/dex-images/sprites/basculegion-male.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 112,
+        "defense": 65,
+        "hp": 120,
+        "special-attack": 80,
+        "special-defense": 75,
+        "speed": 78
+      },
+      "tags": [],
+      "types": ["water", "ghost"],
+      "weight": 1100
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "adaptability"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/basculegion-female.webp",
+      "encounters": {},
+      "formName": "Female",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "basculegion-female",
+      "kind": "other",
+      "name": "Basculegion-Female",
+      "number": 902,
+      "pokemon": "basculegion",
+      "sourceId": 10248,
+      "sprite": "/dex-images/sprites/basculegion-female.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 92,
+        "defense": 65,
+        "hp": 120,
+        "special-attack": 100,
+        "special-defense": 75,
+        "speed": 78
+      },
+      "tags": [],
+      "types": ["water", "ghost"],
+      "weight": 1100
+    }
+  ],
+  "generation": 8,
+  "key": "basculegion",
+  "name": "Basculegion",
+  "names": {
+    "de": "Salmagnis",
+    "en": "Basculegion",
+    "es": "Basculegion",
+    "es-419": "Basculegion",
+    "fr": "Paragruel",
+    "it": "Basculegion",
+    "ja": "イダイトウ",
+    "ja-hrkt": "イダイトウ",
+    "ja-roma": "Idaitou",
+    "ko": "대쓰여너",
+    "zh-hans": "幽尾玄鱼",
+    "zh-hant": "幽尾玄魚"
+  },
+  "number": 902
+}

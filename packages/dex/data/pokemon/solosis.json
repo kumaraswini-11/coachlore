@@ -1,0 +1,348 @@
+{
+  "category": "Cell Pokémon",
+  "entries": [
+    {
+      "text": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+      "version": "black"
+    },
+    {
+      "text": "Because their bodies are enveloped in a special liquid, they can survive in any environment.",
+      "version": "white"
+    },
+    {
+      "text": "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+      "version": "black-2"
+    },
+    {
+      "text": "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+      "version": "white-2"
+    },
+    {
+      "text": "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+      "version": "x"
+    },
+    {
+      "text": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+      "version": "y"
+    },
+    {
+      "text": "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+      "version": "sword"
+    },
+    {
+      "text": "Many say that the special liquid covering this Pokémon’s body would allow it to survive in the vacuum of space.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "solosis",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "solosis",
+      "to": "duosion",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "duosion",
+      "to": "reuniclus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overcoat"
+        },
+        {
+          "hidden": false,
+          "key": "magic-guard"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/solosis.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 80,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 18,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "strange-house-1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "strange-house-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "solosis",
+      "kind": "default",
+      "name": "Solosis",
+      "number": 577,
+      "pokemon": "solosis",
+      "sourceId": 577,
+      "sprite": "/dex-images/sprites/solosis.webp",
+      "statTotal": 290,
+      "stats": {
+        "attack": 30,
+        "defense": 40,
+        "hp": 45,
+        "special-attack": 105,
+        "special-defense": 50,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 10
+    }
+  ],
+  "generation": 5,
+  "key": "solosis",
+  "name": "Solosis",
+  "names": {
+    "de": "Monozyto",
+    "en": "Solosis",
+    "es": "Solosis",
+    "es-419": "Solosis",
+    "fr": "Nucléos",
+    "it": "Solosis",
+    "ja": "ユニラン",
+    "ja-hrkt": "ユニラン",
+    "ja-roma": "Uniran",
+    "ko": "유니란",
+    "zh-hans": "单卵细胞球",
+    "zh-hant": "單卵細胞球"
+  },
+  "number": 577
+}

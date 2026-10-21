@@ -1,0 +1,305 @@
+{
+  "category": "Gleam Eyes Pokémon",
+  "entries": [
+    {
+      "text": "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
+      "version": "diamond"
+    },
+    {
+      "text": "When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can see clearly through walls to track down its prey and seek its lost young.",
+      "version": "platinum"
+    },
+    {
+      "text": "LUXRAY’s ability to see through objects comes in handy when it’s scouting for danger.",
+      "version": "heartgold"
+    },
+    {
+      "text": "LUXRAY’s ability to see through objects comes in handy when it’s scouting for danger.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can see clearly through walls to track down its prey and seek its lost young.",
+      "version": "black"
+    },
+    {
+      "text": "It can see clearly through walls to track down its prey and seek its lost young.",
+      "version": "white"
+    },
+    {
+      "text": "It can see clearly through walls to track down its prey and seek its lost young.",
+      "version": "black-2"
+    },
+    {
+      "text": "It can see clearly through walls to track down its prey and seek its lost young.",
+      "version": "white-2"
+    },
+    {
+      "text": "When its eyes gleam gold, it can spot hiding prey--even those taking shelter behind a wall.",
+      "version": "x"
+    },
+    {
+      "text": "Luxray’s ability to see through objects comes in handy when it’s scouting for danger.",
+      "version": "y"
+    },
+    {
+      "text": "When its eyes gleam gold, it can spot hiding prey—even those taking shelter behind a wall.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Luxray’s ability to see through objects comes in handy when it’s scouting for danger.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Luxray can see through solid objects. It will instantly spot prey trying to hide behind walls, even if the walls are thick.",
+      "version": "sword"
+    },
+    {
+      "text": "Seeing through solid objects uses up a lot of Luxray’s electricity, so the Pokémon sleeps for long periods of time to store up energy.",
+      "version": "shield"
+    },
+    {
+      "text": "They form packs, each having one male as leader. Legends say that when Luxray's two eyes shimmer with gold, the Pokémon can see through anything.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shinx",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "shinx",
+      "to": "luxio",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "luxio",
+      "to": "luxray",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": true,
+          "key": "guts"
+        }
+      ],
+      "artwork": "/dex-images/artwork/luxray.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "luxray",
+      "kind": "default",
+      "name": "Luxray",
+      "number": 405,
+      "pokemon": "luxray",
+      "sourceId": 405,
+      "sprite": "/dex-images/sprites/luxray.webp",
+      "statTotal": 523,
+      "stats": {
+        "attack": 120,
+        "defense": 79,
+        "hp": 80,
+        "special-attack": 95,
+        "special-defense": 79,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 420
+    }
+  ],
+  "generation": 4,
+  "key": "luxray",
+  "name": "Luxray",
+  "names": {
+    "de": "Luxtra",
+    "en": "Luxray",
+    "es": "Luxray",
+    "es-419": "Luxray",
+    "fr": "Luxray",
+    "it": "Luxray",
+    "ja": "レントラー",
+    "ja-hrkt": "レントラー",
+    "ja-roma": "Rentorar",
+    "ko": "렌트라",
+    "zh-hans": "伦琴猫",
+    "zh-hant": "倫琴貓"
+  },
+  "number": 405
+}

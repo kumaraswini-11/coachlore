@@ -1,0 +1,372 @@
+{
+  "category": "Big Horn Pokémon",
+  "entries": [
+    {
+      "text": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+      "version": "gold"
+    },
+    {
+      "text": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
+      "version": "silver"
+    },
+    {
+      "text": "The round balls found on the fallen antlers can be ground into a powder that aids in sleeping.",
+      "version": "crystal"
+    },
+    {
+      "text": "STANTLER’s magnificent antlers were traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction by those who were after the priceless antlers.",
+      "version": "ruby"
+    },
+    {
+      "text": "STANTLER’s magnificent antlers were traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction by those who were after the priceless antlers.",
+      "version": "sapphire"
+    },
+    {
+      "text": "STANTLER’s magnificent antlers were once traded at high prices as works of art. As a result, this POKéMON was hunted close to extinction.",
+      "version": "emerald"
+    },
+    {
+      "text": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
+      "version": "firered"
+    },
+    {
+      "text": "Its curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "diamond"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "pearl"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "platinum"
+    },
+    {
+      "text": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "black"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "white"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "black-2"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "white-2"
+    },
+    {
+      "text": "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+      "version": "x"
+    },
+    {
+      "text": "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+      "version": "y"
+    },
+    {
+      "text": "Stantler’s magnificent antlers were traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction by those who were after the priceless antlers.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Stantler’s magnificent antlers were traded at high prices as works of art. As a result, this Pokémon was hunted close to extinction by those who were after the priceless antlers.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its strangely shaped antlers have the power to bewitch those who see them. Medicine made by grinding up the black orbs from fallen antlers is an effective treatment for insomnia.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "stantler",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_move_count": 20,
+        "used_move": "psyshield-bash"
+      },
+      "from": "stantler",
+      "to": "wyrdeer",
+      "trigger": "agile-style-move"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/stantler.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 10,
+            "location": "mirage-spot-mountain-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 43,
+            "method": "snag-rematch",
+            "minLevel": 43
+          },
+          {
+            "chance": 100,
+            "location": "the-under-subway",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 40,
+            "location": "johto-route-37-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-expansion-south",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "kanto-altering-cave-h",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "gold": [
+          {
+            "chance": 15,
+            "location": "johto-route-36-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "johto-route-36-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "kanto-altering-cave-h",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 10,
+            "location": "mirage-spot-mountain-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "silver": [
+          {
+            "chance": 15,
+            "location": "johto-route-36-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "johto-route-36-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "stantler",
+      "kind": "default",
+      "name": "Stantler",
+      "number": 234,
+      "pokemon": "stantler",
+      "sourceId": 234,
+      "sprite": "/dex-images/sprites/stantler.webp",
+      "statTotal": 465,
+      "stats": {
+        "attack": 95,
+        "defense": 62,
+        "hp": 73,
+        "special-attack": 85,
+        "special-defense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 712
+    }
+  ],
+  "generation": 2,
+  "key": "stantler",
+  "name": "Stantler",
+  "names": {
+    "de": "Damhirplex",
+    "en": "Stantler",
+    "es": "Stantler",
+    "es-419": "Stantler",
+    "fr": "Cerfrousse",
+    "it": "Stantler",
+    "ja": "オドシシ",
+    "ja-hrkt": "オドシシ",
+    "ja-roma": "Odoshishi",
+    "ko": "노라키",
+    "zh-hans": "惊角鹿",
+    "zh-hant": "驚角鹿"
+  },
+  "number": 234
+}

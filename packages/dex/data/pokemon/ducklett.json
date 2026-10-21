@@ -1,0 +1,199 @@
+{
+  "category": "Water Bird Pokémon",
+  "entries": [
+    {
+      "text": "These bird Pokémon are excellent divers. They swim around in the water eating their favorite food--peat moss.",
+      "version": "black"
+    },
+    {
+      "text": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+      "version": "white"
+    },
+    {
+      "text": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "version": "black-2"
+    },
+    {
+      "text": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "version": "white-2"
+    },
+    {
+      "text": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+      "version": "x"
+    },
+    {
+      "text": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "version": "y"
+    },
+    {
+      "text": "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "ducklett",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "ducklett",
+      "to": "swanna",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "big-pecks"
+        },
+        {
+          "hidden": true,
+          "key": "hydration"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ducklett.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "driftveil-drawbridge-area",
+            "maxLevel": 25,
+            "method": "bridge-spots",
+            "minLevel": 22
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "driftveil-drawbridge-area",
+            "maxLevel": 26,
+            "method": "bridge-spots",
+            "minLevel": 23
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "driftveil-drawbridge-area",
+            "maxLevel": 25,
+            "method": "bridge-spots",
+            "minLevel": 22
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "driftveil-drawbridge-area",
+            "maxLevel": 26,
+            "method": "bridge-spots",
+            "minLevel": 23
+          }
+        ],
+        "x": [
+          {
+            "chance": 30,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "purple-flowers",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "yellow-flowers",
+            "minLevel": 14
+          }
+        ],
+        "y": [
+          {
+            "chance": 30,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "purple-flowers",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "yellow-flowers",
+            "minLevel": 14
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ducklett",
+      "kind": "default",
+      "name": "Ducklett",
+      "number": 580,
+      "pokemon": "ducklett",
+      "sourceId": 580,
+      "sprite": "/dex-images/sprites/ducklett.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 44,
+        "defense": 50,
+        "hp": 62,
+        "special-attack": 44,
+        "special-defense": 50,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["water", "flying"],
+      "weight": 55
+    }
+  ],
+  "generation": 5,
+  "key": "ducklett",
+  "name": "Ducklett",
+  "names": {
+    "de": "Piccolente",
+    "en": "Ducklett",
+    "es": "Ducklett",
+    "es-419": "Ducklett",
+    "fr": "Couaneton",
+    "it": "Ducklett",
+    "ja": "コアルヒー",
+    "ja-hrkt": "コアルヒー",
+    "ja-roma": "Koaruhie",
+    "ko": "꼬지보리",
+    "zh-hans": "鸭宝宝",
+    "zh-hant": "鴨寶寶"
+  },
+  "number": 580
+}

@@ -1,0 +1,362 @@
+{
+  "category": "Sharp Claw Pokémon",
+  "entries": [
+    {
+      "text": "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+      "version": "diamond"
+    },
+    {
+      "text": "It sends signals to others by carving odd patterns in frost- covered trees and ice.",
+      "version": "pearl"
+    },
+    {
+      "text": "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+      "version": "black"
+    },
+    {
+      "text": "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+      "version": "white"
+    },
+    {
+      "text": "They communicate by clawing signs in boulders and work together to surround enemies.",
+      "version": "black-2"
+    },
+    {
+      "text": "They communicate by clawing signs in boulders and work together to surround enemies.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+      "version": "x"
+    },
+    {
+      "text": "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+      "version": "y"
+    },
+    {
+      "text": "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+      "version": "sun"
+    },
+    {
+      "text": "They dwell in cold places. This Pokémon’s main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.",
+      "version": "moon"
+    },
+    {
+      "text": "One Weavile will trip a Sandshrew and flip it over, and then another Weavile will deal the finishing blow with its sharp claws.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Thanks to its increased intelligence, scrapping over food is a thing of the past. A scratch from its claws will give you a case of frostbite!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
+      "version": "sword"
+    },
+    {
+      "text": "With its claws, it leaves behind signs for its friends to find. The number of distinct signs is said to be over 500.",
+      "version": "shield"
+    },
+    {
+      "text": "This species corners prey as a pack, under the guidance of a leader. Weavile displays increased cunning, leading me to speculate that its evolution caused further brain development.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sneasel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "razor-claw",
+        "time_of_day": "night"
+      },
+      "from": "sneasel",
+      "to": "weavile",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "razor-claw",
+        "required_pokemon_form": "sneasel-hisui",
+        "time_of_day": "day"
+      },
+      "from": "sneasel",
+      "to": "sneasler",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "pickpocket"
+        }
+      ],
+      "artwork": "/dex-images/artwork/weavile.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 45,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 120,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 45,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 120,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "frostpoint-field-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 50,
+            "location": "frostpoint-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-foot-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "frostpoint-field-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 50,
+            "location": "frostpoint-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-foot-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "weavile",
+      "kind": "default",
+      "name": "Weavile",
+      "number": 461,
+      "pokemon": "weavile",
+      "sourceId": 461,
+      "sprite": "/dex-images/sprites/weavile.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 120,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 45,
+        "special-defense": 85,
+        "speed": 125
+      },
+      "tags": [],
+      "types": ["dark", "ice"],
+      "weight": 340
+    }
+  ],
+  "generation": 4,
+  "key": "weavile",
+  "name": "Weavile",
+  "names": {
+    "de": "Snibunna",
+    "en": "Weavile",
+    "es": "Weavile",
+    "es-419": "Weavile",
+    "fr": "Dimoret",
+    "it": "Weavile",
+    "ja": "マニューラ",
+    "ja-hrkt": "マニューラ",
+    "ja-roma": "Manyula",
+    "ko": "포푸니라",
+    "zh-hans": "玛狃拉",
+    "zh-hant": "瑪狃拉"
+  },
+  "number": 461
+}

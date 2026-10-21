@@ -1,0 +1,1338 @@
+{
+  "category": "Weed Pokémon",
+  "entries": [
+    {
+      "text": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+      "version": "red"
+    },
+    {
+      "text": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+      "version": "blue"
+    },
+    {
+      "text": "It may be mistaken for a clump of weeds. If you try to yank it out of the ground, it shrieks horribly.",
+      "version": "yellow"
+    },
+    {
+      "text": "Awakened by moonlight, it roams actively at night. In the day, it stays quietly underground.",
+      "version": "gold"
+    },
+    {
+      "text": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+      "version": "silver"
+    },
+    {
+      "text": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+      "version": "crystal"
+    },
+    {
+      "text": "During the daytime, ODDISH buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.",
+      "version": "ruby"
+    },
+    {
+      "text": "ODDISH searches for fertile, nutrient- rich soil, then plants itself. During the daytime, while it is planted, this POKéMON’s feet are thought to change shape and become similar to the roots of trees.",
+      "version": "sapphire"
+    },
+    {
+      "text": "This POKéMON grows by absorbing moonlight. During the daytime, it buries itself in the ground, leaving only its leaves exposed to avoid detection by its enemies.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its scientific name is “Oddium Wanderus.” At night, it is said to walk nearly 1,000 feet on its two roots.",
+      "version": "firered"
+    },
+    {
+      "text": "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "diamond"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "pearl"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "platinum"
+    },
+    {
+      "text": "Awakened by moonlight, it roams actively at night. In the day, it stays quietly underground.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "black"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "white"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "black-2"
+    },
+    {
+      "text": "It often plants its root feet in the ground during the day and sows seeds as it walks about at night.",
+      "version": "white-2"
+    },
+    {
+      "text": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+      "version": "x"
+    },
+    {
+      "text": "Its scientific name is “Oddium Wanderus.” At night, it is said to walk nearly 1,000 feet on its two roots.",
+      "version": "y"
+    },
+    {
+      "text": "During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokémon’s feet are thought to change shape and become similar to the roots of trees.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It may be mistaken for a clump of weeds. If you try to yank it out of the ground, it shrieks horribly.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "It may be mistaken for a clump of weeds. If you try to yank it out of the ground, it shrieks horribly.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+      "version": "sword"
+    },
+    {
+      "text": "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oddish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "oddish",
+      "to": "gloom",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "gloom",
+      "to": "vileplume",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "gloom",
+      "to": "bellossom",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "run-away"
+        }
+      ],
+      "artwork": "/dex-images/artwork/oddish.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 60,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 50,
+            "location": "ilex-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 13,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 11,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "firered": [
+          {
+            "chance": 10,
+            "location": "berry-forest-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "bond-bridge-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "cape-brink-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "water-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "gold": [
+          {
+            "chance": 60,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-5-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 60,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-5-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 9
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 60,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 13,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 11,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "red": [
+          {
+            "chance": 35,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 35,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "shield": [
+          {
+            "chance": 310,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 380,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 380,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          }
+        ],
+        "silver": [
+          {
+            "chance": 60,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-5-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 60,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-5-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "sword": [
+          {
+            "chance": 310,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 380,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 380,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 10
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "oddish",
+      "kind": "default",
+      "name": "Oddish",
+      "number": 43,
+      "pokemon": "oddish",
+      "sourceId": 43,
+      "sprite": "/dex-images/sprites/oddish.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 50,
+        "defense": 55,
+        "hp": 45,
+        "special-attack": 75,
+        "special-defense": 65,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 54
+    }
+  ],
+  "generation": 1,
+  "key": "oddish",
+  "name": "Oddish",
+  "names": {
+    "de": "Myrapla",
+    "en": "Oddish",
+    "es": "Oddish",
+    "es-419": "Oddish",
+    "fr": "Mystherbe",
+    "it": "Oddish",
+    "ja": "ナゾノクサ",
+    "ja-hrkt": "ナゾノクサ",
+    "ja-roma": "Nazonokusa",
+    "ko": "뚜벅쵸",
+    "zh-hans": "走路草",
+    "zh-hant": "走路草"
+  },
+  "number": 43
+}

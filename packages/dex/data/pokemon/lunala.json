@@ -1,0 +1,145 @@
+{
+  "category": "Moone Pokémon",
+  "entries": [
+    {
+      "text": "It is said to be a female evolution of Cosmog. When its third eye activates, away it flies to another world.",
+      "version": "sun"
+    },
+    {
+      "text": "Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.",
+      "version": "moon"
+    },
+    {
+      "text": "Records of it exist in writings from long, long ago, where it was known by the name “the beast that calls the moon.”",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Known as the Beast That Calls the Moon, this Pokémon lives by taking in any and all light and converting it into its own energy.",
+      "version": "sword"
+    },
+    {
+      "text": "It steals the light from its surroundings and then becomes the full moon, showering its own light across the night sky.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cosmog",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 43
+      },
+      "from": "cosmog",
+      "to": "cosmoem",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "solgaleo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "lunala",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shadow-shield"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lunala.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "altar-of-the-moone-area",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "mahalo-trail-area",
+            "maxLevel": 60,
+            "method": "gift",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 40,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lunala",
+      "kind": "default",
+      "legendary": true,
+      "name": "Lunala",
+      "number": 792,
+      "pokemon": "lunala",
+      "sourceId": 792,
+      "sprite": "/dex-images/sprites/lunala.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 113,
+        "defense": 89,
+        "hp": 137,
+        "special-attack": 137,
+        "special-defense": 107,
+        "speed": 97
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "ghost"],
+      "weight": 1200
+    }
+  ],
+  "generation": 7,
+  "key": "lunala",
+  "name": "Lunala",
+  "names": {
+    "de": "Lunala",
+    "en": "Lunala",
+    "es": "Lunala",
+    "es-419": "Lunala",
+    "fr": "Lunala",
+    "it": "Lunala",
+    "ja": "ルナアーラ",
+    "ja-hrkt": "ルナアーラ",
+    "ja-roma": "Lunala",
+    "ko": "루나아라",
+    "zh-hans": "露奈雅拉",
+    "zh-hant": "露奈雅拉"
+  },
+  "number": 792
+}

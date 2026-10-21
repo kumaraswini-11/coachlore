@@ -1,0 +1,264 @@
+{
+  "category": "Eyeball Pokémon",
+  "entries": [
+    {
+      "text": "MASQUERAIN intimidates enemies with the eyelike patterns on its antennas. This POKéMON flaps its four wings to freely fly in any direction - even sideways and backwards - as if it were a helicopter.",
+      "version": "ruby"
+    },
+    {
+      "text": "MASQUERAIN’s antennas have eyelike patterns that usually give it an angry look. If the “eyes” are droopy and appear sad, it is said to be a sign that a heavy rainfall is on its way.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It intimidates foes with the large eyelike patterns on its antennae. Because it can’t fly if its wings get wet, it shelters itself from rain under large trees and eaves.",
+      "version": "emerald"
+    },
+    {
+      "text": "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
+      "version": "firered"
+    },
+    {
+      "text": "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "platinum"
+    },
+    {
+      "text": "It flaps its four wings to hover and fly freely in any direction-- to and fro and sideways.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It flaps its four wings to hover and fly freely in any direction-- to and fro and sideways.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "black"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "white"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its antennae have eye patterns on them. Its four wings enable it to hover and fly in any direction.",
+      "version": "x"
+    },
+    {
+      "text": "It flaps its four wings to hover and fly freely in any direction--to and fro and sideways.",
+      "version": "y"
+    },
+    {
+      "text": "Masquerain intimidates enemies with the eyelike patterns on its antennas. This Pokémon flaps its four wings to freely fly in any direction—even sideways and backwards—as if it were a helicopter.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Masquerain’s antennas have eyelike patterns that usually give it an angry look. If the “eyes” are droopy and appear sad, it is said to be a sign that a heavy rainfall is on its way.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It intimidates enemies with the eye-like patterns on its antennae. Its four wings allow it to fly in any direction.",
+      "version": "sun"
+    },
+    {
+      "text": "Its wings and antennae don’t cope well with moisture. After a rain, it faces sunward to dry off.",
+      "version": "moon"
+    },
+    {
+      "text": "Masquerain intimidates enemies with the eyelike patterns of its eyespots. If that doesn’t work, it deftly makes its escape on its set of four wings.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its thin, winglike antennae are highly absorbent. It waits out rainy days in tree hollows.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "surskit",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "surskit",
+      "to": "masquerain",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/masquerain.webp",
+      "encounters": {
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 46,
+            "method": "surf",
+            "minLevel": 42
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 46,
+            "method": "surf",
+            "minLevel": 42
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-3-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 66,
+            "location": "kalos-route-3-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "masquerain",
+      "kind": "default",
+      "name": "Masquerain",
+      "number": 284,
+      "pokemon": "masquerain",
+      "sourceId": 284,
+      "sprite": "/dex-images/sprites/masquerain.webp",
+      "statTotal": 454,
+      "stats": {
+        "attack": 60,
+        "defense": 62,
+        "hp": 70,
+        "special-attack": 100,
+        "special-defense": 82,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 36
+    }
+  ],
+  "generation": 3,
+  "key": "masquerain",
+  "name": "Masquerain",
+  "names": {
+    "de": "Maskeregen",
+    "en": "Masquerain",
+    "es": "Masquerain",
+    "es-419": "Masquerain",
+    "fr": "Maskadra",
+    "it": "Masquerain",
+    "ja": "アメモース",
+    "ja-hrkt": "アメモース",
+    "ja-roma": "Amemoth",
+    "ko": "비나방",
+    "zh-hans": "雨翅蛾",
+    "zh-hant": "雨翅蛾"
+  },
+  "number": 284
+}

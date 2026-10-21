@@ -1,0 +1,274 @@
+{
+  "category": "Bagworm Pokémon",
+  "entries": [
+    {
+      "text": "Its entire body is shielded by a steel-hard shell. What lurks inside the armor is a total mystery.",
+      "version": "gold"
+    },
+    {
+      "text": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away.",
+      "version": "silver"
+    },
+    {
+      "text": "Usually found hanging on to a fat tree trunk. It shoots out bits of its shell when it sees action.",
+      "version": "crystal"
+    },
+    {
+      "text": "FORRETRESS conceals itself inside its hardened steel shell. The shell is opened when the POKéMON is catching prey, but it does so at such a quick pace that the shell’s inside cannot be seen.",
+      "version": "ruby"
+    },
+    {
+      "text": "FORRETRESS conceals itself inside its hardened steel shell. The shell is opened when the POKéMON is catching prey, but it does so at such a quick pace that the shell’s inside cannot be seen.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It keeps itself inside its steel shell. The shell is opened when it is catching prey, but it is so quick that the shell’s inside cannot be seen.",
+      "version": "emerald"
+    },
+    {
+      "text": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away.",
+      "version": "firered"
+    },
+    {
+      "text": "Its entire body is shielded by a steel- hard shell. What lurks inside the armor is a total mystery.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "black"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "white"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+      "version": "x"
+    },
+    {
+      "text": "It remains immovably rooted to its tree. It scatters pieces of its hard shell to drive its enemies away.",
+      "version": "y"
+    },
+    {
+      "text": "Forretress conceals itself inside its hardened steel shell. The shell is opened when the Pokémon is catching prey, but it does so at such a quick pace that the shell’s inside cannot be seen.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Forretress conceals itself inside its hardened steel shell. The shell is opened when the Pokémon is catching prey, but it does so at such a quick pace that the shell’s inside cannot be seen.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When something approaches it, it fires off fragments of its steel shell in attack. This is not a conscious action but a conditioned reflex.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "In the moment that it gulps down its prey, the inside of its shell is exposed, but to this day, no one has ever seen that sight.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pineco",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 31
+      },
+      "from": "pineco",
+      "to": "forretress",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/forretress.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-forest-west-of-route-105",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-east-of-route-125",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-south-of-route-131",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf2",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-forest-west-of-route-105",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-east-of-route-125",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-south-of-route-131",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-steel",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-steel",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "ultra-sun-ultra-moon", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "forretress",
+      "kind": "default",
+      "name": "Forretress",
+      "number": 205,
+      "pokemon": "forretress",
+      "sourceId": 205,
+      "sprite": "/dex-images/sprites/forretress.webp",
+      "statTotal": 465,
+      "stats": {
+        "attack": 90,
+        "defense": 140,
+        "hp": 75,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["bug", "steel"],
+      "weight": 1258
+    }
+  ],
+  "generation": 2,
+  "key": "forretress",
+  "name": "Forretress",
+  "names": {
+    "de": "Forstellka",
+    "en": "Forretress",
+    "es": "Forretress",
+    "es-419": "Forretress",
+    "fr": "Foretress",
+    "it": "Forretress",
+    "ja": "フォレトス",
+    "ja-hrkt": "フォレトス",
+    "ja-roma": "Foretos",
+    "ko": "쏘콘",
+    "zh-hans": "佛烈托斯",
+    "zh-hant": "佛烈托斯"
+  },
+  "number": 205
+}

@@ -1,0 +1,2310 @@
+{
+  "category": "Rock Pokémon",
+  "entries": [
+    {
+      "text": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+      "version": "red"
+    },
+    {
+      "text": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+      "version": "blue"
+    },
+    {
+      "text": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",
+      "version": "yellow"
+    },
+    {
+      "text": "With a free and uncaring nature, it doesn't mind if pieces break off while it rolls down mountains.",
+      "version": "gold"
+    },
+    {
+      "text": "A slow walker, it rolls to move. It pays no attention to any object that happens to be in its path.",
+      "version": "silver"
+    },
+    {
+      "text": "It travels by rolling on mountain paths. If it gains too much speed, it stops by running into huge rocks.",
+      "version": "crystal"
+    },
+    {
+      "text": "GRAVELER grows by feeding on rocks. Apparently, it prefers to eat rocks that are covered in moss. This POKéMON eats its way through a ton of rocks on a daily basis.",
+      "version": "ruby"
+    },
+    {
+      "text": "Rocks are GRAVELER’s favorite food. This POKéMON will climb a mountain from the base to the summit, crunchingly feasting on rocks all the while. Upon reaching the peak, it rolls back down to the bottom.",
+      "version": "sapphire"
+    },
+    {
+      "text": "They descend from mountains by tumbling down steep slopes. They are so brutal, they smash aside obstructing trees and massive boulders with thunderous tackles.",
+      "version": "emerald"
+    },
+    {
+      "text": "Be careful while hiking on mountain trails. GRAVELER may come rolling down the path without slowing.",
+      "version": "firered"
+    },
+    {
+      "text": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "GRAVELER make their homes on sheer cliff faces by gouging out numerous horizontal holes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It tumbles down slopes, heedless of any body parts chipping off. It eats a ton of rocks daily.",
+      "version": "pearl"
+    },
+    {
+      "text": "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+      "version": "platinum"
+    },
+    {
+      "text": "With a free and uncaring nature, it doesn’t mind if pieces break off while it rolls down mountains.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A slow walker, it rolls to move. It pays no attention to any object that happens to be in its path.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+      "version": "black"
+    },
+    {
+      "text": "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+      "version": "white"
+    },
+    {
+      "text": "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+      "version": "black-2"
+    },
+    {
+      "text": "It rolls on mountain paths to move. Once it builds momentum, no Pokémon can stop it without difficulty.",
+      "version": "white-2"
+    },
+    {
+      "text": "With a free and uncaring nature, it doesn’t mind if pieces break off while it rolls down mountains.",
+      "version": "x"
+    },
+    {
+      "text": "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+      "version": "y"
+    },
+    {
+      "text": "Graveler grows by feeding on rocks. Apparently, it prefers to eat rocks that are covered in moss. This Pokémon eats its way through a ton of rocks on a daily basis.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Rocks are Graveler’s favorite food. This Pokémon will climb a mountain from the base to the summit, crunchingly feasting on rocks all the while. Upon reaching the peak, it rolls back down to the bottom.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Mossy rocks are its favorite food. It can devour a ton a day while crunching loudly.",
+      "version": "sun"
+    },
+    {
+      "text": "This slow-footed Pokémon moves by curling up and rolling instead of walking. With enough momentum, its speed can exceed 60 mph.",
+      "version": "moon"
+    },
+    {
+      "text": "It climbs up cliffs as it heads toward the peak of a mountain. As soon as it reaches the summit, it rolls back down the way it came.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Dwells in holes dug into sheer walls of stone. It enjoys rolling down slopes as though it were a boulder during a rockfall, so keep an eye upward while traversing mountain roads.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "geodude",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "geodude",
+      "to": "graveler",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "graveler-alola",
+        "min_level": 25,
+        "required_pokemon_form": "geodude-alola"
+      },
+      "from": "geodude",
+      "to": "graveler",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "graveler",
+      "to": "golem",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "golem-alola",
+        "required_pokemon_form": "graveler-alola"
+      },
+      "from": "graveler",
+      "to": "golem",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "sand-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/graveler.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 85,
+            "location": "mirage-spot-cave-north-of-route-124",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-cave-south-east-of-route-129",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-cave-west-of-rustburo",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "mirage-spot-forest-west-of-route-105",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 36
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-island-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 38
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 38
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-mountain-south-east-of-route-129",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          }
+        ],
+        "black": [
+          {
+            "chance": 20,
+            "location": "challengers-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "blue": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 60,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "johto-route-45-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 110,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 110,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 110,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 90,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 90,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 60,
+            "location": "mt-silver-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 35,
+            "location": "iron-island-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 93,
+            "location": "iron-island-b1f-left",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 93,
+            "location": "iron-island-b1f-right",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 63,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 73,
+            "location": "iron-island-b2f-right",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 63,
+            "location": "iron-island-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-2f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-4f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-5f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-6f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 37,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 42,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 25,
+            "location": "stark-mountain-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-inside",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 25,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 70,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "magma-hideout-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "firered": [
+          {
+            "chance": 35,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "rock-smash",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 60,
+            "method": "rock-smash",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 65,
+            "method": "rock-smash",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "kindle-road-area",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "mt-ember-1f-cave-behind-team-rocket",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "mt-ember-area",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "mt-ember-b1f",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "mt-ember-b2f",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "mt-ember-inside",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "mt-ember-summit",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "sevault-canyon-area",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          }
+        ],
+        "gold": [
+          {
+            "chance": 20,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-45-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 30,
+            "method": "rock-smash",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 30,
+            "method": "rock-smash",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-45-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 8,
+            "location": "johto-route-47-inside-cave",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 40,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 33,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 35,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "rock-smash",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 60,
+            "method": "rock-smash",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 65,
+            "method": "rock-smash",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "kindle-road-area",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "mt-ember-1f-cave-behind-team-rocket",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "mt-ember-area",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "mt-ember-b1f",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "mt-ember-b2f",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "mt-ember-inside",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "mt-ember-summit",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "sevault-canyon-area",
+            "maxLevel": 50,
+            "method": "rock-smash",
+            "minLevel": 30
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 32,
+            "method": "npc-trade",
+            "minLevel": 32
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 85,
+            "location": "mirage-spot-cave-north-of-route-124",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-cave-south-east-of-route-129",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-cave-west-of-rustburo",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "mirage-spot-forest-west-of-route-105",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 36
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-island-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 38
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 38
+          },
+          {
+            "chance": 85,
+            "location": "mirage-spot-mountain-south-east-of-route-129",
+            "maxLevel": 38,
+            "method": "rock-smash",
+            "minLevel": 35
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 35,
+            "location": "iron-island-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 93,
+            "location": "iron-island-b1f-left",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 93,
+            "location": "iron-island-b1f-right",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 63,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 73,
+            "location": "iron-island-b2f-right",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 63,
+            "location": "iron-island-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-2f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-4f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-5f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-6f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 37,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 42,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 25,
+            "location": "stark-mountain-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-inside",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 25,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 35,
+            "location": "iron-island-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 94,
+            "location": "iron-island-b1f-left",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 94,
+            "location": "iron-island-b1f-right",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 74,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 74,
+            "location": "iron-island-b2f-right",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 74,
+            "location": "iron-island-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 50,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-2f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-3f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-4f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-5f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-6f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 45,
+            "location": "sendoff-spring-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 21,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-225-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 15,
+            "location": "stark-mountain-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 15,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 15,
+            "location": "stark-mountain-inside",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "red": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 1,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 70,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 30
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 70,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 40,
+            "method": "rock-smash",
+            "minLevel": 30
+          }
+        ],
+        "silver": [
+          {
+            "chance": 20,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "johto-route-45-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 30,
+            "method": "rock-smash",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 30,
+            "method": "rock-smash",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "johto-route-45-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 8,
+            "location": "johto-route-47-inside-cave",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 40,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 33,
+            "method": "rock-smash",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 32,
+            "method": "npc-trade",
+            "minLevel": 32
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "challengers-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "x": [
+          {
+            "chance": 66,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rock-smash",
+            "minLevel": 26
+          },
+          {
+            "chance": 125,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "red-flowers",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 125,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 160,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 160,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "rock-smash",
+            "minLevel": 57
+          },
+          {
+            "chance": 160,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 29,
+            "method": "horde",
+            "minLevel": 29
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "rock-smash",
+            "minLevel": 57
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 100,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 100,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 29,
+            "method": "horde",
+            "minLevel": 29
+          },
+          {
+            "chance": 100,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "y": [
+          {
+            "chance": 66,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rock-smash",
+            "minLevel": 26
+          },
+          {
+            "chance": 125,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "red-flowers",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 125,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 160,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 160,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "rock-smash",
+            "minLevel": 57
+          },
+          {
+            "chance": 160,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 29,
+            "method": "horde",
+            "minLevel": 29
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "rock-smash",
+            "minLevel": 57
+          },
+          {
+            "chance": 195,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 100,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 100,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 29,
+            "method": "horde",
+            "minLevel": 29
+          },
+          {
+            "chance": 100,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 57,
+            "method": "ceiling-ambush",
+            "minLevel": 57
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "rock-smash",
+            "minLevel": 44
+          },
+          {
+            "chance": 115,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 15,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-2-1f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-2-2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 15,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "graveler",
+      "kind": "default",
+      "name": "Graveler",
+      "number": 75,
+      "pokemon": "graveler",
+      "sourceId": 75,
+      "sprite": "/dex-images/sprites/graveler.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 95,
+        "defense": 115,
+        "hp": 55,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["rock", "ground"],
+      "weight": 1050
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "magnet-pull"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "galvanize"
+        }
+      ],
+      "artwork": "/dex-images/artwork/graveler-alola.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-12-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-12-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ]
+      },
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "graveler-alola",
+      "kind": "regional",
+      "name": "Graveler-Alola",
+      "number": 75,
+      "pokemon": "graveler",
+      "sourceId": 10110,
+      "sprite": "/dex-images/sprites/graveler-alola.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 95,
+        "defense": 115,
+        "hp": 55,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["rock", "electric"],
+      "weight": 1100
+    }
+  ],
+  "generation": 1,
+  "key": "graveler",
+  "name": "Graveler",
+  "names": {
+    "de": "Georok",
+    "en": "Graveler",
+    "es": "Graveler",
+    "es-419": "Graveler",
+    "fr": "Gravalanch",
+    "it": "Graveler",
+    "ja": "ゴローン",
+    "ja-hrkt": "ゴローン",
+    "ja-roma": "Golone",
+    "ko": "데구리",
+    "zh-hans": "隆隆石",
+    "zh-hant": "隆隆石"
+  },
+  "number": 75
+}

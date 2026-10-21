@@ -1,0 +1,115 @@
+{
+  "category": "Rabbit Pokémon",
+  "entries": [
+    {
+      "text": "A warm-up of running around gets fire energy coursing through this Pokémon’s body. Once that happens, it’s ready to fight at full power.",
+      "version": "sword"
+    },
+    {
+      "text": "It has special pads on the backs of its feet, and one on its nose. Once it’s raring to fight, these pads radiate tremendous heat.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "scorbunny",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "scorbunny",
+      "to": "raboot",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "raboot",
+      "to": "cinderace",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "libero"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scorbunny.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "postwick-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "postwick-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "scorbunny",
+      "kind": "default",
+      "name": "Scorbunny",
+      "number": 813,
+      "pokemon": "scorbunny",
+      "sourceId": 813,
+      "sprite": "/dex-images/sprites/scorbunny.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 71,
+        "defense": 40,
+        "hp": 50,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 69
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 45
+    }
+  ],
+  "generation": 8,
+  "key": "scorbunny",
+  "name": "Scorbunny",
+  "names": {
+    "de": "Hopplo",
+    "en": "Scorbunny",
+    "es": "Scorbunny",
+    "es-419": "Scorbunny",
+    "fr": "Flambino",
+    "it": "Scorbunny",
+    "ja": "ヒバニー",
+    "ja-hrkt": "ヒバニー",
+    "ja-roma": "Hibanny",
+    "ko": "염버니",
+    "zh-hans": "炎兔儿",
+    "zh-hant": "炎兔兒"
+  },
+  "number": 813
+}

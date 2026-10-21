@@ -2,8 +2,8 @@
 import { readFileSync } from "node:fs"
 import { Dex } from "@pkmn/dex"
 
-import type { Usage, UsageEntry } from "../../src/types.ts"
-import { showdownId, type ShowdownNames } from "./showdown.ts"
+import type { ShowdownNames, Usage, UsageEntry } from "../../src/types.ts"
+import { showdownId } from "./showdown.ts"
 
 type ChaosEntry = {
   usage: number

@@ -1,0 +1,646 @@
+{
+  "category": "Long Leg Pokémon",
+  "entries": [
+    {
+      "text": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
+      "version": "gold"
+    },
+    {
+      "text": "A single strand of a special string is endlessly spun out of its rear. The string leads back to its nest.",
+      "version": "silver"
+    },
+    {
+      "text": "Rather than making a nest in one specific spot, it wanders in search of food after darkness falls.",
+      "version": "crystal"
+    },
+    {
+      "text": "ARIADOS’s feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This POKéMON constricts the foe with thin and strong silk webbing.",
+      "version": "ruby"
+    },
+    {
+      "text": "ARIADOS’s feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This POKéMON constricts the foe with thin and strong silk webbing.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. It constricts its foe with thin and strong silk webbing.",
+      "version": "emerald"
+    },
+    {
+      "text": "A single strand of a special string is endlessly spun out of its rear. The string leads back to its nest.",
+      "version": "firered"
+    },
+    {
+      "text": "It spins string not only from its rear but also from its mouth. It is hard to tell which end is which.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "diamond"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "pearl"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "platinum"
+    },
+    {
+      "text": "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A single strand of a special string is endlessly spun out of its rear. The string leads back to its nest.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "black"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "white"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "black-2"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "white-2"
+    },
+    {
+      "text": "It spins string not only from its rear but also from its mouth. It’s hard to tell which end is which.",
+      "version": "x"
+    },
+    {
+      "text": "It attaches silk to its prey and sets it free. Later, it tracks the silk to the prey and its friends.",
+      "version": "y"
+    },
+    {
+      "text": "Ariados’s feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Ariados’s feet are tipped with tiny hooked claws that enable it to scuttle on ceilings and vertical walls. This Pokémon constricts the foe with thin and strong silk webbing.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "There are some areas where people use the string Ariados spins for their own weaving. The resulting cloth is popular for its strength.",
+      "version": "sun"
+    },
+    {
+      "text": "It spins thread from both its rear and its mouth. Then it wraps its prey up in thread and sips their bodily fluids at its leisure.",
+      "version": "moon"
+    },
+    {
+      "text": "Every night, it wanders around in search of prey, whose movements it restrains by spewing threads before it bites into them with its fangs.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "spinarak",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "spinarak",
+      "to": "ariados",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": true,
+          "key": "sniper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ariados.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 35,
+            "location": "sky-pillar-1f",
+            "maxLevel": 23,
+            "method": "horde",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "sky-pillar-3f",
+            "maxLevel": 23,
+            "method": "horde",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "sky-pillar-5f",
+            "maxLevel": 23,
+            "method": "horde",
+            "minLevel": 23
+          }
+        ],
+        "black": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "dreamyard-b1f",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf2",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 5
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 35,
+            "location": "sky-pillar-1f",
+            "maxLevel": 23,
+            "method": "horde",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "sky-pillar-3f",
+            "maxLevel": 23,
+            "method": "horde",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "sky-pillar-5f",
+            "maxLevel": 23,
+            "method": "horde",
+            "minLevel": 23
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 35,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "dreamyard-b1f",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 33,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "ceiling-ambush",
+            "minLevel": 58
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "ceiling-ambush",
+            "minLevel": 44
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ariados",
+      "kind": "default",
+      "name": "Ariados",
+      "number": 168,
+      "pokemon": "ariados",
+      "sourceId": 168,
+      "sprite": "/dex-images/sprites/ariados.webp",
+      "statTotal": 400,
+      "stats": {
+        "attack": 90,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 335
+    }
+  ],
+  "generation": 2,
+  "key": "ariados",
+  "name": "Ariados",
+  "names": {
+    "de": "Ariados",
+    "en": "Ariados",
+    "es": "Ariados",
+    "es-419": "Ariados",
+    "fr": "Migalos",
+    "it": "Ariados",
+    "ja": "アリアドス",
+    "ja-hrkt": "アリアドス",
+    "ja-roma": "Ariados",
+    "ko": "아리아도스",
+    "zh-hans": "阿利多斯",
+    "zh-hant": "阿利多斯"
+  },
+  "number": 168
+}

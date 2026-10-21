@@ -1,0 +1,433 @@
+{
+  "category": "Kicking Pokémon",
+  "entries": [
+    {
+      "text": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+      "version": "red"
+    },
+    {
+      "text": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides.",
+      "version": "blue"
+    },
+    {
+      "text": "When kicking, the sole of its foot turns as hard as a diamond on impact and destroys its enemy.",
+      "version": "yellow"
+    },
+    {
+      "text": "This amazing POKéMON has an awesome sense of balance. It can kick in succession from any position.",
+      "version": "gold"
+    },
+    {
+      "text": "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+      "version": "silver"
+    },
+    {
+      "text": "It is also called the Kick Master. It uses its elastic legs to execute every known kick.",
+      "version": "crystal"
+    },
+    {
+      "text": "HITMONLEE’s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+      "version": "ruby"
+    },
+    {
+      "text": "HITMONLEE’s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its legs freely stretch and contract. Using these springlike limbs, it bowls over foes with devastating kicks. After battle, it rubs down its tired legs.",
+      "version": "emerald"
+    },
+    {
+      "text": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+      "version": "firered"
+    },
+    {
+      "text": "When in a hurry, its legs lengthen progressively. It runs smoothly with extra-long, loping strides.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "platinum"
+    },
+    {
+      "text": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "black"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "white"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its legs can stretch double. First-time foes are startled by its extensible reach.",
+      "version": "white-2"
+    },
+    {
+      "text": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+      "version": "x"
+    },
+    {
+      "text": "If it starts kicking repeatedly, both legs will stretch even longer to strike a fleeing foe.",
+      "version": "y"
+    },
+    {
+      "text": "Hitmonlee’s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Hitmonlee’s legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When kicking, the sole of its foot turns as hard as a diamond on impact and destroys its enemy.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "When kicking, the sole of its foot turns as hard as a diamond on impact and destroys its enemy.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+      "version": "sword"
+    },
+    {
+      "text": "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tyrogue",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": 1
+      },
+      "from": "tyrogue",
+      "to": "hitmonlee",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": -1
+      },
+      "from": "tyrogue",
+      "to": "hitmonchan",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": 0
+      },
+      "from": "tyrogue",
+      "to": "hitmontop",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "limber"
+        },
+        {
+          "hidden": false,
+          "key": "reckless"
+        },
+        {
+          "hidden": true,
+          "key": "unburden"
+        }
+      ],
+      "artwork": "/dex-images/artwork/hitmonlee.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld-special",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld-special",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "red": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "shield": [
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 45,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-3f",
+            "maxLevel": 38,
+            "method": "snag",
+            "minLevel": 38
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "hitmonlee",
+      "kind": "default",
+      "name": "Hitmonlee",
+      "number": 106,
+      "pokemon": "hitmonlee",
+      "sourceId": 106,
+      "sprite": "/dex-images/sprites/hitmonlee.webp",
+      "statTotal": 455,
+      "stats": {
+        "attack": 120,
+        "defense": 53,
+        "hp": 50,
+        "special-attack": 35,
+        "special-defense": 110,
+        "speed": 87
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 498
+    }
+  ],
+  "generation": 1,
+  "key": "hitmonlee",
+  "name": "Hitmonlee",
+  "names": {
+    "de": "Kicklee",
+    "en": "Hitmonlee",
+    "es": "Hitmonlee",
+    "es-419": "Hitmonlee",
+    "fr": "Kicklee",
+    "it": "Hitmonlee",
+    "ja": "サワムラー",
+    "ja-hrkt": "サワムラー",
+    "ja-roma": "Sawamular",
+    "ko": "시라소몬",
+    "zh-hans": "飞腿郎",
+    "zh-hant": "飛腿郎"
+  },
+  "number": 106
+}

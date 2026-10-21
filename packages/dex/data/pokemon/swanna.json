@@ -1,0 +1,189 @@
+{
+  "category": "White Bird Pokémon",
+  "entries": [
+    {
+      "text": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+      "version": "black"
+    },
+    {
+      "text": "It administers sharp, powerful pecks with its bill. It whips its long neck to deliver forceful repeated strikes.",
+      "version": "white"
+    },
+    {
+      "text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+      "version": "black-2"
+    },
+    {
+      "text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+      "version": "white-2"
+    },
+    {
+      "text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+      "version": "x"
+    },
+    {
+      "text": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+      "version": "y"
+    },
+    {
+      "text": "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "ducklett",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "ducklett",
+      "to": "swanna",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "big-pecks"
+        },
+        {
+          "hidden": true,
+          "key": "hydration"
+        }
+      ],
+      "artwork": "/dex-images/artwork/swanna.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "marvelous-bridge-area",
+            "maxLevel": 50,
+            "method": "bridge-spots",
+            "minLevel": 47
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "marvelous-bridge-area",
+            "maxLevel": 57,
+            "method": "bridge-spots",
+            "minLevel": 54
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "marvelous-bridge-area",
+            "maxLevel": 50,
+            "method": "bridge-spots",
+            "minLevel": 47
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "marvelous-bridge-area",
+            "maxLevel": 57,
+            "method": "bridge-spots",
+            "minLevel": 54
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "swanna",
+      "kind": "default",
+      "name": "Swanna",
+      "number": 581,
+      "pokemon": "swanna",
+      "sourceId": 581,
+      "sprite": "/dex-images/sprites/swanna.webp",
+      "statTotal": 473,
+      "stats": {
+        "attack": 87,
+        "defense": 63,
+        "hp": 75,
+        "special-attack": 87,
+        "special-defense": 63,
+        "speed": 98
+      },
+      "tags": [],
+      "types": ["water", "flying"],
+      "weight": 242
+    }
+  ],
+  "generation": 5,
+  "key": "swanna",
+  "name": "Swanna",
+  "names": {
+    "de": "Swaroness",
+    "en": "Swanna",
+    "es": "Swanna",
+    "es-419": "Swanna",
+    "fr": "Lakmécygne",
+    "it": "Swanna",
+    "ja": "スワンナ",
+    "ja-hrkt": "スワンナ",
+    "ja-roma": "Swanna",
+    "ko": "스완나",
+    "zh-hans": "舞天鹅",
+    "zh-hant": "舞天鵝"
+  },
+  "number": 581
+}

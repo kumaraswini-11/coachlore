@@ -1,0 +1,694 @@
+{
+  "category": "Cocoon Pokémon",
+  "entries": [
+    {
+      "text": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.",
+      "version": "red"
+    },
+    {
+      "text": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.",
+      "version": "blue"
+    },
+    {
+      "text": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+      "version": "yellow"
+    },
+    {
+      "text": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
+      "version": "gold"
+    },
+    {
+      "text": "From this form, it will grow into an adult. As its body becomes softer, the external shell hardens.",
+      "version": "silver"
+    },
+    {
+      "text": "Nearly incapable of movement, it leans against stout trees while waiting for its evolution.",
+      "version": "crystal"
+    },
+    {
+      "text": "KAKUNA remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+      "version": "ruby"
+    },
+    {
+      "text": "KAKUNA remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It remains virtually immobile while it clings to a tree. However, on the inside, it busily prepares for evolution. This is evident from how hot its shell becomes.",
+      "version": "emerald"
+    },
+    {
+      "text": "This POKéMON is in a temporary stage while making its body. It is almost completely unable to move on its own.",
+      "version": "firered"
+    },
+    {
+      "text": "Almost incapable of moving, this POKéMON can only harden its shell to protect itself when it is in danger.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "diamond"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "pearl"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "platinum"
+    },
+    {
+      "text": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
+      "version": "heartgold"
+    },
+    {
+      "text": "From this form, it will grow into an adult. As its body becomes softer, the external shell hardens.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "black"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "white"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "black-2"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "white-2"
+    },
+    {
+      "text": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+      "version": "x"
+    },
+    {
+      "text": "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+      "version": "y"
+    },
+    {
+      "text": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "weedle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 7
+      },
+      "from": "weedle",
+      "to": "kakuna",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "kakuna",
+      "to": "beedrill",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kakuna.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "unova-route-12-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-12-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "blue": [
+          {
+            "chance": 4,
+            "location": "kanto-route-25-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 25,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "ilex-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "firered": [
+          {
+            "chance": 4,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 4,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "pattern-bush-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 10,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 4,
+            "location": "kanto-route-25-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 1,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "pattern-bush-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 4,
+            "location": "eterna-forest-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "red": [
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 40,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 40,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "silver": [
+          {
+            "chance": 30,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-30-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-31-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "national-park-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 70,
+            "location": "ilex-forest-area",
+            "maxLevel": 5,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 70,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 50,
+            "location": "johto-route-47-area",
+            "maxLevel": 28,
+            "method": "headbutt",
+            "minLevel": 25
+          },
+          {
+            "chance": 51,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 51,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 60,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 4,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": false,
+      "generation": 1,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kakuna",
+      "kind": "default",
+      "name": "Kakuna",
+      "number": 14,
+      "pokemon": "kakuna",
+      "sourceId": 14,
+      "sprite": "/dex-images/sprites/kakuna.webp",
+      "statTotal": 205,
+      "stats": {
+        "attack": 25,
+        "defense": 50,
+        "hp": 45,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 100
+    }
+  ],
+  "generation": 1,
+  "key": "kakuna",
+  "name": "Kakuna",
+  "names": {
+    "de": "Kokuna",
+    "en": "Kakuna",
+    "es": "Kakuna",
+    "es-419": "Kakuna",
+    "fr": "Coconfort",
+    "it": "Kakuna",
+    "ja": "コクーン",
+    "ja-hrkt": "コクーン",
+    "ja-roma": "Cocoon",
+    "ko": "딱충이",
+    "zh-hans": "铁壳蛹",
+    "zh-hant": "鐵殼蛹"
+  },
+  "number": 14
+}

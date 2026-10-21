@@ -1,0 +1,82 @@
+{
+  "category": "Coin Entity Pokémon",
+  "entries": [
+    {
+      "text": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gimmighoul",
+      "trigger": null
+    },
+    {
+      "conditions": {},
+      "from": "gimmighoul",
+      "to": "gholdengo",
+      "trigger": "gimmighoul-coins"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "good-as-gold"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gholdengo.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gholdengo",
+      "kind": "default",
+      "name": "Gholdengo",
+      "number": 1000,
+      "pokemon": "gholdengo",
+      "sourceId": 1000,
+      "sprite": "/dex-images/sprites/gholdengo.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 60,
+        "defense": 95,
+        "hp": 87,
+        "special-attack": 133,
+        "special-defense": 91,
+        "speed": 84
+      },
+      "tags": [],
+      "types": ["steel", "ghost"],
+      "weight": 300
+    }
+  ],
+  "generation": 9,
+  "key": "gholdengo",
+  "name": "Gholdengo",
+  "names": {
+    "de": "Monetigo",
+    "en": "Gholdengo",
+    "es": "Gholdengo",
+    "es-419": "Gholdengo",
+    "fr": "Gromago",
+    "it": "Gholdengo",
+    "ja": "サーフゴー",
+    "ja-hrkt": "サーフゴー",
+    "ja-roma": "Surfugo",
+    "ko": "타부자고",
+    "zh-hans": "赛富豪",
+    "zh-hant": "賽富豪"
+  },
+  "number": 1000
+}

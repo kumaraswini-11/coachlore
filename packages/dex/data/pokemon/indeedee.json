@@ -1,0 +1,469 @@
+{
+  "category": "Emotion Pokémon",
+  "entries": [
+    {
+      "text": "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
+      "version": "sword"
+    },
+    {
+      "text": "Through its horns, it can pick up on the emotions of creatures around it. Positive emotions are the source of its strength.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "indeedee",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "psychic-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/indeedee-male.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 70,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 28,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 210,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 210,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 205,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 205,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 205,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 205,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Male",
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "indeedee-male",
+      "kind": "default",
+      "name": "Indeedee",
+      "number": 876,
+      "pokemon": "indeedee",
+      "sourceId": 876,
+      "sprite": "/dex-images/sprites/indeedee-male.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 65,
+        "defense": 55,
+        "hp": 60,
+        "special-attack": 105,
+        "special-defense": 95,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["psychic", "normal"],
+      "weight": 280
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "psychic-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/indeedee-female.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 70,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 28,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 210,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 210,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 205,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 205,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 205,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 205,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Female",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "indeedee-female",
+      "kind": "other",
+      "name": "Indeedee-Female",
+      "number": 876,
+      "pokemon": "indeedee",
+      "sourceId": 10186,
+      "sprite": "/dex-images/sprites/indeedee-female.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 55,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 95,
+        "special-defense": 105,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["psychic", "normal"],
+      "weight": 280
+    }
+  ],
+  "generation": 8,
+  "key": "indeedee",
+  "name": "Indeedee",
+  "names": {
+    "de": "Servol",
+    "en": "Indeedee",
+    "es": "Indeedee",
+    "es-419": "Indeedee",
+    "fr": "Wimessir",
+    "it": "Indeedee",
+    "ja": "イエッサン",
+    "ja-hrkt": "イエッサン",
+    "ja-roma": "Yessan",
+    "ko": "에써르",
+    "zh-hans": "爱管侍",
+    "zh-hant": "愛管侍"
+  },
+  "number": 876
+}

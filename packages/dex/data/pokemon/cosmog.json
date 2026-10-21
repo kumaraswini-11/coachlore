@@ -1,0 +1,172 @@
+{
+  "category": "Nebula Pokémon",
+  "entries": [
+    {
+      "text": "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+      "version": "sun"
+    },
+    {
+      "text": "In ages past, it was called the child of the stars. It’s said to be a Pokémon from another world, but no specific details are known.",
+      "version": "moon"
+    },
+    {
+      "text": "Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn’t seem to care.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Whether or not it’s a Pokémon from this world is a mystery. When it’s in a jam, it warps away to a safe place to hide.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away.",
+      "version": "sword"
+    },
+    {
+      "text": "Cosmog is very curious but not very cautious, often placing itself in danger. If things start to look dicey, it teleports away.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cosmog",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 43
+      },
+      "from": "cosmog",
+      "to": "cosmoem",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "solgaleo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "lunala",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unaware"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cosmog.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "lake-of-the-moone-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "lake-of-the-sunne-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "freezington-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "freezington-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "lake-of-the-moone-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "lake-of-the-sunne-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cosmog",
+      "kind": "default",
+      "legendary": true,
+      "name": "Cosmog",
+      "number": 789,
+      "pokemon": "cosmog",
+      "sourceId": 789,
+      "sprite": "/dex-images/sprites/cosmog.webp",
+      "statTotal": 200,
+      "stats": {
+        "attack": 29,
+        "defense": 31,
+        "hp": 43,
+        "special-attack": 29,
+        "special-defense": 31,
+        "speed": 37
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic"],
+      "weight": 1
+    }
+  ],
+  "generation": 7,
+  "key": "cosmog",
+  "name": "Cosmog",
+  "names": {
+    "de": "Cosmog",
+    "en": "Cosmog",
+    "es": "Cosmog",
+    "es-419": "Cosmog",
+    "fr": "Cosmog",
+    "it": "Cosmog",
+    "ja": "コスモッグ",
+    "ja-hrkt": "コスモッグ",
+    "ja-roma": "Cosmog",
+    "ko": "코스모그",
+    "zh-hans": "科斯莫古",
+    "zh-hant": "科斯莫古"
+  },
+  "number": 789
+}

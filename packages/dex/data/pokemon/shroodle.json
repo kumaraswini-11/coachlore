@@ -1,0 +1,92 @@
+{
+  "category": "Toxic Mouse Pokémon",
+  "entries": [
+    {
+      "text": "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+      "version": "scarlet"
+    },
+    {
+      "text": "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shroodle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "shroodle",
+      "to": "grafaiai",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unburden"
+        },
+        {
+          "hidden": false,
+          "key": "pickpocket"
+        },
+        {
+          "hidden": true,
+          "key": "prankster"
+        }
+      ],
+      "artwork": "/dex-images/artwork/shroodle.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "shroodle",
+      "kind": "default",
+      "name": "Shroodle",
+      "number": 944,
+      "pokemon": "shroodle",
+      "sourceId": 944,
+      "sprite": "/dex-images/sprites/shroodle.webp",
+      "statTotal": 290,
+      "stats": {
+        "attack": 65,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 40,
+        "special-defense": 35,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["poison", "normal"],
+      "weight": 7
+    }
+  ],
+  "generation": 9,
+  "key": "shroodle",
+  "name": "Shroodle",
+  "names": {
+    "de": "Sproxi",
+    "en": "Shroodle",
+    "es": "Shroodle",
+    "es-419": "Shroodle",
+    "fr": "Gribouraigne",
+    "it": "Shroodle",
+    "ja": "シルシュルー",
+    "ja-hrkt": "シルシュルー",
+    "ja-roma": "Shirushrew",
+    "ko": "땃쭈르",
+    "zh-hans": "滋汁鼹",
+    "zh-hant": "滋汁鼴"
+  },
+  "number": 944
+}

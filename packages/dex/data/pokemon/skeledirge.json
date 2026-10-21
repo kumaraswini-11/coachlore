@@ -1,0 +1,96 @@
+{
+  "category": "Singer Pokémon",
+  "entries": [
+    {
+      "text": "The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fuecoco",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "fuecoco",
+      "to": "crocalor",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "crocalor",
+      "to": "skeledirge",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "unaware"
+        }
+      ],
+      "artwork": "/dex-images/artwork/skeledirge.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "skeledirge",
+      "kind": "default",
+      "name": "Skeledirge",
+      "number": 911,
+      "pokemon": "skeledirge",
+      "sourceId": 911,
+      "sprite": "/dex-images/sprites/skeledirge.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 75,
+        "defense": 100,
+        "hp": 104,
+        "special-attack": 110,
+        "special-defense": 75,
+        "speed": 66
+      },
+      "tags": [],
+      "types": ["fire", "ghost"],
+      "weight": 3265
+    }
+  ],
+  "generation": 9,
+  "key": "skeledirge",
+  "name": "Skeledirge",
+  "names": {
+    "de": "Skelokrok",
+    "en": "Skeledirge",
+    "es": "Skeledirge",
+    "es-419": "Skeledirge",
+    "fr": "Flâmigator",
+    "it": "Skeledirge",
+    "ja": "ラウドボーン",
+    "ja-hrkt": "ラウドボーン",
+    "ja-roma": "Laudbon",
+    "ko": "라우드본",
+    "zh-hans": "骨纹巨声鳄",
+    "zh-hant": "骨紋巨聲鱷"
+  },
+  "number": 911
+}

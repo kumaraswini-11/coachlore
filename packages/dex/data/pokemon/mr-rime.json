@@ -1,0 +1,309 @@
+{
+  "category": "Comedian Pokémon",
+  "entries": [
+    {
+      "text": "It’s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
+      "version": "sword"
+    },
+    {
+      "text": "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mime-jr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "mimic"
+      },
+      "from": "mime-jr",
+      "to": "mr-mime",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "mr-mime-galar",
+        "known_move": "mimic",
+        "region": "galar"
+      },
+      "from": "mime-jr",
+      "to": "mr-mime",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 42,
+        "required_pokemon_form": "mr-mime-galar"
+      },
+      "from": "mr-mime",
+      "to": "mr-rime",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tangled-feet"
+        },
+        {
+          "hidden": false,
+          "key": "screen-cleaner"
+        },
+        {
+          "hidden": true,
+          "key": "ice-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mr-rime.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 65,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 65,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 8,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mr-rime",
+      "kind": "default",
+      "name": "Mr. Rime",
+      "number": 866,
+      "pokemon": "mr-rime",
+      "sourceId": 866,
+      "sprite": "/dex-images/sprites/mr-rime.webp",
+      "statTotal": 520,
+      "stats": {
+        "attack": 85,
+        "defense": 75,
+        "hp": 80,
+        "special-attack": 110,
+        "special-defense": 100,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["ice", "psychic"],
+      "weight": 582
+    }
+  ],
+  "generation": 8,
+  "key": "mr-rime",
+  "name": "Mr. Rime",
+  "names": {
+    "de": "Pantifrost",
+    "en": "Mr. Rime",
+    "es": "Mr. Rime",
+    "es-419": "Mr. Rime",
+    "fr": "M. Glaquette",
+    "it": "Mr. Rime",
+    "ja": "バリコオル",
+    "ja-hrkt": "バリコオル",
+    "ja-roma": "Barrikohru",
+    "ko": "마임꽁꽁",
+    "zh-hans": "踏冰人偶",
+    "zh-hant": "踏冰人偶"
+  },
+  "number": 866
+}

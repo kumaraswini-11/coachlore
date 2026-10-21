@@ -1,0 +1,121 @@
+{
+  "category": "Fossil Pokémon",
+  "entries": [
+    {
+      "text": "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
+      "version": "sword"
+    },
+    {
+      "text": "The powerful muscles in its tail generate its electricity. Compared to its lower body, its upper half is entirely too small.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dracozolt",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "volt-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": true,
+          "key": "sand-rush"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dracozolt.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 17,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 80,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["sword-shield"],
+      "gen9": false,
+      "generation": 8,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dracozolt",
+      "kind": "default",
+      "name": "Dracozolt",
+      "number": 880,
+      "pokemon": "dracozolt",
+      "sourceId": 880,
+      "sprite": "/dex-images/sprites/dracozolt.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 100,
+        "defense": 90,
+        "hp": 90,
+        "special-attack": 80,
+        "special-defense": 70,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["electric", "dragon"],
+      "weight": 1900
+    }
+  ],
+  "generation": 8,
+  "key": "dracozolt",
+  "name": "Dracozolt",
+  "names": {
+    "de": "Lectragon",
+    "en": "Dracozolt",
+    "es": "Dracozolt",
+    "es-419": "Dracozolt",
+    "fr": "Galvagon",
+    "it": "Dracozolt",
+    "ja": "パッチラゴン",
+    "ja-hrkt": "パッチラゴン",
+    "ja-roma": "Patchiragon",
+    "ko": "파치래곤",
+    "zh-hans": "雷鸟龙",
+    "zh-hant": "雷鳥龍"
+  },
+  "number": 880
+}

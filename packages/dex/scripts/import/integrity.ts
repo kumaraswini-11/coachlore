@@ -6,10 +6,10 @@ import {
   type Learnset,
   type Move,
   type PokemonDetail,
+  type ShowdownNames,
   type TypeChart,
   type Usage,
 } from "../../src/types.ts"
-import type { ShowdownNames } from "./showdown.ts"
 
 export type Dataset = {
   forms: FormSummary[]

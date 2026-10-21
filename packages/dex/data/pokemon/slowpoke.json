@@ -1,0 +1,2032 @@
+{
+  "category": "Dopey Pokémon",
+  "entries": [
+    {
+      "text": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+      "version": "red"
+    },
+    {
+      "text": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+      "version": "blue"
+    },
+    {
+      "text": "Incredibly slow and sluggish. It is quite content to loll about without worrying about the time.",
+      "version": "yellow"
+    },
+    {
+      "text": "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+      "version": "gold"
+    },
+    {
+      "text": "A sweet sap leaks from its tail's tip. Although not nutritious, the tail is pleasant to chew on.",
+      "version": "silver"
+    },
+    {
+      "text": "It is always so absent-minded that it won't react, even if its flavorful tail is bitten.",
+      "version": "crystal"
+    },
+    {
+      "text": "SLOWPOKE uses its tail to catch prey by dipping it in water at the side of a river. However, this POKéMON often forgets what it’s doing and often spends entire days just loafing at water’s edge.",
+      "version": "ruby"
+    },
+    {
+      "text": "SLOWPOKE uses its tail to catch prey by dipping it in water at the side of a river. However, this POKéMON often forgets what it’s doing and often spends entire days just loafing at water’s edge.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It catches prey by dipping its tail in water at the side of a river. But it often forgets what it is doing and spends entire days just loafing at water’s edge.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+      "version": "firered"
+    },
+    {
+      "text": "Incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "diamond"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "pearl"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A sweet sap leaks from its tail’s tip. Although not nutritious, the tail is pleasant to chew on.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "black"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "white"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "black-2"
+    },
+    {
+      "text": "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is always vacantly lost in thought, but no one knows what it is thinking about. It is good at fishing with its tail.",
+      "version": "x"
+    },
+    {
+      "text": "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day.",
+      "version": "y"
+    },
+    {
+      "text": "Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it’s doing and often spends entire days just loafing at water’s edge.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it’s doing and often spends entire days just loafing at water’s edge.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its long tail often breaks off. It doesn’t really feel any pain, though, and the tail grows back, so Slowpoke isn’t particularly bothered.",
+      "version": "sun"
+    },
+    {
+      "text": "Alolan home cooking involves drying Slowpoke tails and then simmering them into a salty stew.",
+      "version": "moon"
+    },
+    {
+      "text": "There are some places where Slowpoke is worshiped because of a long-standing belief that whenever Slowpoke yawns, it rains.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although their tails, which fall off naturally, can easily be found lying around, they’re a precious ingredient for cooking.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Incredibly slow and sluggish. It is quite content to loll about without worrying about the time.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Incredibly slow and sluggish. It is quite content to loll about without worrying about the time.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Slow-witted and oblivious, this Pokémon won’t feel any pain if its tail gets eaten. It won’t notice when its tail grows back, either.",
+      "version": "sword"
+    },
+    {
+      "text": "When this Pokémon’s tail is soaked in water, sweetness seeps from it. Slowpoke uses this trait to lure in and fish up other Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "slowpoke",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "slowpoke",
+      "to": "slowbro",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "slowbro-galar",
+        "item": "galarica-cuff",
+        "required_pokemon_form": "slowpoke-galar"
+      },
+      "from": "slowpoke",
+      "to": "slowbro",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "held_item": "kings-rock"
+      },
+      "from": "slowpoke",
+      "to": "slowking",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "slowking-galar",
+        "item": "galarica-wreath",
+        "required_pokemon_form": "slowpoke-galar"
+      },
+      "from": "slowpoke",
+      "to": "slowking",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slowpoke.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-cave-north-of-fallarbor",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-cave-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 90,
+            "location": "abundant-shrine-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "blue": [
+          {
+            "chance": 50,
+            "location": "celadon-city-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "gold": [
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 50,
+            "location": "celadon-city-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 90,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 105,
+            "location": "berry-forest-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "berry-forest-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "berry-forest-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 6,
+            "location": "bond-bridge-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "bond-bridge-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 5,
+            "location": "canyon-entrance-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 105,
+            "location": "cape-brink-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "cape-brink-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "cape-brink-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 99,
+            "location": "celadon-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 70,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 69,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 69,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 1,
+            "location": "cerulean-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "cinnabar-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "five-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 35,
+            "location": "four-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "four-island-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "fuchsia-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "fuchsia-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "green-path-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "icefall-cave-entrance",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "icefall-cave-entrance",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 40,
+            "location": "icefall-cave-entrance",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 6,
+            "location": "icefall-cave-waterfall",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "icefall-cave-waterfall",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-10-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-11-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-12-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-13-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-22-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-22-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-23-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-23-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-24-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-25-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-25-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-4-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-6-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "kanto-route-6-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 104,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "kindle-road-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "kindle-road-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 1,
+            "location": "memorial-pillar-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "one-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "outcast-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "pallet-town-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "resort-gorgeous-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "ruin-valley-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "ruin-valley-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 55,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 28,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 28,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 28,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 18,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 18,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 18,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 1,
+            "location": "ss-anne-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "tanoby-ruins-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "trainer-tower-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "treasure-beach-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "treasure-beach-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 1,
+            "location": "vermilion-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "viridian-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "viridian-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "water-labyrinth-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "water-path-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "water-path-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-cave-north-of-fallarbor",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-cave-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "red": [
+          {
+            "chance": 50,
+            "location": "celadon-city-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 15,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 50,
+            "location": "celadon-city-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 15,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "silver": [
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 90,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 115,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 105,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 45,
+            "location": "tohjo-falls-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-east",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-west",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-east",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-west",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "white": [
+          {
+            "chance": 90,
+            "location": "abundant-shrine-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 75,
+            "location": "azure-bay-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 75,
+            "location": "azure-bay-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-12-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-12-area",
+            "maxLevel": 27,
+            "method": "yellow-flowers",
+            "minLevel": 27
+          }
+        ],
+        "y": [
+          {
+            "chance": 75,
+            "location": "azure-bay-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 75,
+            "location": "azure-bay-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-12-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-12-area",
+            "maxLevel": 27,
+            "method": "yellow-flowers",
+            "minLevel": 27
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 95,
+            "location": "kanto-route-12-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "kanto-route-13-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 4,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "slowpoke",
+      "kind": "default",
+      "name": "Slowpoke",
+      "number": 79,
+      "pokemon": "slowpoke",
+      "sourceId": 79,
+      "sprite": "/dex-images/sprites/slowpoke.webp",
+      "statTotal": 315,
+      "stats": {
+        "attack": 65,
+        "defense": 65,
+        "hp": 90,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["water", "psychic"],
+      "weight": 360
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slowpoke-galar.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "wedgehurst-area",
+            "maxLevel": 12,
+            "method": "static",
+            "minLevel": 12
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "wedgehurst-area",
+            "maxLevel": 12,
+            "method": "static",
+            "minLevel": 12
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 95,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 10
+          },
+          {
+            "chance": 95,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 95,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 10
+          },
+          {
+            "chance": 95,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ]
+      },
+      "formName": "Galarian Form",
+      "games": ["sword-shield", "the-isle-of-armor"],
+      "gen9": true,
+      "generation": 8,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "slowpoke-galar",
+      "kind": "regional",
+      "name": "Slowpoke-Galar",
+      "number": 79,
+      "pokemon": "slowpoke",
+      "sourceId": 10164,
+      "sprite": "/dex-images/sprites/slowpoke-galar.webp",
+      "statTotal": 315,
+      "stats": {
+        "attack": 65,
+        "defense": 65,
+        "hp": 90,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 360
+    }
+  ],
+  "generation": 1,
+  "key": "slowpoke",
+  "name": "Slowpoke",
+  "names": {
+    "de": "Flegmon",
+    "en": "Slowpoke",
+    "es": "Slowpoke",
+    "es-419": "Slowpoke",
+    "fr": "Ramoloss",
+    "it": "Slowpoke",
+    "ja": "ヤドン",
+    "ja-hrkt": "ヤドン",
+    "ja-roma": "Yadon",
+    "ko": "야돈",
+    "zh-hans": "呆呆兽",
+    "zh-hant": "呆呆獸"
+  },
+  "number": 79
+}

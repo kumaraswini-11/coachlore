@@ -1,0 +1,336 @@
+{
+  "category": "Two-Sided Pokémon",
+  "entries": [
+    {
+      "text": "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It’s also generating electricity.",
+      "version": "sword"
+    },
+    {
+      "text": "It carries electrically roasted seeds with it as if they’re precious treasures. No matter how much it eats, it always gets hungry again in short order.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "morpeko",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hunger-switch"
+        }
+      ],
+      "artwork": "/dex-images/artwork/morpeko-full-belly.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-route-7-area",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 8,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-route-7-area",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 8,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 220,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 220,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 220,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 220,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ]
+      },
+      "formName": "Full Belly Mode",
+      "games": ["sword-shield", "the-isle-of-armor", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "morpeko-full-belly",
+      "kind": "default",
+      "name": "Morpeko",
+      "number": 877,
+      "pokemon": "morpeko",
+      "sourceId": 877,
+      "sprite": "/dex-images/sprites/morpeko-full-belly.webp",
+      "statTotal": 436,
+      "stats": {
+        "attack": 95,
+        "defense": 58,
+        "hp": 58,
+        "special-attack": 70,
+        "special-defense": 58,
+        "speed": 97
+      },
+      "tags": [],
+      "types": ["electric", "dark"],
+      "weight": 30
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hunger-switch"
+        }
+      ],
+      "artwork": "/dex-images/artwork/morpeko-hangry.webp",
+      "encounters": {},
+      "formName": "Hangry Mode",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "morpeko-hangry",
+      "kind": "other",
+      "name": "Morpeko-Hangry",
+      "number": 877,
+      "pokemon": "morpeko",
+      "sourceId": 10187,
+      "sprite": "/dex-images/sprites/morpeko-hangry.webp",
+      "statTotal": 436,
+      "stats": {
+        "attack": 95,
+        "defense": 58,
+        "hp": 58,
+        "special-attack": 70,
+        "special-defense": 58,
+        "speed": 97
+      },
+      "tags": [],
+      "types": ["electric", "dark"],
+      "weight": 30
+    }
+  ],
+  "generation": 8,
+  "key": "morpeko",
+  "name": "Morpeko",
+  "names": {
+    "de": "Morpeko",
+    "en": "Morpeko",
+    "es": "Morpeko",
+    "es-419": "Morpeko",
+    "fr": "Morpeko",
+    "it": "Morpeko",
+    "ja": "モルペコ",
+    "ja-hrkt": "モルペコ",
+    "ja-roma": "Morpeko",
+    "ko": "모르페코",
+    "zh-hans": "莫鲁贝可",
+    "zh-hant": "莫魯貝可"
+  },
+  "number": 877
+}

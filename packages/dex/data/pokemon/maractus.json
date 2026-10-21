@@ -1,0 +1,411 @@
+{
+  "category": "Cactus Pokémon",
+  "entries": [
+    {
+      "text": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+      "version": "black"
+    },
+    {
+      "text": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+      "version": "white"
+    },
+    {
+      "text": "When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.",
+      "version": "white-2"
+    },
+    {
+      "text": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+      "version": "x"
+    },
+    {
+      "text": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+      "version": "y"
+    },
+    {
+      "text": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry.",
+      "version": "sword"
+    },
+    {
+      "text": "Once each year, this Pokémon scatters its seeds. They’re jam-packed with nutrients, making them a precious food source out in the desert.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "maractus",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "storm-drain"
+        }
+      ],
+      "artwork": "/dex-images/artwork/maractus.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 10,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 10,
+            "location": "desert-resort-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "desert-resort-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "desert-resort-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "desert-resort-entrance",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 10,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "shield": [
+          {
+            "chance": 70,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 75,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 68,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 70,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 75,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 68,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "desert-resort-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "desert-resort-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "desert-resort-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "desert-resort-entrance",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sword-shield"],
+      "gen9": false,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "maractus",
+      "kind": "default",
+      "name": "Maractus",
+      "number": 556,
+      "pokemon": "maractus",
+      "sourceId": 556,
+      "sprite": "/dex-images/sprites/maractus.webp",
+      "statTotal": 461,
+      "stats": {
+        "attack": 86,
+        "defense": 67,
+        "hp": 75,
+        "special-attack": 106,
+        "special-defense": 67,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 280
+    }
+  ],
+  "generation": 5,
+  "key": "maractus",
+  "name": "Maractus",
+  "names": {
+    "de": "Maracamba",
+    "en": "Maractus",
+    "es": "Maractus",
+    "es-419": "Maractus",
+    "fr": "Maracachi",
+    "it": "Maractus",
+    "ja": "マラカッチ",
+    "ja-hrkt": "マラカッチ",
+    "ja-roma": "Maracacchi",
+    "ko": "마라카치",
+    "zh-hans": "沙铃仙人掌",
+    "zh-hant": "沙鈴仙人掌"
+  },
+  "number": 556
+}

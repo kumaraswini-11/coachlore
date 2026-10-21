@@ -1,0 +1,84 @@
+{
+  "category": "Poison Pin Pokémon",
+  "entries": [
+    {
+      "text": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poipole",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-pulse"
+      },
+      "from": "poipole",
+      "to": "naganadel",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/naganadel.webp",
+      "encounters": {},
+      "games": ["ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 36,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "naganadel",
+      "kind": "default",
+      "name": "Naganadel",
+      "number": 804,
+      "pokemon": "naganadel",
+      "sourceId": 804,
+      "sprite": "/dex-images/sprites/naganadel.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 73,
+        "defense": 73,
+        "hp": 73,
+        "special-attack": 127,
+        "special-defense": 73,
+        "speed": 121
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["poison", "dragon"],
+      "weight": 1500
+    }
+  ],
+  "generation": 7,
+  "key": "naganadel",
+  "name": "Naganadel",
+  "names": {
+    "de": "Agoyon",
+    "en": "Naganadel",
+    "es": "Naganadel",
+    "es-419": "Naganadel",
+    "fr": "Mandrillon",
+    "it": "Naganadel",
+    "ja": "アーゴヨン",
+    "ja-hrkt": "アーゴヨン",
+    "ja-roma": "Agoyon",
+    "ko": "아고용",
+    "zh-hans": "四颚针龙",
+    "zh-hant": "四顎針龍"
+  },
+  "number": 804
+}

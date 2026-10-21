@@ -1,0 +1,185 @@
+{
+  "category": "Pitch-Black Pokémon",
+  "entries": [
+    {
+      "text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+      "version": "diamond"
+    },
+    {
+      "text": "Folklore has it that on moonless nights, this Pokémon will make people see horrific nightmares.",
+      "version": "pearl"
+    },
+    {
+      "text": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+      "version": "platinum"
+    },
+    {
+      "text": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+      "version": "black"
+    },
+    {
+      "text": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+      "version": "white"
+    },
+    {
+      "text": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+      "version": "black-2"
+    },
+    {
+      "text": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+      "version": "white-2"
+    },
+    {
+      "text": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+      "version": "x"
+    },
+    {
+      "text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+      "version": "y"
+    },
+    {
+      "text": "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "On a moonless night, a strange incident occurred in which every one of a village's inhabitants suffered nightmares. The villagers attested that Darkrai appeared before them in these nightmares.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "darkrai",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "bad-dreams"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darkrai.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "newmoon-island-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "newmoon-island-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "newmoon-island-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["legends-arceus", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 4,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "darkrai",
+      "kind": "default",
+      "mythical": true,
+      "name": "Darkrai",
+      "number": 491,
+      "pokemon": "darkrai",
+      "sourceId": 491,
+      "sprite": "/dex-images/sprites/darkrai.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 90,
+        "defense": 90,
+        "hp": 70,
+        "special-attack": 135,
+        "special-defense": 90,
+        "speed": 125
+      },
+      "tags": ["Mythical"],
+      "types": ["dark"],
+      "weight": 505
+    },
+    {
+      "abilities": [],
+      "artwork": "/dex-images/artwork/darkrai-mega.webp",
+      "encounters": {},
+      "formName": "Mega Darkrai",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 30,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "darkrai-mega",
+      "kind": "mega",
+      "mythical": true,
+      "name": "Darkrai-Mega",
+      "number": 491,
+      "pokemon": "darkrai",
+      "sourceId": 10312,
+      "sprite": "/dex-images/sprites/darkrai-mega.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 120,
+        "defense": 130,
+        "hp": 70,
+        "special-attack": 165,
+        "special-defense": 130,
+        "speed": 85
+      },
+      "tags": ["Mythical"],
+      "types": ["dark"],
+      "weight": 2400
+    }
+  ],
+  "generation": 4,
+  "key": "darkrai",
+  "name": "Darkrai",
+  "names": {
+    "de": "Darkrai",
+    "en": "Darkrai",
+    "es": "Darkrai",
+    "es-419": "Darkrai",
+    "fr": "Darkrai",
+    "it": "Darkrai",
+    "ja": "ダークライ",
+    "ja-hrkt": "ダークライ",
+    "ja-roma": "Darkrai",
+    "ko": "다크라이",
+    "zh-hans": "达克莱伊",
+    "zh-hant": "達克萊伊"
+  },
+  "number": 491
+}

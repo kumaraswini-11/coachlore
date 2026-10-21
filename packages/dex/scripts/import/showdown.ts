@@ -1,6 +1,10 @@
 import { Dex, type Species } from "@pkmn/dex"
 
-import { STAT_KEYS, type FormSummary } from "../../src/types.ts"
+import {
+  STAT_KEYS,
+  type FormSummary,
+  type ShowdownNames,
+} from "../../src/types.ts"
 
 /**
  * Step 9 of spec 002's plan: Showdown's names for our forms, from
@@ -8,16 +12,6 @@ import { STAT_KEYS, type FormSummary } from "../../src/types.ts"
  * ones too, so old battle logs read). Only the battle simulator's own
  * inventions (CAP, Custom) are left out.
  */
-export type ShowdownNames = {
-  /** Showdown's ID ("rotomwash") → our form. */
-  ids: Record<string, string>
-  /** Our form → its Showdown name ("Rotom-Wash"), where it has its own. */
-  names: Record<string, string>
-  /** Showdown's move ID ("uturn") → our move ("u-turn"). */
-  moves: Record<string, string>
-  /** Showdown's ability ID → our ability. */
-  abilities: Record<string, string>
-}
 
 export type ShowdownMatch = {
   showdown: ShowdownNames

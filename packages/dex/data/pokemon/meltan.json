@@ -1,0 +1,91 @@
+{
+  "category": "Hex Nut Pokémon",
+  "entries": [
+    {
+      "text": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+      "version": "sword"
+    },
+    {
+      "text": "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "meltan",
+      "trigger": null
+    },
+    {
+      "conditions": {},
+      "from": "meltan",
+      "to": "melmetal",
+      "trigger": "meltan-candies"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "magnet-pull"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meltan.webp",
+      "encounters": {},
+      "games": ["lets-go-pikachu-lets-go-eevee", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 7,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "meltan",
+      "kind": "default",
+      "mythical": true,
+      "name": "Meltan",
+      "number": 808,
+      "pokemon": "meltan",
+      "sourceId": 808,
+      "sprite": "/dex-images/sprites/meltan.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 65,
+        "defense": 65,
+        "hp": 46,
+        "special-attack": 55,
+        "special-defense": 35,
+        "speed": 34
+      },
+      "tags": ["Mythical"],
+      "types": ["steel"],
+      "weight": 80
+    }
+  ],
+  "generation": 7,
+  "key": "meltan",
+  "name": "Meltan",
+  "names": {
+    "de": "Meltan",
+    "en": "Meltan",
+    "es": "Meltan",
+    "es-419": "Meltan",
+    "fr": "Meltan",
+    "it": "Meltan",
+    "ja": "メルタン",
+    "ja-hrkt": "メルタン",
+    "ja-roma": "Meltan",
+    "ko": "멜탄",
+    "zh-hans": "美录坦",
+    "zh-hant": "美錄坦"
+  },
+  "number": 808
+}

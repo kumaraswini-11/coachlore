@@ -1,0 +1,117 @@
+{
+  "category": "Protostar Pokémon",
+  "entries": [
+    {
+      "text": "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
+      "version": "sun"
+    },
+    {
+      "text": "There’s something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
+      "version": "moon"
+    },
+    {
+      "text": "The king who ruled Alola in times of antiquity called it the “cocoon of the stars” and built an altar to worship it.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The absorption of starlight fuels this Pokémon’s growth. The shell that encases it is harder than any known material.",
+      "version": "sword"
+    },
+    {
+      "text": "It sucks in dust from the air at an astounding rate, frantically building up energy within its core as preparation for evolution.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cosmog",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 43
+      },
+      "from": "cosmog",
+      "to": "cosmoem",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "solgaleo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "lunala",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cosmoem.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 1,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cosmoem",
+      "kind": "default",
+      "legendary": true,
+      "name": "Cosmoem",
+      "number": 790,
+      "pokemon": "cosmoem",
+      "sourceId": 790,
+      "sprite": "/dex-images/sprites/cosmoem.webp",
+      "statTotal": 400,
+      "stats": {
+        "attack": 29,
+        "defense": 131,
+        "hp": 43,
+        "special-attack": 29,
+        "special-defense": 131,
+        "speed": 37
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic"],
+      "weight": 9999
+    }
+  ],
+  "generation": 7,
+  "key": "cosmoem",
+  "name": "Cosmoem",
+  "names": {
+    "de": "Cosmovum",
+    "en": "Cosmoem",
+    "es": "Cosmoem",
+    "es-419": "Cosmoem",
+    "fr": "Cosmovum",
+    "it": "Cosmoem",
+    "ja": "コスモウム",
+    "ja-hrkt": "コスモウム",
+    "ja-roma": "Cosmovum",
+    "ko": "코스모움",
+    "zh-hans": "科斯莫姆",
+    "zh-hant": "科斯莫姆"
+  },
+  "number": 790
+}

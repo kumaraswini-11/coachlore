@@ -1,0 +1,210 @@
+{
+  "category": "Volcano Pokémon",
+  "entries": [
+    {
+      "text": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+      "version": "gold"
+    },
+    {
+      "text": "This POKéMON is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
+      "version": "silver"
+    },
+    {
+      "text": "Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes.",
+      "version": "crystal"
+    },
+    {
+      "text": "QUILAVA keeps its foes at bay with the intensity of its flames and gusts of superheated air. This POKéMON applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
+      "version": "ruby"
+    },
+    {
+      "text": "QUILAVA keeps its foes at bay with the intensity of its flames and gusts of superheated air. This POKéMON applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It intimidates foes with intense gusts of flames and superheated air. Its quick nimbleness lets it dodge attacks even while scorching an enemy.",
+      "version": "emerald"
+    },
+    {
+      "text": "This POKéMON is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
+      "version": "firered"
+    },
+    {
+      "text": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "diamond"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "pearl"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "platinum"
+    },
+    {
+      "text": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "black"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "white"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "black-2"
+    },
+    {
+      "text": "It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.",
+      "version": "white-2"
+    },
+    {
+      "text": "Before battle, it turns its back on its opponent to demonstrate how ferociously its fire blazes.",
+      "version": "x"
+    },
+    {
+      "text": "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+      "version": "y"
+    },
+    {
+      "text": "Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This creature's fur is most mysterious—it is wholly impervious to the burning touch of flame. Should Quilava turn its back to you, take heed! Such a posture indicates a forthcoming attack.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cyndaquil",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "cyndaquil",
+      "to": "quilava",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "quilava",
+      "to": "typhlosion",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "typhlosion-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "quilava",
+      "to": "typhlosion",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "flash-fire"
+        }
+      ],
+      "artwork": "/dex-images/artwork/quilava.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "phenac-city-east-exit",
+            "maxLevel": 30,
+            "method": "snag",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf2",
+            "maxLevel": 30,
+            "method": "snag-rematch",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 30,
+            "method": "snag-rematch",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "quilava",
+      "kind": "default",
+      "name": "Quilava",
+      "number": 156,
+      "pokemon": "quilava",
+      "sourceId": 156,
+      "sprite": "/dex-images/sprites/quilava.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 64,
+        "defense": 58,
+        "hp": 58,
+        "special-attack": 80,
+        "special-defense": 65,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 190
+    }
+  ],
+  "generation": 2,
+  "key": "quilava",
+  "name": "Quilava",
+  "names": {
+    "de": "Igelavar",
+    "en": "Quilava",
+    "es": "Quilava",
+    "es-419": "Quilava",
+    "fr": "Feurisson",
+    "it": "Quilava",
+    "ja": "マグマラシ",
+    "ja-hrkt": "マグマラシ",
+    "ja-roma": "Magmarashi",
+    "ko": "마그케인",
+    "zh-hans": "火岩鼠",
+    "zh-hant": "火岩鼠"
+  },
+  "number": 156
+}

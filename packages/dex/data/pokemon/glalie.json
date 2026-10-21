@@ -1,0 +1,645 @@
+{
+  "category": "Face Pokémon",
+  "entries": [
+    {
+      "text": "GLALIE has a body made of rock, which it hardens with an armor of ice. This POKéMON has the ability to freeze moisture in the atmosphere into any shape it desires.",
+      "version": "ruby"
+    },
+    {
+      "text": "GLALIE has the ability to freely control ice. For example, it can instantly freeze its foe solid. After immobilizing its foe in ice, this POKéMON enjoys eating it in leisurely fashion.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A GLALIE has the power to instantaneously freeze moisture in the atmosphere. A dazzling cloud of diamondlike ice crystals forms around its body.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has a body of ice that won’t melt, even with fire. It can instantly freeze moisture in the atmosphere.",
+      "version": "firered"
+    },
+    {
+      "text": "It has a body of ice that won’t melt, even with fire. It can instantly freeze moisture in the atmosphere.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.",
+      "version": "diamond"
+    },
+    {
+      "text": "To protect itself, it clads its body in an armor of ice, made by freezing moisture in the air.",
+      "version": "pearl"
+    },
+    {
+      "text": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+      "version": "platinum"
+    },
+    {
+      "text": "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+      "version": "black"
+    },
+    {
+      "text": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+      "version": "white"
+    },
+    {
+      "text": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+      "version": "black-2"
+    },
+    {
+      "text": "It prevents prey from escaping by instantaneously freezing moisture in the air.",
+      "version": "white-2"
+    },
+    {
+      "text": "To protect itself, it clad its body in an armor of ice, made by freezing moisture in the air.",
+      "version": "x"
+    },
+    {
+      "text": "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes.",
+      "version": "y"
+    },
+    {
+      "text": "Glalie has a body made of rock, which it hardens with an armor of ice. This Pokémon has the ability to freeze moisture in the atmosphere into any shape it desires.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Glalie has the ability to freely control ice. For example, it can instantly freeze its prey solid. After immobilizing its prey in ice, this Pokémon enjoys eating it in leisurely fashion.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Legend says a boulder on an icy mountain absorbed the distress and regrets of a stranded mountaineer, giving rise to Glalie.",
+      "version": "sun"
+    },
+    {
+      "text": "Its prey is instantaneously frozen stiff by the cold air it exhales from its huge mouth. While they’re in that frozen state, it gobbles them up.",
+      "version": "moon"
+    },
+    {
+      "text": "It freezes its prey and chews them whole. However, it prefers to eat Pokémon like Vanillite that are already frozen.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its actual body is a rock that isn’t particularly hard. Glalie absorbs moisture from the air and drapes itself in an armor of ice.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It has a body of ice that won’t melt, even with fire. It can instantly freeze moisture in the atmosphere.",
+      "version": "sword"
+    },
+    {
+      "text": "It can instantly freeze moisture in the atmosphere. It uses this power to freeze its foes.",
+      "version": "shield"
+    },
+    {
+      "text": "It covers its body with an armor of ice harder than steel. Uses its breath to freeze prey, which it then devours as if they were frozen desserts.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snorunt",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "snorunt",
+      "to": "glalie",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "item": "dawn-stone"
+      },
+      "from": "snorunt",
+      "to": "froslass",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "ice-body"
+        },
+        {
+          "hidden": true,
+          "key": "moody"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glalie.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 15,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 15,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-9-main",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 135,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 15,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-9-main",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 125,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 65,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "snowslide-slope-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "snowslide-slope-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "platinum", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "glalie",
+      "kind": "default",
+      "name": "Glalie",
+      "number": 362,
+      "pokemon": "glalie",
+      "sourceId": 362,
+      "sprite": "/dex-images/sprites/glalie.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 80,
+        "defense": 80,
+        "hp": 80,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 2565
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "refrigerate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glalie-mega.webp",
+      "encounters": {},
+      "formName": "Mega Glalie",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 21,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "glalie-mega",
+      "kind": "mega",
+      "name": "Glalie-Mega",
+      "number": 362,
+      "pokemon": "glalie",
+      "sourceId": 10074,
+      "sprite": "/dex-images/sprites/glalie-mega.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 120,
+        "defense": 80,
+        "hp": 80,
+        "special-attack": 120,
+        "special-defense": 80,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 3502
+    }
+  ],
+  "generation": 3,
+  "key": "glalie",
+  "name": "Glalie",
+  "names": {
+    "de": "Firnontor",
+    "en": "Glalie",
+    "es": "Glalie",
+    "es-419": "Glalie",
+    "fr": "Oniglali",
+    "it": "Glalie",
+    "ja": "オニゴーリ",
+    "ja-hrkt": "オニゴーリ",
+    "ja-roma": "Onigohri",
+    "ko": "얼음귀신",
+    "zh-hans": "冰鬼护",
+    "zh-hant": "冰鬼護"
+  },
+  "number": 362
+}

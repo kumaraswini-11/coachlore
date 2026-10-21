@@ -1,0 +1,2027 @@
+{
+  "category": "Tiny Bird Pokémon",
+  "entries": [
+    {
+      "text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "version": "red"
+    },
+    {
+      "text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "version": "blue"
+    },
+    {
+      "text": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+      "version": "yellow"
+    },
+    {
+      "text": "It usually hides in tall grass. Because it dislikes fighting, it protects itself by kicking up sand.",
+      "version": "gold"
+    },
+    {
+      "text": "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+      "version": "silver"
+    },
+    {
+      "text": "It rapidly flaps its wings in the grass, stirring up a dust cloud that drives insect prey out into the open.",
+      "version": "crystal"
+    },
+    {
+      "text": "PIDGEY has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+      "version": "ruby"
+    },
+    {
+      "text": "PIDGEY has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It has an extremely sharp sense of direction. It can unerringly return home to its nest, however far it may be removed from its familiar surroundings.",
+      "version": "emerald"
+    },
+    {
+      "text": "Does not like to fight. It hides in tall grass and so on, foraging for food such as small bugs.",
+      "version": "firered"
+    },
+    {
+      "text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "platinum"
+    },
+    {
+      "text": "It usually hides in tall grass. Because it dislikes fighting, it protects itself by kicking up sand.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "black"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "white"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "white-2"
+    },
+    {
+      "text": "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+      "version": "x"
+    },
+    {
+      "text": "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+      "version": "y"
+    },
+    {
+      "text": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pidgey",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "pidgey",
+      "to": "pidgeotto",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "pidgeotto",
+      "to": "pidgeot",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "tangled-feet"
+        },
+        {
+          "hidden": true,
+          "key": "big-pecks"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pidgey.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 50,
+            "location": "kanto-route-1-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "ilex-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "johto-route-29-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 50,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 50,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-32-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-34-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 110,
+            "location": "johto-route-36-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 75,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 70,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-5-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "firered": [
+          {
+            "chance": 10,
+            "location": "berry-forest-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "bond-bridge-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-1-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-14-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-24-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-3-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "gold": [
+          {
+            "chance": 110,
+            "location": "johto-route-29-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 15,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-36-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 110,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 70,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 120,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "national-park-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 50,
+            "location": "kanto-route-1-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 110,
+            "location": "johto-route-29-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-36-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 110,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 70,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 120,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "national-park-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 10,
+            "location": "berry-forest-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "bond-bridge-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-1-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-14-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-24-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-3-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 200,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 9
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 200,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 9
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 25,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "red": [
+          {
+            "chance": 50,
+            "location": "kanto-route-1-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 50,
+            "location": "kanto-route-1-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "silver": [
+          {
+            "chance": 110,
+            "location": "johto-route-29-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 15,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-36-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "national-park-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 110,
+            "location": "johto-route-29-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-36-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "national-park-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 14,
+            "location": "kalos-route-2-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-3-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 14,
+            "location": "kalos-route-2-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-3-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 70,
+            "location": "kanto-route-1-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-12-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 29,
+            "location": "kanto-route-24-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 29,
+            "location": "kanto-route-25-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-6-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-8-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 55,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 24,
+            "location": "viridian-forest-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": false,
+      "generation": 1,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pidgey",
+      "kind": "default",
+      "name": "Pidgey",
+      "number": 16,
+      "pokemon": "pidgey",
+      "sourceId": 16,
+      "sprite": "/dex-images/sprites/pidgey.webp",
+      "statTotal": 251,
+      "stats": {
+        "attack": 45,
+        "defense": 40,
+        "hp": 40,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 56
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 18
+    }
+  ],
+  "generation": 1,
+  "key": "pidgey",
+  "name": "Pidgey",
+  "names": {
+    "de": "Taubsi",
+    "en": "Pidgey",
+    "es": "Pidgey",
+    "es-419": "Pidgey",
+    "fr": "Roucool",
+    "it": "Pidgey",
+    "ja": "ポッポ",
+    "ja-hrkt": "ポッポ",
+    "ja-roma": "Poppo",
+    "ko": "구구",
+    "zh-hans": "波波",
+    "zh-hant": "波波"
+  },
+  "number": 16
+}

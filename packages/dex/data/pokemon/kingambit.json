@@ -1,0 +1,98 @@
+{
+  "category": "Big Blade Pokémon",
+  "entries": [
+    {
+      "text": "Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Though it commands a massive army in battle, it’s not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pawniard",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 52
+      },
+      "from": "pawniard",
+      "to": "bisharp",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "bisharp",
+      "to": "kingambit",
+      "trigger": "three-defeated-bisharp"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "defiant"
+        },
+        {
+          "hidden": false,
+          "key": "supreme-overlord"
+        },
+        {
+          "hidden": true,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kingambit.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kingambit",
+      "kind": "default",
+      "name": "Kingambit",
+      "number": 983,
+      "pokemon": "kingambit",
+      "sourceId": 983,
+      "sprite": "/dex-images/sprites/kingambit.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 135,
+        "defense": 120,
+        "hp": 100,
+        "special-attack": 60,
+        "special-defense": 85,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["dark", "steel"],
+      "weight": 1200
+    }
+  ],
+  "generation": 9,
+  "key": "kingambit",
+  "name": "Kingambit",
+  "names": {
+    "de": "Gladimperio",
+    "en": "Kingambit",
+    "es": "Kingambit",
+    "es-419": "Kingambit",
+    "fr": "Scalpereur",
+    "it": "Kingambit",
+    "ja": "ドドゲザン",
+    "ja-hrkt": "ドドゲザン",
+    "ja-roma": "Dodogezan",
+    "ko": "대도각참",
+    "zh-hans": "仆刀将军",
+    "zh-hant": "仆刀將軍"
+  },
+  "number": 983
+}

@@ -1,0 +1,136 @@
+{
+  "category": "Striker Pokémon",
+  "entries": [
+    {
+      "text": "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "scorbunny",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "scorbunny",
+      "to": "raboot",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "raboot",
+      "to": "cinderace",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "libero"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cinderace.webp",
+      "encounters": {},
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cinderace",
+      "kind": "default",
+      "name": "Cinderace",
+      "number": 815,
+      "pokemon": "cinderace",
+      "sourceId": 815,
+      "sprite": "/dex-images/sprites/cinderace.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 116,
+        "defense": 75,
+        "hp": 80,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 119
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 330
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "libero"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cinderace-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 270,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "cinderace-gmax",
+      "kind": "gigantamax",
+      "name": "Cinderace-Gmax",
+      "number": 815,
+      "pokemon": "cinderace",
+      "sourceId": 10210,
+      "sprite": "/dex-images/sprites/cinderace-gmax.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 116,
+        "defense": 75,
+        "hp": 80,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 119
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "cinderace",
+  "name": "Cinderace",
+  "names": {
+    "de": "Liberlo",
+    "en": "Cinderace",
+    "es": "Cinderace",
+    "es-419": "Cinderace",
+    "fr": "Pyrobut",
+    "it": "Cinderace",
+    "ja": "エースバーン",
+    "ja-hrkt": "エースバーン",
+    "ja-roma": "Aceburn",
+    "ko": "에이스번",
+    "zh-hans": "闪焰王牌",
+    "zh-hant": "閃焰王牌"
+  },
+  "number": 815
+}

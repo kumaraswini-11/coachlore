@@ -1,0 +1,167 @@
+{
+  "category": "Fire Cat Pokémon",
+  "entries": [
+    {
+      "text": "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+      "version": "sun"
+    },
+    {
+      "text": "It doesn’t allow its emotions to be easily seen. Earning its trust takes time. It prefers solitude.",
+      "version": "moon"
+    },
+    {
+      "text": "If you try too hard to get close to it, it won’t open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its coat regrows twice a year. When the time comes, Litten sets its own body on fire and burns away the old fur.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It spends even the smallest amount of downtime grooming its fur with its tongue. Loose fur gathers in its stomach and serves as fuel for fiery moves.",
+      "version": "sword"
+    },
+    {
+      "text": "Trying to pet Litten before it trusts you will result in a nasty scratch from its sharp claws. Be careful.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litten",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "litten",
+      "to": "torracat",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "torracat",
+      "to": "incineroar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/litten.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "iki-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "iki-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "litten",
+      "kind": "default",
+      "name": "Litten",
+      "number": 725,
+      "pokemon": "litten",
+      "sourceId": 725,
+      "sprite": "/dex-images/sprites/litten.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 65,
+        "defense": 40,
+        "hp": 45,
+        "special-attack": 60,
+        "special-defense": 40,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 43
+    }
+  ],
+  "generation": 7,
+  "key": "litten",
+  "name": "Litten",
+  "names": {
+    "de": "Flamiau",
+    "en": "Litten",
+    "es": "Litten",
+    "es-419": "Litten",
+    "fr": "Flamiaou",
+    "it": "Litten",
+    "ja": "ニャビー",
+    "ja-hrkt": "ニャビー",
+    "ja-roma": "Nyabby",
+    "ko": "냐오불",
+    "zh-hans": "火斑喵",
+    "zh-hant": "火斑喵"
+  },
+  "number": 725
+}

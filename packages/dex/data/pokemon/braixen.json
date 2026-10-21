@@ -1,0 +1,123 @@
+{
+  "category": "Fox Pokémon",
+  "entries": [
+    {
+      "text": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+      "version": "x"
+    },
+    {
+      "text": "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+      "version": "y"
+    },
+    {
+      "text": "It has a twig stuck in its tail. With friction from its tail fur, it sets the twig on fire and launches into battle.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fennekin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "fennekin",
+      "to": "braixen",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "braixen",
+      "to": "delphox",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "magician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/braixen.webp",
+      "encounters": {
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "braixen",
+      "kind": "default",
+      "name": "Braixen",
+      "number": 654,
+      "pokemon": "braixen",
+      "sourceId": 654,
+      "sprite": "/dex-images/sprites/braixen.webp",
+      "statTotal": 409,
+      "stats": {
+        "attack": 59,
+        "defense": 58,
+        "hp": 59,
+        "special-attack": 90,
+        "special-defense": 70,
+        "speed": 73
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 145
+    }
+  ],
+  "generation": 6,
+  "key": "braixen",
+  "name": "Braixen",
+  "names": {
+    "de": "Rutena",
+    "en": "Braixen",
+    "es": "Braixen",
+    "es-419": "Braixen",
+    "fr": "Roussil",
+    "it": "Braixen",
+    "ja": "テールナー",
+    "ja-hrkt": "テールナー",
+    "ja-roma": "Tairenar",
+    "ko": "테르나",
+    "zh-hans": "长尾火狐",
+    "zh-hant": "長尾火狐"
+  },
+  "number": 654
+}

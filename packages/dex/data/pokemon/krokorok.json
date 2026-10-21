@@ -1,0 +1,361 @@
+{
+  "category": "Desert Croc Pokémon",
+  "entries": [
+    {
+      "text": "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+      "version": "black"
+    },
+    {
+      "text": "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
+      "version": "white"
+    },
+    {
+      "text": "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+      "version": "black-2"
+    },
+    {
+      "text": "Protected by thin membranes, their eyes can see even in the dead of night. They live in groups of a few individuals.",
+      "version": "white-2"
+    },
+    {
+      "text": "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+      "version": "x"
+    },
+    {
+      "text": "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
+      "version": "y"
+    },
+    {
+      "text": "They live in groups of a few individuals. Protective membranes shield their eyes from sandstorms.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The special membrane covering its eyes can sense the heat of objects, so it can see its surroundings even in darkness.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They move in groups of a few individuals. A female is often the leader of the group, and the males will gather food.",
+      "version": "sun"
+    },
+    {
+      "text": "Thanks to the special membrane covering its eyes, it can see its surroundings clearly, even in the middle of the night.",
+      "version": "moon"
+    },
+    {
+      "text": "Krokorok really hates it when its body gets cold. On nights when the temperature drops, it digs deep into the desert sands.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Krokorok has specialized eyes that enable it to see in the dark. This ability lets Krokorok hunt in the dead of night without getting lost.",
+      "version": "sword"
+    },
+    {
+      "text": "Although this Pokémon has specialized eyes that allow it to see in the dark, Krokorok won’t move much at night—the desert gets cold after sunset.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sandile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 29
+      },
+      "from": "sandile",
+      "to": "krokorok",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "krokorok",
+      "to": "krookodile",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "moxie"
+        },
+        {
+          "hidden": true,
+          "key": "anger-point"
+        }
+      ],
+      "artwork": "/dex-images/artwork/krokorok.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 50,
+            "location": "relic-castle-b",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 35,
+            "location": "relic-castle-c",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "relic-castle-c",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 100,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 100,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "bubbling-spots",
+            "minLevel": 32
+          },
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "bubbling-spots",
+            "minLevel": 32
+          },
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "white": [
+          {
+            "chance": 50,
+            "location": "relic-castle-b",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 35,
+            "location": "relic-castle-c",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "relic-castle-c",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "krokorok",
+      "kind": "default",
+      "name": "Krokorok",
+      "number": 552,
+      "pokemon": "krokorok",
+      "sourceId": 552,
+      "sprite": "/dex-images/sprites/krokorok.webp",
+      "statTotal": 351,
+      "stats": {
+        "attack": 82,
+        "defense": 45,
+        "hp": 60,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 74
+      },
+      "tags": [],
+      "types": ["ground", "dark"],
+      "weight": 334
+    }
+  ],
+  "generation": 5,
+  "key": "krokorok",
+  "name": "Krokorok",
+  "names": {
+    "de": "Rokkaiman",
+    "en": "Krokorok",
+    "es": "Krokorok",
+    "es-419": "Krokorok",
+    "fr": "Escroco",
+    "it": "Krokorok",
+    "ja": "ワルビル",
+    "ja-hrkt": "ワルビル",
+    "ja-roma": "Waruvile",
+    "ko": "악비르",
+    "zh-hans": "混混鳄",
+    "zh-hant": "混混鱷"
+  },
+  "number": 552
+}

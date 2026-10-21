@@ -1,0 +1,256 @@
+{
+  "category": "Intertwining Pokémon",
+  "entries": [
+    {
+      "text": "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+      "version": "x"
+    },
+    {
+      "text": "It wraps its ribbonlike feelers around the arm of its beloved Trainer and walks with him or her.",
+      "version": "y"
+    },
+    {
+      "text": "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It wraps its ribbonlike feelers around the arm of its beloved Trainer and walks with him or her.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its ribbonlike feelers give off an aura that weakens hostility in its prey, causing them to let down their guard. Then it attacks.",
+      "version": "sun"
+    },
+    {
+      "text": "When this Pokémon sights its prey, it swirls its ribbonlike feelers as a distraction. A moment later, it pounces.",
+      "version": "moon"
+    },
+    {
+      "text": "Once a fight breaks out, it will unflinchingly charge at dragon Pokémon that are many times larger than itself.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Sylveon wraps its ribbonlike feelers around its Trainer’s arm because this touch enables it to read its Trainer’s feelings.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
+      "version": "sword"
+    },
+    {
+      "text": "There’s a Galarian fairy tale that describes a beautiful Sylveon vanquishing a dreadful dragon Pokémon.",
+      "version": "shield"
+    },
+    {
+      "text": "It emits a soothing aura from its ribbon-shaped organs. It wraps these appendages around quarrelers to instantly restore calm to the situation.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "eevee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "vaporeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "jolteon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "fire-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "flareon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "day"
+      },
+      "from": "eevee",
+      "to": "espeon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "night"
+      },
+      "from": "eevee",
+      "to": "umbreon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "leafeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "ice-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "glaceon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move_type": "fairy",
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "sylveon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cute-charm"
+        },
+        {
+          "hidden": true,
+          "key": "pixilate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sylveon.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sylveon",
+      "kind": "default",
+      "name": "Sylveon",
+      "number": 700,
+      "pokemon": "sylveon",
+      "sourceId": 700,
+      "sprite": "/dex-images/sprites/sylveon.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 65,
+        "defense": 65,
+        "hp": 95,
+        "special-attack": 110,
+        "special-defense": 130,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 235
+    }
+  ],
+  "generation": 6,
+  "key": "sylveon",
+  "name": "Sylveon",
+  "names": {
+    "de": "Feelinara",
+    "en": "Sylveon",
+    "es": "Sylveon",
+    "es-419": "Sylveon",
+    "fr": "Nymphali",
+    "it": "Sylveon",
+    "ja": "ニンフィア",
+    "ja-hrkt": "ニンフィア",
+    "ja-roma": "Nymphia",
+    "ko": "님피아",
+    "zh-hans": "仙子伊布",
+    "zh-hant": "仙子伊布"
+  },
+  "number": 700
+}

@@ -1,0 +1,136 @@
+{
+  "category": "Drummer Pokémon",
+  "entries": [
+    {
+      "text": "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+      "version": "sword"
+    },
+    {
+      "text": "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "grookey",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "grookey",
+      "to": "thwackey",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "thwackey",
+      "to": "rillaboom",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "grassy-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rillaboom.webp",
+      "encounters": {},
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 21,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rillaboom",
+      "kind": "default",
+      "name": "Rillaboom",
+      "number": 812,
+      "pokemon": "rillaboom",
+      "sourceId": 812,
+      "sprite": "/dex-images/sprites/rillaboom.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 125,
+        "defense": 90,
+        "hp": 100,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 900
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "grassy-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rillaboom-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 280,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "rillaboom-gmax",
+      "kind": "gigantamax",
+      "name": "Rillaboom-Gmax",
+      "number": 812,
+      "pokemon": "rillaboom",
+      "sourceId": 10209,
+      "sprite": "/dex-images/sprites/rillaboom-gmax.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 125,
+        "defense": 90,
+        "hp": 100,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "rillaboom",
+  "name": "Rillaboom",
+  "names": {
+    "de": "Gortrom",
+    "en": "Rillaboom",
+    "es": "Rillaboom",
+    "es-419": "Rillaboom",
+    "fr": "Gorythmic",
+    "it": "Rillaboom",
+    "ja": "ゴリランダー",
+    "ja-hrkt": "ゴリランダー",
+    "ja-roma": "Gorirander",
+    "ko": "고릴타",
+    "zh-hans": "轰擂金刚猩",
+    "zh-hant": "轟擂金剛猩"
+  },
+  "number": 812
+}

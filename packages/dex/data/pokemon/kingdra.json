@@ -1,0 +1,337 @@
+{
+  "category": "Dragon Pokémon",
+  "entries": [
+    {
+      "text": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+      "version": "gold"
+    },
+    {
+      "text": "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+      "version": "silver"
+    },
+    {
+      "text": "It stores energy by sleeping at underwater depths at which no other life forms can survive.",
+      "version": "crystal"
+    },
+    {
+      "text": "KINGDRA lives at extreme ocean depths that are otherwise uninhabited. It has long been believed that the yawning of this POKéMON creates spiraling ocean currents.",
+      "version": "ruby"
+    },
+    {
+      "text": "KINGDRA sleeps on the seafloor where it is otherwise devoid of life. When a storm arrives, the POKéMON is said to awaken and wander about in search of prey.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It sleeps quietly, deep on the seafloor. When it comes up to the surface, it creates a huge whirlpool that can swallow even ships.",
+      "version": "emerald"
+    },
+    {
+      "text": "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+      "version": "firered"
+    },
+    {
+      "text": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "pearl"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "black"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "white"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lives in caves on the seafloor and creates giant whirlpools every time it moves.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+      "version": "x"
+    },
+    {
+      "text": "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
+      "version": "y"
+    },
+    {
+      "text": "Kingdra lives at extreme ocean depths that are otherwise uninhabited. It has long been believed that the yawning of this Pokémon creates spiraling ocean currents.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Kingdra sleeps on the seafloor where it is otherwise devoid of life. When a storm arrives, the Pokémon is said to awaken and wander about in search of prey.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "With the arrival of a storm at sea, this Pokémon will show itself on the surface. When a Kingdra and a Dragonite meet, a fierce battle ensues.",
+      "version": "sword"
+    },
+    {
+      "text": "Scales shed by this Pokémon have such a splendorous gleam to them that they’ve been given to royalty as gifts.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "horsea",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "horsea",
+      "to": "seadra",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "dragon-scale"
+      },
+      "from": "seadra",
+      "to": "kingdra",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "sniper"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kingdra.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kingdra",
+      "kind": "default",
+      "name": "Kingdra",
+      "number": 230,
+      "pokemon": "kingdra",
+      "sourceId": 230,
+      "sprite": "/dex-images/sprites/kingdra.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 95,
+        "defense": 95,
+        "hp": 75,
+        "special-attack": 95,
+        "special-defense": 95,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water", "dragon"],
+      "weight": 1520
+    }
+  ],
+  "generation": 2,
+  "key": "kingdra",
+  "name": "Kingdra",
+  "names": {
+    "de": "Seedraking",
+    "en": "Kingdra",
+    "es": "Kingdra",
+    "es-419": "Kingdra",
+    "fr": "Hyporoi",
+    "it": "Kingdra",
+    "ja": "キングドラ",
+    "ja-hrkt": "キングドラ",
+    "ja-roma": "Kingdra",
+    "ko": "킹드라",
+    "zh-hans": "刺龙王",
+    "zh-hant": "刺龍王"
+  },
+  "number": 230
+}

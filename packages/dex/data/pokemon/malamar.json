@@ -1,0 +1,418 @@
+{
+  "category": "Overturning Pokémon",
+  "entries": [
+    {
+      "text": "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+      "version": "x"
+    },
+    {
+      "text": "It lures its prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+      "version": "y"
+    },
+    {
+      "text": "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It lures its prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When it comes to strong hypnosis, there’s an endless number of people who utilize Malamar for their nefarious deeds.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It flashes the pattern on its torso to control its prey and draw them in. The edges of its fins are supremely sharp.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar’s control.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s said that Malamar’s hypnotic powers played a role in certain history-changing events.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "inkay",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30,
+        "turn_upside_down": true
+      },
+      "from": "inkay",
+      "to": "malamar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "contrary"
+        },
+        {
+          "hidden": false,
+          "key": "suction-cups"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/malamar.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 400,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 29
+          },
+          {
+            "chance": 115,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 400,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 115,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 400,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 29
+          },
+          {
+            "chance": 115,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 400,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 400,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 115,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "malamar",
+      "kind": "default",
+      "name": "Malamar",
+      "number": 687,
+      "pokemon": "malamar",
+      "sourceId": 687,
+      "sprite": "/dex-images/sprites/malamar.webp",
+      "statTotal": 482,
+      "stats": {
+        "attack": 92,
+        "defense": 88,
+        "hp": 86,
+        "special-attack": 68,
+        "special-defense": 75,
+        "speed": 73
+      },
+      "tags": [],
+      "types": ["dark", "psychic"],
+      "weight": 470
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "contrary"
+        }
+      ],
+      "artwork": "/dex-images/artwork/malamar-mega.webp",
+      "encounters": {},
+      "formName": "Mega Malamar",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 29,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "malamar-mega",
+      "kind": "mega",
+      "name": "Malamar-Mega",
+      "number": 687,
+      "pokemon": "malamar",
+      "sourceId": 10297,
+      "sprite": "/dex-images/sprites/malamar-mega.webp",
+      "statTotal": 582,
+      "stats": {
+        "attack": 102,
+        "defense": 88,
+        "hp": 86,
+        "special-attack": 98,
+        "special-defense": 120,
+        "speed": 88
+      },
+      "tags": [],
+      "types": ["dark", "psychic"],
+      "weight": 698
+    }
+  ],
+  "generation": 6,
+  "key": "malamar",
+  "name": "Malamar",
+  "names": {
+    "de": "Calamanero",
+    "en": "Malamar",
+    "es": "Malamar",
+    "es-419": "Malamar",
+    "fr": "Sepiatroce",
+    "it": "Malamar",
+    "ja": "カラマネロ",
+    "ja-hrkt": "カラマネロ",
+    "ja-roma": "Calamanero",
+    "ko": "칼라마네로",
+    "zh-hans": "乌贼王",
+    "zh-hant": "烏賊王"
+  },
+  "number": 687
+}

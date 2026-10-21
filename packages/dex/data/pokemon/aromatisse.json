@@ -1,0 +1,135 @@
+{
+  "category": "Fragrance Pokémon",
+  "entries": [
+    {
+      "text": "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+      "version": "x"
+    },
+    {
+      "text": "Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it.",
+      "version": "y"
+    },
+    {
+      "text": "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its scent is so overpowering that, unless a Trainer happens to really enjoy the smell, he or she will have a hard time walking alongside it.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The scent that constantly emits from its fur is so powerful that this Pokémon’s companions will eventually lose their sense of smell.",
+      "version": "sword"
+    },
+    {
+      "text": "The scents Aromatisse can produce range from sweet smells that bolster allies to foul smells that sap an opponent’s will to fight.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "spritzee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "sachet"
+      },
+      "from": "spritzee",
+      "to": "aromatisse",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "healer"
+        },
+        {
+          "hidden": true,
+          "key": "aroma-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/aromatisse.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "aromatisse",
+      "kind": "default",
+      "name": "Aromatisse",
+      "number": 683,
+      "pokemon": "aromatisse",
+      "sourceId": 683,
+      "sprite": "/dex-images/sprites/aromatisse.webp",
+      "statTotal": 462,
+      "stats": {
+        "attack": 72,
+        "defense": 72,
+        "hp": 101,
+        "special-attack": 99,
+        "special-defense": 89,
+        "speed": 29
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 155
+    }
+  ],
+  "generation": 6,
+  "key": "aromatisse",
+  "name": "Aromatisse",
+  "names": {
+    "de": "Parfinesse",
+    "en": "Aromatisse",
+    "es": "Aromatisse",
+    "es-419": "Aromatisse",
+    "fr": "Cocotine",
+    "it": "Aromatisse",
+    "ja": "フレフワン",
+    "ja-hrkt": "フレフワン",
+    "ja-roma": "Frefuwan",
+    "ko": "프레프티르",
+    "zh-hans": "芳香精",
+    "zh-hant": "芳香精"
+  },
+  "number": 683
+}

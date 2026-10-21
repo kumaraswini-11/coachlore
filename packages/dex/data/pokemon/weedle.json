@@ -1,0 +1,850 @@
+{
+  "category": "Hairy Bug Pokémon",
+  "entries": [
+    {
+      "text": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+      "version": "red"
+    },
+    {
+      "text": "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
+      "version": "blue"
+    },
+    {
+      "text": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+      "version": "yellow"
+    },
+    {
+      "text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+      "version": "gold"
+    },
+    {
+      "text": "It attacks using a two-inch poison barb on its head. It can usually be found under the leaves it eats.",
+      "version": "silver"
+    },
+    {
+      "text": "The barb on top of its head secretes a strong poison. It uses this toxic barb to protect itself.",
+      "version": "crystal"
+    },
+    {
+      "text": "WEEDLE has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+      "version": "ruby"
+    },
+    {
+      "text": "WEEDLE has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+      "version": "sapphire"
+    },
+    {
+      "text": "A WEEDLE has an extremely acute sense of smell. It distinguishes its favorite kinds of leaves from those it dislikes by sniffing with its big red proboscis (nose).",
+      "version": "emerald"
+    },
+    {
+      "text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+      "version": "firered"
+    },
+    {
+      "text": "Often found in forests, eating leaves. It has a sharp stinger on its head that injects poison.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "diamond"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "pearl"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It attacks using a two-inch poison barb on its head. It can usually be found under the leaves it eats.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "black"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "white"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "black-2"
+    },
+    {
+      "text": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+      "version": "white-2"
+    },
+    {
+      "text": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+      "version": "x"
+    },
+    {
+      "text": "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+      "version": "y"
+    },
+    {
+      "text": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "weedle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 7
+      },
+      "from": "weedle",
+      "to": "kakuna",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "kakuna",
+      "to": "beedrill",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shield-dust"
+        },
+        {
+          "hidden": true,
+          "key": "run-away"
+        }
+      ],
+      "artwork": "/dex-images/artwork/weedle.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 1,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 75,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 75,
+            "location": "ilex-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-30-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-31-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 10,
+            "location": "national-park-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 10,
+            "location": "pattern-bush-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 1,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 10,
+            "location": "pattern-bush-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 4,
+            "location": "eterna-forest-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "red": [
+          {
+            "chance": 15,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 45,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 15,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 45,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "silver": [
+          {
+            "chance": 180,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 290,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 290,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 290,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 290,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 85,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 65,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "national-park-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 140,
+            "location": "ilex-forest-area",
+            "maxLevel": 5,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 140,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 85,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 65,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 51,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 51,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 120,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "unknown-all-bugs-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "viridian-forest-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "x": [
+          {
+            "chance": 11,
+            "location": "kalos-route-2-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "santalune-forest-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "y": [
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": false,
+      "generation": 1,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "weedle",
+      "kind": "default",
+      "name": "Weedle",
+      "number": 13,
+      "pokemon": "weedle",
+      "sourceId": 13,
+      "sprite": "/dex-images/sprites/weedle.webp",
+      "statTotal": 195,
+      "stats": {
+        "attack": 35,
+        "defense": 30,
+        "hp": 40,
+        "special-attack": 20,
+        "special-defense": 20,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 32
+    }
+  ],
+  "generation": 1,
+  "key": "weedle",
+  "name": "Weedle",
+  "names": {
+    "de": "Hornliu",
+    "en": "Weedle",
+    "es": "Weedle",
+    "es-419": "Weedle",
+    "fr": "Aspicot",
+    "it": "Weedle",
+    "ja": "ビードル",
+    "ja-hrkt": "ビードル",
+    "ja-roma": "Beedle",
+    "ko": "뿔충이",
+    "zh-hans": "独角虫",
+    "zh-hant": "獨角蟲"
+  },
+  "number": 13
+}

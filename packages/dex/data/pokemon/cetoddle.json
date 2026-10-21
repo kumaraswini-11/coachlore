@@ -1,0 +1,92 @@
+{
+  "category": "Terra Whale Pokémon",
+  "entries": [
+    {
+      "text": "This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cetoddle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "ice-stone"
+      },
+      "from": "cetoddle",
+      "to": "cetitan",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cetoddle.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cetoddle",
+      "kind": "default",
+      "name": "Cetoddle",
+      "number": 974,
+      "pokemon": "cetoddle",
+      "sourceId": 974,
+      "sprite": "/dex-images/sprites/cetoddle.webp",
+      "statTotal": 334,
+      "stats": {
+        "attack": 68,
+        "defense": 45,
+        "hp": 108,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 43
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 450
+    }
+  ],
+  "generation": 9,
+  "key": "cetoddle",
+  "name": "Cetoddle",
+  "names": {
+    "de": "Flaniwal",
+    "en": "Cetoddle",
+    "es": "Cetoddle",
+    "es-419": "Cetoddle",
+    "fr": "Piétacé",
+    "it": "Cetoddle",
+    "ja": "アルクジラ",
+    "ja-hrkt": "アルクジラ",
+    "ja-roma": "Arukujira",
+    "ko": "터벅고래",
+    "zh-hans": "走鲸",
+    "zh-hant": "走鯨"
+  },
+  "number": 974
+}

@@ -1,0 +1,380 @@
+{
+  "category": "Hard Shell Pokémon",
+  "entries": [
+    {
+      "text": "Its shell is as hard as sheet rock, and it is also very strong. Its THRASHING can topple a mountain.",
+      "version": "gold"
+    },
+    {
+      "text": "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+      "version": "silver"
+    },
+    {
+      "text": "It will not stay still, even while it's a pupa. It already has arms and legs under its solid shell.",
+      "version": "crystal"
+    },
+    {
+      "text": "PUPITAR creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable - it avoids damage even if it hits solid steel.",
+      "version": "ruby"
+    },
+    {
+      "text": "PUPITAR creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable - it avoids damage even if it hits solid steel.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A PUPITAR creates a gas inside its body that it ejects under compression to propel itself like a jet. Its body can withstand a collision with solid steel.",
+      "version": "emerald"
+    },
+    {
+      "text": "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+      "version": "firered"
+    },
+    {
+      "text": "Its shell is as hard as sheet rock, and it is also very strong. Its THRASHING can topple a mountain.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+      "version": "black"
+    },
+    {
+      "text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+      "version": "white"
+    },
+    {
+      "text": "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+      "version": "black-2"
+    },
+    {
+      "text": "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its body is as hard as bedrock. By venting pressurized gas, it can launch itself like a rocket.",
+      "version": "x"
+    },
+    {
+      "text": "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+      "version": "y"
+    },
+    {
+      "text": "Pupitar creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable—it avoids damage even if it hits solid steel.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Pupitar creates a gas inside its body that it compresses and forcefully ejects to propel itself like a jet. The body is very durable—it avoids damage even if it hits solid steel.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This troublesome Pokémon can’t wait to evolve, so it relieves its stress by wildly propelling itself around using compressed gas.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This dangerous pupa thrashes about. Its shell is as hard as bedrock, containing its gradually forming new body within.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+      "version": "sword"
+    },
+    {
+      "text": "It will not stay still, even while it’s a pupa. It already has arms and legs under its solid shell.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "larvitar",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "larvitar",
+      "to": "pupitar",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 55
+      },
+      "from": "pupitar",
+      "to": "tyranitar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pupitar.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "unova-route-15-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-15-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 2,
+            "location": "mt-silver-top",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "mt-silver-3f",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "shield": [
+          {
+            "chance": 40,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 8,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 8,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "mt-silver-3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "unova-route-15-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-15-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "red-flowers",
+            "minLevel": 44
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pupitar",
+      "kind": "default",
+      "name": "Pupitar",
+      "number": 247,
+      "pokemon": "pupitar",
+      "sourceId": 247,
+      "sprite": "/dex-images/sprites/pupitar.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 84,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 65,
+        "special-defense": 70,
+        "speed": 51
+      },
+      "tags": [],
+      "types": ["rock", "ground"],
+      "weight": 1520
+    }
+  ],
+  "generation": 2,
+  "key": "pupitar",
+  "name": "Pupitar",
+  "names": {
+    "de": "Pupitar",
+    "en": "Pupitar",
+    "es": "Pupitar",
+    "es-419": "Pupitar",
+    "fr": "Ymphect",
+    "it": "Pupitar",
+    "ja": "サナギラス",
+    "ja-hrkt": "サナギラス",
+    "ja-roma": "Sanagiras",
+    "ko": "데기라스",
+    "zh-hans": "沙基拉斯",
+    "zh-hant": "沙基拉斯"
+  },
+  "number": 247
+}

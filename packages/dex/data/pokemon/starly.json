@@ -1,0 +1,446 @@
+{
+  "category": "Starling Pokémon",
+  "entries": [
+    {
+      "text": "They flock in great numbers. Though small, they flap their wings with great power.",
+      "version": "diamond"
+    },
+    {
+      "text": "Usually with a large flock, it is barely noticeable when alone. Its cries are very strident.",
+      "version": "pearl"
+    },
+    {
+      "text": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+      "version": "platinum"
+    },
+    {
+      "text": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+      "version": "heartgold"
+    },
+    {
+      "text": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+      "version": "black"
+    },
+    {
+      "text": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+      "version": "white"
+    },
+    {
+      "text": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+      "version": "black-2"
+    },
+    {
+      "text": "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+      "version": "white-2"
+    },
+    {
+      "text": "They flock in great numbers. Though small, they flap their wings with great power.",
+      "version": "x"
+    },
+    {
+      "text": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+      "version": "y"
+    },
+    {
+      "text": "They flock in great numbers. Though small, they flap their wings with great power.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They live in the fields and mountains, gathering in large flocks. Their cries are quite obnoxious. Though small, their wings are strong—a strike from them leaves pain that persists for a week.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "starly",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "starly",
+      "to": "staravia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "staravia",
+      "to": "staraptor",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/starly.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 92,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 66,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 63,
+            "location": "sinnoh-route-203-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 43,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 35,
+            "location": "pewter-city-area",
+            "maxLevel": 12,
+            "method": "headbutt",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 92,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 66,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 63,
+            "location": "sinnoh-route-203-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 43,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 62,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 72,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 76,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 46,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 53,
+            "location": "sinnoh-route-203-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 35,
+            "location": "pewter-city-area",
+            "maxLevel": 12,
+            "method": "headbutt",
+            "minLevel": 5
+          }
+        ],
+        "x": [
+          {
+            "chance": 5,
+            "location": "kalos-route-11-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "kalos-route-11-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 4,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "starly",
+      "kind": "default",
+      "name": "Starly",
+      "number": 396,
+      "pokemon": "starly",
+      "sourceId": 396,
+      "sprite": "/dex-images/sprites/starly.webp",
+      "statTotal": 245,
+      "stats": {
+        "attack": 55,
+        "defense": 30,
+        "hp": 40,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 20
+    }
+  ],
+  "generation": 4,
+  "key": "starly",
+  "name": "Starly",
+  "names": {
+    "de": "Staralili",
+    "en": "Starly",
+    "es": "Starly",
+    "es-419": "Starly",
+    "fr": "Étourmi",
+    "it": "Starly",
+    "ja": "ムックル",
+    "ja-hrkt": "ムックル",
+    "ja-roma": "Mukkuru",
+    "ko": "찌르꼬",
+    "zh-hans": "姆克儿",
+    "zh-hant": "姆克兒"
+  },
+  "number": 396
+}

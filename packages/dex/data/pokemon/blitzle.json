@@ -1,0 +1,149 @@
+{
+  "category": "Electrified Pokémon",
+  "entries": [
+    {
+      "text": "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+      "version": "black"
+    },
+    {
+      "text": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+      "version": "white"
+    },
+    {
+      "text": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "version": "white-2"
+    },
+    {
+      "text": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+      "version": "x"
+    },
+    {
+      "text": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "version": "y"
+    },
+    {
+      "text": "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "blitzle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 27
+      },
+      "from": "blitzle",
+      "to": "zebstrika",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": false,
+          "key": "motor-drive"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/blitzle.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 13,
+            "method": "dark-grass",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 13,
+            "method": "dark-grass",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "blitzle",
+      "kind": "default",
+      "name": "Blitzle",
+      "number": 522,
+      "pokemon": "blitzle",
+      "sourceId": 522,
+      "sprite": "/dex-images/sprites/blitzle.webp",
+      "statTotal": 295,
+      "stats": {
+        "attack": 60,
+        "defense": 32,
+        "hp": 45,
+        "special-attack": 50,
+        "special-defense": 32,
+        "speed": 76
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 298
+    }
+  ],
+  "generation": 5,
+  "key": "blitzle",
+  "name": "Blitzle",
+  "names": {
+    "de": "Elezeba",
+    "en": "Blitzle",
+    "es": "Blitzle",
+    "es-419": "Blitzle",
+    "fr": "Zébibron",
+    "it": "Blitzle",
+    "ja": "シママ",
+    "ja-hrkt": "シママ",
+    "ja-roma": "Shimama",
+    "ko": "줄뮤마",
+    "zh-hans": "斑斑马",
+    "zh-hant": "斑斑馬"
+  },
+  "number": 522
+}

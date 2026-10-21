@@ -1,0 +1,802 @@
+{
+  "category": "Poison Gas Pokémon",
+  "entries": [
+    {
+      "text": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+      "version": "red"
+    },
+    {
+      "text": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+      "version": "blue"
+    },
+    {
+      "text": "In hot places, its internal gases could expand and explode without any warning. Be very careful!",
+      "version": "yellow"
+    },
+    {
+      "text": "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.",
+      "version": "gold"
+    },
+    {
+      "text": "The poisonous gases it contains are a little bit lighter than air, keeping it slightly airborne.",
+      "version": "silver"
+    },
+    {
+      "text": "If one gets close enough to it when it expels poison ous gas, the gas swirling inside it can be seen.",
+      "version": "crystal"
+    },
+    {
+      "text": "If KOFFING becomes agitated, it raises the toxicity of its internal gases and jets them out from all over its body. This POKéMON may also overinflate its round body, then explode.",
+      "version": "ruby"
+    },
+    {
+      "text": "KOFFING embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this POKéMON.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Getting up close to a KOFFING will give you a chance to observe, through its thin skin, the toxic gases swirling inside. It blows up at the slightest stimulation.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+      "version": "firered"
+    },
+    {
+      "text": "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+      "version": "diamond"
+    },
+    {
+      "text": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+      "version": "pearl"
+    },
+    {
+      "text": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its thin, filmy body is filled with gases that cause constant sniffles, coughs and teary eyes.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The poisonous gases it contains are a little bit lighter than air, keeping it slightly airborne.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+      "version": "black"
+    },
+    {
+      "text": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+      "version": "white"
+    },
+    {
+      "text": "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
+      "version": "black-2"
+    },
+    {
+      "text": "Toxic gas is held within its thin, balloon-shaped body, so it can cause massive explosions.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+      "version": "x"
+    },
+    {
+      "text": "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+      "version": "y"
+    },
+    {
+      "text": "If Koffing becomes agitated, it raises the toxicity of its internal gases and jets them out from all over its body. This Pokémon may also overinflate its round body, then explode.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Koffing embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this Pokémon.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "In hot places, its internal gases could expand and explode without any warning. Be very careful!",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "In hot places, its internal gases could expand and explode without any warning. Be very careful!",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
+      "version": "sword"
+    },
+    {
+      "text": "It adores polluted air. Some claim that Koffing used to be more plentiful in the Galar region than they are now.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "koffing",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "koffing",
+      "to": "weezing",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "weezing-galar",
+        "min_level": 35,
+        "region": "galar"
+      },
+      "from": "koffing",
+      "to": "weezing",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        },
+        {
+          "hidden": false,
+          "key": "neutralizing-gas"
+        },
+        {
+          "hidden": true,
+          "key": "stench"
+        }
+      ],
+      "artwork": "/dex-images/artwork/koffing.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "virbank-complex-inner",
+            "maxLevel": 14,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "virbank-complex-inner",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "blue": [
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 30,
+            "location": "burned-tower-1f",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 59,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 700,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 21,
+            "method": "static",
+            "minLevel": 21
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 25,
+            "location": "fiery-path-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "firered": [
+          {
+            "chance": 1,
+            "location": "celadon-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "gold": [
+          {
+            "chance": 35,
+            "location": "burned-tower-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 150,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 700,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 21,
+            "method": "static",
+            "minLevel": 21
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 35,
+            "location": "burned-tower-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 90,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 500,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 21,
+            "method": "static",
+            "minLevel": 21
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 1,
+            "location": "celadon-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 35,
+            "location": "fiery-path-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "stark-mountain-inside",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          }
+        ],
+        "red": [
+          {
+            "chance": 40,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 50,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 40,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 50,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 25,
+            "location": "fiery-path-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 2,
+            "location": "fiery-path-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "shield": [
+          {
+            "chance": 80,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 320,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 80,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 95,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 35,
+            "location": "burned-tower-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 150,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 700,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 21,
+            "method": "static",
+            "minLevel": 21
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 35,
+            "location": "burned-tower-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 90,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 500,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 21,
+            "method": "static",
+            "minLevel": 21
+          }
+        ],
+        "sword": [
+          {
+            "chance": 80,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 320,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 80,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 95,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "virbank-complex-inner",
+            "maxLevel": 14,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "virbank-complex-inner",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "black-2-white-2", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "koffing",
+      "kind": "default",
+      "name": "Koffing",
+      "number": 109,
+      "pokemon": "koffing",
+      "sourceId": 109,
+      "sprite": "/dex-images/sprites/koffing.webp",
+      "statTotal": 340,
+      "stats": {
+        "attack": 65,
+        "defense": 95,
+        "hp": 40,
+        "special-attack": 60,
+        "special-defense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 10
+    }
+  ],
+  "generation": 1,
+  "key": "koffing",
+  "name": "Koffing",
+  "names": {
+    "de": "Smogon",
+    "en": "Koffing",
+    "es": "Koffing",
+    "es-419": "Koffing",
+    "fr": "Smogo",
+    "it": "Koffing",
+    "ja": "ドガース",
+    "ja-hrkt": "ドガース",
+    "ja-roma": "Dogars",
+    "ko": "또가스",
+    "zh-hans": "瓦斯弹",
+    "zh-hant": "瓦斯彈"
+  },
+  "number": 109
+}

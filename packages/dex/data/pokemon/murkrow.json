@@ -1,0 +1,587 @@
+{
+  "category": "Darkness Pokémon",
+  "entries": [
+    {
+      "text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      "version": "gold"
+    },
+    {
+      "text": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
+      "version": "silver"
+    },
+    {
+      "text": "It hides any shiny object it finds in a secret location. MURKROW and MEOWTH loot one another's stashes.",
+      "version": "crystal"
+    },
+    {
+      "text": "MURKROW was feared and loathed as the alleged bearer of ill fortune. This POKéMON shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
+      "version": "ruby"
+    },
+    {
+      "text": "MURKROW was feared and loathed as the alleged bearer of ill fortune. This POKéMON shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
+      "version": "sapphire"
+    },
+    {
+      "text": "MURKROW were feared as the alleged bearers of ill fortune. It shows strong interest in anything that sparkles. It will even try to steal rings from women.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
+      "version": "firered"
+    },
+    {
+      "text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is believed that seeing this Pokémon at night will bring about ominous occurrences.",
+      "version": "diamond"
+    },
+    {
+      "text": "It appears near travelers to lure them into deep forests. It is said to carry misfortune.",
+      "version": "pearl"
+    },
+    {
+      "text": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+      "version": "platinum"
+    },
+    {
+      "text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+      "version": "black"
+    },
+    {
+      "text": "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+      "version": "white"
+    },
+    {
+      "text": "If spotted, it will lure an unwary person into chasing it then lose the pursuer on mountain trails.",
+      "version": "black-2"
+    },
+    {
+      "text": "If spotted, it will lure an unwary person into chasing it then lose the pursuer on mountain trails.",
+      "version": "white-2"
+    },
+    {
+      "text": "It hides any shiny object it finds in a secret location. Murkrow and Meowth loot one another’s stashes.",
+      "version": "x"
+    },
+    {
+      "text": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+      "version": "y"
+    },
+    {
+      "text": "Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pokémon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Murkrow was feared and loathed as the alleged bearer of ill fortune. This Pokémon shows strong interest in anything that sparkles or glitters. It will even try to steal rings from women.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They awaken at dusk and take wing in the twilight, leading to the expression, “Get home before the Murkrow fly.”",
+      "version": "sun"
+    },
+    {
+      "text": "Seen as a symbol of bad luck, it’s generally disliked. Yet it gives presents—objects that sparkle or shine—to Trainers it’s close to.",
+      "version": "moon"
+    },
+    {
+      "text": "It has a weakness for shiny things. It’s been known to sneak into the nests of Gabite—noted collectors of jewels—in search of treasure.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It searches for shiny things for its boss. Murkrow’s presence is said to be unlucky, so many people detest it.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Widely shunned as a bearer of ill fortune. Upon crossing paths with this creature, I've been told one must chant ”Workrum, Workrum—bad luck, don't come” as a protective incantation.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "murkrow",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "murkrow",
+      "to": "honchkrow",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": false,
+          "key": "super-luck"
+        },
+        {
+          "hidden": true,
+          "key": "prankster"
+        }
+      ],
+      "artwork": "/dex-images/artwork/murkrow.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "abundant-shrine-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 10,
+            "location": "abundant-shrine-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-hidden-grotto-inner-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf1",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 15,
+            "location": "kanto-route-16-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "eterna-forest-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-2f",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-3f",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-4f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-5f",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "firered": [
+          {
+            "chance": 20,
+            "location": "lost-cave-item-rooms",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-1",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-10",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-2",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-3",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-4",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-7",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-8",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "lost-cave-room-9",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-18-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-7-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 80,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 47,
+            "method": "surf",
+            "minLevel": 47
+          },
+          {
+            "chance": 80,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-16-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-7-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "moon": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          },
+          {
+            "chance": 10,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-18-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 80,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 47,
+            "method": "surf",
+            "minLevel": 47
+          },
+          {
+            "chance": 80,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-16-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "sun": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          },
+          {
+            "chance": 10,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 40,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 40,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-hidden-grotto-inner-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "kalos-route-15-area",
+            "maxLevel": 18,
+            "method": "horde",
+            "minLevel": 18
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-16-area",
+            "maxLevel": 18,
+            "method": "horde",
+            "minLevel": 18
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "kalos-route-15-area",
+            "maxLevel": 18,
+            "method": "horde",
+            "minLevel": 18
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-16-area",
+            "maxLevel": 18,
+            "method": "horde",
+            "minLevel": 18
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "murkrow",
+      "kind": "default",
+      "name": "Murkrow",
+      "number": 198,
+      "pokemon": "murkrow",
+      "sourceId": 198,
+      "sprite": "/dex-images/sprites/murkrow.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 85,
+        "defense": 42,
+        "hp": 60,
+        "special-attack": 85,
+        "special-defense": 42,
+        "speed": 91
+      },
+      "tags": [],
+      "types": ["dark", "flying"],
+      "weight": 21
+    }
+  ],
+  "generation": 2,
+  "key": "murkrow",
+  "name": "Murkrow",
+  "names": {
+    "de": "Kramurx",
+    "en": "Murkrow",
+    "es": "Murkrow",
+    "es-419": "Murkrow",
+    "fr": "Cornèbre",
+    "it": "Murkrow",
+    "ja": "ヤミカラス",
+    "ja-hrkt": "ヤミカラス",
+    "ja-roma": "Yamikarasu",
+    "ko": "니로우",
+    "zh-hans": "黑暗鸦",
+    "zh-hant": "黑暗鴉"
+  },
+  "number": 198
+}

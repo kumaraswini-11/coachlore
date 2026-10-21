@@ -1,0 +1,449 @@
+{
+  "category": "Five Star Pokémon",
+  "entries": [
+    {
+      "text": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+      "version": "gold"
+    },
+    {
+      "text": "The star patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
+      "version": "silver"
+    },
+    {
+      "text": "In the daytime when it gets warm, it curls up inside a big leaf and drifts off into a deep slumber.",
+      "version": "crystal"
+    },
+    {
+      "text": "It is said that in lands with clean air, where the stars fill the sky, there live LEDIAN in countless numbers. There is a good reason for this - the POKéMON uses the light of the stars as its energy.",
+      "version": "ruby"
+    },
+    {
+      "text": "It is said that in lands with clean air, where the stars fill the sky, there live LEDIAN in countless numbers. There is a good reason for this - the POKéMON uses the light of the stars as its energy.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is said that in lands with clean air, where the stars fill the sky, there live many LEDIAN. For good reason, they use the light of the stars as energy.",
+      "version": "emerald"
+    },
+    {
+      "text": "The star patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
+      "version": "firered"
+    },
+    {
+      "text": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "diamond"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "pearl"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "platinum"
+    },
+    {
+      "text": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "black"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "white"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "black-2"
+    },
+    {
+      "text": "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
+      "version": "white-2"
+    },
+    {
+      "text": "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+      "version": "x"
+    },
+    {
+      "text": "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
+      "version": "y"
+    },
+    {
+      "text": "It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this—the Pokémon uses the light of the stars as its energy.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It is said that in lands with clean air, where the stars fill the sky, there live Ledian in countless numbers. There is a good reason for this—the Pokémon uses the light of the stars as its energy.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "While it’s believed that starlight provides it with energy, this Pokémon also loves to eat berries. In the daytime, it curls up in the grass to sleep.",
+      "version": "sun"
+    },
+    {
+      "text": "In battle, it throws punches with all four arms. The power of each individual blow is piddly, so it aims to win by quantity rather than quality.",
+      "version": "moon"
+    },
+    {
+      "text": "It’s said that the patterns on its back are related to the stars in the night sky, but the details of that relationship remain unclear.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "ledyba",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "ledyba",
+      "to": "ledian",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "early-bird"
+        },
+        {
+          "hidden": true,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ledian.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "dreamyard-b1f",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 40,
+            "method": "snag-rematch",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "the-under-area",
+            "maxLevel": 40,
+            "method": "snag",
+            "minLevel": 40
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 9,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 9,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 5
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "dreamyard-b1f",
+            "maxLevel": 49,
+            "method": "dark-grass",
+            "minLevel": 49
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 2,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ledian",
+      "kind": "default",
+      "name": "Ledian",
+      "number": 166,
+      "pokemon": "ledian",
+      "sourceId": 166,
+      "sprite": "/dex-images/sprites/ledian.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 35,
+        "defense": 50,
+        "hp": 55,
+        "special-attack": 55,
+        "special-defense": 110,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 356
+    }
+  ],
+  "generation": 2,
+  "key": "ledian",
+  "name": "Ledian",
+  "names": {
+    "de": "Ledian",
+    "en": "Ledian",
+    "es": "Ledian",
+    "es-419": "Ledian",
+    "fr": "Coxyclaque",
+    "it": "Ledian",
+    "ja": "レディアン",
+    "ja-hrkt": "レディアン",
+    "ja-roma": "Redian",
+    "ko": "레디안",
+    "zh-hans": "安瓢虫",
+    "zh-hant": "安瓢蟲"
+  },
+  "number": 166
+}

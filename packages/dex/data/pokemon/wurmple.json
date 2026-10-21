@@ -1,0 +1,1022 @@
+{
+  "category": "Worm Pokémon",
+  "entries": [
+    {
+      "text": "Using the spikes on its rear end, WURMPLE peels the bark off trees and feeds on the sap that oozes out. This POKéMON’s feet are tipped with suction pads that allow it to cling to glass without slipping.",
+      "version": "ruby"
+    },
+    {
+      "text": "WURMPLE is targeted by SWELLOW as prey. This POKéMON will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It sticks to tree branches and eats leaves. The thread it spits from its mouth, which becomes gooey when it touches air, slows the movement of its foes.",
+      "version": "emerald"
+    },
+    {
+      "text": "It lives amidst tall grass and in forests. When attacked, it resists by pointing its venomous spikes at the foe.",
+      "version": "firered"
+    },
+    {
+      "text": "It lives amidst tall grass and in forests. When attacked, it resists by pointing its venomous spikes at the foe.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It loves to eat leaves. If it is attacked by a STARLY, it will defend itself with its spiked rear.",
+      "version": "diamond"
+    },
+    {
+      "text": "It spits a white silk that turns sticky when it contacts air. It is used to immobilize foes.",
+      "version": "pearl"
+    },
+    {
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "version": "black"
+    },
+    {
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "version": "white"
+    },
+    {
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "version": "black-2"
+    },
+    {
+      "text": "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+      "version": "white-2"
+    },
+    {
+      "text": "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear.",
+      "version": "x"
+    },
+    {
+      "text": "It lives among the tall grass and in forests. It repels attacks by raising up the spikes on its rear.",
+      "version": "y"
+    },
+    {
+      "text": "Using the spikes on its rear end, Wurmple peels the bark off trees and feeds on the sap that oozes out. This Pokémon’s feet are tipped with suction pads that allow it to cling to glass without slipping.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Wurmple is targeted by Swellow as prey. This Pokémon will try to resist by pointing the spikes on its rear at the attacking predator. It will weaken the foe by leaking poison from the spikes.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Likes sap and is abundant in the wild. Why it evolves into various different forms is unknown. One cannot tell from a Wurmple's appearance which form it will take when it evolves.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "wurmple",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 50,
+        "min_level": 7
+      },
+      "from": "wurmple",
+      "to": "silcoon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "silcoon",
+      "to": "beautifly",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "chance": 50,
+        "min_level": 7
+      },
+      "from": "wurmple",
+      "to": "cascoon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "cascoon",
+      "to": "dustox",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shield-dust"
+        },
+        {
+          "hidden": true,
+          "key": "run-away"
+        }
+      ],
+      "artwork": "/dex-images/artwork/wurmple.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "petalburg-woods-area",
+            "maxLevel": 3,
+            "method": "horde",
+            "minLevel": 3
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 85,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 85,
+            "location": "eterna-forest-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 45,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "fuchsia-city-area",
+            "maxLevel": 34,
+            "method": "headbutt",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "headbutt",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-12-area",
+            "maxLevel": 25,
+            "method": "headbutt",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "headbutt",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "headbutt",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-22-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-3-area",
+            "maxLevel": 10,
+            "method": "headbutt",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-4-area",
+            "maxLevel": 10,
+            "method": "headbutt",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "pallet-town-area",
+            "maxLevel": 6,
+            "method": "headbutt",
+            "minLevel": 2
+          },
+          {
+            "chance": 105,
+            "location": "pewter-city-area",
+            "maxLevel": 9,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "viridian-city-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "petalburg-woods-area",
+            "maxLevel": 3,
+            "method": "horde",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 85,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 85,
+            "location": "eterna-forest-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 45,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 45,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 40,
+            "location": "fuchsia-city-area",
+            "maxLevel": 34,
+            "method": "headbutt",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "headbutt",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-12-area",
+            "maxLevel": 25,
+            "method": "headbutt",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "headbutt",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "headbutt",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-22-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-3-area",
+            "maxLevel": 10,
+            "method": "headbutt",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-4-area",
+            "maxLevel": 10,
+            "method": "headbutt",
+            "minLevel": 6
+          },
+          {
+            "chance": 40,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "headbutt",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "pallet-town-area",
+            "maxLevel": 6,
+            "method": "headbutt",
+            "minLevel": 2
+          },
+          {
+            "chance": 105,
+            "location": "pewter-city-area",
+            "maxLevel": 9,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 40,
+            "location": "viridian-city-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 3
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "omega-ruby-alpha-sapphire", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 3,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "wurmple",
+      "kind": "default",
+      "name": "Wurmple",
+      "number": 265,
+      "pokemon": "wurmple",
+      "sourceId": 265,
+      "sprite": "/dex-images/sprites/wurmple.webp",
+      "statTotal": 195,
+      "stats": {
+        "attack": 45,
+        "defense": 35,
+        "hp": 45,
+        "special-attack": 20,
+        "special-defense": 30,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 36
+    }
+  ],
+  "generation": 3,
+  "key": "wurmple",
+  "name": "Wurmple",
+  "names": {
+    "de": "Waumpel",
+    "en": "Wurmple",
+    "es": "Wurmple",
+    "es-419": "Wurmple",
+    "fr": "Chenipotte",
+    "it": "Wurmple",
+    "ja": "ケムッソ",
+    "ja-hrkt": "ケムッソ",
+    "ja-roma": "Kemusso",
+    "ko": "개무소",
+    "zh-hans": "刺尾虫",
+    "zh-hant": "刺尾蟲"
+  },
+  "number": 265
+}

@@ -1,0 +1,375 @@
+{
+  "category": "Baby Pokémon",
+  "entries": [
+    {
+      "text": "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows.",
+      "version": "sword"
+    },
+    {
+      "text": "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "toxel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "allowed_natures": ["hardy", "docile", "hasty", "adamant", "impish", "rash", "jolly", "naughty", "lax", "quirky", "naive", "brave", "sassy"],
+        "evolved_pokemon_form": "toxtricity-amped",
+        "min_level": 30
+      },
+      "from": "toxel",
+      "to": "toxtricity",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "allowed_natures": ["bold", "modest", "calm", "timid", "lonely", "mild", "gentle", "bashful", "careful", "relaxed", "quiet", "serious"],
+        "evolved_pokemon_form": "toxtricity-low-key",
+        "min_level": 30
+      },
+      "from": "toxel",
+      "to": "toxtricity",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rattled"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "klutz"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toxel.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 60,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-5-area",
+            "maxLevel": 1,
+            "method": "gift",
+            "minLevel": 1
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-7-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 95,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 85,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 60,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-5-area",
+            "maxLevel": 1,
+            "method": "gift",
+            "minLevel": 1
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-7-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 95,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 85,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["sword-shield", "scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 8,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "toxel",
+      "kind": "default",
+      "name": "Toxel",
+      "number": 848,
+      "pokemon": "toxel",
+      "sourceId": 848,
+      "sprite": "/dex-images/sprites/toxel.webp",
+      "statTotal": 242,
+      "stats": {
+        "attack": 38,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 54,
+        "special-defense": 35,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["electric", "poison"],
+      "weight": 110
+    }
+  ],
+  "generation": 8,
+  "key": "toxel",
+  "name": "Toxel",
+  "names": {
+    "de": "Toxel",
+    "en": "Toxel",
+    "es": "Toxel",
+    "es-419": "Toxel",
+    "fr": "Toxizap",
+    "it": "Toxel",
+    "ja": "エレズン",
+    "ja-hrkt": "エレズン",
+    "ja-roma": "Eleson",
+    "ko": "일레즌",
+    "zh-hans": "电音婴",
+    "zh-hant": "毒電嬰"
+  },
+  "number": 848
+}

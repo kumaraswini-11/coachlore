@@ -1,0 +1,125 @@
+{
+  "category": "Warrior Pokémon",
+  "entries": [
+    {
+      "text": "In times past, it worked together with a king of the people to save the Galar region. It absorbs metal that it then uses in battle.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon slept for aeons while in the form of a statue. It was asleep for so long, people forgot that it ever existed.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "zamazenta",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dauntless-shield"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zamazenta.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "energy-plant-tower-summit",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ]
+      },
+      "formName": "Hero of Many Battles",
+      "games": ["sword-shield"],
+      "gen9": true,
+      "generation": 8,
+      "height": 29,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "zamazenta",
+      "kind": "default",
+      "legendary": true,
+      "name": "Zamazenta",
+      "number": 889,
+      "pokemon": "zamazenta",
+      "sourceId": 889,
+      "sprite": "/dex-images/sprites/zamazenta.webp",
+      "statTotal": 660,
+      "stats": {
+        "attack": 120,
+        "defense": 115,
+        "hp": 92,
+        "special-attack": 80,
+        "special-defense": 115,
+        "speed": 138
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["fighting"],
+      "weight": 2100
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dauntless-shield"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zamazenta-crowned.webp",
+      "encounters": {},
+      "formName": "Crowned Shield",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 29,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "zamazenta-crowned",
+      "kind": "other",
+      "legendary": true,
+      "name": "Zamazenta-Crowned",
+      "number": 889,
+      "pokemon": "zamazenta",
+      "sourceId": 10189,
+      "sprite": "/dex-images/sprites/zamazenta-crowned.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 120,
+        "defense": 140,
+        "hp": 92,
+        "special-attack": 80,
+        "special-defense": 140,
+        "speed": 128
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["fighting", "steel"],
+      "weight": 7850
+    }
+  ],
+  "generation": 8,
+  "key": "zamazenta",
+  "name": "Zamazenta",
+  "names": {
+    "de": "Zamazenta",
+    "en": "Zamazenta",
+    "es": "Zamazenta",
+    "es-419": "Zamazenta",
+    "fr": "Zamazenta",
+    "it": "Zamazenta",
+    "ja": "ザマゼンタ",
+    "ja-hrkt": "ザマゼンタ",
+    "ja-roma": "Zamazenta",
+    "ko": "자마젠타",
+    "zh-hans": "藏玛然特",
+    "zh-hant": "藏瑪然特"
+  },
+  "number": 889
+}

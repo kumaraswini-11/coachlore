@@ -1,0 +1,557 @@
+{
+  "category": "Clay Doll Pokémon",
+  "entries": [
+    {
+      "text": "BALTOY moves while spinning around on its one foot. Primitive wall paintings depicting this POKéMON living among people were discovered in some ancient ruins.",
+      "version": "ruby"
+    },
+    {
+      "text": "As soon as it spots others of its kind, BALTOY congregates with them and then begins crying noisily in unison. This POKéMON sleeps while cleverly balancing itself on its one foot.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A BALTOY moves by spinning on its single foot. It has been depicted in murals adorning the walls of a once-bustling city in an ancient age.",
+      "version": "emerald"
+    },
+    {
+      "text": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+      "version": "firered"
+    },
+    {
+      "text": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+      "version": "diamond"
+    },
+    {
+      "text": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+      "version": "pearl"
+    },
+    {
+      "text": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+      "version": "platinum"
+    },
+    {
+      "text": "It moves while spinning around on its single foot. Some BALTOY have been seen spinning on their heads.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It moves while spinning around on its single foot. Some BALTOY have been seen spinning on their heads.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+      "version": "black"
+    },
+    {
+      "text": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+      "version": "white"
+    },
+    {
+      "text": "Discovered in ancient ruins, it moves by spinning around and forms a group when it finds others.",
+      "version": "black-2"
+    },
+    {
+      "text": "Discovered in ancient ruins, it moves by spinning around and forms a group when it finds others.",
+      "version": "white-2"
+    },
+    {
+      "text": "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+      "version": "x"
+    },
+    {
+      "text": "It moves by spinning on its foot. It is a rare Pokémon that was discovered in ancient ruins.",
+      "version": "y"
+    },
+    {
+      "text": "Baltoy moves while spinning around on its one foot. Primitive wall paintings depicting this Pokémon living among people were discovered in some ancient ruins.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "As soon as it spots others of its kind, Baltoy congregates with them and then begins crying noisily in unison. This Pokémon sleeps while cleverly balancing itself on its one foot.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Depictions of Pokémon similar to Baltoy have been found on the walls of caves where primitive humans lived.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When they find others of their kind, they cry out loudly and gather together. Large numbers of them can be found in old graveyards.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It moves while spinning around on its single foot. Some Baltoy have been seen spinning on their heads.",
+      "version": "sword"
+    },
+    {
+      "text": "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "baltoy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "baltoy",
+      "to": "claydol",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/baltoy.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "relic-castle-d",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 24,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "kanto-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 80,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 180,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 270,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 270,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 120,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 80,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "sword": [
+          {
+            "chance": 80,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 180,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 180,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 270,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 270,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 120,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 180,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 75,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 32
+          },
+          {
+            "chance": 75,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 32
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "relic-castle-d",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-lab-outside",
+            "maxLevel": 17,
+            "method": "snag",
+            "minLevel": 17
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 3,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "baltoy",
+      "kind": "default",
+      "name": "Baltoy",
+      "number": 343,
+      "pokemon": "baltoy",
+      "sourceId": 343,
+      "sprite": "/dex-images/sprites/baltoy.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 40,
+        "defense": 55,
+        "hp": 40,
+        "special-attack": 40,
+        "special-defense": 70,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["ground", "psychic"],
+      "weight": 215
+    }
+  ],
+  "generation": 3,
+  "key": "baltoy",
+  "name": "Baltoy",
+  "names": {
+    "de": "Puppance",
+    "en": "Baltoy",
+    "es": "Baltoy",
+    "es-419": "Baltoy",
+    "fr": "Balbuto",
+    "it": "Baltoy",
+    "ja": "ヤジロン",
+    "ja-hrkt": "ヤジロン",
+    "ja-roma": "Yajilon",
+    "ko": "오뚝군",
+    "zh-hans": "天秤偶",
+    "zh-hant": "天秤偶"
+  },
+  "number": 343
+}

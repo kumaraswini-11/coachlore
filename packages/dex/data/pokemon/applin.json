@@ -1,0 +1,447 @@
+{
+  "category": "Apple Core Pokémon",
+  "entries": [
+    {
+      "text": "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it’s just an apple and nothing more.",
+      "version": "sword"
+    },
+    {
+      "text": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "applin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "tart-apple"
+      },
+      "from": "applin",
+      "to": "flapple",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sweet-apple"
+      },
+      "from": "applin",
+      "to": "appletun",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "syrupy-apple"
+      },
+      "from": "applin",
+      "to": "dipplin",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-cheer"
+      },
+      "from": "dipplin",
+      "to": "hydrapple",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "ripen"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "bulletproof"
+        }
+      ],
+      "artwork": "/dex-images/artwork/applin.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 140,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-5-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 140,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-5-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 60,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 55,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 60,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 19
+          },
+          {
+            "chance": 190,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 60,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 16
+          },
+          {
+            "chance": 60,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 55,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 60,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 55,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 60,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 19
+          },
+          {
+            "chance": 190,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 60,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 16
+          },
+          {
+            "chance": 60,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 55,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 8,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "applin",
+      "kind": "default",
+      "name": "Applin",
+      "number": 840,
+      "pokemon": "applin",
+      "sourceId": 840,
+      "sprite": "/dex-images/sprites/applin.webp",
+      "statTotal": 260,
+      "stats": {
+        "attack": 40,
+        "defense": 80,
+        "hp": 40,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 5
+    }
+  ],
+  "generation": 8,
+  "key": "applin",
+  "name": "Applin",
+  "names": {
+    "de": "Knapfel",
+    "en": "Applin",
+    "es": "Applin",
+    "es-419": "Applin",
+    "fr": "Verpom",
+    "it": "Applin",
+    "ja": "カジッチュ",
+    "ja-hrkt": "カジッチュ",
+    "ja-roma": "Kajicchu",
+    "ko": "과사삭벌레",
+    "zh-hans": "啃果虫",
+    "zh-hant": "啃果蟲"
+  },
+  "number": 840
+}

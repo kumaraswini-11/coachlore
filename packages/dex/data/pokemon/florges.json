@@ -1,0 +1,197 @@
+{
+  "category": "Garden Pokémon",
+  "entries": [
+    {
+      "text": "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+      "version": "x"
+    },
+    {
+      "text": "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
+      "version": "y"
+    },
+    {
+      "text": "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its life can span several hundred years. It’s said to devote its entire life to protecting gardens.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "flabebe",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-red",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-red"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-yellow",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-yellow"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-orange",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-orange"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-blue",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-blue"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "floette-white",
+        "min_level": 19,
+        "required_pokemon_form": "flabebe-white"
+      },
+      "from": "flabebe",
+      "to": "floette",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-red",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-red"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-yellow",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-yellow"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-orange",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-orange"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-blue",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-blue"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "florges-white",
+        "item": "shiny-stone",
+        "required_pokemon_form": "floette-white"
+      },
+      "from": "floette",
+      "to": "florges",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flower-veil"
+        },
+        {
+          "hidden": true,
+          "key": "symbiosis"
+        }
+      ],
+      "artwork": "/dex-images/artwork/florges.webp",
+      "encounters": {},
+      "formName": "Red Flower",
+      "games": ["x-y", "ultra-sun-ultra-moon", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "florges",
+      "kind": "default",
+      "name": "Florges",
+      "number": 671,
+      "pokemon": "florges",
+      "sourceId": 671,
+      "sprite": "/dex-images/sprites/florges.webp",
+      "statTotal": 552,
+      "stats": {
+        "attack": 65,
+        "defense": 68,
+        "hp": 78,
+        "special-attack": 112,
+        "special-defense": 154,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 100
+    }
+  ],
+  "generation": 6,
+  "key": "florges",
+  "name": "Florges",
+  "names": {
+    "de": "Florges",
+    "en": "Florges",
+    "es": "Florges",
+    "es-419": "Florges",
+    "fr": "Florges",
+    "it": "Florges",
+    "ja": "フラージェス",
+    "ja-hrkt": "フラージェス",
+    "ja-roma": "Florges",
+    "ko": "플라제스",
+    "zh-hans": "花洁夫人",
+    "zh-hant": "花潔夫人"
+  },
+  "number": 671
+}

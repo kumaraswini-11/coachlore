@@ -1,0 +1,682 @@
+{
+  "category": "Dragon Pokémon",
+  "entries": [
+    {
+      "text": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.",
+      "version": "red"
+    },
+    {
+      "text": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.",
+      "version": "blue"
+    },
+    {
+      "text": "According to a witness, its body was surrounded by a strange aura that gave it a mystical look.",
+      "version": "yellow"
+    },
+    {
+      "text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+      "version": "gold"
+    },
+    {
+      "text": "Its crystalline orbs appear to give this POKéMON the power to freely control the weather.",
+      "version": "silver"
+    },
+    {
+      "text": "It is called the divine POKéMON. When its entire body brightens slightly, the weather changes.",
+      "version": "crystal"
+    },
+    {
+      "text": "DRAGONAIR stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
+      "version": "ruby"
+    },
+    {
+      "text": "DRAGONAIR stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A DRAGONAIR stores an enormous amount of energy inside its body. It is said to alter the weather around it by loosing energy from the crystals on its neck and tail.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is said to live in seas and lakes. Even though it has no wings, it has been seen flying occasionally.",
+      "version": "firered"
+    },
+    {
+      "text": "A mystical POKéMON that exudes a gentle aura. It is said to have the ability to change the weather.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "diamond"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "pearl"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "platinum"
+    },
+    {
+      "text": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "black"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "white"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "black-2"
+    },
+    {
+      "text": "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+      "version": "x"
+    },
+    {
+      "text": "A mystical Pokémon that exudes a gentle aura. It is said to have the ability to change the weather.",
+      "version": "y"
+    },
+    {
+      "text": "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It has long been thought that its crystalline orbs are imbued with the power to control the weather.",
+      "version": "sun"
+    },
+    {
+      "text": "From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.",
+      "version": "moon"
+    },
+    {
+      "text": "Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Some say that if you see it at the start of the year, flying through the sky and twisting its body, you’ll be healthy all year long.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "According to a witness, its body was surrounded by a strange aura that gave it a mystical look.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "According to a witness, its body was surrounded by a strange aura that gave it a mystical look.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon gathers power in the orbs on its tail and controls the weather. When enshrouded by an aura, Dragonair has a mystical appearance.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dratini",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "dratini",
+      "to": "dragonair",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 55
+      },
+      "from": "dragonair",
+      "to": "dragonite",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        },
+        {
+          "hidden": true,
+          "key": "marvel-scale"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dragonair.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 24,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 24,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 19,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          }
+        ],
+        "blue-japan": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "dragons-den-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "firered": [
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "dragons-den-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "dragons-den-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 42
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 23,
+            "method": "overworld-water",
+            "minLevel": 18
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 23,
+            "method": "overworld-water",
+            "minLevel": 18
+          }
+        ],
+        "moon": [
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 44,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "dragons-den-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "dragons-den-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 42
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 44,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 200,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer-water",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 200,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer-water",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 61,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 66,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 62,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 61,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 66,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 62,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 24,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 24,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 19,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-21-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-21-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-crown-tundra", "scarlet-violet", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 40,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dragonair",
+      "kind": "default",
+      "name": "Dragonair",
+      "number": 148,
+      "pokemon": "dragonair",
+      "sourceId": 148,
+      "sprite": "/dex-images/sprites/dragonair.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 84,
+        "defense": 65,
+        "hp": 61,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 165
+    }
+  ],
+  "generation": 1,
+  "key": "dragonair",
+  "name": "Dragonair",
+  "names": {
+    "de": "Dragonir",
+    "en": "Dragonair",
+    "es": "Dragonair",
+    "es-419": "Dragonair",
+    "fr": "Draco",
+    "it": "Dragonair",
+    "ja": "ハクリュー",
+    "ja-hrkt": "ハクリュー",
+    "ja-roma": "Hakuryu",
+    "ko": "신뇽",
+    "zh-hans": "哈克龙",
+    "zh-hant": "哈克龍"
+  },
+  "number": 148
+}

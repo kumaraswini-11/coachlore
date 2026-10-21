@@ -1,0 +1,690 @@
+{
+  "category": "Pumpkin Pokémon",
+  "entries": [
+    {
+      "text": "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+      "version": "x"
+    },
+    {
+      "text": "It is said to carry wandering spirits to the place where they belong so they can move on.",
+      "version": "y"
+    },
+    {
+      "text": "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It is said to carry wandering spirits to the place where they belong so they can move on.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Spirits that wander this world are placed into Pumpkaboo’s body. They’re then moved on to the afterlife.",
+      "version": "sword"
+    },
+    {
+      "text": "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pumpkaboo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-average",
+        "required_pokemon_form": "pumpkaboo-average"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-small",
+        "required_pokemon_form": "pumpkaboo-small"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-large",
+        "required_pokemon_form": "pumpkaboo-large"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-super",
+        "required_pokemon_form": "pumpkaboo-super"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pumpkaboo-average.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 75,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 155,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 80,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "rough-terrain",
+            "minLevel": 34
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "rough-terrain",
+            "minLevel": 34
+          }
+        ]
+      },
+      "formName": "Average Size",
+      "games": ["x-y", "sword-shield", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pumpkaboo-average",
+      "kind": "default",
+      "name": "Pumpkaboo",
+      "number": 710,
+      "pokemon": "pumpkaboo",
+      "sourceId": 710,
+      "sprite": "/dex-images/sprites/pumpkaboo-average.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 66,
+        "defense": 70,
+        "hp": 49,
+        "special-attack": 44,
+        "special-defense": 55,
+        "speed": 51
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 50
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pumpkaboo-large.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 42,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 42,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          }
+        ],
+        "x": [
+          {
+            "chance": 10,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "rough-terrain",
+            "minLevel": 36
+          }
+        ],
+        "y": [
+          {
+            "chance": 10,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "rough-terrain",
+            "minLevel": 36
+          }
+        ]
+      },
+      "formName": "Large Size",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pumpkaboo-large",
+      "kind": "other",
+      "name": "Pumpkaboo-Large",
+      "number": 710,
+      "pokemon": "pumpkaboo",
+      "sourceId": 10028,
+      "sprite": "/dex-images/sprites/pumpkaboo-large.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 66,
+        "defense": 70,
+        "hp": 54,
+        "special-attack": 44,
+        "special-defense": 55,
+        "speed": 46
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 75
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pumpkaboo-small.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 10,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "rough-terrain",
+            "minLevel": 35
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "rough-terrain",
+            "minLevel": 35
+          }
+        ]
+      },
+      "formName": "Small Size",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pumpkaboo-small",
+      "kind": "other",
+      "name": "Pumpkaboo-Small",
+      "number": 710,
+      "pokemon": "pumpkaboo",
+      "sourceId": 10027,
+      "sprite": "/dex-images/sprites/pumpkaboo-small.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 66,
+        "defense": 70,
+        "hp": 44,
+        "special-attack": 44,
+        "special-defense": 55,
+        "speed": 56
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 35
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pumpkaboo-super.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 1,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 2,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 1,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 18,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          }
+        ],
+        "sword": [
+          {
+            "chance": 1,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 2,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 1,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 18,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          }
+        ],
+        "x": [
+          {
+            "chance": 1,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "rough-terrain",
+            "minLevel": 36
+          }
+        ],
+        "y": [
+          {
+            "chance": 1,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "rough-terrain",
+            "minLevel": 36
+          }
+        ]
+      },
+      "formName": "Super Size",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pumpkaboo-super",
+      "kind": "other",
+      "name": "Pumpkaboo-Super",
+      "number": 710,
+      "pokemon": "pumpkaboo",
+      "sourceId": 10029,
+      "sprite": "/dex-images/sprites/pumpkaboo-super.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 66,
+        "defense": 70,
+        "hp": 59,
+        "special-attack": 44,
+        "special-defense": 55,
+        "speed": 41
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 150
+    }
+  ],
+  "generation": 6,
+  "key": "pumpkaboo",
+  "name": "Pumpkaboo",
+  "names": {
+    "de": "Irrbis",
+    "en": "Pumpkaboo",
+    "es": "Pumpkaboo",
+    "es-419": "Pumpkaboo",
+    "fr": "Pitrouille",
+    "it": "Pumpkaboo",
+    "ja": "バケッチャ",
+    "ja-hrkt": "バケッチャ",
+    "ja-roma": "Bakeccha",
+    "ko": "호바귀",
+    "zh-hans": "南瓜精",
+    "zh-hant": "南瓜精"
+  },
+  "number": 710
+}

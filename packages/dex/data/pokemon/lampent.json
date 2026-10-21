@@ -1,0 +1,369 @@
+{
+  "category": "Lamp Pokémon",
+  "entries": [
+    {
+      "text": "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+      "version": "black"
+    },
+    {
+      "text": "It arrives near the moment of death and steals spirit from the body.",
+      "version": "white"
+    },
+    {
+      "text": "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+      "version": "black-2"
+    },
+    {
+      "text": "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+      "version": "white-2"
+    },
+    {
+      "text": "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+      "version": "x"
+    },
+    {
+      "text": "It arrives near the moment of death and steals spirit from the body.",
+      "version": "y"
+    },
+    {
+      "text": "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It arrives near the moment of death and steals spirit from the body.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon appears just before someone passes away, so it’s feared as an emissary of death.",
+      "version": "sword"
+    },
+    {
+      "text": "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litwick",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "litwick",
+      "to": "lampent",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "lampent",
+      "to": "chandelure",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": false,
+          "key": "flame-body"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lampent.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 28,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 25,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 25,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lampent",
+      "kind": "default",
+      "name": "Lampent",
+      "number": 608,
+      "pokemon": "lampent",
+      "sourceId": 608,
+      "sprite": "/dex-images/sprites/lampent.webp",
+      "statTotal": 370,
+      "stats": {
+        "attack": 40,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 95,
+        "special-defense": 60,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["ghost", "fire"],
+      "weight": 130
+    }
+  ],
+  "generation": 5,
+  "key": "lampent",
+  "name": "Lampent",
+  "names": {
+    "de": "Laternecto",
+    "en": "Lampent",
+    "es": "Lampent",
+    "es-419": "Lampent",
+    "fr": "Mélancolux",
+    "it": "Lampent",
+    "ja": "ランプラー",
+    "ja-hrkt": "ランプラー",
+    "ja-roma": "Lampler",
+    "ko": "램프라",
+    "zh-hans": "灯火幽灵",
+    "zh-hant": "燈火幽靈"
+  },
+  "number": 608
+}

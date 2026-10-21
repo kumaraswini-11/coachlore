@@ -1,0 +1,438 @@
+{
+  "category": "Lizard Pokémon",
+  "entries": [
+    {
+      "text": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+      "version": "red"
+    },
+    {
+      "text": "Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
+      "version": "blue"
+    },
+    {
+      "text": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.",
+      "version": "yellow"
+    },
+    {
+      "text": "The flame on its tail shows the strength of its life force. If it is weak, the flame also burns weakly.",
+      "version": "gold"
+    },
+    {
+      "text": "The flame on its tail indicates CHARMANDER's life force. If it is healthy, the flame burns brightly.",
+      "version": "silver"
+    },
+    {
+      "text": "If it's healthy, the flame on the tip of its tail will burn vigorously, even if it gets a bit wet.",
+      "version": "crystal"
+    },
+    {
+      "text": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is enjoying itself. If the POKéMON becomes enraged, the flame burns fiercely.",
+      "version": "ruby"
+    },
+    {
+      "text": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is enjoying itself. If the POKéMON becomes enraged, the flame burns fiercely.",
+      "version": "sapphire"
+    },
+    {
+      "text": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is happy, and blazes when it is enraged.",
+      "version": "emerald"
+    },
+    {
+      "text": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+      "version": "firered"
+    },
+    {
+      "text": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "diamond"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "pearl"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "platinum"
+    },
+    {
+      "text": "The flame on its tail shows the strength of its life force. If it is weak, the flame also burns weakly.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The flame on its tail indicates CHARMANDER’s life force. If it is healthy, the flame burns brightly.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "black"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "white"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "black-2"
+    },
+    {
+      "text": "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
+      "version": "white-2"
+    },
+    {
+      "text": "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
+      "version": "x"
+    },
+    {
+      "text": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+      "version": "y"
+    },
+    {
+      "text": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+      "version": "sword"
+    },
+    {
+      "text": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "charmander",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "charmander",
+      "to": "charmeleon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "charmeleon",
+      "to": "charizard",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "solar-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charmander.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "gift",
+            "minLevel": 14
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "overworld-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "overworld-special",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 23,
+            "method": "overworld-special",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 23,
+            "method": "overworld-special",
+            "minLevel": 18
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "gift",
+            "minLevel": 14
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "overworld-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "overworld-special",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 23,
+            "method": "overworld-special",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 23,
+            "method": "overworld-special",
+            "minLevel": 18
+          }
+        ],
+        "red": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "shield": [
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "postwick-leons-room",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "postwick-leons-room",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-3-main",
+            "maxLevel": 12,
+            "method": "island-scan",
+            "minLevel": 12
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-3-main",
+            "maxLevel": 12,
+            "method": "island-scan",
+            "minLevel": 12
+          }
+        ],
+        "x": [
+          {
+            "chance": 100,
+            "location": "lumiose-city-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 100,
+            "location": "lumiose-city-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "charmander",
+      "kind": "default",
+      "name": "Charmander",
+      "number": 4,
+      "pokemon": "charmander",
+      "sourceId": 4,
+      "sprite": "/dex-images/sprites/charmander.webp",
+      "statTotal": 309,
+      "stats": {
+        "attack": 52,
+        "defense": 43,
+        "hp": 39,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 85
+    }
+  ],
+  "generation": 1,
+  "key": "charmander",
+  "name": "Charmander",
+  "names": {
+    "de": "Glumanda",
+    "en": "Charmander",
+    "es": "Charmander",
+    "es-419": "Charmander",
+    "fr": "Salamèche",
+    "it": "Charmander",
+    "ja": "ヒトカゲ",
+    "ja-hrkt": "ヒトカゲ",
+    "ja-roma": "Hitokage",
+    "ko": "파이리",
+    "zh-hans": "小火龙",
+    "zh-hant": "小火龍"
+  },
+  "number": 4
+}

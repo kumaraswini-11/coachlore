@@ -1,0 +1,650 @@
+{
+  "category": "Balloon Pokémon",
+  "entries": [
+    {
+      "text": "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+      "version": "diamond"
+    },
+    {
+      "text": "It tugs on the hands of children to steal them away. However, it gets pulled around instead.",
+      "version": "pearl"
+    },
+    {
+      "text": "Because of the way it floats aimlessly, an old folktale calls it a “Signpost for Wandering Spirits.”",
+      "version": "platinum"
+    },
+    {
+      "text": "It is whispered that any child who mistakes DRIFLOON for a balloon and holds on to it could wind up missing.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is whispered that any child who mistakes DRIFLOON for a balloon and holds on to it could wind up missing.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Because of the way it floats aimlessly, an old folktale calls it a “Signpost for Wandering Spirits.”",
+      "version": "black"
+    },
+    {
+      "text": "Because of the way it floats aimlessly, an old folktale calls it a “Signpost for Wandering Spirits.”",
+      "version": "white"
+    },
+    {
+      "text": "These Pokémon are called the “Signpost for Wandering Spirits.” Children holding them sometimes vanish.",
+      "version": "black-2"
+    },
+    {
+      "text": "These Pokémon are called the “Signpost for Wandering Spirits.” Children holding them sometimes vanish.",
+      "version": "white-2"
+    },
+    {
+      "text": "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+      "version": "x"
+    },
+    {
+      "text": "These Pokémon are called the “Signpost for Wandering Spirits.” Children holding them sometimes vanish.",
+      "version": "y"
+    },
+    {
+      "text": "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "These Pokémon are called the “Signpost for Wandering Spirits.” Children holding them sometimes vanish.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Stories go that it grabs the hands of small children and drags them away to the afterlife. It dislikes heavy children.",
+      "version": "sun"
+    },
+    {
+      "text": "If for some reason its body bursts, its soul spills out with a screaming sound.",
+      "version": "moon"
+    },
+    {
+      "text": "Its round body is stuffed with souls and expands each time it leads someone away.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Wandering souls gathered together to form this Pokémon. When trying to make friends with children, Drifloon grabs them by the hand.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Perhaps seeking company, it approaches children. However, it often quickly runs away again when the children play too roughly with it.",
+      "version": "sword"
+    },
+    {
+      "text": "The gathering of many souls gave rise to this Pokémon. During humid seasons, they seem to appear in abundance.",
+      "version": "shield"
+    },
+    {
+      "text": "Said to lure away young children and carry them off to the afterlife. Some whisper that Drifloon are formed of reincarnated human souls, but these rumors are as yet unconfirmed.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "drifloon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "drifloon",
+      "to": "drifblim",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aftermath"
+        },
+        {
+          "hidden": false,
+          "key": "unburden"
+        },
+        {
+          "hidden": true,
+          "key": "flare-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/drifloon.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "unova-route-13-hidden-grotto-stairs",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "valley-windworks-area",
+            "maxLevel": 22,
+            "method": "static",
+            "minLevel": 22
+          }
+        ],
+        "moon": [
+          {
+            "chance": 30,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "valley-windworks-area",
+            "maxLevel": 22,
+            "method": "static",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "static",
+            "minLevel": 15
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 340,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 340,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 42
+          },
+          {
+            "chance": 600,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 600,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 14
+          },
+          {
+            "chance": 600,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 420,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 420,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 90,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 340,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 340,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 42
+          },
+          {
+            "chance": 600,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 600,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 14
+          },
+          {
+            "chance": 600,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 420,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 420,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 90,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 30,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 30,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-1-trainers-school",
+            "maxLevel": 19,
+            "method": "static",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 15,
+            "location": "trainers-school-area",
+            "maxLevel": 19,
+            "method": "static",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-1-trainers-school",
+            "maxLevel": 19,
+            "method": "static",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 15,
+            "location": "trainers-school-area",
+            "maxLevel": 19,
+            "method": "static",
+            "minLevel": 19
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "unova-route-13-hidden-grotto-stairs",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "yellow-flowers",
+            "minLevel": 15
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "yellow-flowers",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "drifloon",
+      "kind": "default",
+      "name": "Drifloon",
+      "number": 425,
+      "pokemon": "drifloon",
+      "sourceId": 425,
+      "sprite": "/dex-images/sprites/drifloon.webp",
+      "statTotal": 348,
+      "stats": {
+        "attack": 50,
+        "defense": 34,
+        "hp": 90,
+        "special-attack": 60,
+        "special-defense": 44,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["ghost", "flying"],
+      "weight": 12
+    }
+  ],
+  "generation": 4,
+  "key": "drifloon",
+  "name": "Drifloon",
+  "names": {
+    "de": "Driftlon",
+    "en": "Drifloon",
+    "es": "Drifloon",
+    "es-419": "Drifloon",
+    "fr": "Baudrive",
+    "it": "Drifloon",
+    "ja": "フワンテ",
+    "ja-hrkt": "フワンテ",
+    "ja-roma": "Fuwante",
+    "ko": "흔들풍손",
+    "zh-hans": "飘飘球",
+    "zh-hant": "飄飄球"
+  },
+  "number": 425
+}

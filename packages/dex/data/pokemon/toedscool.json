@@ -1,0 +1,84 @@
+{
+  "category": "Woodear Pokémon",
+  "entries": [
+    {
+      "text": "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "toedscool",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "toedscool",
+      "to": "toedscruel",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "mycelium-might"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toedscool.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 9,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "toedscool",
+      "kind": "default",
+      "name": "Toedscool",
+      "number": 948,
+      "pokemon": "toedscool",
+      "sourceId": 948,
+      "sprite": "/dex-images/sprites/toedscool.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 40,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 50,
+        "special-defense": 100,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["ground", "grass"],
+      "weight": 330
+    }
+  ],
+  "generation": 9,
+  "key": "toedscool",
+  "name": "Toedscool",
+  "names": {
+    "de": "Tentagra",
+    "en": "Toedscool",
+    "es": "Toedscool",
+    "es-419": "Toedscool",
+    "fr": "Terracool",
+    "it": "Toedscool",
+    "ja": "ノノクラゲ",
+    "ja-hrkt": "ノノクラゲ",
+    "ja-roma": "Nonokurage",
+    "ko": "들눈해",
+    "zh-hans": "原野水母",
+    "zh-hant": "原野水母"
+  },
+  "number": 948
+}

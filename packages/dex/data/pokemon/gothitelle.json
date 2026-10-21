@@ -1,0 +1,218 @@
+{
+  "category": "Astral Body Pokémon",
+  "entries": [
+    {
+      "text": "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+      "version": "black"
+    },
+    {
+      "text": "They can predict the future from the placement and movement of the stars. They can see Trainers’ life spans.",
+      "version": "white"
+    },
+    {
+      "text": "It can see the future from the movement of the stars. When it learns its Trainer’s life span, it cries in sadness.",
+      "version": "black-2"
+    },
+    {
+      "text": "It can see the future from the movement of the stars. When it learns its Trainer’s life span, it cries in sadness.",
+      "version": "white-2"
+    },
+    {
+      "text": "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+      "version": "x"
+    },
+    {
+      "text": "They can predict the future from the placement and movement of the stars. They can see Trainers’ life spans.",
+      "version": "y"
+    },
+    {
+      "text": "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They can predict the future from the placement and movement of the stars. They can see Trainers’ life spans.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It has tremendous psychic power, but it dislikes conflict. It’s also able to predict the future based on the movement of the stars.",
+      "version": "sword"
+    },
+    {
+      "text": "A criminal who was shown his fate by a Gothitelle went missing that same day and was never seen again.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gothita",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "gothita",
+      "to": "gothorita",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "gothorita",
+      "to": "gothitelle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": false,
+          "key": "competitive"
+        },
+        {
+          "hidden": true,
+          "key": "shadow-tag"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gothitelle.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-route-9-area",
+            "maxLevel": 34,
+            "method": "grass-spots",
+            "minLevel": 34
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-9-area",
+            "maxLevel": 40,
+            "method": "grass-spots",
+            "minLevel": 40
+          }
+        ],
+        "sword": [
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gothitelle",
+      "kind": "default",
+      "name": "Gothitelle",
+      "number": 576,
+      "pokemon": "gothitelle",
+      "sourceId": 576,
+      "sprite": "/dex-images/sprites/gothitelle.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 55,
+        "defense": 95,
+        "hp": 70,
+        "special-attack": 95,
+        "special-defense": 110,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 440
+    }
+  ],
+  "generation": 5,
+  "key": "gothitelle",
+  "name": "Gothitelle",
+  "names": {
+    "de": "Morbitesse",
+    "en": "Gothitelle",
+    "es": "Gothitelle",
+    "es-419": "Gothitelle",
+    "fr": "Sidérella",
+    "it": "Gothitelle",
+    "ja": "ゴチルゼル",
+    "ja-hrkt": "ゴチルゼル",
+    "ja-roma": "Gothiruselle",
+    "ko": "고디모아젤",
+    "zh-hans": "哥德小姐",
+    "zh-hant": "哥德小姐"
+  },
+  "number": 576
+}

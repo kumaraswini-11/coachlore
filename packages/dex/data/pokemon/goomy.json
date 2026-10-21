@@ -1,0 +1,420 @@
+{
+  "category": "Soft Tissue Pokémon",
+  "entries": [
+    {
+      "text": "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn’t dry out.",
+      "version": "x"
+    },
+    {
+      "text": "It’s covered in a slimy membrane that makes any punches or kicks slide off it harmlessly.",
+      "version": "y"
+    },
+    {
+      "text": "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn’t dry out.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It’s covered in a slimy membrane that makes any punches or kicks slide off it harmlessly.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The weakest of all Dragon-type Pokémon, it’s unable to breathe if its skin dries out, so it sticks to shady places.",
+      "version": "sun"
+    },
+    {
+      "text": "Its source of protection is its slimy, germ-laden mucous membrane. Anyone who touches it needs some thorough hand-washing.",
+      "version": "moon"
+    },
+    {
+      "text": "It uses its horns to check out its surroundings. They’re very sensitive, so if you grab them, it will feel a strong shock and be unable to move.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its body is mostly water. If it dries out, it will die, so it’s always sitting with perfect stillness in the shade.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Because most of its body is water, it will dry up if the weather becomes too arid. It’s considered the weakest dragon Pokémon.",
+      "version": "sword"
+    },
+    {
+      "text": "Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they’ve survived.",
+      "version": "shield"
+    },
+    {
+      "text": "Goomy hides away in the shade of trees, where it's nice and humid. If the slime coating its body dries out, the Pokémon instantly becomes lethargic.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "goomy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "goomy",
+      "to": "sliggoo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sliggoo-hisui",
+        "min_level": 40,
+        "region": "hisui"
+      },
+      "from": "goomy",
+      "to": "sliggoo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 50,
+        "needs_overworld_rain": true
+      },
+      "from": "sliggoo",
+      "to": "goodra",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "goodra-hisui",
+        "min_level": 50,
+        "needs_overworld_rain": true,
+        "required_pokemon_form": "sliggoo-hisui"
+      },
+      "from": "sliggoo",
+      "to": "goodra",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sap-sipper"
+        },
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": true,
+          "key": "gooey"
+        }
+      ],
+      "artwork": "/dex-images/artwork/goomy.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          }
+        ],
+        "shield": [
+          {
+            "chance": 90,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 60,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 420,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 420,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 135,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 135,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          }
+        ],
+        "x": [
+          {
+            "chance": 45,
+            "location": "kalos-route-14-area",
+            "maxLevel": 32,
+            "method": "rough-terrain",
+            "minLevel": 31
+          },
+          {
+            "chance": 45,
+            "location": "kalos-route-14-area",
+            "maxLevel": 31,
+            "method": "surf",
+            "minLevel": 31
+          },
+          {
+            "chance": 45,
+            "location": "kalos-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 45,
+            "location": "kalos-route-14-area",
+            "maxLevel": 32,
+            "method": "rough-terrain",
+            "minLevel": 31
+          },
+          {
+            "chance": 45,
+            "location": "kalos-route-14-area",
+            "maxLevel": 31,
+            "method": "surf",
+            "minLevel": 31
+          },
+          {
+            "chance": 45,
+            "location": "kalos-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "goomy",
+      "kind": "default",
+      "name": "Goomy",
+      "number": 704,
+      "pokemon": "goomy",
+      "sourceId": 704,
+      "sprite": "/dex-images/sprites/goomy.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 50,
+        "defense": 35,
+        "hp": 45,
+        "special-attack": 55,
+        "special-defense": 75,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 28
+    }
+  ],
+  "generation": 6,
+  "key": "goomy",
+  "name": "Goomy",
+  "names": {
+    "de": "Viscora",
+    "en": "Goomy",
+    "es": "Goomy",
+    "es-419": "Goomy",
+    "fr": "Mucuscule",
+    "it": "Goomy",
+    "ja": "ヌメラ",
+    "ja-hrkt": "ヌメラ",
+    "ja-roma": "Numera",
+    "ko": "미끄메라",
+    "zh-hans": "黏黏宝",
+    "zh-hant": "黏黏寶"
+  },
+  "number": 704
+}

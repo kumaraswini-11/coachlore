@@ -1,0 +1,419 @@
+{
+  "category": "Tiny Mouse Pokémon",
+  "entries": [
+    {
+      "text": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+      "version": "gold"
+    },
+    {
+      "text": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+      "version": "silver"
+    },
+    {
+      "text": "It is unskilled at storing electric power. Any kind of shock causes it to discharge energy spontaneously.",
+      "version": "crystal"
+    },
+    {
+      "text": "PICHU charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this POKéMON.",
+      "version": "ruby"
+    },
+    {
+      "text": "When PICHU plays with others, it may short out electricity with another PICHU, creating a shower of sparks. In that event, this POKéMON will begin crying, startled by the flash of sparks.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is still inept at retaining electricity. When it is startled, it discharges power accidentally. It gets better at holding power as it grows older.",
+      "version": "emerald"
+    },
+    {
+      "text": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+      "version": "firered"
+    },
+    {
+      "text": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The electric pouches on its cheeks are still small. They cannot store much electricity yet.",
+      "version": "diamond"
+    },
+    {
+      "text": "It plays with others by touching tails and setting off sparks. This appears to be a test of courage.",
+      "version": "pearl"
+    },
+    {
+      "text": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "version": "black"
+    },
+    {
+      "text": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "version": "white"
+    },
+    {
+      "text": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "version": "black-2"
+    },
+    {
+      "text": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "version": "white-2"
+    },
+    {
+      "text": "It plays with others by touching tails and setting off sparks. This appears to be a test of courage.",
+      "version": "x"
+    },
+    {
+      "text": "It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.",
+      "version": "y"
+    },
+    {
+      "text": "Pichu charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this Pokémon.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When Pichu plays with others, it may short out electricity with another Pichu, creating a shower of sparks. In that event, this Pokémon will begin crying, startled by the flash of sparks.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It is not yet skilled at controlling electricity. If you take your eyes off it, it may shock itself.",
+      "version": "sun"
+    },
+    {
+      "text": "Despite this Pokémon’s cute appearance, those who want to live with one should prepare to be on the receiving end of its electric jolts.",
+      "version": "moon"
+    },
+    {
+      "text": "It still can’t use electricity well. When it’s surprised or excited, it discharges electricity unintentionally.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It has electric sacs in its cheeks. When they’re fully charged, Pichu plays very energetically.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+      "version": "sword"
+    },
+    {
+      "text": "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked.",
+      "version": "shield"
+    },
+    {
+      "text": "Pichu stores electricity in the sacs on its cheeks but discharges it inadvertently when agitated or excited. Being yet immature, the Pokémon's handling of electricity is rather inept.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pichu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 220
+      },
+      "from": "pichu",
+      "to": "pikachu",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "pikachu"
+      },
+      "from": "pikachu",
+      "to": "raichu",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "raichu-alola",
+        "item": "thunder-stone",
+        "region": "alola",
+        "required_pokemon_form": "pikachu"
+      },
+      "from": "pikachu",
+      "to": "raichu",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pichu.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "johto-route-34-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "moon": [
+          {
+            "chance": 5,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 5,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 5,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 5,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 5,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 5,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pichu",
+      "kind": "default",
+      "name": "Pichu",
+      "number": 172,
+      "pokemon": "pichu",
+      "sourceId": 172,
+      "sprite": "/dex-images/sprites/pichu.webp",
+      "statTotal": 205,
+      "stats": {
+        "attack": 40,
+        "defense": 15,
+        "hp": 20,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 20
+    }
+  ],
+  "generation": 2,
+  "key": "pichu",
+  "name": "Pichu",
+  "names": {
+    "de": "Pichu",
+    "en": "Pichu",
+    "es": "Pichu",
+    "es-419": "Pichu",
+    "fr": "Pichu",
+    "it": "Pichu",
+    "ja": "ピチュー",
+    "ja-hrkt": "ピチュー",
+    "ja-roma": "Pichu",
+    "ko": "피츄",
+    "zh-hans": "皮丘",
+    "zh-hant": "皮丘"
+  },
+  "number": 172
+}

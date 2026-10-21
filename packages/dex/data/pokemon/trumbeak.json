@@ -1,0 +1,509 @@
+{
+  "category": "Bugle Beak Pokémon",
+  "entries": [
+    {
+      "text": "It eats berries and stores their seeds in its beak. When it encounters enemies or prey, it fires off all the seeds in a burst.",
+      "version": "sun"
+    },
+    {
+      "text": "By bending its beak, it can produce a variety of calls and brand itself a noisy nuisance for its neighbors.",
+      "version": "moon"
+    },
+    {
+      "text": "It can bend the tip of its beak to produce over a hundred different cries at will.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "From its mouth, it fires the seeds of berries it has eaten. The scattered seeds give rise to new plants.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pikipek",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "pikipek",
+      "to": "trumbeak",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "trumbeak",
+      "to": "toucannon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "skill-link"
+        },
+        {
+          "hidden": true,
+          "key": "pickup"
+        }
+      ],
+      "artwork": "/dex-images/artwork/trumbeak.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 37,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 37,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 37,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 37,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 19
+          },
+          {
+            "chance": 52,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "trumbeak",
+      "kind": "default",
+      "name": "Trumbeak",
+      "number": 732,
+      "pokemon": "trumbeak",
+      "sourceId": 732,
+      "sprite": "/dex-images/sprites/trumbeak.webp",
+      "statTotal": 355,
+      "stats": {
+        "attack": 85,
+        "defense": 50,
+        "hp": 55,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 148
+    }
+  ],
+  "generation": 7,
+  "key": "trumbeak",
+  "name": "Trumbeak",
+  "names": {
+    "de": "Trompeck",
+    "en": "Trumbeak",
+    "es": "Trumbeak",
+    "es-419": "Trumbeak",
+    "fr": "Piclairon",
+    "it": "Trumbeak",
+    "ja": "ケララッパ",
+    "ja-hrkt": "ケララッパ",
+    "ja-roma": "Kerarappa",
+    "ko": "크라파",
+    "zh-hans": "喇叭啄鸟",
+    "zh-hant": "喇叭啄鳥"
+  },
+  "number": 732
+}

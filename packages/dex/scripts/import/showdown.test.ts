@@ -5,8 +5,7 @@ import { Generations } from "@pkmn/data"
 import { Dex } from "@pkmn/dex"
 import { describe, expect, it } from "vitest"
 
-import type { FormSummary } from "../../src/types.ts"
-import type { ShowdownNames } from "./showdown.ts"
+import type { FormSummary, ShowdownNames } from "../../src/types.ts"
 
 // Spec 002, criterion 2, on the committed dataset: every species and forme
 // the battle simulator allows in Generation 9 maps to exactly one form.

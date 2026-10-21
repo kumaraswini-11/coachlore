@@ -1,0 +1,235 @@
+{
+  "category": "Stealth Pokémon",
+  "entries": [
+    {
+      "text": "When it isn’t battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
+      "version": "sword"
+    },
+    {
+      "text": "Apparently the Dreepy inside Dragapult’s horns eagerly look forward to being launched out at Mach speeds.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dreepy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 50
+      },
+      "from": "dreepy",
+      "to": "drakloak",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 60
+      },
+      "from": "drakloak",
+      "to": "dragapult",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "clear-body"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "cursed-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dragapult.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 10,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 700,
+            "location": "three-point-pass-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 700,
+            "location": "three-point-pass-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dragapult",
+      "kind": "default",
+      "name": "Dragapult",
+      "number": 887,
+      "pokemon": "dragapult",
+      "sourceId": 887,
+      "sprite": "/dex-images/sprites/dragapult.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 120,
+        "defense": 75,
+        "hp": 88,
+        "special-attack": 100,
+        "special-defense": 75,
+        "speed": 142
+      },
+      "tags": [],
+      "types": ["dragon", "ghost"],
+      "weight": 500
+    }
+  ],
+  "generation": 8,
+  "key": "dragapult",
+  "name": "Dragapult",
+  "names": {
+    "de": "Katapuldra",
+    "en": "Dragapult",
+    "es": "Dragapult",
+    "es-419": "Dragapult",
+    "fr": "Lanssorien",
+    "it": "Dragapult",
+    "ja": "ドラパルト",
+    "ja-hrkt": "ドラパルト",
+    "ja-roma": "Dorapult",
+    "ko": "드래펄트",
+    "zh-hans": "多龙巴鲁托",
+    "zh-hant": "多龍巴魯托"
+  },
+  "number": 887
+}

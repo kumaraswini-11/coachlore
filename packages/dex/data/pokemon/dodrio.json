@@ -1,0 +1,494 @@
+{
+  "category": "Triple Bird Pokémon",
+  "entries": [
+    {
+      "text": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+      "version": "red"
+    },
+    {
+      "text": "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake.",
+      "version": "blue"
+    },
+    {
+      "text": "One of DODUO's 2 heads splits to form a unique species. It runs close to 40 MPH in prairies.",
+      "version": "yellow"
+    },
+    {
+      "text": "It collects data and plans three times as wisely, but it may think too much and become immobilized.",
+      "version": "gold"
+    },
+    {
+      "text": "If one of the heads gets to eat, the others will be satisfied, too, and they will stop squabbling.",
+      "version": "silver"
+    },
+    {
+      "text": "An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely.",
+      "version": "crystal"
+    },
+    {
+      "text": "Watch out if DODRIO’s three heads are looking in three separate directions. It’s a sure sign that it is on its guard. Don’t go near this POKéMON if it’s being wary - it may decide to peck you.",
+      "version": "ruby"
+    },
+    {
+      "text": "Apparently, the heads aren’t the only parts of the body that DODRIO has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A peculiar POKéMON species with three heads. It vigorously races across grassy plains even in arid seasons with little rainfall.",
+      "version": "emerald"
+    },
+    {
+      "text": "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+      "version": "firered"
+    },
+    {
+      "text": "Uses its three brains to execute complex plans. While two heads sleep, one head is said to stay awake.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "diamond"
+    },
+    {
+      "text": "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "pearl"
+    },
+    {
+      "text": "When DODUO evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "platinum"
+    },
+    {
+      "text": "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If one of the heads gets to eat, the others will be satisfied, too, and they will stop squabbling.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "black"
+    },
+    {
+      "text": "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "white"
+    },
+    {
+      "text": "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "black-2"
+    },
+    {
+      "text": "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph.",
+      "version": "white-2"
+    },
+    {
+      "text": "An enemy that takes its eyes off any of the three heads--even for a second--will get pecked severely.",
+      "version": "x"
+    },
+    {
+      "text": "An odd species that is rarely found. The three heads respectively represent joy, sadness, and anger.",
+      "version": "y"
+    },
+    {
+      "text": "Watch out if Dodrio’s three heads are looking in three separate directions. It’s a sure sign that it is on its guard. Don’t go near this Pokémon if it’s being wary—it may decide to peck you.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Apparently, the heads aren’t the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "doduo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 31
+      },
+      "from": "doduo",
+      "to": "dodrio",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "early-bird"
+        },
+        {
+          "hidden": true,
+          "key": "tangled-feet"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dodrio.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "blackthorn-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "blackthorn-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          }
+        ],
+        "red": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "blackthorn-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-1f",
+            "maxLevel": 34,
+            "method": "snag",
+            "minLevel": 34
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 1,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dodrio",
+      "kind": "default",
+      "name": "Dodrio",
+      "number": 85,
+      "pokemon": "dodrio",
+      "sourceId": 85,
+      "sprite": "/dex-images/sprites/dodrio.webp",
+      "statTotal": 470,
+      "stats": {
+        "attack": 110,
+        "defense": 70,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 852
+    }
+  ],
+  "generation": 1,
+  "key": "dodrio",
+  "name": "Dodrio",
+  "names": {
+    "de": "Dodri",
+    "en": "Dodrio",
+    "es": "Dodrio",
+    "es-419": "Dodrio",
+    "fr": "Dodrio",
+    "it": "Dodrio",
+    "ja": "ドードリオ",
+    "ja-hrkt": "ドードリオ",
+    "ja-roma": "Dodorio",
+    "ko": "두트리오",
+    "zh-hans": "嘟嘟利",
+    "zh-hant": "嘟嘟利"
+  },
+  "number": 85
+}

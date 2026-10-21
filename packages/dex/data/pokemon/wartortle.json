@@ -1,0 +1,237 @@
+{
+  "category": "Turtle Pokémon",
+  "entries": [
+    {
+      "text": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+      "version": "red"
+    },
+    {
+      "text": "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
+      "version": "blue"
+    },
+    {
+      "text": "When tapped, this POKéMON will pull in its head, but its tail will still stick out a little bit.",
+      "version": "yellow"
+    },
+    {
+      "text": "It is recognized as a symbol of longevity. If its shell has algae on it, that WARTORTLE is very old.",
+      "version": "gold"
+    },
+    {
+      "text": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+      "version": "silver"
+    },
+    {
+      "text": "Its long, furry tail is a symbol of longevity, making it quite popular among older people.",
+      "version": "crystal"
+    },
+    {
+      "text": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as WARTORTLE ages. The scratches on its shell are evidence of this POKéMON’s toughness as a battler.",
+      "version": "ruby"
+    },
+    {
+      "text": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as WARTORTLE ages. The scratches on its shell are evidence of this POKéMON’s toughness as a battler.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this POKéMON’s toughness in battle.",
+      "version": "emerald"
+    },
+    {
+      "text": "This POKéMON is very popular as a pet. Its fur-covered tail is a symbol of its longevity.",
+      "version": "firered"
+    },
+    {
+      "text": "It often hides in water to stalk unwary prey. For fast swimming, it moves its ears to maintain balance.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is a well-established symbol of longevity. If its shell has algae on it, that WARTORTLE is very old.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "black"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "white"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "white-2"
+    },
+    {
+      "text": "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+      "version": "x"
+    },
+    {
+      "text": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+      "version": "y"
+    },
+    {
+      "text": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon’s toughness as a battler.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon’s toughness as a battler.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When tapped on its head, this Pokémon will pull it in, but its tail will still stick out a little bit.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "When tapped on its head, this Pokémon will pull it in, but its tail will still stick out a little bit.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+      "version": "sword"
+    },
+    {
+      "text": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "squirtle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "squirtle",
+      "to": "wartortle",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "wartortle",
+      "to": "blastoise",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "rain-dish"
+        }
+      ],
+      "artwork": "/dex-images/artwork/wartortle.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "wartortle",
+      "kind": "default",
+      "name": "Wartortle",
+      "number": 8,
+      "pokemon": "wartortle",
+      "sourceId": 8,
+      "sprite": "/dex-images/sprites/wartortle.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 63,
+        "defense": 80,
+        "hp": 59,
+        "special-attack": 65,
+        "special-defense": 80,
+        "speed": 58
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 225
+    }
+  ],
+  "generation": 1,
+  "key": "wartortle",
+  "name": "Wartortle",
+  "names": {
+    "de": "Schillok",
+    "en": "Wartortle",
+    "es": "Wartortle",
+    "es-419": "Wartortle",
+    "fr": "Carabaffe",
+    "it": "Wartortle",
+    "ja": "カメール",
+    "ja-hrkt": "カメール",
+    "ja-roma": "Kameil",
+    "ko": "어니부기",
+    "zh-hans": "卡咪龟",
+    "zh-hant": "卡咪龜"
+  },
+  "number": 8
+}

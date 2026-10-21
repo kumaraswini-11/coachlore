@@ -1,0 +1,235 @@
+{
+  "category": "Licking Pokémon",
+  "entries": [
+    {
+      "text": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+      "version": "diamond"
+    },
+    {
+      "text": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+      "version": "pearl"
+    },
+    {
+      "text": "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its saliva can decompose anything. It wraps its long tongue around things to coat them with its sticky saliva.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It has space in its throat to store saliva. It can also roll up its tongue and store it in the same spot.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
+      "version": "black"
+    },
+    {
+      "text": "The long tongue is always soggy with slobber. The saliva contains a solvent that causes numbness.",
+      "version": "white"
+    },
+    {
+      "text": "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+      "version": "black-2"
+    },
+    {
+      "text": "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+      "version": "white-2"
+    },
+    {
+      "text": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+      "version": "x"
+    },
+    {
+      "text": "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+      "version": "y"
+    },
+    {
+      "text": "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A contest is under way to determine which one can stick its tongue out the farthest. The current record is...more than 82 feet.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It uses its tongue much more skillfully than its hands or its feet. It can deftly pick up a single small bean with its tongue.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Lickilicky’s strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky’s tongue can stretch so far.",
+      "version": "sword"
+    },
+    {
+      "text": "Lickilicky can do just about anything with its tongue, which is as dexterous as the human hand. In contrast, Lickilicky’s use of its fingers is clumsy.",
+      "version": "shield"
+    },
+    {
+      "text": "Its tongue can extend and contract freely, and it is capable of reaching lengths over 10 times Lickilicky's height. Beware of the saliva, as it contains corrosive elements.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "lickitung",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "rollout"
+      },
+      "from": "lickitung",
+      "to": "lickilicky",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": true,
+          "key": "cloud-nine"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lickilicky.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-2-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 30,
+            "location": "courageous-cavern-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "soothing-wetlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "training-lowlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 30,
+            "location": "courageous-cavern-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "soothing-wetlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "training-lowlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-2-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ]
+      },
+      "games": ["platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lickilicky",
+      "kind": "default",
+      "name": "Lickilicky",
+      "number": 463,
+      "pokemon": "lickilicky",
+      "sourceId": 463,
+      "sprite": "/dex-images/sprites/lickilicky.webp",
+      "statTotal": 515,
+      "stats": {
+        "attack": 85,
+        "defense": 95,
+        "hp": 110,
+        "special-attack": 80,
+        "special-defense": 95,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 1400
+    }
+  ],
+  "generation": 4,
+  "key": "lickilicky",
+  "name": "Lickilicky",
+  "names": {
+    "de": "Schlurplek",
+    "en": "Lickilicky",
+    "es": "Lickilicky",
+    "es-419": "Lickilicky",
+    "fr": "Coudlangue",
+    "it": "Lickilicky",
+    "ja": "ベロベルト",
+    "ja-hrkt": "ベロベルト",
+    "ja-roma": "Berobelt",
+    "ko": "내룸벨트",
+    "zh-hans": "大舌舔",
+    "zh-hant": "大舌舔"
+  },
+  "number": 463
+}

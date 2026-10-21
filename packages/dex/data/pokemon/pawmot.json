@@ -1,0 +1,100 @@
+{
+  "category": "Hands-On Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Pawmot’s fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pawmi",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "pawmi",
+      "to": "pawmo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_steps": 1000
+      },
+      "from": "pawmo",
+      "to": "pawmot",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "volt-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": true,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pawmot.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pawmot",
+      "kind": "default",
+      "name": "Pawmot",
+      "number": 923,
+      "pokemon": "pawmot",
+      "sourceId": 923,
+      "sprite": "/dex-images/sprites/pawmot.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 115,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 70,
+        "special-defense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["electric", "fighting"],
+      "weight": 410
+    }
+  ],
+  "generation": 9,
+  "key": "pawmot",
+  "name": "Pawmot",
+  "names": {
+    "de": "Pamomamo",
+    "en": "Pawmot",
+    "es": "Pawmot",
+    "es-419": "Pawmot",
+    "fr": "Pohmarmotte",
+    "it": "Pawmot",
+    "ja": "パーモット",
+    "ja-hrkt": "パーモット",
+    "ja-roma": "Parmot",
+    "ko": "빠르모트",
+    "zh-hans": "巴布土拨",
+    "zh-hant": "巴布土撥"
+  },
+  "number": 923
+}

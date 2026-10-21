@@ -1,0 +1,209 @@
+{
+  "category": "Coffin Pokémon",
+  "entries": [
+    {
+      "text": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+      "version": "black"
+    },
+    {
+      "text": "They pretend to be elaborate coffins to teach lessons to grave robbers. Their bodies are covered in pure gold.",
+      "version": "white"
+    },
+    {
+      "text": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+      "version": "black-2"
+    },
+    {
+      "text": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+      "version": "white-2"
+    },
+    {
+      "text": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+      "version": "x"
+    },
+    {
+      "text": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+      "version": "y"
+    },
+    {
+      "text": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Grave robbers who mistake them for real coffins and get too close end up trapped inside their bodies.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon has a body of sparkling gold. People say it no longer remembers that it was once human.",
+      "version": "sword"
+    },
+    {
+      "text": "There are many depictions of Cofagrigus decorating ancient tombs. They’re symbols of the wealth that kings of bygone eras had.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "yamask",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "yamask",
+      "to": "cofagrigus",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "location": "dusty-bowl",
+        "min_damage_taken": 49,
+        "required_pokemon_form": "yamask-galar"
+      },
+      "from": "yamask",
+      "to": "runerigus",
+      "trigger": "take-damage"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "mummy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cofagrigus.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-cave-north-of-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-cave-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 50,
+            "location": "relic-castle-b",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 20,
+            "location": "relic-castle-c",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-cave-north-of-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-cave-south-of-pacifidlog",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "white": [
+          {
+            "chance": 50,
+            "location": "relic-castle-b",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 20,
+            "location": "relic-castle-c",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sword-shield", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cofagrigus",
+      "kind": "default",
+      "name": "Cofagrigus",
+      "number": 563,
+      "pokemon": "cofagrigus",
+      "sourceId": 563,
+      "sprite": "/dex-images/sprites/cofagrigus.webp",
+      "statTotal": 483,
+      "stats": {
+        "attack": 50,
+        "defense": 145,
+        "hp": 58,
+        "special-attack": 95,
+        "special-defense": 105,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 765
+    }
+  ],
+  "generation": 5,
+  "key": "cofagrigus",
+  "name": "Cofagrigus",
+  "names": {
+    "de": "Echnatoll",
+    "en": "Cofagrigus",
+    "es": "Cofagrigus",
+    "es-419": "Cofagrigus",
+    "fr": "Tutankafer",
+    "it": "Cofagrigus",
+    "ja": "デスカーン",
+    "ja-hrkt": "デスカーン",
+    "ja-roma": "Desukarn",
+    "ko": "데스니칸",
+    "zh-hans": "迭失棺",
+    "zh-hant": "死神棺"
+  },
+  "number": 563
+}

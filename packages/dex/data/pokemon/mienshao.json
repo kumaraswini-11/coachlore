@@ -1,0 +1,331 @@
+{
+  "category": "Martial Arts Pokémon",
+  "entries": [
+    {
+      "text": "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+      "version": "black"
+    },
+    {
+      "text": "They use the long fur on their arms as a whip to strike their opponents.",
+      "version": "white"
+    },
+    {
+      "text": "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+      "version": "black-2"
+    },
+    {
+      "text": "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+      "version": "white-2"
+    },
+    {
+      "text": "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+      "version": "x"
+    },
+    {
+      "text": "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+      "version": "y"
+    },
+    {
+      "text": "It wields the fur on its arms like a whip. Its arm attacks come with such rapidity that they cannot even be seen.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Using the long fur on its arms like whips, it launches into combo attacks that, once started, no one can stop.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It overwhelms its opponents with continuous attacks and then slowly stores up power before delivering the finishing blow.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When Mienshao lets out a bizarre wail, you’re in danger. A flurry of kicks and chops too fast to see is about to be unleashed!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "When Mienshao comes across a truly challenging opponent, it will lighten itself by biting off the fur on its arms.",
+      "version": "sword"
+    },
+    {
+      "text": "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mienfoo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 50
+      },
+      "from": "mienfoo",
+      "to": "mienshao",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "regenerator"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mienshao.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "unova-route-14-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 59,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 59,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 50,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 50,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-23-area",
+            "maxLevel": 53,
+            "method": "dark-grass",
+            "minLevel": 53
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 210,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 210,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 210,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 210,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 170,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 170,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 170,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 170,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "unova-route-14-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 59,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 59,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 50,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 50,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-23-area",
+            "maxLevel": 53,
+            "method": "dark-grass",
+            "minLevel": 53
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mienshao",
+      "kind": "default",
+      "name": "Mienshao",
+      "number": 620,
+      "pokemon": "mienshao",
+      "sourceId": 620,
+      "sprite": "/dex-images/sprites/mienshao.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 125,
+        "defense": 60,
+        "hp": 65,
+        "special-attack": 95,
+        "special-defense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 355
+    }
+  ],
+  "generation": 5,
+  "key": "mienshao",
+  "name": "Mienshao",
+  "names": {
+    "de": "Wie-Shu",
+    "en": "Mienshao",
+    "es": "Mienshao",
+    "es-419": "Mienshao",
+    "fr": "Shaofouine",
+    "it": "Mienshao",
+    "ja": "コジョンド",
+    "ja-hrkt": "コジョンド",
+    "ja-roma": "Kojondo",
+    "ko": "비조도",
+    "zh-hans": "师父鼬",
+    "zh-hant": "師父鼬"
+  },
+  "number": 620
+}

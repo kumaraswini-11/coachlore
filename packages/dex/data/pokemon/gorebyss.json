@@ -1,0 +1,284 @@
+{
+  "category": "South Sea Pokémon",
+  "entries": [
+    {
+      "text": "GOREBYSS lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this POKéMON’s body is unharmed by ordinary attacks.",
+      "version": "ruby"
+    },
+    {
+      "text": "Although GOREBYSS is the very picture of elegance and beauty while swimming, it is also cruel. When it spots prey, this POKéMON inserts its thin mouth into the prey’s body and drains the prey of its body fluids.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A GOREBYSS siphons the body fluids of prey through its thin, tubular mouth. Its light pink body color turns vivid when it finishes feeding.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its swimming form is exquisitely elegant. With its thin mouth, it feeds on seaweed that grows between rocks.",
+      "version": "firered"
+    },
+    {
+      "text": "Its swimming form is exquisitely elegant. With its thin mouth, it feeds on seaweed that grows between rocks.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "pearl"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its pink body becomes more vivid with the rise of water temperatures in the springtime.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its pink body becomes more vivid with the rise of water temperatures in the springtime.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "black"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "white"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives at the bottom of the sea. In the springtime, its pink body turns more vivid for some reason.",
+      "version": "x"
+    },
+    {
+      "text": "Its swimming form is exquisitely elegant. With its thin mouth, it feeds on seaweed that grows between rocks.",
+      "version": "y"
+    },
+    {
+      "text": "Gorebyss lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this Pokémon’s body is unharmed by ordinary attacks.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Although Gorebyss is the very picture of elegance and beauty while swimming, it is also cruel. When it spots prey, this Pokémon inserts its thin mouth into the prey’s body and drains the prey of its body fluids.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The color of its body changes with the water temperature. The coloration of Gorebyss in Alola is almost blindingly vivid.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "clamperl",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "deep-sea-tooth"
+      },
+      "from": "clamperl",
+      "to": "huntail",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "held_item": "deep-sea-scale"
+      },
+      "from": "clamperl",
+      "to": "gorebyss",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": true,
+          "key": "hydration"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gorebyss.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 40,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 40,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "kalos-route-12-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 3,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gorebyss",
+      "kind": "default",
+      "name": "Gorebyss",
+      "number": 368,
+      "pokemon": "gorebyss",
+      "sourceId": 368,
+      "sprite": "/dex-images/sprites/gorebyss.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 84,
+        "defense": 105,
+        "hp": 55,
+        "special-attack": 114,
+        "special-defense": 75,
+        "speed": 52
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 226
+    }
+  ],
+  "generation": 3,
+  "key": "gorebyss",
+  "name": "Gorebyss",
+  "names": {
+    "de": "Saganabyss",
+    "en": "Gorebyss",
+    "es": "Gorebyss",
+    "es-419": "Gorebyss",
+    "fr": "Rosabyss",
+    "it": "Gorebyss",
+    "ja": "サクラビス",
+    "ja-hrkt": "サクラビス",
+    "ja-roma": "Sakurabyss",
+    "ko": "분홍장이",
+    "zh-hans": "樱花鱼",
+    "zh-hant": "櫻花魚"
+  },
+  "number": 368
+}

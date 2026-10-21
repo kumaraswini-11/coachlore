@@ -1,0 +1,1023 @@
+{
+  "category": "Sludge Pokémon",
+  "entries": [
+    {
+      "text": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+      "version": "red"
+    },
+    {
+      "text": "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories.",
+      "version": "blue"
+    },
+    {
+      "text": "Made of hardened sludge. It smells too putrid to touch. Even weeds won't grow in its path.",
+      "version": "yellow"
+    },
+    {
+      "text": "As it moves, it loses bits of its body from which new GRIMER emerge. This worsens the stench around it.",
+      "version": "gold"
+    },
+    {
+      "text": "Wherever GRIMER has passed, so many germs are left behind that no plants will ever grow again.",
+      "version": "silver"
+    },
+    {
+      "text": "When two of these POKéMON's bodies are combined together, new poisons are created.",
+      "version": "crystal"
+    },
+    {
+      "text": "GRIMER’s sludgy and rubbery body can be forced through any opening, however small it may be. This POKéMON enters sewer pipes to drink filthy wastewater.",
+      "version": "ruby"
+    },
+    {
+      "text": "GRIMER emerged from the sludge that settled on a polluted seabed. This POKéMON loves anything filthy. It constantly leaks a horribly germ- infested fluid from all over its body.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Born from polluted sludge in the sea, GRIMER’s favorite food is anything filthy. They feed on wastewater pumped out from factories.",
+      "version": "emerald"
+    },
+    {
+      "text": "Sludge exposed to X rays from the moon transformed into GRIMER. It loves feeding on filthy things.",
+      "version": "firered"
+    },
+    {
+      "text": "Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "version": "diamond"
+    },
+    {
+      "text": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "version": "pearl"
+    },
+    {
+      "text": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "version": "platinum"
+    },
+    {
+      "text": "As it moves, it loses bits of its body, from which new GRIMER emerge. This worsens the stench around it.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Wherever GRIMER has passed, so many germs are left behind that no plants will ever grow again.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "version": "black"
+    },
+    {
+      "text": "It was born when sludge in a dirty stream was exposed to the moon’s X-rays. It appears among filth.",
+      "version": "white"
+    },
+    {
+      "text": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+      "version": "black-2"
+    },
+    {
+      "text": "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+      "version": "white-2"
+    },
+    {
+      "text": "Sludge exposed to X-rays from the moon transformed into Grimer. It loves feeding on filthy things.",
+      "version": "x"
+    },
+    {
+      "text": "Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories.",
+      "version": "y"
+    },
+    {
+      "text": "Grimer’s sludgy and rubbery body can be forced through any opening, however small it may be. This Pokémon enters sewer pipes to drink filthy wastewater.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Grimer emerged from the sludge that settled on a polluted seabed. This Pokémon loves anything filthy. It constantly leaks a horribly germ-infested fluid from all over its body.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its main source of food is the slimy industrial waste of factories. This Pokémon’s numbers have been decreasing in recent years.",
+      "version": "sun"
+    },
+    {
+      "text": "It was born from sludge transformed by exposure to X-rays from the moon. When its internal load of germs decreases, it dies.",
+      "version": "moon"
+    },
+    {
+      "text": "It was born from sludge on the ocean floor. In a sterile environment, the germs within its body can’t multiply, and it dies.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The wastewater coming from factories is clean these days, so Grimer have nothing to eat. They’re said to be on the verge of extinction.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Made of congealed sludge. It smells too putrid to touch. Even weeds won’t grow in its path.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Made of congealed sludge. It smells too putrid to touch. Even weeds won’t grow in its path.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "grimer",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "grimer",
+      "to": "muk",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "muk-alola",
+        "min_level": 38,
+        "required_pokemon_form": "grimer-alola"
+      },
+      "from": "grimer",
+      "to": "muk",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stench"
+        },
+        {
+          "hidden": false,
+          "key": "sticky-hold"
+        },
+        {
+          "hidden": true,
+          "key": "poison-touch"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grimer.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 35,
+            "location": "fiery-path-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "blue": [
+          {
+            "chance": 40,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 50,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 90,
+            "location": "celadon-city-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 170,
+            "location": "kanto-route-17-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 195,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 2,
+            "location": "fiery-path-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "firered": [
+          {
+            "chance": 1,
+            "location": "celadon-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "gold": [
+          {
+            "chance": 90,
+            "location": "celadon-city-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 150,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-18-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 40,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 50,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 90,
+            "location": "celadon-city-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 110,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-18-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 1,
+            "location": "celadon-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "red": [
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 2,
+            "location": "fiery-path-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 25,
+            "location": "fiery-path-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 90,
+            "location": "celadon-city-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 150,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 180,
+            "location": "kanto-route-18-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 90,
+            "location": "celadon-city-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-16-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 110,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-18-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 385,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "phenac-city-stadium",
+            "maxLevel": 23,
+            "method": "snag",
+            "minLevel": 23
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 15,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "black-2-white-2", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "grimer",
+      "kind": "default",
+      "name": "Grimer",
+      "number": 88,
+      "pokemon": "grimer",
+      "sourceId": 88,
+      "sprite": "/dex-images/sprites/grimer.webp",
+      "statTotal": 325,
+      "stats": {
+        "attack": 80,
+        "defense": 50,
+        "hp": 80,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 300
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-touch"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "power-of-alchemy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grimer-alola.webp",
+      "encounters": {
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-area",
+            "maxLevel": 44,
+            "method": "npc-trade",
+            "minLevel": 44
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-1-trainers-school",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-1-trainers-school",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ]
+      },
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "grimer-alola",
+      "kind": "regional",
+      "name": "Grimer-Alola",
+      "number": 88,
+      "pokemon": "grimer",
+      "sourceId": 10112,
+      "sprite": "/dex-images/sprites/grimer-alola.webp",
+      "statTotal": 325,
+      "stats": {
+        "attack": 80,
+        "defense": 50,
+        "hp": 80,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["poison", "dark"],
+      "weight": 420
+    }
+  ],
+  "generation": 1,
+  "key": "grimer",
+  "name": "Grimer",
+  "names": {
+    "de": "Sleima",
+    "en": "Grimer",
+    "es": "Grimer",
+    "es-419": "Grimer",
+    "fr": "Tadmorv",
+    "it": "Grimer",
+    "ja": "ベトベター",
+    "ja-hrkt": "ベトベター",
+    "ja-roma": "Betbeter",
+    "ko": "질퍽이",
+    "zh-hans": "臭泥",
+    "zh-hant": "臭泥"
+  },
+  "number": 88
+}

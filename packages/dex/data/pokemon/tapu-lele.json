@@ -1,0 +1,144 @@
+{
+  "category": "Land Spirit Pokémon",
+  "entries": [
+    {
+      "text": "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
+      "version": "sun"
+    },
+    {
+      "text": "As it flutters about, it scatters its strangely glowing scales. Touching them is said to restore good health on the spot.",
+      "version": "moon"
+    },
+    {
+      "text": "It heals the wounds of people and Pokémon by sprinkling them with its sparkling scales. This guardian deity is worshiped on Akala.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although called a guardian deity, Tapu Lele is devoid of guilt about its cruel disposition and can be described as nature incarnate.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tapu-lele",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "psychic-surge"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tapu-lele.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-life-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-life-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-life-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-life-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tapu-lele",
+      "kind": "default",
+      "legendary": true,
+      "name": "Tapu Lele",
+      "number": 786,
+      "pokemon": "tapu-lele",
+      "sourceId": 786,
+      "sprite": "/dex-images/sprites/tapu-lele.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 85,
+        "defense": 75,
+        "hp": 70,
+        "special-attack": 130,
+        "special-defense": 115,
+        "speed": 95
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["psychic", "fairy"],
+      "weight": 186
+    }
+  ],
+  "generation": 7,
+  "key": "tapu-lele",
+  "name": "Tapu Lele",
+  "names": {
+    "de": "Kapu-Fala",
+    "en": "Tapu Lele",
+    "es": "Tapu Lele",
+    "es-419": "Tapu Lele",
+    "fr": "Tokopiyon",
+    "it": "Tapu Lele",
+    "ja": "カプ・テテフ",
+    "ja-hrkt": "カプ・テテフ",
+    "ja-roma": "Kapu-Tetefu",
+    "ko": "카푸나비나",
+    "zh-hans": "卡璞・蝶蝶",
+    "zh-hant": "卡璞・蝶蝶"
+  },
+  "number": 786
+}

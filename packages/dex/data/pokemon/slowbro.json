@@ -1,0 +1,797 @@
+{
+  "category": "Hermit Crab Pokémon",
+  "entries": [
+    {
+      "text": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+      "version": "red"
+    },
+    {
+      "text": "The SHELLDER that is latched onto SLOWPOKE's tail is said to feed on the host's left over scraps.",
+      "version": "blue"
+    },
+    {
+      "text": "Lives lazily by the sea. If the SHELLDER on its tail comes off, it becomes a SLOWPOKE again.",
+      "version": "yellow"
+    },
+    {
+      "text": "If the tail-biting SHELLDER is thrown off in a harsh battle, it reverts to being an ordinary SLOWPOKE.",
+      "version": "gold"
+    },
+    {
+      "text": "Naturally dull to begin with, it lost its ability to feel pain due to SHELLDER's seeping poison.",
+      "version": "silver"
+    },
+    {
+      "text": "An attached SHELLDER won't let go because of the tasty flavor that oozes out of its tail.",
+      "version": "crystal"
+    },
+    {
+      "text": "SLOWBRO’s tail has a SHELLDER firmly attached with a bite. As a result, the tail can’t be used for fishing anymore. This causes SLOWBRO to grudgingly swim and catch prey instead.",
+      "version": "ruby"
+    },
+    {
+      "text": "SLOWBRO’s tail has a SHELLDER firmly attached with a bite. As a result, the tail can’t be used for fishing anymore. This causes SLOWBRO to grudgingly swim and catch prey instead.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its tail has a SHELLDER firmly attached with a bite. As a result, the tail can’t be used for fishing anymore. This forces it to reluctantly swim and catch prey.",
+      "version": "emerald"
+    },
+    {
+      "text": "When a SLOWPOKE went hunting in the sea, its tail was bitten by a SHELLDER. That made it evolve into SLOWBRO.",
+      "version": "firered"
+    },
+    {
+      "text": "The SHELLDER that latches onto SLOWPOKE’s tail is said to feed on the host’s leftover scraps.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
+      "version": "diamond"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
+      "version": "pearl"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the SHELLDER on its tail bites down.",
+      "version": "platinum"
+    },
+    {
+      "text": "If the tail-biting SHELLDER is thrown off in a harsh battle, it reverts to being an ordinary SLOWPOKE.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Naturally dull to begin with, it lost its ability to feel pain due to SHELLDER’s seeping poison.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.",
+      "version": "black"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.",
+      "version": "white"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.",
+      "version": "black-2"
+    },
+    {
+      "text": "Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.",
+      "version": "white-2"
+    },
+    {
+      "text": "An attached Shellder won’t let go because of the tasty flavor that oozes out of its tail.",
+      "version": "x"
+    },
+    {
+      "text": "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
+      "version": "y"
+    },
+    {
+      "text": "Slowbro’s tail has a Shellder firmly attached with a bite. As a result, the tail can’t be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Slowbro’s tail has a Shellder firmly attached with a bite. As a result, the tail can’t be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It spaces out while gazing at the sea. With Shellder’s poison flowing through its body, it becomes even spacier.",
+      "version": "sun"
+    },
+    {
+      "text": "Whenever Shellder bites down hard on its tail, it gives Slowbro a flash of inspiration...which it forgets a moment later.",
+      "version": "moon"
+    },
+    {
+      "text": "Spacing out is basically all it does. It turns back into Slowpoke if its tail, along with Shellder, breaks off.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Shellder, in its greed to suck out more and more sweetness from Slowbro’s tail, has metamorphosed into a spiral-shaped shell.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Lives lazily by the sea. If the Shellder on its tail comes off, it becomes a Slowpoke again.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Lives lazily by the sea. If the Shellder on its tail comes off, it becomes a Slowpoke again.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.",
+      "version": "sword"
+    },
+    {
+      "text": "Being bitten by a Shellder shocked this Pokémon into standing on two legs. If the Shellder lets go, it seems Slowbro will turn back into a Slowpoke.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "slowpoke",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "slowpoke",
+      "to": "slowbro",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "slowbro-galar",
+        "item": "galarica-cuff",
+        "required_pokemon_form": "slowpoke-galar"
+      },
+      "from": "slowpoke",
+      "to": "slowbro",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "held_item": "kings-rock"
+      },
+      "from": "slowpoke",
+      "to": "slowking",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "slowking-galar",
+        "item": "galarica-wreath",
+        "required_pokemon_form": "slowpoke-galar"
+      },
+      "from": "slowpoke",
+      "to": "slowking",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slowbro.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "blue": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 10,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "berry-forest-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "cape-brink-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "cape-brink-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 35,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 65,
+            "method": "surf",
+            "minLevel": 50
+          },
+          {
+            "chance": 4,
+            "location": "cinnabar-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 16,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 16,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 16,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 16,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "red": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 10,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "slowbro",
+      "kind": "default",
+      "name": "Slowbro",
+      "number": 80,
+      "pokemon": "slowbro",
+      "sourceId": 80,
+      "sprite": "/dex-images/sprites/slowbro.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 75,
+        "defense": 110,
+        "hp": 95,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["water", "psychic"],
+      "weight": 785
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "quick-draw"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slowbro-galar.webp",
+      "encounters": {},
+      "formName": "Galarian Form",
+      "games": ["sword-shield", "the-isle-of-armor"],
+      "gen9": true,
+      "generation": 8,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "slowbro-galar",
+      "kind": "regional",
+      "name": "Slowbro-Galar",
+      "number": 80,
+      "pokemon": "slowbro",
+      "sourceId": 10165,
+      "sprite": "/dex-images/sprites/slowbro-galar.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 100,
+        "defense": 95,
+        "hp": 95,
+        "special-attack": 100,
+        "special-defense": 70,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["poison", "psychic"],
+      "weight": 705
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slowbro-mega.webp",
+      "encounters": {},
+      "formName": "Mega Slowbro",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 20,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "slowbro-mega",
+      "kind": "mega",
+      "name": "Slowbro-Mega",
+      "number": 80,
+      "pokemon": "slowbro",
+      "sourceId": 10071,
+      "sprite": "/dex-images/sprites/slowbro-mega.webp",
+      "statTotal": 590,
+      "stats": {
+        "attack": 75,
+        "defense": 180,
+        "hp": 95,
+        "special-attack": 130,
+        "special-defense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["water", "psychic"],
+      "weight": 1200
+    }
+  ],
+  "generation": 1,
+  "key": "slowbro",
+  "name": "Slowbro",
+  "names": {
+    "de": "Lahmus",
+    "en": "Slowbro",
+    "es": "Slowbro",
+    "es-419": "Slowbro",
+    "fr": "Flagadoss",
+    "it": "Slowbro",
+    "ja": "ヤドラン",
+    "ja-hrkt": "ヤドラン",
+    "ja-roma": "Yadoran",
+    "ko": "야도란",
+    "zh-hans": "呆壳兽",
+    "zh-hant": "呆殼獸"
+  },
+  "number": 80
+}

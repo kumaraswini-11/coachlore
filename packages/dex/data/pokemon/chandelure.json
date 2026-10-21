@@ -1,0 +1,405 @@
+{
+  "category": "Luring Pokémon",
+  "entries": [
+    {
+      "text": "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+      "version": "black"
+    },
+    {
+      "text": "Being consumed in Chandelure’s flame burns up the spirit, leaving the body behind.",
+      "version": "white"
+    },
+    {
+      "text": "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+      "version": "black-2"
+    },
+    {
+      "text": "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+      "version": "white-2"
+    },
+    {
+      "text": "Being consumed in Chandelure’s flame burns up the spirit, leaving the body behind.",
+      "version": "x"
+    },
+    {
+      "text": "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+      "version": "y"
+    },
+    {
+      "text": "Being consumed in Chandelure’s flame burns up the spirit, leaving the body behind.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames.",
+      "version": "sword"
+    },
+    {
+      "text": "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence— or so it’s said.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litwick",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "litwick",
+      "to": "lampent",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "lampent",
+      "to": "chandelure",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": false,
+          "key": "flame-body"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chandelure.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 70,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 70,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "chandelure",
+      "kind": "default",
+      "name": "Chandelure",
+      "number": 609,
+      "pokemon": "chandelure",
+      "sourceId": 609,
+      "sprite": "/dex-images/sprites/chandelure.webp",
+      "statTotal": 520,
+      "stats": {
+        "attack": 55,
+        "defense": 90,
+        "hp": 60,
+        "special-attack": 145,
+        "special-defense": 90,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["ghost", "fire"],
+      "weight": 343
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chandelure-mega.webp",
+      "encounters": {},
+      "formName": "Mega Chandelure",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 25,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "chandelure-mega",
+      "kind": "mega",
+      "name": "Chandelure-Mega",
+      "number": 609,
+      "pokemon": "chandelure",
+      "sourceId": 10291,
+      "sprite": "/dex-images/sprites/chandelure-mega.webp",
+      "statTotal": 620,
+      "stats": {
+        "attack": 75,
+        "defense": 110,
+        "hp": 60,
+        "special-attack": 175,
+        "special-defense": 110,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["ghost", "fire"],
+      "weight": 696
+    }
+  ],
+  "generation": 5,
+  "key": "chandelure",
+  "name": "Chandelure",
+  "names": {
+    "de": "Skelabra",
+    "en": "Chandelure",
+    "es": "Chandelure",
+    "es-419": "Chandelure",
+    "fr": "Lugulabre",
+    "it": "Chandelure",
+    "ja": "シャンデラ",
+    "ja-hrkt": "シャンデラ",
+    "ja-roma": "Chandela",
+    "ko": "샹델라",
+    "zh-hans": "水晶灯火灵",
+    "zh-hant": "水晶燈火靈"
+  },
+  "number": 609
+}

@@ -1,0 +1,400 @@
+{
+  "category": "Cricket Pokémon",
+  "entries": [
+    {
+      "text": "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+      "version": "diamond"
+    },
+    {
+      "text": "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
+      "version": "pearl"
+    },
+    {
+      "text": "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+      "version": "platinum"
+    },
+    {
+      "text": "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound.",
+      "version": "heartgold"
+    },
+    {
+      "text": "By allowing its cry to resonate in the hollow of its belly, it produces a captivating sound.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+      "version": "black"
+    },
+    {
+      "text": "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+      "version": "white"
+    },
+    {
+      "text": "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+      "version": "black-2"
+    },
+    {
+      "text": "There is a village that hosts a contest based on the amazingly variable cries of this Pokémon.",
+      "version": "white-2"
+    },
+    {
+      "text": "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+      "version": "x"
+    },
+    {
+      "text": "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
+      "version": "y"
+    },
+    {
+      "text": "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It uses its cutlass-like arms to produce sound, the melody of which varies from individual to individual. It is a worthwhile endeavor to seek out one's favorite tunes.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "kricketot",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "kricketot",
+      "to": "kricketune",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kricketune.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-forest-south-of-route-111",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-east-of-route-125",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-south-of-route-131",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 48
+          },
+          {
+            "chance": 35,
+            "location": "dreamyard-b1f",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 47
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 25,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-forest-south-of-route-111",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-east-of-route-125",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-south-of-route-131",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 25,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "valor-lakefront-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 48
+          },
+          {
+            "chance": 35,
+            "location": "dreamyard-b1f",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kricketune",
+      "kind": "default",
+      "name": "Kricketune",
+      "number": 402,
+      "pokemon": "kricketune",
+      "sourceId": 402,
+      "sprite": "/dex-images/sprites/kricketune.webp",
+      "statTotal": 384,
+      "stats": {
+        "attack": 85,
+        "defense": 51,
+        "hp": 77,
+        "special-attack": 55,
+        "special-defense": 51,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 255
+    }
+  ],
+  "generation": 4,
+  "key": "kricketune",
+  "name": "Kricketune",
+  "names": {
+    "de": "Zirpeise",
+    "en": "Kricketune",
+    "es": "Kricketune",
+    "es-419": "Kricketune",
+    "fr": "Mélokrik",
+    "it": "Kricketune",
+    "ja": "コロトック",
+    "ja-hrkt": "コロトック",
+    "ja-roma": "Korotock",
+    "ko": "귀뚤톡크",
+    "zh-hans": "音箱蟀",
+    "zh-hant": "音箱蟀"
+  },
+  "number": 402
+}

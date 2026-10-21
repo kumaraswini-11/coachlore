@@ -1,0 +1,884 @@
+{
+  "category": "Barrier Pokémon",
+  "entries": [
+    {
+      "text": "If interrupted while it is miming, it will slap around the offender with its broad hands.",
+      "version": "red"
+    },
+    {
+      "text": "If interrupted while it is miming, it will slap around the offender with its broad hands.",
+      "version": "blue"
+    },
+    {
+      "text": "Always practices its pantomime act. It makes enemies believe something exists that really doesn't.",
+      "version": "yellow"
+    },
+    {
+      "text": "A skilled mime from birth, it gains the ability to create invisible objects as it matures.",
+      "version": "gold"
+    },
+    {
+      "text": "Its fingertips emit a peculiar force field that hardens air to create an actual wall.",
+      "version": "silver"
+    },
+    {
+      "text": "It uses the mysterious power it has in its fingers to solidify air into an invisible wall.",
+      "version": "crystal"
+    },
+    {
+      "text": "MR. MIME is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.",
+      "version": "ruby"
+    },
+    {
+      "text": "MR. MIME is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once it is believed, it will exist as if it were a real thing.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A MR. MIME is a master of pantomime. It can convince others that something unseeable actually exists. Once believed, the imaginary object does become real.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+      "version": "firered"
+    },
+    {
+      "text": "If interrupted while it is miming, it will suddenly DOUBLESLAP the offender with its broad hands.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is a pantomime expert that can create invisible but solid walls using miming gestures.",
+      "version": "diamond"
+    },
+    {
+      "text": "Emanations from its fingertips solidify the air into invisible walls that repel even harsh attacks.",
+      "version": "pearl"
+    },
+    {
+      "text": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+      "version": "platinum"
+    },
+    {
+      "text": "A skilled mime from birth, it gains the ability to create invisible objects as it matures.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its fingertips emit a peculiar force field that hardens air to create an actual wall.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+      "version": "black"
+    },
+    {
+      "text": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+      "version": "white"
+    },
+    {
+      "text": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+      "version": "black-2"
+    },
+    {
+      "text": "It shapes an invisible wall in midair by minutely vibrating its fingertips to stop molecules in the air.",
+      "version": "white-2"
+    },
+    {
+      "text": "Emanations from its fingertips solidify the air into invisible walls that repel even harsh attacks.",
+      "version": "x"
+    },
+    {
+      "text": "It is adept at conning people. It is said to be able to create walls out of thin air by miming.",
+      "version": "y"
+    },
+    {
+      "text": "Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It creates invisible walls with its pantomiming. If you don’t act impressed, it will attack you with a double slap!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Always practicing its pantomime act. It makes enemies believe something exists that really doesn’t.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Always practicing its pantomime act. It makes enemies believe something exists that really doesn’t.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s known for its top-notch pantomime skills. It protects itself from all sorts of attacks by emitting auras from its fingers to create walls.",
+      "version": "shield"
+    },
+    {
+      "text": "The behavior of this clown-like Pokémon reminds one of pantomime. It creates invisible walls using a force emitted from its fingertips.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mime-jr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "mimic"
+      },
+      "from": "mime-jr",
+      "to": "mr-mime",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "mr-mime-galar",
+        "known_move": "mimic",
+        "region": "galar"
+      },
+      "from": "mime-jr",
+      "to": "mr-mime",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 42,
+        "required_pokemon_form": "mr-mime-galar"
+      },
+      "from": "mr-mime",
+      "to": "mr-rime",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": false,
+          "key": "filter"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mr-mime.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 8
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 25,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "red": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 8
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "spikemuth-area",
+            "maxLevel": 40,
+            "method": "npc-trade",
+            "minLevel": 40
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "spikemuth-area",
+            "maxLevel": 40,
+            "method": "npc-trade",
+            "minLevel": 40
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "sos",
+            "minLevel": 6
+          },
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "sos",
+            "minLevel": 6
+          },
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-dome-exterior",
+            "maxLevel": 42,
+            "method": "snag",
+            "minLevel": 42
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 9
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "brilliant-diamond-shining-pearl", "legends-arceus", "red-green-japan", "blue-japan", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 1,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mr-mime",
+      "kind": "default",
+      "name": "Mr. Mime",
+      "number": 122,
+      "pokemon": "mr-mime",
+      "sourceId": 122,
+      "sprite": "/dex-images/sprites/mr-mime.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 45,
+        "defense": 65,
+        "hp": 40,
+        "special-attack": 100,
+        "special-defense": 120,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["psychic", "fairy"],
+      "weight": 545
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "vital-spirit"
+        },
+        {
+          "hidden": false,
+          "key": "screen-cleaner"
+        },
+        {
+          "hidden": true,
+          "key": "ice-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mr-mime-galar.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 80,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 125,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 125,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ]
+      },
+      "formName": "Galarian Form",
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 8,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "mr-mime-galar",
+      "kind": "regional",
+      "name": "Mr. Mime-Galar",
+      "number": 122,
+      "pokemon": "mr-mime",
+      "sourceId": 10168,
+      "sprite": "/dex-images/sprites/mr-mime-galar.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 65,
+        "defense": 65,
+        "hp": 50,
+        "special-attack": 90,
+        "special-defense": 90,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["ice", "psychic"],
+      "weight": 568
+    }
+  ],
+  "generation": 1,
+  "key": "mr-mime",
+  "name": "Mr. Mime",
+  "names": {
+    "de": "Pantimos",
+    "en": "Mr. Mime",
+    "es": "Mr. Mime",
+    "es-419": "Mr. Mime",
+    "fr": "M. Mime",
+    "it": "Mr. Mime",
+    "ja": "バリヤード",
+    "ja-hrkt": "バリヤード",
+    "ja-roma": "Barrierd",
+    "ko": "마임맨",
+    "zh-hans": "魔墙人偶",
+    "zh-hant": "魔牆人偶"
+  },
+  "number": 122
+}

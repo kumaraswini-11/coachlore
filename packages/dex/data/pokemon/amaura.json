@@ -1,0 +1,322 @@
+{
+  "category": "Tundra Pokémon",
+  "entries": [
+    {
+      "text": "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+      "version": "x"
+    },
+    {
+      "text": "This calm Pokémon lived in a cold land where there were no violent predators like Tyrantrum.",
+      "version": "y"
+    },
+    {
+      "text": "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This calm Pokémon lived in a cold land where there were no violent predators like Tyrantrum.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It lived in cold areas in ancient times. It’s said that when Amaura whinnies, auroras appear in the night sky.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Amaura was restored successfully, but it’s not expected to live long because of the heat of the current environment.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon was successfully restored from a fossil. In the past, it lived with others of its kind in cold lands where there were fewer predators.",
+      "version": "sword"
+    },
+    {
+      "text": "Amaura is an ancient Pokémon that has gone extinct. Specimens of this species can sometimes be found frozen in ice.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "amaura",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39,
+        "time_of_day": "night"
+      },
+      "from": "amaura",
+      "to": "aurorus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "refrigerate"
+        },
+        {
+          "hidden": true,
+          "key": "snow-warning"
+        }
+      ],
+      "artwork": "/dex-images/artwork/amaura.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 360,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 360,
+            "location": "frostpoint-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 360,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 360,
+            "location": "slippery-slope-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 360,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 360,
+            "location": "snowslide-slope-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 360,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 360,
+            "location": "frostpoint-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 360,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 360,
+            "location": "slippery-slope-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 360,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 360,
+            "location": "snowslide-slope-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 100,
+            "location": "glittering-cave-unknown-area-303",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "y": [
+          {
+            "chance": 100,
+            "location": "glittering-cave-unknown-area-303",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "amaura",
+      "kind": "default",
+      "name": "Amaura",
+      "number": 698,
+      "pokemon": "amaura",
+      "sourceId": 698,
+      "sprite": "/dex-images/sprites/amaura.webp",
+      "statTotal": 362,
+      "stats": {
+        "attack": 59,
+        "defense": 50,
+        "hp": 77,
+        "special-attack": 67,
+        "special-defense": 63,
+        "speed": 46
+      },
+      "tags": [],
+      "types": ["rock", "ice"],
+      "weight": 252
+    }
+  ],
+  "generation": 6,
+  "key": "amaura",
+  "name": "Amaura",
+  "names": {
+    "de": "Amarino",
+    "en": "Amaura",
+    "es": "Amaura",
+    "es-419": "Amaura",
+    "fr": "Amagara",
+    "it": "Amaura",
+    "ja": "アマルス",
+    "ja-hrkt": "アマルス",
+    "ja-roma": "Amarus",
+    "ko": "아마루스",
+    "zh-hans": "冰雪龙",
+    "zh-hant": "冰雪龍"
+  },
+  "number": 698
+}

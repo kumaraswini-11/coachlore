@@ -1,0 +1,764 @@
+{
+  "category": "Flame Pokémon",
+  "entries": [
+    {
+      "text": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+      "version": "red"
+    },
+    {
+      "text": "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.",
+      "version": "blue"
+    },
+    {
+      "text": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.",
+      "version": "yellow"
+    },
+    {
+      "text": "If CHARIZARD becomes furious, the flame at the tip of its tail flares up in a whitish- blue color.",
+      "version": "gold"
+    },
+    {
+      "text": "Breathing intense, hot flames, it can melt almost any thing. Its breath inflicts terrible pain on enemies.",
+      "version": "silver"
+    },
+    {
+      "text": "It uses its wings to fly high. The temperature of its fire increases as it gains experience in battle.",
+      "version": "crystal"
+    },
+    {
+      "text": "CHARIZARD flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+      "version": "ruby"
+    },
+    {
+      "text": "CHARIZARD flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A CHARIZARD flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its wings can carry this POKéMON close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+      "version": "firered"
+    },
+    {
+      "text": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is said that CHARIZARD’s fire burns hotter if it has experienced harsh battles.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is said that CHARIZARD’s fire burns hotter if it has experienced harsh battles.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is said that CHARIZARD’s fire burns hotter if it has experienced harsh battles.",
+      "version": "platinum"
+    },
+    {
+      "text": "If CHARIZARD becomes furious, the flame at the tip of its tail flares up in a light blue shade.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Breathing intense, hot flames, it can melt almost anything. Its breath inflicts terrible pain on enemies.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is said that Charizard’s fire burns hotter if it has experienced harsh battles.",
+      "version": "black"
+    },
+    {
+      "text": "It is said that Charizard’s fire burns hotter if it has experienced harsh battles.",
+      "version": "white"
+    },
+    {
+      "text": "It is said that Charizard’s fire burns hotter if it has experienced harsh battles.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is said that Charizard’s fire burns hotter if it has experienced harsh battles.",
+      "version": "white-2"
+    },
+    {
+      "text": "When expelling a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+      "version": "x"
+    },
+    {
+      "text": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+      "version": "y"
+    },
+    {
+      "text": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When this Pokémon expels a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "When this Pokémon expels a blast of superhot fire, the red flame at the tip of its tail burns more intensely.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+      "version": "sword"
+    },
+    {
+      "text": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "charmander",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "charmander",
+      "to": "charmeleon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "charmeleon",
+      "to": "charizard",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "solar-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charizard.webp",
+      "encounters": {
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-22-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-23-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-3-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-4-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-9-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-22-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-23-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-3-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-4-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-9-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying-special",
+            "minLevel": 3
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "charizard",
+      "kind": "default",
+      "name": "Charizard",
+      "number": 6,
+      "pokemon": "charizard",
+      "sourceId": 6,
+      "sprite": "/dex-images/sprites/charizard.webp",
+      "statTotal": 534,
+      "stats": {
+        "attack": 84,
+        "defense": 78,
+        "hp": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fire", "flying"],
+      "weight": 905
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "solar-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charizard-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 280,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "charizard-gmax",
+      "kind": "gigantamax",
+      "name": "Charizard-Gmax",
+      "number": 6,
+      "pokemon": "charizard",
+      "sourceId": 10196,
+      "sprite": "/dex-images/sprites/charizard-gmax.webp",
+      "statTotal": 534,
+      "stats": {
+        "attack": 84,
+        "defense": 78,
+        "hp": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fire", "flying"],
+      "weight": 10000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charizard-mega-x.webp",
+      "encounters": {},
+      "formName": "Mega Charizard X",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 17,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "charizard-mega-x",
+      "kind": "mega",
+      "name": "Charizard-Mega-X",
+      "number": 6,
+      "pokemon": "charizard",
+      "sourceId": 10034,
+      "sprite": "/dex-images/sprites/charizard-mega-x.webp",
+      "statTotal": 634,
+      "stats": {
+        "attack": 130,
+        "defense": 111,
+        "hp": 78,
+        "special-attack": 130,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fire", "dragon"],
+      "weight": 1105
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "drought"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charizard-mega-y.webp",
+      "encounters": {},
+      "formName": "Mega Charizard Y",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 17,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "charizard-mega-y",
+      "kind": "mega",
+      "name": "Charizard-Mega-Y",
+      "number": 6,
+      "pokemon": "charizard",
+      "sourceId": 10035,
+      "sprite": "/dex-images/sprites/charizard-mega-y.webp",
+      "statTotal": 634,
+      "stats": {
+        "attack": 104,
+        "defense": 78,
+        "hp": 78,
+        "special-attack": 159,
+        "special-defense": 115,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fire", "flying"],
+      "weight": 1005
+    }
+  ],
+  "generation": 1,
+  "key": "charizard",
+  "name": "Charizard",
+  "names": {
+    "de": "Glurak",
+    "en": "Charizard",
+    "es": "Charizard",
+    "es-419": "Charizard",
+    "fr": "Dracaufeu",
+    "it": "Charizard",
+    "ja": "リザードン",
+    "ja-hrkt": "リザードン",
+    "ja-roma": "Lizardon",
+    "ko": "리자몽",
+    "zh-hans": "喷火龙",
+    "zh-hant": "噴火龍"
+  },
+  "number": 6
+}

@@ -1,0 +1,327 @@
+{
+  "category": "Fairy Pokémon",
+  "entries": [
+    {
+      "text": "It is actually timid and easily spooked. If at tacked, it flails about to fend off its attacker.",
+      "version": "gold"
+    },
+    {
+      "text": "Because its fangs are too heavy, it always keeps its head tilted down. However, its BITE is powerful.",
+      "version": "silver"
+    },
+    {
+      "text": "It can make most any POKéMON run away simply by opening its mouth wide to reveal its big fangs.",
+      "version": "crystal"
+    },
+    {
+      "text": "GRANBULL has a particularly well- developed lower jaw. The enormous fangs are heavy, causing the POKéMON to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
+      "version": "ruby"
+    },
+    {
+      "text": "GRANBULL has a particularly well- developed lower jaw. The enormous fangs are heavy, causing the POKéMON to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It has a particularly well-developed lower jaw. The huge fangs are heavy, causing it to tilt its head. Unless it is startled, it will not try to bite.",
+      "version": "emerald"
+    },
+    {
+      "text": "Because its fangs are too heavy, it always keeps its head tilted down. However, its BITE is powerful.",
+      "version": "firered"
+    },
+    {
+      "text": "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "black"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "white"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+      "version": "x"
+    },
+    {
+      "text": "It can make most any Pokémon run away simply by opening its mouth wide to reveal its big fangs.",
+      "version": "y"
+    },
+    {
+      "text": "Granbull has a particularly well-developed lower jaw. The enormous fangs are heavy, causing the Pokémon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Granbull has a particularly well-developed lower jaw. The enormous fangs are heavy, causing the Pokémon to tip its head back for balance. Unless it is startled, it will not try to bite indiscriminately.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its well-developed lower jaw and heavy fangs are its weapons. As long as it’s not provoked, it rarely bites.",
+      "version": "sun"
+    },
+    {
+      "text": "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
+      "version": "moon"
+    },
+    {
+      "text": "While it has powerful jaws, it doesn’t care for disputes, so it rarely has a chance to display their might.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although it’s popular with young people, Granbull is timid and sensitive, so it’s totally incompetent as a watchdog.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snubbull",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 23
+      },
+      "from": "snubbull",
+      "to": "granbull",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "quick-feet"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/granbull.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-2-hidden-grotto",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf2",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "kanto-route-6-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 20,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 20,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-2-hidden-grotto",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "granbull",
+      "kind": "default",
+      "name": "Granbull",
+      "number": 210,
+      "pokemon": "granbull",
+      "sourceId": 210,
+      "sprite": "/dex-images/sprites/granbull.webp",
+      "statTotal": 450,
+      "stats": {
+        "attack": 120,
+        "defense": 75,
+        "hp": 90,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 487
+    }
+  ],
+  "generation": 2,
+  "key": "granbull",
+  "name": "Granbull",
+  "names": {
+    "de": "Granbull",
+    "en": "Granbull",
+    "es": "Granbull",
+    "es-419": "Granbull",
+    "fr": "Granbull",
+    "it": "Granbull",
+    "ja": "グランブル",
+    "ja-hrkt": "グランブル",
+    "ja-roma": "Granbulu",
+    "ko": "그랑블루",
+    "zh-hans": "布鲁皇",
+    "zh-hant": "布魯皇"
+  },
+  "number": 210
+}

@@ -1,0 +1,204 @@
+{
+  "category": "Axe Jaw Pokémon",
+  "entries": [
+    {
+      "text": "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+      "version": "black"
+    },
+    {
+      "text": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+      "version": "white"
+    },
+    {
+      "text": "Its tusks are incredibly destructive. They can easily slice through a thick, sturdy steel column every time.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its tusks are incredibly destructive. They can easily slice through a thick, sturdy steel column every time.",
+      "version": "white-2"
+    },
+    {
+      "text": "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+      "version": "x"
+    },
+    {
+      "text": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+      "version": "y"
+    },
+    {
+      "text": "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Their sturdy tusks will stay sharp even if used to cut steel beams. These Pokémon are covered in hard armor.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its resilient tusks are its pride and joy. It licks up dirt to take in the minerals it needs to keep its tusks in top condition.",
+      "version": "sword"
+    },
+    {
+      "text": "While usually kindhearted, it can be terrifying if angered. Tusks that can slice through steel beams are how Haxorus deals with its adversaries.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "axew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "axew",
+      "to": "fraxure",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "fraxure",
+      "to": "haxorus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": false,
+          "key": "mold-breaker"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/haxorus.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "shield": [
+          {
+            "chance": 600,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 2,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 600,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 90,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "haxorus",
+      "kind": "default",
+      "name": "Haxorus",
+      "number": 612,
+      "pokemon": "haxorus",
+      "sourceId": 612,
+      "sprite": "/dex-images/sprites/haxorus.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 147,
+        "defense": 90,
+        "hp": 76,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 97
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 1055
+    }
+  ],
+  "generation": 5,
+  "key": "haxorus",
+  "name": "Haxorus",
+  "names": {
+    "de": "Maxax",
+    "en": "Haxorus",
+    "es": "Haxorus",
+    "es-419": "Haxorus",
+    "fr": "Tranchodon",
+    "it": "Haxorus",
+    "ja": "オノノクス",
+    "ja-hrkt": "オノノクス",
+    "ja-roma": "Ononokus",
+    "ko": "액스라이즈",
+    "zh-hans": "双斧战龙",
+    "zh-hant": "雙斧戰龍"
+  },
+  "number": 612
+}

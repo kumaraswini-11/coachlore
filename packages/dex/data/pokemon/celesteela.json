@@ -1,0 +1,135 @@
+{
+  "category": "Launch Pokémon",
+  "entries": [
+    {
+      "text": "It appeared from the Ultra Wormhole. Witnesses observed it flying across the sky at high speed.",
+      "version": "sun"
+    },
+    {
+      "text": "One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.",
+      "version": "moon"
+    },
+    {
+      "text": "One of the dangerous UBs, high energy readings can be detected coming from both of its huge arms.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "celesteela",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/celesteela.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 200,
+            "location": "haina-desert-area",
+            "maxLevel": 65,
+            "method": "static",
+            "minLevel": 65
+          },
+          {
+            "chance": 200,
+            "location": "haina-desert-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "malie-garden-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-crater",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 92,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "celesteela",
+      "kind": "default",
+      "name": "Celesteela",
+      "number": 797,
+      "pokemon": "celesteela",
+      "sourceId": 797,
+      "sprite": "/dex-images/sprites/celesteela.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 101,
+        "defense": 103,
+        "hp": 97,
+        "special-attack": 107,
+        "special-defense": 101,
+        "speed": 61
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["steel", "flying"],
+      "weight": 9999
+    }
+  ],
+  "generation": 7,
+  "key": "celesteela",
+  "name": "Celesteela",
+  "names": {
+    "de": "Kaguron",
+    "en": "Celesteela",
+    "es": "Celesteela",
+    "es-419": "Celesteela",
+    "fr": "Bamboiselle",
+    "it": "Celesteela",
+    "ja": "テッカグヤ",
+    "ja-hrkt": "テッカグヤ",
+    "ja-roma": "Tekkaguya",
+    "ko": "철화구야",
+    "zh-hans": "铁火辉夜",
+    "zh-hant": "鐵火輝夜"
+  },
+  "number": 797
+}

@@ -1,0 +1,259 @@
+{
+  "category": "Prism Pokémon",
+  "entries": [
+    {
+      "text": "Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.",
+      "version": "sun"
+    },
+    {
+      "text": "Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.",
+      "version": "moon"
+    },
+    {
+      "text": "It looks somehow pained as it rages around in search of light, which serves as its energy. It’s apparently from another world.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Light is the source of its energy. If it isn’t devouring light, impurities build up in it and on it, and Necrozma darkens and stops moving.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It survives by absorbing light. After a long time spent slumbering underground, impurities accumulated within it, causing its body to darken.",
+      "version": "sword"
+    },
+    {
+      "text": "It needs light to survive, and it goes on a rampage seeking it out. Its laser beams will cut anything to pieces.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "necrozma",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prism-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/necrozma.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 75,
+            "method": "walk",
+            "minLevel": 75
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 75,
+            "method": "walk",
+            "minLevel": 75
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "mount-lanakila-crater",
+            "maxLevel": 65,
+            "method": "static",
+            "minLevel": 65
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "mount-lanakila-crater",
+            "maxLevel": 65,
+            "method": "static",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 24,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "necrozma",
+      "kind": "default",
+      "legendary": true,
+      "name": "Necrozma",
+      "number": 800,
+      "pokemon": "necrozma",
+      "sourceId": 800,
+      "sprite": "/dex-images/sprites/necrozma.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 107,
+        "defense": 101,
+        "hp": 97,
+        "special-attack": 127,
+        "special-defense": 89,
+        "speed": 79
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic"],
+      "weight": 2300
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prism-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/necrozma-dawn.webp",
+      "encounters": {},
+      "formName": "Dawn Wings",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 42,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "necrozma-dawn",
+      "kind": "other",
+      "legendary": true,
+      "name": "Necrozma-Dawn",
+      "number": 800,
+      "pokemon": "necrozma",
+      "sourceId": 10156,
+      "sprite": "/dex-images/sprites/necrozma-dawn.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 113,
+        "defense": 109,
+        "hp": 97,
+        "special-attack": 157,
+        "special-defense": 127,
+        "speed": 77
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "ghost"],
+      "weight": 3500
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prism-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/necrozma-dusk.webp",
+      "encounters": {},
+      "formName": "Dusk Mane",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 38,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "necrozma-dusk",
+      "kind": "other",
+      "legendary": true,
+      "name": "Necrozma-Dusk",
+      "number": 800,
+      "pokemon": "necrozma",
+      "sourceId": 10155,
+      "sprite": "/dex-images/sprites/necrozma-dusk.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 157,
+        "defense": 127,
+        "hp": 97,
+        "special-attack": 113,
+        "special-defense": 109,
+        "speed": 77
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "steel"],
+      "weight": 4600
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "neuroforce"
+        }
+      ],
+      "artwork": "/dex-images/artwork/necrozma-ultra.webp",
+      "encounters": {},
+      "formName": "Ultra Necrozma",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 75,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "necrozma-ultra",
+      "kind": "other",
+      "legendary": true,
+      "name": "Necrozma-Ultra",
+      "number": 800,
+      "pokemon": "necrozma",
+      "sourceId": 10157,
+      "sprite": "/dex-images/sprites/necrozma-ultra.webp",
+      "statTotal": 754,
+      "stats": {
+        "attack": 167,
+        "defense": 97,
+        "hp": 97,
+        "special-attack": 167,
+        "special-defense": 97,
+        "speed": 129
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "dragon"],
+      "weight": 2300
+    }
+  ],
+  "generation": 7,
+  "key": "necrozma",
+  "name": "Necrozma",
+  "names": {
+    "de": "Necrozma",
+    "en": "Necrozma",
+    "es": "Necrozma",
+    "es-419": "Necrozma",
+    "fr": "Necrozma",
+    "it": "Necrozma",
+    "ja": "ネクロズマ",
+    "ja-hrkt": "ネクロズマ",
+    "ja-roma": "Necrozma",
+    "ko": "네크로즈마",
+    "zh-hans": "奈克洛兹玛",
+    "zh-hant": "奈克洛茲瑪"
+  },
+  "number": 800
+}

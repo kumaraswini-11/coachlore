@@ -1,0 +1,340 @@
+{
+  "category": "Rabbit Pokémon",
+  "entries": [
+    {
+      "text": "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is very conscious of its looks and never fails to groom its ears. It runs with sprightly jumps.",
+      "version": "pearl"
+    },
+    {
+      "text": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+      "version": "platinum"
+    },
+    {
+      "text": "It sheds its fur twice a year. Its winter fur is soft and fluffy.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It sheds its fur twice a year. Its winter fur is soft and fluffy.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+      "version": "black"
+    },
+    {
+      "text": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+      "version": "white"
+    },
+    {
+      "text": "Extremely cautious, it quickly bounds off when it senses danger.",
+      "version": "black-2"
+    },
+    {
+      "text": "Extremely cautious, it quickly bounds off when it senses danger.",
+      "version": "white-2"
+    },
+    {
+      "text": "Extremely cautious, it quickly bounds off when it senses danger.",
+      "version": "x"
+    },
+    {
+      "text": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+      "version": "y"
+    },
+    {
+      "text": "Extremely cautious, it quickly bounds off when it senses danger.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The ears appear to be delicate. If they are touched roughly, it kicks with its graceful legs.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Lopunny regrows its coat twice a year. Mufflers and hats made from its fur are really warm.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It’s notably wary and has a dislike of fighting, but at the same time, it can deliver powerful kicks with its lithe legs.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
+      "version": "sword"
+    },
+    {
+      "text": "Once hot seasons are over, Lopunny’s coat will be replaced with fur that holds a lot of insulating air in preparation for colder weather.",
+      "version": "shield"
+    },
+    {
+      "text": "Its fur is warm and yet remarkably light. This Pokémon kicks as though it were a master of karate, driving back its opponents with ease.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "buneary",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "buneary",
+      "to": "lopunny",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cute-charm"
+        },
+        {
+          "hidden": false,
+          "key": "klutz"
+        },
+        {
+          "hidden": true,
+          "key": "limber"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lopunny.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "castelia-city-area",
+            "maxLevel": 18,
+            "method": "grass-spots",
+            "minLevel": 18
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 600,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 600,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 110,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 400,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 110,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 600,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 600,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 110,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 400,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 110,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lopunny",
+      "kind": "default",
+      "name": "Lopunny",
+      "number": 428,
+      "pokemon": "lopunny",
+      "sourceId": 428,
+      "sprite": "/dex-images/sprites/lopunny.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 76,
+        "defense": 84,
+        "hp": 65,
+        "special-attack": 54,
+        "special-defense": 96,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 333
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "scrappy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lopunny-mega.webp",
+      "encounters": {},
+      "formName": "Mega Lopunny",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 13,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "lopunny-mega",
+      "kind": "mega",
+      "name": "Lopunny-Mega",
+      "number": 428,
+      "pokemon": "lopunny",
+      "sourceId": 10088,
+      "sprite": "/dex-images/sprites/lopunny-mega.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 136,
+        "defense": 94,
+        "hp": 65,
+        "special-attack": 54,
+        "special-defense": 96,
+        "speed": 135
+      },
+      "tags": [],
+      "types": ["normal", "fighting"],
+      "weight": 283
+    }
+  ],
+  "generation": 4,
+  "key": "lopunny",
+  "name": "Lopunny",
+  "names": {
+    "de": "Schlapor",
+    "en": "Lopunny",
+    "es": "Lopunny",
+    "es-419": "Lopunny",
+    "fr": "Lockpin",
+    "it": "Lopunny",
+    "ja": "ミミロップ",
+    "ja-hrkt": "ミミロップ",
+    "ja-roma": "Mimilop",
+    "ko": "이어롭",
+    "zh-hans": "长耳兔",
+    "zh-hant": "長耳兔"
+  },
+  "number": 428
+}

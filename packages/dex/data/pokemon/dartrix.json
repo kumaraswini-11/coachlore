@@ -1,0 +1,126 @@
+{
+  "category": "Blade Quill Pokémon",
+  "entries": [
+    {
+      "text": "A bit of a dandy, it spends its free time preening its wings. Its preoccupation with any dirt on its plumage can leave it unable to battle.",
+      "version": "sun"
+    },
+    {
+      "text": "It throws sharp feathers called blade quills at enemies or prey. It seldom misses.",
+      "version": "moon"
+    },
+    {
+      "text": "This narcissistic Pokémon is a clean freak. If you don’t groom it diligently, it will stop listening to you.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills.",
+      "version": "sword"
+    },
+    {
+      "text": "It never slacks when it comes to the task of cleaning its feathers. Thorough preening keeps it looking spiffy and its blade quills nice and sharp.",
+      "version": "shield"
+    },
+    {
+      "text": "Regularly basks in sunlight to gather power—presumably due to the frigid climate. Nonetheless, the edges of the blade quills set into its wings are keen as ever.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rowlet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "rowlet",
+      "to": "dartrix",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "dartrix",
+      "to": "decidueye",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "decidueye-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "dartrix",
+      "to": "decidueye",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "long-reach"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dartrix.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dartrix",
+      "kind": "default",
+      "name": "Dartrix",
+      "number": 723,
+      "pokemon": "dartrix",
+      "sourceId": 723,
+      "sprite": "/dex-images/sprites/dartrix.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 75,
+        "defense": 75,
+        "hp": 78,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 52
+      },
+      "tags": [],
+      "types": ["grass", "flying"],
+      "weight": 160
+    }
+  ],
+  "generation": 7,
+  "key": "dartrix",
+  "name": "Dartrix",
+  "names": {
+    "de": "Arboretoss",
+    "en": "Dartrix",
+    "es": "Dartrix",
+    "es-419": "Dartrix",
+    "fr": "Efflèche",
+    "it": "Dartrix",
+    "ja": "フクスロー",
+    "ja-hrkt": "フクスロー",
+    "ja-roma": "Fukuthrow",
+    "ko": "빼미스로우",
+    "zh-hans": "投羽枭",
+    "zh-hant": "投羽梟"
+  },
+  "number": 723
+}

@@ -1,0 +1,626 @@
+{
+  "category": "Mouse Pokémon",
+  "entries": [
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+      "version": "red"
+    },
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high voltage power.",
+      "version": "blue"
+    },
+    {
+      "text": "When electricity builds up inside its body, it becomes feisty. It also glows in the dark.",
+      "version": "yellow"
+    },
+    {
+      "text": "When its electricity builds, its muscles are stimu lated, and it becomes more aggressive than usual.",
+      "version": "gold"
+    },
+    {
+      "text": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+      "version": "silver"
+    },
+    {
+      "text": "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere.",
+      "version": "crystal"
+    },
+    {
+      "text": "If the electrical sacks become excessively charged, RAICHU plants its tail in the ground and discharges. Scorched patches of ground will be found near this POKéMON’s nest.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON exudes a weak electrical charge from all over its body that makes it take on a slight glow in darkness. RAICHU searches for electricity by planting its tail in the ground.",
+      "version": "sapphire"
+    },
+    {
+      "text": "If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint.",
+      "version": "firered"
+    },
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It turns aggressive if it has too much electricity in its body. It discharges power through its tail.",
+      "version": "diamond"
+    },
+    {
+      "text": "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+      "version": "platinum"
+    },
+    {
+      "text": "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+      "version": "black"
+    },
+    {
+      "text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+      "version": "white"
+    },
+    {
+      "text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+      "version": "white-2"
+    },
+    {
+      "text": "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+      "version": "x"
+    },
+    {
+      "text": "It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.",
+      "version": "y"
+    },
+    {
+      "text": "If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon’s nest.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon exudes a weak electrical charge from all over its body that makes it take on a slight glow in darkness. Raichu plants its tail in the ground to discharge electricity.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It unleashes electric shocks that can reach 100,000 volts. When agitated, it can knock out even an Indian elephant.",
+      "version": "sun"
+    },
+    {
+      "text": "It becomes aggressive when it has electricity stored up. At such times, even its Trainer has to take care to avoid being attacked.",
+      "version": "moon"
+    },
+    {
+      "text": "As electricity builds up inside its body, it becomes more aggressive. One theory is that the electricity buildup is actually causing stress.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Because so many Trainers like the way Pikachu looks, you don’t see this Pokémon very often.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "When electricity builds up inside its body, it becomes feisty. It also glows in the dark.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "When electricity builds up inside its body, it becomes feisty. It also glows in the dark.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+      "version": "sword"
+    },
+    {
+      "text": "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere.",
+      "version": "shield"
+    },
+    {
+      "text": "It can discharge bursts of electricity exceeding 100,000 volts— a single strike with that amount of power would incapacitate one of the Copperajah of my homeland.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pichu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 220
+      },
+      "from": "pichu",
+      "to": "pikachu",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "pikachu"
+      },
+      "from": "pikachu",
+      "to": "raichu",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "raichu-alola",
+        "item": "thunder-stone",
+        "region": "alola",
+        "required_pokemon_form": "pikachu"
+      },
+      "from": "pikachu",
+      "to": "raichu",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raichu.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 4,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 5,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 4,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 5,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "red": [
+          {
+            "chance": 4,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 4,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "raichu",
+      "kind": "default",
+      "name": "Raichu",
+      "number": 26,
+      "pokemon": "raichu",
+      "sourceId": 26,
+      "sprite": "/dex-images/sprites/raichu.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 90,
+        "defense": 55,
+        "hp": 60,
+        "special-attack": 90,
+        "special-defense": 80,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 300
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "surge-surfer"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raichu-alola.webp",
+      "encounters": {
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "saffron-city-area",
+            "maxLevel": 30,
+            "method": "npc-trade",
+            "minLevel": 30
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "saffron-city-area",
+            "maxLevel": 30,
+            "method": "npc-trade",
+            "minLevel": 30
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "raichu-alola",
+      "kind": "regional",
+      "name": "Raichu-Alola",
+      "number": 26,
+      "pokemon": "raichu",
+      "sourceId": 10100,
+      "sprite": "/dex-images/sprites/raichu-alola.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 85,
+        "defense": 50,
+        "hp": 60,
+        "special-attack": 95,
+        "special-defense": 85,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["electric", "psychic"],
+      "weight": 210
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "electric-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raichu-mega-x.webp",
+      "encounters": {},
+      "formName": "Mega Raichu X",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "raichu-mega-x",
+      "kind": "mega",
+      "name": "Raichu-Mega-X",
+      "number": 26,
+      "pokemon": "raichu",
+      "sourceId": 10304,
+      "sprite": "/dex-images/sprites/raichu-mega-x.webp",
+      "statTotal": 585,
+      "stats": {
+        "attack": 135,
+        "defense": 95,
+        "hp": 60,
+        "special-attack": 90,
+        "special-defense": 95,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 380
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "no-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raichu-mega-y.webp",
+      "encounters": {},
+      "formName": "Mega Raichu Y",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 10,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "raichu-mega-y",
+      "kind": "mega",
+      "name": "Raichu-Mega-Y",
+      "number": 26,
+      "pokemon": "raichu",
+      "sourceId": 10305,
+      "sprite": "/dex-images/sprites/raichu-mega-y.webp",
+      "statTotal": 585,
+      "stats": {
+        "attack": 100,
+        "defense": 55,
+        "hp": 60,
+        "special-attack": 160,
+        "special-defense": 80,
+        "speed": 130
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 260
+    }
+  ],
+  "generation": 1,
+  "key": "raichu",
+  "name": "Raichu",
+  "names": {
+    "de": "Raichu",
+    "en": "Raichu",
+    "es": "Raichu",
+    "es-419": "Raichu",
+    "fr": "Raichu",
+    "it": "Raichu",
+    "ja": "ライチュウ",
+    "ja-hrkt": "ライチュウ",
+    "ja-roma": "Raichu",
+    "ko": "라이츄",
+    "zh-hans": "雷丘",
+    "zh-hant": "雷丘"
+  },
+  "number": 26
+}

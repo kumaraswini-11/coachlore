@@ -1,0 +1,335 @@
+{
+  "category": "Draft Horse Pokémon",
+  "entries": [
+    {
+      "text": "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+      "version": "sun"
+    },
+    {
+      "text": "Its heavy, mud-covered kicks are its best means of attack, and it can reduce large trucks to scrap without breaking a sweat.",
+      "version": "moon"
+    },
+    {
+      "text": "It remains calm and unmoving no matter the situation. It mixes dirt with the saliva in its mouth to make a special kind of mud.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It can trudge mountain roads without rest for three days and three nights, all the while dragging a 10-ton load.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Mud that hardens around a Mudsdale’s legs sets harder than stone. It’s so hard that it allows this Pokémon to scrap a truck with a single kick.",
+      "version": "sword"
+    },
+    {
+      "text": "Mudsdale has so much stamina that it could carry over 10 tons across the Galar region without rest or sleep.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mudbray",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "mudbray",
+      "to": "mudsdale",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": false,
+          "key": "stamina"
+        },
+        {
+          "hidden": true,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mudsdale.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "shield": [
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 820,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 820,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 400,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 310,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 310,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 1000,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 820,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 820,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 400,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 310,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 310,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 1000,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-12-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-12-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 25,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mudsdale",
+      "kind": "default",
+      "name": "Mudsdale",
+      "number": 750,
+      "pokemon": "mudsdale",
+      "sourceId": 750,
+      "sprite": "/dex-images/sprites/mudsdale.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 125,
+        "defense": 100,
+        "hp": 100,
+        "special-attack": 55,
+        "special-defense": 85,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 9200
+    }
+  ],
+  "generation": 7,
+  "key": "mudsdale",
+  "name": "Mudsdale",
+  "names": {
+    "de": "Pampross",
+    "en": "Mudsdale",
+    "es": "Mudsdale",
+    "es-419": "Mudsdale",
+    "fr": "Bourrinos",
+    "it": "Mudsdale",
+    "ja": "バンバドロ",
+    "ja-hrkt": "バンバドロ",
+    "ja-roma": "Banbadoro",
+    "ko": "만마드",
+    "zh-hans": "重泥挽马",
+    "zh-hant": "重泥挽馬"
+  },
+  "number": 750
+}

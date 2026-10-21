@@ -1,0 +1,265 @@
+{
+  "category": "Teamwork Pokémon",
+  "entries": [
+    {
+      "text": "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
+      "version": "sun"
+    },
+    {
+      "text": "They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.",
+      "version": "moon"
+    },
+    {
+      "text": "They use their saliva to stick leaves to their shoulders. You can tell what troop they belong to from the position of the leaves.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Berries are its weapons as well as the staple of its diet. The one that can throw a berry the farthest is the boss of the troop.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries.",
+      "version": "sword"
+    },
+    {
+      "text": "Passimian live in groups of about 20, with each member performing an assigned role. Through cooperation, the group survives.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "passimian",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "receiver"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/passimian.webp",
+      "encounters": {
+        "sun": [
+          {
+            "chance": 5,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "sword": [
+          {
+            "chance": 65,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 9,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 65,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 10,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 260,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 260,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 5,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "passimian",
+      "kind": "default",
+      "name": "Passimian",
+      "number": 766,
+      "pokemon": "passimian",
+      "sourceId": 766,
+      "sprite": "/dex-images/sprites/passimian.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 120,
+        "defense": 90,
+        "hp": 100,
+        "special-attack": 40,
+        "special-defense": 60,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 828
+    }
+  ],
+  "generation": 7,
+  "key": "passimian",
+  "name": "Passimian",
+  "names": {
+    "de": "Quartermak",
+    "en": "Passimian",
+    "es": "Passimian",
+    "es-419": "Passimian",
+    "fr": "Quartermac",
+    "it": "Passimian",
+    "ja": "ナゲツケサル",
+    "ja-hrkt": "ナゲツケサル",
+    "ja-roma": "Nagetukesaru",
+    "ko": "내던숭이",
+    "zh-hans": "投掷猴",
+    "zh-hant": "投擲猴"
+  },
+  "number": 766
+}

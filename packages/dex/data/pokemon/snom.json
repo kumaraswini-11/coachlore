@@ -1,0 +1,308 @@
+{
+  "category": "Worm Pokémon",
+  "entries": [
+    {
+      "text": "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+      "version": "sword"
+    },
+    {
+      "text": "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snom",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "night"
+      },
+      "from": "snom",
+      "to": "frosmoth",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shield-dust"
+        },
+        {
+          "hidden": true,
+          "key": "ice-scales"
+        }
+      ],
+      "artwork": "/dex-images/artwork/snom.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 10,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 80,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 80,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 80,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 80,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 114,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 476,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 476,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 476,
+            "location": "slippery-slope-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 539,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 539,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 539,
+            "location": "snowslide-slope-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 114,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 476,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 476,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 476,
+            "location": "slippery-slope-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 534,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 534,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 534,
+            "location": "snowslide-slope-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "snom",
+      "kind": "default",
+      "name": "Snom",
+      "number": 872,
+      "pokemon": "snom",
+      "sourceId": 872,
+      "sprite": "/dex-images/sprites/snom.webp",
+      "statTotal": 185,
+      "stats": {
+        "attack": 25,
+        "defense": 35,
+        "hp": 30,
+        "special-attack": 45,
+        "special-defense": 30,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["ice", "bug"],
+      "weight": 38
+    }
+  ],
+  "generation": 8,
+  "key": "snom",
+  "name": "Snom",
+  "names": {
+    "de": "Snomnom",
+    "en": "Snom",
+    "es": "Snom",
+    "es-419": "Snom",
+    "fr": "Frissonille",
+    "it": "Snom",
+    "ja": "ユキハミ",
+    "ja-hrkt": "ユキハミ",
+    "ja-roma": "Yukihami",
+    "ko": "누니머기",
+    "zh-hans": "雪吞虫",
+    "zh-hant": "雪吞蟲"
+  },
+  "number": 872
+}

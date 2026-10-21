@@ -1,0 +1,175 @@
+{
+  "category": "Poison Bag Pokémon",
+  "entries": [
+    {
+      "text": "When SWALOT spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this POKéMON gulps it down whole with its cavernous mouth.",
+      "version": "ruby"
+    },
+    {
+      "text": "SWALOT has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this POKéMON’s mouth.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its powerful stomach acid is capable of digesting almost anything. The one thing in the whole world a SWALOT can’t digest is its own stomach.",
+      "version": "emerald"
+    },
+    {
+      "text": "It can swallow a tire whole in one gulp. It secretes a horribly toxic fluid from the pores on its body.",
+      "version": "firered"
+    },
+    {
+      "text": "It can swallow a tire whole in one gulp. It secretes a horribly toxic fluid from the pores on its body.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "pearl"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It gulps anything that fits in its mouth. Its special enzymes can dissolve anything.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It gulps anything that fits in its mouth. Its special enzymes can dissolve anything.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "black"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "white"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+      "version": "x"
+    },
+    {
+      "text": "It gulps anything that fits in its mouth. Its special enzymes can dissolve anything.",
+      "version": "y"
+    },
+    {
+      "text": "When Swalot spots prey, it spurts out a hideously toxic fluid from its pores and sprays the target. Once the prey has weakened, this Pokémon gulps it down whole with its cavernous mouth.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Swalot has no teeth, so what it eats, it swallows whole, no matter what. Its cavernous mouth yawns widely. An automobile tire could easily fit inside this Pokémon’s mouth.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gulpin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 26
+      },
+      "from": "gulpin",
+      "to": "swalot",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "liquid-ooze"
+        },
+        {
+          "hidden": false,
+          "key": "sticky-hold"
+        },
+        {
+          "hidden": true,
+          "key": "gluttony"
+        }
+      ],
+      "artwork": "/dex-images/artwork/swalot.webp",
+      "encounters": {
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "swalot",
+      "kind": "default",
+      "name": "Swalot",
+      "number": 317,
+      "pokemon": "swalot",
+      "sourceId": 317,
+      "sprite": "/dex-images/sprites/swalot.webp",
+      "statTotal": 467,
+      "stats": {
+        "attack": 73,
+        "defense": 83,
+        "hp": 100,
+        "special-attack": 73,
+        "special-defense": 83,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 800
+    }
+  ],
+  "generation": 3,
+  "key": "swalot",
+  "name": "Swalot",
+  "names": {
+    "de": "Schlukwech",
+    "en": "Swalot",
+    "es": "Swalot",
+    "es-419": "Swalot",
+    "fr": "Avaltout",
+    "it": "Swalot",
+    "ja": "マルノーム",
+    "ja-hrkt": "マルノーム",
+    "ja-roma": "Marunoom",
+    "ko": "꿀꺽몬",
+    "zh-hans": "吞食兽",
+    "zh-hant": "吞食獸"
+  },
+  "number": 317
+}

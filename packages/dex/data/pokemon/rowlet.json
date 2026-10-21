@@ -1,0 +1,181 @@
+{
+  "category": "Grass Quill Pokémon",
+  "entries": [
+    {
+      "text": "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+      "version": "sun"
+    },
+    {
+      "text": "Silently it glides, drawing near its targets. Before they even notice it, it begins to pelt them with vicious kicks.",
+      "version": "moon"
+    },
+    {
+      "text": "It sends its feathers, which are as sharp as blades, flying in attack. Its legs are strong, so its kicks are also formidable.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It feels relaxed in tight, dark places and has been known to use its Trainer’s pocket or bag as a nest.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "At a distance, it launches its sharp feathers while flying about. If the enemy gets too close, Rowlet switches tactics and delivers vicious kicks.",
+      "version": "sword"
+    },
+    {
+      "text": "During the day, it builds up energy via photosynthesis. At night, it flies silently through the sky, on the prowl for prey.",
+      "version": "shield"
+    },
+    {
+      "text": "Flies noiselessly on delicate wings. It has mastered the art of deftly launching dagger-sharp feathers from those same wings.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rowlet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "rowlet",
+      "to": "dartrix",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "dartrix",
+      "to": "decidueye",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "decidueye-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "dartrix",
+      "to": "decidueye",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "long-reach"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rowlet.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "iki-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "iki-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rowlet",
+      "kind": "default",
+      "name": "Rowlet",
+      "number": 722,
+      "pokemon": "rowlet",
+      "sourceId": 722,
+      "sprite": "/dex-images/sprites/rowlet.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 55,
+        "hp": 68,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 42
+      },
+      "tags": [],
+      "types": ["grass", "flying"],
+      "weight": 15
+    }
+  ],
+  "generation": 7,
+  "key": "rowlet",
+  "name": "Rowlet",
+  "names": {
+    "de": "Bauz",
+    "en": "Rowlet",
+    "es": "Rowlet",
+    "es-419": "Rowlet",
+    "fr": "Brindibou",
+    "it": "Rowlet",
+    "ja": "モクロー",
+    "ja-hrkt": "モクロー",
+    "ja-roma": "Mokuroh",
+    "ko": "나몰빼미",
+    "zh-hans": "木木枭",
+    "zh-hant": "木木梟"
+  },
+  "number": 722
+}

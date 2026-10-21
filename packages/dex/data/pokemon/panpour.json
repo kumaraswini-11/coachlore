@@ -1,0 +1,223 @@
+{
+  "category": "Spray Pokémon",
+  "entries": [
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+      "version": "black"
+    },
+    {
+      "text": "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
+      "version": "white"
+    },
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+      "version": "black-2"
+    },
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+      "version": "white-2"
+    },
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+      "version": "x"
+    },
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+      "version": "y"
+    },
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "panpour",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone"
+      },
+      "from": "panpour",
+      "to": "simipour",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "torrent"
+        }
+      ],
+      "artwork": "/dex-images/artwork/panpour.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "dreamyard-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "grass-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "dreamyard-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "grass-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "legends-za"],
+      "gen9": false,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "panpour",
+      "kind": "default",
+      "name": "Panpour",
+      "number": 515,
+      "pokemon": "panpour",
+      "sourceId": 515,
+      "sprite": "/dex-images/sprites/panpour.webp",
+      "statTotal": 316,
+      "stats": {
+        "attack": 53,
+        "defense": 48,
+        "hp": 50,
+        "special-attack": 53,
+        "special-defense": 48,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 135
+    }
+  ],
+  "generation": 5,
+  "key": "panpour",
+  "name": "Panpour",
+  "names": {
+    "de": "Sodamak",
+    "en": "Panpour",
+    "es": "Panpour",
+    "es-419": "Panpour",
+    "fr": "Flotajou",
+    "it": "Panpour",
+    "ja": "ヒヤップ",
+    "ja-hrkt": "ヒヤップ",
+    "ja-roma": "Hiyappu",
+    "ko": "앗차프",
+    "zh-hans": "冷水猴",
+    "zh-hant": "冷水猴"
+  },
+  "number": 515
+}

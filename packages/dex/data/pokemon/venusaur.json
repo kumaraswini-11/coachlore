@@ -1,0 +1,342 @@
+{
+  "category": "Seed Pokémon",
+  "entries": [
+    {
+      "text": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+      "version": "red"
+    },
+    {
+      "text": "The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+      "version": "blue"
+    },
+    {
+      "text": "The flower on its back catches the sun's rays. The sunlight is then absorbed and used for energy.",
+      "version": "yellow"
+    },
+    {
+      "text": "By spreading the broad petals of its flower and catching the sun's rays, it fills its body with power.",
+      "version": "gold"
+    },
+    {
+      "text": "It is able to convert sunlight into energy. As a result, it is more powerful in the summertime.",
+      "version": "silver"
+    },
+    {
+      "text": "As it warms itself and absorbs the sunlight, its flower petals release a pleasant fragrance.",
+      "version": "crystal"
+    },
+    {
+      "text": "There is a large flower on VENUSAUR’s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+      "version": "ruby"
+    },
+    {
+      "text": "There is a large flower on VENUSAUR’s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+      "version": "sapphire"
+    },
+    {
+      "text": "VENUSAUR’s flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+      "version": "emerald"
+    },
+    {
+      "text": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
+      "version": "firered"
+    },
+    {
+      "text": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "diamond"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "pearl"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "platinum"
+    },
+    {
+      "text": "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is able to convert sunlight into energy. As a result, it is more powerful in the summertime.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "black"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "white"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "black-2"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "white-2"
+    },
+    {
+      "text": "By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.",
+      "version": "x"
+    },
+    {
+      "text": "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.",
+      "version": "y"
+    },
+    {
+      "text": "There is a large flower on Venusaur’s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "There is a large flower on Venusaur’s back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The flower on its back catches the sun’s rays. The sunlight is then absorbed and used for energy.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "The flower on its back catches the sun’s rays. The sunlight is then absorbed and used for energy.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+      "version": "sword"
+    },
+    {
+      "text": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bulbasaur",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "bulbasaur",
+      "to": "ivysaur",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "ivysaur",
+      "to": "venusaur",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "chlorophyll"
+        }
+      ],
+      "artwork": "/dex-images/artwork/venusaur.webp",
+      "encounters": {
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 50,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 50,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "venusaur",
+      "kind": "default",
+      "name": "Venusaur",
+      "number": 3,
+      "pokemon": "venusaur",
+      "sourceId": 3,
+      "sprite": "/dex-images/sprites/venusaur.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 82,
+        "defense": 83,
+        "hp": 80,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 1000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "chlorophyll"
+        }
+      ],
+      "artwork": "/dex-images/artwork/venusaur-gmax.webp",
+      "encounters": {
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 5,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 5,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 240,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "venusaur-gmax",
+      "kind": "gigantamax",
+      "name": "Venusaur-Gmax",
+      "number": 3,
+      "pokemon": "venusaur",
+      "sourceId": 10195,
+      "sprite": "/dex-images/sprites/venusaur-gmax.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 82,
+        "defense": 83,
+        "hp": 80,
+        "special-attack": 100,
+        "special-defense": 100,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 10000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/venusaur-mega.webp",
+      "encounters": {},
+      "formName": "Mega Venusaur",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 24,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "venusaur-mega",
+      "kind": "mega",
+      "name": "Venusaur-Mega",
+      "number": 3,
+      "pokemon": "venusaur",
+      "sourceId": 10033,
+      "sprite": "/dex-images/sprites/venusaur-mega.webp",
+      "statTotal": 625,
+      "stats": {
+        "attack": 100,
+        "defense": 123,
+        "hp": 80,
+        "special-attack": 122,
+        "special-defense": 120,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 1555
+    }
+  ],
+  "generation": 1,
+  "key": "venusaur",
+  "name": "Venusaur",
+  "names": {
+    "de": "Bisaflor",
+    "en": "Venusaur",
+    "es": "Venusaur",
+    "es-419": "Venusaur",
+    "fr": "Florizarre",
+    "it": "Venusaur",
+    "ja": "フシギバナ",
+    "ja-hrkt": "フシギバナ",
+    "ja-roma": "Fushigibana",
+    "ko": "이상해꽃",
+    "zh-hans": "妙蛙花",
+    "zh-hant": "妙蛙花"
+  },
+  "number": 3
+}

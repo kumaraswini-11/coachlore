@@ -1,0 +1,263 @@
+{
+  "category": "Apple Wing Pokémon",
+  "entries": [
+    {
+      "text": "It ate a sour apple, and that induced its evolution. In its cheeks, it stores an acid capable of causing chemical burns.",
+      "version": "sword"
+    },
+    {
+      "text": "It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "applin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "tart-apple"
+      },
+      "from": "applin",
+      "to": "flapple",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sweet-apple"
+      },
+      "from": "applin",
+      "to": "appletun",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "syrupy-apple"
+      },
+      "from": "applin",
+      "to": "dipplin",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-cheer"
+      },
+      "from": "dipplin",
+      "to": "hydrapple",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "ripen"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "hustle"
+        }
+      ],
+      "artwork": "/dex-images/artwork/flapple.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 5,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 2,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 2,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 2,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 115,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "flapple",
+      "kind": "default",
+      "name": "Flapple",
+      "number": 841,
+      "pokemon": "flapple",
+      "sourceId": 841,
+      "sprite": "/dex-images/sprites/flapple.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 110,
+        "defense": 80,
+        "hp": 70,
+        "special-attack": 95,
+        "special-defense": 60,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 10
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "ripen"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "hustle"
+        }
+      ],
+      "artwork": "/dex-images/artwork/flapple-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 10,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 240,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "flapple-gmax",
+      "kind": "gigantamax",
+      "name": "Flapple-Gmax",
+      "number": 841,
+      "pokemon": "flapple",
+      "sourceId": 10216,
+      "sprite": "/dex-images/sprites/flapple-gmax.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 110,
+        "defense": 80,
+        "hp": 70,
+        "special-attack": 95,
+        "special-defense": 60,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "flapple",
+  "name": "Flapple",
+  "names": {
+    "de": "Drapfel",
+    "en": "Flapple",
+    "es": "Flapple",
+    "es-419": "Flapple",
+    "fr": "Pomdrapi",
+    "it": "Flapple",
+    "ja": "アップリュー",
+    "ja-hrkt": "アップリュー",
+    "ja-roma": "Appryu",
+    "ko": "애프룡",
+    "zh-hans": "苹裹龙",
+    "zh-hant": "蘋裹龍"
+  },
+  "number": 841
+}

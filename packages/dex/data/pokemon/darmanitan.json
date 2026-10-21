@@ -1,0 +1,401 @@
+{
+  "category": "Blazing Pokémon",
+  "entries": [
+    {
+      "text": "Its internal fire burns at 2,500° F, making enough power that it can destroy a dump truck with one punch.",
+      "version": "black"
+    },
+    {
+      "text": "When weakened in battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
+      "version": "white"
+    },
+    {
+      "text": "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+      "version": "black-2"
+    },
+    {
+      "text": "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+      "version": "white-2"
+    },
+    {
+      "text": "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+      "version": "x"
+    },
+    {
+      "text": "Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.",
+      "version": "y"
+    },
+    {
+      "text": "When one is injured in a fierce battle, it hardens into a stone-like form. Then it meditates and sharpens its mind.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its internal fire burns at 2,500 degrees Fahrenheit, making enough power that it can destroy a dump truck with one punch.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The thick arms of this hot-blooded Pokémon can deliver punches capable of obliterating a dump truck.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon’s power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "darumaka",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "darumaka",
+      "to": "darmanitan",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "darmanitan-galar-standard",
+        "item": "ice-stone",
+        "required_pokemon_form": "darumaka-galar"
+      },
+      "from": "darumaka",
+      "to": "darmanitan",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "zen-mode"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darmanitan-standard.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-island-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-island-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-mountain-north-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "mirage-spot-island-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-island-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-mountain-north-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ]
+      },
+      "formName": "Standard Mode",
+      "games": ["black-white", "black-2-white-2"],
+      "gen9": false,
+      "generation": 5,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "darmanitan-standard",
+      "kind": "default",
+      "name": "Darmanitan",
+      "number": 555,
+      "pokemon": "darmanitan",
+      "sourceId": 555,
+      "sprite": "/dex-images/sprites/darmanitan-standard.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 140,
+        "defense": 55,
+        "hp": 105,
+        "special-attack": 30,
+        "special-defense": 55,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 929
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gorilla-tactics"
+        },
+        {
+          "hidden": true,
+          "key": "zen-mode"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darmanitan-galar-standard.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 70,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Galarian Form",
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 8,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "darmanitan-galar-standard",
+      "kind": "regional",
+      "name": "Darmanitan-Galar-Standard",
+      "number": 555,
+      "pokemon": "darmanitan",
+      "sourceId": 10177,
+      "sprite": "/dex-images/sprites/darmanitan-galar-standard.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 140,
+        "defense": 55,
+        "hp": 105,
+        "special-attack": 30,
+        "special-defense": 55,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 1200
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gorilla-tactics"
+        },
+        {
+          "hidden": true,
+          "key": "zen-mode"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darmanitan-galar-zen.webp",
+      "encounters": {},
+      "formName": "Zen Mode",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 17,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "darmanitan-galar-zen",
+      "kind": "other",
+      "name": "Darmanitan-Galar-Zen",
+      "number": 555,
+      "pokemon": "darmanitan",
+      "sourceId": 10178,
+      "sprite": "/dex-images/sprites/darmanitan-galar-zen.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 160,
+        "defense": 55,
+        "hp": 105,
+        "special-attack": 30,
+        "special-defense": 55,
+        "speed": 135
+      },
+      "tags": [],
+      "types": ["ice", "fire"],
+      "weight": 1200
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "zen-mode"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darmanitan-zen.webp",
+      "encounters": {},
+      "formName": "Zen Mode",
+      "games": [],
+      "gen9": false,
+      "generation": 5,
+      "height": 13,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "darmanitan-zen",
+      "kind": "other",
+      "name": "Darmanitan-Zen",
+      "number": 555,
+      "pokemon": "darmanitan",
+      "sourceId": 10017,
+      "sprite": "/dex-images/sprites/darmanitan-zen.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 30,
+        "defense": 105,
+        "hp": 105,
+        "special-attack": 140,
+        "special-defense": 105,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["fire", "psychic"],
+      "weight": 929
+    }
+  ],
+  "generation": 5,
+  "key": "darmanitan",
+  "name": "Darmanitan",
+  "names": {
+    "de": "Flampivian",
+    "en": "Darmanitan",
+    "es": "Darmanitan",
+    "es-419": "Darmanitan",
+    "fr": "Darumacho",
+    "it": "Darmanitan",
+    "ja": "ヒヒダルマ",
+    "ja-hrkt": "ヒヒダルマ",
+    "ja-roma": "Hihidaruma",
+    "ko": "불비달마",
+    "zh-hans": "达摩狒狒",
+    "zh-hant": "達摩狒狒"
+  },
+  "number": 555
+}

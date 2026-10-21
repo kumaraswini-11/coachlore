@@ -1,0 +1,92 @@
+{
+  "category": "Ostrich Pokémon",
+  "entries": [
+    {
+      "text": "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "flittle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "flittle",
+      "to": "espathra",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "opportunist"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/espathra.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "espathra",
+      "kind": "default",
+      "name": "Espathra",
+      "number": 956,
+      "pokemon": "espathra",
+      "sourceId": 956,
+      "sprite": "/dex-images/sprites/espathra.webp",
+      "statTotal": 481,
+      "stats": {
+        "attack": 60,
+        "defense": 60,
+        "hp": 95,
+        "special-attack": 101,
+        "special-defense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 900
+    }
+  ],
+  "generation": 9,
+  "key": "espathra",
+  "name": "Espathra",
+  "names": {
+    "de": "Psiopatra",
+    "en": "Espathra",
+    "es": "Espathra",
+    "es-419": "Espathra",
+    "fr": "Cléopsytra",
+    "it": "Espathra",
+    "ja": "クエスパトラ",
+    "ja-hrkt": "クエスパトラ",
+    "ja-roma": "Cuespatra",
+    "ko": "클레스퍼트라",
+    "zh-hans": "超能艳鸵",
+    "zh-hant": "超能艷鴕"
+  },
+  "number": 956
+}

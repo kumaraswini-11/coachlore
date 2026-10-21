@@ -1,0 +1,499 @@
+{
+  "category": "Lava Pokémon",
+  "entries": [
+    {
+      "text": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+      "version": "gold"
+    },
+    {
+      "text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+      "version": "silver"
+    },
+    {
+      "text": "These group together in areas that are hotter than normal. If it cools off, its skin hardens.",
+      "version": "crystal"
+    },
+    {
+      "text": "Molten magma courses throughout SLUGMA’s circulatory system. If this POKéMON is chilled, the magma cools and hardens. Its body turns brittle and chunks fall off, reducing its size.",
+      "version": "ruby"
+    },
+    {
+      "text": "SLUGMA does not have any blood in its body. Instead, intensely hot magma circulates throughout this POKéMON’s body, carrying essential nutrients and oxygen to its organs.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is a species of POKéMON that lives in volcanic areas. If its body cools, its skin hardens and immobilizes it. To avoid that, it sleeps near magma.",
+      "version": "emerald"
+    },
+    {
+      "text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+      "version": "firered"
+    },
+    {
+      "text": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "platinum"
+    },
+    {
+      "text": "It never sleeps. It has to keep moving because if it stopped, its magma body would cool and harden.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "black"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "white"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "white-2"
+    },
+    {
+      "text": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+      "version": "x"
+    },
+    {
+      "text": "Its body is made of magma. If it doesn’t keep moving, its body will cool and harden.",
+      "version": "y"
+    },
+    {
+      "text": "Molten magma courses throughout Slugma’s circulatory system. If this Pokémon is chilled, the magma cools and hardens. Its body turns brittle and chunks fall off, reducing its size.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Slugma does not have any blood in its body. Instead, intensely hot magma circulates throughout this Pokémon’s body, carrying essential nutrients and oxygen to its organs.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "slugma",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "slugma",
+      "to": "magcargo",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "magma-armor"
+        },
+        {
+          "hidden": false,
+          "key": "flame-body"
+        },
+        {
+          "hidden": true,
+          "key": "weak-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slugma.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "fiery-path-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-town-duel-square",
+            "maxLevel": 30,
+            "method": "snag",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-17-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 21,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 21,
+            "location": "stark-mountain-inside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "fiery-path-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-route-113-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "firered": [
+          {
+            "chance": 30,
+            "location": "mt-ember-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 60,
+            "location": "mt-ember-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 190,
+            "location": "mt-ember-b3f",
+            "maxLevel": 35,
+            "method": "rock-smash",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "mt-ember-b3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "gold": [
+          {
+            "chance": 15,
+            "location": "kanto-route-16-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-18-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 100,
+            "location": "violet-city-pokemon-center",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 30,
+            "location": "mt-ember-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 60,
+            "location": "mt-ember-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 190,
+            "location": "mt-ember-b3f",
+            "maxLevel": 35,
+            "method": "rock-smash",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "mt-ember-b3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "fiery-path-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 21,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 21,
+            "location": "stark-mountain-inside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-inside",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "fiery-path-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "fiery-path-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 15,
+            "location": "kanto-route-16-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-18-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 100,
+            "location": "violet-city-pokemon-center",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 34,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rock-smash",
+            "minLevel": 26
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 34,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rock-smash",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "slugma",
+      "kind": "default",
+      "name": "Slugma",
+      "number": 218,
+      "pokemon": "slugma",
+      "sourceId": 218,
+      "sprite": "/dex-images/sprites/slugma.webp",
+      "statTotal": 250,
+      "stats": {
+        "attack": 40,
+        "defense": 40,
+        "hp": 40,
+        "special-attack": 70,
+        "special-defense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 350
+    }
+  ],
+  "generation": 2,
+  "key": "slugma",
+  "name": "Slugma",
+  "names": {
+    "de": "Schneckmag",
+    "en": "Slugma",
+    "es": "Slugma",
+    "es-419": "Slugma",
+    "fr": "Limagma",
+    "it": "Slugma",
+    "ja": "マグマッグ",
+    "ja-hrkt": "マグマッグ",
+    "ja-roma": "Magmag",
+    "ko": "마그마그",
+    "zh-hans": "熔岩虫",
+    "zh-hant": "熔岩蟲"
+  },
+  "number": 218
+}

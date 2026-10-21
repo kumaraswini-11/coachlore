@@ -1,0 +1,89 @@
+{
+  "category": "Big Horn Pokémon",
+  "entries": [
+    {
+      "text": "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "stantler",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_move_count": 20,
+        "used_move": "psyshield-bash"
+      },
+      "from": "stantler",
+      "to": "wyrdeer",
+      "trigger": "agile-style-move"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/wyrdeer.webp",
+      "encounters": {},
+      "games": ["legends-arceus", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "wyrdeer",
+      "kind": "default",
+      "name": "Wyrdeer",
+      "number": 899,
+      "pokemon": "wyrdeer",
+      "sourceId": 899,
+      "sprite": "/dex-images/sprites/wyrdeer.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 105,
+        "defense": 72,
+        "hp": 103,
+        "special-attack": 105,
+        "special-defense": 75,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["normal", "psychic"],
+      "weight": 951
+    }
+  ],
+  "generation": 8,
+  "key": "wyrdeer",
+  "name": "Wyrdeer",
+  "names": {
+    "de": "Damythir",
+    "en": "Wyrdeer",
+    "es": "Wyrdeer",
+    "es-419": "Wyrdeer",
+    "fr": "Cerbyllin",
+    "it": "Wyrdeer",
+    "ja": "アヤシシ",
+    "ja-hrkt": "アヤシシ",
+    "ja-roma": "Ayashishi",
+    "ko": "신비록",
+    "zh-hans": "诡角鹿",
+    "zh-hant": "詭角鹿"
+  },
+  "number": 899
+}

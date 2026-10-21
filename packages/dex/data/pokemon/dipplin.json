@@ -1,0 +1,116 @@
+{
+  "category": "Candy Apple Pokémon",
+  "entries": [
+    {
+      "text": "Dipplin is two creatures in one Pokémon. Its evolution was triggered by a special apple grown only in one place.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "applin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "tart-apple"
+      },
+      "from": "applin",
+      "to": "flapple",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sweet-apple"
+      },
+      "from": "applin",
+      "to": "appletun",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "syrupy-apple"
+      },
+      "from": "applin",
+      "to": "dipplin",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-cheer"
+      },
+      "from": "dipplin",
+      "to": "hydrapple",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "supersweet-syrup"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "sticky-hold"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dipplin.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 9,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dipplin",
+      "kind": "default",
+      "name": "Dipplin",
+      "number": 1011,
+      "pokemon": "dipplin",
+      "sourceId": 1011,
+      "sprite": "/dex-images/sprites/dipplin.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 80,
+        "defense": 110,
+        "hp": 80,
+        "special-attack": 95,
+        "special-defense": 80,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 97
+    }
+  ],
+  "generation": 9,
+  "key": "dipplin",
+  "name": "Dipplin",
+  "names": {
+    "de": "Sirapfel",
+    "en": "Dipplin",
+    "es": "Dipplin",
+    "es-419": "Dipplin",
+    "fr": "Pomdramour",
+    "it": "Dipplin",
+    "ja": "カミッチュ",
+    "ja-hrkt": "カミッチュ",
+    "ja-roma": "Kamicchu",
+    "ko": "과미르",
+    "zh-hans": "裹蜜虫",
+    "zh-hant": "裹蜜蟲"
+  },
+  "number": 1011
+}

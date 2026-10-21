@@ -1,0 +1,263 @@
+{
+  "category": "Jubilee Pokémon",
+  "entries": [
+    {
+      "text": "It will never appear where there is strife. Its sightings have become rare recently.",
+      "version": "diamond"
+    },
+    {
+      "text": "It will never appear where there is strife. Its sightings have become rare recently.",
+      "version": "pearl"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "platinum"
+    },
+    {
+      "text": "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+      "version": "heartgold"
+    },
+    {
+      "text": "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "black"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "white"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "black-2"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "white-2"
+    },
+    {
+      "text": "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+      "version": "x"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "y"
+    },
+    {
+      "text": "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It shares many blessings with people who respect one another’s rights and avoid needless strife.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they’ve hardly been seen at all.",
+      "version": "sword"
+    },
+    {
+      "text": "Known as a bringer of blessings, it’s been depicted on good-luck charms since ancient times.",
+      "version": "shield"
+    },
+    {
+      "text": "Scant few have ever sighted this Pokémon. After studying what literature remains, I am certain Togekiss will reveal itself when peace reigns in the land.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "togepi",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "togepi",
+      "to": "togetic",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "togetic",
+      "to": "togekiss",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": true,
+          "key": "super-luck"
+        }
+      ],
+      "artwork": "/dex-images/artwork/togekiss.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "island-scan",
+            "minLevel": 59
+          }
+        ],
+        "shield": [
+          {
+            "chance": 15,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 4,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 54
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "island-scan",
+            "minLevel": 59
+          }
+        ],
+        "sword": [
+          {
+            "chance": 15,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 4,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 54
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["platinum", "sword-shield", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "togekiss",
+      "kind": "default",
+      "name": "Togekiss",
+      "number": 468,
+      "pokemon": "togekiss",
+      "sourceId": 468,
+      "sprite": "/dex-images/sprites/togekiss.webp",
+      "statTotal": 545,
+      "stats": {
+        "attack": 50,
+        "defense": 95,
+        "hp": 85,
+        "special-attack": 120,
+        "special-defense": 115,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["fairy", "flying"],
+      "weight": 380
+    }
+  ],
+  "generation": 4,
+  "key": "togekiss",
+  "name": "Togekiss",
+  "names": {
+    "de": "Togekiss",
+    "en": "Togekiss",
+    "es": "Togekiss",
+    "es-419": "Togekiss",
+    "fr": "Togekiss",
+    "it": "Togekiss",
+    "ja": "トゲキッス",
+    "ja-hrkt": "トゲキッス",
+    "ja-roma": "Togekiss",
+    "ko": "토게키스",
+    "zh-hans": "波克基斯",
+    "zh-hant": "波克基斯"
+  },
+  "number": 468
+}

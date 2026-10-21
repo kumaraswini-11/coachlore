@@ -1,0 +1,104 @@
+{
+  "category": "Couple Pokémon",
+  "entries": [
+    {
+      "text": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tandemaus",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 99,
+        "evolved_pokemon_form": "maushold-family-of-four",
+        "min_level": 25
+      },
+      "from": "tandemaus",
+      "to": "maushold",
+      "trigger": "in-battle-level-up"
+    },
+    {
+      "conditions": {
+        "chance": 1,
+        "evolved_pokemon_form": "maushold-family-of-three",
+        "min_level": 25
+      },
+      "from": "tandemaus",
+      "to": "maushold",
+      "trigger": "in-battle-level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": true,
+          "key": "own-tempo"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tandemaus.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tandemaus",
+      "kind": "default",
+      "name": "Tandemaus",
+      "number": 924,
+      "pokemon": "tandemaus",
+      "sourceId": 924,
+      "sprite": "/dex-images/sprites/tandemaus.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 50,
+        "defense": 45,
+        "hp": 50,
+        "special-attack": 40,
+        "special-defense": 45,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 18
+    }
+  ],
+  "generation": 9,
+  "key": "tandemaus",
+  "name": "Tandemaus",
+  "names": {
+    "de": "Zwieps",
+    "en": "Tandemaus",
+    "es": "Tandemaus",
+    "es-419": "Tandemaus",
+    "fr": "Compagnol",
+    "it": "Tandemaus",
+    "ja": "ワッカネズミ",
+    "ja-hrkt": "ワッカネズミ",
+    "ja-roma": "Wakkanezumi",
+    "ko": "두리쥐",
+    "zh-hans": "一对鼠",
+    "zh-hant": "一對鼠"
+  },
+  "number": 924
+}

@@ -1,0 +1,193 @@
+{
+  "category": "Formidable Pokémon",
+  "entries": [
+    {
+      "text": "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+      "version": "black"
+    },
+    {
+      "text": "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
+      "version": "white"
+    },
+    {
+      "text": "In the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.",
+      "version": "black-2"
+    },
+    {
+      "text": "In the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.",
+      "version": "white-2"
+    },
+    {
+      "text": "In the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.",
+      "version": "x"
+    },
+    {
+      "text": "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+      "version": "y"
+    },
+    {
+      "text": "In the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oshawott",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "oshawott",
+      "to": "dewott",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "dewott",
+      "to": "samurott",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "samurott-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "dewott",
+      "to": "samurott",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/samurott.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "island-scan",
+            "minLevel": 43
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "island-scan",
+            "minLevel": 43
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "samurott",
+      "kind": "default",
+      "name": "Samurott",
+      "number": 503,
+      "pokemon": "samurott",
+      "sourceId": 503,
+      "sprite": "/dex-images/sprites/samurott.webp",
+      "statTotal": 528,
+      "stats": {
+        "attack": 100,
+        "defense": 85,
+        "hp": 95,
+        "special-attack": 108,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 946
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "sharpness"
+        }
+      ],
+      "artwork": "/dex-images/artwork/samurott-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "samurott-hisui",
+      "kind": "regional",
+      "name": "Samurott-Hisui",
+      "number": 503,
+      "pokemon": "samurott",
+      "sourceId": 10236,
+      "sprite": "/dex-images/sprites/samurott-hisui.webp",
+      "statTotal": 528,
+      "stats": {
+        "attack": 108,
+        "defense": 80,
+        "hp": 90,
+        "special-attack": 100,
+        "special-defense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water", "dark"],
+      "weight": 582
+    }
+  ],
+  "generation": 5,
+  "key": "samurott",
+  "name": "Samurott",
+  "names": {
+    "de": "Admurai",
+    "en": "Samurott",
+    "es": "Samurott",
+    "es-419": "Samurott",
+    "fr": "Clamiral",
+    "it": "Samurott",
+    "ja": "ダイケンキ",
+    "ja-hrkt": "ダイケンキ",
+    "ja-roma": "Daikenki",
+    "ko": "대검귀",
+    "zh-hans": "大剑鬼",
+    "zh-hant": "大劍鬼"
+  },
+  "number": 503
+}

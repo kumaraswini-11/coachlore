@@ -1,0 +1,925 @@
+{
+  "category": "Snow Hat Pokémon",
+  "entries": [
+    {
+      "text": "SNORUNT live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this POKéMON steals away to live quietly among stalactites and stalagmites deep in caverns.",
+      "version": "ruby"
+    },
+    {
+      "text": "SNORUNT survives by eating only snow and ice. Old folklore claims that a house visited by this POKéMON is sure to prosper for many generations to come.",
+      "version": "sapphire"
+    },
+    {
+      "text": "They tend to move about in groups of around five SNORUNT. In snowy regions, it is said that when they are seen late at night, snowfall will arrive by morning.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is said that a home visited by a SNORUNT will prosper. It can withstand cold of minus 150 degrees Fahrenheit.",
+      "version": "firered"
+    },
+    {
+      "text": "It is said that a home visited by a SNORUNT will prosper. It can withstand cold of minus 150 degrees Fahrenheit.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there.",
+      "version": "diamond"
+    },
+    {
+      "text": "In the snow country, certain folklore says a house will prosper if a SNORUNT lives there.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is said that several SNORUNT gather under giant leaves and live together in harmony.",
+      "version": "platinum"
+    },
+    {
+      "text": "It’s said that if they are seen at midnight, they’ll cause heavy snow. They eat snow and ice to survive.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It’s said that if they are seen at midnight, they’ll cause heavy snow. They eat snow and ice to survive.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+      "version": "black"
+    },
+    {
+      "text": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+      "version": "white"
+    },
+    {
+      "text": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+      "version": "x"
+    },
+    {
+      "text": "In the snow country, certain folklore says a house will prosper if a Snorunt lives there.",
+      "version": "y"
+    },
+    {
+      "text": "Snorunt live in regions with heavy snowfall. In seasons without snow, such as spring and summer, this Pokémon steals away to live quietly among stalactites and stalagmites deep in caverns.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Snorunt survives by eating only snow and ice. Old folklore claims that a house visited by this Pokémon is sure to prosper for many generations to come.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Their numbers seem to have rapidly increased in Alola. Custom has it that houses where Snorunt live will be prosperous for generations to come.",
+      "version": "sun"
+    },
+    {
+      "text": "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
+      "version": "moon"
+    },
+    {
+      "text": "It feeds mainly on ice and snow. It’s only able to survive in a limited number of places in the warm Alola region.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Rich people from cold areas all share childhood memories of playing with Snorunt.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It’s said that if they are seen at midnight, they’ll cause heavy snow. They eat snow and ice to survive.",
+      "version": "sword"
+    },
+    {
+      "text": "It can only survive in cold areas. It bounces happily around, even in environments as cold as −150 degrees Fahrenheit.",
+      "version": "shield"
+    },
+    {
+      "text": "Arrives alongside the first snow. It's thought that homes Snorunt visit will prosper for many generations. By tradition, one might offer a lump of ice made from pure water at one's front door.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snorunt",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "snorunt",
+      "to": "glalie",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "item": "dawn-stone"
+      },
+      "from": "snorunt",
+      "to": "froslass",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "ice-body"
+        },
+        {
+          "hidden": true,
+          "key": "moody"
+        }
+      ],
+      "artwork": "/dex-images/artwork/snorunt.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "lake-acuity-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "shield": [
+          {
+            "chance": 120,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 220,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 220,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 140,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 55,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 216,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 216,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 90,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 140,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 140,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 80,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 55,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 180,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 180,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 120,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 220,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 220,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 140,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 216,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 216,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 90,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 140,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 140,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 80,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 55,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 180,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 180,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 155,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 155,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 45,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 155,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 155,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 155,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 45,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "phenac-city-mayors-house",
+            "maxLevel": 20,
+            "method": "snag",
+            "minLevel": 20
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "platinum", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 3,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "snorunt",
+      "kind": "default",
+      "name": "Snorunt",
+      "number": 361,
+      "pokemon": "snorunt",
+      "sourceId": 361,
+      "sprite": "/dex-images/sprites/snorunt.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 50,
+        "defense": 50,
+        "hp": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 168
+    }
+  ],
+  "generation": 3,
+  "key": "snorunt",
+  "name": "Snorunt",
+  "names": {
+    "de": "Schneppke",
+    "en": "Snorunt",
+    "es": "Snorunt",
+    "es-419": "Snorunt",
+    "fr": "Stalgamin",
+    "it": "Snorunt",
+    "ja": "ユキワラシ",
+    "ja-hrkt": "ユキワラシ",
+    "ja-roma": "Yukiwarashi",
+    "ko": "눈꼬마",
+    "zh-hans": "雪童子",
+    "zh-hant": "雪童子"
+  },
+  "number": 361
+}

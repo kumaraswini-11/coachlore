@@ -1,0 +1,1068 @@
+{
+  "category": "Balloon Pokémon",
+  "entries": [
+    {
+      "text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+      "version": "gold"
+    },
+    {
+      "text": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+      "version": "silver"
+    },
+    {
+      "text": "When faced with a larger opponent, it swallows as much water as it can to match the opponent's size.",
+      "version": "crystal"
+    },
+    {
+      "text": "QWILFISH sucks in water, inflating itself. This POKéMON uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.",
+      "version": "ruby"
+    },
+    {
+      "text": "QWILFISH sucks in water, inflating itself. This POKéMON uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A QWILFISH uses the pressure of water it swallows to shoot toxic quills all at once from all over its body. It finds swimming to be somewhat challenging.",
+      "version": "emerald"
+    },
+    {
+      "text": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+      "version": "firered"
+    },
+    {
+      "text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "diamond"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "pearl"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "platinum"
+    },
+    {
+      "text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "black"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "white"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "black-2"
+    },
+    {
+      "text": "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+      "version": "white-2"
+    },
+    {
+      "text": "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+      "version": "x"
+    },
+    {
+      "text": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+      "version": "y"
+    },
+    {
+      "text": "Qwilfish sucks in water, inflating itself. This Pokémon uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Qwilfish sucks in water, inflating itself. This Pokémon uses the pressure of the water it swallowed to shoot toxic quills all at once from all over its body. It finds swimming somewhat challenging.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When faced with a larger opponent, it swallows as much water as it can to match the opponent’s size.",
+      "version": "sword"
+    },
+    {
+      "text": "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+      "version": "shield"
+    },
+    {
+      "text": "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "qwilfish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "barb-barrage",
+        "required_pokemon_form": "qwilfish-hisui"
+      },
+      "from": "qwilfish",
+      "to": "overqwil",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": true,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/qwilfish.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-4-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "virbank-city-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "virbank-complex-outer",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-cave-outside",
+            "maxLevel": 33,
+            "method": "snag",
+            "minLevel": 33
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 5,
+            "method": "old-rod",
+            "minLevel": 5
+          },
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-12-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 15,
+            "location": "iron-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "firered": [
+          {
+            "chance": 40,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "green-path-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "memorial-pillar-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "outcast-island-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "resort-gorgeous-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "tanoby-ruins-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "trainer-tower-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "water-labyrinth-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "water-path-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "gold": [
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 5,
+            "method": "old-rod",
+            "minLevel": 5
+          },
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-12-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 185,
+            "location": "johto-route-32-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 185,
+            "location": "johto-route-32-area",
+            "maxLevel": 10,
+            "method": "old-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 185,
+            "location": "johto-route-32-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-12-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 15,
+            "location": "iron-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 15,
+            "location": "iron-island-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 740,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 740,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-9-main",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 75,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "silver": [
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 5,
+            "method": "old-rod",
+            "minLevel": 5
+          },
+          {
+            "chance": 190,
+            "location": "johto-route-32-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-12-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 185,
+            "location": "johto-route-32-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 185,
+            "location": "johto-route-32-area",
+            "maxLevel": 10,
+            "method": "old-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 185,
+            "location": "johto-route-32-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-12-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "sword": [
+          {
+            "chance": 740,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 740,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-9-main",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 75,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 115,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 115,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 115,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-4-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "virbank-city-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "virbank-complex-outer",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "kalos-route-8-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "kalos-route-8-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "sword-shield", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "qwilfish",
+      "kind": "default",
+      "name": "Qwilfish",
+      "number": 211,
+      "pokemon": "qwilfish",
+      "sourceId": 211,
+      "sprite": "/dex-images/sprites/qwilfish.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 95,
+        "defense": 85,
+        "hp": 65,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water", "poison"],
+      "weight": 39
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": true,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/qwilfish-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "qwilfish-hisui",
+      "kind": "regional",
+      "name": "Qwilfish-Hisui",
+      "number": 211,
+      "pokemon": "qwilfish",
+      "sourceId": 10234,
+      "sprite": "/dex-images/sprites/qwilfish-hisui.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 95,
+        "defense": 85,
+        "hp": 65,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["dark", "poison"],
+      "weight": 39
+    }
+  ],
+  "generation": 2,
+  "key": "qwilfish",
+  "name": "Qwilfish",
+  "names": {
+    "de": "Baldorfish",
+    "en": "Qwilfish",
+    "es": "Qwilfish",
+    "es-419": "Qwilfish",
+    "fr": "Qwilfish",
+    "it": "Qwilfish",
+    "ja": "ハリーセン",
+    "ja-hrkt": "ハリーセン",
+    "ja-roma": "Harysen",
+    "ko": "침바루",
+    "zh-hans": "千针鱼",
+    "zh-hant": "千針魚"
+  },
+  "number": 211
+}

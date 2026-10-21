@@ -1,0 +1,683 @@
+{
+  "category": "Meditate Pokémon",
+  "entries": [
+    {
+      "text": "MEDITITE undertakes rigorous mental training deep in the mountains. However, whenever it meditates, this POKéMON always loses its concentration and focus. As a result, its training never ends.",
+      "version": "ruby"
+    },
+    {
+      "text": "MEDITITE heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this POKéMON’s training.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It continually meditates for hours every day. As a result of rigorous and dedicated yoga training, it has tempered its spiritual power so much it can fly.",
+      "version": "emerald"
+    },
+    {
+      "text": "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+      "version": "firered"
+    },
+    {
+      "text": "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+      "version": "diamond"
+    },
+    {
+      "text": "It never misses its daily yoga workouts, and it heightens its spiritual power through meditation.",
+      "version": "pearl"
+    },
+    {
+      "text": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+      "version": "platinum"
+    },
+    {
+      "text": "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+      "version": "black"
+    },
+    {
+      "text": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+      "version": "white"
+    },
+    {
+      "text": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+      "version": "black-2"
+    },
+    {
+      "text": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+      "version": "white-2"
+    },
+    {
+      "text": "It always trains deep in mountains. It levitates when it heightens its spiritual power through meditation.",
+      "version": "x"
+    },
+    {
+      "text": "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+      "version": "y"
+    },
+    {
+      "text": "Meditite undertakes rigorous mental training deep in the mountains. However, whenever it meditates, this Pokémon always loses its concentration and focus. As a result, its training never ends.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Meditite heightens its inner energy through meditation. It survives on just one berry a day. Minimal eating is another aspect of this Pokémon’s training.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "meditite",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "meditite",
+      "to": "medicham",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pure-power"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meditite.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 35,
+            "location": "mt-pyre-outside",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "mt-pyre-summit",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-cave-bf1",
+            "maxLevel": 33,
+            "method": "snag",
+            "minLevel": 33
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 41,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 25,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 52,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 51,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 61,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "bell-tower-10f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-3f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-4f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-5f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-6f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-7f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-8f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-9f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 20,
+            "location": "sprout-tower-2f",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sprout-tower-3f",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 35,
+            "location": "mt-pyre-outside",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "mt-pyre-summit",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 41,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 25,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 52,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 51,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 61,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 30,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "mt-pyre-outside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "mt-pyre-outside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "bell-tower-10f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-3f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-4f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-5f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-6f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-7f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-8f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "bell-tower-9f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 20,
+            "location": "sprout-tower-2f",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sprout-tower-3f",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "x": [
+          {
+            "chance": 30,
+            "location": "connecting-cave-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "pyrite-town-dukings-house",
+            "maxLevel": 20,
+            "method": "npc-trade",
+            "minLevel": 20
+          }
+        ],
+        "y": [
+          {
+            "chance": 30,
+            "location": "connecting-cave-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "x-y", "omega-ruby-alpha-sapphire", "brilliant-diamond-shining-pearl", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "meditite",
+      "kind": "default",
+      "name": "Meditite",
+      "number": 307,
+      "pokemon": "meditite",
+      "sourceId": 307,
+      "sprite": "/dex-images/sprites/meditite.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 40,
+        "defense": 55,
+        "hp": 30,
+        "special-attack": 40,
+        "special-defense": 55,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["fighting", "psychic"],
+      "weight": 112
+    }
+  ],
+  "generation": 3,
+  "key": "meditite",
+  "name": "Meditite",
+  "names": {
+    "de": "Meditie",
+    "en": "Meditite",
+    "es": "Meditite",
+    "es-419": "Meditite",
+    "fr": "Méditikka",
+    "it": "Meditite",
+    "ja": "アサナン",
+    "ja-hrkt": "アサナン",
+    "ja-roma": "Asanan",
+    "ko": "요가랑",
+    "zh-hans": "玛沙那",
+    "zh-hant": "瑪沙那"
+  },
+  "number": 307
+}

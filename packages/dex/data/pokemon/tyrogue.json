@@ -1,0 +1,623 @@
+{
+  "category": "Scuffle Pokémon",
+  "entries": [
+    {
+      "text": "It is always bursting with energy. To make it self stronger, it keeps on fighting even if it loses.",
+      "version": "gold"
+    },
+    {
+      "text": "Even though it is small, it can't be ignored because it will slug any handy target without warning.",
+      "version": "silver"
+    },
+    {
+      "text": "To brush up on its fighting skills, it will challenge anyone. It has a very strong competitive spirit.",
+      "version": "crystal"
+    },
+    {
+      "text": "TYROGUE becomes stressed out if it does not get to train every day. When raising this POKéMON, the TRAINER must establish and uphold various training methods.",
+      "version": "ruby"
+    },
+    {
+      "text": "TYROGUE becomes stressed out if it does not get to train every day. When raising this POKéMON, the TRAINER must establish and uphold various training methods.",
+      "version": "sapphire"
+    },
+    {
+      "text": "TYROGUE become stressed out if they do not get to train every day. When raising this POKéMON, the TRAINER must establish a regular training schedule.",
+      "version": "emerald"
+    },
+    {
+      "text": "Even though it is small, it can’t be ignored because it will slug any handy target without warning.",
+      "version": "firered"
+    },
+    {
+      "text": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Even though it is small, it can’t be ignored because it will slug any handy target without warning.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "black"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "white"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+      "version": "x"
+    },
+    {
+      "text": "To brush up on its fighting skills, it will challenge anyone. It has a very strong competitive spirit.",
+      "version": "y"
+    },
+    {
+      "text": "Tyrogue becomes stressed out if it does not get to train every day. When raising this Pokémon, the Trainer must establish and uphold various training methods.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Tyrogue becomes stressed out if it does not get to train every day. When raising this Pokémon, the Trainer must establish and uphold various training methods.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+      "version": "sword"
+    },
+    {
+      "text": "Even though it is small, it can’t be ignored because it will slug any handy target without warning.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tyrogue",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": 1
+      },
+      "from": "tyrogue",
+      "to": "hitmonlee",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": -1
+      },
+      "from": "tyrogue",
+      "to": "hitmonchan",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": 0
+      },
+      "from": "tyrogue",
+      "to": "hitmontop",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": false,
+          "key": "steadfast"
+        },
+        {
+          "hidden": true,
+          "key": "vital-spirit"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tyrogue.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "johto-route-34-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "shield": [
+          {
+            "chance": 4,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "galar-route-3-east",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 4,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 136,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 136,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "south-lake-miloch-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 4,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "galar-route-3-east",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 4,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 136,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 136,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "south-lake-miloch-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tyrogue",
+      "kind": "default",
+      "name": "Tyrogue",
+      "number": 236,
+      "pokemon": "tyrogue",
+      "sourceId": 236,
+      "sprite": "/dex-images/sprites/tyrogue.webp",
+      "statTotal": 210,
+      "stats": {
+        "attack": 35,
+        "defense": 35,
+        "hp": 35,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 210
+    }
+  ],
+  "generation": 2,
+  "key": "tyrogue",
+  "name": "Tyrogue",
+  "names": {
+    "de": "Rabauz",
+    "en": "Tyrogue",
+    "es": "Tyrogue",
+    "es-419": "Tyrogue",
+    "fr": "Debugant",
+    "it": "Tyrogue",
+    "ja": "バルキー",
+    "ja-hrkt": "バルキー",
+    "ja-roma": "Balkie",
+    "ko": "배루키",
+    "zh-hans": "无畏小子",
+    "zh-hant": "無畏小子"
+  },
+  "number": 236
+}

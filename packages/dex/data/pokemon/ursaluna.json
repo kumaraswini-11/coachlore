@@ -1,0 +1,133 @@
+{
+  "category": "Peat Pokémon",
+  "entries": [
+    {
+      "text": "I believe it was Hisui's swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "teddiursa",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "teddiursa",
+      "to": "ursaring",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "peat-block",
+        "time_of_day": "full-moon"
+      },
+      "from": "ursaring",
+      "to": "ursaluna",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": false,
+          "key": "bulletproof"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ursaluna.webp",
+      "encounters": {},
+      "games": ["legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 8,
+      "height": 24,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ursaluna",
+      "kind": "default",
+      "name": "Ursaluna",
+      "number": 901,
+      "pokemon": "ursaluna",
+      "sourceId": 901,
+      "sprite": "/dex-images/sprites/ursaluna.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 140,
+        "defense": 105,
+        "hp": 130,
+        "special-attack": 45,
+        "special-defense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ground", "normal"],
+      "weight": 2900
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "minds-eye"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ursaluna-bloodmoon.webp",
+      "encounters": {},
+      "formName": "Bloodmoon",
+      "games": [],
+      "gen9": true,
+      "generation": 9,
+      "height": 24,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "ursaluna-bloodmoon",
+      "kind": "other",
+      "name": "Ursaluna-Bloodmoon",
+      "number": 901,
+      "pokemon": "ursaluna",
+      "sourceId": 10272,
+      "sprite": "/dex-images/sprites/ursaluna-bloodmoon.webp",
+      "statTotal": 555,
+      "stats": {
+        "attack": 70,
+        "defense": 120,
+        "hp": 113,
+        "special-attack": 135,
+        "special-defense": 65,
+        "speed": 52
+      },
+      "tags": [],
+      "types": ["ground", "normal"],
+      "weight": 2900
+    }
+  ],
+  "generation": 8,
+  "key": "ursaluna",
+  "name": "Ursaluna",
+  "names": {
+    "de": "Ursaluna",
+    "en": "Ursaluna",
+    "es": "Ursaluna",
+    "es-419": "Ursaluna",
+    "fr": "Ursaking",
+    "it": "Ursaluna",
+    "ja": "ガチグマ",
+    "ja-hrkt": "ガチグマ",
+    "ja-roma": "Gachiguma",
+    "ko": "다투곰",
+    "zh-hans": "月月熊",
+    "zh-hant": "月月熊"
+  },
+  "number": 901
+}

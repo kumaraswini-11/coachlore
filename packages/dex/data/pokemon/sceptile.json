@@ -1,0 +1,215 @@
+{
+  "category": "Forest Pokémon",
+  "entries": [
+    {
+      "text": "The leaves growing on SCEPTILE’s body are very sharp edged. This POKéMON is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.",
+      "version": "ruby"
+    },
+    {
+      "text": "SCEPTILE has seeds growing on its back. They are said to be bursting with nutrients that revitalize trees. This POKéMON raises the trees in a forest with loving care.",
+      "version": "sapphire"
+    },
+    {
+      "text": "In the jungle, its power is without equal. This POKéMON carefully grows trees and plants. It regulates its body temperature by basking in sunlight.",
+      "version": "emerald"
+    },
+    {
+      "text": "The leaves on its forelegs are as sharp as swords. It agilely leaps about the branches of trees to strike.",
+      "version": "firered"
+    },
+    {
+      "text": "The leaves on its forelegs are as sharp as swords. It agilely leaps about the branches of trees to strike.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "diamond"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "pearl"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "platinum"
+    },
+    {
+      "text": "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "black"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "white"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "black-2"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "white-2"
+    },
+    {
+      "text": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+      "version": "x"
+    },
+    {
+      "text": "It agilely leaps about the jungle and uses the sharp leaves on its arms to strike its prey.",
+      "version": "y"
+    },
+    {
+      "text": "The leaves growing on Sceptile’s body are very sharp edged. This Pokémon is very agile—it leaps all over the branches of trees and jumps on its foe from above or behind.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Sceptile has seeds growing on its back. They are said to be bursting with nutrients that revitalize trees. This Pokémon raises the trees in a forest with loving care.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "treecko",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "treecko",
+      "to": "grovyle",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "grovyle",
+      "to": "sceptile",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "unburden"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sceptile.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sceptile",
+      "kind": "default",
+      "name": "Sceptile",
+      "number": 254,
+      "pokemon": "sceptile",
+      "sourceId": 254,
+      "sprite": "/dex-images/sprites/sceptile.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 85,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 105,
+        "special-defense": 85,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 522
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sceptile-mega.webp",
+      "encounters": {},
+      "formName": "Mega Sceptile",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 19,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "sceptile-mega",
+      "kind": "mega",
+      "name": "Sceptile-Mega",
+      "number": 254,
+      "pokemon": "sceptile",
+      "sourceId": 10065,
+      "sprite": "/dex-images/sprites/sceptile-mega.webp",
+      "statTotal": 630,
+      "stats": {
+        "attack": 110,
+        "defense": 75,
+        "hp": 70,
+        "special-attack": 145,
+        "special-defense": 85,
+        "speed": 145
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 552
+    }
+  ],
+  "generation": 3,
+  "key": "sceptile",
+  "name": "Sceptile",
+  "names": {
+    "de": "Gewaldro",
+    "en": "Sceptile",
+    "es": "Sceptile",
+    "es-419": "Sceptile",
+    "fr": "Jungko",
+    "it": "Sceptile",
+    "ja": "ジュカイン",
+    "ja-hrkt": "ジュカイン",
+    "ja-roma": "Jukain",
+    "ko": "나무킹",
+    "zh-hans": "蜥蜴王",
+    "zh-hant": "蜥蜴王"
+  },
+  "number": 254
+}

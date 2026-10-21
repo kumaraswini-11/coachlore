@@ -1,0 +1,348 @@
+{
+  "category": "Beehive Pokémon",
+  "entries": [
+    {
+      "text": "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by COMBEE.",
+      "version": "diamond"
+    },
+    {
+      "text": "When endangered, grubs from its six-cell honeycomb strike back. There is only one in a colony.",
+      "version": "pearl"
+    },
+    {
+      "text": "It releases various pheromones to make the grubs in its body do its bidding while fighting foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It raises grubs in the holes in its body. It secretes pheromones to control COMBEE.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It raises grubs in the holes in its body. It secretes pheromones to control COMBEE.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It releases various pheromones to make the grubs in its body do its bidding while fighting foes.",
+      "version": "black"
+    },
+    {
+      "text": "It releases various pheromones to make the grubs in its body do its bidding while fighting foes.",
+      "version": "white"
+    },
+    {
+      "text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+      "version": "black-2"
+    },
+    {
+      "text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+      "version": "white-2"
+    },
+    {
+      "text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+      "version": "x"
+    },
+    {
+      "text": "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
+      "version": "y"
+    },
+    {
+      "text": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It skillfully commands its grubs in battles with its enemies. The grubs are willing to risk their lives to defend Vespiquen.",
+      "version": "sword"
+    },
+    {
+      "text": "Vespiquen that give off more pheromones have larger swarms of Combee attendants.",
+      "version": "shield"
+    },
+    {
+      "text": "Commands its subjects to build its hive. It will dispatch any interlopers who dare sneak into its nest and use them as nourishment for itself.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "combee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "min_level": 21
+      },
+      "from": "combee",
+      "to": "vespiquen",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/vespiquen.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "grass-spots",
+            "minLevel": 38
+          }
+        ],
+        "shield": [
+          {
+            "chance": 20,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 365,
+            "location": "honeycalm-island-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "grass-spots",
+            "minLevel": 38
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "vespiquen",
+      "kind": "default",
+      "name": "Vespiquen",
+      "number": 416,
+      "pokemon": "vespiquen",
+      "sourceId": 416,
+      "sprite": "/dex-images/sprites/vespiquen.webp",
+      "statTotal": 474,
+      "stats": {
+        "attack": 80,
+        "defense": 102,
+        "hp": 70,
+        "special-attack": 80,
+        "special-defense": 102,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 385
+    }
+  ],
+  "generation": 4,
+  "key": "vespiquen",
+  "name": "Vespiquen",
+  "names": {
+    "de": "Honweisel",
+    "en": "Vespiquen",
+    "es": "Vespiquen",
+    "es-419": "Vespiquen",
+    "fr": "Apireine",
+    "it": "Vespiquen",
+    "ja": "ビークイン",
+    "ja-hrkt": "ビークイン",
+    "ja-roma": "Beequen",
+    "ko": "비퀸",
+    "zh-hans": "蜂女王",
+    "zh-hant": "蜂女王"
+  },
+  "number": 416
+}

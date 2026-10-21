@@ -1,0 +1,637 @@
+{
+  "category": "Fish Pokémon",
+  "entries": [
+    {
+      "text": "FEEBAS’s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this POKéMON is largely ignored. It is capable of living in both the sea and in rivers.",
+      "version": "ruby"
+    },
+    {
+      "text": "While FEEBAS’s body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this POKéMON is also slow and dimwitted, making it an easy catch.",
+      "version": "sapphire"
+    },
+    {
+      "text": "FEEBAS live in ponds that are heavily infested with weeds. Because of its hopelessly shabby appearance, it seems as if few TRAINERS raise it.",
+      "version": "emerald"
+    },
+    {
+      "text": "Ridiculed for its shabby appearance, it is ignored by researchers. It lives in ponds choked with weeds.",
+      "version": "firered"
+    },
+    {
+      "text": "Ridiculed for its shabby appearance, it is ignored by researchers. It lives in ponds choked with weeds.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is famous for its shabby appearance. While populous, they tend to cluster in set locations.",
+      "version": "diamond"
+    },
+    {
+      "text": "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "version": "black"
+    },
+    {
+      "text": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "version": "white"
+    },
+    {
+      "text": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "version": "white-2"
+    },
+    {
+      "text": "It eats anything, so it can even live in polluted streams and lakes. No one pays any attention to it.",
+      "version": "x"
+    },
+    {
+      "text": "It is the shabbiest Pokémon of all. It forms in schools and lives at the bottom of rivers.",
+      "version": "y"
+    },
+    {
+      "text": "Feebas’s fins are ragged and tattered from the start of its life. Because of its shoddy appearance, this Pokémon is largely ignored. It is capable of living in both the sea and in rivers.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "While Feebas’s body is in tatters, it has a hardy and tenacious life force that enables it to live anywhere. However, this Pokémon is also slow and dimwitted, making it an easy catch.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A tough Pokémon that is perfectly fine even in dirty water. However, due to its ragged, shabby appearance, it isn’t popular.",
+      "version": "sun"
+    },
+    {
+      "text": "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research.",
+      "version": "moon"
+    },
+    {
+      "text": "They look ragged, so no one catches them. They look like they’d taste bad, so predators won’t eat them. And their numbers continue to grow.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Because of its wretched appearance, most people pay it no attention, but there are some who collect Feebas—and Feebas alone!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Although unattractive and unpopular, this Pokémon’s marvelous vitality has made it a subject of research.",
+      "version": "sword"
+    },
+    {
+      "text": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "feebas",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "prism-scale"
+      },
+      "from": "feebas",
+      "to": "milotic",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": true,
+          "key": "adaptability"
+        }
+      ],
+      "artwork": "/dex-images/artwork/feebas.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 45,
+            "location": "unova-route-1-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 60,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 50,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 20,
+            "method": "feebas-tile-fishing",
+            "minLevel": 10
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 50,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 25,
+            "method": "feebas-tile-fishing",
+            "minLevel": 20
+          }
+        ],
+        "moon": [
+          {
+            "chance": 6,
+            "location": "brooklet-hill-north",
+            "maxLevel": 15,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 6,
+            "location": "brooklet-hill-north",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 6,
+            "location": "brooklet-hill-south",
+            "maxLevel": 15,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 6,
+            "location": "brooklet-hill-south",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 50,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 20,
+            "method": "feebas-tile-fishing",
+            "minLevel": 10
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 50,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 20,
+            "method": "feebas-tile-fishing",
+            "minLevel": 10
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 50,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 25,
+            "method": "feebas-tile-fishing",
+            "minLevel": 20
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 50,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 25,
+            "method": "feebas-tile-fishing",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 2,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-2-lakeside",
+            "maxLevel": 40,
+            "method": "bubbling-spots",
+            "minLevel": 37
+          },
+          {
+            "chance": 2,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 6,
+            "location": "brooklet-hill-north",
+            "maxLevel": 15,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 6,
+            "location": "brooklet-hill-north",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 6,
+            "location": "brooklet-hill-south",
+            "maxLevel": 15,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 6,
+            "location": "brooklet-hill-south",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 2,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-2-lakeside",
+            "maxLevel": 40,
+            "method": "bubbling-spots",
+            "minLevel": 37
+          },
+          {
+            "chance": 2,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 5,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 255,
+            "location": "ballimere-lake-max-den-n",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 255,
+            "location": "frigid-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 255,
+            "location": "giants-bed-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 255,
+            "location": "giants-bed-max-den-p",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 255,
+            "location": "giants-foot-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 5,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 255,
+            "location": "ballimere-lake-max-den-n",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 255,
+            "location": "frigid-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 255,
+            "location": "giants-bed-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 255,
+            "location": "giants-bed-max-den-p",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 255,
+            "location": "giants-foot-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 11,
+            "location": "brooklet-hill-north",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 11,
+            "location": "brooklet-hill-north",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 11,
+            "location": "brooklet-hill-south",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 11,
+            "location": "brooklet-hill-south",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 11,
+            "location": "brooklet-hill-north",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 11,
+            "location": "brooklet-hill-north",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 11,
+            "location": "brooklet-hill-south",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 11,
+            "location": "brooklet-hill-south",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 45,
+            "location": "unova-route-1-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 60,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "feebas",
+      "kind": "default",
+      "name": "Feebas",
+      "number": 349,
+      "pokemon": "feebas",
+      "sourceId": 349,
+      "sprite": "/dex-images/sprites/feebas.webp",
+      "statTotal": 200,
+      "stats": {
+        "attack": 15,
+        "defense": 20,
+        "hp": 20,
+        "special-attack": 10,
+        "special-defense": 55,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 74
+    }
+  ],
+  "generation": 3,
+  "key": "feebas",
+  "name": "Feebas",
+  "names": {
+    "de": "Barschwa",
+    "en": "Feebas",
+    "es": "Feebas",
+    "es-419": "Feebas",
+    "fr": "Barpau",
+    "it": "Feebas",
+    "ja": "ヒンバス",
+    "ja-hrkt": "ヒンバス",
+    "ja-roma": "Hinbass",
+    "ko": "빈티나",
+    "zh-hans": "丑丑鱼",
+    "zh-hant": "醜醜魚"
+  },
+  "number": 349
+}

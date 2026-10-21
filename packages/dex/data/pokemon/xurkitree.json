@@ -1,0 +1,153 @@
+{
+  "category": "Glowing Pokémon",
+  "entries": [
+    {
+      "text": "One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.",
+      "version": "sun"
+    },
+    {
+      "text": "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "They’ve been dubbed Ultra Beasts. Some of them stand unmoving, like trees, with their arms and legs stuck into the ground.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "xurkitree",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/xurkitree.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "lush-jungle-all-areas",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "memorial-hill-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "lush-jungle-all-areas",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "memorial-hill-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-plant",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-plant",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 38,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "xurkitree",
+      "kind": "default",
+      "name": "Xurkitree",
+      "number": 796,
+      "pokemon": "xurkitree",
+      "sourceId": 796,
+      "sprite": "/dex-images/sprites/xurkitree.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 89,
+        "defense": 71,
+        "hp": 83,
+        "special-attack": 173,
+        "special-defense": 71,
+        "speed": 83
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["electric"],
+      "weight": 1000
+    }
+  ],
+  "generation": 7,
+  "key": "xurkitree",
+  "name": "Xurkitree",
+  "names": {
+    "de": "Voltriant",
+    "en": "Xurkitree",
+    "es": "Xurkitree",
+    "es-419": "Xurkitree",
+    "fr": "Câblifère",
+    "it": "Xurkitree",
+    "ja": "デンジュモク",
+    "ja-hrkt": "デンジュモク",
+    "ja-roma": "Denjyumoku",
+    "ko": "전수목",
+    "zh-hans": "电束木",
+    "zh-hant": "電束木"
+  },
+  "number": 796
+}

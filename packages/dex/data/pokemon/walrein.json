@@ -1,0 +1,301 @@
+{
+  "category": "Ice Break Pokémon",
+  "entries": [
+    {
+      "text": "WALREIN’s two massively developed tusks can totally shatter blocks of ice weighing ten tons with one blow. This POKéMON’s thick coat of blubber insulates it from subzero temperatures.",
+      "version": "ruby"
+    },
+    {
+      "text": "WALREIN swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Its thick layer of blubber makes enemy attacks bounce off harmlessly.",
+      "version": "sapphire"
+    },
+    {
+      "text": "To protect its herd, the leader battles anything that invades its territory, even at the cost of its life. Its tusks may snap off in battle.",
+      "version": "emerald"
+    },
+    {
+      "text": "It swims through icy seas while shattering ice floes with its large tusks. It is protected by its thick blubber.",
+      "version": "firered"
+    },
+    {
+      "text": "It swims through icy seas while shattering ice floes with its large tusks. It is protected by its thick blubber.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+      "version": "diamond"
+    },
+    {
+      "text": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+      "version": "pearl"
+    },
+    {
+      "text": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+      "version": "platinum"
+    },
+    {
+      "text": "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+      "version": "black"
+    },
+    {
+      "text": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+      "version": "white"
+    },
+    {
+      "text": "Not only does its thick blubber keep it warm, it also protects it from attacks. It shatters ice with its prized tusks.",
+      "version": "black-2"
+    },
+    {
+      "text": "Not only does its thick blubber keep it warm, it also protects it from attacks. It shatters ice with its prized tusks.",
+      "version": "white-2"
+    },
+    {
+      "text": "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+      "version": "x"
+    },
+    {
+      "text": "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks.",
+      "version": "y"
+    },
+    {
+      "text": "Walrein’s two massively developed tusks can totally shatter blocks of ice weighing 10 tons with one blow. This Pokémon’s thick coat of blubber insulates it from subzero temperatures.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Its thick layer of blubber makes enemy attacks bounce off harmlessly.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Walrein form herds of 20 to 30 individuals. When a threat appears, the herd’s leader will protect the group with its life.",
+      "version": "sword"
+    },
+    {
+      "text": "Walrein’s tusks keep growing throughout its life. Tusks broken in battle will grow back to their usual impressive size in a year.",
+      "version": "shield"
+    },
+    {
+      "text": "Its thick tusks are strong enough to shatter drift ice. They have been known to break, but they will grow back by the next year. The Hisui region is well known for these broken tusks.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "spheal",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "spheal",
+      "to": "sealeo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 44
+      },
+      "from": "sealeo",
+      "to": "walrein",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "ice-body"
+        },
+        {
+          "hidden": true,
+          "key": "oblivious"
+        }
+      ],
+      "artwork": "/dex-images/artwork/walrein.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "undella-bay-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 500,
+            "location": "frigid-sea-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 500,
+            "location": "frigid-sea-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "undella-bay-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "sword-shield", "the-crown-tundra", "legends-arceus"],
+      "gen9": false,
+      "generation": 3,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "walrein",
+      "kind": "default",
+      "name": "Walrein",
+      "number": 365,
+      "pokemon": "walrein",
+      "sourceId": 365,
+      "sprite": "/dex-images/sprites/walrein.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 80,
+        "defense": 90,
+        "hp": 110,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["ice", "water"],
+      "weight": 1506
+    }
+  ],
+  "generation": 3,
+  "key": "walrein",
+  "name": "Walrein",
+  "names": {
+    "de": "Walraisa",
+    "en": "Walrein",
+    "es": "Walrein",
+    "es-419": "Walrein",
+    "fr": "Kaimorse",
+    "it": "Walrein",
+    "ja": "トドゼルガ",
+    "ja-hrkt": "トドゼルガ",
+    "ja-roma": "Todoseruga",
+    "ko": "씨카이저",
+    "zh-hans": "帝牙海狮",
+    "zh-hant": "帝牙海獅"
+  },
+  "number": 365
+}

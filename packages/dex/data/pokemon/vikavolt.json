@@ -1,0 +1,268 @@
+{
+  "category": "Stag Beetle Pokémon",
+  "entries": [
+    {
+      "text": "It zips around, on sharp lookout for an opening. It concentrates electrical energy within its large jaws and uses it to zap its enemies.",
+      "version": "sun"
+    },
+    {
+      "text": "It produces electricity via an electrical organ in its abdomen. It overwhelms bird Pokémon with shocking beams of electrical energy.",
+      "version": "moon"
+    },
+    {
+      "text": "It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Vikavolt flusters opponents with acrobatic flying maneuvers. This creates an opening for it to deliver an electric beam attack.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+      "version": "sword"
+    },
+    {
+      "text": "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "grubbin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "grubbin",
+      "to": "charjabug",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "charjabug",
+      "to": "vikavolt",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/vikavolt.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 20,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1000,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 800,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1000,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 800,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 35,
+            "method": "gift",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 7,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "vikavolt",
+      "kind": "default",
+      "name": "Vikavolt",
+      "number": 738,
+      "pokemon": "vikavolt",
+      "sourceId": 738,
+      "sprite": "/dex-images/sprites/vikavolt.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 70,
+        "defense": 90,
+        "hp": 77,
+        "special-attack": 145,
+        "special-defense": 75,
+        "speed": 43
+      },
+      "tags": [],
+      "types": ["bug", "electric"],
+      "weight": 450
+    }
+  ],
+  "generation": 7,
+  "key": "vikavolt",
+  "name": "Vikavolt",
+  "names": {
+    "de": "Donarion",
+    "en": "Vikavolt",
+    "es": "Vikavolt",
+    "es-419": "Vikavolt",
+    "fr": "Lucanon",
+    "it": "Vikavolt",
+    "ja": "クワガノン",
+    "ja-hrkt": "クワガノン",
+    "ja-roma": "Kuwagannon",
+    "ko": "투구뿌논",
+    "zh-hans": "锹农炮虫",
+    "zh-hant": "鍬農炮蟲"
+  },
+  "number": 738
+}

@@ -1,0 +1,2402 @@
+{
+  "category": "Seagull Pokémon",
+  "entries": [
+    {
+      "text": "WINGULL has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This POKéMON rides the winds and flies as if it were skating across the sky.",
+      "version": "ruby"
+    },
+    {
+      "text": "WINGULL rides updrafts rising from the sea by extending its long and narrow wings to glide. This POKéMON’s long beak is useful for catching prey.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts.",
+      "version": "emerald"
+    },
+    {
+      "text": "It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest.",
+      "version": "firered"
+    },
+    {
+      "text": "It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
+      "version": "diamond"
+    },
+    {
+      "text": "Catching sea winds with its long wings, it soars as if it were a glider. It folds its wings to rest.",
+      "version": "pearl"
+    },
+    {
+      "text": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+      "version": "platinum"
+    },
+    {
+      "text": "It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+      "version": "black"
+    },
+    {
+      "text": "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+      "version": "white"
+    },
+    {
+      "text": "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.",
+      "version": "black-2"
+    },
+    {
+      "text": "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.",
+      "version": "white-2"
+    },
+    {
+      "text": "Catching sea winds with its long wings, it soars as if it were a glider. It folds its wings to rest.",
+      "version": "x"
+    },
+    {
+      "text": "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
+      "version": "y"
+    },
+    {
+      "text": "Wingull has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This Pokémon rides the winds and flies as if it were skating across the sky.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Wingull rides updrafts rising from the sea by extending its long and narrow wings to glide. This Pokémon’s long beak is useful for catching prey.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its hollow bones enhance its lightness. It spreads its wings to the wind and soars away into the sky.",
+      "version": "sun"
+    },
+    {
+      "text": "Fishermen keep an eye out for Wingull in the sky, because wherever they’re circling, the ocean is sure to be teeming with fish Pokémon.",
+      "version": "moon"
+    },
+    {
+      "text": "With its long, thin wings, it catches updrafts and flies like a glider high up into the sky.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It builds nests in cliffs by the sea. It circles the skies above the ocean looking for its favorite food—Wishiwashi.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.",
+      "version": "sword"
+    },
+    {
+      "text": "It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "wingull",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "wingull",
+      "to": "pelipper",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": true,
+          "key": "rain-dish"
+        }
+      ],
+      "artwork": "/dex-images/artwork/wingull.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-104-south-oras",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "black": [
+          {
+            "chance": 60,
+            "location": "undella-bay-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "undella-town-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-13-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 30,
+            "location": "canalave-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 30,
+            "location": "iron-island-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "pastoria-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 70,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "valley-windworks-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 35,
+            "location": "dewford-town-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "ever-grande-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 55,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 55,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 105,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 105,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-105-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-106-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-107-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-108-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-109-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 43,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 43,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-115-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-115-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 54,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 54,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-122-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-124-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-125-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-126-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-127-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-128-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-129-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-130-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-131-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-132-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-133-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-134-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "lilycove-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "mossdeep-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-outside",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "pacifidlog-town-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "slateport-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "moon": [
+          {
+            "chance": 50,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 6,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-104-south-oras",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 30,
+            "location": "canalave-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 30,
+            "location": "iron-island-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "pastoria-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 70,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "valley-windworks-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 60,
+            "location": "iron-island-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 4,
+            "location": "pastoria-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-pokemon-league-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 50,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 50,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 75,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 30,
+            "location": "sunyshore-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 35,
+            "location": "dewford-town-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "ever-grande-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 105,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 105,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-105-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-106-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-107-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-108-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-109-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 43,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 43,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-115-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-115-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 54,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 54,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-122-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-124-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-125-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-126-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-127-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-128-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-129-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-130-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-131-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-132-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-133-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-134-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "lilycove-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "mossdeep-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-outside",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "pacifidlog-town-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "slateport-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 35,
+            "location": "dewford-town-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "ever-grande-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 105,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 105,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-105-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-106-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-107-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-108-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-109-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 43,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 43,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-115-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "hoenn-route-115-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 54,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 54,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-122-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 44,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-124-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-125-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-126-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-127-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-128-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-129-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-130-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-131-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-132-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-133-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-134-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "lilycove-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "mossdeep-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-outside",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "pacifidlog-town-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 35,
+            "location": "slateport-city-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          }
+        ],
+        "shield": [
+          {
+            "chance": 580,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 580,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 580,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 230,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 42
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 240,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 240,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 420,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 14
+          },
+          {
+            "chance": 420,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 420,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 280,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 280,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "sun": [
+          {
+            "chance": 50,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 6,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "sword": [
+          {
+            "chance": 580,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 580,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 580,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 230,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 42
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 240,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 240,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 420,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 14
+          },
+          {
+            "chance": 420,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 420,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 280,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 280,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 690,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 490,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 420,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 420,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 480,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 480,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 494,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 494,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 1568,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 1568,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 420,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 690,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 490,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 420,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 420,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 480,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 480,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 494,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 494,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 1568,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 1568,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 420,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 80,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 10,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 80,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 10,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "white": [
+          {
+            "chance": 60,
+            "location": "undella-bay-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "undella-town-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-13-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "azure-bay-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-12-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-8-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "azure-bay-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-12-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-8-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "scarlet-violet"],
+      "gen9": true,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "wingull",
+      "kind": "default",
+      "name": "Wingull",
+      "number": 278,
+      "pokemon": "wingull",
+      "sourceId": 278,
+      "sprite": "/dex-images/sprites/wingull.webp",
+      "statTotal": 270,
+      "stats": {
+        "attack": 30,
+        "defense": 30,
+        "hp": 40,
+        "special-attack": 55,
+        "special-defense": 30,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water", "flying"],
+      "weight": 95
+    }
+  ],
+  "generation": 3,
+  "key": "wingull",
+  "name": "Wingull",
+  "names": {
+    "de": "Wingull",
+    "en": "Wingull",
+    "es": "Wingull",
+    "es-419": "Wingull",
+    "fr": "Goélise",
+    "it": "Wingull",
+    "ja": "キャモメ",
+    "ja-hrkt": "キャモメ",
+    "ja-roma": "Camome",
+    "ko": "갈모매",
+    "zh-hans": "长翅鸥",
+    "zh-hant": "長翅鷗"
+  },
+  "number": 278
+}

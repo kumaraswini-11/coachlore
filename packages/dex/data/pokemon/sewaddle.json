@@ -1,0 +1,203 @@
+{
+  "category": "Sewing Pokémon",
+  "entries": [
+    {
+      "text": "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+      "version": "black"
+    },
+    {
+      "text": "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+      "version": "white"
+    },
+    {
+      "text": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "version": "black-2"
+    },
+    {
+      "text": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "version": "white-2"
+    },
+    {
+      "text": "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+      "version": "x"
+    },
+    {
+      "text": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "version": "y"
+    },
+    {
+      "text": "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sewaddle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "sewaddle",
+      "to": "swadloon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 220
+      },
+      "from": "swadloon",
+      "to": "leavanny",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sewaddle.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 35,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-12-area",
+            "maxLevel": 42,
+            "method": "dark-grass",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-20-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-20-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "white": [
+          {
+            "chance": 35,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-12-area",
+            "maxLevel": 42,
+            "method": "dark-grass",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-20-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-20-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sewaddle",
+      "kind": "default",
+      "name": "Sewaddle",
+      "number": 540,
+      "pokemon": "sewaddle",
+      "sourceId": 540,
+      "sprite": "/dex-images/sprites/sewaddle.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 53,
+        "defense": 70,
+        "hp": 45,
+        "special-attack": 40,
+        "special-defense": 60,
+        "speed": 42
+      },
+      "tags": [],
+      "types": ["bug", "grass"],
+      "weight": 25
+    }
+  ],
+  "generation": 5,
+  "key": "sewaddle",
+  "name": "Sewaddle",
+  "names": {
+    "de": "Strawickl",
+    "en": "Sewaddle",
+    "es": "Sewaddle",
+    "es-419": "Sewaddle",
+    "fr": "Larveyette",
+    "it": "Sewaddle",
+    "ja": "クルミル",
+    "ja-hrkt": "クルミル",
+    "ja-roma": "Kurumiru",
+    "ko": "두르보",
+    "zh-hans": "虫宝包",
+    "zh-hant": "蟲寶包"
+  },
+  "number": 540
+}

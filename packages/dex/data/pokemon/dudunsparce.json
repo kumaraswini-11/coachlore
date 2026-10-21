@@ -1,0 +1,149 @@
+{
+  "category": "Land Snake Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dunsparce",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 99,
+        "evolved_pokemon_form": "dudunsparce-two-segment",
+        "known_move": "hyper-drill"
+      },
+      "from": "dunsparce",
+      "to": "dudunsparce",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "chance": 1,
+        "evolved_pokemon_form": "dudunsparce-three-segment",
+        "known_move": "hyper-drill"
+      },
+      "from": "dunsparce",
+      "to": "dudunsparce",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dudunsparce-two-segment.webp",
+      "encounters": {},
+      "formName": "Two-Segment Form",
+      "games": ["scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 9,
+      "height": 36,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dudunsparce-two-segment",
+      "kind": "default",
+      "name": "Dudunsparce",
+      "number": 982,
+      "pokemon": "dudunsparce",
+      "sourceId": 982,
+      "sprite": "/dex-images/sprites/dudunsparce-two-segment.webp",
+      "statTotal": 520,
+      "stats": {
+        "attack": 100,
+        "defense": 80,
+        "hp": 125,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 392
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dudunsparce-three-segment.webp",
+      "encounters": {},
+      "formName": "Three-Segment Form",
+      "games": [],
+      "gen9": true,
+      "generation": 9,
+      "height": 45,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "dudunsparce-three-segment",
+      "kind": "other",
+      "name": "Dudunsparce-Three-Segment",
+      "number": 982,
+      "pokemon": "dudunsparce",
+      "sourceId": 10255,
+      "sprite": "/dex-images/sprites/dudunsparce-three-segment.webp",
+      "statTotal": 520,
+      "stats": {
+        "attack": 100,
+        "defense": 80,
+        "hp": 125,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 474
+    }
+  ],
+  "generation": 9,
+  "key": "dudunsparce",
+  "name": "Dudunsparce",
+  "names": {
+    "de": "Dummimisel",
+    "en": "Dudunsparce",
+    "es": "Dudunsparce",
+    "es-419": "Dudunsparce",
+    "fr": "Deusolourdo",
+    "it": "Dudunsparce",
+    "ja": "ノココッチ",
+    "ja-hrkt": "ノココッチ",
+    "ja-roma": "Nokokocchi",
+    "ko": "노고고치",
+    "zh-hans": "土龙节节",
+    "zh-hant": "土龍節節"
+  },
+  "number": 982
+}

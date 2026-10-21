@@ -1,0 +1,617 @@
+{
+  "category": "Mushroom Pokémon",
+  "entries": [
+    {
+      "text": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+      "version": "black"
+    },
+    {
+      "text": "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+      "version": "white"
+    },
+    {
+      "text": "It moves the caps on both arms and does a dance to lure prey. It prefers damp places.",
+      "version": "black-2"
+    },
+    {
+      "text": "It moves the caps on both arms and does a dance to lure prey. It prefers damp places.",
+      "version": "white-2"
+    },
+    {
+      "text": "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+      "version": "x"
+    },
+    {
+      "text": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+      "version": "y"
+    },
+    {
+      "text": "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon puffs poisonous spores at its foes. If the spores aren’t washed off quickly, they’ll grow into mushrooms wherever they land.",
+      "version": "sword"
+    },
+    {
+      "text": "Amoonguss generally doesn’t move much. It tends to stand still near Poké Balls that have been dropped on the ground.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "foongus",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39
+      },
+      "from": "foongus",
+      "to": "amoonguss",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "effect-spore"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/amoonguss.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 210,
+            "location": "unova-route-10-area",
+            "maxLevel": 40,
+            "method": "dark-grass",
+            "minLevel": 39
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-10-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 40,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-11-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-11-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 75,
+            "location": "abundant-shrine-hidden-grotto-near-youngster",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "abundant-shrine-hidden-grotto-shrine",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          },
+          {
+            "chance": 56,
+            "location": "pinwheel-forest-hidden-grotto-inner-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-11-area",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-11-area",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-11-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 240,
+            "location": "unova-route-22-area",
+            "maxLevel": 44,
+            "method": "dark-grass",
+            "minLevel": 44
+          },
+          {
+            "chance": 240,
+            "location": "unova-route-22-area",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          },
+          {
+            "chance": 240,
+            "location": "unova-route-22-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-22-hidden-grotto",
+            "maxLevel": 44,
+            "method": "hidden-grotto",
+            "minLevel": 40
+          },
+          {
+            "chance": 320,
+            "location": "unova-route-23-area",
+            "maxLevel": 54,
+            "method": "dark-grass",
+            "minLevel": 54
+          },
+          {
+            "chance": 320,
+            "location": "unova-route-23-area",
+            "maxLevel": 56,
+            "method": "static",
+            "minLevel": 56
+          },
+          {
+            "chance": 320,
+            "location": "unova-route-23-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 800,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 800,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white": [
+          {
+            "chance": 210,
+            "location": "unova-route-10-area",
+            "maxLevel": 40,
+            "method": "dark-grass",
+            "minLevel": 39
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-10-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 40,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-11-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-11-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 75,
+            "location": "abundant-shrine-hidden-grotto-near-youngster",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "abundant-shrine-hidden-grotto-shrine",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          },
+          {
+            "chance": 56,
+            "location": "pinwheel-forest-hidden-grotto-inner-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-11-area",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-11-area",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          },
+          {
+            "chance": 210,
+            "location": "unova-route-11-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 240,
+            "location": "unova-route-22-area",
+            "maxLevel": 44,
+            "method": "dark-grass",
+            "minLevel": 44
+          },
+          {
+            "chance": 240,
+            "location": "unova-route-22-area",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          },
+          {
+            "chance": 240,
+            "location": "unova-route-22-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-22-hidden-grotto",
+            "maxLevel": 44,
+            "method": "hidden-grotto",
+            "minLevel": 40
+          },
+          {
+            "chance": 320,
+            "location": "unova-route-23-area",
+            "maxLevel": 54,
+            "method": "dark-grass",
+            "minLevel": 54
+          },
+          {
+            "chance": 320,
+            "location": "unova-route-23-area",
+            "maxLevel": 56,
+            "method": "static",
+            "minLevel": 56
+          },
+          {
+            "chance": 320,
+            "location": "unova-route-23-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "x": [
+          {
+            "chance": 50,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 50,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 49
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 49
+          }
+        ],
+        "y": [
+          {
+            "chance": 50,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 50,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 49
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 49
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "amoonguss",
+      "kind": "default",
+      "name": "Amoonguss",
+      "number": 591,
+      "pokemon": "amoonguss",
+      "sourceId": 591,
+      "sprite": "/dex-images/sprites/amoonguss.webp",
+      "statTotal": 464,
+      "stats": {
+        "attack": 85,
+        "defense": 70,
+        "hp": 114,
+        "special-attack": 85,
+        "special-defense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 105
+    }
+  ],
+  "generation": 5,
+  "key": "amoonguss",
+  "name": "Amoonguss",
+  "names": {
+    "de": "Hutsassa",
+    "en": "Amoonguss",
+    "es": "Amoonguss",
+    "es-419": "Amoonguss",
+    "fr": "Gaulet",
+    "it": "Amoonguss",
+    "ja": "モロバレル",
+    "ja-hrkt": "モロバレル",
+    "ja-roma": "Morobareru",
+    "ko": "뽀록나",
+    "zh-hans": "败露球菇",
+    "zh-hant": "敗露球菇"
+  },
+  "number": 591
+}

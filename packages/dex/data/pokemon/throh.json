@@ -1,0 +1,464 @@
+{
+  "category": "Judo Pokémon",
+  "entries": [
+    {
+      "text": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+      "version": "black"
+    },
+    {
+      "text": "When they encounter foes bigger than themselves, they try to throw them. They always travel in packs of five.",
+      "version": "white"
+    },
+    {
+      "text": "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+      "version": "white-2"
+    },
+    {
+      "text": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+      "version": "x"
+    },
+    {
+      "text": "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+      "version": "y"
+    },
+    {
+      "text": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it encounters a foe bigger than itself, it wants to throw it. It changes belts as it gets stronger.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It performs throwing moves with first-rate skill. Over the course of many battles, Throh’s belt grows darker as it absorbs its wearer’s sweat.",
+      "version": "sword"
+    },
+    {
+      "text": "They train in groups of five. Any member that can’t keep up will discard its belt and leave the group.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "throh",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/throh.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 31,
+            "method": "grass-spots",
+            "minLevel": 31
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-area",
+            "maxLevel": 51,
+            "method": "grass-spots",
+            "minLevel": 51
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 53
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "shield": [
+          {
+            "chance": 10,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "circhester-area",
+            "maxLevel": 37,
+            "method": "npc-trade",
+            "minLevel": 37
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 17,
+            "method": "dark-grass",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-area",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 35,
+            "method": "dark-grass",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 30,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-23-area",
+            "maxLevel": 54,
+            "method": "dark-grass",
+            "minLevel": 53
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-23-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 53
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-11-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 5,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "throh",
+      "kind": "default",
+      "name": "Throh",
+      "number": 538,
+      "pokemon": "throh",
+      "sourceId": 538,
+      "sprite": "/dex-images/sprites/throh.webp",
+      "statTotal": 465,
+      "stats": {
+        "attack": 100,
+        "defense": 85,
+        "hp": 120,
+        "special-attack": 30,
+        "special-defense": 85,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 555
+    }
+  ],
+  "generation": 5,
+  "key": "throh",
+  "name": "Throh",
+  "names": {
+    "de": "Jiutesto",
+    "en": "Throh",
+    "es": "Throh",
+    "es-419": "Throh",
+    "fr": "Judokrak",
+    "it": "Throh",
+    "ja": "ナゲキ",
+    "ja-hrkt": "ナゲキ",
+    "ja-roma": "Nageki",
+    "ko": "던지미",
+    "zh-hans": "投摔鬼",
+    "zh-hant": "投摔鬼"
+  },
+  "number": 538
+}

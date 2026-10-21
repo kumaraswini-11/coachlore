@@ -1,0 +1,338 @@
+{
+  "category": "Pincer Pokémon",
+  "entries": [
+    {
+      "text": "It swings its eye- patterned pincers up to scare its foes. This makes it look like it has three heads.",
+      "version": "gold"
+    },
+    {
+      "text": "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
+      "version": "silver"
+    },
+    {
+      "text": "This POKéMON's pincers, which contain steel, can crush any hard object it gets a hold of into bits.",
+      "version": "crystal"
+    },
+    {
+      "text": "SCIZOR has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This POKéMON flaps its wings to regulate its body temperature.",
+      "version": "ruby"
+    },
+    {
+      "text": "SCIZOR has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This POKéMON flaps its wings to regulate its body temperature.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A SCIZOR has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. It flaps its wings to regulate its body temperature.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
+      "version": "firered"
+    },
+    {
+      "text": "It swings its eye-patterned pincers up to scare its foes. This makes it look like it has three heads.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+      "version": "diamond"
+    },
+    {
+      "text": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+      "version": "pearl"
+    },
+    {
+      "text": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+      "version": "platinum"
+    },
+    {
+      "text": "It swings its eye-patterned pincers up to scare its foes. This makes it look like it has three heads.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+      "version": "black"
+    },
+    {
+      "text": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+      "version": "white"
+    },
+    {
+      "text": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+      "version": "black-2"
+    },
+    {
+      "text": "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+      "version": "white-2"
+    },
+    {
+      "text": "This Pokémon’s pincers, which contain steel, can crush any hard object it gets ahold of into bits.",
+      "version": "x"
+    },
+    {
+      "text": "It has a steel-hard body. It intimidates foes by upraising its eye-patterned pincers.",
+      "version": "y"
+    },
+    {
+      "text": "Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This Pokémon flaps its wings to regulate its body temperature.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. This Pokémon flaps its wings to regulate its body temperature.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It uses its wings to adjust its body temperature. Otherwise, its metal body would become too hot and melt in the heat of battle.",
+      "version": "sun"
+    },
+    {
+      "text": "Once it has identified an enemy, this Pokémon smashes it mercilessly with pincers hard as steel.",
+      "version": "moon"
+    },
+    {
+      "text": "Its body is like steel. Its tough, heavy pincers are more suited to smashing enemies than grabbing them.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there’s nothing left but scraps.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Bulky pincers account for one third of Scizor’s body weight. A single swing of one of these pincers will crush a boulder completely.",
+      "version": "sword"
+    },
+    {
+      "text": "Though its body is slim, Scizor has tremendous attacking power. Even Scizor’s muscles are made of metal.",
+      "version": "shield"
+    },
+    {
+      "text": "Evolved by way of a curious item. The shell covering its body has been shown to be stronger than forged steel.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "scyther",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "metal-coat"
+      },
+      "from": "scyther",
+      "to": "scizor",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "item": "black-augurite"
+      },
+      "from": "scyther",
+      "to": "kleavor",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "technician"
+        },
+        {
+          "hidden": true,
+          "key": "light-metal"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scizor.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "phenac-city-card-e-room",
+            "maxLevel": 50,
+            "method": "snag",
+            "minLevel": 50
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "scizor",
+      "kind": "default",
+      "name": "Scizor",
+      "number": 212,
+      "pokemon": "scizor",
+      "sourceId": 212,
+      "sprite": "/dex-images/sprites/scizor.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 130,
+        "defense": 100,
+        "hp": 70,
+        "special-attack": 55,
+        "special-defense": 80,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["bug", "steel"],
+      "weight": 1180
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scizor-mega.webp",
+      "encounters": {},
+      "formName": "Mega Scizor",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 20,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "scizor-mega",
+      "kind": "mega",
+      "name": "Scizor-Mega",
+      "number": 212,
+      "pokemon": "scizor",
+      "sourceId": 10046,
+      "sprite": "/dex-images/sprites/scizor-mega.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 150,
+        "defense": 140,
+        "hp": 70,
+        "special-attack": 65,
+        "special-defense": 100,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["bug", "steel"],
+      "weight": 1250
+    }
+  ],
+  "generation": 2,
+  "key": "scizor",
+  "name": "Scizor",
+  "names": {
+    "de": "Scherox",
+    "en": "Scizor",
+    "es": "Scizor",
+    "es-419": "Scizor",
+    "fr": "Cizayox",
+    "it": "Scizor",
+    "ja": "ハッサム",
+    "ja-hrkt": "ハッサム",
+    "ja-roma": "Hassam",
+    "ko": "핫삼",
+    "zh-hans": "巨钳螳螂",
+    "zh-hant": "巨鉗螳螂"
+  },
+  "number": 212
+}

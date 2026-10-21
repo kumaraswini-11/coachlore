@@ -1,0 +1,92 @@
+{
+  "category": "Toxic Monkey Pokémon",
+  "entries": [
+    {
+      "text": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shroodle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "shroodle",
+      "to": "grafaiai",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unburden"
+        },
+        {
+          "hidden": false,
+          "key": "poison-touch"
+        },
+        {
+          "hidden": true,
+          "key": "prankster"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grafaiai.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "grafaiai",
+      "kind": "default",
+      "name": "Grafaiai",
+      "number": 945,
+      "pokemon": "grafaiai",
+      "sourceId": 945,
+      "sprite": "/dex-images/sprites/grafaiai.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 95,
+        "defense": 65,
+        "hp": 63,
+        "special-attack": 80,
+        "special-defense": 72,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["poison", "normal"],
+      "weight": 272
+    }
+  ],
+  "generation": 9,
+  "key": "grafaiai",
+  "name": "Grafaiai",
+  "names": {
+    "de": "Affiti",
+    "en": "Grafaiai",
+    "es": "Grafaiai",
+    "es-419": "Grafaiai",
+    "fr": "Tag-Tag",
+    "it": "Grafaiai",
+    "ja": "タギングル",
+    "ja-hrkt": "タギングル",
+    "ja-roma": "Taggingru",
+    "ko": "태깅구르",
+    "zh-hans": "涂标客",
+    "zh-hant": "塗標客"
+  },
+  "number": 945
+}

@@ -1,0 +1,796 @@
+{
+  "category": "Drill Pokémon",
+  "entries": [
+    {
+      "text": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+      "version": "red"
+    },
+    {
+      "text": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
+      "version": "blue"
+    },
+    {
+      "text": "Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava.",
+      "version": "yellow"
+    },
+    {
+      "text": "Its rugged hide protects it from even the heat of lava. However, the hide also makes it insensitive.",
+      "version": "gold"
+    },
+    {
+      "text": "Its brain developed when it began walking on hind legs. Its thick hide protects it even in magma.",
+      "version": "silver"
+    },
+    {
+      "text": "By lightly spinning its drill- like horn, it can easily shatter even a diamond in the rough.",
+      "version": "crystal"
+    },
+    {
+      "text": "RHYDON’s horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This POKéMON’s hide is extremely tough. Even direct cannon hits don’t leave a scratch.",
+      "version": "ruby"
+    },
+    {
+      "text": "RHYDON has a horn that serves as a drill. It is used for destroying rocks and boulders. This POKéMON occasionally rams into streams of magma, but the armor-like hide prevents it from feeling the heat.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its horn, which rotates like a drill, destroys tall buildings with one strike. It stands on its hind legs, and its brain is well developed.",
+      "version": "emerald"
+    },
+    {
+      "text": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+      "version": "firered"
+    },
+    {
+      "text": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its brain developed after it stood up on its hind legs. Its drill horn bores tunnels through solid rock.",
+      "version": "pearl"
+    },
+    {
+      "text": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its rugged hide protects it from even the heat of lava. However, the hide also makes it insensitive.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its brain developed when it began walking on hind legs. Its thick hide protects it even in magma.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "version": "black"
+    },
+    {
+      "text": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "version": "white"
+    },
+    {
+      "text": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "version": "black-2"
+    },
+    {
+      "text": "Standing on its hind legs freed its forelegs and made it smarter. It is very forgetful, however.",
+      "version": "white-2"
+    },
+    {
+      "text": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+      "version": "x"
+    },
+    {
+      "text": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+      "version": "y"
+    },
+    {
+      "text": "Rhydon’s horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This Pokémon’s hide is extremely tough. Even direct cannon hits don’t leave a scratch.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Rhydon has a horn that serves as a drill. It is used for destroying rocks and boulders. This Pokémon occasionally rams into streams of magma, but the armor-like hide prevents it from feeling the heat.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its brain developed when it began walking on its hind legs. Its armor-like hide even repels molten lava.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Its brain developed when it began walking on its hind legs. Its armor-like hide even repels molten lava.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
+      "version": "sword"
+    },
+    {
+      "text": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+      "version": "shield"
+    },
+    {
+      "text": "Rapidly rotates its horn to bore through bedrock. It swaggers around volcanic regions, protected from the lava's heat by its tough, armorlike hide.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rhyhorn",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "rhyhorn",
+      "to": "rhydon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "protector"
+      },
+      "from": "rhydon",
+      "to": "rhyperior",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rhydon.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "blackthorn-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 30
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-inside",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "red": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "shield": [
+          {
+            "chance": 400,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 716,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 716,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 200,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 270,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 270,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 400,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1800,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "blackthorn-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 30
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "sword": [
+          {
+            "chance": 400,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 716,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 716,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 200,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 266,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 266,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 400,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1800,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 140,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 140,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 140,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 140,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-dome-2f",
+            "maxLevel": 46,
+            "method": "snag",
+            "minLevel": 46
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 62,
+            "method": "walk",
+            "minLevel": 62
+          },
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "platinum", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rhydon",
+      "kind": "default",
+      "name": "Rhydon",
+      "number": 112,
+      "pokemon": "rhydon",
+      "sourceId": 112,
+      "sprite": "/dex-images/sprites/rhydon.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 130,
+        "defense": 120,
+        "hp": 105,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["ground", "rock"],
+      "weight": 1200
+    }
+  ],
+  "generation": 1,
+  "key": "rhydon",
+  "name": "Rhydon",
+  "names": {
+    "de": "Rizeros",
+    "en": "Rhydon",
+    "es": "Rhydon",
+    "es-419": "Rhydon",
+    "fr": "Rhinoféros",
+    "it": "Rhydon",
+    "ja": "サイドン",
+    "ja-hrkt": "サイドン",
+    "ja-roma": "Sidon",
+    "ko": "코뿌리",
+    "zh-hans": "钻角犀兽",
+    "zh-hant": "鑽角犀獸"
+  },
+  "number": 112
+}

@@ -1,0 +1,121 @@
+{
+  "category": "Life Pokémon",
+  "entries": [
+    {
+      "text": "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+      "version": "x"
+    },
+    {
+      "text": "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+      "version": "y"
+    },
+    {
+      "text": "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "xerneas",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "fairy-aura"
+        }
+      ],
+      "artwork": "/dex-images/artwork/xerneas.webp",
+      "encounters": {
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-rocky",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-crag",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 100,
+            "location": "team-flare-secret-hq-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ]
+      },
+      "formName": "Active Mode",
+      "games": ["x-y", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 30,
+      "isBattleOnly": true,
+      "isDefault": true,
+      "key": "xerneas",
+      "kind": "default",
+      "legendary": true,
+      "name": "Xerneas",
+      "number": 716,
+      "pokemon": "xerneas",
+      "sourceId": 716,
+      "sprite": "/dex-images/sprites/xerneas.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 131,
+        "defense": 95,
+        "hp": 126,
+        "special-attack": 131,
+        "special-defense": 98,
+        "speed": 99
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["fairy"],
+      "weight": 2150
+    }
+  ],
+  "generation": 6,
+  "key": "xerneas",
+  "name": "Xerneas",
+  "names": {
+    "de": "Xerneas",
+    "en": "Xerneas",
+    "es": "Xerneas",
+    "es-419": "Xerneas",
+    "fr": "Xerneas",
+    "it": "Xerneas",
+    "ja": "ゼルネアス",
+    "ja-hrkt": "ゼルネアス",
+    "ja-roma": "Xerneas",
+    "ko": "제르네아스",
+    "zh-hans": "哲尔尼亚斯",
+    "zh-hant": "哲爾尼亞斯"
+  },
+  "number": 716
+}

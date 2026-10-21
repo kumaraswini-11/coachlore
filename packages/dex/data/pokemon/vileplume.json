@@ -1,0 +1,408 @@
+{
+  "category": "Flower Pokémon",
+  "entries": [
+    {
+      "text": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+      "version": "red"
+    },
+    {
+      "text": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+      "version": "blue"
+    },
+    {
+      "text": "Flaps its broad flower petals to scatter its poisonous pollen. The flapping sound is very loud.",
+      "version": "yellow"
+    },
+    {
+      "text": "It has the world's largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+      "version": "gold"
+    },
+    {
+      "text": "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+      "version": "silver"
+    },
+    {
+      "text": "By shaking its big petals, it scatters toxic pollen into the air, turning the air yellow.",
+      "version": "crystal"
+    },
+    {
+      "text": "VILEPLUME’s toxic pollen triggers atrocious allergy attacks. That’s why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be.",
+      "version": "ruby"
+    },
+    {
+      "text": "VILEPLUME has the world’s largest petals. They are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this POKéMON catches and devours them.",
+      "version": "sapphire"
+    },
+    {
+      "text": "In seasons when it produces more pollen, the air around a VILEPLUME turns yellow with the powder as it walks. The pollen is highly toxic and causes paralysis.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its petals are the largest in the world. It fiendishly scatters allergy-causing pollen from its petals.",
+      "version": "firered"
+    },
+    {
+      "text": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "platinum"
+    },
+    {
+      "text": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "black"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "white"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its petals are the largest in the world. As it walks, it scatters extremely allergenic pollen.",
+      "version": "white-2"
+    },
+    {
+      "text": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+      "version": "x"
+    },
+    {
+      "text": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+      "version": "y"
+    },
+    {
+      "text": "Vileplume’s toxic pollen triggers atrocious allergy attacks. That’s why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Vileplume has the world’s largest petals. They are used to attract prey that are then doused with toxic spores. Once the prey are immobilized, this Pokémon catches and devours them.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Flaps its broad flower petals to scatter its poisonous pollen. The flapping sound is very loud.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Flaps its broad flower petals to scatter its poisonous pollen. The flapping sound is very loud.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+      "version": "sword"
+    },
+    {
+      "text": "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oddish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "oddish",
+      "to": "gloom",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "gloom",
+      "to": "vileplume",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "gloom",
+      "to": "bellossom",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "effect-spore"
+        }
+      ],
+      "artwork": "/dex-images/artwork/vileplume.webp",
+      "encounters": {
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          }
+        ],
+        "shield": [
+          {
+            "chance": 600,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1200,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 1000,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 600,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1200,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 1000,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "vileplume",
+      "kind": "default",
+      "name": "Vileplume",
+      "number": 45,
+      "pokemon": "vileplume",
+      "sourceId": 45,
+      "sprite": "/dex-images/sprites/vileplume.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 80,
+        "defense": 85,
+        "hp": 75,
+        "special-attack": 110,
+        "special-defense": 90,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 186
+    }
+  ],
+  "generation": 1,
+  "key": "vileplume",
+  "name": "Vileplume",
+  "names": {
+    "de": "Giflor",
+    "en": "Vileplume",
+    "es": "Vileplume",
+    "es-419": "Vileplume",
+    "fr": "Rafflesia",
+    "it": "Vileplume",
+    "ja": "ラフレシア",
+    "ja-hrkt": "ラフレシア",
+    "ja-roma": "Ruffresia",
+    "ko": "라플레시아",
+    "zh-hans": "霸王花",
+    "zh-hant": "霸王花"
+  },
+  "number": 45
+}

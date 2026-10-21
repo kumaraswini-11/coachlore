@@ -1,0 +1,96 @@
+{
+  "category": "Fire Warrior Pokémon",
+  "entries": [
+    {
+      "text": "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+      "version": "scarlet"
+    },
+    {
+      "text": "This Pokémon clads itself in armor that has been fortified by psychic and fire energy, and it shoots blazing fireballs.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "charcadet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "auspicious-armor"
+      },
+      "from": "charcadet",
+      "to": "armarouge",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "malicious-armor"
+      },
+      "from": "charcadet",
+      "to": "ceruledge",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": true,
+          "key": "weak-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/armarouge.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "armarouge",
+      "kind": "default",
+      "name": "Armarouge",
+      "number": 936,
+      "pokemon": "armarouge",
+      "sourceId": 936,
+      "sprite": "/dex-images/sprites/armarouge.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 85,
+        "special-attack": 125,
+        "special-defense": 80,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["fire", "psychic"],
+      "weight": 850
+    }
+  ],
+  "generation": 9,
+  "key": "armarouge",
+  "name": "Armarouge",
+  "names": {
+    "de": "Crimanzo",
+    "en": "Armarouge",
+    "es": "Armarouge",
+    "es-419": "Armarouge",
+    "fr": "Carmadura",
+    "it": "Armarouge",
+    "ja": "グレンアルマ",
+    "ja-hrkt": "グレンアルマ",
+    "ja-roma": "Gurenarma",
+    "ko": "카디나르마",
+    "zh-hans": "红莲铠骑",
+    "zh-hant": "紅蓮鎧騎"
+  },
+  "number": 936
+}

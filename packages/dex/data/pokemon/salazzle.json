@@ -1,0 +1,360 @@
+{
+  "category": "Toxic Lizard Pokémon",
+  "entries": [
+    {
+      "text": "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+      "version": "sun"
+    },
+    {
+      "text": "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
+      "version": "moon"
+    },
+    {
+      "text": "Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It punishes Salandit that couldn’t bring it food with a fierce slap of its flame-spewing palm.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
+      "version": "sword"
+    },
+    {
+      "text": "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "salandit",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "min_level": 33
+      },
+      "from": "salandit",
+      "to": "salazzle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "corrosion"
+        },
+        {
+          "hidden": true,
+          "key": "oblivious"
+        }
+      ],
+      "artwork": "/dex-images/artwork/salazzle.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 180,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 165,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 75,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 75,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 75,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 75,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-east-cave",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "sos",
+            "minLevel": 16
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "lush-jungle-east-cave",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "sos",
+            "minLevel": 16
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "salazzle",
+      "kind": "default",
+      "name": "Salazzle",
+      "number": 758,
+      "pokemon": "salazzle",
+      "sourceId": 758,
+      "sprite": "/dex-images/sprites/salazzle.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 64,
+        "defense": 60,
+        "hp": 68,
+        "special-attack": 111,
+        "special-defense": 60,
+        "speed": 117
+      },
+      "tags": [],
+      "types": ["poison", "fire"],
+      "weight": 222
+    }
+  ],
+  "generation": 7,
+  "key": "salazzle",
+  "name": "Salazzle",
+  "names": {
+    "de": "Amfira",
+    "en": "Salazzle",
+    "es": "Salazzle",
+    "es-419": "Salazzle",
+    "fr": "Malamandre",
+    "it": "Salazzle",
+    "ja": "エンニュート",
+    "ja-hrkt": "エンニュート",
+    "ja-roma": "Ennewt",
+    "ko": "염뉴트",
+    "zh-hans": "焰后蜥",
+    "zh-hant": "焰后蜥"
+  },
+  "number": 758
+}

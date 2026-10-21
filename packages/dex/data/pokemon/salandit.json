@@ -1,0 +1,430 @@
+{
+  "category": "Toxic Lizard Pokémon",
+  "entries": [
+    {
+      "text": "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
+      "version": "sun"
+    },
+    {
+      "text": "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them.",
+      "version": "moon"
+    },
+    {
+      "text": "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can’t evolve.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It weakens opponents and sends them reeling with its poisonous gas. Salandit doesn’t deal well with Spinda, since it’s always reeling.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its venom sacs produce a fluid that this Pokémon then heats up with the flame in its tail. This process creates Salandit’s poisonous gas.",
+      "version": "sword"
+    },
+    {
+      "text": "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "salandit",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "min_level": 33
+      },
+      "from": "salandit",
+      "to": "salazzle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "corrosion"
+        },
+        {
+          "hidden": true,
+          "key": "oblivious"
+        }
+      ],
+      "artwork": "/dex-images/artwork/salandit.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 30,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "shield": [
+          {
+            "chance": 90,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 50,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 30,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "sword": [
+          {
+            "chance": 90,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 95,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 155,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 224,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 155,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 155,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 224,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 155,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 155,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 30,
+            "location": "lush-jungle-east-cave",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 30,
+            "location": "lush-jungle-east-cave",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 7,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "salandit",
+      "kind": "default",
+      "name": "Salandit",
+      "number": 757,
+      "pokemon": "salandit",
+      "sourceId": 757,
+      "sprite": "/dex-images/sprites/salandit.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 44,
+        "defense": 40,
+        "hp": 48,
+        "special-attack": 71,
+        "special-defense": 40,
+        "speed": 77
+      },
+      "tags": [],
+      "types": ["poison", "fire"],
+      "weight": 48
+    }
+  ],
+  "generation": 7,
+  "key": "salandit",
+  "name": "Salandit",
+  "names": {
+    "de": "Molunk",
+    "en": "Salandit",
+    "es": "Salandit",
+    "es-419": "Salandit",
+    "fr": "Tritox",
+    "it": "Salandit",
+    "ja": "ヤトウモリ",
+    "ja-hrkt": "ヤトウモリ",
+    "ja-roma": "Yatoumori",
+    "ko": "야도뇽",
+    "zh-hans": "夜盗火蜥",
+    "zh-hant": "夜盜火蜥"
+  },
+  "number": 757
+}

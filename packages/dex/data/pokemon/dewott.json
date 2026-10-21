@@ -1,0 +1,134 @@
+{
+  "category": "Discipline Pokémon",
+  "entries": [
+    {
+      "text": "Strict training is how it learns its flowing double-scalchop technique.",
+      "version": "black"
+    },
+    {
+      "text": "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
+      "version": "white"
+    },
+    {
+      "text": "As a result of strict training, each Dewott learns different forms for using the scalchops.",
+      "version": "black-2"
+    },
+    {
+      "text": "As a result of strict training, each Dewott learns different forms for using the scalchops.",
+      "version": "white-2"
+    },
+    {
+      "text": "Strict training is how it learns its flowing double-scalchop technique.",
+      "version": "x"
+    },
+    {
+      "text": "As a result of strict training, each Dewott learns different forms for using the scalchops.",
+      "version": "y"
+    },
+    {
+      "text": "Strict training is how it learns its flowing double-scalchop technique.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "As a result of strict training, each Dewott learns different forms for using the scalchops.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oshawott",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "oshawott",
+      "to": "dewott",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "dewott",
+      "to": "samurott",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "samurott-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "dewott",
+      "to": "samurott",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dewott.webp",
+      "encounters": {},
+      "games": ["black-white", "black-2-white-2", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dewott",
+      "kind": "default",
+      "name": "Dewott",
+      "number": 502,
+      "pokemon": "dewott",
+      "sourceId": 502,
+      "sprite": "/dex-images/sprites/dewott.webp",
+      "statTotal": 413,
+      "stats": {
+        "attack": 75,
+        "defense": 60,
+        "hp": 75,
+        "special-attack": 83,
+        "special-defense": 60,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 245
+    }
+  ],
+  "generation": 5,
+  "key": "dewott",
+  "name": "Dewott",
+  "names": {
+    "de": "Zwottronin",
+    "en": "Dewott",
+    "es": "Dewott",
+    "es-419": "Dewott",
+    "fr": "Mateloutre",
+    "it": "Dewott",
+    "ja": "フタチマル",
+    "ja-hrkt": "フタチマル",
+    "ja-roma": "Futachimaru",
+    "ko": "쌍검자비",
+    "zh-hans": "双刃丸",
+    "zh-hant": "雙刃丸"
+  },
+  "number": 502
+}

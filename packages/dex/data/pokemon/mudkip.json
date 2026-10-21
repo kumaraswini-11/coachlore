@@ -1,0 +1,224 @@
+{
+  "category": "Mud Fish Pokémon",
+  "entries": [
+    {
+      "text": "The fin on MUDKIP’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this POKéMON can determine what is taking place around it without using its eyes.",
+      "version": "ruby"
+    },
+    {
+      "text": "In water, MUDKIP breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this POKéMON will unleash its amazing power - it can crush rocks bigger than itself.",
+      "version": "sapphire"
+    },
+    {
+      "text": "On land, it can powerfully lift large boulders by planting its four feet and heaving. It sleeps by burying itself in soil at the water’s edge.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its large tail fin propels it through water with powerful acceleration. It is strong in spite of its size.",
+      "version": "firered"
+    },
+    {
+      "text": "Its large tail fin propels it through water with powerful acceleration. It is strong in spite of its size.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "diamond"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "pearl"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its power can crush boulders. It rests by covering itself with mud at the bottom of a river.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its power can crush boulders. It rests by covering itself with mud at the bottom of a river.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "black"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "white"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "black-2"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its large tail fin propels it through water with powerful acceleration. It is strong in spite of its size.",
+      "version": "x"
+    },
+    {
+      "text": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+      "version": "y"
+    },
+    {
+      "text": "The fin on Mudkip’s head acts as highly sensitive radar. Using this fin to sense movements of water and air, this Pokémon can determine what is taking place around it without using its eyes.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pokémon will unleash its amazing power—it can crush rocks bigger than itself.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mudkip",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "mudkip",
+      "to": "marshtomp",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "marshtomp",
+      "to": "swampert",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mudkip.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "saffron-city-silph-co",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "saffron-city-silph-co",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 3,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mudkip",
+      "kind": "default",
+      "name": "Mudkip",
+      "number": 258,
+      "pokemon": "mudkip",
+      "sourceId": 258,
+      "sprite": "/dex-images/sprites/mudkip.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 70,
+        "defense": 50,
+        "hp": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 76
+    }
+  ],
+  "generation": 3,
+  "key": "mudkip",
+  "name": "Mudkip",
+  "names": {
+    "de": "Hydropi",
+    "en": "Mudkip",
+    "es": "Mudkip",
+    "es-419": "Mudkip",
+    "fr": "Gobou",
+    "it": "Mudkip",
+    "ja": "ミズゴロウ",
+    "ja-hrkt": "ミズゴロウ",
+    "ja-roma": "Mizugorou",
+    "ko": "물짱이",
+    "zh-hans": "水跃鱼",
+    "zh-hant": "水躍魚"
+  },
+  "number": 258
+}

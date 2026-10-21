@@ -1,0 +1,128 @@
+{
+  "category": "Spicy Pepper Pokémon",
+  "entries": [
+    {
+      "text": "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "capsakid",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "fire-stone"
+      },
+      "from": "capsakid",
+      "to": "scovillain",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": true,
+          "key": "moody"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scovillain.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "scovillain",
+      "kind": "default",
+      "name": "Scovillain",
+      "number": 952,
+      "pokemon": "scovillain",
+      "sourceId": 952,
+      "sprite": "/dex-images/sprites/scovillain.webp",
+      "statTotal": 486,
+      "stats": {
+        "attack": 108,
+        "defense": 65,
+        "hp": 65,
+        "special-attack": 108,
+        "special-defense": 65,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["grass", "fire"],
+      "weight": 150
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "spicy-spray"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scovillain-mega.webp",
+      "encounters": {},
+      "formName": "Mega Scovillain",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "scovillain-mega",
+      "kind": "mega",
+      "name": "Scovillain-Mega",
+      "number": 952,
+      "pokemon": "scovillain",
+      "sourceId": 10320,
+      "sprite": "/dex-images/sprites/scovillain-mega.webp",
+      "statTotal": 586,
+      "stats": {
+        "attack": 138,
+        "defense": 85,
+        "hp": 65,
+        "special-attack": 138,
+        "special-defense": 85,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["grass", "fire"],
+      "weight": 220
+    }
+  ],
+  "generation": 9,
+  "key": "scovillain",
+  "name": "Scovillain",
+  "names": {
+    "de": "Halupenjo",
+    "en": "Scovillain",
+    "es": "Scovillain",
+    "es-419": "Scovillain",
+    "fr": "Scovilain",
+    "it": "Scovillain",
+    "ja": "スコヴィラン",
+    "ja-hrkt": "スコヴィラン",
+    "ja-roma": "Scovillain",
+    "ko": "스코빌런",
+    "zh-hans": "狠辣椒",
+    "zh-hant": "狠辣椒"
+  },
+  "number": 952
+}

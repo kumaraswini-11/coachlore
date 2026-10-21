@@ -1,0 +1,663 @@
+{
+  "category": "Snake Pokémon",
+  "entries": [
+    {
+      "text": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+      "version": "red"
+    },
+    {
+      "text": "Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+      "version": "blue"
+    },
+    {
+      "text": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+      "version": "yellow"
+    },
+    {
+      "text": "It can freely detach its jaw to swallow large prey whole. It can become too heavy to move, however.",
+      "version": "gold"
+    },
+    {
+      "text": "It always hides in grass. When first born, it has no poison, so its bite is painful, but harmless.",
+      "version": "silver"
+    },
+    {
+      "text": "It flutters the tip of its tongue to seek out the scent of prey, then swallows the prey whole.",
+      "version": "crystal"
+    },
+    {
+      "text": "EKANS curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+      "version": "ruby"
+    },
+    {
+      "text": "EKANS curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+      "version": "sapphire"
+    },
+    {
+      "text": "An EKANS curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with a threat from its upraised head.",
+      "version": "emerald"
+    },
+    {
+      "text": "A very common sight in grassland, etc. It flicks its tongue in and out to sense danger in its surroundings.",
+      "version": "firered"
+    },
+    {
+      "text": "Moving silently and stealthily, it eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "diamond"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "pearl"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "platinum"
+    },
+    {
+      "text": "It can freely detach its jaw to swallow large prey whole. It can become too heavy to move, however.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It always hides in grass. When first born, it has no poison, so its bite is painful, but harmless.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "black"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "white"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "black-2"
+    },
+    {
+      "text": "It sneaks through grass without making a sound and strikes unsuspecting prey from behind.",
+      "version": "white-2"
+    },
+    {
+      "text": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+      "version": "x"
+    },
+    {
+      "text": "Moving silently and stealthily, it eats the eggs of birds, such as Pidgey and Spearow, whole.",
+      "version": "y"
+    },
+    {
+      "text": "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "ekans",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "ekans",
+      "to": "arbok",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ekans.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 30,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-32-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-32-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-32-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-33-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-33-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-33-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-42-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-42-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-42-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-4-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "firered": [
+          {
+            "chance": 25,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-23-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-9-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "goldenrod-city-game-corner",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "goldenrod-city-game-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "red": [
+          {
+            "chance": 25,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-23-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-9-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 25,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-23-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-9-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "silver": [
+          {
+            "chance": 90,
+            "location": "johto-route-32-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-33-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-4-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-route-32-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-33-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-4-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 70,
+            "location": "alola-route-2-north",
+            "maxLevel": 11,
+            "method": "bubbling-spots",
+            "minLevel": 8
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-2-north",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-2-south",
+            "maxLevel": 10,
+            "method": "bubbling-spots",
+            "minLevel": 7
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-2-south",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 70,
+            "location": "alola-route-2-north",
+            "maxLevel": 11,
+            "method": "bubbling-spots",
+            "minLevel": 8
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-2-north",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-2-south",
+            "maxLevel": 10,
+            "method": "bubbling-spots",
+            "minLevel": 7
+          },
+          {
+            "chance": 70,
+            "location": "alola-route-2-south",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "x": [
+          {
+            "chance": 5,
+            "location": "kalos-route-14-area",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "kalos-route-14-area",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ekans",
+      "kind": "default",
+      "name": "Ekans",
+      "number": 23,
+      "pokemon": "ekans",
+      "sourceId": 23,
+      "sprite": "/dex-images/sprites/ekans.webp",
+      "statTotal": 288,
+      "stats": {
+        "attack": 60,
+        "defense": 44,
+        "hp": 35,
+        "special-attack": 40,
+        "special-defense": 54,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 69
+    }
+  ],
+  "generation": 1,
+  "key": "ekans",
+  "name": "Ekans",
+  "names": {
+    "de": "Rettan",
+    "en": "Ekans",
+    "es": "Ekans",
+    "es-419": "Ekans",
+    "fr": "Abo",
+    "it": "Ekans",
+    "ja": "アーボ",
+    "ja-hrkt": "アーボ",
+    "ja-roma": "Arbo",
+    "ko": "아보",
+    "zh-hans": "阿柏蛇",
+    "zh-hant": "阿柏蛇"
+  },
+  "number": 23
+}

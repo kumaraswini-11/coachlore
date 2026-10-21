@@ -1,0 +1,133 @@
+{
+  "category": "Gigantic Pokémon",
+  "entries": [
+    {
+      "text": "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+      "version": "sword"
+    },
+    {
+      "text": "It was inside a meteorite that fell 20,000 years ago. There seems to be a connection between this Pokémon and the Dynamax phenomenon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "eternatus",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/eternatus.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "energy-plant-tower-summit",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "energy-plant-tower-summit",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sword-shield"],
+      "gen9": true,
+      "generation": 8,
+      "height": 200,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "eternatus",
+      "kind": "default",
+      "legendary": true,
+      "name": "Eternatus",
+      "number": 890,
+      "pokemon": "eternatus",
+      "sourceId": 890,
+      "sprite": "/dex-images/sprites/eternatus.webp",
+      "statTotal": 690,
+      "stats": {
+        "attack": 85,
+        "defense": 95,
+        "hp": 140,
+        "special-attack": 145,
+        "special-defense": 95,
+        "speed": 130
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["poison", "dragon"],
+      "weight": 9500
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/eternatus-eternamax.webp",
+      "encounters": {},
+      "formName": "Eternamax",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 1000,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "eternatus-eternamax",
+      "kind": "other",
+      "legendary": true,
+      "name": "Eternatus-Eternamax",
+      "number": 890,
+      "pokemon": "eternatus",
+      "sourceId": 10190,
+      "sprite": "/dex-images/sprites/eternatus-eternamax.webp",
+      "statTotal": 1125,
+      "stats": {
+        "attack": 115,
+        "defense": 250,
+        "hp": 255,
+        "special-attack": 125,
+        "special-defense": 250,
+        "speed": 130
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["poison", "dragon"],
+      "weight": 0
+    }
+  ],
+  "generation": 8,
+  "key": "eternatus",
+  "name": "Eternatus",
+  "names": {
+    "de": "Endynalos",
+    "en": "Eternatus",
+    "es": "Eternatus",
+    "es-419": "Eternatus",
+    "fr": "Éthernatos",
+    "it": "Eternatus",
+    "ja": "ムゲンダイナ",
+    "ja-hrkt": "ムゲンダイナ",
+    "ja-roma": "Mugendina",
+    "ko": "무한다이노",
+    "zh-hans": "无极汰那",
+    "zh-hant": "無極汰那"
+  },
+  "number": 890
+}

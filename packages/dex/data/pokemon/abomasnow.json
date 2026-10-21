@@ -1,0 +1,613 @@
+{
+  "category": "Frost Tree Pokémon",
+  "entries": [
+    {
+      "text": "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
+      "version": "diamond"
+    },
+    {
+      "text": "It blankets wide areas in snow by whipping up blizzards. It is also known as “The Ice Monster.”",
+      "version": "pearl"
+    },
+    {
+      "text": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+      "version": "black"
+    },
+    {
+      "text": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+      "version": "white"
+    },
+    {
+      "text": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+      "version": "black-2"
+    },
+    {
+      "text": "They appear when the snow flowers bloom. When the petals fall, they retreat to places unknown again.",
+      "version": "white-2"
+    },
+    {
+      "text": "It blankets wide areas in snow by whipping up blizzards. It is also known as “The Ice Monster.”",
+      "version": "x"
+    },
+    {
+      "text": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+      "version": "y"
+    },
+    {
+      "text": "It blankets wide areas in snow by whipping up blizzards. It is also known as “The Ice Monster.”",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions.",
+      "version": "shield"
+    },
+    {
+      "text": "A powerful Pokémon that can split huge boulders with ease. Dislikes associating with others and chooses to live quietly deep within the mountains, playing with the snow.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snover",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "snover",
+      "to": "abomasnow",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-warning"
+        },
+        {
+          "hidden": true,
+          "key": "soundproof"
+        }
+      ],
+      "artwork": "/dex-images/artwork/abomasnow.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 40,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "shield": [
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 128,
+            "location": "galar-route-10-main",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          },
+          {
+            "chance": 128,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 55,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 400,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 400,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 65,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 128,
+            "location": "galar-route-10-main",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          },
+          {
+            "chance": 128,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 55,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 400,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 400,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 80,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 674,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 674,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 80,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 80,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 80,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 674,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 674,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 80,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 80,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 1,
+            "location": "kalos-route-17-area",
+            "maxLevel": 40,
+            "method": "rough-terrain",
+            "minLevel": 40
+          }
+        ],
+        "y": [
+          {
+            "chance": 1,
+            "location": "kalos-route-17-area",
+            "maxLevel": 40,
+            "method": "rough-terrain",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 22,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "abomasnow",
+      "kind": "default",
+      "name": "Abomasnow",
+      "number": 460,
+      "pokemon": "abomasnow",
+      "sourceId": 460,
+      "sprite": "/dex-images/sprites/abomasnow.webp",
+      "statTotal": 494,
+      "stats": {
+        "attack": 92,
+        "defense": 75,
+        "hp": 90,
+        "special-attack": 92,
+        "special-defense": 85,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["grass", "ice"],
+      "weight": 1355
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-warning"
+        }
+      ],
+      "artwork": "/dex-images/artwork/abomasnow-mega.webp",
+      "encounters": {},
+      "formName": "Mega Abomasnow",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 27,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "abomasnow-mega",
+      "kind": "mega",
+      "name": "Abomasnow-Mega",
+      "number": 460,
+      "pokemon": "abomasnow",
+      "sourceId": 10060,
+      "sprite": "/dex-images/sprites/abomasnow-mega.webp",
+      "statTotal": 594,
+      "stats": {
+        "attack": 132,
+        "defense": 105,
+        "hp": 90,
+        "special-attack": 132,
+        "special-defense": 105,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass", "ice"],
+      "weight": 1850
+    }
+  ],
+  "generation": 4,
+  "key": "abomasnow",
+  "name": "Abomasnow",
+  "names": {
+    "de": "Rexblisar",
+    "en": "Abomasnow",
+    "es": "Abomasnow",
+    "es-419": "Abomasnow",
+    "fr": "Blizzaroi",
+    "it": "Abomasnow",
+    "ja": "ユキノオー",
+    "ja-hrkt": "ユキノオー",
+    "ja-roma": "Yukinooh",
+    "ko": "눈설왕",
+    "zh-hans": "暴雪王",
+    "zh-hant": "暴雪王"
+  },
+  "number": 460
+}

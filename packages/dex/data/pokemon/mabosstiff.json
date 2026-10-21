@@ -1,0 +1,92 @@
+{
+  "category": "Boss Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "maschiff",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "maschiff",
+      "to": "mabosstiff",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "guard-dog"
+        },
+        {
+          "hidden": true,
+          "key": "stakeout"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mabosstiff.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mabosstiff",
+      "kind": "default",
+      "name": "Mabosstiff",
+      "number": 943,
+      "pokemon": "mabosstiff",
+      "sourceId": 943,
+      "sprite": "/dex-images/sprites/mabosstiff.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 120,
+        "defense": 90,
+        "hp": 80,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 610
+    }
+  ],
+  "generation": 9,
+  "key": "mabosstiff",
+  "name": "Mabosstiff",
+  "names": {
+    "de": "Mastifioso",
+    "en": "Mabosstiff",
+    "es": "Mabosstiff",
+    "es-419": "Mabosstiff",
+    "fr": "Dogrino",
+    "it": "Mabosstiff",
+    "ja": "マフィティフ",
+    "ja-hrkt": "マフィティフ",
+    "ja-roma": "Mafitiff",
+    "ko": "마피티프",
+    "zh-hans": "獒教父",
+    "zh-hant": "獒教父"
+  },
+  "number": 943
+}

@@ -1,0 +1,294 @@
+{
+  "category": "Endurance Pokémon",
+  "entries": [
+    {
+      "text": "Inside SHELGON’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This POKéMON’s shell is extremely heavy, making its movements sluggish.",
+      "version": "ruby"
+    },
+    {
+      "text": "Covering SHELGON’s body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this POKéMON hides away in a cavern.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It hardly eats while it awaits evolution. It becomes hardier by enduring hunger. Its shell peels off the instant it begins to evolve.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
+      "version": "firered"
+    },
+    {
+      "text": "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "diamond"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "pearl"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "platinum"
+    },
+    {
+      "text": "It surrounds its body in an iron-hard shell to accumulate enough power to evolve.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It surrounds its body in an iron-hard shell to accumulate enough power to evolve.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "black"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "white"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "black-2"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "white-2"
+    },
+    {
+      "text": "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+      "version": "x"
+    },
+    {
+      "text": "Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.",
+      "version": "y"
+    },
+    {
+      "text": "Inside Shelgon’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This Pokémon’s shell is extremely heavy, making its movements sluggish.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Covering Shelgon’s body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this Pokémon hides away in a cavern.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The cells within its shell transform with explosive speed, preparing it for evolution.",
+      "version": "sun"
+    },
+    {
+      "text": "They lurk deep within caves—motionless, neither eating nor drinking. Why they don’t die is not known.",
+      "version": "moon"
+    },
+    {
+      "text": "The cells within its body are changing at a bewildering pace. Its hard shell is made from the same substance as bone.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon has covered its body in a hard shell that has the same composition as bone. Shelgon stores energy for evolution.",
+      "version": "sword"
+    },
+    {
+      "text": "Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bagon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "bagon",
+      "to": "shelgon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 50
+      },
+      "from": "shelgon",
+      "to": "salamence",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/shelgon.webp",
+      "encounters": {
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 140,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "sos",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 3,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "shelgon",
+      "kind": "default",
+      "name": "Shelgon",
+      "number": 372,
+      "pokemon": "shelgon",
+      "sourceId": 372,
+      "sprite": "/dex-images/sprites/shelgon.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 95,
+        "defense": 100,
+        "hp": 65,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 1105
+    }
+  ],
+  "generation": 3,
+  "key": "shelgon",
+  "name": "Shelgon",
+  "names": {
+    "de": "Draschel",
+    "en": "Shelgon",
+    "es": "Shelgon",
+    "es-419": "Shelgon",
+    "fr": "Drackhaus",
+    "it": "Shelgon",
+    "ja": "コモルー",
+    "ja-hrkt": "コモルー",
+    "ja-roma": "Komoruu",
+    "ko": "쉘곤",
+    "zh-hans": "甲壳龙",
+    "zh-hant": "甲殼龍"
+  },
+  "number": 372
+}

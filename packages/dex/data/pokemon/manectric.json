@@ -1,0 +1,502 @@
+{
+  "category": "Discharge Pokémon",
+  "entries": [
+    {
+      "text": "MANECTRIC is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this POKéMON creates thunderclouds.",
+      "version": "ruby"
+    },
+    {
+      "text": "MANECTRIC discharges strong electricity from its mane. The mane is used for collecting electricity in the atmosphere. This POKéMON creates thunderclouds above its head.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Because lightning falls in their vicinities, MANECTRIC were thought to have been born from lightning. In battle, they create thunderclouds.",
+      "version": "emerald"
+    },
+    {
+      "text": "It rarely appears before people. It is said to nest where lightning has fallen.",
+      "version": "firered"
+    },
+    {
+      "text": "It rarely appears before people. It is said to nest where lightning has fallen.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "diamond"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "pearl"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its nest can be found where a thunderbolt hits. It is discharging electricity from its mane.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its nest can be found where a thunderbolt hits. It is discharging electricity from its mane.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "black"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "white"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "black-2"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "white-2"
+    },
+    {
+      "text": "It rarely appears before people. It is said to nest where lightning has fallen.",
+      "version": "x"
+    },
+    {
+      "text": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+      "version": "y"
+    },
+    {
+      "text": "Manectric is constantly discharging electricity from its mane. The sparks sometimes ignite forest fires. When it enters a battle, this Pokémon creates thunderclouds.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Manectric discharges strong electricity from its mane. The mane is used for collecting electricity in the atmosphere. This Pokémon creates thunderclouds above its head.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Manectric can be found beneath unnatural thunderclouds. People say it can run at the same speed as lightning striking.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
+      "version": "sword"
+    },
+    {
+      "text": "It rarely appears before people. It is said to nest where lightning has fallen.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "electrike",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 26
+      },
+      "from": "electrike",
+      "to": "manectric",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": true,
+          "key": "minus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/manectric.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "unova-route-3-hidden-grotto-dark-grass",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 75,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 75,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 65,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 65,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-12-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "unova-route-3-hidden-grotto-dark-grass",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-dome-1f",
+            "maxLevel": 44,
+            "method": "snag",
+            "minLevel": 44
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 3,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "manectric",
+      "kind": "default",
+      "name": "Manectric",
+      "number": 310,
+      "pokemon": "manectric",
+      "sourceId": 310,
+      "sprite": "/dex-images/sprites/manectric.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 75,
+        "defense": 60,
+        "hp": 70,
+        "special-attack": 105,
+        "special-defense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 402
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/manectric-mega.webp",
+      "encounters": {},
+      "formName": "Mega Manectric",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 18,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "manectric-mega",
+      "kind": "mega",
+      "name": "Manectric-Mega",
+      "number": 310,
+      "pokemon": "manectric",
+      "sourceId": 10055,
+      "sprite": "/dex-images/sprites/manectric-mega.webp",
+      "statTotal": 575,
+      "stats": {
+        "attack": 75,
+        "defense": 80,
+        "hp": 70,
+        "special-attack": 135,
+        "special-defense": 80,
+        "speed": 135
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 440
+    }
+  ],
+  "generation": 3,
+  "key": "manectric",
+  "name": "Manectric",
+  "names": {
+    "de": "Voltenso",
+    "en": "Manectric",
+    "es": "Manectric",
+    "es-419": "Manectric",
+    "fr": "Élecsprint",
+    "it": "Manectric",
+    "ja": "ライボルト",
+    "ja-hrkt": "ライボルト",
+    "ja-roma": "Livolt",
+    "ko": "썬더볼트",
+    "zh-hans": "雷电兽",
+    "zh-hant": "雷電獸"
+  },
+  "number": 310
+}

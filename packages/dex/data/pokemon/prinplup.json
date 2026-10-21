@@ -1,0 +1,163 @@
+{
+  "category": "Penguin Pokémon",
+  "entries": [
+    {
+      "text": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its wings deliver wicked blows that snap even the thickest of trees. It searches for prey in icy seas.",
+      "version": "pearl"
+    },
+    {
+      "text": "Because every PRINPLUP considers itself to be the most important, they can never form a group.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Because every Prinplup considers itself to be the most important, they can never form a group.",
+      "version": "black"
+    },
+    {
+      "text": "Because every Prinplup considers itself to be the most important, they can never form a group.",
+      "version": "white"
+    },
+    {
+      "text": "Because every Prinplup considers itself to be the most important, they can never form a group.",
+      "version": "black-2"
+    },
+    {
+      "text": "Because every Prinplup considers itself to be the most important, they can never form a group.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+      "version": "x"
+    },
+    {
+      "text": "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+      "version": "y"
+    },
+    {
+      "text": "It lives alone, away from others. Apparently, every one of them believes it is the most important.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It swims gracefully through the frigid sea and sings with a voice like the roaring tide. It has powerful, sturdy wings and dignity to match.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "piplup",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "piplup",
+      "to": "prinplup",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "prinplup",
+      "to": "empoleon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "competitive"
+        }
+      ],
+      "artwork": "/dex-images/artwork/prinplup.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 35,
+            "method": "island-scan",
+            "minLevel": 35
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 35,
+            "method": "island-scan",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "prinplup",
+      "kind": "default",
+      "name": "Prinplup",
+      "number": 394,
+      "pokemon": "prinplup",
+      "sourceId": 394,
+      "sprite": "/dex-images/sprites/prinplup.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 66,
+        "defense": 68,
+        "hp": 64,
+        "special-attack": 81,
+        "special-defense": 76,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 230
+    }
+  ],
+  "generation": 4,
+  "key": "prinplup",
+  "name": "Prinplup",
+  "names": {
+    "de": "Pliprin",
+    "en": "Prinplup",
+    "es": "Prinplup",
+    "es-419": "Prinplup",
+    "fr": "Prinplouf",
+    "it": "Prinplup",
+    "ja": "ポッタイシ",
+    "ja-hrkt": "ポッタイシ",
+    "ja-roma": "Pottaishi",
+    "ko": "팽태자",
+    "zh-hans": "波皇子",
+    "zh-hant": "波皇子"
+  },
+  "number": 394
+}

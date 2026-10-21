@@ -1,0 +1,449 @@
+{
+  "category": "Wolf Pokémon",
+  "entries": [
+    {
+      "text": "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+      "version": "sun"
+    },
+    {
+      "text": "When properly raised from a young age, it will become a trustworthy partner that will absolutely never betray its Trainer.",
+      "version": "moon"
+    },
+    {
+      "text": "The sharp rocks in its mane can cut like knives. Lycanroc wears its prey down by degrees before finishing them off.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Lycanroc is calm and cautious. The rocks jutting from its mane are razor sharp.",
+      "version": "sword"
+    },
+    {
+      "text": "With swift movements, this Pokémon gradually backs its prey into a corner. Lycanroc’s fangs are always aimed toward opponents’ weak spots.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rockruff",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lycanroc-midday",
+        "min_level": 25,
+        "required_pokemon_form": "rockruff",
+        "time_of_day": "day"
+      },
+      "from": "rockruff",
+      "to": "lycanroc",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lycanroc-midnight",
+        "min_level": 25,
+        "required_pokemon_form": "rockruff",
+        "time_of_day": "night"
+      },
+      "from": "rockruff",
+      "to": "lycanroc",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lycanroc-dusk",
+        "min_level": 25,
+        "required_pokemon_form": "rockruff-own-tempo",
+        "time_of_day": "dusk"
+      },
+      "from": "rockruff",
+      "to": "lycanroc",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "sand-rush"
+        },
+        {
+          "hidden": true,
+          "key": "steadfast"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lycanroc-midday.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 80,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 180,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ]
+      },
+      "formName": "Midday Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lycanroc-midday",
+      "kind": "default",
+      "name": "Lycanroc",
+      "number": 745,
+      "pokemon": "lycanroc",
+      "sourceId": 745,
+      "sprite": "/dex-images/sprites/lycanroc-midday.webp",
+      "statTotal": 487,
+      "stats": {
+        "attack": 115,
+        "defense": 65,
+        "hp": 75,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 112
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 250
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lycanroc-dusk.webp",
+      "encounters": {
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 30,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 30,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Dusk Form",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "lycanroc-dusk",
+      "kind": "other",
+      "name": "Lycanroc-Dusk",
+      "number": 745,
+      "pokemon": "lycanroc",
+      "sourceId": 10152,
+      "sprite": "/dex-images/sprites/lycanroc-dusk.webp",
+      "statTotal": 487,
+      "stats": {
+        "attack": 117,
+        "defense": 65,
+        "hp": 75,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 250
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "vital-spirit"
+        },
+        {
+          "hidden": true,
+          "key": "no-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lycanroc-midnight.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 180,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 80,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ]
+      },
+      "formName": "Midnight Form",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "lycanroc-midnight",
+      "kind": "other",
+      "name": "Lycanroc-Midnight",
+      "number": 745,
+      "pokemon": "lycanroc",
+      "sourceId": 10126,
+      "sprite": "/dex-images/sprites/lycanroc-midnight.webp",
+      "statTotal": 487,
+      "stats": {
+        "attack": 115,
+        "defense": 75,
+        "hp": 85,
+        "special-attack": 55,
+        "special-defense": 75,
+        "speed": 82
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 250
+    }
+  ],
+  "generation": 7,
+  "key": "lycanroc",
+  "name": "Lycanroc",
+  "names": {
+    "de": "Wolwerock",
+    "en": "Lycanroc",
+    "es": "Lycanroc",
+    "es-419": "Lycanroc",
+    "fr": "Lougaroc",
+    "it": "Lycanroc",
+    "ja": "ルガルガン",
+    "ja-hrkt": "ルガルガン",
+    "ja-roma": "Lugarugan",
+    "ko": "루가루암",
+    "zh-hans": "鬃岩狼人",
+    "zh-hant": "鬃岩狼人"
+  },
+  "number": 745
+}

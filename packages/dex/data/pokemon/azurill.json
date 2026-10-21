@@ -1,0 +1,468 @@
+{
+  "category": "Polka Dot Pokémon",
+  "entries": [
+    {
+      "text": "AZURILL spins its tail as if it were a lasso, then hurls it far. The momentum of the throw sends its body flying, too. Using this unique action, one of these POKéMON managed to hurl itself a record 33 feet.",
+      "version": "ruby"
+    },
+    {
+      "text": "AZURILL’s tail is large and bouncy. It is packed full of the nutrients this POKéMON needs to grow. AZURILL can be seen bouncing and playing on its big, rubbery tail.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its tail, which is packed with nutrition, is very bouncy like a rubber ball. On sunny days they gather at the edge of water and splash about for fun.",
+      "version": "emerald"
+    },
+    {
+      "text": "It battles by flinging around its tail, which is bigger than its body. The tail is a flotation device in water.",
+      "version": "firered"
+    },
+    {
+      "text": "It battles by flinging around its tail, which is bigger than its body. The tail is a flotation device in water.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its tail is filled with nutrients necessary for growth. It plays by bouncing on its tail.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its tail is packed full of the nutrients it needs to grow.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its tail is packed full of the nutrients it needs to grow.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
+      "version": "black"
+    },
+    {
+      "text": "Its tail bounces like a rubber ball. It flings that tail around to fight opponents bigger than itself.",
+      "version": "white"
+    },
+    {
+      "text": "It swings its large, nutrient-filled tail around to fight opponents bigger than itself.",
+      "version": "black-2"
+    },
+    {
+      "text": "It swings its large, nutrient-filled tail around to fight opponents bigger than itself.",
+      "version": "white-2"
+    },
+    {
+      "text": "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
+      "version": "x"
+    },
+    {
+      "text": "It swings its large, nutrient-filled tail around to fight opponents bigger than itself.",
+      "version": "y"
+    },
+    {
+      "text": "Azurill spins its tail as if it were a lasso, then hurls it far. The momentum of the throw sends its body flying, too. Using this unique action, one of these Pokémon managed to hurl itself a record 33 feet.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Azurill’s tail is large and bouncy. It is packed full of the nutrients this Pokémon needs to grow. Azurill can be seen bouncing and playing on its big, rubbery tail.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The ball on Azurill’s tail bounces like a rubber ball, and it’s full of the nutrients the Pokémon needs to grow.",
+      "version": "sword"
+    },
+    {
+      "text": "Although Azurill are normally docile, an angry one will swing around the big ball on its tail and try to smash its opponents.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "azurill",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "azurill",
+      "to": "marill",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "marill",
+      "to": "azumarill",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "huge-power"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/azurill.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 50,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 50,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 11,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 11,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 70,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 70,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 50,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 50,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "scarlet-violet"],
+      "gen9": true,
+      "generation": 3,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "azurill",
+      "kind": "default",
+      "name": "Azurill",
+      "number": 298,
+      "pokemon": "azurill",
+      "sourceId": 298,
+      "sprite": "/dex-images/sprites/azurill.webp",
+      "statTotal": 190,
+      "stats": {
+        "attack": 20,
+        "defense": 40,
+        "hp": 50,
+        "special-attack": 20,
+        "special-defense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["normal", "fairy"],
+      "weight": 20
+    }
+  ],
+  "generation": 3,
+  "key": "azurill",
+  "name": "Azurill",
+  "names": {
+    "de": "Azurill",
+    "en": "Azurill",
+    "es": "Azurill",
+    "es-419": "Azurill",
+    "fr": "Azurill",
+    "it": "Azurill",
+    "ja": "ルリリ",
+    "ja-hrkt": "ルリリ",
+    "ja-roma": "Ruriri",
+    "ko": "루리리",
+    "zh-hans": "露力丽",
+    "zh-hant": "露力麗"
+  },
+  "number": 298
+}

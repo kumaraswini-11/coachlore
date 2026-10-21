@@ -1,0 +1,324 @@
+{
+  "category": "Hippo Pokémon",
+  "entries": [
+    {
+      "text": "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
+      "version": "diamond"
+    },
+    {
+      "text": "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+      "version": "pearl"
+    },
+    {
+      "text": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
+      "version": "platinum"
+    },
+    {
+      "text": "It shrouds itself in sand to ward off germs. It travels easily through the sands of the desert.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It shrouds itself in sand to ward off germs. It travels easily through the sands of the desert.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
+      "version": "black"
+    },
+    {
+      "text": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around ten.",
+      "version": "white"
+    },
+    {
+      "text": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around 10.",
+      "version": "black-2"
+    },
+    {
+      "text": "It shuts its nostrils tight then travels through sand as if walking. They form colonies of around 10.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
+      "version": "x"
+    },
+    {
+      "text": "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+      "version": "y"
+    },
+    {
+      "text": "It lives in arid places. Instead of perspiration, it expels grainy sand from its body.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand.",
+      "version": "shield"
+    },
+    {
+      "text": "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "hippopotas",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "hippopotas",
+      "to": "hippowdon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-stream"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/hippopotas.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "maniac-tunnel-26-plus-different-unown-caught",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "ruin-maniac-cave-0-9-different-unown-caught",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "ruin-maniac-cave-10-25-different-unown-caught",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "maniac-tunnel-26-plus-different-unown-caught",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "ruin-maniac-cave-0-9-different-unown-caught",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "ruin-maniac-cave-10-25-different-unown-caught",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "maniac-tunnel-26-plus-different-unown-caught",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "ruin-maniac-cave-0-9-different-unown-caught",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "ruin-maniac-cave-10-25-different-unown-caught",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "shield": [
+          {
+            "chance": 230,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-6-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 230,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "sword": [
+          {
+            "chance": 230,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-6-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 230,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-9-area",
+            "maxLevel": 17,
+            "method": "rough-terrain",
+            "minLevel": 15
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-9-area",
+            "maxLevel": 17,
+            "method": "rough-terrain",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 4,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "hippopotas",
+      "kind": "default",
+      "name": "Hippopotas",
+      "number": 449,
+      "pokemon": "hippopotas",
+      "sourceId": 449,
+      "sprite": "/dex-images/sprites/hippopotas.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 72,
+        "defense": 78,
+        "hp": 68,
+        "special-attack": 38,
+        "special-defense": 42,
+        "speed": 32
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 495
+    }
+  ],
+  "generation": 4,
+  "key": "hippopotas",
+  "name": "Hippopotas",
+  "names": {
+    "de": "Hippopotas",
+    "en": "Hippopotas",
+    "es": "Hippopotas",
+    "es-419": "Hippopotas",
+    "fr": "Hippopotas",
+    "it": "Hippopotas",
+    "ja": "ヒポポタス",
+    "ja-hrkt": "ヒポポタス",
+    "ja-roma": "Hippopotas",
+    "ko": "히포포타스",
+    "zh-hans": "沙河马",
+    "zh-hant": "沙河馬"
+  },
+  "number": 449
+}

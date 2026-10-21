@@ -1,0 +1,208 @@
+{
+  "category": "Sand Heap Pokémon",
+  "entries": [
+    {
+      "text": "Born from a sand mound playfully built by a child, this Pokémon embodies the grudges of the departed.",
+      "version": "sun"
+    },
+    {
+      "text": "It takes control of anyone who puts a hand in its mouth. And so it adds to the accumulation of its sand-mound body.",
+      "version": "moon"
+    },
+    {
+      "text": "It likes the shovel on its head, so Sandygast will get serious and fight any children who come to take it back.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "If you build sand mounds when you’re playing, destroy them before you go home, or they may get possessed and become Sandygast.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Grudges of the dead have possessed a mound of sand and become a Pokémon. Sandygast is fond of the shovel on its head.",
+      "version": "sword"
+    },
+    {
+      "text": "Sandygast mainly inhabits beaches. It takes control of anyone who puts their hand into its mouth, forcing them to make its body bigger.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sandygast",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "sandygast",
+      "to": "palossand",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-compaction"
+        },
+        {
+          "hidden": true,
+          "key": "sand-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sandygast.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 235,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 235,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 16
+          },
+          {
+            "chance": 235,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 235,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 235,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 16
+          },
+          {
+            "chance": 235,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "alola-route-15-main",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 7,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sandygast",
+      "kind": "default",
+      "name": "Sandygast",
+      "number": 769,
+      "pokemon": "sandygast",
+      "sourceId": 769,
+      "sprite": "/dex-images/sprites/sandygast.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 80,
+        "hp": 55,
+        "special-attack": 70,
+        "special-defense": 45,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["ghost", "ground"],
+      "weight": 700
+    }
+  ],
+  "generation": 7,
+  "key": "sandygast",
+  "name": "Sandygast",
+  "names": {
+    "de": "Sankabuh",
+    "en": "Sandygast",
+    "es": "Sandygast",
+    "es-419": "Sandygast",
+    "fr": "Bacabouh",
+    "it": "Sandygast",
+    "ja": "スナバァ",
+    "ja-hrkt": "スナバァ",
+    "ja-roma": "Sunaba",
+    "ko": "모래꿍",
+    "zh-hans": "沙丘娃",
+    "zh-hant": "沙丘娃"
+  },
+  "number": 769
+}

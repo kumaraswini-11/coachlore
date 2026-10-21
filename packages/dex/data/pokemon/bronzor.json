@@ -1,0 +1,1407 @@
+{
+  "category": "Bronze Pokémon",
+  "entries": [
+    {
+      "text": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+      "version": "diamond"
+    },
+    {
+      "text": "X-ray photos were taken to check its body structure. Nothing appeared, however.",
+      "version": "pearl"
+    },
+    {
+      "text": "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+      "version": "platinum"
+    },
+    {
+      "text": "Ancient people believed that the pattern on BRONZOR’s back contained a mysterious power.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Ancient people believed that the pattern on BRONZOR’s back contained a mysterious power.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+      "version": "black"
+    },
+    {
+      "text": "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+      "version": "white"
+    },
+    {
+      "text": "They are found in ancient tombs. The patterns on their backs are said to be imbued with mysterious power.",
+      "version": "black-2"
+    },
+    {
+      "text": "They are found in ancient tombs. The patterns on their backs are said to be imbued with mysterious power.",
+      "version": "white-2"
+    },
+    {
+      "text": "Ancient people believed that the pattern on Bronzor’s back contained a mysterious power.",
+      "version": "x"
+    },
+    {
+      "text": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+      "version": "y"
+    },
+    {
+      "text": "Ancient people believed that the pattern on Bronzor’s back contained a mysterious power.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It appears in ancient ruins. The pattern on its body doesn’t come from any culture in the Galar region, so it remains shrouded in mystery.",
+      "version": "sword"
+    },
+    {
+      "text": "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished.",
+      "version": "shield"
+    },
+    {
+      "text": "Floats using a mysterious energy. The pattern engraved upon its back is held as sacred and can sometimes be found in imagery from ancient cemeteries and other such timeworn places.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bronzor",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 33
+      },
+      "from": "bronzor",
+      "to": "bronzong",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        },
+        {
+          "hidden": false,
+          "key": "heatproof"
+        },
+        {
+          "hidden": true,
+          "key": "heavy-metal"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bronzor.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 15,
+            "location": "abundant-shrine-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "abundant-shrine-hidden-grotto-near-youngster",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 17,
+            "location": "mt-coronet-2f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 17,
+            "location": "mt-coronet-3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-after-pillar-3",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-before-pillar-1",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-between-pillars-1-and-2",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-between-pillars-2-and-3",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-pillar-1",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-pillar-2",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-pillar-3",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 40,
+            "location": "wayward-cave-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 20,
+            "location": "digletts-cave-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-1f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-b1f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-b2f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-b3f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-inside-cave",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "mt-moon-2f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-lower-cave",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-3f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-4f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 20,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "union-cave-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "union-cave-b1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "union-cave-b2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b3f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 17,
+            "location": "mt-coronet-2f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 17,
+            "location": "mt-coronet-3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-after-pillar-3",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-before-pillar-1",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-between-pillars-1-and-2",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-between-pillars-2-and-3",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-pillar-1",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-pillar-2",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 17,
+            "location": "turnback-cave-pillar-3",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 40,
+            "location": "wayward-cave-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 26,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "turnback-cave-before-pillar-1",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "turnback-cave-between-pillars-1-and-2",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "turnback-cave-pillar-1",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "wayward-cave-1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "shield": [
+          {
+            "chance": 40,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 536,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 536,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 130,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "south-lake-miloch-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 20,
+            "location": "digletts-cave-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-1f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-b1f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-b2f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "ice-path-b3f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-inside-cave",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "mt-moon-2f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-lower-cave",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-3f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-4f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-1f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 20,
+            "location": "slowpoke-well-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "slowpoke-well-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "union-cave-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "union-cave-b1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "union-cave-b2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b3f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 486,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 486,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 130,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "south-lake-miloch-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 190,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 55,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 190,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 190,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 55,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 190,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 55,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 55,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "abundant-shrine-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "abundant-shrine-hidden-grotto-near-youngster",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bronzor",
+      "kind": "default",
+      "name": "Bronzor",
+      "number": 436,
+      "pokemon": "bronzor",
+      "sourceId": 436,
+      "sprite": "/dex-images/sprites/bronzor.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 24,
+        "defense": 86,
+        "hp": 57,
+        "special-attack": 24,
+        "special-defense": 86,
+        "speed": 23
+      },
+      "tags": [],
+      "types": ["steel", "psychic"],
+      "weight": 605
+    }
+  ],
+  "generation": 4,
+  "key": "bronzor",
+  "name": "Bronzor",
+  "names": {
+    "de": "Bronzel",
+    "en": "Bronzor",
+    "es": "Bronzor",
+    "es-419": "Bronzor",
+    "fr": "Archéomire",
+    "it": "Bronzor",
+    "ja": "ドーミラー",
+    "ja-hrkt": "ドーミラー",
+    "ja-roma": "Dohmirror",
+    "ko": "동미러",
+    "zh-hans": "铜镜怪",
+    "zh-hant": "銅鏡怪"
+  },
+  "number": 436
+}

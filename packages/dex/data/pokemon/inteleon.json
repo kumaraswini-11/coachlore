@@ -1,0 +1,136 @@
+{
+  "category": "Secret Agent Pokémon",
+  "entries": [
+    {
+      "text": "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
+      "version": "sword"
+    },
+    {
+      "text": "Its nictitating membranes let it pick out foes’ weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sobble",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "sobble",
+      "to": "drizzile",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "drizzile",
+      "to": "inteleon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "sniper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/inteleon.webp",
+      "encounters": {},
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "inteleon",
+      "kind": "default",
+      "name": "Inteleon",
+      "number": 818,
+      "pokemon": "inteleon",
+      "sourceId": 818,
+      "sprite": "/dex-images/sprites/inteleon.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 85,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 125,
+        "special-defense": 65,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 452
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "sniper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/inteleon-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 400,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "inteleon-gmax",
+      "kind": "gigantamax",
+      "name": "Inteleon-Gmax",
+      "number": 818,
+      "pokemon": "inteleon",
+      "sourceId": 10211,
+      "sprite": "/dex-images/sprites/inteleon-gmax.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 85,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 125,
+        "special-defense": 65,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "inteleon",
+  "name": "Inteleon",
+  "names": {
+    "de": "Intelleon",
+    "en": "Inteleon",
+    "es": "Inteleon",
+    "es-419": "Inteleon",
+    "fr": "Lézargus",
+    "it": "Inteleon",
+    "ja": "インテレオン",
+    "ja-hrkt": "インテレオン",
+    "ja-roma": "Intereon",
+    "ko": "인텔리레온",
+    "zh-hans": "千面避役",
+    "zh-hant": "千面避役"
+  },
+  "number": 818
+}

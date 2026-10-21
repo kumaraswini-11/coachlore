@@ -1,0 +1,739 @@
+{
+  "category": "Playhouse Pokémon",
+  "entries": [
+    {
+      "text": "It loves round white things. It carries an egg-shaped rock in imitation of CHANSEY.",
+      "version": "diamond"
+    },
+    {
+      "text": "It carries a round, egg-shaped rock in its belly pouch and gives the rock to its friends.",
+      "version": "pearl"
+    },
+    {
+      "text": "It likes to carry around a small rock. It may wander around others’ feet and cause them to stumble.",
+      "version": "platinum"
+    },
+    {
+      "text": "It carefully carries a round, white rock that it thinks is an egg. It’s bothered by how curly its hair looks.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It carefully carries a round, white rock that it thinks is an egg. It’s bothered by how curly its hair looks.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It likes to carry around a small rock. It may wander around others’ feet and cause them to stumble.",
+      "version": "black"
+    },
+    {
+      "text": "It likes to carry around a small rock. It may wander around others’ feet and cause them to stumble.",
+      "version": "white"
+    },
+    {
+      "text": "It likes to carry around a small rock. It may wander around others’ feet and cause them to stumble.",
+      "version": "black-2"
+    },
+    {
+      "text": "It likes to carry around a small rock. It may wander around others’ feet and cause them to stumble.",
+      "version": "white-2"
+    },
+    {
+      "text": "It carries a round, egg-shaped rock in its belly pouch and gives the rock to its friends.",
+      "version": "x"
+    },
+    {
+      "text": "It carefully carries a round, white rock that it thinks is an egg. It’s bothered by how curly its hair looks.",
+      "version": "y"
+    },
+    {
+      "text": "It carries a round, egg-shaped rock in its belly pouch and gives the rock to its friends.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It carefully carries a round, white rock that it thinks is an egg. It’s bothered by how curly its hair looks.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It carries a round white rock in its belly pouch. If it gets along well with someone, it will sometimes give that person the rock.",
+      "version": "sun"
+    },
+    {
+      "text": "It’s too small to lay eggs yet. As a surrogate, it searches out round white stones.",
+      "version": "moon"
+    },
+    {
+      "text": "Usually it’s a well-behaved Pokémon, but if you take its round rock away, it will cry and fuss and throw a big old tantrum.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When it sees something round and white, Happiny puts it into the pouch on its stomach. It sometimes becomes overloaded and can’t move.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Mimicking Chansey, Happiny will place an egg- shaped stone in its belly pouch. Happiny will treasure this stone.",
+      "version": "sword"
+    },
+    {
+      "text": "Happiny’s willing to lend its precious round stone to those it’s friendly with, but if the stone isn’t returned, Happiny will cry and throw a tantrum.",
+      "version": "shield"
+    },
+    {
+      "text": "In imitation of Chansey, it keeps a round stone tucked into its belly pouch and cherishes it dearly. It gets along well with children and will sometimes play house with them for fun.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "happiny",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "oval-stone",
+        "time_of_day": "day"
+      },
+      "from": "happiny",
+      "to": "chansey",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "chansey",
+      "to": "blissey",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": true,
+          "key": "friend-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/happiny.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-forest-west-of-route-105",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-west-gate",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "hearthome-city-west-gate",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-1-south",
+            "maxLevel": 13,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "sos",
+            "minLevel": 3
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "sos",
+            "minLevel": 5
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "malie-city-main",
+            "maxLevel": 27,
+            "method": "npc-trade",
+            "minLevel": 27
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-forest-west-of-route-105",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-mountain-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "hearthome-city-west-gate",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-1-south",
+            "maxLevel": 13,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "sos",
+            "minLevel": 3
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "sos",
+            "minLevel": 5
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "malie-city-main",
+            "maxLevel": 27,
+            "method": "npc-trade",
+            "minLevel": 27
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 140,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 140,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 140,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 140,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 20,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 140,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 140,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 140,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 140,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 140,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 140,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 140,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 20,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 140,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 140,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 140,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "sos",
+            "minLevel": 2
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "sos",
+            "minLevel": 6
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "sos",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "sos",
+            "minLevel": 27
+          },
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "seaward-cave-area",
+            "maxLevel": 12,
+            "method": "sos",
+            "minLevel": 9
+          },
+          {
+            "chance": 15,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "sos",
+            "minLevel": 16
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "sos",
+            "minLevel": 2
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "sos",
+            "minLevel": 6
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "sos",
+            "minLevel": 27
+          },
+          {
+            "chance": 30,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "sos",
+            "minLevel": 27
+          },
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "seaward-cave-area",
+            "maxLevel": 12,
+            "method": "sos",
+            "minLevel": 9
+          },
+          {
+            "chance": 15,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "sos",
+            "minLevel": 16
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-west-gate",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "happiny",
+      "kind": "default",
+      "name": "Happiny",
+      "number": 440,
+      "pokemon": "happiny",
+      "sourceId": 440,
+      "sprite": "/dex-images/sprites/happiny.webp",
+      "statTotal": 220,
+      "stats": {
+        "attack": 5,
+        "defense": 5,
+        "hp": 100,
+        "special-attack": 15,
+        "special-defense": 65,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 244
+    }
+  ],
+  "generation": 4,
+  "key": "happiny",
+  "name": "Happiny",
+  "names": {
+    "de": "Wonneira",
+    "en": "Happiny",
+    "es": "Happiny",
+    "es-419": "Happiny",
+    "fr": "Ptiravi",
+    "it": "Happiny",
+    "ja": "ピンプク",
+    "ja-hrkt": "ピンプク",
+    "ja-roma": "Pinpuku",
+    "ko": "핑복",
+    "zh-hans": "小福蛋",
+    "zh-hant": "小福蛋"
+  },
+  "number": 440
+}

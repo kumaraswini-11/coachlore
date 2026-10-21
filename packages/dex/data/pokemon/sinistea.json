@@ -1,0 +1,257 @@
+{
+  "category": "Black Tea Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea.",
+      "version": "sword"
+    },
+    {
+      "text": "The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sinistea",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "polteageist-phony",
+        "item": "cracked-pot",
+        "required_pokemon_form": "sinistea-phony"
+      },
+      "from": "sinistea",
+      "to": "polteageist",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "polteageist-antique",
+        "item": "chipped-pot",
+        "required_pokemon_form": "sinistea-antique"
+      },
+      "from": "sinistea",
+      "to": "polteageist",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "weak-armor"
+        },
+        {
+          "hidden": true,
+          "key": "cursed-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sinistea.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 11,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 11,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 860,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 860,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 304,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 304,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 860,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 895,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 895,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 304,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 304,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 895,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "formName": "Phony Form",
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 8,
+      "height": 1,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sinistea",
+      "kind": "default",
+      "name": "Sinistea",
+      "number": 854,
+      "pokemon": "sinistea",
+      "sourceId": 854,
+      "sprite": "/dex-images/sprites/sinistea.webp",
+      "statTotal": 308,
+      "stats": {
+        "attack": 45,
+        "defense": 45,
+        "hp": 40,
+        "special-attack": 74,
+        "special-defense": 54,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 2
+    }
+  ],
+  "generation": 8,
+  "key": "sinistea",
+  "name": "Sinistea",
+  "names": {
+    "de": "Fatalitee",
+    "en": "Sinistea",
+    "es": "Sinistea",
+    "es-419": "Sinistea",
+    "fr": "Théffroi",
+    "it": "Sinistea",
+    "ja": "ヤバチャ",
+    "ja-hrkt": "ヤバチャ",
+    "ja-roma": "Yabacha",
+    "ko": "데인차",
+    "zh-hans": "来悲茶",
+    "zh-hant": "來悲茶"
+  },
+  "number": 854
+}

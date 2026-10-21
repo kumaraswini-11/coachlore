@@ -1,0 +1,96 @@
+{
+  "category": "Rabbit Pokémon",
+  "entries": [
+    {
+      "text": "Its thick and fluffy fur protects it from the cold and enables it to use hotter fire moves.",
+      "version": "sword"
+    },
+    {
+      "text": "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "scorbunny",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "scorbunny",
+      "to": "raboot",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "raboot",
+      "to": "cinderace",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "libero"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raboot.webp",
+      "encounters": {},
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 8,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "raboot",
+      "kind": "default",
+      "name": "Raboot",
+      "number": 814,
+      "pokemon": "raboot",
+      "sourceId": 814,
+      "sprite": "/dex-images/sprites/raboot.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 86,
+        "defense": 60,
+        "hp": 65,
+        "special-attack": 55,
+        "special-defense": 60,
+        "speed": 94
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 90
+    }
+  ],
+  "generation": 8,
+  "key": "raboot",
+  "name": "Raboot",
+  "names": {
+    "de": "Kickerlo",
+    "en": "Raboot",
+    "es": "Raboot",
+    "es-419": "Raboot",
+    "fr": "Lapyro",
+    "it": "Raboot",
+    "ja": "ラビフット",
+    "ja-hrkt": "ラビフット",
+    "ja-roma": "Rabbifuto",
+    "ko": "래비풋",
+    "zh-hans": "腾蹴小将",
+    "zh-hant": "騰蹴小將"
+  },
+  "number": 814
+}

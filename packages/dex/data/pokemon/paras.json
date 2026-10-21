@@ -1,0 +1,943 @@
+{
+  "category": "Mushroom Pokémon",
+  "entries": [
+    {
+      "text": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+      "version": "red"
+    },
+    {
+      "text": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+      "version": "blue"
+    },
+    {
+      "text": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+      "version": "yellow"
+    },
+    {
+      "text": "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back.",
+      "version": "gold"
+    },
+    {
+      "text": "As its body grows large, oriental mushrooms named tochukaso start sprouting out of its back.",
+      "version": "silver"
+    },
+    {
+      "text": "The tochukaso growing on this POKéMON's back orders it to extract juice from tree trunks.",
+      "version": "crystal"
+    },
+    {
+      "text": "PARAS has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from the BUG POKéMON host. They are highly valued as a medicine for extending life.",
+      "version": "ruby"
+    },
+    {
+      "text": "PARAS has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this BUG POKéMON host. They are highly valued as a medicine for extending life.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A PARAS has parasitic tochukaso mushrooms growing on its back. They grow by drawing nutrients from the host. They are valued as a medicine for long life.",
+      "version": "emerald"
+    },
+    {
+      "text": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host.",
+      "version": "firered"
+    },
+    {
+      "text": "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
+      "version": "diamond"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
+      "version": "pearl"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back.",
+      "version": "heartgold"
+    },
+    {
+      "text": "As its body grows, large mushrooms named tochukaso start sprouting out of its back.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+      "version": "black"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+      "version": "white"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+      "version": "black-2"
+    },
+    {
+      "text": "Mushrooms named tochukaso grow on its back. They grow along with the host Paras.",
+      "version": "white-2"
+    },
+    {
+      "text": "Growing out of the bug’s back are mushrooms called tochukaso. The mushrooms grow with the bug host.",
+      "version": "x"
+    },
+    {
+      "text": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+      "version": "y"
+    },
+    {
+      "text": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "No matter how much it eats, the mushrooms growing on its back steal away most of the nutrients it consumes.",
+      "version": "sun"
+    },
+    {
+      "text": "Mushrooms called tochukaso sprout from its back. They can be dried and powdered to make a medicine used to extend life.",
+      "version": "moon"
+    },
+    {
+      "text": "Whether it’s due to a lack of moisture or a lack of nutrients, in Alola the mushrooms on Paras don’t grow up quite right.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Sometimes seen at the foot of trees in humid forests. The mushrooms on its back—called tochukaso—are not present on infant specimens and instead emerge as Paras matures.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "paras",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "paras",
+      "to": "parasect",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "effect-spore"
+        },
+        {
+          "hidden": false,
+          "key": "dry-skin"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/paras.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 15,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "mt-moon-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "firered": [
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 100,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "gold": [
+          {
+            "chance": 35,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 25,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 100,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "mt-moon-1f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mt-moon-b2f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "mt-moon-1f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mt-moon-b2f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "red": [
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-b1f",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "silver": [
+          {
+            "chance": 35,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 25,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-2f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-key-lair-1f",
+            "maxLevel": 28,
+            "method": "snag",
+            "minLevel": 28
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "mt-moon-b1f",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 15,
+            "location": "mt-moon-b2f",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "legends-arceus", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "paras",
+      "kind": "default",
+      "name": "Paras",
+      "number": 46,
+      "pokemon": "paras",
+      "sourceId": 46,
+      "sprite": "/dex-images/sprites/paras.webp",
+      "statTotal": 285,
+      "stats": {
+        "attack": 70,
+        "defense": 55,
+        "hp": 35,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["bug", "grass"],
+      "weight": 54
+    }
+  ],
+  "generation": 1,
+  "key": "paras",
+  "name": "Paras",
+  "names": {
+    "de": "Paras",
+    "en": "Paras",
+    "es": "Paras",
+    "es-419": "Paras",
+    "fr": "Paras",
+    "it": "Paras",
+    "ja": "パラス",
+    "ja-hrkt": "パラス",
+    "ja-roma": "Paras",
+    "ko": "파라스",
+    "zh-hans": "派拉斯",
+    "zh-hant": "派拉斯"
+  },
+  "number": 46
+}

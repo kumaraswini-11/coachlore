@@ -1,0 +1,425 @@
+{
+  "category": "Sun Pokémon",
+  "entries": [
+    {
+      "text": "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
+      "version": "gold"
+    },
+    {
+      "text": "By reading air currents, it can predict things such as the weather or its foe's next move.",
+      "version": "silver"
+    },
+    {
+      "text": "The tip of its forked tail quivers when it is predicting its opponent's next move.",
+      "version": "crystal"
+    },
+    {
+      "text": "ESPEON is extremely loyal to any TRAINER it considers to be worthy. It is said that this POKéMON developed its precognitive powers to protect its TRAINER from harm.",
+      "version": "ruby"
+    },
+    {
+      "text": "ESPEON is extremely loyal to any TRAINER it considers to be worthy. It is said that this POKéMON developed its precognitive powers to protect its TRAINER from harm.",
+      "version": "sapphire"
+    },
+    {
+      "text": "An ESPEON is extremely loyal to any TRAINER it considers to be worthy. It is said to have developed precognitive powers to protect its TRAINER from harm.",
+      "version": "emerald"
+    },
+    {
+      "text": "By reading air currents, it can predict things such as the weather or its foe’s next move.",
+      "version": "firered"
+    },
+    {
+      "text": "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its fur has the look and feel of velvet. The orb on its forehead glows when it uses psycho-power.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+      "version": "platinum"
+    },
+    {
+      "text": "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.",
+      "version": "heartgold"
+    },
+    {
+      "text": "By reading air currents, it can predict things such as the weather or its foe’s next move.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+      "version": "black"
+    },
+    {
+      "text": "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+      "version": "white"
+    },
+    {
+      "text": "Its fur is so sensitive, it can feel minute shifts in the air and predict the weather...and its foes’ thoughts.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its fur is so sensitive, it can feel minute shifts in the air and predict the weather...and its foes’ thoughts.",
+      "version": "white-2"
+    },
+    {
+      "text": "The tip of its forked tail quivers when it is predicting its opponent’s next move.",
+      "version": "x"
+    },
+    {
+      "text": "Its fur is so sensitive, it can feel minute shifts in the air and predict the weather...and its foes’ thoughts.",
+      "version": "y"
+    },
+    {
+      "text": "Espeon is extremely loyal to any Trainer it considers to be worthy. It is said that this Pokémon developed its precognitive powers to protect its Trainer from harm.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Espeon is extremely loyal to any Trainer it considers to be worthy. It is said that this Pokémon developed its precognitive powers to protect its Trainer from harm.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It can instantaneously sense its opponent’s movements by feeling air currents with its fine fur.",
+      "version": "sun"
+    },
+    {
+      "text": "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it originally had no powers at all, people say its precognitive faculties were awakened by its need to protect itself.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Psychic power builds up in the orb on its forehead as it bathes in the sunshine. Espeon is not good at battling at night.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "By reading air currents, it can predict things such as the weather or its foe’s next move.",
+      "version": "sword"
+    },
+    {
+      "text": "It unleashes psychic power from the orb on its forehead. When its power is exhausted, the orb grows dull and dark.",
+      "version": "shield"
+    },
+    {
+      "text": "Wields an arcane power with which it can predict the weather and even people's thoughts. When bathed in sunshine, the scarlet orb on its brow glows and builds energy.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "eevee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "vaporeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "jolteon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "fire-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "flareon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "day"
+      },
+      "from": "eevee",
+      "to": "espeon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "night"
+      },
+      "from": "eevee",
+      "to": "umbreon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "leafeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "ice-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "glaceon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move_type": "fairy",
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "sylveon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "magic-bounce"
+        }
+      ],
+      "artwork": "/dex-images/artwork/espeon.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "outskirt-stand-outside",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "sos",
+            "minLevel": 11
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-6-south",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 14
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "espeon",
+      "kind": "default",
+      "name": "Espeon",
+      "number": 196,
+      "pokemon": "espeon",
+      "sourceId": 196,
+      "sprite": "/dex-images/sprites/espeon.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 65,
+        "defense": 60,
+        "hp": 65,
+        "special-attack": 130,
+        "special-defense": 95,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 265
+    }
+  ],
+  "generation": 2,
+  "key": "espeon",
+  "name": "Espeon",
+  "names": {
+    "de": "Psiana",
+    "en": "Espeon",
+    "es": "Espeon",
+    "es-419": "Espeon",
+    "fr": "Mentali",
+    "it": "Espeon",
+    "ja": "エーフィ",
+    "ja-hrkt": "エーフィ",
+    "ja-roma": "Eifie",
+    "ko": "에브이",
+    "zh-hans": "太阳伊布",
+    "zh-hant": "太陽伊布"
+  },
+  "number": 196
+}

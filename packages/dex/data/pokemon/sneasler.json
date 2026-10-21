@@ -1,0 +1,99 @@
+{
+  "category": "Free Climb Pokémon",
+  "entries": [
+    {
+      "text": "Because of Sneasler's virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sneasel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "razor-claw",
+        "time_of_day": "night"
+      },
+      "from": "sneasel",
+      "to": "weavile",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "razor-claw",
+        "required_pokemon_form": "sneasel-hisui",
+        "time_of_day": "day"
+      },
+      "from": "sneasel",
+      "to": "sneasler",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": false,
+          "key": "unburden"
+        },
+        {
+          "hidden": true,
+          "key": "poison-touch"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sneasler.webp",
+      "encounters": {},
+      "games": ["legends-arceus", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sneasler",
+      "kind": "default",
+      "name": "Sneasler",
+      "number": 903,
+      "pokemon": "sneasler",
+      "sourceId": 903,
+      "sprite": "/dex-images/sprites/sneasler.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 130,
+        "defense": 60,
+        "hp": 80,
+        "special-attack": 40,
+        "special-defense": 80,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["fighting", "poison"],
+      "weight": 430
+    }
+  ],
+  "generation": 8,
+  "key": "sneasler",
+  "name": "Sneasler",
+  "names": {
+    "de": "Snieboss",
+    "en": "Sneasler",
+    "es": "Sneasler",
+    "es-419": "Sneasler",
+    "fr": "Farfurex",
+    "it": "Sneasler",
+    "ja": "オオニューラ",
+    "ja-hrkt": "オオニューラ",
+    "ja-roma": "Ohnyula",
+    "ko": "포푸니크",
+    "zh-hans": "大狃拉",
+    "zh-hant": "大狃拉"
+  },
+  "number": 903
+}

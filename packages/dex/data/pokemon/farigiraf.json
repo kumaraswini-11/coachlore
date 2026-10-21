@@ -1,0 +1,92 @@
+{
+  "category": "Long Neck Pokémon",
+  "entries": [
+    {
+      "text": "Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "girafarig",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "twin-beam"
+      },
+      "from": "girafarig",
+      "to": "farigiraf",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cud-chew"
+        },
+        {
+          "hidden": false,
+          "key": "armor-tail"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/farigiraf.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 32,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "farigiraf",
+      "kind": "default",
+      "name": "Farigiraf",
+      "number": 981,
+      "pokemon": "farigiraf",
+      "sourceId": 981,
+      "sprite": "/dex-images/sprites/farigiraf.webp",
+      "statTotal": 520,
+      "stats": {
+        "attack": 90,
+        "defense": 70,
+        "hp": 120,
+        "special-attack": 110,
+        "special-defense": 70,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["normal", "psychic"],
+      "weight": 1600
+    }
+  ],
+  "generation": 9,
+  "key": "farigiraf",
+  "name": "Farigiraf",
+  "names": {
+    "de": "Farigiraf",
+    "en": "Farigiraf",
+    "es": "Farigiraf",
+    "es-419": "Farigiraf",
+    "fr": "Farigiraf",
+    "it": "Farigiraf",
+    "ja": "リキキリン",
+    "ja-hrkt": "リキキリン",
+    "ja-roma": "Rikikirin",
+    "ko": "키키링",
+    "zh-hans": "奇麒麟",
+    "zh-hant": "奇麒麟"
+  },
+  "number": 981
+}

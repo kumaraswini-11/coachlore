@@ -1,0 +1,686 @@
+{
+  "category": "Weather Pokémon",
+  "entries": [
+    {
+      "text": "CASTFORM’s appearance changes with the weather. This POKéMON gained the ability to use the vast power of nature to protect its tiny body.",
+      "version": "ruby"
+    },
+    {
+      "text": "CASTFORM borrows the power of nature to transform itself into the guises of the sun, rain clouds, and snow clouds. This POKéMON’s feelings change with the weather.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It alters its form depending on the weather. Changes in the climate such as the temperature and humidity appear to affect its cellular structure.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather.",
+      "version": "firered"
+    },
+    {
+      "text": "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "version": "platinum"
+    },
+    {
+      "text": "This Pokémon can change its cells, taking different forms based on the temperature and humidity.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This Pokémon can change its cells, taking different forms based on the temperature and humidity.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "version": "black"
+    },
+    {
+      "text": "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
+      "version": "white"
+    },
+    {
+      "text": "Temperature and weather affect its cellular structure, so this Pokémon changes form according to the weather.",
+      "version": "black-2"
+    },
+    {
+      "text": "Temperature and weather affect its cellular structure, so this Pokémon changes form according to the weather.",
+      "version": "white-2"
+    },
+    {
+      "text": "This Pokémon can change its cells, taking different forms based on the temperature and humidity.",
+      "version": "x"
+    },
+    {
+      "text": "It has the ability to change its form into the sun, the rain, or a snow cloud, depending on the weather.",
+      "version": "y"
+    },
+    {
+      "text": "Castform’s appearance changes with the weather. This Pokémon gained the ability to use the vast power of nature to protect its tiny body.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Castform borrows the power of nature to transform itself into the guises of the sun, rain, and snow-clouds. This Pokémon’s feelings change with the weather.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It changes its form depending on the weather. Changes in the temperature or humidity appear to affect its cellular structure.",
+      "version": "sun"
+    },
+    {
+      "text": "Its form changes on its own, due to its cells’ sensitive reactions to temperature and humidity.",
+      "version": "moon"
+    },
+    {
+      "text": "Although its form changes with the weather, that is apparently the result of a chemical reaction and not the result of its own free will.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its form changes depending on the weather. The rougher conditions get, the rougher Castform’s disposition!",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "castform",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "forecast"
+        }
+      ],
+      "artwork": "/dex-images/artwork/castform.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-weather-institute",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "grass-spots",
+            "minLevel": 26
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-weather-institute",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "moon": [
+          {
+            "chance": 110,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 11,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 12,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "sos",
+            "minLevel": 40
+          },
+          {
+            "chance": 22,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos",
+            "minLevel": 28
+          },
+          {
+            "chance": 22,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 28
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 11,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          },
+          {
+            "chance": 12,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 11,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "sos",
+            "minLevel": 28
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-weather-institute",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-weather-institute",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-weather-institute",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "sun": [
+          {
+            "chance": 110,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 11,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "sos",
+            "minLevel": 31
+          },
+          {
+            "chance": 12,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "sos",
+            "minLevel": 40
+          },
+          {
+            "chance": 22,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos",
+            "minLevel": 28
+          },
+          {
+            "chance": 22,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 28
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "sos",
+            "minLevel": 18
+          },
+          {
+            "chance": 11,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          },
+          {
+            "chance": 12,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 11,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "sos",
+            "minLevel": 28
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 110,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 11,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 12,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 24,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 32
+          },
+          {
+            "chance": 24,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 32
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 11,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "sos",
+            "minLevel": 25
+          },
+          {
+            "chance": 11,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "sos",
+            "minLevel": 30
+          },
+          {
+            "chance": 11,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 12,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "sos",
+            "minLevel": 30
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 110,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 11,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "sos",
+            "minLevel": 33
+          },
+          {
+            "chance": 12,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 24,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 32
+          },
+          {
+            "chance": 24,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 32
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 12,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 11,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "sos",
+            "minLevel": 25
+          },
+          {
+            "chance": 11,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "sos",
+            "minLevel": 30
+          },
+          {
+            "chance": 11,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "sos",
+            "minLevel": 42
+          },
+          {
+            "chance": 12,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "sos",
+            "minLevel": 30
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "grass-spots",
+            "minLevel": 26
+          }
+        ]
+      },
+      "formName": "Normal",
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "champions"],
+      "gen9": false,
+      "generation": 3,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "castform",
+      "kind": "default",
+      "name": "Castform",
+      "number": 351,
+      "pokemon": "castform",
+      "sourceId": 351,
+      "sprite": "/dex-images/sprites/castform.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 70,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 8
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "forecast"
+        }
+      ],
+      "artwork": "/dex-images/artwork/castform-rainy.webp",
+      "encounters": {},
+      "formName": "Rainy Form",
+      "games": [],
+      "gen9": false,
+      "generation": 3,
+      "height": 3,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "castform-rainy",
+      "kind": "other",
+      "name": "Castform-Rainy",
+      "number": 351,
+      "pokemon": "castform",
+      "sourceId": 10014,
+      "sprite": "/dex-images/sprites/castform-rainy.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 70,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 8
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "forecast"
+        }
+      ],
+      "artwork": "/dex-images/artwork/castform-snowy.webp",
+      "encounters": {},
+      "formName": "Snowy Form",
+      "games": [],
+      "gen9": false,
+      "generation": 3,
+      "height": 3,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "castform-snowy",
+      "kind": "other",
+      "name": "Castform-Snowy",
+      "number": 351,
+      "pokemon": "castform",
+      "sourceId": 10015,
+      "sprite": "/dex-images/sprites/castform-snowy.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 70,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 8
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "forecast"
+        }
+      ],
+      "artwork": "/dex-images/artwork/castform-sunny.webp",
+      "encounters": {},
+      "formName": "Sunny Form",
+      "games": [],
+      "gen9": false,
+      "generation": 3,
+      "height": 3,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "castform-sunny",
+      "kind": "other",
+      "name": "Castform-Sunny",
+      "number": 351,
+      "pokemon": "castform",
+      "sourceId": 10013,
+      "sprite": "/dex-images/sprites/castform-sunny.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 70,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 8
+    }
+  ],
+  "generation": 3,
+  "key": "castform",
+  "name": "Castform",
+  "names": {
+    "de": "Formeo",
+    "en": "Castform",
+    "es": "Castform",
+    "es-419": "Castform",
+    "fr": "Morphéo",
+    "it": "Castform",
+    "ja": "ポワルン",
+    "ja-hrkt": "ポワルン",
+    "ja-roma": "Powalen",
+    "ko": "캐스퐁",
+    "zh-hans": "飘浮泡泡",
+    "zh-hant": "飄浮泡泡"
+  },
+  "number": 351
+}

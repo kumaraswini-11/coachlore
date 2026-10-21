@@ -1,0 +1,971 @@
+{
+  "category": "Thorn Pokémon",
+  "entries": [
+    {
+      "text": "ROSELIA shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this POKéMON brings serenity to living things.",
+      "version": "ruby"
+    },
+    {
+      "text": "On extremely rare occasions, a ROSELIA is said to appear with its flowers in unusual colors. The thorns on this POKéMON’s head contain a vicious poison.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A ROSELIA that drinks nutritionally rich springwater blooms with lovely flowers. The fragrance of its flowers has the effect of making its foes careless.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the ROSELIA is.",
+      "version": "firered"
+    },
+    {
+      "text": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the ROSELIA is.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
+      "version": "diamond"
+    },
+    {
+      "text": "The beautiful flowers on its arms have toxic thorns. Don’t even think about picking those flowers.",
+      "version": "pearl"
+    },
+    {
+      "text": "The more healthy the ROSELIA, the more pleasant its flowers’ aroma. Its scent deeply relaxes people.",
+      "version": "platinum"
+    },
+    {
+      "text": "ROSELIA that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+      "version": "heartgold"
+    },
+    {
+      "text": "ROSELIA that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The more healthy the Roselia, the more pleasant its flowers’ aroma. Its scent deeply relaxes people.",
+      "version": "black"
+    },
+    {
+      "text": "The more healthy the Roselia, the more pleasant its flowers’ aroma. Its scent deeply relaxes people.",
+      "version": "white"
+    },
+    {
+      "text": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+      "version": "black-2"
+    },
+    {
+      "text": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+      "version": "white-2"
+    },
+    {
+      "text": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+      "version": "x"
+    },
+    {
+      "text": "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+      "version": "y"
+    },
+    {
+      "text": "Roselia shoots sharp thorns as projectiles at any opponent that tries to steal the flowers on its arms. The aroma of this Pokémon brings serenity to living things.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "On extremely rare occasions, a Roselia is said to appear with its flowers in unusual colors. The thorns on this Pokémon’s head contain a vicious poison.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+      "version": "sword"
+    },
+    {
+      "text": "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+      "version": "shield"
+    },
+    {
+      "text": "Though beautiful, it has highly poisonous thorns. There is an old tradition in my homeland wherein one would send these thorns to an opponent to challenge them to a duel.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "budew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "day"
+      },
+      "from": "budew",
+      "to": "roselia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "roselia",
+      "to": "roserade",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/roselia.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-12-area",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 39
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-12-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 53
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-route-225-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "island-scan",
+            "minLevel": 34
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-225-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 27,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 30,
+            "location": "trophy-garden-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "shield": [
+          {
+            "chance": 80,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 1400,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "island-scan",
+            "minLevel": 34
+          }
+        ],
+        "sword": [
+          {
+            "chance": 80,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 1400,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 85,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 85,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 85,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 85,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-12-area",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 39
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-12-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 53
+          },
+          {
+            "chance": 60,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "purple-flowers",
+            "minLevel": 14
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "yellow-flowers",
+            "minLevel": 14
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "phenac-city-prestige-precept-center",
+            "maxLevel": 22,
+            "method": "snag",
+            "minLevel": 22
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "purple-flowers",
+            "minLevel": 14
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-7-area",
+            "maxLevel": 14,
+            "method": "yellow-flowers",
+            "minLevel": 14
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za"],
+      "gen9": false,
+      "generation": 3,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "roselia",
+      "kind": "default",
+      "name": "Roselia",
+      "number": 315,
+      "pokemon": "roselia",
+      "sourceId": 315,
+      "sprite": "/dex-images/sprites/roselia.webp",
+      "statTotal": 400,
+      "stats": {
+        "attack": 60,
+        "defense": 45,
+        "hp": 50,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 20
+    }
+  ],
+  "generation": 3,
+  "key": "roselia",
+  "name": "Roselia",
+  "names": {
+    "de": "Roselia",
+    "en": "Roselia",
+    "es": "Roselia",
+    "es-419": "Roselia",
+    "fr": "Rosélia",
+    "it": "Roselia",
+    "ja": "ロゼリア",
+    "ja-hrkt": "ロゼリア",
+    "ja-roma": "Roselia",
+    "ko": "로젤리아",
+    "zh-hans": "毒蔷薇",
+    "zh-hant": "毒薔薇"
+  },
+  "number": 315
+}

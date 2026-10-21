@@ -1,0 +1,548 @@
+{
+  "category": "Bulb Pokémon",
+  "entries": [
+    {
+      "text": "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+      "version": "black"
+    },
+    {
+      "text": "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+      "version": "white"
+    },
+    {
+      "text": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+      "version": "black-2"
+    },
+    {
+      "text": "The leaves on its head grow right back even if they fall out. These bitter leaves refresh those who eat them.",
+      "version": "white-2"
+    },
+    {
+      "text": "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+      "version": "x"
+    },
+    {
+      "text": "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+      "version": "y"
+    },
+    {
+      "text": "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Although the leaves on its head are bitter enough to cause dizziness, they provide relief from weariness—even more so when boiled.",
+      "version": "sun"
+    },
+    {
+      "text": "By pruning the leaves on its head with regularity, this Pokémon can be grown into a fine plump shape.",
+      "version": "moon"
+    },
+    {
+      "text": "Some say if you dry the leaves on its head, boil them down, and drink the infusion, your vigor will return, so Petilil is popular with the elderly.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Petilil appears around sources of clean water. Boiling leaves from this Pokémon’s head results in a liquid that’s sometimes used as a bug repellent.",
+      "version": "sword"
+    },
+    {
+      "text": "The deeper the color of a Petilil’s leaves, the healthier the Pokémon is. Petilil sometimes makes its home in a well-tended field or flowerbed.",
+      "version": "shield"
+    },
+    {
+      "text": "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "petilil",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "petilil",
+      "to": "lilligant",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lilligant-hisui",
+        "item": "sun-stone",
+        "region": "hisui"
+      },
+      "from": "petilil",
+      "to": "lilligant",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/petilil.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-south-of-route-132",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-forest-west-of-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 20,
+            "method": "npc-trade",
+            "minLevel": 20
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 50,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 90,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 90,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-south-of-route-132",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-forest-west-of-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 55,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 284,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 284,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 55,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 55,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 284,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 284,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 55,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 70,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 70,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 70,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 70,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 65,
+            "location": "abundant-shrine-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 65,
+            "location": "abundant-shrine-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 70,
+            "location": "castelia-city-area",
+            "maxLevel": 18,
+            "method": "dark-grass",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "castelia-city-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 50,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 90,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 62
+          },
+          {
+            "chance": 90,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 52
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "petilil",
+      "kind": "default",
+      "name": "Petilil",
+      "number": 548,
+      "pokemon": "petilil",
+      "sourceId": 548,
+      "sprite": "/dex-images/sprites/petilil.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 35,
+        "defense": 50,
+        "hp": 45,
+        "special-attack": 70,
+        "special-defense": 50,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 66
+    }
+  ],
+  "generation": 5,
+  "key": "petilil",
+  "name": "Petilil",
+  "names": {
+    "de": "Lilminip",
+    "en": "Petilil",
+    "es": "Petilil",
+    "es-419": "Petilil",
+    "fr": "Chlorobule",
+    "it": "Petilil",
+    "ja": "チュリネ",
+    "ja-hrkt": "チュリネ",
+    "ja-roma": "Churine",
+    "ko": "치릴리",
+    "zh-hans": "百合根娃娃",
+    "zh-hant": "百合根娃娃"
+  },
+  "number": 548
+}

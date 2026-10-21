@@ -1,0 +1,89 @@
+{
+  "category": "Ghost Dog Pokémon",
+  "entries": [
+    {
+      "text": "Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.",
+      "version": "scarlet"
+    },
+    {
+      "text": "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "greavard",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30,
+        "time_of_day": "night"
+      },
+      "from": "greavard",
+      "to": "houndstone",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-rush"
+        },
+        {
+          "hidden": true,
+          "key": "fluffy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/houndstone.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "houndstone",
+      "kind": "default",
+      "name": "Houndstone",
+      "number": 972,
+      "pokemon": "houndstone",
+      "sourceId": 972,
+      "sprite": "/dex-images/sprites/houndstone.webp",
+      "statTotal": 488,
+      "stats": {
+        "attack": 101,
+        "defense": 100,
+        "hp": 72,
+        "special-attack": 50,
+        "special-defense": 97,
+        "speed": 68
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 150
+    }
+  ],
+  "generation": 9,
+  "key": "houndstone",
+  "name": "Houndstone",
+  "names": {
+    "de": "Friedwuff",
+    "en": "Houndstone",
+    "es": "Houndstone",
+    "es-419": "Houndstone",
+    "fr": "Tomberro",
+    "it": "Houndstone",
+    "ja": "ハカドッグ",
+    "ja-hrkt": "ハカドッグ",
+    "ja-roma": "Hakadog",
+    "ko": "묘두기",
+    "zh-hans": "墓扬犬",
+    "zh-hant": "墓揚犬"
+  },
+  "number": 972
+}

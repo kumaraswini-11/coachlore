@@ -1,0 +1,88 @@
+{
+  "category": "Puppy Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fidough",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 26
+      },
+      "from": "fidough",
+      "to": "dachsbun",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "klutz"
+        }
+      ],
+      "artwork": "/dex-images/artwork/fidough.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "fidough",
+      "kind": "default",
+      "name": "Fidough",
+      "number": 926,
+      "pokemon": "fidough",
+      "sourceId": 926,
+      "sprite": "/dex-images/sprites/fidough.webp",
+      "statTotal": 312,
+      "stats": {
+        "attack": 55,
+        "defense": 70,
+        "hp": 37,
+        "special-attack": 30,
+        "special-defense": 55,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 109
+    }
+  ],
+  "generation": 9,
+  "key": "fidough",
+  "name": "Fidough",
+  "names": {
+    "de": "Hefel",
+    "en": "Fidough",
+    "es": "Fidough",
+    "es-419": "Fidough",
+    "fr": "Pâtachiot",
+    "it": "Fidough",
+    "ja": "パピモッチ",
+    "ja-hrkt": "パピモッチ",
+    "ja-roma": "Pupimocchi",
+    "ko": "쫀도기",
+    "zh-hans": "狗仔包",
+    "zh-hant": "狗仔包"
+  },
+  "number": 926
+}

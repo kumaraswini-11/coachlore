@@ -1,0 +1,101 @@
+{
+  "category": "Rage Monkey Pokémon",
+  "entries": [
+    {
+      "text": "When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mankey",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "mankey",
+      "to": "primeape",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_move_count": 20,
+        "used_move": "rage-fist"
+      },
+      "from": "primeape",
+      "to": "annihilape",
+      "trigger": "use-move"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "vital-spirit"
+        },
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/annihilape.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "annihilape",
+      "kind": "default",
+      "name": "Annihilape",
+      "number": 979,
+      "pokemon": "annihilape",
+      "sourceId": 979,
+      "sprite": "/dex-images/sprites/annihilape.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 115,
+        "defense": 80,
+        "hp": 110,
+        "special-attack": 50,
+        "special-defense": 90,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["fighting", "ghost"],
+      "weight": 560
+    }
+  ],
+  "generation": 9,
+  "key": "annihilape",
+  "name": "Annihilape",
+  "names": {
+    "de": "Epitaff",
+    "en": "Annihilape",
+    "es": "Annihilape",
+    "es-419": "Annihilape",
+    "fr": "Courrousinge",
+    "it": "Annihilape",
+    "ja": "コノヨザル",
+    "ja-hrkt": "コノヨザル",
+    "ja-roma": "Konoyozaru",
+    "ko": "저승갓숭",
+    "zh-hans": "弃世猴",
+    "zh-hant": "棄世猴"
+  },
+  "number": 979
+}

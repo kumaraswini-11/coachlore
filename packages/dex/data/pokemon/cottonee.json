@@ -1,0 +1,600 @@
+{
+  "category": "Cotton Puff Pokémon",
+  "entries": [
+    {
+      "text": "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+      "version": "black"
+    },
+    {
+      "text": "They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees.",
+      "version": "white"
+    },
+    {
+      "text": "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+      "version": "black-2"
+    },
+    {
+      "text": "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+      "version": "white-2"
+    },
+    {
+      "text": "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+      "version": "x"
+    },
+    {
+      "text": "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+      "version": "y"
+    },
+    {
+      "text": "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When it finds others of its kind, they all stick together. When enough of them have collected, the mass resembles a cumulonimbus cloud.",
+      "version": "sun"
+    },
+    {
+      "text": "Pillows and beds stuffed with cotton exhaled by Cottonee are soft and puffy, light and airy— altogether top quality.",
+      "version": "moon"
+    },
+    {
+      "text": "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can’t move as well.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When attacked, it expels cotton from its body to create a diversion. The cotton it loses grows back in quickly.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+      "version": "sword"
+    },
+    {
+      "text": "Weaving together the cotton of both Cottonee and Eldegoss produces exquisite cloth that’s highly prized by many luxury brands.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cottonee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "cottonee",
+      "to": "whimsicott",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prankster"
+        },
+        {
+          "hidden": false,
+          "key": "infiltrator"
+        },
+        {
+          "hidden": true,
+          "key": "chlorophyll"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cottonee.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 58,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "abundant-shrine-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 70,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 70,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 65,
+            "location": "abundant-shrine-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 65,
+            "location": "abundant-shrine-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 70,
+            "location": "castelia-city-area",
+            "maxLevel": 18,
+            "method": "dark-grass",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "castelia-city-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 50,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 90,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 62
+          },
+          {
+            "chance": 90,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 52
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "shield": [
+          {
+            "chance": 90,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "hulbury-area",
+            "maxLevel": 23,
+            "method": "npc-trade",
+            "minLevel": 23
+          },
+          {
+            "chance": 80,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 50,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 90,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 90,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "sword": [
+          {
+            "chance": 90,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "hulbury-area",
+            "maxLevel": 23,
+            "method": "npc-trade",
+            "minLevel": 23
+          },
+          {
+            "chance": 80,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 58,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 58,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 58,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 58,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 30,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 70,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 70,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 20,
+            "method": "npc-trade",
+            "minLevel": 20
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cottonee",
+      "kind": "default",
+      "name": "Cottonee",
+      "number": 546,
+      "pokemon": "cottonee",
+      "sourceId": 546,
+      "sprite": "/dex-images/sprites/cottonee.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 27,
+        "defense": 60,
+        "hp": 40,
+        "special-attack": 37,
+        "special-defense": 50,
+        "speed": 66
+      },
+      "tags": [],
+      "types": ["grass", "fairy"],
+      "weight": 6
+    }
+  ],
+  "generation": 5,
+  "key": "cottonee",
+  "name": "Cottonee",
+  "names": {
+    "de": "Waumboll",
+    "en": "Cottonee",
+    "es": "Cottonee",
+    "es-419": "Cottonee",
+    "fr": "Doudouvet",
+    "it": "Cottonee",
+    "ja": "モンメン",
+    "ja-hrkt": "モンメン",
+    "ja-roma": "Monmen",
+    "ko": "소미안",
+    "zh-hans": "木棉球",
+    "zh-hant": "木棉球"
+  },
+  "number": 546
+}

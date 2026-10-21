@@ -1,0 +1,577 @@
+{
+  "category": "Chill Pokémon",
+  "entries": [
+    {
+      "text": "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+      "version": "black"
+    },
+    {
+      "text": "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+      "version": "white"
+    },
+    {
+      "text": "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+      "version": "black-2"
+    },
+    {
+      "text": "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+      "version": "x"
+    },
+    {
+      "text": "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+      "version": "y"
+    },
+    {
+      "text": "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn’t like.",
+      "version": "sword"
+    },
+    {
+      "text": "It sniffles before performing a move, using its frosty snot to provide an icy element to any move that needs it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cubchoo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "cubchoo",
+      "to": "beartic",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": false,
+          "key": "slush-rush"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cubchoo.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 69,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-7-area",
+            "maxLevel": 32,
+            "method": "dark-grass",
+            "minLevel": 30
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-7-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 33
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-7-hidden-grotto",
+            "maxLevel": 34,
+            "method": "hidden-grotto",
+            "minLevel": 30
+          }
+        ],
+        "shield": [
+          {
+            "chance": 240,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 240,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 130,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 210,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 210,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 160,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 250,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 250,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 130,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 130,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 210,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 210,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 160,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 250,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 250,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 69,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-7-area",
+            "maxLevel": 32,
+            "method": "dark-grass",
+            "minLevel": 30
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-7-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 33
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-7-hidden-grotto",
+            "maxLevel": 34,
+            "method": "hidden-grotto",
+            "minLevel": 30
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-313",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-314",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-316",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-317",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-313",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-314",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-316",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-317",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cubchoo",
+      "kind": "default",
+      "name": "Cubchoo",
+      "number": 613,
+      "pokemon": "cubchoo",
+      "sourceId": 613,
+      "sprite": "/dex-images/sprites/cubchoo.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 70,
+        "defense": 40,
+        "hp": 55,
+        "special-attack": 60,
+        "special-defense": 40,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 85
+    }
+  ],
+  "generation": 5,
+  "key": "cubchoo",
+  "name": "Cubchoo",
+  "names": {
+    "de": "Petznief",
+    "en": "Cubchoo",
+    "es": "Cubchoo",
+    "es-419": "Cubchoo",
+    "fr": "Polarhume",
+    "it": "Cubchoo",
+    "ja": "クマシュン",
+    "ja-hrkt": "クマシュン",
+    "ja-roma": "Kumasyun",
+    "ko": "코고미",
+    "zh-hans": "喷嚏熊",
+    "zh-hant": "噴嚏熊"
+  },
+  "number": 613
+}

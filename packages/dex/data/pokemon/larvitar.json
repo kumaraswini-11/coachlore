@@ -1,0 +1,520 @@
+{
+  "category": "Rock Skin Pokémon",
+  "entries": [
+    {
+      "text": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+      "version": "gold"
+    },
+    {
+      "text": "It is born deep underground. It can't emerge until it has entirely consumed the soil around it.",
+      "version": "silver"
+    },
+    {
+      "text": "Born deep underground, this POKéMON becomes a pupa after eating enough dirt to make a mountain.",
+      "version": "crystal"
+    },
+    {
+      "text": "LARVITAR is born deep under the ground. To come up to the surface, this POKéMON must eat its way through the soil above. Until it does so, LARVITAR cannot see its parent’s face.",
+      "version": "ruby"
+    },
+    {
+      "text": "LARVITAR is born deep under the ground. To come up to the surface, this POKéMON must eat its way through the soil above. Until it does so, LARVITAR cannot see its parent’s face.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A LARVITAR is born deep under the ground. It must eat its way through the soil above and reach the surface for it to see its parents’ faces.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it.",
+      "version": "firered"
+    },
+    {
+      "text": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+      "version": "pearl"
+    },
+    {
+      "text": "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+      "version": "platinum"
+    },
+    {
+      "text": "It feeds on soil. After it has eaten a large mountain, it falls asleep so it can grow.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+      "version": "black"
+    },
+    {
+      "text": "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+      "version": "white"
+    },
+    {
+      "text": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+      "version": "black-2"
+    },
+    {
+      "text": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+      "version": "white-2"
+    },
+    {
+      "text": "It feeds on soil. After it has eaten a large mountain, it falls asleep so it can grow.",
+      "version": "x"
+    },
+    {
+      "text": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+      "version": "y"
+    },
+    {
+      "text": "Larvitar is born deep under the ground. To come up to the surface, this Pokémon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Larvitar is born deep under the ground. To come up to the surface, this Pokémon must eat its way through the soil above. Until it does so, Larvitar cannot see its parents.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Born underground, it eats its way through dirt to the surface, where its parents are. It doesn’t deal well with the bright light it finds there.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Raised on nutrients it finds in the dirt, it eats roughly a mountain’s worth of dirt before it becomes a pupa.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+      "version": "sword"
+    },
+    {
+      "text": "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "larvitar",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "larvitar",
+      "to": "pupitar",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 55
+      },
+      "from": "pupitar",
+      "to": "tyranitar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": true,
+          "key": "sand-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/larvitar.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-2f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 18,
+            "location": "mt-silver-top",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "sevault-canyon-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "mt-silver-1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "mt-silver-2f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-top",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-2f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-3f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-4f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-top",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "sevault-canyon-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 60,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "mt-silver-1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "mt-silver-2f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-top",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-2f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-3f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-4f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-top",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 10,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "digletts-tunnel-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "digletts-tunnel-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "pyrite-town-dukings-house",
+            "maxLevel": 20,
+            "method": "npc-trade",
+            "minLevel": 20
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "terminus-cave-1f",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "larvitar",
+      "kind": "default",
+      "name": "Larvitar",
+      "number": 246,
+      "pokemon": "larvitar",
+      "sourceId": 246,
+      "sprite": "/dex-images/sprites/larvitar.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 64,
+        "defense": 50,
+        "hp": 50,
+        "special-attack": 45,
+        "special-defense": 50,
+        "speed": 41
+      },
+      "tags": [],
+      "types": ["rock", "ground"],
+      "weight": 720
+    }
+  ],
+  "generation": 2,
+  "key": "larvitar",
+  "name": "Larvitar",
+  "names": {
+    "de": "Larvitar",
+    "en": "Larvitar",
+    "es": "Larvitar",
+    "es-419": "Larvitar",
+    "fr": "Embrylex",
+    "it": "Larvitar",
+    "ja": "ヨーギラス",
+    "ja-hrkt": "ヨーギラス",
+    "ja-roma": "Yogiras",
+    "ko": "애버라스",
+    "zh-hans": "幼基拉斯",
+    "zh-hant": "幼基拉斯"
+  },
+  "number": 246
+}

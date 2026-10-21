@@ -1,0 +1,543 @@
+{
+  "category": "Iron Armor Pokémon",
+  "entries": [
+    {
+      "text": "LAIRON tempers its steel body by drinking highly nutritious mineral springwater until it is bloated. This POKéMON makes its nest close to springs of delicious water.",
+      "version": "ruby"
+    },
+    {
+      "text": "LAIRON feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the POKéMON often clashes with humans mining the iron ore.",
+      "version": "sapphire"
+    },
+    {
+      "text": "When two LAIRON meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles.",
+      "version": "emerald"
+    },
+    {
+      "text": "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders.",
+      "version": "firered"
+    },
+    {
+      "text": "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+      "version": "diamond"
+    },
+    {
+      "text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+      "version": "pearl"
+    },
+    {
+      "text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+      "version": "platinum"
+    },
+    {
+      "text": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+      "version": "black"
+    },
+    {
+      "text": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+      "version": "white"
+    },
+    {
+      "text": "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
+      "version": "black-2"
+    },
+    {
+      "text": "Lairon fight over territory, and when their steel bodies collide, sparks fly.",
+      "version": "white-2"
+    },
+    {
+      "text": "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+      "version": "x"
+    },
+    {
+      "text": "It habitually shows off its strength with the size of sparks it creates by ramming its steel body into boulders.",
+      "version": "y"
+    },
+    {
+      "text": "Lairon tempers its steel body by drinking highly nutritious mineral springwater until it is bloated. This Pokémon makes its nest close to springs of delicious water.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Lairon feeds on iron contained in rocks and water. It makes its nest on mountains where iron ore is buried. As a result, the Pokémon often clashes with humans mining the iron ore.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Lairon live in mountains brimming with spring water and iron ore, so these Pokémon often came into conflict with humans in the past.",
+      "version": "sword"
+    },
+    {
+      "text": "During territorial disputes, Lairon fight by slamming into each other. Close inspection of their steel armor reveals scratches and dents.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "aron",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "aron",
+      "to": "lairon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "lairon",
+      "to": "aggron",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": true,
+          "key": "heavy-metal"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lairon.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 15,
+            "location": "clay-tunnel-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "glacier-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "iron-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "underground-ruins-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-victory-road-b2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-victory-road-b2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-victory-road-b2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 175,
+            "location": "ballimere-lake-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "giants-bed-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "giants-bed-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "lakeside-cave-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 95,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "slippery-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "snowslide-slope-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 175,
+            "location": "ballimere-lake-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "giants-bed-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "giants-bed-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "lakeside-cave-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 95,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "slippery-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 175,
+            "location": "snowslide-slope-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "clay-tunnel-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "glacier-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "iron-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "underground-ruins-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "red-flowers",
+            "minLevel": 44
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-left",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b1f-right",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-b2f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-crown-tundra", "legends-za"],
+      "gen9": false,
+      "generation": 3,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lairon",
+      "kind": "default",
+      "name": "Lairon",
+      "number": 305,
+      "pokemon": "lairon",
+      "sourceId": 305,
+      "sprite": "/dex-images/sprites/lairon.webp",
+      "statTotal": 430,
+      "stats": {
+        "attack": 90,
+        "defense": 140,
+        "hp": 60,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["steel", "rock"],
+      "weight": 1200
+    }
+  ],
+  "generation": 3,
+  "key": "lairon",
+  "name": "Lairon",
+  "names": {
+    "de": "Stollrak",
+    "en": "Lairon",
+    "es": "Lairon",
+    "es-419": "Lairon",
+    "fr": "Galegon",
+    "it": "Lairon",
+    "ja": "コドラ",
+    "ja-hrkt": "コドラ",
+    "ja-roma": "Kodora",
+    "ko": "갱도라",
+    "zh-hans": "可多拉",
+    "zh-hant": "可多拉"
+  },
+  "number": 305
+}

@@ -1,0 +1,241 @@
+{
+  "category": "Temporal Pokémon",
+  "entries": [
+    {
+      "text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon spoken of in legend. It is said that time began moving when DIALGA was born.",
+      "version": "pearl"
+    },
+    {
+      "text": "A legendary Pokémon of Sinnoh. It is said that time flows when DIALGA’s heart beats.",
+      "version": "platinum"
+    },
+    {
+      "text": "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This Pokémon completely controls the flow of time. It uses its power to travel at will through the past and future.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga’s heart beats.",
+      "version": "black"
+    },
+    {
+      "text": "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga’s heart beats.",
+      "version": "white"
+    },
+    {
+      "text": "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga’s heart beats.",
+      "version": "black-2"
+    },
+    {
+      "text": "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga’s heart beats.",
+      "version": "white-2"
+    },
+    {
+      "text": "A Pokémon spoken of in legend. It is said that time began moving when Dialga was born.",
+      "version": "x"
+    },
+    {
+      "text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+      "version": "y"
+    },
+    {
+      "text": "A Pokémon spoken of in legend. It is said that time began moving when Dialga was born.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon is revered as a deity in Hisuian legend. The birth of Dialga was what caused the vast river of time to begin flowing in our world.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dialga",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dialga.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "spear-pillar-area",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "sinjoh-ruins-area",
+            "maxLevel": 1,
+            "method": "static",
+            "minLevel": 1
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "spear-pillar-area",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "sinjoh-ruins-area",
+            "maxLevel": 1,
+            "method": "static",
+            "minLevel": 1
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-rocky",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-crag",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": true,
+      "generation": 4,
+      "height": 54,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dialga",
+      "kind": "default",
+      "legendary": true,
+      "name": "Dialga",
+      "number": 483,
+      "pokemon": "dialga",
+      "sourceId": 483,
+      "sprite": "/dex-images/sprites/dialga.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 120,
+        "defense": 120,
+        "hp": 100,
+        "special-attack": 150,
+        "special-defense": 100,
+        "speed": 90
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["steel", "dragon"],
+      "weight": 6830
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dialga-origin.webp",
+      "encounters": {},
+      "formName": "Origin Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 70,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "dialga-origin",
+      "kind": "other",
+      "legendary": true,
+      "name": "Dialga-Origin",
+      "number": 483,
+      "pokemon": "dialga",
+      "sourceId": 10245,
+      "sprite": "/dex-images/sprites/dialga-origin.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 100,
+        "defense": 120,
+        "hp": 100,
+        "special-attack": 150,
+        "special-defense": 120,
+        "speed": 90
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["steel", "dragon"],
+      "weight": 8487
+    }
+  ],
+  "generation": 4,
+  "key": "dialga",
+  "name": "Dialga",
+  "names": {
+    "de": "Dialga",
+    "en": "Dialga",
+    "es": "Dialga",
+    "es-419": "Dialga",
+    "fr": "Dialga",
+    "it": "Dialga",
+    "ja": "ディアルガ",
+    "ja-hrkt": "ディアルガ",
+    "ja-roma": "Dialga",
+    "ko": "디아루가",
+    "zh-hans": "帝牙卢卡",
+    "zh-hant": "帝牙盧卡"
+  },
+  "number": 483
+}

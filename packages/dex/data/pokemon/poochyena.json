@@ -1,0 +1,350 @@
+{
+  "category": "Bite Pokémon",
+  "entries": [
+    {
+      "text": "At first sight, POOCHYENA takes a bite at anything that moves. This POKéMON chases after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back.",
+      "version": "ruby"
+    },
+    {
+      "text": "POOCHYENA is an omnivore - it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This POKéMON tries to intimidate its foes by making the hair on its tail bristle out.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It savagely threatens foes with bared fangs. It chases after fleeing targets tenaciously. It turns tail and runs, however, if the foe strikes back.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+      "version": "firered"
+    },
+    {
+      "text": "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "pearl"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "platinum"
+    },
+    {
+      "text": "It chases its prey until the victim becomes exhausted. However, it turns tail if the prey strikes back.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It chases its prey until the victim becomes exhausted. However, it turns tail if the prey strikes back.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "black"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "white"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "black-2"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "white-2"
+    },
+    {
+      "text": "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+      "version": "x"
+    },
+    {
+      "text": "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.",
+      "version": "y"
+    },
+    {
+      "text": "At first sight, Poochyena takes a bite at anything that moves. This Pokémon chases after prey until the victim becomes exhausted. However, it may turn tail if the prey strikes back.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Poochyena is an omnivore—it will eat anything. A distinguishing feature is how large its fangs are compared to its body. This Pokémon tries to intimidate its foes by making the hair on its tail bristle out.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poochyena",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "poochyena",
+      "to": "mightyena",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "quick-feet"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/poochyena.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 45,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 60,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "hoenn-route-104-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-110-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 28,
+            "location": "hoenn-route-116-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          },
+          {
+            "chance": 35,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 2,
+            "method": "horde",
+            "minLevel": 2
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-103-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "gateon-port-lighthouse-top",
+            "maxLevel": 10,
+            "method": "snag",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "poochyena",
+      "kind": "default",
+      "name": "Poochyena",
+      "number": 261,
+      "pokemon": "poochyena",
+      "sourceId": 261,
+      "sprite": "/dex-images/sprites/poochyena.webp",
+      "statTotal": 220,
+      "stats": {
+        "attack": 55,
+        "defense": 35,
+        "hp": 35,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 136
+    }
+  ],
+  "generation": 3,
+  "key": "poochyena",
+  "name": "Poochyena",
+  "names": {
+    "de": "Fiffyen",
+    "en": "Poochyena",
+    "es": "Poochyena",
+    "es-419": "Poochyena",
+    "fr": "Medhyèna",
+    "it": "Poochyena",
+    "ja": "ポチエナ",
+    "ja-hrkt": "ポチエナ",
+    "ja-roma": "Pochiena",
+    "ko": "포챠나",
+    "zh-hans": "土狼犬",
+    "zh-hant": "土狼犬"
+  },
+  "number": 261
+}

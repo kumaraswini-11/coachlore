@@ -1,0 +1,421 @@
+{
+  "category": "Desert Croc Pokémon",
+  "entries": [
+    {
+      "text": "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+      "version": "black"
+    },
+    {
+      "text": "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+      "version": "white"
+    },
+    {
+      "text": "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
+      "version": "black-2"
+    },
+    {
+      "text": "They live hidden under hot desert sands in order to keep their body temperature from dropping.",
+      "version": "white-2"
+    },
+    {
+      "text": "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+      "version": "x"
+    },
+    {
+      "text": "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+      "version": "y"
+    },
+    {
+      "text": "It moves along below the sand’s surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+      "version": "sun"
+    },
+    {
+      "text": "It conceals itself in the sand and chomps down on the legs of any prey that unwarily walk over it. Its favorite food is Trapinch.",
+      "version": "moon"
+    },
+    {
+      "text": "Alola, where it’s warm all year round, is a comfortable environment for this Pokémon. Sometimes you’ll even see it outside of deserts.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Sandile’s still not good at hunting, so it mostly eats things that have collapsed in the desert. It’s called “the cleaner of the desert.”",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The desert gets cold at night, so when the sun sets, this Pokémon burrows deep into the sand and sleeps until sunrise.",
+      "version": "sword"
+    },
+    {
+      "text": "Sandile is small, but its legs and lower body are powerful. Pushing sand aside as it goes, Sandile moves through the desert as if it’s swimming.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sandile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 29
+      },
+      "from": "sandile",
+      "to": "krokorok",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "krokorok",
+      "to": "krookodile",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "moxie"
+        },
+        {
+          "hidden": true,
+          "key": "anger-point"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sandile.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "desert-resort-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "desert-resort-entrance",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "relic-castle-a",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "desert-resort-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "desert-resort-entrance",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "relic-castle-a",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "relic-castle-c",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "unova-route-4-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "moon": [
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "bubbling-spots",
+            "minLevel": 28
+          },
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "sun": [
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "bubbling-spots",
+            "minLevel": 28
+          },
+          {
+            "chance": 140,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 624,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 65,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 624,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 65,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "desert-resort-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "desert-resort-entrance",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "relic-castle-a",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "desert-resort-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "desert-resort-entrance",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "relic-castle-a",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "relic-castle-c",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "unova-route-4-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-9-area",
+            "maxLevel": 17,
+            "method": "rough-terrain",
+            "minLevel": 15
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-9-area",
+            "maxLevel": 17,
+            "method": "rough-terrain",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 5,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sandile",
+      "kind": "default",
+      "name": "Sandile",
+      "number": 551,
+      "pokemon": "sandile",
+      "sourceId": 551,
+      "sprite": "/dex-images/sprites/sandile.webp",
+      "statTotal": 292,
+      "stats": {
+        "attack": 72,
+        "defense": 35,
+        "hp": 50,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["ground", "dark"],
+      "weight": 152
+    }
+  ],
+  "generation": 5,
+  "key": "sandile",
+  "name": "Sandile",
+  "names": {
+    "de": "Ganovil",
+    "en": "Sandile",
+    "es": "Sandile",
+    "es-419": "Sandile",
+    "fr": "Mascaïman",
+    "it": "Sandile",
+    "ja": "メグロコ",
+    "ja-hrkt": "メグロコ",
+    "ja-roma": "Meguroco",
+    "ko": "깜눈크",
+    "zh-hans": "黑眼鳄",
+    "zh-hant": "黑眼鱷"
+  },
+  "number": 551
+}

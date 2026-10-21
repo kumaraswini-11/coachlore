@@ -1,0 +1,541 @@
+{
+  "category": "Freezing Pokémon",
+  "entries": [
+    {
+      "text": "It can make its breath freeze at will. Very able in the water, it swims around in northern seas and catches prey.",
+      "version": "black"
+    },
+    {
+      "text": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+      "version": "white"
+    },
+    {
+      "text": "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+      "version": "black-2"
+    },
+    {
+      "text": "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+      "version": "white-2"
+    },
+    {
+      "text": "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+      "version": "x"
+    },
+    {
+      "text": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+      "version": "y"
+    },
+    {
+      "text": "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It freezes its breath to create fangs and claws of ice to fight with. Cold northern areas are its habitat.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel.",
+      "version": "sword"
+    },
+    {
+      "text": "It swims energetically through frigid seas. When it gets tired, it freezes the seawater with its breath so it can rest on the ice.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cubchoo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "cubchoo",
+      "to": "beartic",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": false,
+          "key": "slush-rush"
+        },
+        {
+          "hidden": true,
+          "key": "swift-swim"
+        }
+      ],
+      "artwork": "/dex-images/artwork/beartic.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 37
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 45,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "galar-route-10-main",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          },
+          {
+            "chance": 125,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "galar-route-10-main",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          },
+          {
+            "chance": 125,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 55,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 230,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 230,
+            "location": "frigid-sea-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 230,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 230,
+            "location": "frigid-sea-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 40,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 40,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 37
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 45,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-314",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-316",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-317",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-314",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-316",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-317",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 26,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "beartic",
+      "kind": "default",
+      "name": "Beartic",
+      "number": 614,
+      "pokemon": "beartic",
+      "sourceId": 614,
+      "sprite": "/dex-images/sprites/beartic.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 130,
+        "defense": 80,
+        "hp": 95,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 2600
+    }
+  ],
+  "generation": 5,
+  "key": "beartic",
+  "name": "Beartic",
+  "names": {
+    "de": "Siberio",
+    "en": "Beartic",
+    "es": "Beartic",
+    "es-419": "Beartic",
+    "fr": "Polagriffe",
+    "it": "Beartic",
+    "ja": "ツンベアー",
+    "ja-hrkt": "ツンベアー",
+    "ja-roma": "Tunbear",
+    "ko": "툰베어",
+    "zh-hans": "冻原熊",
+    "zh-hant": "凍原熊"
+  },
+  "number": 614
+}

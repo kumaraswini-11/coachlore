@@ -1,0 +1,428 @@
+{
+  "category": "Beckon Pokémon",
+  "entries": [
+    {
+      "text": "DUSCLOPS’s body is completely hollow - there is nothing at all inside. It is said that its body is like a black hole. This POKéMON will absorb anything into its body, but nothing will ever come back out.",
+      "version": "ruby"
+    },
+    {
+      "text": "DUSCLOPS absorbs anything, however large the object may be. This POKéMON hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do DUSCLOPS’s bidding.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is thought that its body is hollow with only a spectral ball of fire burning inside. However, no one has been able to confirm this theory as fact.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
+      "version": "firered"
+    },
+    {
+      "text": "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+      "version": "pearl"
+    },
+    {
+      "text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+      "version": "platinum"
+    },
+    {
+      "text": "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+      "version": "black"
+    },
+    {
+      "text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+      "version": "white"
+    },
+    {
+      "text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+      "version": "black-2"
+    },
+    {
+      "text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+      "version": "white-2"
+    },
+    {
+      "text": "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+      "version": "x"
+    },
+    {
+      "text": "Its body is hollow. It is said that those who look into its body are sucked into the void.",
+      "version": "y"
+    },
+    {
+      "text": "Dusclops’s body is completely hollow—there is nothing at all inside. It is said that its body is like a black hole. This Pokémon will absorb anything into its body, but nothing will ever come back out.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Dusclops absorbs anything, however large the object may be. This Pokémon hypnotizes its foe by waving its hands in a macabre manner and by bringing its single eye to bear. The hypnotized foe is made to do Dusclops’s bidding.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
+      "version": "sword"
+    },
+    {
+      "text": "It seeks drifting will-o’-the-wisps and sucks them into its empty body. What happens inside is a mystery.",
+      "version": "shield"
+    },
+    {
+      "text": "There are rumors that peeking inside its bandage-wrapped body will cause one to get pulled in through the gaps between the bandages, never to return. I've been too scared to verify.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "duskull",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "duskull",
+      "to": "dusclops",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "reaper-cloth"
+      },
+      "from": "dusclops",
+      "to": "dusknoir",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dusclops.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 27,
+            "location": "sendoff-spring-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 27,
+            "location": "turnback-cave-after-pillar-3",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 23,
+            "location": "turnback-cave-before-pillar-1",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 23,
+            "location": "turnback-cave-between-pillars-1-and-2",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 27,
+            "location": "turnback-cave-between-pillars-2-and-3",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 23,
+            "location": "turnback-cave-pillar-1",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 27,
+            "location": "turnback-cave-pillar-2",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 27,
+            "location": "turnback-cave-pillar-3",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 15,
+            "location": "sky-pillar-1f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 15,
+            "location": "sky-pillar-3f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 15,
+            "location": "sky-pillar-5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "shield": [
+          {
+            "chance": 15,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 800,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 15,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 800,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "platinum", "omega-ruby-alpha-sapphire", "sword-shield", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dusclops",
+      "kind": "default",
+      "name": "Dusclops",
+      "number": 356,
+      "pokemon": "dusclops",
+      "sourceId": 356,
+      "sprite": "/dex-images/sprites/dusclops.webp",
+      "statTotal": 455,
+      "stats": {
+        "attack": 70,
+        "defense": 130,
+        "hp": 40,
+        "special-attack": 60,
+        "special-defense": 130,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 306
+    }
+  ],
+  "generation": 3,
+  "key": "dusclops",
+  "name": "Dusclops",
+  "names": {
+    "de": "Zwirrklop",
+    "en": "Dusclops",
+    "es": "Dusclops",
+    "es-419": "Dusclops",
+    "fr": "Téraclope",
+    "it": "Dusclops",
+    "ja": "サマヨール",
+    "ja-hrkt": "サマヨール",
+    "ja-roma": "Samayouru",
+    "ko": "미라몽",
+    "zh-hans": "彷徨夜灵",
+    "zh-hant": "彷徨夜靈"
+  },
+  "number": 356
+}

@@ -1,0 +1,226 @@
+{
+  "category": "Volcano Pokémon",
+  "entries": [
+    {
+      "text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+      "version": "gold"
+    },
+    {
+      "text": "It has a secret, devastating move. It rubs its blaz ing fur together to cause huge explosions.",
+      "version": "silver"
+    },
+    {
+      "text": "When heat from its body causes the air around it to shimmer, this is a sign that it is ready to battle.",
+      "version": "crystal"
+    },
+    {
+      "text": "TYPHLOSION obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This POKéMON creates blazing explosive blasts that burn everything to cinders.",
+      "version": "ruby"
+    },
+    {
+      "text": "TYPHLOSION obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This POKéMON creates blazing explosive blasts that burn everything to cinders.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It can hide behind a shimmering heat haze that it creates using its intense flames. TYPHLOSION create blazing explosive blasts that burn everything to cinders.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+      "version": "firered"
+    },
+    {
+      "text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "diamond"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "pearl"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "platinum"
+    },
+    {
+      "text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "black"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "white"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "black-2"
+    },
+    {
+      "text": "It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.",
+      "version": "white-2"
+    },
+    {
+      "text": "If its rage peaks, it becomes so hot that anything that touches it will instantly go up in flames.",
+      "version": "x"
+    },
+    {
+      "text": "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+      "version": "y"
+    },
+    {
+      "text": "Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Typhlosion obscures itself behind a shimmering heat haze that it creates using its intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cyndaquil",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "cyndaquil",
+      "to": "quilava",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "quilava",
+      "to": "typhlosion",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "typhlosion-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "quilava",
+      "to": "typhlosion",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "flash-fire"
+        }
+      ],
+      "artwork": "/dex-images/artwork/typhlosion.webp",
+      "encounters": {},
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "typhlosion",
+      "kind": "default",
+      "name": "Typhlosion",
+      "number": 157,
+      "pokemon": "typhlosion",
+      "sourceId": 157,
+      "sprite": "/dex-images/sprites/typhlosion.webp",
+      "statTotal": 534,
+      "stats": {
+        "attack": 84,
+        "defense": 78,
+        "hp": 78,
+        "special-attack": 109,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 795
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/typhlosion-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "typhlosion-hisui",
+      "kind": "regional",
+      "name": "Typhlosion-Hisui",
+      "number": 157,
+      "pokemon": "typhlosion",
+      "sourceId": 10233,
+      "sprite": "/dex-images/sprites/typhlosion-hisui.webp",
+      "statTotal": 534,
+      "stats": {
+        "attack": 84,
+        "defense": 78,
+        "hp": 73,
+        "special-attack": 119,
+        "special-defense": 85,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["fire", "ghost"],
+      "weight": 698
+    }
+  ],
+  "generation": 2,
+  "key": "typhlosion",
+  "name": "Typhlosion",
+  "names": {
+    "de": "Tornupto",
+    "en": "Typhlosion",
+    "es": "Typhlosion",
+    "es-419": "Typhlosion",
+    "fr": "Typhlosion",
+    "it": "Typhlosion",
+    "ja": "バクフーン",
+    "ja-hrkt": "バクフーン",
+    "ja-roma": "Bakphoon",
+    "ko": "블레이범",
+    "zh-hans": "火暴兽",
+    "zh-hant": "火爆獸"
+  },
+  "number": 157
+}

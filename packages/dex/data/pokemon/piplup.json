@@ -1,0 +1,190 @@
+{
+  "category": "Penguin Pokémon",
+  "entries": [
+    {
+      "text": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt.",
+      "version": "pearl"
+    },
+    {
+      "text": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+      "version": "platinum"
+    },
+    {
+      "text": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+      "version": "black"
+    },
+    {
+      "text": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+      "version": "white"
+    },
+    {
+      "text": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+      "version": "black-2"
+    },
+    {
+      "text": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+      "version": "white-2"
+    },
+    {
+      "text": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
+      "version": "x"
+    },
+    {
+      "text": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+      "version": "y"
+    },
+    {
+      "text": "It doesn’t like to be taken care of. It’s difficult to bond with since it won’t listen to its Trainer.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Prefers cold climes and appears along coasts. It's an adorable little thing—as cute as any child—but it's also prideful, unwilling to accept handouts from people.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "piplup",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "piplup",
+      "to": "prinplup",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "prinplup",
+      "to": "empoleon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "competitive"
+        }
+      ],
+      "artwork": "/dex-images/artwork/piplup.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "piplup",
+      "kind": "default",
+      "name": "Piplup",
+      "number": 393,
+      "pokemon": "piplup",
+      "sourceId": 393,
+      "sprite": "/dex-images/sprites/piplup.webp",
+      "statTotal": 314,
+      "stats": {
+        "attack": 51,
+        "defense": 53,
+        "hp": 53,
+        "special-attack": 61,
+        "special-defense": 56,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 52
+    }
+  ],
+  "generation": 4,
+  "key": "piplup",
+  "name": "Piplup",
+  "names": {
+    "de": "Plinfa",
+    "en": "Piplup",
+    "es": "Piplup",
+    "es-419": "Piplup",
+    "fr": "Tiplouf",
+    "it": "Piplup",
+    "ja": "ポッチャマ",
+    "ja-hrkt": "ポッチャマ",
+    "ja-roma": "Pochama",
+    "ko": "팽도리",
+    "zh-hans": "波加曼",
+    "zh-hant": "波加曼"
+  },
+  "number": 393
+}

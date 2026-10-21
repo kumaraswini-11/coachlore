@@ -1,0 +1,186 @@
+{
+  "category": "Wild Duck Pokémon",
+  "entries": [
+    {
+      "text": "Only Farfetch’d that have survived many battles can attain this evolution. When this Pokémon’s leek withers, it will retire from combat.",
+      "version": "sword"
+    },
+    {
+      "text": "After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "farfetchd",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "required_pokemon_form": "farfetchd-galar"
+      },
+      "from": "farfetchd",
+      "to": "sirfetchd",
+      "trigger": "three-critical-hits"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "steadfast"
+        },
+        {
+          "hidden": true,
+          "key": "scrappy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sirfetchd.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 2,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 2,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 2,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["sword-shield", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 8,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sirfetchd",
+      "kind": "default",
+      "name": "Sirfetch’d",
+      "number": 865,
+      "pokemon": "sirfetchd",
+      "sourceId": 865,
+      "sprite": "/dex-images/sprites/sirfetchd.webp",
+      "statTotal": 507,
+      "stats": {
+        "attack": 135,
+        "defense": 95,
+        "hp": 62,
+        "special-attack": 68,
+        "special-defense": 82,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 1170
+    }
+  ],
+  "generation": 8,
+  "key": "sirfetchd",
+  "name": "Sirfetch’d",
+  "names": {
+    "de": "Lauchzelot",
+    "en": "Sirfetch’d",
+    "es": "Sirfetch’d",
+    "es-419": "Sirfetch’d",
+    "fr": "Palarticho",
+    "it": "Sirfetch’d",
+    "ja": "ネギガナイト",
+    "ja-hrkt": "ネギガナイト",
+    "ja-roma": "Negigaknight",
+    "ko": "창파나이트",
+    "zh-hans": "葱游兵",
+    "zh-hant": "蔥遊兵"
+  },
+  "number": 865
+}

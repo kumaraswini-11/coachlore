@@ -1,0 +1,489 @@
+{
+  "category": "Two-Handed Pokémon",
+  "entries": [
+    {
+      "text": "Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",
+      "version": "x"
+    },
+    {
+      "text": "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
+      "version": "y"
+    },
+    {
+      "text": "Two Binacle live together on one rock. When they fight, one of them will move to a different rock.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide.",
+      "version": "sword"
+    },
+    {
+      "text": "If the two don’t work well together, both their offense and defense fall apart. Without good teamwork, they won’t survive.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "binacle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39
+      },
+      "from": "binacle",
+      "to": "barbaracle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        },
+        {
+          "hidden": false,
+          "key": "sniper"
+        },
+        {
+          "hidden": true,
+          "key": "pickpocket"
+        }
+      ],
+      "artwork": "/dex-images/artwork/binacle.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 15,
+            "location": "mirage-spot-island-south-of-pacifidlog",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 15,
+            "location": "mirage-spot-island-south-of-pacifidlog",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          }
+        ],
+        "shield": [
+          {
+            "chance": 110,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 110,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 24,
+            "method": "overworld",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "stepping-stone-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "workout-sea-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "stepping-stone-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "workout-sea-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 34,
+            "location": "ambrette-town-area",
+            "maxLevel": 20,
+            "method": "rock-smash",
+            "minLevel": 18
+          },
+          {
+            "chance": 34,
+            "location": "azure-bay-area",
+            "maxLevel": 25,
+            "method": "rock-smash",
+            "minLevel": 23
+          },
+          {
+            "chance": 34,
+            "location": "kalos-route-12-area",
+            "maxLevel": 25,
+            "method": "rock-smash",
+            "minLevel": 23
+          },
+          {
+            "chance": 34,
+            "location": "kalos-route-8-area",
+            "maxLevel": 20,
+            "method": "rock-smash",
+            "minLevel": 18
+          }
+        ],
+        "y": [
+          {
+            "chance": 34,
+            "location": "ambrette-town-area",
+            "maxLevel": 15,
+            "method": "rock-smash",
+            "minLevel": 13
+          },
+          {
+            "chance": 34,
+            "location": "azure-bay-area",
+            "maxLevel": 25,
+            "method": "rock-smash",
+            "minLevel": 23
+          },
+          {
+            "chance": 34,
+            "location": "cyllage-city-area",
+            "maxLevel": 15,
+            "method": "rock-smash",
+            "minLevel": 13
+          },
+          {
+            "chance": 34,
+            "location": "kalos-route-12-area",
+            "maxLevel": 25,
+            "method": "rock-smash",
+            "minLevel": 23
+          },
+          {
+            "chance": 34,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "rock-smash",
+            "minLevel": 13
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "binacle",
+      "kind": "default",
+      "name": "Binacle",
+      "number": 688,
+      "pokemon": "binacle",
+      "sourceId": 688,
+      "sprite": "/dex-images/sprites/binacle.webp",
+      "statTotal": 306,
+      "stats": {
+        "attack": 52,
+        "defense": 67,
+        "hp": 42,
+        "special-attack": 39,
+        "special-defense": 56,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["rock", "water"],
+      "weight": 310
+    }
+  ],
+  "generation": 6,
+  "key": "binacle",
+  "name": "Binacle",
+  "names": {
+    "de": "Bithora",
+    "en": "Binacle",
+    "es": "Binacle",
+    "es-419": "Binacle",
+    "fr": "Opermine",
+    "it": "Binacle",
+    "ja": "カメテテ",
+    "ja-hrkt": "カメテテ",
+    "ja-roma": "Kametete",
+    "ko": "거북손손",
+    "zh-hans": "龟脚脚",
+    "zh-hant": "龜腳腳"
+  },
+  "number": 688
+}

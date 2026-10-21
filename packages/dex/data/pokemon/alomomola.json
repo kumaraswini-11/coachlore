@@ -1,0 +1,397 @@
+{
+  "category": "Caring Pokémon",
+  "entries": [
+    {
+      "text": "The special membrane enveloping Alomomola has the ability to heal wounds.",
+      "version": "black"
+    },
+    {
+      "text": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+      "version": "white"
+    },
+    {
+      "text": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+      "version": "black-2"
+    },
+    {
+      "text": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+      "version": "white-2"
+    },
+    {
+      "text": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+      "version": "x"
+    },
+    {
+      "text": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+      "version": "y"
+    },
+    {
+      "text": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It uses its special mucus to close the wounds of injured Pokémon. The reason for this behavior remains unknown.",
+      "version": "sun"
+    },
+    {
+      "text": "They float upon the open sea. Many water Pokémon gather in the area around Alomomola.",
+      "version": "moon"
+    },
+    {
+      "text": "Fishermen take them along on long voyages, because if you have an Alomomola with you, there’ll be no need for a doctor or medicine.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The reason it helps Pokémon in a weakened condition is that any Pokémon coming after them may also attack Alomomola.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "alomomola",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "healer"
+        },
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/alomomola.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 95,
+            "location": "driftveil-city-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 95,
+            "location": "p2-laboratory-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-17-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-18-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-4-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 95,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-4-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "virbank-city-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "virbank-complex-outer",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          }
+        ],
+        "moon": [
+          {
+            "chance": 21,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 15,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 21,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "sun": [
+          {
+            "chance": 21,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 15,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 21,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 15,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 95,
+            "location": "driftveil-city-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 95,
+            "location": "p2-laboratory-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-17-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-18-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-4-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 95,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 95,
+            "location": "unova-route-4-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "virbank-city-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 95,
+            "location": "virbank-complex-outer",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "azure-bay-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "shalour-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "azure-bay-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "shalour-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "alomomola",
+      "kind": "default",
+      "name": "Alomomola",
+      "number": 594,
+      "pokemon": "alomomola",
+      "sourceId": 594,
+      "sprite": "/dex-images/sprites/alomomola.webp",
+      "statTotal": 470,
+      "stats": {
+        "attack": 75,
+        "defense": 80,
+        "hp": 165,
+        "special-attack": 40,
+        "special-defense": 45,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 316
+    }
+  ],
+  "generation": 5,
+  "key": "alomomola",
+  "name": "Alomomola",
+  "names": {
+    "de": "Mamolida",
+    "en": "Alomomola",
+    "es": "Alomomola",
+    "es-419": "Alomomola",
+    "fr": "Mamanbo",
+    "it": "Alomomola",
+    "ja": "ママンボウ",
+    "ja-hrkt": "ママンボウ",
+    "ja-roma": "Mamanbou",
+    "ko": "맘복치",
+    "zh-hans": "保姆曼波",
+    "zh-hant": "保母曼波"
+  },
+  "number": 594
+}

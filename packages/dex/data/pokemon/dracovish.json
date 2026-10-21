@@ -1,0 +1,121 @@
+{
+  "category": "Fossil Pokémon",
+  "entries": [
+    {
+      "text": "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
+      "version": "sword"
+    },
+    {
+      "text": "Its mighty legs are capable of running at speeds exceeding 40 mph, but this Pokémon can’t breathe unless it’s underwater.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dracovish",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "strong-jaw"
+        },
+        {
+          "hidden": true,
+          "key": "sand-rush"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dracovish.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 80,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 17,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield"],
+      "gen9": false,
+      "generation": 8,
+      "height": 23,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dracovish",
+      "kind": "default",
+      "name": "Dracovish",
+      "number": 882,
+      "pokemon": "dracovish",
+      "sourceId": 882,
+      "sprite": "/dex-images/sprites/dracovish.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 90,
+        "defense": 100,
+        "hp": 90,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["water", "dragon"],
+      "weight": 2150
+    }
+  ],
+  "generation": 8,
+  "key": "dracovish",
+  "name": "Dracovish",
+  "names": {
+    "de": "Pescragon",
+    "en": "Dracovish",
+    "es": "Dracovish",
+    "es-419": "Dracovish",
+    "fr": "Hydragon",
+    "it": "Dracovish",
+    "ja": "ウオノラゴン",
+    "ja-hrkt": "ウオノラゴン",
+    "ja-roma": "Uonoragon",
+    "ko": "어래곤",
+    "zh-hans": "鳃鱼龙",
+    "zh-hant": "鰓魚龍"
+  },
+  "number": 882
+}

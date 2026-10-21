@@ -1,0 +1,622 @@
+{
+  "category": "Disguise Pokémon",
+  "entries": [
+    {
+      "text": "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
+      "version": "sun"
+    },
+    {
+      "text": "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s a quiet, lonely Pokémon, if you try to look at what’s under its rag, it will become agitated and resist violently.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "A gust of wind revealed what hides under this Pokémon’s rag to a passing Trainer, who went home and died painfully that very night.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It wears a rag fashioned into a Pikachu costume in an effort to look less scary. Unfortunately, the costume only makes it creepier.",
+      "version": "sword"
+    },
+    {
+      "text": "There was a scientist who peeked under Mimikyu’s old rag in the name of research. The scientist died of a mysterious disease.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mimikyu",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "disguise"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mimikyu-disguised.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 5,
+            "location": "thrifty-megamart-abandoned-site",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "shield": [
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 6,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sun": [
+          {
+            "chance": 5,
+            "location": "thrifty-megamart-abandoned-site",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 6,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 105,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 110,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 105,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "frostpoint-field-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 40,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 105,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 110,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 105,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "old-cemetery-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 110,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "slippery-slope-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 110,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 5,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 105,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 110,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 105,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "frostpoint-field-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 40,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 105,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 110,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 105,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "old-cemetery-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 110,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "slippery-slope-area",
+            "maxLevel": 62,
+            "method": "wanderer",
+            "minLevel": 62
+          },
+          {
+            "chance": 110,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 5,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "thrifty-megamart-abandoned-site",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "thrifty-megamart-abandoned-site",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ]
+      },
+      "formName": "Disguised Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mimikyu-disguised",
+      "kind": "default",
+      "name": "Mimikyu",
+      "number": 778,
+      "pokemon": "mimikyu",
+      "sourceId": 778,
+      "sprite": "/dex-images/sprites/mimikyu-disguised.webp",
+      "statTotal": 476,
+      "stats": {
+        "attack": 90,
+        "defense": 80,
+        "hp": 55,
+        "special-attack": 50,
+        "special-defense": 105,
+        "speed": 96
+      },
+      "tags": [],
+      "types": ["ghost", "fairy"],
+      "weight": 7
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "disguise"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mimikyu-busted.webp",
+      "encounters": {},
+      "formName": "Busted Form",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 2,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "mimikyu-busted",
+      "kind": "other",
+      "name": "Mimikyu-Busted",
+      "number": 778,
+      "pokemon": "mimikyu",
+      "sourceId": 10143,
+      "sprite": "/dex-images/sprites/mimikyu-busted.webp",
+      "statTotal": 476,
+      "stats": {
+        "attack": 90,
+        "defense": 80,
+        "hp": 55,
+        "special-attack": 50,
+        "special-defense": 105,
+        "speed": 96
+      },
+      "tags": [],
+      "types": ["ghost", "fairy"],
+      "weight": 7
+    }
+  ],
+  "generation": 7,
+  "key": "mimikyu",
+  "name": "Mimikyu",
+  "names": {
+    "de": "Mimigma",
+    "en": "Mimikyu",
+    "es": "Mimikyu",
+    "es-419": "Mimikyu",
+    "fr": "Mimiqui",
+    "it": "Mimikyu",
+    "ja": "ミミッキュ",
+    "ja-hrkt": "ミミッキュ",
+    "ja-roma": "Mimikkyu",
+    "ko": "따라큐",
+    "zh-hans": "谜拟丘",
+    "zh-hant": "謎擬Ｑ"
+  },
+  "number": 778
+}

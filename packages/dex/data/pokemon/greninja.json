@@ -1,0 +1,230 @@
+{
+  "category": "Ninja Pokémon",
+  "entries": [
+    {
+      "text": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+      "version": "x"
+    },
+    {
+      "text": "It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+      "version": "y"
+    },
+    {
+      "text": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It appears and vanishes with a ninja’s grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "froakie",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "froakie",
+      "to": "frogadier",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "frogadier",
+      "to": "greninja",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "protean"
+        }
+      ],
+      "artwork": "/dex-images/artwork/greninja.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "island-scan",
+            "minLevel": 44
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "island-scan",
+            "minLevel": 44
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "greninja",
+      "kind": "default",
+      "name": "Greninja",
+      "number": 658,
+      "pokemon": "greninja",
+      "sourceId": 658,
+      "sprite": "/dex-images/sprites/greninja.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 95,
+        "defense": 67,
+        "hp": 72,
+        "special-attack": 103,
+        "special-defense": 71,
+        "speed": 122
+      },
+      "tags": [],
+      "types": ["water", "dark"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "battle-bond"
+        }
+      ],
+      "artwork": "/dex-images/artwork/greninja-ash.webp",
+      "encounters": {},
+      "formName": "Ash-Greninja",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 15,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "greninja-ash",
+      "kind": "other",
+      "name": "Greninja-Ash",
+      "number": 658,
+      "pokemon": "greninja",
+      "sourceId": 10117,
+      "sprite": "/dex-images/sprites/greninja-ash.webp",
+      "statTotal": 640,
+      "stats": {
+        "attack": 145,
+        "defense": 67,
+        "hp": 72,
+        "special-attack": 153,
+        "special-defense": 71,
+        "speed": 132
+      },
+      "tags": [],
+      "types": ["water", "dark"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "battle-bond"
+        }
+      ],
+      "artwork": "/dex-images/artwork/greninja-battle-bond.webp",
+      "encounters": {},
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "greninja-battle-bond",
+      "kind": "other",
+      "name": "Greninja-Battle-Bond",
+      "number": 658,
+      "pokemon": "greninja",
+      "sourceId": 10116,
+      "sprite": "/dex-images/sprites/greninja-battle-bond.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 95,
+        "defense": 67,
+        "hp": 72,
+        "special-attack": 103,
+        "special-defense": 71,
+        "speed": 122
+      },
+      "tags": [],
+      "types": ["water", "dark"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "protean"
+        }
+      ],
+      "artwork": "/dex-images/artwork/greninja-mega.webp",
+      "encounters": {},
+      "formName": "Mega Greninja",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 15,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "greninja-mega",
+      "kind": "mega",
+      "name": "Greninja-Mega",
+      "number": 658,
+      "pokemon": "greninja",
+      "sourceId": 10294,
+      "sprite": "/dex-images/sprites/greninja-mega.webp",
+      "statTotal": 630,
+      "stats": {
+        "attack": 125,
+        "defense": 77,
+        "hp": 72,
+        "special-attack": 133,
+        "special-defense": 81,
+        "speed": 142
+      },
+      "tags": [],
+      "types": ["water", "dark"],
+      "weight": 400
+    }
+  ],
+  "generation": 6,
+  "key": "greninja",
+  "name": "Greninja",
+  "names": {
+    "de": "Quajutsu",
+    "en": "Greninja",
+    "es": "Greninja",
+    "es-419": "Greninja",
+    "fr": "Amphinobi",
+    "it": "Greninja",
+    "ja": "ゲッコウガ",
+    "ja-hrkt": "ゲッコウガ",
+    "ja-roma": "Gekkouga",
+    "ko": "개굴닌자",
+    "zh-hans": "甲贺忍蛙",
+    "zh-hant": "甲賀忍蛙"
+  },
+  "number": 658
+}

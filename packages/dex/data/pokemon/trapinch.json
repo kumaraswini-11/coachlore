@@ -1,0 +1,523 @@
+{
+  "category": "Ant Pit Pokémon",
+  "entries": [
+    {
+      "text": "TRAPINCH’s nest is a sloped, bowl-like pit dug in sand. This POKéMON patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders.",
+      "version": "ruby"
+    },
+    {
+      "text": "TRAPINCH is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This POKéMON can go a whole week without access to any water.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back.",
+      "version": "emerald"
+    },
+    {
+      "text": "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
+      "version": "firered"
+    },
+    {
+      "text": "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "diamond"
+    },
+    {
+      "text": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "pearl"
+    },
+    {
+      "text": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "black"
+    },
+    {
+      "text": "It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "white"
+    },
+    {
+      "text": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "black-2"
+    },
+    {
+      "text": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.",
+      "version": "x"
+    },
+    {
+      "text": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "y"
+    },
+    {
+      "text": "Trapinch’s nest is a sloped, bowl-like pit dug in sand. This Pokémon patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pokémon can go a whole week without access to any water.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It can live for a week without eating a thing. It waits patiently at the bottom of its nest for prey to appear.",
+      "version": "sun"
+    },
+    {
+      "text": "As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest.",
+      "version": "moon"
+    },
+    {
+      "text": "Its jaws are strong enough to crush rocks but so heavy that it can’t get up if it flips over. Sandile seize those moments as their chance.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It builds nests that double as traps, lying in wait for its prey to get caught. When night falls, it digs itself a spot beneath the sand to sleep.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+      "version": "sword"
+    },
+    {
+      "text": "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "trapinch",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "trapinch",
+      "to": "vibrava",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 45
+      },
+      "from": "vibrava",
+      "to": "flygon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hyper-cutter"
+        },
+        {
+          "hidden": false,
+          "key": "arena-trap"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/trapinch.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "desert-resort-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 15,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "mirage-tower-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "bubbling-spots",
+            "minLevel": 28
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "shield": [
+          {
+            "chance": 50,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 4,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 100,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "haina-desert-area",
+            "maxLevel": 31,
+            "method": "bubbling-spots",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "bubbling-spots",
+            "minLevel": 32
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "haina-desert-area",
+            "maxLevel": 35,
+            "method": "bubbling-spots",
+            "minLevel": 32
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "desert-resort-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 15,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 80,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "ground-ambush",
+            "minLevel": 26
+          },
+          {
+            "chance": 80,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rough-terrain",
+            "minLevel": 26
+          }
+        ],
+        "xd": [
+          {
+            "chance": 15,
+            "location": "pokespot-rock",
+            "maxLevel": 20,
+            "method": "pokespot",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 80,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "ground-ambush",
+            "minLevel": 26
+          },
+          {
+            "chance": 80,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rough-terrain",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 3,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "trapinch",
+      "kind": "default",
+      "name": "Trapinch",
+      "number": 328,
+      "pokemon": "trapinch",
+      "sourceId": 328,
+      "sprite": "/dex-images/sprites/trapinch.webp",
+      "statTotal": 290,
+      "stats": {
+        "attack": 100,
+        "defense": 45,
+        "hp": 45,
+        "special-attack": 45,
+        "special-defense": 45,
+        "speed": 10
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 150
+    }
+  ],
+  "generation": 3,
+  "key": "trapinch",
+  "name": "Trapinch",
+  "names": {
+    "de": "Knacklion",
+    "en": "Trapinch",
+    "es": "Trapinch",
+    "es-419": "Trapinch",
+    "fr": "Kraknoix",
+    "it": "Trapinch",
+    "ja": "ナックラー",
+    "ja-hrkt": "ナックラー",
+    "ja-roma": "Nuckrar",
+    "ko": "톱치",
+    "zh-hans": "大颚蚁",
+    "zh-hant": "大顎蟻"
+  },
+  "number": 328
+}

@@ -1,0 +1,466 @@
+{
+  "category": "Hibernator Pokémon",
+  "entries": [
+    {
+      "text": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen BERRIES.",
+      "version": "gold"
+    },
+    {
+      "text": "With its ability to distinguish any aroma, it unfail ingly finds all food buried deep underground.",
+      "version": "silver"
+    },
+    {
+      "text": "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops.",
+      "version": "crystal"
+    },
+    {
+      "text": "In the forests inhabited by URSARING, it is said that there are many streams and towering trees where they gather food. This POKéMON walks through its forest gathering food every day.",
+      "version": "ruby"
+    },
+    {
+      "text": "In the forests inhabited by URSARING, it is said that there are many streams and towering trees where they gather food. This POKéMON walks through its forest gathering food every day.",
+      "version": "sapphire"
+    },
+    {
+      "text": "In forests, it is said that there are many streams and towering trees where an URSARING gathers food. It walks through its forest collecting food every day.",
+      "version": "emerald"
+    },
+    {
+      "text": "With its ability to distinguish any smell, it unfailingly finds all food buried deep underground.",
+      "version": "firered"
+    },
+    {
+      "text": "Although it is a good climber, it prefers to snap stout trees with its forelegs and eat fallen BERRIES.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "diamond"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "pearl"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "platinum"
+    },
+    {
+      "text": "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
+      "version": "heartgold"
+    },
+    {
+      "text": "With its ability to distinguish any aroma, it unfailingly finds all food buried deep underground.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "black"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "white"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "black-2"
+    },
+    {
+      "text": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+      "version": "white-2"
+    },
+    {
+      "text": "With its ability to distinguish any aroma, it unfailingly finds all food buried deep underground.",
+      "version": "x"
+    },
+    {
+      "text": "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops.",
+      "version": "y"
+    },
+    {
+      "text": "In the forests inhabited by Ursaring, it is said that there are many streams and towering trees where they gather food. This Pokémon walks through its forest gathering food every day.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "In the forests inhabited by Ursaring, it is said that there are many streams and towering trees where they gather food. This Pokémon walks through its forest gathering food every day.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When the cold season arrives in Hisui, this Pokémon will wander fields and mountains alike in search of its favorite berries. Ursaring's hunger during this time makes it a ferocious danger.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "teddiursa",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "teddiursa",
+      "to": "ursaring",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "peat-block",
+        "time_of_day": "full-moon"
+      },
+      "from": "ursaring",
+      "to": "ursaluna",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": false,
+          "key": "quick-feet"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ursaring.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "snagem-hideout-2f",
+            "maxLevel": 45,
+            "method": "snag",
+            "minLevel": 45
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 25,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 90,
+            "location": "mt-silver-1f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 40,
+            "location": "mt-silver-2f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-top",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "gold": [
+          {
+            "chance": 60,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "mt-silver-1f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 60,
+            "location": "mt-silver-2f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 60,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-top",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 8,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "mt-silver-1f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-3f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-4f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-top",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "x": [
+          {
+            "chance": 50,
+            "location": "kalos-route-21-area",
+            "maxLevel": 52,
+            "method": "purple-flowers",
+            "minLevel": 52
+          },
+          {
+            "chance": 50,
+            "location": "kalos-route-21-area",
+            "maxLevel": 52,
+            "method": "red-flowers",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 50,
+            "location": "kalos-route-21-area",
+            "maxLevel": 52,
+            "method": "purple-flowers",
+            "minLevel": 52
+          },
+          {
+            "chance": 50,
+            "location": "kalos-route-21-area",
+            "maxLevel": 52,
+            "method": "red-flowers",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ursaring",
+      "kind": "default",
+      "name": "Ursaring",
+      "number": 217,
+      "pokemon": "ursaring",
+      "sourceId": 217,
+      "sprite": "/dex-images/sprites/ursaring.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 130,
+        "defense": 75,
+        "hp": 90,
+        "special-attack": 75,
+        "special-defense": 75,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 1258
+    }
+  ],
+  "generation": 2,
+  "key": "ursaring",
+  "name": "Ursaring",
+  "names": {
+    "de": "Ursaring",
+    "en": "Ursaring",
+    "es": "Ursaring",
+    "es-419": "Ursaring",
+    "fr": "Ursaring",
+    "it": "Ursaring",
+    "ja": "リングマ",
+    "ja-hrkt": "リングマ",
+    "ja-roma": "Ringuma",
+    "ko": "링곰",
+    "zh-hans": "圈圈熊",
+    "zh-hant": "圈圈熊"
+  },
+  "number": 217
+}

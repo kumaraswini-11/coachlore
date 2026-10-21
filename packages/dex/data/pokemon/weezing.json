@@ -1,0 +1,902 @@
+{
+  "category": "Poison Gas Pokémon",
+  "entries": [
+    {
+      "text": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
+      "version": "red"
+    },
+    {
+      "text": "Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
+      "version": "blue"
+    },
+    {
+      "text": "It lives and grows by absorbing dust, germs and poison gases that are contained in toxic waste and garbage.",
+      "version": "yellow"
+    },
+    {
+      "text": "If one of the twin KOFFING inflates, the other one deflates. It constantly mixes its poisonous gases.",
+      "version": "gold"
+    },
+    {
+      "text": "Top-grade perfume is made using its internal poison gases by diluting them to the highest level.",
+      "version": "silver"
+    },
+    {
+      "text": "When it inhales poisonous gases from garbage, its body expands, and its insides smell much worse.",
+      "version": "crystal"
+    },
+    {
+      "text": "WEEZING loves the gases given off by rotted kitchen garbage. This POKéMON will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.",
+      "version": "ruby"
+    },
+    {
+      "text": "WEEZING alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The POKéMON also becomes more putrid.",
+      "version": "sapphire"
+    },
+    {
+      "text": "By diluting its toxic gases with a special process, the highest grade of perfume can be extracted. To WEEZING, gases emanating from garbage are the ultimate feast.",
+      "version": "emerald"
+    },
+    {
+      "text": "Very rarely, a sudden mutation can result in two small KOFFING twins becoming conjoined as a WEEZING.",
+      "version": "firered"
+    },
+    {
+      "text": "Where two kinds of poison gases meet, two KOFFING can fuse into a WEEZING over many years.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "version": "diamond"
+    },
+    {
+      "text": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "version": "pearl"
+    },
+    {
+      "text": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "version": "platinum"
+    },
+    {
+      "text": "If one of the twin KOFFING inflates, the other one deflates. It constantly mixes its poisonous gases.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Top-grade perfume is made using its internal poison gases by diluting them to the highest level.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "version": "black"
+    },
+    {
+      "text": "It grows by feeding on gases released by garbage. Though very rare, triplets have been found.",
+      "version": "white"
+    },
+    {
+      "text": "Inhaling toxic fumes from trash and mixing them inside its body lets it spread an even fouler stench.",
+      "version": "black-2"
+    },
+    {
+      "text": "Inhaling toxic fumes from trash and mixing them inside its body lets it spread an even fouler stench.",
+      "version": "white-2"
+    },
+    {
+      "text": "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+      "version": "x"
+    },
+    {
+      "text": "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+      "version": "y"
+    },
+    {
+      "text": "Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The Pokémon also becomes more putrid.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon lives and grows by absorbing poison gas, dust, and germs that exist inside garbage.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "This Pokémon lives and grows by absorbing poison gas, dust, and germs that exist inside garbage.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It mixes gases between its two bodies. It’s said that these Pokémon were seen all over the Galar region back in the day.",
+      "version": "sword"
+    },
+    {
+      "text": "It can’t suck in air quite as well as a Galarian Weezing, but the toxins it creates are more potent than those of its counterpart.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "koffing",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "koffing",
+      "to": "weezing",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "weezing-galar",
+        "min_level": 35,
+        "region": "galar"
+      },
+      "from": "koffing",
+      "to": "weezing",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        },
+        {
+          "hidden": false,
+          "key": "neutralizing-gas"
+        },
+        {
+          "hidden": true,
+          "key": "stench"
+        }
+      ],
+      "artwork": "/dex-images/artwork/weezing.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 15,
+            "location": "p2-laboratory-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "blue": [
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 1,
+            "location": "burned-tower-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-inside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-inside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "stark-mountain-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 15,
+            "location": "stark-mountain-inside",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "red": [
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 14,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 14,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "p2-laboratory-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "black-2-white-2", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "weezing",
+      "kind": "default",
+      "name": "Weezing",
+      "number": 110,
+      "pokemon": "weezing",
+      "sourceId": 110,
+      "sprite": "/dex-images/sprites/weezing.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 90,
+        "defense": 120,
+        "hp": 65,
+        "special-attack": 85,
+        "special-defense": 70,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 95
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        },
+        {
+          "hidden": false,
+          "key": "neutralizing-gas"
+        },
+        {
+          "hidden": true,
+          "key": "misty-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/weezing-galar.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 900,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 80,
+            "location": "slumbering-weald-deep",
+            "maxLevel": 47,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 80,
+            "location": "slumbering-weald-deep",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 900,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 80,
+            "location": "slumbering-weald-deep",
+            "maxLevel": 47,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 80,
+            "location": "slumbering-weald-deep",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Galarian Form",
+      "games": ["sword-shield"],
+      "gen9": true,
+      "generation": 8,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "weezing-galar",
+      "kind": "regional",
+      "name": "Weezing-Galar",
+      "number": 110,
+      "pokemon": "weezing",
+      "sourceId": 10167,
+      "sprite": "/dex-images/sprites/weezing-galar.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 90,
+        "defense": 120,
+        "hp": 65,
+        "special-attack": 85,
+        "special-defense": 70,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["poison", "fairy"],
+      "weight": 160
+    }
+  ],
+  "generation": 1,
+  "key": "weezing",
+  "name": "Weezing",
+  "names": {
+    "de": "Smogmog",
+    "en": "Weezing",
+    "es": "Weezing",
+    "es-419": "Weezing",
+    "fr": "Smogogo",
+    "it": "Weezing",
+    "ja": "マタドガス",
+    "ja-hrkt": "マタドガス",
+    "ja-roma": "Matadogas",
+    "ko": "또도가스",
+    "zh-hans": "双弹瓦斯",
+    "zh-hant": "雙彈瓦斯"
+  },
+  "number": 110
+}

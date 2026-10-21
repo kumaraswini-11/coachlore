@@ -1,0 +1,332 @@
+{
+  "category": "Tusk Pokémon",
+  "entries": [
+    {
+      "text": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+      "version": "black"
+    },
+    {
+      "text": "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+      "version": "white"
+    },
+    {
+      "text": "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier.",
+      "version": "white-2"
+    },
+    {
+      "text": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+      "version": "x"
+    },
+    {
+      "text": "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+      "version": "y"
+    },
+    {
+      "text": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "These Pokémon nest in the ground and use their tusks to crush hard berries. Crushing berries is also how they test each other’s strength.",
+      "version": "sword"
+    },
+    {
+      "text": "They play with each other by knocking their large tusks together. Their tusks break sometimes, but they grow back so quickly that it isn’t a concern.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "axew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "axew",
+      "to": "fraxure",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "fraxure",
+      "to": "haxorus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": false,
+          "key": "mold-breaker"
+        },
+        {
+          "hidden": true,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/axew.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "guidance-chamber-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "mistralton-cave-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "guidance-chamber-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "mistralton-cave-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "mount-hokulani-main",
+            "maxLevel": 28,
+            "method": "island-scan",
+            "minLevel": 28
+          }
+        ],
+        "shield": [
+          {
+            "chance": 80,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "mount-hokulani-main",
+            "maxLevel": 28,
+            "method": "island-scan",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 80,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 4,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 100,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "mount-hokulani-main",
+            "maxLevel": 30,
+            "method": "island-scan",
+            "minLevel": 30
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "mount-hokulani-main",
+            "maxLevel": 30,
+            "method": "island-scan",
+            "minLevel": 30
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "guidance-chamber-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "mistralton-cave-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "guidance-chamber-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "mistralton-cave-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "x": [
+          {
+            "chance": 15,
+            "location": "connecting-cave-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "connecting-cave-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "y": [
+          {
+            "chance": 15,
+            "location": "connecting-cave-area",
+            "maxLevel": 8,
+            "method": "horde",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "connecting-cave-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "axew",
+      "kind": "default",
+      "name": "Axew",
+      "number": 610,
+      "pokemon": "axew",
+      "sourceId": 610,
+      "sprite": "/dex-images/sprites/axew.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 87,
+        "defense": 60,
+        "hp": 46,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 57
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 180
+    }
+  ],
+  "generation": 5,
+  "key": "axew",
+  "name": "Axew",
+  "names": {
+    "de": "Milza",
+    "en": "Axew",
+    "es": "Axew",
+    "es-419": "Axew",
+    "fr": "Coupenotte",
+    "it": "Axew",
+    "ja": "キバゴ",
+    "ja-hrkt": "キバゴ",
+    "ja-roma": "Kibago",
+    "ko": "터검니",
+    "zh-hans": "牙牙",
+    "zh-hant": "牙牙"
+  },
+  "number": 610
+}

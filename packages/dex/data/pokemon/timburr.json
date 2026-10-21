@@ -1,0 +1,343 @@
+{
+  "category": "Muscular Pokémon",
+  "entries": [
+    {
+      "text": "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+      "version": "black"
+    },
+    {
+      "text": "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
+      "version": "white"
+    },
+    {
+      "text": "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+      "version": "black-2"
+    },
+    {
+      "text": "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+      "version": "white-2"
+    },
+    {
+      "text": "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
+      "version": "x"
+    },
+    {
+      "text": "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+      "version": "y"
+    },
+    {
+      "text": "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It loves helping out with construction projects. It loves it so much that if rain causes work to halt, it swings its log around and throws a tantrum.",
+      "version": "sword"
+    },
+    {
+      "text": "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "timburr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "timburr",
+      "to": "gurdurr",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "gurdurr",
+      "to": "conkeldurr",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/timburr.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "cold-storage-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "cold-storage-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 16,
+            "method": "dark-grass",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "relic-passage-castelia-sewers-entrance",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-mine-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 25,
+            "location": "galar-mine-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "cold-storage-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "cold-storage-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 16,
+            "method": "dark-grass",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "relic-passage-castelia-sewers-entrance",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "timburr",
+      "kind": "default",
+      "name": "Timburr",
+      "number": 532,
+      "pokemon": "timburr",
+      "sourceId": 532,
+      "sprite": "/dex-images/sprites/timburr.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 80,
+        "defense": 55,
+        "hp": 75,
+        "special-attack": 25,
+        "special-defense": 35,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 125
+    }
+  ],
+  "generation": 5,
+  "key": "timburr",
+  "name": "Timburr",
+  "names": {
+    "de": "Praktibalk",
+    "en": "Timburr",
+    "es": "Timburr",
+    "es-419": "Timburr",
+    "fr": "Charpenti",
+    "it": "Timburr",
+    "ja": "ドッコラー",
+    "ja-hrkt": "ドッコラー",
+    "ja-roma": "Dokkorer",
+    "ko": "으랏차",
+    "zh-hans": "搬运小匠",
+    "zh-hant": "搬運小匠"
+  },
+  "number": 532
+}

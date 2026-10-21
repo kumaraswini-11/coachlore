@@ -1,0 +1,179 @@
+{
+  "category": "Big Rock Pokémon",
+  "entries": [
+    {
+      "text": "It stands in grasslands, watching the sun’s descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
+      "version": "sword"
+    },
+    {
+      "text": "Once a year, on a specific date and at a specific time, they gather out of nowhere and form up in a circle.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "stonjourner",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "power-spot"
+        }
+      ],
+      "artwork": "/dex-images/artwork/stonjourner.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 2,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 15,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 14,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 185,
+            "location": "ballimere-lake-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 920,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 920,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-j",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-n",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 185,
+            "location": "slippery-slope-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "snowslide-slope-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet"],
+      "gen9": true,
+      "generation": 8,
+      "height": 25,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "stonjourner",
+      "kind": "default",
+      "name": "Stonjourner",
+      "number": 874,
+      "pokemon": "stonjourner",
+      "sourceId": 874,
+      "sprite": "/dex-images/sprites/stonjourner.webp",
+      "statTotal": 470,
+      "stats": {
+        "attack": 125,
+        "defense": 135,
+        "hp": 100,
+        "special-attack": 20,
+        "special-defense": 20,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 5200
+    }
+  ],
+  "generation": 8,
+  "key": "stonjourner",
+  "name": "Stonjourner",
+  "names": {
+    "de": "Humanolith",
+    "en": "Stonjourner",
+    "es": "Stonjourner",
+    "es-419": "Stonjourner",
+    "fr": "Dolman",
+    "it": "Stonjourner",
+    "ja": "イシヘンジン",
+    "ja-hrkt": "イシヘンジン",
+    "ja-roma": "Ishihengin",
+    "ko": "돌헨진",
+    "zh-hans": "巨石丁",
+    "zh-hant": "巨石丁"
+  },
+  "number": 874
+}

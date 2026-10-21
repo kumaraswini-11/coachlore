@@ -1,0 +1,604 @@
+{
+  "category": "Meteor Pokémon",
+  "entries": [
+    {
+      "text": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+      "version": "sun"
+    },
+    {
+      "text": "Strong impacts can knock it out of its shell. This Pokémon was born from mutated nanoparticles.",
+      "version": "moon"
+    },
+    {
+      "text": "It lives in the ozone layer, where it becomes food for stronger Pokémon. When it tries to run away, it falls to the ground.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although its outer shell is uncommonly durable, the shock of falling to the ground smashes the shell to smithereens.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "minior",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-red-meteor.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 30,
+            "location": "mount-hokulani-main",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "mount-hokulani-main",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 70,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 70,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ]
+      },
+      "formName": "Meteor Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "minior-red-meteor",
+      "kind": "default",
+      "name": "Minior",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 774,
+      "sprite": "/dex-images/sprites/minior-red-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-blue.webp",
+      "encounters": {},
+      "formName": "Blue Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-blue",
+      "kind": "other",
+      "name": "Minior-Blue",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10140,
+      "sprite": "/dex-images/sprites/minior-blue.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-blue-meteor.webp",
+      "encounters": {},
+      "formName": "Meteor Form",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-blue-meteor",
+      "kind": "other",
+      "name": "Minior-Blue-Meteor",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10133,
+      "sprite": "/dex-images/sprites/minior-blue-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-green.webp",
+      "encounters": {},
+      "formName": "Green Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-green",
+      "kind": "other",
+      "name": "Minior-Green",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10139,
+      "sprite": "/dex-images/sprites/minior-green.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-green-meteor.webp",
+      "encounters": {},
+      "formName": "Meteor Form",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-green-meteor",
+      "kind": "other",
+      "name": "Minior-Green-Meteor",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10132,
+      "sprite": "/dex-images/sprites/minior-green-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-indigo.webp",
+      "encounters": {},
+      "formName": "Indigo Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-indigo",
+      "kind": "other",
+      "name": "Minior-Indigo",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10141,
+      "sprite": "/dex-images/sprites/minior-indigo.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-indigo-meteor.webp",
+      "encounters": {},
+      "formName": "Meteor Form",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-indigo-meteor",
+      "kind": "other",
+      "name": "Minior-Indigo-Meteor",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10134,
+      "sprite": "/dex-images/sprites/minior-indigo-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-orange.webp",
+      "encounters": {},
+      "formName": "Orange Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-orange",
+      "kind": "other",
+      "name": "Minior-Orange",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10137,
+      "sprite": "/dex-images/sprites/minior-orange.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-orange-meteor.webp",
+      "encounters": {},
+      "formName": "Meteor Form",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-orange-meteor",
+      "kind": "other",
+      "name": "Minior-Orange-Meteor",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10130,
+      "sprite": "/dex-images/sprites/minior-orange-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-red.webp",
+      "encounters": {},
+      "formName": "Red Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-red",
+      "kind": "other",
+      "name": "Minior-Red",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10136,
+      "sprite": "/dex-images/sprites/minior-red.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-violet.webp",
+      "encounters": {},
+      "formName": "Violet Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-violet",
+      "kind": "other",
+      "name": "Minior-Violet",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10142,
+      "sprite": "/dex-images/sprites/minior-violet.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-violet-meteor.webp",
+      "encounters": {},
+      "formName": "Meteor Form",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-violet-meteor",
+      "kind": "other",
+      "name": "Minior-Violet-Meteor",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10135,
+      "sprite": "/dex-images/sprites/minior-violet-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-yellow.webp",
+      "encounters": {},
+      "formName": "Yellow Core",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-yellow",
+      "kind": "other",
+      "name": "Minior-Yellow",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10138,
+      "sprite": "/dex-images/sprites/minior-yellow.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 3
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shields-down"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minior-yellow-meteor.webp",
+      "encounters": {},
+      "formName": "Meteor Form",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "minior-yellow-meteor",
+      "kind": "other",
+      "name": "Minior-Yellow-Meteor",
+      "number": 774,
+      "pokemon": "minior",
+      "sourceId": 10131,
+      "sprite": "/dex-images/sprites/minior-yellow-meteor.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock", "flying"],
+      "weight": 400
+    }
+  ],
+  "generation": 7,
+  "key": "minior",
+  "name": "Minior",
+  "names": {
+    "de": "Meteno",
+    "en": "Minior",
+    "es": "Minior",
+    "es-419": "Minior",
+    "fr": "Météno",
+    "it": "Minior",
+    "ja": "メテノ",
+    "ja-hrkt": "メテノ",
+    "ja-roma": "Meteno",
+    "ko": "메테노",
+    "zh-hans": "小陨星",
+    "zh-hant": "小隕星"
+  },
+  "number": 774
+}

@@ -1,0 +1,366 @@
+{
+  "category": "Playful Pokémon",
+  "entries": [
+    {
+      "text": "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+      "version": "x"
+    },
+    {
+      "text": "It does its level best to glare and pull a scary face, but it can’t help grinning if anyone pats its head.",
+      "version": "y"
+    },
+    {
+      "text": "It does its best to be taken seriously by its enemies, but its glare is not sufficiently intimidating. Chewing on a leaf is its trademark.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It does its level best to glare and pull a scary face, but it can’t help grinning if anyone pats its head.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It grows up imitating the behavior of Pangoro, which it looks up to as a leader.",
+      "version": "sun"
+    },
+    {
+      "text": "There’s no point to the leaf in its mouth, aside from an effort to look cool. It’s mischievous, so it’s not well suited to inexperienced Trainers.",
+      "version": "moon"
+    },
+    {
+      "text": "It follows Pangoro around like a henchman. When Pancham makes a big mistake, its leaf gets taken away.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It’s desperate to intimidate its opponents. Be nice and pretend to be scared if you catch it glaring at you intensely.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It chooses a Pangoro as its master and then imitates its master’s actions. This is how it learns to battle and hunt for prey.",
+      "version": "sword"
+    },
+    {
+      "text": "Wanting to make sure it’s taken seriously, Pancham’s always giving others a glare. But if it’s not focusing, it ends up smiling.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pancham",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32,
+        "party_type": "dark"
+      },
+      "from": "pancham",
+      "to": "pangoro",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        },
+        {
+          "hidden": false,
+          "key": "mold-breaker"
+        },
+        {
+          "hidden": true,
+          "key": "scrappy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pancham.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "shield": [
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 150,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-3-east",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1080,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 70,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 150,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-3-east",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1080,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 70,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 9,
+            "method": "purple-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 9,
+            "method": "purple-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pancham",
+      "kind": "default",
+      "name": "Pancham",
+      "number": 674,
+      "pokemon": "pancham",
+      "sourceId": 674,
+      "sprite": "/dex-images/sprites/pancham.webp",
+      "statTotal": 348,
+      "stats": {
+        "attack": 82,
+        "defense": 62,
+        "hp": 67,
+        "special-attack": 46,
+        "special-defense": 48,
+        "speed": 43
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 80
+    }
+  ],
+  "generation": 6,
+  "key": "pancham",
+  "name": "Pancham",
+  "names": {
+    "de": "Pam-Pam",
+    "en": "Pancham",
+    "es": "Pancham",
+    "es-419": "Pancham",
+    "fr": "Pandespiègle",
+    "it": "Pancham",
+    "ja": "ヤンチャム",
+    "ja-hrkt": "ヤンチャム",
+    "ja-roma": "Yancham",
+    "ko": "판짱",
+    "zh-hans": "顽皮熊猫",
+    "zh-hant": "頑皮熊貓"
+  },
+  "number": 674
+}

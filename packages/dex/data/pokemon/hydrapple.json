@@ -1,0 +1,116 @@
+{
+  "category": "Apple Hydra Pokémon",
+  "entries": [
+    {
+      "text": "Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.",
+      "version": "scarlet"
+    },
+    {
+      "text": "These capricious syrpents have banded together. On the rare occasion that their moods align, their true power is unleashed.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "applin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "tart-apple"
+      },
+      "from": "applin",
+      "to": "flapple",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sweet-apple"
+      },
+      "from": "applin",
+      "to": "appletun",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "syrupy-apple"
+      },
+      "from": "applin",
+      "to": "dipplin",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-cheer"
+      },
+      "from": "dipplin",
+      "to": "hydrapple",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "supersweet-syrup"
+        },
+        {
+          "hidden": false,
+          "key": "regenerator"
+        },
+        {
+          "hidden": true,
+          "key": "sticky-hold"
+        }
+      ],
+      "artwork": "/dex-images/artwork/hydrapple.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "hydrapple",
+      "kind": "default",
+      "name": "Hydrapple",
+      "number": 1019,
+      "pokemon": "hydrapple",
+      "sourceId": 1019,
+      "sprite": "/dex-images/sprites/hydrapple.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 80,
+        "defense": 110,
+        "hp": 106,
+        "special-attack": 120,
+        "special-defense": 80,
+        "speed": 44
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 930
+    }
+  ],
+  "generation": 9,
+  "key": "hydrapple",
+  "name": "Hydrapple",
+  "names": {
+    "de": "Hydrapfel",
+    "en": "Hydrapple",
+    "es": "Hydrapple",
+    "es-419": "Hydrapple",
+    "fr": "Pomdorochi",
+    "it": "Hydrapple",
+    "ja": "カミツオロチ",
+    "ja-hrkt": "カミツオロチ",
+    "ja-roma": "Kamitsuorochi",
+    "ko": "과미드라",
+    "zh-hans": "蜜集大蛇",
+    "zh-hant": "蜜集大蛇"
+  },
+  "number": 1019
+}

@@ -1,0 +1,312 @@
+{
+  "category": "Season Pokémon",
+  "entries": [
+    {
+      "text": "The color and scent of their fur changes to match the mountain grass. When they sense hostility, they hide in the grass.",
+      "version": "black"
+    },
+    {
+      "text": "The turning of the seasons changes the color and scent of this Pokémon’s fur. People use it to mark the seasons.",
+      "version": "white"
+    },
+    {
+      "text": "Their coloring changes according to the seasons and can be slightly affected by the temperature and humidity as well.",
+      "version": "black-2"
+    },
+    {
+      "text": "Their coloring changes according to the seasons and can be slightly affected by the temperature and humidity as well.",
+      "version": "white-2"
+    },
+    {
+      "text": "Their coloring changes according to the seasons and can be slightly affected by the temperature and humidity as well.",
+      "version": "x"
+    },
+    {
+      "text": "The turning of the seasons changes the color and scent of this Pokémon’s fur. People use it to mark the seasons.",
+      "version": "y"
+    },
+    {
+      "text": "Their coloring changes according to the seasons and can be slightly affected by the temperature and humidity as well.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The turning of the seasons changes the color and scent of this Pokémon’s fur. People use it to mark the seasons.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "deerling",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-spring",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-spring"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-summer",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-summer"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-autumn",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-autumn"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-winter",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-winter"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "sap-sipper"
+        },
+        {
+          "hidden": true,
+          "key": "serene-grace"
+        }
+      ],
+      "artwork": "/dex-images/artwork/deerling.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 90,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-6-area",
+            "maxLevel": 28,
+            "method": "dark-grass",
+            "minLevel": 26
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-6-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 30,
+            "method": "dark-grass",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 60,
+            "location": "unova-route-6-area",
+            "maxLevel": 28,
+            "method": "dark-grass",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-6-weather-institute",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "dark-grass",
+            "minLevel": 33
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "white": [
+          {
+            "chance": 90,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-6-area",
+            "maxLevel": 28,
+            "method": "dark-grass",
+            "minLevel": 26
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-6-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 30,
+            "method": "dark-grass",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 60,
+            "location": "unova-route-6-area",
+            "maxLevel": 28,
+            "method": "dark-grass",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 100,
+            "location": "unova-route-6-weather-institute",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "dark-grass",
+            "minLevel": 33
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Spring Form",
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "deerling",
+      "kind": "default",
+      "name": "Deerling",
+      "number": 585,
+      "pokemon": "deerling",
+      "sourceId": 585,
+      "sprite": "/dex-images/sprites/deerling.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 60,
+        "defense": 50,
+        "hp": 60,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["normal", "grass"],
+      "weight": 195
+    }
+  ],
+  "generation": 5,
+  "key": "deerling",
+  "name": "Deerling",
+  "names": {
+    "de": "Sesokitz",
+    "en": "Deerling",
+    "es": "Deerling",
+    "es-419": "Deerling",
+    "fr": "Vivaldaim",
+    "it": "Deerling",
+    "ja": "シキジカ",
+    "ja-hrkt": "シキジカ",
+    "ja-roma": "Shikijika",
+    "ko": "사철록",
+    "zh-hans": "四季鹿",
+    "zh-hant": "四季鹿"
+  },
+  "number": 585
+}

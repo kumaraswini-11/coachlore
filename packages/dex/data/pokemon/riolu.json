@@ -1,0 +1,512 @@
+{
+  "category": "Emanation Pokémon",
+  "entries": [
+    {
+      "text": "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its body is lithe yet powerful. It can crest three mountains and cross two canyons in one night.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+      "version": "platinum"
+    },
+    {
+      "text": "They communicate with one another using their auras. They are able to run all through the night.",
+      "version": "heartgold"
+    },
+    {
+      "text": "They communicate with one another using their auras. They are able to run all through the night.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+      "version": "black"
+    },
+    {
+      "text": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+      "version": "white"
+    },
+    {
+      "text": "It uses the shapes of auras, which change according to emotion, to communicate with others.",
+      "version": "black-2"
+    },
+    {
+      "text": "It uses the shapes of auras, which change according to emotion, to communicate with others.",
+      "version": "white-2"
+    },
+    {
+      "text": "It uses the shapes of auras, which change according to emotion, to communicate with others.",
+      "version": "x"
+    },
+    {
+      "text": "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+      "version": "y"
+    },
+    {
+      "text": "It uses the shapes of auras, which change according to emotion, to communicate with others.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It can discern the physical and emotional states of people, Pokémon, and other natural things from the shape of their aura waves.",
+      "version": "sun"
+    },
+    {
+      "text": "It’s tough enough to run right through the night, and it’s also a hard worker, but it’s still just a youngster.",
+      "version": "moon"
+    },
+    {
+      "text": "It knows how people and Pokémon feel by looking at their auras. It doesn’t approach dangerous opponents.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It uses waves called auras to communicate with others of its kind. It doesn’t make any noise during this time, so its enemies can’t detect it.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It’s exceedingly energetic, with enough stamina to keep running all through the night. Taking it for walks can be a challenging experience.",
+      "version": "sword"
+    },
+    {
+      "text": "It can use waves called auras to gauge how others are feeling. These same waves can also tell this Pokémon about the state of the environment.",
+      "version": "shield"
+    },
+    {
+      "text": "Though infantile in appearance, it has the mysterious ability to read the minds of humans. The pure of heart are met with Riolu's approval, while those of ill nature earn only its loathing.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "riolu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "day"
+      },
+      "from": "riolu",
+      "to": "lucario",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "steadfast"
+        },
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "prankster"
+        }
+      ],
+      "artwork": "/dex-images/artwork/riolu.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "challengers-cave-b1f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 10,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 5,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 5,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "challengers-cave-b1f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 4,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "riolu",
+      "kind": "default",
+      "name": "Riolu",
+      "number": 447,
+      "pokemon": "riolu",
+      "sourceId": 447,
+      "sprite": "/dex-images/sprites/riolu.webp",
+      "statTotal": 285,
+      "stats": {
+        "attack": 70,
+        "defense": 40,
+        "hp": 40,
+        "special-attack": 35,
+        "special-defense": 40,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 202
+    }
+  ],
+  "generation": 4,
+  "key": "riolu",
+  "name": "Riolu",
+  "names": {
+    "de": "Riolu",
+    "en": "Riolu",
+    "es": "Riolu",
+    "es-419": "Riolu",
+    "fr": "Riolu",
+    "it": "Riolu",
+    "ja": "リオル",
+    "ja-hrkt": "リオル",
+    "ja-roma": "Riolu",
+    "ko": "리오르",
+    "zh-hans": "利欧路",
+    "zh-hant": "利歐路"
+  },
+  "number": 447
+}

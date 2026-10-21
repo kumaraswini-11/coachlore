@@ -1,0 +1,223 @@
+{
+  "category": "Grass Monkey Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+      "version": "black"
+    },
+    {
+      "text": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+      "version": "white"
+    },
+    {
+      "text": "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends.",
+      "version": "black-2"
+    },
+    {
+      "text": "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends.",
+      "version": "white-2"
+    },
+    {
+      "text": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+      "version": "x"
+    },
+    {
+      "text": "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends.",
+      "version": "y"
+    },
+    {
+      "text": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pansage",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "pansage",
+      "to": "simisage",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "overgrow"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pansage.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "dreamyard-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "grass-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "dreamyard-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "grass-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "legends-za"],
+      "gen9": false,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pansage",
+      "kind": "default",
+      "name": "Pansage",
+      "number": 511,
+      "pokemon": "pansage",
+      "sourceId": 511,
+      "sprite": "/dex-images/sprites/pansage.webp",
+      "statTotal": 316,
+      "stats": {
+        "attack": 53,
+        "defense": 48,
+        "hp": 50,
+        "special-attack": 53,
+        "special-defense": 48,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 105
+    }
+  ],
+  "generation": 5,
+  "key": "pansage",
+  "name": "Pansage",
+  "names": {
+    "de": "Vegimak",
+    "en": "Pansage",
+    "es": "Pansage",
+    "es-419": "Pansage",
+    "fr": "Feuillajou",
+    "it": "Pansage",
+    "ja": "ヤナップ",
+    "ja-hrkt": "ヤナップ",
+    "ja-roma": "Yanappu",
+    "ko": "야나프",
+    "zh-hans": "花椰猴",
+    "zh-hant": "花椰猴"
+  },
+  "number": 511
+}

@@ -1,0 +1,321 @@
+{
+  "category": "Megapede Pokémon",
+  "entries": [
+    {
+      "text": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+      "version": "black"
+    },
+    {
+      "text": "Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.",
+      "version": "white"
+    },
+    {
+      "text": "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+      "version": "black-2"
+    },
+    {
+      "text": "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+      "version": "white-2"
+    },
+    {
+      "text": "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+      "version": "x"
+    },
+    {
+      "text": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+      "version": "y"
+    },
+    {
+      "text": "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Scolipede latches on to its prey with the claws on its neck before slamming them into the ground and jabbing them with its claws’ toxic spikes.",
+      "version": "sword"
+    },
+    {
+      "text": "Scolipede engage in fierce territorial battles with Centiskorch. At the end of one of these battles, the victor makes a meal of the loser.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "venipede",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "venipede",
+      "to": "whirlipede",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "whirlipede",
+      "to": "scolipede",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": true,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scolipede.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 25,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "scolipede",
+      "kind": "default",
+      "name": "Scolipede",
+      "number": 545,
+      "pokemon": "scolipede",
+      "sourceId": 545,
+      "sprite": "/dex-images/sprites/scolipede.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 100,
+        "defense": 89,
+        "hp": 60,
+        "special-attack": 55,
+        "special-defense": 69,
+        "speed": 112
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 2005
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/scolipede-mega.webp",
+      "encounters": {},
+      "formName": "Mega Scolipede",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 32,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "scolipede-mega",
+      "kind": "mega",
+      "name": "Scolipede-Mega",
+      "number": 545,
+      "pokemon": "scolipede",
+      "sourceId": 10288,
+      "sprite": "/dex-images/sprites/scolipede-mega.webp",
+      "statTotal": 585,
+      "stats": {
+        "attack": 140,
+        "defense": 149,
+        "hp": 60,
+        "special-attack": 75,
+        "special-defense": 99,
+        "speed": 62
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 2305
+    }
+  ],
+  "generation": 5,
+  "key": "scolipede",
+  "name": "Scolipede",
+  "names": {
+    "de": "Cerapendra",
+    "en": "Scolipede",
+    "es": "Scolipede",
+    "es-419": "Scolipede",
+    "fr": "Brutapode",
+    "it": "Scolipede",
+    "ja": "ペンドラー",
+    "ja-hrkt": "ペンドラー",
+    "ja-roma": "Pendror",
+    "ko": "펜드라",
+    "zh-hans": "蜈蚣王",
+    "zh-hant": "蜈蚣王"
+  },
+  "number": 545
+}

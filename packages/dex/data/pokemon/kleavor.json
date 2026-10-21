@@ -1,0 +1,96 @@
+{
+  "category": "Axe Pokémon",
+  "entries": [
+    {
+      "text": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "scyther",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "metal-coat"
+      },
+      "from": "scyther",
+      "to": "scizor",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "item": "black-augurite"
+      },
+      "from": "scyther",
+      "to": "kleavor",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "sharpness"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kleavor.webp",
+      "encounters": {},
+      "games": ["legends-arceus", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kleavor",
+      "kind": "default",
+      "name": "Kleavor",
+      "number": 900,
+      "pokemon": "kleavor",
+      "sourceId": 900,
+      "sprite": "/dex-images/sprites/kleavor.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 135,
+        "defense": 95,
+        "hp": 70,
+        "special-attack": 45,
+        "special-defense": 70,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["bug", "rock"],
+      "weight": 890
+    }
+  ],
+  "generation": 8,
+  "key": "kleavor",
+  "name": "Kleavor",
+  "names": {
+    "de": "Axantor",
+    "en": "Kleavor",
+    "es": "Kleavor",
+    "es-419": "Kleavor",
+    "fr": "Hachécateur",
+    "it": "Kleavor",
+    "ja": "バサギリ",
+    "ja-hrkt": "バサギリ",
+    "ja-roma": "Basagiri",
+    "ko": "사마자르",
+    "zh-hans": "劈斧螳螂",
+    "zh-hant": "劈斧螳螂"
+  },
+  "number": 900
+}

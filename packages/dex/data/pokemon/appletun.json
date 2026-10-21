@@ -1,0 +1,263 @@
+{
+  "category": "Apple Nectar Pokémon",
+  "entries": [
+    {
+      "text": "Eating a sweet apple caused its evolution. A nectarous scent wafts from its body, luring in the bug Pokémon it preys on.",
+      "version": "sword"
+    },
+    {
+      "text": "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "applin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "tart-apple"
+      },
+      "from": "applin",
+      "to": "flapple",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sweet-apple"
+      },
+      "from": "applin",
+      "to": "appletun",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "syrupy-apple"
+      },
+      "from": "applin",
+      "to": "dipplin",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-cheer"
+      },
+      "from": "dipplin",
+      "to": "hydrapple",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "ripen"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/appletun.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 115,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "berry-trees",
+            "minLevel": 43
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "appletun",
+      "kind": "default",
+      "name": "Appletun",
+      "number": 842,
+      "pokemon": "appletun",
+      "sourceId": 842,
+      "sprite": "/dex-images/sprites/appletun.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 85,
+        "defense": 80,
+        "hp": 110,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 130
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "ripen"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/appletun-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 10,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 240,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "appletun-gmax",
+      "kind": "gigantamax",
+      "name": "Appletun-Gmax",
+      "number": 842,
+      "pokemon": "appletun",
+      "sourceId": 10217,
+      "sprite": "/dex-images/sprites/appletun-gmax.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 85,
+        "defense": 80,
+        "hp": 110,
+        "special-attack": 100,
+        "special-defense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass", "dragon"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "appletun",
+  "name": "Appletun",
+  "names": {
+    "de": "Schlapfel",
+    "en": "Appletun",
+    "es": "Appletun",
+    "es-419": "Appletun",
+    "fr": "Dratatin",
+    "it": "Appletun",
+    "ja": "タルップル",
+    "ja-hrkt": "タルップル",
+    "ja-roma": "Tarupple",
+    "ko": "단지래플",
+    "zh-hans": "丰蜜龙",
+    "zh-hant": "豐蜜龍"
+  },
+  "number": 842
+}

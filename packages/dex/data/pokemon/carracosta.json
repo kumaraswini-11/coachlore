@@ -1,0 +1,159 @@
+{
+  "category": "Prototurtle Pokémon",
+  "entries": [
+    {
+      "text": "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+      "version": "black"
+    },
+    {
+      "text": "Incredible jaw strength enables them to chew up steel beams and rocks along with their prey.",
+      "version": "white"
+    },
+    {
+      "text": "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+      "version": "black-2"
+    },
+    {
+      "text": "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+      "version": "white-2"
+    },
+    {
+      "text": "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+      "version": "x"
+    },
+    {
+      "text": "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+      "version": "y"
+    },
+    {
+      "text": "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It could knock out a foe with a slap from one of its developed front appendages and chew it up, shell or bones and all.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It constructed its sturdy shell by crunching and swallowing the hard shells or bones of its prey.",
+      "version": "sun"
+    },
+    {
+      "text": "Active both on land and in the sea, this Pokémon drags its land-based prey into the water to finish it off.",
+      "version": "moon"
+    },
+    {
+      "text": "Its jaws are terrifyingly powerful. It could eat Omastar and Omanyte whole and not be bothered in the slightest by their shells.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Carracosta eats every last bit of the prey it catches, even the shells and bones, to further strengthen its sturdy shell.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Carracosta completely devours its prey—bones, shells, and all. Because of this, Carracosta’s own shell grows thick and sturdy.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon emerges from the water in search of prey despite the fact that it moves more slowly on land.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tirtouga",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "tirtouga",
+      "to": "carracosta",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "solid-rock"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "swift-swim"
+        }
+      ],
+      "artwork": "/dex-images/artwork/carracosta.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 300,
+            "location": "frigid-sea-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 300,
+            "location": "frigid-sea-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "carracosta",
+      "kind": "default",
+      "name": "Carracosta",
+      "number": 565,
+      "pokemon": "carracosta",
+      "sourceId": 565,
+      "sprite": "/dex-images/sprites/carracosta.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 108,
+        "defense": 133,
+        "hp": 74,
+        "special-attack": 83,
+        "special-defense": 65,
+        "speed": 32
+      },
+      "tags": [],
+      "types": ["water", "rock"],
+      "weight": 810
+    }
+  ],
+  "generation": 5,
+  "key": "carracosta",
+  "name": "Carracosta",
+  "names": {
+    "de": "Karippas",
+    "en": "Carracosta",
+    "es": "Carracosta",
+    "es-419": "Carracosta",
+    "fr": "Mégapagos",
+    "it": "Carracosta",
+    "ja": "アバゴーラ",
+    "ja-hrkt": "アバゴーラ",
+    "ja-roma": "Abagoura",
+    "ko": "늑골라",
+    "zh-hans": "肋骨海龟",
+    "zh-hant": "肋骨海龜"
+  },
+  "number": 565
+}

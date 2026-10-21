@@ -1,0 +1,112 @@
+{
+  "category": "Fire Cat Pokémon",
+  "entries": [
+    {
+      "text": "At its throat, it bears a bell of fire. The bell rings brightly whenever this Pokémon spits fire.",
+      "version": "sun"
+    },
+    {
+      "text": "It boasts powerful front legs. With a single punch, it can bend an iron bar right over.",
+      "version": "moon"
+    },
+    {
+      "text": "It can act spoiled if it grows close to its Trainer. A powerful Pokémon, its sharp claws can leave its Trainer’s whole body covered in scratches.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When its mane is standing on end, you can tell it’s feeling good. When it isn’t feeling well, its fur will lie down flat.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "In the midst of battle, the fire pouch on Torracat’s neck rings like a bell and produces stronger flames than usual.",
+      "version": "sword"
+    },
+    {
+      "text": "When facing a powerful enemy, Torracat’s fighting spirit gets pumped up, and its fire bell blazes hotter.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litten",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "litten",
+      "to": "torracat",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "torracat",
+      "to": "incineroar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/torracat.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "torracat",
+      "kind": "default",
+      "name": "Torracat",
+      "number": 726,
+      "pokemon": "torracat",
+      "sourceId": 726,
+      "sprite": "/dex-images/sprites/torracat.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 85,
+        "defense": 50,
+        "hp": 65,
+        "special-attack": 80,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 250
+    }
+  ],
+  "generation": 7,
+  "key": "torracat",
+  "name": "Torracat",
+  "names": {
+    "de": "Miezunder",
+    "en": "Torracat",
+    "es": "Torracat",
+    "es-419": "Torracat",
+    "fr": "Matoufeu",
+    "it": "Torracat",
+    "ja": "ニャヒート",
+    "ja-hrkt": "ニャヒート",
+    "ja-roma": "Nyaheat",
+    "ko": "냐오히트",
+    "zh-hans": "炎热喵",
+    "zh-hant": "炎熱喵"
+  },
+  "number": 726
+}

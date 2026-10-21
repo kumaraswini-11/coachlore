@@ -1,0 +1,112 @@
+{
+  "category": "Soloist Pokémon",
+  "entries": [
+    {
+      "text": "It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.",
+      "version": "sun"
+    },
+    {
+      "text": "Its singing voice is its chief weapon in battle. This Pokémon’s Trainer must prioritize the daily maintenance of its throat at all costs.",
+      "version": "moon"
+    },
+    {
+      "text": "To Primarina, every battle is a stage. It takes down its prey with beautiful singing and dancing.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Also known as a songstress, it has a fantastical look on moonlit nights when it leads its colony in song.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "With its mouth, it makes sonic waves that sound like beautiful singing. It uses the sonic waves to control its water balloons.",
+      "version": "sword"
+    },
+    {
+      "text": "For Primarina, every battle’s a stage. Its singing and the dancing of its balloons will mesmerize the audience.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "popplio",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "popplio",
+      "to": "brionne",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "brionne",
+      "to": "primarina",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "liquid-voice"
+        }
+      ],
+      "artwork": "/dex-images/artwork/primarina.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "primarina",
+      "kind": "default",
+      "name": "Primarina",
+      "number": 730,
+      "pokemon": "primarina",
+      "sourceId": 730,
+      "sprite": "/dex-images/sprites/primarina.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 74,
+        "defense": 74,
+        "hp": 80,
+        "special-attack": 126,
+        "special-defense": 116,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["water", "fairy"],
+      "weight": 440
+    }
+  ],
+  "generation": 7,
+  "key": "primarina",
+  "name": "Primarina",
+  "names": {
+    "de": "Primarene",
+    "en": "Primarina",
+    "es": "Primarina",
+    "es-419": "Primarina",
+    "fr": "Oratoria",
+    "it": "Primarina",
+    "ja": "アシレーヌ",
+    "ja-hrkt": "アシレーヌ",
+    "ja-roma": "Ashirene",
+    "ko": "누리레느",
+    "zh-hans": "西狮海壬",
+    "zh-hant": "西獅海壬"
+  },
+  "number": 730
+}

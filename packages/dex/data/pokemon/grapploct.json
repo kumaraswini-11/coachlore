@@ -1,0 +1,269 @@
+{
+  "category": "Jujitsu Pokémon",
+  "entries": [
+    {
+      "text": "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+      "version": "sword"
+    },
+    {
+      "text": "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "clobbopus",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "taunt"
+      },
+      "from": "clobbopus",
+      "to": "grapploct",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "limber"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grapploct.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 25,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 50,
+            "method": "wanderer-water",
+            "minLevel": 50
+          },
+          {
+            "chance": 1800,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 25,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 25,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1400,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 56
+          }
+        ],
+        "sword": [
+          {
+            "chance": 25,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 50,
+            "method": "wanderer-water",
+            "minLevel": 50
+          },
+          {
+            "chance": 1800,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 25,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 25,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1400,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 56
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 85,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1000,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1000,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 8,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "grapploct",
+      "kind": "default",
+      "name": "Grapploct",
+      "number": 853,
+      "pokemon": "grapploct",
+      "sourceId": 853,
+      "sprite": "/dex-images/sprites/grapploct.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 118,
+        "defense": 90,
+        "hp": 80,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 42
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 390
+    }
+  ],
+  "generation": 8,
+  "key": "grapploct",
+  "name": "Grapploct",
+  "names": {
+    "de": "Kaocto",
+    "en": "Grapploct",
+    "es": "Grapploct",
+    "es-419": "Grapploct",
+    "fr": "Krakos",
+    "it": "Grapploct",
+    "ja": "オトスパス",
+    "ja-hrkt": "オトスパス",
+    "ja-roma": "Otosupus",
+    "ko": "케오퍼스",
+    "zh-hans": "八爪武师",
+    "zh-hant": "八爪武師"
+  },
+  "number": 853
+}

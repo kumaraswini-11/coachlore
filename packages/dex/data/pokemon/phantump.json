@@ -1,0 +1,493 @@
+{
+  "category": "Stump Pokémon",
+  "entries": [
+    {
+      "text": "These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
+      "version": "x"
+    },
+    {
+      "text": "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+      "version": "y"
+    },
+    {
+      "text": "These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "These Pokémon are stumps possessed by the spirits of children who died in the forest. Their cries sound like eerie screams.",
+      "version": "sun"
+    },
+    {
+      "text": "According to legend, medicine to cure any illness can be made by plucking the green leaves on its head, brewing them, and boiling down the liquid.",
+      "version": "moon"
+    },
+    {
+      "text": "By imitating the voice of a child, it causes people to get hopelessly lost deep in the forest. It’s trying to make friends with them.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "An unknown spirit came to lodge in a tree stump, creating this Pokémon. A cure-all can be made from an infusion of its green leaves.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "After a lost child perished in the forest, their spirit possessed a tree stump, causing the spirit’s rebirth as this Pokémon.",
+      "version": "sword"
+    },
+    {
+      "text": "With a voice like a human child’s, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "phantump",
+      "trigger": null
+    },
+    {
+      "conditions": {},
+      "from": "phantump",
+      "to": "trevenant",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "harvest"
+        }
+      ],
+      "artwork": "/dex-images/artwork/phantump.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 30,
+            "location": "memorial-hill-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "memorial-hill-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 33,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 33,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 33,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 33,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "memorial-hill-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "npc-trade",
+            "minLevel": 33
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "memorial-hill-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "npc-trade",
+            "minLevel": 33
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "rough-terrain",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "yellow-flowers",
+            "minLevel": 35
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "rough-terrain",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "yellow-flowers",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "phantump",
+      "kind": "default",
+      "name": "Phantump",
+      "number": 708,
+      "pokemon": "phantump",
+      "sourceId": 708,
+      "sprite": "/dex-images/sprites/phantump.webp",
+      "statTotal": 309,
+      "stats": {
+        "attack": 70,
+        "defense": 48,
+        "hp": 43,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 38
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 70
+    }
+  ],
+  "generation": 6,
+  "key": "phantump",
+  "name": "Phantump",
+  "names": {
+    "de": "Paragoni",
+    "en": "Phantump",
+    "es": "Phantump",
+    "es-419": "Phantump",
+    "fr": "Brocélôme",
+    "it": "Phantump",
+    "ja": "ボクレー",
+    "ja-hrkt": "ボクレー",
+    "ja-roma": "Bokurei",
+    "ko": "나목령",
+    "zh-hans": "小木灵",
+    "zh-hant": "小木靈"
+  },
+  "number": 708
+}

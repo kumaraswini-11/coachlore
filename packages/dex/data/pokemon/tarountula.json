@@ -1,0 +1,88 @@
+{
+  "category": "String Ball Pokémon",
+  "entries": [
+    {
+      "text": "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The thread it secretes from its rear is as strong as wire. The secret behind the thread’s strength is the topic of ongoing research.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tarountula",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "tarountula",
+      "to": "spidops",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": true,
+          "key": "stakeout"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tarountula.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tarountula",
+      "kind": "default",
+      "name": "Tarountula",
+      "number": 917,
+      "pokemon": "tarountula",
+      "sourceId": 917,
+      "sprite": "/dex-images/sprites/tarountula.webp",
+      "statTotal": 210,
+      "stats": {
+        "attack": 41,
+        "defense": 45,
+        "hp": 35,
+        "special-attack": 29,
+        "special-defense": 40,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 40
+    }
+  ],
+  "generation": 9,
+  "key": "tarountula",
+  "name": "Tarountula",
+  "names": {
+    "de": "Tarundel",
+    "en": "Tarountula",
+    "es": "Tarountula",
+    "es-419": "Tarountula",
+    "fr": "Tissenboule",
+    "it": "Tarountula",
+    "ja": "タマンチュラ",
+    "ja-hrkt": "タマンチュラ",
+    "ja-roma": "Tamantula",
+    "ko": "타랜툴라",
+    "zh-hans": "团珠蛛",
+    "zh-hant": "團珠蛛"
+  },
+  "number": 917
+}

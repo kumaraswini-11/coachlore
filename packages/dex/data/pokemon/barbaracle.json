@@ -1,0 +1,431 @@
+{
+  "category": "Collective Pokémon",
+  "entries": [
+    {
+      "text": "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+      "version": "x"
+    },
+    {
+      "text": "Barbaracle’s legs and hands have minds of their own, and they will move independently. But they usually follow the head’s orders.",
+      "version": "y"
+    },
+    {
+      "text": "When they evolve, two Binacle multiply into seven. They fight with the power of seven Binacle.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Barbaracle’s legs and hands have minds of their own, and they will move independently. But they usually follow the head’s orders.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Seven Binacle come together to form one Barbaracle. The Binacle that serves as the head gives orders to those serving as the limbs.",
+      "version": "sword"
+    },
+    {
+      "text": "Having an eye on each palm allows it to keep watch in all directions. In a pinch, its limbs start to act on their own to ensure the enemy’s defeat.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "binacle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39
+      },
+      "from": "binacle",
+      "to": "barbaracle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        },
+        {
+          "hidden": false,
+          "key": "sniper"
+        },
+        {
+          "hidden": true,
+          "key": "pickpocket"
+        }
+      ],
+      "artwork": "/dex-images/artwork/barbaracle.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 360,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 360,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 360,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 360,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "workout-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "workout-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-waterfall",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-waterfall",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "barbaracle",
+      "kind": "default",
+      "name": "Barbaracle",
+      "number": 689,
+      "pokemon": "barbaracle",
+      "sourceId": 689,
+      "sprite": "/dex-images/sprites/barbaracle.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 105,
+        "defense": 115,
+        "hp": 72,
+        "special-attack": 54,
+        "special-defense": 86,
+        "speed": 68
+      },
+      "tags": [],
+      "types": ["rock", "water"],
+      "weight": 960
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        }
+      ],
+      "artwork": "/dex-images/artwork/barbaracle-mega.webp",
+      "encounters": {},
+      "formName": "Mega Barbaracle",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 22,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "barbaracle-mega",
+      "kind": "mega",
+      "name": "Barbaracle-Mega",
+      "number": 689,
+      "pokemon": "barbaracle",
+      "sourceId": 10298,
+      "sprite": "/dex-images/sprites/barbaracle-mega.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 140,
+        "defense": 130,
+        "hp": 72,
+        "special-attack": 64,
+        "special-defense": 106,
+        "speed": 88
+      },
+      "tags": [],
+      "types": ["rock", "fighting"],
+      "weight": 1000
+    }
+  ],
+  "generation": 6,
+  "key": "barbaracle",
+  "name": "Barbaracle",
+  "names": {
+    "de": "Thanathora",
+    "en": "Barbaracle",
+    "es": "Barbaracle",
+    "es-419": "Barbaracle",
+    "fr": "Golgopathe",
+    "it": "Barbaracle",
+    "ja": "ガメノデス",
+    "ja-hrkt": "ガメノデス",
+    "ja-roma": "Gamenodes",
+    "ko": "거북손데스",
+    "zh-hans": "龟足巨铠",
+    "zh-hant": "龜足巨鎧"
+  },
+  "number": 689
+}

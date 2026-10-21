@@ -1,0 +1,774 @@
+{
+  "category": "Iron Snake Pokémon",
+  "entries": [
+    {
+      "text": "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
+      "version": "gold"
+    },
+    {
+      "text": "It is said that if an ONIX lives for over 100 years, its composition changes to become diamond-like.",
+      "version": "silver"
+    },
+    {
+      "text": "The many small metal particles that cover this POKéMON's body reflect bright light well.",
+      "version": "crystal"
+    },
+    {
+      "text": "STEELIX lives even further underground than ONIX. This POKéMON is known to dig towards the earth’s core. There are records of this POKéMON reaching a depth of over six-tenths of a mile underground.",
+      "version": "ruby"
+    },
+    {
+      "text": "STEELIX lives even further underground than ONIX. This POKéMON is known to dig towards the earth’s core. There are records of this POKéMON reaching a depth of over six-tenths of a mile underground.",
+      "version": "sapphire"
+    },
+    {
+      "text": "STEELIX live even further underground than ONIX. This POKéMON is known to dig toward the earth’s core, reaching a depth of over six-tenths of a mile underground.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is said that if an ONIX lives for over 100 years, its composition changes to become diamond-like.",
+      "version": "firered"
+    },
+    {
+      "text": "Its body has been compressed deep under the ground. As a result, it is even harder than diamond.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Tempered underground under high pressure and heat, its body is harder than any metal.",
+      "version": "diamond"
+    },
+    {
+      "text": "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its body has been compressed deep under the ground. As a result, it is even harder than a diamond.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It’s said that if an ONIX lives for 100 years, its composition becomes diamondlike as it evolves into a STEELIX.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+      "version": "black"
+    },
+    {
+      "text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+      "version": "white"
+    },
+    {
+      "text": "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
+      "version": "black-2"
+    },
+    {
+      "text": "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
+      "version": "white-2"
+    },
+    {
+      "text": "Tempered underground under high pressure and heat, its body is harder than any metal.",
+      "version": "x"
+    },
+    {
+      "text": "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground.",
+      "version": "y"
+    },
+    {
+      "text": "Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth’s core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth’s core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It is said that if an Onix lives for over 100 years, its composition changes to become diamond-like.",
+      "version": "sword"
+    },
+    {
+      "text": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+      "version": "shield"
+    },
+    {
+      "text": "This Pokémon evolved through use of a strange item. Its body is coated with steel powder and notably hard—not even diamond can leave so much as a scratch.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "onix",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "metal-coat"
+      },
+      "from": "onix",
+      "to": "steelix",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/steelix.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "clay-tunnel-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "glacier-room-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "iron-room-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "underground-ruins-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "iron-island-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 15,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 15,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 20,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 2,
+            "location": "johto-route-47-inside-cave",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-gym",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 1
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "iron-island-b3f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 15,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 15,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 20,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "iron-island-b2f-left",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "iron-island-b2f-right",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "iron-island-b3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "shield": [
+          {
+            "chance": 30,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1800,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 1800,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 135,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 135,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 65,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 2,
+            "location": "johto-route-47-inside-cave",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-gym",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 1
+          }
+        ],
+        "sword": [
+          {
+            "chance": 30,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 1800,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 1800,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 75,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 125,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "clay-tunnel-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "glacier-room-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "iron-room-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "underground-ruins-area",
+            "maxLevel": 57,
+            "method": "cave-spots",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 2,
+      "height": 92,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "steelix",
+      "kind": "default",
+      "name": "Steelix",
+      "number": 208,
+      "pokemon": "steelix",
+      "sourceId": 208,
+      "sprite": "/dex-images/sprites/steelix.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 85,
+        "defense": 200,
+        "hp": 75,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["steel", "ground"],
+      "weight": 4000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/steelix-mega.webp",
+      "encounters": {},
+      "formName": "Mega Steelix",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 105,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "steelix-mega",
+      "kind": "mega",
+      "name": "Steelix-Mega",
+      "number": 208,
+      "pokemon": "steelix",
+      "sourceId": 10072,
+      "sprite": "/dex-images/sprites/steelix-mega.webp",
+      "statTotal": 610,
+      "stats": {
+        "attack": 125,
+        "defense": 230,
+        "hp": 75,
+        "special-attack": 55,
+        "special-defense": 95,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["steel", "ground"],
+      "weight": 7400
+    }
+  ],
+  "generation": 2,
+  "key": "steelix",
+  "name": "Steelix",
+  "names": {
+    "de": "Stahlos",
+    "en": "Steelix",
+    "es": "Steelix",
+    "es-419": "Steelix",
+    "fr": "Steelix",
+    "it": "Steelix",
+    "ja": "ハガネール",
+    "ja-hrkt": "ハガネール",
+    "ja-roma": "Haganeil",
+    "ko": "강철톤",
+    "zh-hans": "大钢蛇",
+    "zh-hant": "大鋼蛇"
+  },
+  "number": 208
+}

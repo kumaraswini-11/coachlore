@@ -1,0 +1,704 @@
+{
+  "category": "Patient Pokémon",
+  "entries": [
+    {
+      "text": "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
+      "version": "gold"
+    },
+    {
+      "text": "To keep its pitch- black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "version": "silver"
+    },
+    {
+      "text": "In order to conceal its black tail, it lives in a dark cave and only moves about at night.",
+      "version": "crystal"
+    },
+    {
+      "text": "If two or more WOBBUFFET meet, they will turn competitive and try to outdo each other’s endurance. However, they may try to see which one can endure the longest without food. TRAINERS need to beware of this habit.",
+      "version": "ruby"
+    },
+    {
+      "text": "WOBBUFFET does nothing but endure attacks - it won’t attack on its own. However, it won’t endure an attack on its tail. When that happens, the POKéMON will try to take the foe with it using DESTINY BOND.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Usually docile, a WOBBUFFET strikes back ferociously if its black tail is attacked. It makes its lair in caves where it waits for nightfall.",
+      "version": "emerald"
+    },
+    {
+      "text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "version": "firered"
+    },
+    {
+      "text": "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "diamond"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "pearl"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "platinum"
+    },
+    {
+      "text": "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+      "version": "heartgold"
+    },
+    {
+      "text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "black"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "white"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "black-2"
+    },
+    {
+      "text": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+      "version": "white-2"
+    },
+    {
+      "text": "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+      "version": "x"
+    },
+    {
+      "text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "version": "y"
+    },
+    {
+      "text": "If two or more Wobbuffet meet, they will turn competitive and try to outdo each other’s endurance. However, they may try to see which one can endure the longest without food. Trainers need to beware of this habit.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Wobbuffet does nothing but endure attacks—it won’t attack on its own. However, it won’t endure an attack on its tail. When that happens, the Pokémon will try to take the foe with it using Destiny Bond.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It hates light and shock. If attacked, it inflates its body to pump up its counterstrike.",
+      "version": "sword"
+    },
+    {
+      "text": "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "wynaut",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "wynaut",
+      "to": "wobbuffet",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shadow-tag"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/wobbuffet.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 15,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "goldenrod-city-game-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 22,
+            "location": "lake-valor-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 22,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 22,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "firered": [
+          {
+            "chance": 4,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 1,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 61
+          },
+          {
+            "chance": 5,
+            "location": "ruin-valley-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "gold": [
+          {
+            "chance": 15,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 15,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 4,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 1,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 61
+          },
+          {
+            "chance": 5,
+            "location": "ruin-valley-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 22,
+            "location": "lake-valor-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 22,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 22,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "lake-valor-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 22,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 22,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 110,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 110,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 320,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 25,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 25,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 25,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "silver": [
+          {
+            "chance": 15,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 15,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 110,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 110,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 320,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 25,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 25,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "sword-shield"],
+      "gen9": false,
+      "generation": 2,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "wobbuffet",
+      "kind": "default",
+      "name": "Wobbuffet",
+      "number": 202,
+      "pokemon": "wobbuffet",
+      "sourceId": 202,
+      "sprite": "/dex-images/sprites/wobbuffet.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 33,
+        "defense": 58,
+        "hp": 190,
+        "special-attack": 33,
+        "special-defense": 58,
+        "speed": 33
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 285
+    }
+  ],
+  "generation": 2,
+  "key": "wobbuffet",
+  "name": "Wobbuffet",
+  "names": {
+    "de": "Woingenau",
+    "en": "Wobbuffet",
+    "es": "Wobbuffet",
+    "es-419": "Wobbuffet",
+    "fr": "Qulbutoké",
+    "it": "Wobbuffet",
+    "ja": "ソーナンス",
+    "ja-hrkt": "ソーナンス",
+    "ja-roma": "Sonans",
+    "ko": "마자용",
+    "zh-hans": "果然翁",
+    "zh-hant": "果然翁"
+  },
+  "number": 202
+}

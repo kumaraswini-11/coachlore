@@ -1,0 +1,621 @@
+{
+  "category": "Sea Cucumber Pokémon",
+  "entries": [
+    {
+      "text": "It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.",
+      "version": "sun"
+    },
+    {
+      "text": "These Pokémon line the beaches. The sticky mucous that covers their bodies can be used to soothe sunburned skin. How convenient!",
+      "version": "moon"
+    },
+    {
+      "text": "The tradition known as Pyukumuku chucking started from the custom of throwing Pyukumuku back into the sea after they wash onshore.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its entire body is covered in its own slime. If you accidentally step on one, you’ll slip, and it will get mad and smack you!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It lives in warm, shallow waters. If it encounters a foe, it will spit out its internal organs as a means to punch them.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s covered in a slime that keeps its skin moist, allowing it to stay on land for days without drying up.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pyukumuku",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "innards-out"
+        },
+        {
+          "hidden": true,
+          "key": "unaware"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pyukumuku.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 21
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 8,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "shield": [
+          {
+            "chance": 55,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-9-main",
+            "maxLevel": 42,
+            "method": "bubbling-spots",
+            "minLevel": 38
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-9-main",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 55,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 11
+          },
+          {
+            "chance": 6,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 115,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 21
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 8,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "sword": [
+          {
+            "chance": 55,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-9-main",
+            "maxLevel": 42,
+            "method": "bubbling-spots",
+            "minLevel": 38
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-9-main",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 55,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 6,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 11
+          },
+          {
+            "chance": 6,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 115,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 40,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 40,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "sos",
+            "minLevel": 22
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 22
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 8,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "sos",
+            "minLevel": 22
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 22
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 8,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pyukumuku",
+      "kind": "default",
+      "name": "Pyukumuku",
+      "number": 771,
+      "pokemon": "pyukumuku",
+      "sourceId": 771,
+      "sprite": "/dex-images/sprites/pyukumuku.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 60,
+        "defense": 130,
+        "hp": 55,
+        "special-attack": 30,
+        "special-defense": 130,
+        "speed": 5
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 12
+    }
+  ],
+  "generation": 7,
+  "key": "pyukumuku",
+  "name": "Pyukumuku",
+  "names": {
+    "de": "Gufa",
+    "en": "Pyukumuku",
+    "es": "Pyukumuku",
+    "es-419": "Pyukumuku",
+    "fr": "Concombaffe",
+    "it": "Pyukumuku",
+    "ja": "ナマコブシ",
+    "ja-hrkt": "ナマコブシ",
+    "ja-roma": "Namakobushi",
+    "ko": "해무기",
+    "zh-hans": "拳海参",
+    "zh-hant": "拳海參"
+  },
+  "number": 771
+}

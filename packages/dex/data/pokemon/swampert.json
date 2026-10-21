@@ -1,0 +1,215 @@
+{
+  "category": "Mud Fish Pokémon",
+  "entries": [
+    {
+      "text": "SWAMPERT is very strong. It has enough power to easily drag a boulder weighing more than a ton. This POKéMON also has powerful vision that lets it see even in murky water.",
+      "version": "ruby"
+    },
+    {
+      "text": "SWAMPERT predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins. If a storm is approaching, it piles up boulders to protect itself.",
+      "version": "sapphire"
+    },
+    {
+      "text": "If it senses the approach of a storm and a tidal wave, it protects its seaside nest by piling up boulders. It swims as fast as a jet ski.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its arms are rock-hard. With one swing, they can batter down its foe. It makes its nest on beautiful beaches.",
+      "version": "firered"
+    },
+    {
+      "text": "Its arms are rock-hard. With one swing, they can batter down its foe. It makes its nest on beautiful beaches.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "diamond"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its arms are hard as rock. With one swing, it can break a boulder into pieces.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its arms are hard as rock. With one swing, it can break a boulder into pieces.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "black"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "white"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "black-2"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its arms are hard as rock. With one swing, it can break a boulder into pieces.",
+      "version": "x"
+    },
+    {
+      "text": "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+      "version": "y"
+    },
+    {
+      "text": "Swampert is very strong. It has enough power to easily drag a boulder weighing more than a ton. This Pokémon also has powerful vision that lets it see even in murky water.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Swampert predicts storms by sensing subtle differences in the sounds of waves and tidal winds with its fins. If a storm is approaching, it piles up boulders to protect itself.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mudkip",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "mudkip",
+      "to": "marshtomp",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "marshtomp",
+      "to": "swampert",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/swampert.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "swampert",
+      "kind": "default",
+      "name": "Swampert",
+      "number": 260,
+      "pokemon": "swampert",
+      "sourceId": 260,
+      "sprite": "/dex-images/sprites/swampert.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 110,
+        "defense": 90,
+        "hp": 100,
+        "special-attack": 85,
+        "special-defense": 90,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["water", "ground"],
+      "weight": 819
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        }
+      ],
+      "artwork": "/dex-images/artwork/swampert-mega.webp",
+      "encounters": {},
+      "formName": "Mega Swampert",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 19,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "swampert-mega",
+      "kind": "mega",
+      "name": "Swampert-Mega",
+      "number": 260,
+      "pokemon": "swampert",
+      "sourceId": 10064,
+      "sprite": "/dex-images/sprites/swampert-mega.webp",
+      "statTotal": 635,
+      "stats": {
+        "attack": 150,
+        "defense": 110,
+        "hp": 100,
+        "special-attack": 95,
+        "special-defense": 110,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["water", "ground"],
+      "weight": 1020
+    }
+  ],
+  "generation": 3,
+  "key": "swampert",
+  "name": "Swampert",
+  "names": {
+    "de": "Sumpex",
+    "en": "Swampert",
+    "es": "Swampert",
+    "es-419": "Swampert",
+    "fr": "Laggron",
+    "it": "Swampert",
+    "ja": "ラグラージ",
+    "ja-hrkt": "ラグラージ",
+    "ja-roma": "Laglarge",
+    "ko": "대짱이",
+    "zh-hans": "巨沼怪",
+    "zh-hant": "巨沼怪"
+  },
+  "number": 260
+}

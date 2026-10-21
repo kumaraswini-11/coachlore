@@ -1,0 +1,340 @@
+{
+  "category": "Long Nose Pokémon",
+  "entries": [
+    {
+      "text": "It swings its long snout around playfully, but because it is so strong, that can be dangerous.",
+      "version": "gold"
+    },
+    {
+      "text": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+      "version": "silver"
+    },
+    {
+      "text": "During the deserted morning hours, it comes ashore where it deftly uses its trunk to take a shower.",
+      "version": "crystal"
+    },
+    {
+      "text": "For its nest, PHANPY digs a vertical pit in the ground at the edge of a river. It marks the area around its nest with its trunk to let the others know that the area has been claimed.",
+      "version": "ruby"
+    },
+    {
+      "text": "PHANPY uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These POKéMON can be seen drying their soaking-wet bodies at the edge of water.",
+      "version": "sapphire"
+    },
+    {
+      "text": "PHANPY’s big ears serve as broad fans. When it becomes hot, it flaps the ears busily to cool down. Even the young are very strong.",
+      "version": "emerald"
+    },
+    {
+      "text": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+      "version": "firered"
+    },
+    {
+      "text": "It swings its long snout around playfully, but because it is so strong, this can be dangerous.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "platinum"
+    },
+    {
+      "text": "It swings its long snout around playfully, but because it is so strong, that can be dangerous.",
+      "version": "heartgold"
+    },
+    {
+      "text": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "black"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "white"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "white-2"
+    },
+    {
+      "text": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+      "version": "x"
+    },
+    {
+      "text": "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+      "version": "y"
+    },
+    {
+      "text": "For its nest, Phanpy digs a vertical pit in the ground at the edge of a river. It marks the area around its nest with its trunk to let the others know that the area has been claimed.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Phanpy uses its long nose to shower itself. When others gather around, they thoroughly douse each other with water. These Pokémon can be seen drying their soaking-wet bodies at the edge of water.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "phanpy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "phanpy",
+      "to": "donphan",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": true,
+          "key": "sand-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/phanpy.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "johto-route-45-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "johto-route-46-area",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "firered": [
+          {
+            "chance": 15,
+            "location": "canyon-entrance-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "sevault-canyon-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-3f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 15,
+            "location": "canyon-entrance-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "sevault-canyon-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 35,
+            "location": "pokespot-oasis",
+            "maxLevel": 20,
+            "method": "pokespot",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "heartgold-soulsilver", "omega-ruby-alpha-sapphire", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "phanpy",
+      "kind": "default",
+      "name": "Phanpy",
+      "number": 231,
+      "pokemon": "phanpy",
+      "sourceId": 231,
+      "sprite": "/dex-images/sprites/phanpy.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 60,
+        "defense": 60,
+        "hp": 90,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 335
+    }
+  ],
+  "generation": 2,
+  "key": "phanpy",
+  "name": "Phanpy",
+  "names": {
+    "de": "Phanpy",
+    "en": "Phanpy",
+    "es": "Phanpy",
+    "es-419": "Phanpy",
+    "fr": "Phanpy",
+    "it": "Phanpy",
+    "ja": "ゴマゾウ",
+    "ja-hrkt": "ゴマゾウ",
+    "ja-roma": "Gomazou",
+    "ko": "코코리",
+    "zh-hans": "小小象",
+    "zh-hant": "小小象"
+  },
+  "number": 231
+}

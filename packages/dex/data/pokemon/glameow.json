@@ -1,0 +1,175 @@
+{
+  "category": "Catty Pokémon",
+  "entries": [
+    {
+      "text": "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+      "version": "diamond"
+    },
+    {
+      "text": "With its sharp glare, it puts foes in a mild hypnotic state. It is a very fickle Pokémon.",
+      "version": "pearl"
+    },
+    {
+      "text": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn’t fed.",
+      "version": "platinum"
+    },
+    {
+      "text": "When it’s happy, GLAMEOW demonstrates beautiful movements of its tail, like a dancing ribbon.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When it’s happy, GLAMEOW demonstrates beautiful movements of its tail, like a dancing ribbon.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn’t fed.",
+      "version": "black"
+    },
+    {
+      "text": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn’t fed.",
+      "version": "white"
+    },
+    {
+      "text": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn’t fed.",
+      "version": "black-2"
+    },
+    {
+      "text": "It hides its spiteful tendency of hooking its claws into the nose of its Trainer if it isn’t fed.",
+      "version": "white-2"
+    },
+    {
+      "text": "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+      "version": "x"
+    },
+    {
+      "text": "When it’s happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+      "version": "y"
+    },
+    {
+      "text": "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it’s happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Bewitches humans with its helical tail and piercing gaze. Its hidden claws are quite sharp as well, making this Pokémon an exceedingly tricky opponent if antagonized.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "glameow",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "glameow",
+      "to": "purugly",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "limber"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "keen-eye"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glameow.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "glameow",
+      "kind": "default",
+      "name": "Glameow",
+      "number": 431,
+      "pokemon": "glameow",
+      "sourceId": 431,
+      "sprite": "/dex-images/sprites/glameow.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 55,
+        "defense": 42,
+        "hp": 49,
+        "special-attack": 42,
+        "special-defense": 37,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 39
+    }
+  ],
+  "generation": 4,
+  "key": "glameow",
+  "name": "Glameow",
+  "names": {
+    "de": "Charmian",
+    "en": "Glameow",
+    "es": "Glameow",
+    "es-419": "Glameow",
+    "fr": "Chaglam",
+    "it": "Glameow",
+    "ja": "ニャルマー",
+    "ja-hrkt": "ニャルマー",
+    "ja-roma": "Nyarmar",
+    "ko": "나옹마",
+    "zh-hans": "魅力喵",
+    "zh-hant": "魅力喵"
+  },
+  "number": 431
+}

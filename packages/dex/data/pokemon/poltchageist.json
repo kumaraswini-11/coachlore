@@ -1,0 +1,101 @@
+{
+  "category": "Matcha Pokémon",
+  "entries": [
+    {
+      "text": "Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pokémon are entirely unrelated.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poltchageist",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sinistcha-unremarkable",
+        "item": "unremarkable-teacup",
+        "required_pokemon_form": "poltchageist-counterfeit"
+      },
+      "from": "poltchageist",
+      "to": "sinistcha",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sinistcha-masterpiece",
+        "item": "masterpiece-teacup",
+        "required_pokemon_form": "poltchageist-artisan"
+      },
+      "from": "poltchageist",
+      "to": "sinistcha",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hospitality"
+        },
+        {
+          "hidden": true,
+          "key": "heatproof"
+        }
+      ],
+      "artwork": "/dex-images/artwork/poltchageist.webp",
+      "encounters": {},
+      "formName": "Counterfeit Form",
+      "games": ["scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 9,
+      "height": 1,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "poltchageist",
+      "kind": "default",
+      "name": "Poltchageist",
+      "number": 1012,
+      "pokemon": "poltchageist",
+      "sourceId": 1012,
+      "sprite": "/dex-images/sprites/poltchageist.webp",
+      "statTotal": 308,
+      "stats": {
+        "attack": 45,
+        "defense": 45,
+        "hp": 40,
+        "special-attack": 74,
+        "special-defense": 54,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["grass", "ghost"],
+      "weight": 11
+    }
+  ],
+  "generation": 9,
+  "key": "poltchageist",
+  "name": "Poltchageist",
+  "names": {
+    "de": "Mortcha",
+    "en": "Poltchageist",
+    "es": "Poltchageist",
+    "es-419": "Poltchageist",
+    "fr": "Poltchageist",
+    "it": "Poltchageist",
+    "ja": "チャデス",
+    "ja-hrkt": "チャデス",
+    "ja-roma": "Chadeath",
+    "ko": "차데스",
+    "zh-hans": "斯魔茶",
+    "zh-hant": "斯魔茶"
+  },
+  "number": 1012
+}

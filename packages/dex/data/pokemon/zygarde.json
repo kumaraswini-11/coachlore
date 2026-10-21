@@ -1,0 +1,393 @@
+{
+  "category": "Order Pokémon",
+  "entries": [
+    {
+      "text": "When the Kalos region’s ecosystem falls into disarray, it appears and reveals its secret power.",
+      "version": "x"
+    },
+    {
+      "text": "It’s hypothesized that it’s monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+      "version": "y"
+    },
+    {
+      "text": "When the Kalos region’s ecosystem falls into disarray, it appears and reveals its secret power.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It’s hypothesized that it’s monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This is Zygarde’s form when it has gathered 50% of its cells. It wipes out all those who oppose it, showing not a shred of mercy.",
+      "version": "sun"
+    },
+    {
+      "text": "It’s thought to be monitoring the ecosystem. There are rumors that even greater power lies hidden within it.",
+      "version": "moon"
+    },
+    {
+      "text": "This is Zygarde’s form when about half of its pieces have been assembled. It plays the role of monitoring the ecosystem.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Some say it can change to an even more powerful form when battling those who threaten the ecosystem.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "zygarde",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aura-break"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zygarde-50.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 200,
+            "location": "alola-route-16-main",
+            "maxLevel": 50,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "sun": [
+          {
+            "chance": 200,
+            "location": "alola-route-16-main",
+            "maxLevel": 50,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 100,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ],
+        "y": [
+          {
+            "chance": 100,
+            "location": "terminus-cave-zygardes-chamber",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ]
+      },
+      "formName": "50% Forme",
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 50,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "zygarde-50",
+      "kind": "default",
+      "legendary": true,
+      "name": "Zygarde",
+      "number": 718,
+      "pokemon": "zygarde",
+      "sourceId": 718,
+      "sprite": "/dex-images/sprites/zygarde-50.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 100,
+        "defense": 121,
+        "hp": 108,
+        "special-attack": 81,
+        "special-defense": 95,
+        "speed": 95
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ground"],
+      "weight": 3050
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aura-break"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zygarde-10.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 200,
+            "location": "alola-route-16-main",
+            "maxLevel": 50,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "sun": [
+          {
+            "chance": 200,
+            "location": "alola-route-16-main",
+            "maxLevel": 50,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 63,
+            "method": "gift",
+            "minLevel": 63
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 63,
+            "method": "gift",
+            "minLevel": 63
+          }
+        ]
+      },
+      "formName": "10% Forme",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "zygarde-10",
+      "kind": "other",
+      "legendary": true,
+      "name": "Zygarde-10",
+      "number": 718,
+      "pokemon": "zygarde",
+      "sourceId": 10181,
+      "sprite": "/dex-images/sprites/zygarde-10.webp",
+      "statTotal": 486,
+      "stats": {
+        "attack": 100,
+        "defense": 71,
+        "hp": 54,
+        "special-attack": 61,
+        "special-defense": 85,
+        "speed": 115
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ground"],
+      "weight": 335
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "power-construct"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zygarde-10-power-construct.webp",
+      "encounters": {},
+      "formName": "10% Forme",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "zygarde-10-power-construct",
+      "kind": "other",
+      "legendary": true,
+      "name": "Zygarde-10-Power-Construct",
+      "number": 718,
+      "pokemon": "zygarde",
+      "sourceId": 10118,
+      "sprite": "/dex-images/sprites/zygarde-10-power-construct.webp",
+      "statTotal": 486,
+      "stats": {
+        "attack": 100,
+        "defense": 71,
+        "hp": 54,
+        "special-attack": 61,
+        "special-defense": 85,
+        "speed": 115
+      },
+      "tags": [],
+      "types": ["dragon", "ground"],
+      "weight": 335
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "power-construct"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zygarde-50-power-construct.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ]
+      },
+      "formName": "50% Forme",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 50,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "zygarde-50-power-construct",
+      "kind": "other",
+      "legendary": true,
+      "name": "Zygarde-50-Power-Construct",
+      "number": 718,
+      "pokemon": "zygarde",
+      "sourceId": 10119,
+      "sprite": "/dex-images/sprites/zygarde-50-power-construct.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 100,
+        "defense": 121,
+        "hp": 108,
+        "special-attack": 81,
+        "special-defense": 95,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["dragon", "ground"],
+      "weight": 3050
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "power-construct"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zygarde-complete.webp",
+      "encounters": {},
+      "formName": "Complete Forme",
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 45,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "zygarde-complete",
+      "kind": "other",
+      "legendary": true,
+      "name": "Zygarde-Complete",
+      "number": 718,
+      "pokemon": "zygarde",
+      "sourceId": 10120,
+      "sprite": "/dex-images/sprites/zygarde-complete.webp",
+      "statTotal": 708,
+      "stats": {
+        "attack": 100,
+        "defense": 121,
+        "hp": 216,
+        "special-attack": 91,
+        "special-defense": 95,
+        "speed": 85
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ground"],
+      "weight": 6100
+    },
+    {
+      "abilities": [],
+      "artwork": "/dex-images/artwork/zygarde-mega.webp",
+      "encounters": {},
+      "formName": "Mega Zygarde",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 77,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "zygarde-mega",
+      "kind": "mega",
+      "legendary": true,
+      "name": "Zygarde-Mega",
+      "number": 718,
+      "pokemon": "zygarde",
+      "sourceId": 10301,
+      "sprite": null,
+      "statTotal": 778,
+      "stats": {
+        "attack": 70,
+        "defense": 91,
+        "hp": 216,
+        "special-attack": 216,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ground"],
+      "weight": 6100
+    }
+  ],
+  "generation": 6,
+  "key": "zygarde",
+  "name": "Zygarde",
+  "names": {
+    "de": "Zygarde",
+    "en": "Zygarde",
+    "es": "Zygarde",
+    "es-419": "Zygarde",
+    "fr": "Zygarde",
+    "it": "Zygarde",
+    "ja": "ジガルデ",
+    "ja-hrkt": "ジガルデ",
+    "ja-roma": "Zygarde",
+    "ko": "지가르데",
+    "zh-hans": "基格尔德",
+    "zh-hant": "基格爾德"
+  },
+  "number": 718
+}

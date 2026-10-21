@@ -1,0 +1,115 @@
+{
+  "category": "Chimp Pokémon",
+  "entries": [
+    {
+      "text": "When it uses its special stick to strike up a beat, the sound waves produced carry revitalizing energy to the plants and flowers in the area.",
+      "version": "sword"
+    },
+    {
+      "text": "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "grookey",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "grookey",
+      "to": "thwackey",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "thwackey",
+      "to": "rillaboom",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "grassy-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grookey.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "postwick-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "postwick-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "grookey",
+      "kind": "default",
+      "name": "Grookey",
+      "number": 810,
+      "pokemon": "grookey",
+      "sourceId": 810,
+      "sprite": "/dex-images/sprites/grookey.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 65,
+        "defense": 50,
+        "hp": 50,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 50
+    }
+  ],
+  "generation": 8,
+  "key": "grookey",
+  "name": "Grookey",
+  "names": {
+    "de": "Chimpep",
+    "en": "Grookey",
+    "es": "Grookey",
+    "es-419": "Grookey",
+    "fr": "Ouistempo",
+    "it": "Grookey",
+    "ja": "サルノリ",
+    "ja-hrkt": "サルノリ",
+    "ja-roma": "Sarunori",
+    "ko": "흥나숭",
+    "zh-hans": "敲音猴",
+    "zh-hant": "敲音猴"
+  },
+  "number": 810
+}

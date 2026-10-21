@@ -1,0 +1,100 @@
+{
+  "category": "Rock Salt Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It compresses rock salt inside its body and shoots out hardened salt pellets with enough force to perforate an iron sheet.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nacli",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "nacli",
+      "to": "naclstack",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "naclstack",
+      "to": "garganacl",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "purifying-salt"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "clear-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/naclstack.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "naclstack",
+      "kind": "default",
+      "name": "Naclstack",
+      "number": 933,
+      "pokemon": "naclstack",
+      "sourceId": 933,
+      "sprite": "/dex-images/sprites/naclstack.webp",
+      "statTotal": 355,
+      "stats": {
+        "attack": 60,
+        "defense": 100,
+        "hp": 60,
+        "special-attack": 35,
+        "special-defense": 65,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 1050
+    }
+  ],
+  "generation": 9,
+  "key": "naclstack",
+  "name": "Naclstack",
+  "names": {
+    "de": "Sedisal",
+    "en": "Naclstack",
+    "es": "Naclstack",
+    "es-419": "Naclstack",
+    "fr": "Amassel",
+    "it": "Naclstack",
+    "ja": "ジオヅム",
+    "ja-hrkt": "ジオヅム",
+    "ja-roma": "Jiodumu",
+    "ko": "스태솔트",
+    "zh-hans": "盐石垒",
+    "zh-hant": "鹽石壘"
+  },
+  "number": 933
+}

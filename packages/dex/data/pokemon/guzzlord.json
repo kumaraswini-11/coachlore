@@ -1,0 +1,139 @@
+{
+  "category": "Junkivore Pokémon",
+  "entries": [
+    {
+      "text": "It has gobbled mountains and swallowed whole buildings, according to reports. It’s one of the Ultra Beasts.",
+      "version": "sun"
+    },
+    {
+      "text": "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "An unknown life-form called a UB. It may be constantly hungry—it is certainly always devouring something.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "guzzlord",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/guzzlord.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "resolution-cave-area",
+            "maxLevel": 70,
+            "method": "walk",
+            "minLevel": 70
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "resolution-cave-area",
+            "maxLevel": 70,
+            "method": "walk",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-ruin",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-ruin",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 55,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "guzzlord",
+      "kind": "default",
+      "name": "Guzzlord",
+      "number": 799,
+      "pokemon": "guzzlord",
+      "sourceId": 799,
+      "sprite": "/dex-images/sprites/guzzlord.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 101,
+        "defense": 53,
+        "hp": 223,
+        "special-attack": 97,
+        "special-defense": 53,
+        "speed": 43
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["dark", "dragon"],
+      "weight": 8880
+    }
+  ],
+  "generation": 7,
+  "key": "guzzlord",
+  "name": "Guzzlord",
+  "names": {
+    "de": "Schlingking",
+    "en": "Guzzlord",
+    "es": "Guzzlord",
+    "es-419": "Guzzlord",
+    "fr": "Engloutyran",
+    "it": "Guzzlord",
+    "ja": "アクジキング",
+    "ja-hrkt": "アクジキング",
+    "ja-roma": "Akuziking",
+    "ko": "악식킹",
+    "zh-hans": "恶食大王",
+    "zh-hant": "惡食大王"
+  },
+  "number": 799
+}

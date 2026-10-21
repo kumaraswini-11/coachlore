@@ -1,0 +1,215 @@
+{
+  "category": "Blaze Pokémon",
+  "entries": [
+    {
+      "text": "In battle, BLAZIKEN blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this POKéMON’s wrists burn.",
+      "version": "ruby"
+    },
+    {
+      "text": "BLAZIKEN has incredibly strong legs - it can easily clear a 30-story building in one leap. This POKéMON’s blazing punches leave its foes scorched and blackened.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It learns martial arts that use punches and kicks. Every several years, its old feathers burn off, and new, supple feathers grow back in their place.",
+      "version": "emerald"
+    },
+    {
+      "text": "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+      "version": "firered"
+    },
+    {
+      "text": "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "diamond"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "pearl"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It can clear a 30-story building in a leap. Its fiery punches scorch its foes.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It can clear a 30-story building in a leap. Its fiery punches scorch its foes.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "black"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "white"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "Flames spout from its wrists, enveloping its knuckles. Its punches scorch its foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "It can clear a 30-story building in a leap. Its fiery punches scorch its foes.",
+      "version": "x"
+    },
+    {
+      "text": "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+      "version": "y"
+    },
+    {
+      "text": "In battle, Blaziken blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this Pokémon’s wrists burn.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Blaziken has incredibly strong legs—it can easily clear a 30-story building in one leap. This Pokémon’s blazing punches leave its foes scorched and blackened.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "torchic",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "torchic",
+      "to": "combusken",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "combusken",
+      "to": "blaziken",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/blaziken.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "blaziken",
+      "kind": "default",
+      "name": "Blaziken",
+      "number": 257,
+      "pokemon": "blaziken",
+      "sourceId": 257,
+      "sprite": "/dex-images/sprites/blaziken.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 120,
+        "defense": 70,
+        "hp": 80,
+        "special-attack": 110,
+        "special-defense": 70,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["fire", "fighting"],
+      "weight": 520
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/blaziken-mega.webp",
+      "encounters": {},
+      "formName": "Mega Blaziken",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 19,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "blaziken-mega",
+      "kind": "mega",
+      "name": "Blaziken-Mega",
+      "number": 257,
+      "pokemon": "blaziken",
+      "sourceId": 10050,
+      "sprite": "/dex-images/sprites/blaziken-mega.webp",
+      "statTotal": 630,
+      "stats": {
+        "attack": 160,
+        "defense": 80,
+        "hp": 80,
+        "special-attack": 130,
+        "special-defense": 80,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fire", "fighting"],
+      "weight": 520
+    }
+  ],
+  "generation": 3,
+  "key": "blaziken",
+  "name": "Blaziken",
+  "names": {
+    "de": "Lohgock",
+    "en": "Blaziken",
+    "es": "Blaziken",
+    "es-419": "Blaziken",
+    "fr": "Braségali",
+    "it": "Blaziken",
+    "ja": "バシャーモ",
+    "ja-hrkt": "バシャーモ",
+    "ja-roma": "Bursyamo",
+    "ko": "번치코",
+    "zh-hans": "火焰鸡",
+    "zh-hant": "火焰雞"
+  },
+  "number": 257
+}
