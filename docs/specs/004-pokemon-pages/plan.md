@@ -3,6 +3,13 @@
 ## Builds on
 
 - **Spec 001:** the shell, the palette, the states, type badges.
+- **Unknown keys 404 in the Proxy** ([ADR 0008](../../adr/0008-translation-library.md),
+  "Consequences"): a `notFound()` inside a page renders only in the browser
+  under Cache Components, so `proxy.ts` checks a Pokémon, form, move or
+  ability key against the dataset's key lists and rewrites an unknown one to
+  an address that matches nothing, which gets `global-not-found` with a 404
+  (Next.js's loading docs, "Status codes": "check the slug in Proxy, then
+  rewrite it to a not-found route").
 - **Spec 002:** `packages/dex` and its dataset: forms, Pokémon, moves,
   abilities, types, games, learnsets, evolutions, encounters, usage
   statistics, artwork.

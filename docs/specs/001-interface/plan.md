@@ -96,15 +96,40 @@ finds "Pokémon").
   `lib/i18n/format.ts`, built on `Intl.DateTimeFormat`, shows the viewer's
   time and, when the zones differ, the league's beside it; every screen
   uses it.
-- **Direction:** the layout sets `dir` from `dir(locale)`; components use
-  logical utilities (`ms`, `me`, `ps`, `pe`, `start`, `end`,
+- **Direction:** the layout sets `dir` from `dir(locale)`, and Base UI's
+  `DirectionProvider` with it (Base UI reads the direction only from the
+  provider); components use
+  logical utilities (`ms`, `me`, `ps`, `pe`, `inset-s`, `inset-e`,
   `text-start`, `rounded-s`, `border-s`); back and next icons get
-  `rtl:-scale-x-100`. shadcn's `"rtl": true` already makes the registry
+  `rtl:rotate-180`, as the registry's do. shadcn's `"rtl": true` already makes the registry
   components logical.
 - **League tabs:** Home, Draft, Rosters, Schedule, Trades, Stats, and
   Settings for admins; the slot below renders them.
 
 ## Languages
+
+**Built with next-intl** ([ADR 0008](../../adr/0008-translation-library.md)).
+Where this section and ADR 0008 differ, the ADR wins:
+
+- The redirect is next-intl's middleware in `proxy.ts` (no `pickLocale`),
+  and the cookie it sets isn't `httpOnly`.
+- Messages are ICU, in `apps/web/messages/<locale>/main.json` and
+  `errors.json`, read with `getTranslations`; plurals are ICU `plural`
+  (no `t()` helper). `lib/i18n/` is `apps/web/i18n/`: `routing.ts`,
+  `request.ts`, `messages.ts`, `locales.ts` (directions and names, from
+  `Intl.DisplayNames`), `paths.ts` (the pages, addresses and alternates),
+  `metadata.ts` and `error-messages.ts`.
+- No messages reach the browser: Client Components get strings as props,
+  and the error pages read `errors.json` directly.
+- Unknown addresses get `global-not-found.tsx` in both languages, after
+  the redirect. A `notFound()` inside a page renders only in the browser
+  under Cache Components, so pages check unknown values in the Proxy (spec
+  004).
+- The tests are `i18n/messages.test.ts` (keys, ICU, arguments, plural
+  categories), `i18n/paths.test.ts`, `i18n/locales.test.ts`,
+  `i18n/error-messages.test.ts`, `proxy.test.ts` (the matcher, with
+  Next.js's `unstable_doesMiddlewareMatch`) and
+  `packages/playwright-web/e2e/languages.spec.ts`.
 
 - **The redirect:** `proxy.ts` checks whether the path starts with a
   language. If not, `pickLocale` chooses one: the `lang` cookie if it's a
@@ -242,6 +267,17 @@ files at `app/` reach pages under `[lang]`; focus returning after the
 palette opens from a shortcut.
 
 ## Tasks
+
+Progress (2026-10-21): tasks 1 to 6 built. Open before 001 is done:
+
+- **Performance:** after the shell, `/en` is 306 KB with LCP 2.7–2.9 s on
+  a throttled mid-range phone (Playwright, 4× CPU, slow 4G), over the 2.5 s
+  "good" threshold; the display menu's Base UI code now loads on every
+  page. Fix before task 9's `cls.spec.ts` and the owner's review.
+- **Navigation:** the bottom tabs and sidebar arrive with their first item
+  (spec 003), and the footer's About and Legal links with task 9: nothing
+  links to a page that doesn't exist (spec rule 4).
+- Tasks 7 to 9.
 
 1. **Rules.** AGENTS.md's interface lines and `packages/ui/README.md`'s
    element-to-component table, from the interface standards plan (its

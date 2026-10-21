@@ -75,7 +75,7 @@ sources), Tasks (ordered, each with "done when").
 - No text is written into a component: every string comes from the
   dictionaries, with a key in both; Pokémon, form, move and ability names
   stay English in every language.
-- Styles use logical properties (`ms`, `me`, `ps`, `pe`, `start`, `end`,
+- Styles use logical properties (`ms`, `me`, `ps`, `pe`, `inset-s`, `inset-e`,
   `text-start`), never `left` or `right`, so a right-to-left language
   works later; every screen is also checked with `dir="rtl"`.
 - Dates, times and numbers are formatted with `Intl` in the page's

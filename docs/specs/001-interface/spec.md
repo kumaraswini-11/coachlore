@@ -271,9 +271,10 @@ the shell) and `/offline` (the page spec 003's offline Dex serves for a
 page it hasn't saved).
 
 One page is an exception to the shell and to one language per page: an
-address that matches no route at all, outside any language, gets a minimal
-not-found page in English and Hindi together, with a link to each
-language's home page and no shell.
+address that matches no page gets a minimal not-found page in English and
+Hindi together, with a link to each language's home page and no shell. An
+address without a language is redirected to the person's first, so this
+page answers what's left unmatched.
 
 ## Rules and edge cases
 
@@ -1136,11 +1137,10 @@ This spec is done when:
     physical direction (`left` or `right`), checked by a test; back and
     next icons point the other way, and no arrow character is used as an
     icon.
-13. An address matching no route that isn't redirected to a language (a
-    file, say) answers not found with the exception page above: both
+13. An address that matches no page, after the redirect to a language,
+    answers not found with the exception page above, as complete HTML: both
     languages, a link to each home page, a 404 status, and no WCAG 2.2 AA
-    violations. Any other address without a language is redirected first,
-    so `/fr/about` ends at `/en/fr/about`, not found inside the shell.
+    violations. The site's own files answer 200 and are never redirected.
 
 ## Out of scope
 
@@ -1174,3 +1174,7 @@ From the screens research, left out of v1:
   `oklch(0.54 0 0)` (4.64:1). Motion uses Tailwind's own `ease-out` and
   `ease-in-out` beside the two duration tokens. Toasts are shadcn's `toast`,
   on Base UI's Toast, not Sonner (the owner, 2026-10-21): no extra package.
+- 2026-10-21: languages with next-intl ([ADR 0008](../../adr/0008-translation-library.md)),
+  after the owner asked for a scalable, enterprise-grade set-up. Criterion
+  13 now follows the redirect: what's still unmatched gets the
+  two-language page.
