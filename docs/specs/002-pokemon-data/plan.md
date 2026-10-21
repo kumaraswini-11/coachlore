@@ -32,9 +32,9 @@ packages/
       *.test.ts
     data/                          generated, committed; in .prettierignore
       forms.json                   the form list (≤ 150 KB gzip)
-      types.json  moves.json  abilities.json  games.json
+      types.json  moves.json  abilities.json  games.json  locations.json
       showdown.json  usage.json  credits.json
-      pokemon/<pokemon>.json       one per Pokémon: its forms' details, evolution, entries, names, encounters
+      pokemon/<pokemon>.json       one per Pokémon: its forms' details and encounters, evolution, entries, names
       learnsets/<form>.json        one per form
     scripts/
       import.ts                    runs the steps below; prints a change summary
@@ -94,11 +94,30 @@ type PokemonDetail = {
   name: string
   category: string // "Plasma Pokémon"
   generation: number
-  forms: (FormSummary & { height: number; weight: number })[]
-  evolution: EvolutionStep[] // the whole chain, flattened with parents
+  forms: (FormSummary & {
+    height: number
+    weight: number
+    artwork: string | null // "/dex-images/artwork/rotom-wash.webp"
+    encounters: Record<string, Encounter[]> // version → encounters, this form's own; only covered versions
+  })[]
+  evolution: EvolutionStep[] // the whole chain, flattened with parents; the first species with from: null
   entries: { version: string; text: string }[] // English
   names: Record<string, string> // PokéAPI language → name (no "hi": the source has none); shown on the Pokémon page, never used for search
-  encounters: Record<string, Encounter[]> // version → encounters; only covered versions
+}
+
+type EvolutionStep = {
+  from: PokemonKey | null
+  to: PokemonKey
+  trigger: string | null // PokéAPI's: "level-up", "use-item", "trade" …
+  conditions: Record<string, string | number | boolean | string[]> // the fields set, links as keys; a hidden roll as chance, else expression
+}
+
+type Encounter = {
+  location: string // a location area's key; its English name in locations.json
+  method: string
+  minLevel: number
+  maxLevel: number
+  chance: number // 0–100
 }
 
 type Move = {
@@ -190,7 +209,9 @@ type Usage = {
    Blast and Dire Claw) takes its newest English flavour text;
    `no-effect.test.ts` lists those moves, so an override can replace one.
 5. **Evolutions** from `evolution-chain/<id>`, each step with its trigger
-   and conditions as data, not text.
+   and conditions as data, not text. The source gives a step's method per
+   game; the import keeps those it marks `is_default` (Generation 9's: Kubfu
+   uses a scroll, not a tower), one step per form a Pokémon can become.
 6. **Entries and names** from `pokemon-species/<id>` (English entries,
    whitespace and form feeds normalised; names in every language).
 7. **Learnsets** from `pokemon/<id>`'s `moves`, grouped by version group.

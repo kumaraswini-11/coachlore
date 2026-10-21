@@ -1,6 +1,6 @@
 /// <reference types="node" />
 import { existsSync, readFileSync } from "node:fs"
-import { join } from "node:path"
+import { join, sep } from "node:path"
 
 /** A link to another resource, as PokéAPI writes it. */
 export type Link = { name: string; url: string }
@@ -38,15 +38,22 @@ export class ApiData {
     return this.get<T>(endpoint, id)
   }
 
-  has(endpoint: string, id: number): boolean {
-    return existsSync(join(this.#root, endpoint, String(id), "index.json"))
+  /** A file under a resource, such as `pokemon/25/encounters`, if it exists. */
+  optional<T>(path: string): T | undefined {
+    return existsSync(join(this.#root, path, "index.json"))
+      ? this.#read<T>(join(path, "index.json"))
+      : undefined
   }
 
   #read<T>(path: string): T {
     let value = this.#cache.get(path)
     if (value === undefined) {
       value = JSON.parse(readFileSync(join(this.#root, path), "utf8"))
-      this.#cache.set(path, value)
+      // Pokémon files are most of the source (their move lists) and each is
+      // read twice at most, so they aren't kept; small, shared ones are.
+      if (!path.startsWith(`pokemon${sep}`)) {
+        this.#cache.set(path, value)
+      }
     }
     return value as T
   }

@@ -81,7 +81,13 @@ export type EvolutionStep = {
   from: PokemonKey | null
   to: PokemonKey
   trigger: string | null
-  conditions: Record<string, string | number | boolean>
+  /**
+   * PokéAPI's fields that are set (`min_level: 36`, `item: "water-stone"`),
+   * links as their key; `allowed_natures` as a list, and a hidden random
+   * roll as its `chance` in percent (Dudunsparce's three segments: 1), or
+   * as the source's `expression` where it isn't a chance (Alcremie's spins).
+   */
+  conditions: Record<string, string | number | boolean | string[]>
 }
 
 /** Where a form is found in one version. */
@@ -101,15 +107,21 @@ export type PokemonDetail = {
   /** "Plasma Pokémon". */
   category: string
   generation: number
-  forms: (FormSummary & { height: number; weight: number })[]
+  forms: (FormSummary & {
+    /** Decimetres and hectograms, as the source gives them. */
+    height: number
+    weight: number
+    /** "/dex-images/artwork/rotom-wash.webp", or null without an image. */
+    artwork: string | null
+    /** Version → where this form is found; only versions the data covers. */
+    encounters: Record<string, Encounter[]>
+  })[]
   /** The whole chain, flattened, each step with its parent. */
   evolution: EvolutionStep[]
   /** English Pokédex entries. */
   entries: { version: string; text: string }[]
   /** PokéAPI language → name (no Hindi: the source has none). */
   names: Record<string, string>
-  /** Version → encounters; only versions the data covers. */
-  encounters: Record<string, Encounter[]>
 }
 
 export type MoveCategory = "physical" | "special" | "status"

@@ -62,7 +62,9 @@ const FORMS: HandChecked[] = [
       speed: 97,
     },
     abilities: [{ key: "unseen-fist", hidden: false }],
-    evolution: { from: "kubfu", trigger: "tower-of-waters" },
+    // Generation 9's method, the Scroll of Waters; the Generation 8 towers
+    // were the other way.
+    evolution: { from: "kubfu", trigger: "use-item" },
   },
   {
     key: "lycanroc-dusk",
@@ -298,7 +300,8 @@ const FORMS: HandChecked[] = [
       speed: 97,
     },
     abilities: [{ key: "unseen-fist", hidden: false }],
-    evolution: { from: "kubfu", trigger: "tower-of-darkness" },
+    // Generation 9's method, the Scroll of Darkness.
+    evolution: { from: "kubfu", trigger: "use-item" },
   },
   {
     key: "meowth-galar",
@@ -407,7 +410,13 @@ describe("forms checked by hand", () => {
         const detail = JSON.parse(
           readFileSync(join(dataDir, "pokemon", `${form.pokemon}.json`), "utf8")
         ) as PokemonDetail
-        const step = detail.evolution.find((each) => each.to === form.pokemon)
+        // The step into this form where its Pokémon's forms evolve apart
+        // (Kubfu into each Urshifu), else the step into its Pokémon.
+        const into = detail.evolution.filter((each) => each.to === form.pokemon)
+        const step =
+          into.find(
+            (each) => each.conditions.evolved_pokemon_form === form.key
+          ) ?? into[0]
         expect({
           from: step?.from ?? null,
           trigger: step?.trigger ?? null,

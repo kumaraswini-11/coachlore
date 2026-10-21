@@ -12,7 +12,8 @@ import { fetchSources, readSources } from "./fetch.ts"
 import { ApiData, idOf, type Link } from "./import/api-data.ts"
 import { writeJson } from "./import/write.ts"
 
-// Charizard: Megas and Gigantamax. Raticate: Alolan and Totem forms.
+// With their evolution chains' other species (below). Charizard: Megas
+// and Gigantamax. Raticate: Alolan and Totem forms.
 // Tauros: Paldea's three breeds. Rotom: five forms. Vivillon: cosmetic
 // patterns that are one form. Urshifu: a default form keyed unlike its
 // Pokémon.
@@ -74,6 +75,10 @@ const FIELDS: Record<string, string[]> = {
     "moves",
     "sprites",
   ],
+  "location-area": ["name", "names", "location"],
+  location: ["name", "names"],
+  version: ["name", "names", "version_group"],
+  pokedex: ["name", "names", "region", "pokemon_entries"],
   "pokemon-form": [
     "id",
     "name",
@@ -164,21 +169,40 @@ for (const id of api.ids("type")) {
   copy("type", id, api.get<Resource>("type", id))
 }
 
+type Species = {
+  name: string
+  varieties: { pokemon: Link }[]
+  evolution_chain: { url: string }
+}
+type Chain = { species: Link; evolves_to: Chain[] }
+
+// The sample's species and every species in their evolution chains, so
+// each step's Pokémon is in the sample too.
+const species = new Map<number, Species>()
 for (const id of SPECIES) {
-  const species = api.get<{
-    name: string
-    varieties: { pokemon: Link }[]
-  }>("pokemon-species", id)
-  copy("pokemon-species", id, species)
-  for (const variety of species.varieties) {
+  const first = api.get<Species>("pokemon-species", id)
+  const chain = api.follow<{ chain: Chain }>(first.evolution_chain)
+  copyLink(first.evolution_chain as Link)
+  const walk = (link: Chain) => {
+    species.set(idOf(link.species.url), api.follow<Species>(link.species))
+    link.evolves_to.forEach(walk)
+  }
+  walk(chain.chain)
+}
+
+const areas = new Map<number, Link>()
+for (const [id, each] of species) {
+  copy("pokemon-species", id, each as unknown as Resource)
+  for (const variety of each.varieties) {
     const pokemon = api.follow<Pokemon>(variety.pokemon)
     const [form] = pokemon.forms
     if (form === undefined) {
       throw new Error(`${pokemon.name} has no form.`)
     }
-    copy("pokemon", idOf(variety.pokemon.url), {
+    const pokemonId = idOf(variety.pokemon.url)
+    copy("pokemon", pokemonId, {
       ...pokemon,
-      moves: pokemon.moves.filter((each) => moveNames.has(each.move.name)),
+      moves: pokemon.moves.filter((entry) => moveNames.has(entry.move.name)),
       sprites: {
         front_default: pokemon.sprites.front_default,
         other: {
@@ -186,12 +210,51 @@ for (const id of SPECIES) {
         },
       },
     })
+    // Five places a form at most: enough to test the step, not Rattata's
+    // whole map.
+    const found = api
+      .optional<{ location_area: Link }[]>(`pokemon/${pokemonId}/encounters`)
+      ?.slice(0, 5)
+    if (found !== undefined) {
+      writeJson(
+        join(V2, "pokemon", String(pokemonId), "encounters", "index.json"),
+        found
+      )
+      for (const entry of found) {
+        areas.set(idOf(entry.location_area.url), entry.location_area)
+      }
+    }
     copyLink(form)
-    const { version_group } = api.follow<{ version_group: Link }>(form)
-    copyLink(version_group)
     for (const { ability } of pokemon.abilities) {
       copyLink(ability)
     }
+  }
+}
+
+for (const area of areas.values()) {
+  copyLink(area)
+  copyLink(api.follow<{ location: Link }>(area).location)
+}
+
+// Every game, its versions, and its Pokédexes cut to the sample's species.
+const names = new Set([...species.values()].map((each) => each.name))
+for (const id of api.ids("version-group")) {
+  const group = api.get<Resource & { versions: Link[]; pokedexes: Link[] }>(
+    "version-group",
+    id
+  )
+  copy("version-group", id, group)
+  group.versions.forEach(copyLink)
+  for (const link of group.pokedexes) {
+    const pokedex = api.follow<
+      Resource & { pokemon_entries: { pokemon_species: Link }[] }
+    >(link)
+    copy("pokedex", idOf(link.url), {
+      ...pokedex,
+      pokemon_entries: pokedex.pokemon_entries.filter((entry) =>
+        names.has(entry.pokemon_species.name)
+      ),
+    })
   }
 }
 

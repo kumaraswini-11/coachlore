@@ -1,0 +1,132 @@
+{
+  "abilities": [
+    {
+      "ability": {
+        "name": "inner-focus",
+        "url": "/api/v2/ability/39/"
+      },
+      "is_hidden": false,
+      "slot": 1
+    }
+  ],
+  "forms": [
+    {
+      "name": "kubfu",
+      "url": "/api/v2/pokemon-form/891/"
+    }
+  ],
+  "height": 6,
+  "id": 891,
+  "is_default": true,
+  "moves": [
+    {
+      "move": {
+        "name": "tera-blast",
+        "url": "/api/v2/move/851/"
+      },
+      "version_group_details": [
+        {
+          "level_learned_at": 0,
+          "move_learn_method": {
+            "name": "machine",
+            "url": "/api/v2/move-learn-method/4/"
+          },
+          "order": null,
+          "version_group": {
+            "name": "scarlet-violet",
+            "url": "/api/v2/version-group/25/"
+          }
+        }
+      ]
+    }
+  ],
+  "name": "kubfu",
+  "species": {
+    "name": "kubfu",
+    "url": "/api/v2/pokemon-species/891/"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/891.png",
+    "other": {
+      "official-artwork": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/891.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/891.png",
+        "versions": {
+          "generation-i": {
+            "red-and-blue": {
+              "front_default": null
+            },
+            "red-and-green": {
+              "front_default": null
+            }
+          },
+          "generation-ii": {
+            "gold-and-silver": {
+              "front_default": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "stats": [
+    {
+      "base_stat": 60,
+      "effort": 0,
+      "stat": {
+        "name": "hp",
+        "url": "/api/v2/stat/1/"
+      }
+    },
+    {
+      "base_stat": 90,
+      "effort": 1,
+      "stat": {
+        "name": "attack",
+        "url": "/api/v2/stat/2/"
+      }
+    },
+    {
+      "base_stat": 60,
+      "effort": 0,
+      "stat": {
+        "name": "defense",
+        "url": "/api/v2/stat/3/"
+      }
+    },
+    {
+      "base_stat": 53,
+      "effort": 0,
+      "stat": {
+        "name": "special-attack",
+        "url": "/api/v2/stat/4/"
+      }
+    },
+    {
+      "base_stat": 50,
+      "effort": 0,
+      "stat": {
+        "name": "special-defense",
+        "url": "/api/v2/stat/5/"
+      }
+    },
+    {
+      "base_stat": 72,
+      "effort": 0,
+      "stat": {
+        "name": "speed",
+        "url": "/api/v2/stat/6/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+      }
+    }
+  ],
+  "weight": 120
+}
