@@ -20,10 +20,12 @@ function LiveUpdate({
 
   return (
     <div className="flex flex-col items-start gap-3">
+      {/* aria-disabled, not disabled: a disabled button drops the focus
+          it has, to <body>. */}
       <Button
         variant="outline"
-        className="h-11"
-        disabled={shown >= picks.length}
+        className="h-11 aria-disabled:opacity-50"
+        aria-disabled={shown >= picks.length || undefined}
         onClick={() => setShown((count) => Math.min(count + 1, picks.length))}
       >
         {actionLabel}

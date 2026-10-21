@@ -7,26 +7,63 @@ import type { Locale } from "next-intl"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 import { Kbd } from "@workspace/ui/components/shadcn-ui/kbd"
 
-import { OPEN_SEARCH_EVENT } from "@/components/shortcuts"
+import {
+  OPEN_SEARCH_EVENT,
+  SHORTCUT_KEYS,
+  useSingleKeyShortcuts,
+} from "@/components/shortcuts"
 import type messages from "@/messages/en/main.json"
 
 export type PaletteMessages = (typeof messages)["palette"]
+type ShortcutLabels = (typeof messages)["shell"]["searchShortcut"]
 
 // The dialog, the search and its formatter load on first open, so a page
 // that's never searched carries only this button (spec 001's audit,
-// performance). Hovering or focusing the button starts the download.
+// performance). Hovering or focusing the button starts the download; a
+// failed download is retried on the next open.
 const loadDialog = () => import("@/components/search/search-dialog")
-const SearchDialog = React.lazy(loadDialog)
+const prefetch = () => {
+  loadDialog().catch(() => {})
+}
+// React.lazy keeps a failed download's error, so each attempt gets its own.
+const lazyDialog = () => React.lazy(loadDialog)
+const firstDialog = lazyDialog()
 
 // The shortcut as the keyboard labels it: ⌘ on a Mac, Ctrl elsewhere. The
-// server can't tell, so it says Ctrl and a Mac corrects it on hydration.
+// server can't tell, so it says the other and a Mac corrects it on
+// hydration.
 const subscribeToNothing = () => () => {}
-function useShortcutLabel() {
+function useIsMac() {
   return React.useSyncExternalStore(
     subscribeToNothing,
-    () => (/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘ K" : "Ctrl K"),
-    () => "Ctrl K"
+    () => /Mac|iPhone|iPad/.test(navigator.platform),
+    () => false
   )
+}
+
+/**
+ * Keeps a failed download of the dialog (offline, or a deploy that removed
+ * its file) inside the palette: the page stays, and the next open tries
+ * again. Without it the error would reach the root layout, which only
+ * global-error.tsx catches (Next.js's error docs).
+ */
+class LoadBoundary extends React.Component<
+  { onError: () => void; children: React.ReactNode },
+  { failed: boolean }
+> {
+  state = { failed: false }
+
+  static getDerivedStateFromError() {
+    return { failed: true }
+  }
+
+  componentDidCatch() {
+    this.props.onError()
+  }
+
+  render() {
+    return this.state.failed ? null : this.props.children
+  }
 }
 
 /**
@@ -37,16 +74,24 @@ function useShortcutLabel() {
 function SearchButton({
   locale,
   hint,
+  shortcutLabels,
   messages,
 }: {
   locale: Locale
   /** The button's name, also shown on wider screens. */
   hint: string
+  shortcutLabels: ShortcutLabels
   messages: PaletteMessages
 }) {
   const [open, setOpen] = React.useState(false)
   const [mounted, setMounted] = React.useState(false)
-  const shortcut = useShortcutLabel()
+  const [loader, setLoader] = React.useState(() => ({
+    attempt: 0,
+    Dialog: firstDialog,
+  }))
+  const SearchDialog = loader.Dialog
+  const isMac = useIsMac()
+  const [singleKeys] = useSingleKeyShortcuts()
 
   const show = React.useCallback(() => {
     setMounted(true)
@@ -55,10 +100,13 @@ function SearchButton({
 
   React.useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
-      // Ctrl K or ⌘ K: not a single key, so always on (WCAG 2.1.4).
+      // Ctrl K or ⌘ K: not a single key, so always on (WCAG 2.1.4). Not
+      // Ctrl Shift K (Firefox's console), and not while the keys are held.
       if (
         (event.ctrlKey || event.metaKey) &&
         !event.altKey &&
+        !event.shiftKey &&
+        !event.repeat &&
         typeof event.key === "string" &&
         event.key.toLowerCase() === "k"
       ) {
@@ -67,11 +115,16 @@ function SearchButton({
         setOpen((current) => !current)
       }
     }
+    // `/` from shortcuts.tsx: taking it tells the shortcut a palette is here.
+    function onOpenSearch(event: Event) {
+      event.preventDefault()
+      show()
+    }
     window.addEventListener("keydown", onKeyDown)
-    window.addEventListener(OPEN_SEARCH_EVENT, show)
+    window.addEventListener(OPEN_SEARCH_EVENT, onOpenSearch)
     return () => {
       window.removeEventListener("keydown", onKeyDown)
-      window.removeEventListener(OPEN_SEARCH_EVENT, show)
+      window.removeEventListener(OPEN_SEARCH_EVENT, onOpenSearch)
     }
   }, [show])
 
@@ -80,29 +133,45 @@ function SearchButton({
       <Button
         variant="outline"
         aria-haspopup="dialog"
-        aria-keyshortcuts="Control+K Meta+K"
+        aria-keyshortcuts={
+          singleKeys
+            ? `Control+K Meta+K ${SHORTCUT_KEYS.search}`
+            : "Control+K Meta+K"
+        }
         onClick={show}
-        onPointerEnter={loadDialog}
-        onFocus={loadDialog}
-        className="size-11 justify-start text-muted-foreground md:w-72 md:px-3"
+        onPointerEnter={prefetch}
+        onFocus={prefetch}
+        className="size-11 justify-center text-muted-foreground md:w-72 md:justify-start md:px-3"
       >
         <SearchIcon aria-hidden />
         <span className="sr-only md:not-sr-only md:flex-1 md:truncate md:text-start">
           {hint}
         </span>
         <Kbd aria-hidden className="hidden md:inline-flex">
-          {shortcut}
+          {isMac ? shortcutLabels.mac : shortcutLabels.other}
         </Kbd>
       </Button>
       {mounted ? (
-        <React.Suspense fallback={null}>
-          <SearchDialog
-            open={open}
-            onOpenChange={setOpen}
-            locale={locale}
-            messages={messages}
-          />
-        </React.Suspense>
+        <LoadBoundary
+          key={loader.attempt}
+          onError={() => {
+            setOpen(false)
+            setMounted(false)
+            setLoader((current) => ({
+              attempt: current.attempt + 1,
+              Dialog: lazyDialog(),
+            }))
+          }}
+        >
+          <React.Suspense fallback={null}>
+            <SearchDialog
+              open={open}
+              onOpenChange={setOpen}
+              locale={locale}
+              messages={messages}
+            />
+          </React.Suspense>
+        </LoadBoundary>
       ) : null}
     </>
   )

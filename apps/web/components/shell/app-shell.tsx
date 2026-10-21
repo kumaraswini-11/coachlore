@@ -58,6 +58,7 @@ async function AppShell({ children }: { children: React.ReactNode }) {
           <SearchButton
             locale={locale}
             hint={t("searchHint")}
+            shortcutLabels={messages.shell.searchShortcut}
             messages={messages.palette}
           />
           <DisplayMenu

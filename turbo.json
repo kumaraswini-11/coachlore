@@ -31,7 +31,8 @@
     },
     "e2e": {
       "dependsOn": ["^build"],
-      "passThroughEnv": ["PLAYWRIGHT_*", "CI"]
+      "passThroughEnv": ["PLAYWRIGHT_*", "CI"],
+      "cache": false
     },
     "dev": {
       "cache": false,

@@ -1,6 +1,7 @@
 "use client"
 
 import * as React from "react"
+import { useDirection } from "@base-ui/react/direction-provider"
 import { mergeProps } from "@base-ui/react/merge-props"
 import { useRender } from "@base-ui/react/use-render"
 import { cva, type VariantProps } from "class-variance-authority"
@@ -165,8 +166,11 @@ function SidebarProvider({
   )
 }
 
+// Coachlore: without a `side`, the sidebar sits on the page's start side,
+// the left in a left-to-right page and the right in a right-to-left one
+// (shadcn's Sidebar docs set `side` from the direction by hand).
 function Sidebar({
-  side = "left",
+  side: sideProp,
   variant = "sidebar",
   collapsible = "offcanvas",
   className,
@@ -178,6 +182,8 @@ function Sidebar({
   variant?: "sidebar" | "floating" | "inset"
   collapsible?: "offcanvas" | "icon" | "none"
 }) {
+  const direction = useDirection()
+  const side = sideProp ?? (direction === "rtl" ? "right" : "left")
   const { labels, isMobile, state, openMobile, setOpenMobile } = useSidebar()
 
   if (collapsible === "none") {

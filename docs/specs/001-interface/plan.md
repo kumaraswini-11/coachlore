@@ -59,8 +59,11 @@ type SearchResult = {
 
 type SearchSource = {
   kind: SearchResult["kind"]
-  heading: string // the group's heading in the palette
-  search(query: string): SearchResult[] | Promise<SearchResult[]>
+  heading(locale: Locale): string // the group's heading, in the page's language
+  search(
+    query: string,
+    locale: Locale
+  ): SearchResult[] | Promise<SearchResult[]>
 }
 ```
 
@@ -184,7 +187,8 @@ Where this section and ADR 0008 differ, the ADR wins:
 0003's era) with one setting for every single-key shortcut:
 
 - Storage key `single-key-shortcuts` (`on` / `off`); a stored
-  `theme-hotkey=off` from before is read once and moved over.
+  `theme-hotkey=off` from before is honoured until the setting next changes,
+  which writes the new key and removes the old one.
 - `d` switches the theme; `/` opens the search palette. Both skip typing
   targets, modifier keys, repeats and events without a `key`, as now.
 - The theme menu's checkbox is relabelled "Single-key shortcuts", with
@@ -237,7 +241,7 @@ None.
 | Fixture screens          | none                                                                                                                | –                                                                                                                                                                                                   | Routes under `(dev)/fixtures/`, built into previews for the owner's phone review, `notFound()` in production                                                                                                                                                                                                                                                                                                                       |
 | One Proxy                | none                                                                                                                | Proxy: "The file must export a single function … multiple proxy from the same file are not supported" (bundled `proxy.md`)                                                                          | One `proxy.ts`, with the language redirect first and spec 006's CSP after it, each a plain function the Proxy calls in order                                                                                                                                                                                                                                                                                                       |
 | Not found under `[lang]` | `app/not-found.tsx`; ADR 0003 turned `global-not-found` down because the root layout wasn't under a dynamic segment | `global-not-found.js` is for when "Your root layout is defined using top-level dynamic segments (e.g. `app/[country]/layout.tsx`)"; it needs `experimental.globalNotFound` (bundled `not-found.md`) | The root layout is now `app/[lang]/layout.tsx`, so: `app/[lang]/not-found.tsx` for `notFound()` inside a language, and `app/global-not-found.tsx` (English and Hindi, its own `<html>`, styles, fonts and theme: it "bypasses your app's normal rendering") for addresses that match nothing. A departure from ADR 0003's earlier choice, for the reason the docs give; ADR 0003 gets a line under Consequences when this is built |
-| Translation library      | none                                                                                                                | ADR 0007                                                                                                                                                                                            | None: the guide's dictionaries, `Intl` and one `t()` helper                                                                                                                                                                                                                                                                                                                                                                        |
+| Translation library      | none                                                                                                                | ADR 0007, then ADR 0008                                                                                                                                                                             | next-intl, with ICU messages ([ADR 0008](../../adr/0008-translation-library.md)); this table's first plan (the guide's dictionaries and one `t()` helper) was replaced before any screen used it                                                                                                                                                                                                                                   |
 
 ### Checked against the installed docs (2026-10-21)
 
@@ -246,20 +250,20 @@ Every choice above was checked against the docs bundled with Next.js
 Base UI 1.8.0, eslint-plugin-react 7.37.5 and Turborepo 2.11.7 before
 building tasks 5 to 9. What changed:
 
-| Item                    | What the docs say (quoted)                                                                                                                                                                                                      | Built as                                                                                                                                                                        |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Reading the language    | i18n guide: `import { lang } from 'next/root-params'` in `getDictionary()`; "Files that import from `next/root-params` do not need `import 'server-only'`"; `dynamicParams` "is not available when Cache Components is enabled" | `getDictionary()` reads `lang()` itself and calls `notFound()` for an unknown one; the layout keeps `generateStaticParams` (required with Cache Components); no `dynamicParams` |
-| The redirect            | i18n guide: `pathname.startsWith(`/${locale}/`) \|\| pathname === `/${locale}``, else redirect                                                                                                                                  | The guide's check. Every other path is redirected, so `/fr/about` becomes `/en/fr/about`, a 404 inside the shell; `global-not-found` serves the paths the Proxy skips (files)   |
-| The `lang` cookie       | `cookies.md`: "Setting cookies is not supported during Server Component rendering"; Proxy responses can set cookies                                                                                                             | The Proxy sets `lang` (one year, `SameSite=Lax`, `httpOnly`) when a page is opened under a language, so the switch is a plain link and pages stay static                        |
-| Error pages             | `error.md`: "Error boundaries must be Client Components"                                                                                                                                                                        | `error.tsx` reads the language with `useParams()` and imports its few strings from a small client dictionary, `errors.<lang>.json`, checked by the same test                    |
-| Typed routes            | `typescript.md`: links are checked against "all existing routes"; "For non-literal strings … cast with `as Route`"                                                                                                              | `localeHref(lang, path)` takes a path without the language and returns a `Route`                                                                                                |
-| The Devanagari font     | `font.md`: in the root layout a font "is preloaded on all routes"                                                                                                                                                               | `preload: false` for Noto Sans Devanagari, applied on Hindi pages only; criterion 8's CLS test settles it                                                                       |
-| `react/jsx-no-literals` | The rule's options: `noStrings`, `allowedStrings` (exact strings), `ignoreProps`                                                                                                                                                | `noStrings: true, ignoreProps: true`, with `allowedStrings` for the punctuation; digits written as `{n}`                                                                        |
-| Sidebar, tooltip, toast | shadcn: "always wrap your application in a `SidebarProvider`"; "Add the `TooltipProvider` to the root of your app"; "Add the Toaster component"                                                                                 | All three mounted once in the root layout; the registry's English labels ("Toggle Sidebar", "Close toast", "Command Palette") come from the dictionary                          |
-| The palette             | cmdk: with `shouldFilter={false}` "you must conditionally render valid items … yourself"; shadcn's Drawer stops at `calc(100dvh - 6rem)`                                                                                        | `shouldFilter={false}` (the sources filter); a Dialog made full screen on phones by CSS; its title inside the dialog                                                            |
-| Fixture pages           | `dynamic-routes.md`: without `generateStaticParams`, "param access must be wrapped by Suspense"                                                                                                                                 | `generateStaticParams` lists the screens; `error-check` moves under `[lang]`                                                                                                    |
-| `check-logical-css`     | Turborepo, "Registering Root Tasks": `"//#lint:root": {}` with `"lint": "turbo run lint lint:root"`                                                                                                                             | A root task, `//#lint:logical-css`, run by the root `lint`                                                                                                                      |
-| Sitemap                 | `sitemap.md`: a "localized Sitemap" with `alternates.languages`                                                                                                                                                                 | Each page listed once per language, with its alternates                                                                                                                         |
+| Item                    | What the docs say (quoted)                                                                                                                           | Built as                                                                                                                                                                                     |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Reading the language    | next-intl's routing setup: `i18n/request.ts` reads `rootParams.lang()` and calls `notFound()` for an unknown one                                     | `apps/web/i18n/request.ts`, as next-intl documents; the root layout keeps `generateStaticParams` (Cache Components needs it); no `dynamicParams`                                             |
+| The redirect            | i18n guide: `pathname.startsWith(`/${locale}/`) \|\| pathname === `/${locale}``, else redirect                                                       | The guide's check. Every other path is redirected, so `/fr/about` becomes `/en/fr/about`, a 404 inside the shell; `global-not-found` serves the paths the Proxy skips (files)                |
+| The `lang` cookie       | next-intl's `localeCookie` takes `maxAge` and `sameSite`, not `httpOnly`; it's written only for a page the person opens (`Sec-Fetch-Dest: document`) | Set by next-intl's middleware: `lang`, a year, `SameSite=Lax`; the language switch is a plain link (a full page load), so the cookie follows                                                 |
+| Error pages             | `error.md`: "Error boundaries must be Client Components"                                                                                             | `error.tsx` reads the language with `useParams()` and its strings from `messages/<locale>/errors.json` through `i18n/error-messages.ts`, so no ICU formatter reaches every page's JavaScript |
+| Typed routes            | `typescript.md`: links are checked against "all existing routes"; "For non-literal strings … cast with `as Route`"                                   | `localeHref(lang, path)` takes a path without the language and returns a `Route`                                                                                                             |
+| The Devanagari font     | `font.md`: in the root layout a font "is preloaded on all routes"                                                                                    | `preload: false` for Noto Sans Devanagari, applied on Hindi pages only; criterion 8's CLS test settles it                                                                                    |
+| `react/jsx-no-literals` | The rule's options: `noStrings`, `allowedStrings` (exact strings), `ignoreProps`                                                                     | `noStrings: true, ignoreProps: true`, with `allowedStrings` for the punctuation; digits written as `{n}`                                                                                     |
+| Sidebar, tooltip, toast | shadcn: "always wrap your application in a `SidebarProvider`"; "Add the `TooltipProvider` to the root of your app"; "Add the Toaster component"      | All three mounted once in the root layout; the registry's English labels ("Toggle Sidebar", "Close toast", "Command Palette") come from the dictionary                                       |
+| The palette             | cmdk: with `shouldFilter={false}` "you must conditionally render valid items … yourself"; shadcn's Drawer stops at `calc(100dvh - 6rem)`             | `shouldFilter={false}` (the sources filter); a Dialog made full screen on phones by CSS; its title inside the dialog                                                                         |
+| Fixture pages           | `dynamic-routes.md`: without `generateStaticParams`, "param access must be wrapped by Suspense"                                                      | `generateStaticParams` lists the screens; `error-check` moves under `[lang]`                                                                                                                 |
+| `check-logical-css`     | Turborepo, "Registering Root Tasks": `"//#lint:root": {}` with `"lint": "turbo run lint lint:root"`                                                  | A root task, `//#lint:logical-css`, run by the root `lint`                                                                                                                                   |
+| Sitemap                 | `sitemap.md`: a "localized Sitemap" with `alternates.languages`                                                                                      | Each page listed once per language, with its alternates                                                                                                                                      |
 
 Left to a test, since the docs don't settle them: which 404 shows when the
 root layout itself calls `notFound()`; whether the icon and share-image
@@ -268,7 +272,23 @@ palette opens from a shortcut.
 
 ## Tasks
 
-Progress (2026-10-21): tasks 1 to 9 built. Fonts use `display: "optional"`: a Hindi page reflowed by a line when Noto Sans Devanagari swapped in, and `cls.spec.ts` now passes with 0 on every page. Open before 001 is done: the owner's review of the fixtures (`/en/fixtures/states`, `/en/fixtures/list`) on a phone and `/interface-review`, and:
+Progress (2026-10-21): tasks 1 to 9 built, with `shell`, `keyboard` and
+`rtl` checks in `languages.spec.ts`, `keyboard.spec.ts` and `rtl.spec.ts`.
+Two trade-offs, recorded:
+
+- **Fonts use `display: "optional"`.** Swapping Noto Sans Devanagari in late
+  moved a Hindi page by a line, against criterion 8 (no layout shift). The
+  cost: a first visit on a slow network may keep the system's Devanagari
+  font for that page; the font is fetched anyway and later pages use it
+  (`languages.spec.ts` checks that).
+- **The palette ships with no sources,** as requirement 3 says ("Spec 001
+  builds the palette with no sources"), so it answers "Nothing matches"
+  until spec 003 adds Pokémon. The spec asks for it, so rule 4 (no dead
+  controls) yields here.
+
+Open before 001 is done: the owner's review of the fixtures
+(`/en/fixtures/states`, `/en/fixtures/list`) on a phone and
+`/interface-review`, and:
 
 - **The performance pass, last** (the owner, 2026-10-21). Lighthouse 13.5
   (mobile) on `/en`: LCP 3.5–4.0 s and TBT 0.8–1.0 s, the same as before

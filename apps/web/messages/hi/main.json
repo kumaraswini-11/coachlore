@@ -34,7 +34,6 @@
     "home": "Coachlore, होम पेज",
     "mainNav": "मुख्य",
     "leagueNav": "लीग",
-    "search": "खोजें",
     "searchHint": "पोकेमॉन, मूव, लीग खोजें…",
     "display": "डिस्प्ले: थीम और भाषा",
     "theme": "थीम",
@@ -53,7 +52,11 @@
       "me": "मैं"
     },
     "breadcrumb": "आप यहाँ हैं",
-    "homeCrumb": "होम"
+    "homeCrumb": "होम",
+    "searchShortcut": {
+      "other": "Ctrl K",
+      "mac": "⌘ K"
+    }
   },
   "footer": {
     "notice": "Coachlore एक स्वतंत्र, गैर-व्यावसायिक फ़ैन प्रोजेक्ट है। इसका Nintendo, Creatures, Game Freak या The Pokémon Company से कोई संबंध नहीं है, न ही उनका समर्थन या प्रायोजन। पोकेमॉन और उसके नाम उनके ट्रेडमार्क हैं।",
@@ -66,9 +69,10 @@
     "description": "पोकेमॉन, मूव, एबिलिटी, टाइप और अपनी लीग ढूँढें।",
     "placeholder": "पोकेमॉन, मूव, लीग खोजें…",
     "empty": "खोजने के लिए लिखें",
-    "noResults": "“{query}” से कुछ नहीं मिला",
+    "noResults": "“<q>{query}</q>” से कुछ नहीं मिला",
     "results": "{count, plural, one {# नतीजा} other {# नतीजे}}",
-    "close": "खोज बंद करें"
+    "close": "खोज बंद करें",
+    "searching": "खोज रहे हैं…"
   },
   "toast": {
     "close": "यह संदेश बंद करें"
@@ -136,7 +140,6 @@
     "noPermissionDescription": "जुड़ने के लिए किसी एडमिन से आमंत्रण लिंक माँगें।",
     "aiTitle": "आज की AI सीमा पूरी हो गई",
     "aiDescription": "AI मदद कल लौटेगी। बाक़ी सब पहले की तरह चलता है।",
-    "liveTitle": "लाइव अपडेट",
     "liveAction": "अगला पिक दिखाएँ",
     "livePick": "<name>{coach}</name> ने <en>{pokemon}</en> पिक किया",
     "listTitle": "एक लंबी सूची",

@@ -7,10 +7,16 @@
  * "गुर".
  */
 export function normalize(text: string) {
-  return text
-    .normalize("NFD")
-    .replace(/[\u0300-\u036F]/g, "")
-    .toLocaleLowerCase("en")
+  return (
+    text
+      .normalize("NFD")
+      .replace(/[\u0300-\u036F]/g, "")
+      .toLocaleLowerCase("en")
+      // Typed punctuation matches the data's: "farfetch'd" finds
+      // "Farfetch’d", and "rotom wash" finds "Rotom-Wash".
+      .replace(/[\u2018\u2019]/g, "'")
+      .replace(/[\s_-]+/g, " ")
+  )
 }
 
 /** Whether `text` contains the query, ignoring case and accents. */

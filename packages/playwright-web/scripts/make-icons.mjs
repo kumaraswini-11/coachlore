@@ -1,24 +1,38 @@
 // Renders Coachlore's raster icons (favicon.ico, apple-icon.png) and its
-// share image (opengraph-image.png) from the Playbook mark, the same drawing
-// as apps/web/app/icon.svg and components/shell/logo-mark.tsx. Run after
-// changing the mark: `bun run icons` in this package.
+// share image (opengraph-image.png) from the mark in the web app's
+// app/icon.svg, the one drawing (a test in apps/web keeps
+// components/shell/logo-mark.tsx the same). Run after changing the mark:
+// `bun run icons` in this package.
 import { Buffer } from "node:buffer"
-import { writeFileSync } from "node:fs"
-import { join } from "node:path"
+import { readFileSync, writeFileSync } from "node:fs"
+import { createRequire } from "node:module"
+import { dirname, join } from "node:path"
 import process from "node:process"
 import { chromium } from "@playwright/test"
 
-const app = join(import.meta.dirname, "..", "..", "..", "apps", "web", "app")
+// The web app, by its package name: a declared dependency of this package.
+const app = join(
+  dirname(createRequire(import.meta.url).resolve("web/package.json")),
+  "app"
+)
 
-const MARK = (color) => `
-  <g fill="none" stroke="${color}" stroke-linecap="round" stroke-linejoin="round">
-    <path stroke-width="2" d="M12 6.25C9.75 4.75 6.75 4.25 2.75 4.5v14c4-.25 7 .25 9.25 1.75 2.25-1.5 5.25-2 9.25-1.75v-14c-4-.25-7 .25-9.25 1.75z" />
-    <path stroke-width="1.75" d="M7.25 14.25C9 10 14 9.25 16.5 11.75" />
-    <path stroke-width="1.75" d="M14 11.5 16.75 12 17 9.25" />
-  </g>
-  <circle cx="6.5" cy="15" r="1.5" fill="${color}" />`
+// The mark's paths and dot, as drawn on its 24 × 24 grid in icon.svg.
+const source = readFileSync(join(app, "icon.svg"), "utf8")
+const paths = [
+  ...source.matchAll(/<path[^>]*stroke-width="([\d.]+)"[^>]*d="([^"]+)"/g),
+]
+const dot = source.match(/<circle[^>]*cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)"/)
+if (paths.length === 0 || !dot) {
+  throw new Error("No mark found in app/icon.svg")
+}
+const MARK = (color) =>
+  `<g fill="none" stroke="${color}" stroke-linecap="round" stroke-linejoin="round">${paths
+    .map(([, width, d]) => `<path stroke-width="${width}" d="${d}" />`)
+    .join(
+      ""
+    )}</g><circle cx="${dot[1]}" cy="${dot[2]}" r="${dot[3]}" fill="${color}" />`
 
-// A dark tile with the white mark, padded by a sixth on each side.
+// A dark tile with the white mark, padded by an eighth on each side.
 const tile = (
   size,
   radius
@@ -28,15 +42,19 @@ const tile = (
     <g transform="translate(4 4)">${MARK("#ffffff")}</g>
   </svg></body></html>`
 
-const og = `<!doctype html><html><head><style>
+// The share image: the mark and the name only, so it suits every language.
+// Inter, the app's font, from Google Fonts, so it renders the same on any
+// machine.
+const og = `<!doctype html><html><head>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=block" rel="stylesheet" />
+  <style>
   body { margin: 0; width: 1200px; height: 630px; background: #0a0a0a; color: #fff;
-    display: flex; align-items: center; gap: 96px; padding-inline-start: 136px;
-    box-sizing: border-box; font-family: "Segoe UI", Inter, system-ui, sans-serif; }
-  h1 { font-size: 104px; font-weight: 700; margin: 0; letter-spacing: -0.02em; line-height: 1.1 }
-  p { font-size: 40px; color: #a1a1aa; margin: 12px 0 0 }
+    display: flex; align-items: center; justify-content: center; gap: 56px;
+    font-family: Inter, sans-serif; }
+  h1 { font-size: 132px; font-weight: 700; margin: 0; letter-spacing: -0.03em }
 </style></head><body>
-  <svg xmlns="http://www.w3.org/2000/svg" width="168" height="168" viewBox="0 0 24 24">${MARK("#ffffff")}</svg>
-  <div><h1>Coachlore</h1><p>Pokédex and draft leagues</p></div>
+  <svg xmlns="http://www.w3.org/2000/svg" width="176" height="176" viewBox="0 0 24 24">${MARK("#ffffff")}</svg>
+  <h1>Coachlore</h1>
 </body></html>`
 
 const browser = await chromium.launch()
@@ -44,7 +62,9 @@ const page = await browser.newPage()
 
 async function shot(html, width, height, transparent) {
   await page.setViewportSize({ width, height })
-  await page.setContent(html)
+  await page.setContent(html, { waitUntil: "networkidle" })
+  // In the page, where `document` is: a string, as Playwright allows.
+  await page.evaluate("document.fonts.ready")
   return page.screenshot({
     clip: { x: 0, y: 0, width, height },
     omitBackground: transparent,

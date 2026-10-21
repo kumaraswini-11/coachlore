@@ -32,6 +32,12 @@ type Screen = (typeof SCREENS)[number]
 
 // Sample data: names stay English in every language (spec 001,
 // "Languages").
+const STANDINGS = [
+  { coach: "Ash", record: "5–1" },
+  { coach: "Misty", record: "4–2" },
+  { coach: "Brock", record: "3–3" },
+]
+
 const PICKS = [
   { coach: "Ash", pokemon: "Garchomp" },
   { coach: "Misty", pokemon: "Rotom-Wash" },
@@ -42,10 +48,13 @@ export function generateStaticParams() {
   return SCREENS.map((screen) => ({ screen }))
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps<"/[lang]/fixtures/[screen]">): Promise<Metadata> {
+  const { screen } = await params
   const t = await getTranslations("states")
   return {
-    title: t("title"),
+    title: screen === "list" ? t("listTitle") : t("title"),
     description: t("metaDescription"),
     robots: { index: false },
   }
@@ -66,9 +75,11 @@ export default async function FixturePage({
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-10 p-4 md:p-6">
-      <h1 className="text-2xl font-semibold">{t("title")}</h1>
+      <h1 className="text-2xl font-semibold">
+        {(screen as Screen) === "list" ? t("listTitle") : t("title")}
+      </h1>
       {(screen as Screen) === "list" ? (
-        <LongList title={t("listTitle")} row={(n) => t("row", { n })} />
+        <LongList row={(n) => t("row", { n })} />
       ) : (
         <States t={t} />
       )}
@@ -141,6 +152,19 @@ function States({ t }: { t: T }) {
           <AlertTitle>{t("offlineTitle")}</AlertTitle>
           <AlertDescription>{t("offlineDescription")}</AlertDescription>
         </Alert>
+        {/* The last data saved, still shown (spec 001, "Offline"). */}
+        <ItemGroup aria-label={t("lastSaved")}>
+          {STANDINGS.map((row) => (
+            <Item key={row.coach} role="listitem" variant="outline" size="sm">
+              <ItemContent>
+                <ItemTitle>
+                  <bdi>{row.coach}</bdi>
+                </ItemTitle>
+              </ItemContent>
+              <span className="tabular-nums">{row.record}</span>
+            </Item>
+          ))}
+        </ItemGroup>
         <Button className="h-11 self-start" disabled>
           {t("emptyAction")}
         </Button>
@@ -181,7 +205,7 @@ function States({ t }: { t: T }) {
           {POKEMON_TYPES.map((type) => (
             <li key={type}>
               {/* Type names are data, English in every language for now. */}
-              <TypeBadge type={type}>
+              <TypeBadge type={type} lang="en">
                 {type[0]?.toUpperCase() + type.slice(1)}
               </TypeBadge>
             </li>
@@ -196,29 +220,25 @@ function States({ t }: { t: T }) {
  * A long list under the sticky top bar, for criterion 9: a focused row is
  * never hidden under a sticky bar (WCAG 2.4.11).
  */
-function LongList({
-  title,
-  row,
-}: {
-  title: string
-  row: (n: number) => string
-}) {
+function LongList({ row }: { row: (n: number) => string }) {
   return (
-    <Section title={title}>
+    <section>
       <ItemGroup>
+        {/* ItemGroup is a list; a button row can't also be its item. */}
         {Array.from({ length: 40 }, (_, index) => (
-          <Item
-            key={index}
-            variant="outline"
-            render={<button type="button" />}
-            className="min-h-11 text-start"
-          >
-            <ItemContent>
-              <ItemTitle>{row(index + 1)}</ItemTitle>
-            </ItemContent>
-          </Item>
+          <div key={index} role="listitem">
+            <Item
+              variant="outline"
+              render={<button type="button" />}
+              className="min-h-11 w-full text-start"
+            >
+              <ItemContent>
+                <ItemTitle>{row(index + 1)}</ItemTitle>
+              </ItemContent>
+            </Item>
+          </div>
         ))}
       </ItemGroup>
-    </Section>
+    </section>
   )
 }

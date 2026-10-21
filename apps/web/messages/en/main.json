@@ -34,7 +34,6 @@
     "home": "Coachlore, home page",
     "mainNav": "Main",
     "leagueNav": "League",
-    "search": "Search",
     "searchHint": "Search Pokémon, moves, leagues…",
     "display": "Display: theme and language",
     "theme": "Theme",
@@ -53,7 +52,11 @@
       "me": "Me"
     },
     "breadcrumb": "You are here",
-    "homeCrumb": "Home"
+    "homeCrumb": "Home",
+    "searchShortcut": {
+      "other": "Ctrl K",
+      "mac": "⌘ K"
+    }
   },
   "footer": {
     "notice": "Coachlore is an independent, non-commercial fan project, not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak or The Pokémon Company. Pokémon and its names are their trademarks.",
@@ -66,9 +69,10 @@
     "description": "Find Pokémon, moves, abilities, types and your leagues.",
     "placeholder": "Search Pokémon, moves, leagues…",
     "empty": "Type to search",
-    "noResults": "Nothing matches “{query}”",
+    "noResults": "Nothing matches “<q>{query}</q>”",
     "results": "{count, plural, one {# result} other {# results}}",
-    "close": "Close search"
+    "close": "Close search",
+    "searching": "Searching…"
   },
   "toast": {
     "close": "Close this message"
@@ -136,7 +140,6 @@
     "noPermissionDescription": "Ask an admin for an invitation link to join it.",
     "aiTitle": "Today’s AI allowance is used",
     "aiDescription": "AI help returns tomorrow. Everything else works as usual.",
-    "liveTitle": "Live update",
     "liveAction": "Show the next pick",
     "livePick": "<name>{coach}</name> picked <en>{pokemon}</en>",
     "listTitle": "A long list",

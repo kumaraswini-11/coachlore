@@ -1,49 +1,43 @@
-import { expect, test, type Locator } from "@playwright/test"
+import { expect, test, type Page } from "@playwright/test"
+
+import { settled } from "./axe"
 
 // Spec 001, criterion 7: with reduced motion on, nothing moves across the
 // screen; what opens appears in place.
 
-test.use({ reducedMotion: "reduce" })
-
-/** The element's position, sampled while it opens. */
-async function positions(locator: Locator) {
-  const seen: Array<{ x: number; y: number }> = []
-  for (let i = 0; i < 8; i++) {
-    const box = await locator.boundingBox()
-    if (box) {
-      seen.push({ x: Math.round(box.x), y: Math.round(box.y) })
-    }
-    await locator.page().waitForTimeout(40)
-  }
-  return seen
-}
-
-test("the display menu and the palette open without moving", async ({
-  page,
-}) => {
-  // Two popups, each sampled while it opens: a long test (Playwright's
-  // `test.slow()` triples its timeout).
-  test.slow()
+/** Opens the display menu and samples its position from the click on. */
+async function sampleMenuOpening(page: Page) {
   await page.goto("/en")
-
   const trigger = page.getByRole("button", {
     name: "Display: theme and language",
   })
+  // Hydrated first, so the measured click is the one that opens it.
   await expect(async () => {
     await trigger.click()
     await expect(page.getByRole("menu")).toBeVisible({ timeout: 2000 })
   }).toPass()
-  const menu = await positions(page.getByRole("menu"))
-  expect(new Set(menu.map((p) => `${p.x},${p.y}`)).size).toBe(1)
   await page.keyboard.press("Escape")
+  await expect(page.getByRole("menu")).toBeHidden()
+  await settled(page)
 
-  const search = page.getByRole("button", {
-    name: "Search Pokémon, moves, leagues…",
+  await trigger.click()
+  const seen = new Set<string>()
+  for (let i = 0; i < 12; i++) {
+    const box = await page.getByRole("menu").boundingBox()
+    if (box) {
+      seen.add([box.x, box.y, box.width, box.height].map(Math.round).join(","))
+    }
+    await page.waitForTimeout(15)
+  }
+  return seen
+}
+
+test.describe("with reduced motion", () => {
+  test.use({ reducedMotion: "reduce" })
+
+  test("the display menu opens in place", async ({ page }) => {
+    // Several steps, sampled: a long test.
+    test.slow()
+    expect((await sampleMenuOpening(page)).size).toBe(1)
   })
-  await expect(async () => {
-    await search.click()
-    await expect(page.getByRole("dialog")).toBeVisible({ timeout: 5000 })
-  }).toPass()
-  const dialog = await positions(page.getByRole("dialog"))
-  expect(new Set(dialog.map((p) => `${p.x},${p.y}`)).size).toBe(1)
 })

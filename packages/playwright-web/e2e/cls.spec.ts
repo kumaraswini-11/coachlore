@@ -13,8 +13,10 @@ const PATHS = [
   "/en/legal",
   "/hi/legal",
   "/en/offline",
+  "/hi/offline",
   "/en/fixtures/states",
   "/hi/fixtures/states",
+  "/en/fixtures/list",
 ]
 
 for (const path of PATHS) {
@@ -52,9 +54,10 @@ for (const path of PATHS) {
         }
       }).observe({ type: "layout-shift", buffered: true })
     })
-    await page.goto(path, { waitUntil: "networkidle" })
+    await page.goto(path)
     await page.evaluate(() => document.fonts.ready)
-    await page.waitForTimeout(500)
+    // Late shifts (a font, a hydrated control) land in this window.
+    await page.waitForTimeout(1000)
     const { cls, shifts } = await page.evaluate(() => {
       const w = window as unknown as { __shifts: string[]; __cls: number }
       return { cls: w.__cls, shifts: w.__shifts }

@@ -99,9 +99,14 @@ export function Shortcuts() {
       if (key === SHORTCUT_KEYS.theme) {
         setTheme(resolvedTheme === "dark" ? "light" : "dark")
       } else if (key === SHORTCUT_KEYS.search) {
-        // `/` would otherwise start the browser's find-in-page in Firefox.
-        event.preventDefault()
-        window.dispatchEvent(new Event(OPEN_SEARCH_EVENT))
+        // Only a page with a palette takes `/` (its search button cancels
+        // this event); elsewhere Firefox's quick find keeps it.
+        const unhandled = window.dispatchEvent(
+          new Event(OPEN_SEARCH_EVENT, { cancelable: true })
+        )
+        if (!unhandled) {
+          event.preventDefault()
+        }
       }
     }
 

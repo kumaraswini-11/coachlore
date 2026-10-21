@@ -60,14 +60,16 @@ to scan the apps and this package for class names.
 ## Adding components
 
 Check the [shadcn/ui registry](https://ui.shadcn.com/docs/components) before
-writing a component. Add one with the CLI, from the repository root, at
-the version pinned in this package's `package.json` (4.21.3 today), not
-`@latest` (AGENTS.md, "Versions"). This package's own copy is that version
+writing a component. Add one with the CLI at the version pinned in this
+package's `package.json` (4.21.3 today), not `@latest` (AGENTS.md,
+"Versions"). Run from this folder, `bunx shadcn` resolves this package's own
+copy, which is that version, wherever Bun installed it
 (`bunx --bun shadcn@4.21.3` fails on Windows with Bun 1.3.8: "Cannot find
 package 'prompts'"):
 
 ```bash
-packages/ui/node_modules/.bin/shadcn add <component> -c apps/web
+cd packages/ui
+bunx shadcn add <component> -c ../../apps/web
 ```
 
 Four things the CLI does that aren't obvious (seen with 4.21.3):

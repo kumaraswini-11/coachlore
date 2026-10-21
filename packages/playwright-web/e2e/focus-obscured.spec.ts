@@ -32,6 +32,7 @@ test("tabbing down a long list never hides a row under the top bar", async ({
   // And back up: shift-tab keeps rows clear of the top bar too.
   for (let index = 38; index >= 0; index--) {
     await page.keyboard.press("Shift+Tab")
+    await expect(rows.nth(index)).toBeFocused()
     const box = await rows.nth(index).boundingBox()
     expect(box!.y, `row ${index + 1}`).toBeGreaterThanOrEqual(
       header!.y + header!.height - 1

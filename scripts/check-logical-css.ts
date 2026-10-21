@@ -52,8 +52,10 @@ const PHYSICAL_CSS =
 const PHYSICAL_STYLE =
   /\b(?:margin|padding|border|scrollMargin|scrollPadding)(?:Left|Right)\b|\b(?:left|right)\s*:|textAlign\s*:\s*["'](?:left|right)["']/
 const ARROWS = /[←→‹›]/
+// With or without Lucide's `Icon` suffix: `<ChevronLeft>`,
+// `<ArrowLeftCircleIcon>`.
 const DIRECTION_ICON =
-  /<(?:Chevron|Chevrons|Arrow|ArrowBig|CircleArrow|Move)(?:Left|Right)\w*Icon\b[^>]*>/g
+  /<(?:Chevron|Chevrons|Arrow|ArrowBig|CircleArrow|Move)(?:Left|Right)\w*\b[^>]*>/g
 
 // Comments may describe directions; only code is checked. Block comments
 // keep their line breaks, so line numbers stay right.
@@ -73,10 +75,12 @@ for (const directory of DIRECTORIES) {
   for (const file of files(join(ROOT, directory))) {
     const name = relative(ROOT, file).replaceAll("\\", "/")
     if (file.endsWith(".css")) {
-      readFileSync(file, "utf8")
+      // Comments come out of the whole file first, so a line inside a
+      // multi-line comment isn't checked.
+      withoutComments(readFileSync(file, "utf8"))
         .split("\n")
         .forEach((line, index) => {
-          if (PHYSICAL_CSS.test(withoutComments(line))) {
+          if (PHYSICAL_CSS.test(line)) {
             problems.push(`${name}:${index + 1}: ${line.trim()}`)
           }
         })

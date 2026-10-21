@@ -22,9 +22,9 @@ function TypeBadge({
 >) {
   return (
     <Badge
+      {...props}
       data-type={type}
       className={cn(TYPE_CLASS_NAMES[type], className)}
-      {...props}
     />
   )
 }

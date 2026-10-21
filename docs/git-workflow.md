@@ -84,7 +84,7 @@ Any other origin (a global or system file) or any other address means the clone 
    git switch -c feat/move-search
    ```
 
-3. **Check.** Run the repository's checks (the root `package.json` scripts) and keep their output for the owner. Commit nothing until they pass; the owner audits at the group's checkpoints and on the pull request.
+3. **Check.** Run every command in AGENTS.md's "Commands" list (`lint`, `typecheck`, `test`, `build`, the Prettier check) and keep their output for the owner; each must pass. Commit nothing until they pass; the owner audits at the group's checkpoints and on the pull request.
 4. **Commit in logical pieces.** Stage named paths, never `git add -A`. Run the before-commit checks, then commit with a conventional message (`feat:`, `fix:`, `docs:`, `chore:`), then run the after-commit check.
 
    ```sh

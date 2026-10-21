@@ -110,6 +110,20 @@ test("Hindi pages use the Devanagari font; English pages don't", async ({
   expect(
     await page.evaluate(() => getComputedStyle(document.body).fontFamily)
   ).toMatch(/Noto Sans Devanagari/)
+  // With `display: "optional"` a first visit may keep the system's font;
+  // the font is fetched anyway, so the next page has it (lib/fonts.ts).
+  await page.evaluate(() => document.fonts.ready)
+  await page.goto("/hi/about")
+  await page.evaluate(() => document.fonts.ready)
+  expect(
+    await page.evaluate(() =>
+      [...document.fonts].some(
+        (font) =>
+          font.family.includes("Noto Sans Devanagari") &&
+          font.status === "loaded"
+      )
+    )
+  ).toBe(true)
   await page.goto("/en")
   expect(
     await page.evaluate(() => getComputedStyle(document.body).fontFamily)
