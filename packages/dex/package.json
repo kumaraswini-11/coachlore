@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint --max-warnings 0",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "fetch": "bun scripts/fetch.ts"
   },
   "exports": {
     ".": "./src/index.ts"
