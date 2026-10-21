@@ -1,8 +1,8 @@
 # 000: Platform
 
-| Status  | Owner             | Written    |
-| ------- | ----------------- | ---------- |
-| Written | Aswini Kumar Sahu | 2026-10-21 |
+| Status | Owner             | Written    |
+| ------ | ----------------- | ---------- |
+| Done   | Aswini Kumar Sahu | 2026-10-21 |
 
 ## Goal
 
@@ -103,3 +103,8 @@ None. The error pages (`error.tsx`, `global-error.tsx`) keep their look
 
 - 2026-10-21: written.
 - 2026-10-21: audit: previews never reach production's data.
+- 2026-10-21: done. Criterion 1 checked with `curl` after pull request 4
+  reached `main`: the canonical link, `og:url`, `robots.txt` and the
+  sitemap all use `https://coachlore.vercel.app`. Reports carry no page
+  address, since a path can hold a secret (an invitation is
+  `/join/<token>`); the route's pattern names the page.

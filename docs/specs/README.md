@@ -18,8 +18,10 @@ Each spec is a folder, `docs/specs/NNN-name/`, with two files:
 | `plan.md` | How this repository builds it: the packages and files, the data model, the API and events, the jobs, the tests that prove each acceptance criterion, any new decision (as a table with sources), and the ordered tasks. |
 
 - **Tasks** are in `plan.md`, in order, each small enough to review in one
-  sitting and each with "done when". A task is checked, audited by the
-  owner, committed, then the next begins (AGENTS.md, "Work loop").
+  sitting and each with "done when". A task is checked, committed, then
+  the next begins. Specs are built in groups, one branch and pull request
+  per group, and the owner audits at the group's checkpoints (AGENTS.md,
+  "Work loop").
 - **Done** means every acceptance criterion in `spec.md` passes, shown by a
   test or a check that runs, not by a claim. Then the spec's row below is
   marked done.
@@ -165,7 +167,7 @@ stand. The owner can change any of them; the spec named changes with it.
 
 | #   | Spec                                                     | Goal                                                                                                                                   | Routes and screens it owns                                                                                                      | Status  |
 | --- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| 000 | [Platform](000-platform/spec.md)                         | The web app deploys on every merge to `main`, with a preview for every pull request, secrets kept out of the code, and errors reported | none                                                                                                                            | Written |
+| 000 | [Platform](000-platform/spec.md)                         | The web app deploys on every merge to `main`, with a preview for every pull request, secrets kept out of the code, and errors reported | none                                                                                                                            | Done    |
 | 001 | [Interface](001-interface/spec.md)                       | The design system, the app shell and every state, so each later screen is assembled, not designed from scratch                         | the app shell, the search palette (empty), `/about`, `/legal`, not found, `/offline`                                            | Written |
 | 002 | [Pokémon data](002-pokemon-data/spec.md)                 | Our own Pokémon dataset, Pokémon and forms modelled correctly, imported from public sources and refreshable                            | none                                                                                                                            | Written |
 | 003 | [Dex browse](003-dex-browse/spec.md)                     | Find any Pokémon fast on a phone, online or off                                                                                        | `/`, `/dex`, `/games/[game]`; the search palette's Dex results; the offline Dex                                                 | Written |
