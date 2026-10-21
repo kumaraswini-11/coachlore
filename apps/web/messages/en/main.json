@@ -136,7 +136,20 @@
     "aiDescription": "AI help returns tomorrow. Everything else works as usual.",
     "liveTitle": "Live update",
     "liveAction": "Show the next pick",
-    "livePick": "{coach} picked {pokemon}",
-    "listTitle": "A long list"
+    "livePick": "<name>{coach}</name> picked <en>{pokemon}</en>",
+    "listTitle": "A long list",
+    "sections": {
+      "loading": "Loading",
+      "empty": "Empty",
+      "error": "Error",
+      "notFound": "Not found",
+      "offline": "Offline",
+      "noPermission": "No permission",
+      "ai": "AI unavailable",
+      "live": "Live update",
+      "types": "Type badges"
+    },
+    "row": "Row {n, number}",
+    "lastSaved": "Last saved standings"
   }
 }

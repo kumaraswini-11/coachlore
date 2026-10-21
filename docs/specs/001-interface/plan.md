@@ -268,7 +268,7 @@ palette opens from a shortcut.
 
 ## Tasks
 
-Progress (2026-10-21): tasks 1 to 7 built. Open before 001 is done:
+Progress (2026-10-21): tasks 1 to 8 built (the fixtures at `/en/fixtures/states` and `/en/fixtures/list` wait for the owner's review on a phone). Open before 001 is done:
 
 - **Performance:** after the shell, `/en` is 306 KB with LCP 2.7–2.9 s on
   a throttled mid-range phone (Playwright, 4× CPU, slow 4G), over the 2.5 s
