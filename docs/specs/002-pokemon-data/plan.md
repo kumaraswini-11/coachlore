@@ -14,20 +14,21 @@
 
 ```text
 packages/
-  eslint-config/core.js            new: base + no framework, DOM or storage imports
-  typescript-config/core.json      new: base without the DOM libraries
-  dex/                             new: @workspace/dex
-    package.json                   exports ".", "./files"; dev deps for the import only
+  eslint-config/core.js            base + no framework, DOM or storage imports
+  typescript-config/core.json      base without the DOM libraries
+  dex/                             @workspace/dex
+    package.json                   exports ".", "./files", "./type-chart"; sideEffects false; dev deps for the import only
     sources.json                   the pins (below)
     overrides/
       overrides.json               hand fixes: path, value, reason, link
       excluded-forms.json          forms left out (Totem forms…), each with a reason
       showdown-exceptions.json     Showdown names that don't match by rule
+      exclusives.json              version exclusives per game, each with a link (the source has none)
     src/
       types.ts                     the data model (below)
       index.ts                     synchronous: forms, types, chart, moves, abilities, games, battle names
       files.ts                     asynchronous, Node only: a Pokémon's detail, a form's learnset, usage
-      type-chart.ts                effectiveness(attacking, defending[])
+      type-chart.ts                multiplier(chart, attacking, defending[]); spec 004 adds defensiveMatchups
       *.test.ts
     data/                          generated, committed; in .prettierignore
       forms.json                   the form list (≤ 150 KB gzip)
@@ -49,6 +50,10 @@ anywhere, the browser included (the grid, search, filters, the type chart
 and the team check need only it). `@workspace/dex/files` reads the large
 per-Pokémon and per-form files with `node:fs`, for Server Components at
 build time, the server and scripts; the browser never loads it.
+`@workspace/dex/type-chart` is the arithmetic alone, with no JSON, for a
+Client Component that is given the chart; `"sideEffects": false` lets the
+bundler drop what a page doesn't use. `bundle.test.ts` fails if importing
+`multiplier` pulls in `forms.json`.
 
 ## Data model
 
@@ -148,20 +153,29 @@ type Usage = {
 1. **Fetch** (`fetch.ts`) into `packages/dex/.cache/`, only what's missing:
    - `api-data` as a tarball of the pinned commit
      (`codeload.github.com/PokeAPI/api-data/tar.gz/<commit>`), extracted
-     with the system `tar`;
+     with the system `tar`; its files are
+     `data/api/v2/<endpoint>/<id>/index.json`, keyed by ID, not name;
    - Smogon's chaos files for the pinned month: `gen9ou-1500.json` and
      `gen9doublesou-1500.json` (both exist for 2026-09).
-2. **Types and the chart** from `type/<id>`'s current `damage_relations`.
+2. **Types and the chart** from `type/<id>`'s current `damage_relations`,
+   for the eighteen battle types only: the source also lists `stellar`
+   (Terastal), `unknown` and `shadow` (Colosseum), which no form has.
 3. **Pokémon and forms** from `pokemon-species/<id>` (its `varieties`, one
    `is_default`) and `pokemon/<id>` (types, stats, abilities, height,
-   weight), with `pokemon-form/<id>`'s `is_battle_only`; minus
+   weight), with `is_battle_only` from the `pokemon-form` that
+   `pokemon/<id>`'s `forms[0].url` names (the IDs differ: `pokemon/10009`
+   is Rotom-Wash, `pokemon-form/10009` is Unown J); minus
    `excluded-forms.json`. A `pokemon-form` that isn't a `pokemon` of its
    own is cosmetic and adds nothing. Each form's `kind` comes from
    `is_default` and its `pokemon-form`'s `is_mega` and form name (a regional
    name such as `alola`, `galar`, `hisui` or `paldea`, or `gmax`); anything
    else is `other`. `sprite` is set when the image step wrote one.
 4. **Abilities and moves** with their English short effects
-   (`effect_chance` substituted).
+   (`effect_chance` substituted): main-series abilities only
+   (`is_main_series`), and no Shadow moves (type `shadow`, Colosseum and
+   XD). A move with no English effect (most of Generation 9's, such as Tera
+   Blast and Dire Claw) takes its newest English flavour text;
+   `no-effect.test.ts` lists those moves, so an override can replace one.
 5. **Evolutions** from `evolution-chain/<id>`, each step with its trigger
    and conditions as data, not text.
 6. **Entries and names** from `pokemon-species/<id>` (English entries,
@@ -169,7 +183,13 @@ type Usage = {
 7. **Learnsets** from `pokemon/<id>`'s `moves`, grouped by version group.
 8. **Games** from `version-group`, `version` and `pokedex`; encounters from
    `pokemon/<id>/encounters`; a game is `encountersCovered` if any of its
-   versions has encounter data.
+   versions has encounter data. A version group can list several Pokédexes
+   (Scarlet and Violet: Paldea, Kitakami, Blueberry), and a Pokédex lists
+   species, not forms: a species becomes its form native to that region
+   (Paldea's Tauros is `tauros-paldea-combat-breed`), by the region's name
+   in the form's key, else its default form. The source has no version
+   exclusives, so `onlyIn` comes from `overrides/exclusives.json`, entered
+   by hand with a link for each game.
 9. **Battle names** from `@pkmn/dex` and `@pkmn/data` (pinned, dev
    dependencies only): every species and forme of Generation 9, matched to
    our forms by their IDs with non-letters removed (`rotomwash` ↔
@@ -210,6 +230,12 @@ type Usage = {
   }
 }
 ```
+
+The first pins (checked 2026-10-22): `api-data` at `cdf597a50f27`
+(2026-10-07), `sprites` at `d72f64eb7491` (2026-10-07), Smogon's 2026-09
+files (2026-10 isn't published yet), `@pkmn/dex` and `@pkmn/data` 0.10.11
+(2026-06-18, the latest). The sprites repository is about 25 GB, so its
+images are downloaded one file at a time, never as a tarball.
 
 `@pkmn/dex` and `@pkmn/data` are pinned in `package.json` like any
 dependency. `imported` is the day the import last ran against that pin,
@@ -255,7 +281,7 @@ None: the import runs from a command, and its output is committed.
 
 | Acceptance criterion | Proved by                                                                                                                                                                           |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                    | `hand-checked.test.ts`: the ten forms' values, typed in by the owner from the games, each with where it was checked                                                                 |
+| 1                    | `hand-checked.test.ts`: the forms' values, recorded from the games or a named reference, each with where it was checked; spec 004's ten share the file                              |
 | 2                    | `showdown.test.ts`: every Generation 9 species and forme from `@pkmn/data` maps to exactly one form; unmapped names listed; `gen9` and `tags` on Koraidon, Mew and Mega Charizard X |
 | 3                    | `integrity.test.ts`: every key referred to exists                                                                                                                                   |
 | 4                    | `import.test.ts`: the import on a fixed sample of `api-data` (five Pokémon, committed under `test/fixtures/`) run twice gives identical bytes; one full run by hand                 |
@@ -279,15 +305,16 @@ None: the import runs from a command, and its output is committed.
 
 ## Tasks
 
-1. **Core conventions.** `core.js`, `core.json`, the empty `@workspace/dex`
-   with Vitest, wired into Turborepo's `lint`, `typecheck` and the `test`
-   task spec 000 added. Done when an empty test runs in CI.
-2. **The model.** `types.ts` and `type-chart.ts` with its tests (the chart
-   from a small fixture). Done when the types compile and the chart tests
-   pass.
-3. **Owner: the ten.** The owner records the ten forms' types, base stats,
-   abilities and evolutions from the games in `hand-checked.test.ts`. Done
-   when the file is committed (the test fails until the import exists).
+1. **Core conventions.** Done: `core.js`, `core.json`, the empty
+   `@workspace/dex` with Vitest, wired into Turborepo's `lint`, `typecheck`
+   and `test`.
+2. **The model.** Done: `types.ts` and `type-chart.ts` with its tests.
+3. **Owner: the hand-checked forms.** The file is committed with a blank
+   record for each form in this spec's criterion 1 and spec 004's criterion
+   2 (19 records: Charizard's two Megas and Urshifu's two styles are their
+   own records). Each record holds types, base stats, abilities and the
+   evolution step into it, from the games or a named reference; an unchecked
+   one is a todo. Done when every record is checked.
 4. **Fetch and pins.** `sources.json`, `fetch.ts`, `.cache/` gitignored.
    Done when the pinned sources download once and are reused.
 5. **Import: Pokémon, forms, types, abilities, moves.** Steps 2 to 4, 11

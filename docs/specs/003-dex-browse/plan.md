@@ -11,22 +11,33 @@
 
 ## Packages and files
 
-| Path                                                 | What                                                                                                                                                                                                                                                                                                                  |
-| ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `packages/dex/src/filter.ts`                         | `dexFilter` (a Zod schema, type `DexFilter`), `filterForms(index, filters)` and `sortForms(forms, sort)`: pure, over the browser index. Zod comes from the workspace catalog; it's a validation library, not a framework or storage, so the core rule holds. Spec 012 parses the model's filters with the same schema |
-| `apps/web/lib/dex.ts`                                | The web app's only reader of `packages/dex`: each read wrapped in `"use cache"`                                                                                                                                                                                                                                       |
-| `apps/web/lib/dex-query.ts`                          | Filters and sort to and from the query string (`parseDexQuery`, `toDexQuery`); unknown values dropped                                                                                                                                                                                                                 |
-| `apps/web/app/[lang]/page.tsx`                       | Home                                                                                                                                                                                                                                                                                                                  |
-| `apps/web/app/[lang]/dex/page.tsx`                   | Browse the Dex                                                                                                                                                                                                                                                                                                        |
-| `apps/web/app/[lang]/games/[game]/page.tsx`          | A game's Dex; `generateStaticParams` lists every game with a Pokédex, for each language from the layout's params (`dynamicParams = false`)                                                                                                                                                                            |
-| `apps/web/components/dex/dex-browser.tsx`            | Client: reads the query, loads the index, filters, sorts, renders grid or list                                                                                                                                                                                                                                        |
-| `apps/web/components/dex/form-card.tsx`              | One card: sprite, number, name, type badges; a link                                                                                                                                                                                                                                                                   |
-| `apps/web/components/dex/dex-filters.tsx`            | The filter panel (desktop) and sheet (phone), and the chips                                                                                                                                                                                                                                                           |
-| `apps/web/components/dex/recently-viewed.tsx`        | Client: reads and writes the recently viewed list in `localStorage` (guarded with try/catch)                                                                                                                                                                                                                          |
-| `apps/web/components/offline/offline-notice.tsx`     | Client: the offline Alert, from `navigator.onLine` and the `online`/`offline` events                                                                                                                                                                                                                                  |
-| `apps/web/components/offline/sw-register.tsx`        | Client: registers the service worker, in production only                                                                                                                                                                                                                                                              |
-| `apps/web/app/sw.js/route.ts`                        | The service worker, served by a static Route Handler so its cache name carries the deployment's commit                                                                                                                                                                                                                |
-| `apps/web/app/manifest.ts`, `apps/web/public/icons/` | The manifest (exists) gains `icon-192.png` and `icon-512.png`, rendered from `icon.svg` at build of the icons, committed                                                                                                                                                                                              |
+| Path                                                 | What                                                                                                                                                                                                                                                                                                                                                                   |
+| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `packages/dex/src/filter.ts`                         | `dexFilter` (a Zod schema, type `DexFilter`), `filterForms(index, filters)` and `sortForms(forms, sort)`: pure, over the browser index. Zod 4.6.5 goes into the workspace catalog (the newest release at least two weeks old); it's a validation library, not a framework or storage, so the core rule holds. Spec 012 parses the model's filters with the same schema |
+| `apps/web/lib/dex.ts`                                | The web app's only reader of `packages/dex`: each read wrapped in `"use cache"`                                                                                                                                                                                                                                                                                        |
+| `apps/web/lib/dex-query.ts`                          | Filters and sort to and from the query string (`parseDexQuery`, `toDexQuery`); unknown values dropped                                                                                                                                                                                                                                                                  |
+| `apps/web/app/[lang]/page.tsx`                       | Home                                                                                                                                                                                                                                                                                                                                                                   |
+| `apps/web/app/[lang]/dex/page.tsx`                   | Browse the Dex                                                                                                                                                                                                                                                                                                                                                         |
+| `apps/web/app/[lang]/games/[game]/page.tsx`          | A game's Dex; `generateStaticParams` lists every game with a Pokédex, for each language from the layout's params; an unknown game is a 404 from the Proxy (spec 004, "Builds on")                                                                                                                                                                                      |
+| `apps/web/components/dex/dex-browser.tsx`            | Client: reads the query, loads the index, filters, sorts, renders grid or list                                                                                                                                                                                                                                                                                         |
+| `apps/web/components/dex/form-card.tsx`              | One card: sprite, number, name, type badges; a link                                                                                                                                                                                                                                                                                                                    |
+| `apps/web/components/dex/dex-filters.tsx`            | The filter panel (desktop) and `Drawer` from the bottom (phone), and the chips; each filter's control named in "Components" below                                                                                                                                                                                                                                      |
+| `apps/web/components/dex/recently-viewed.tsx`        | Client: reads and writes the recently viewed list in `localStorage` (guarded with try/catch)                                                                                                                                                                                                                                                                           |
+| `apps/web/components/offline/offline-notice.tsx`     | Client: the offline Alert, from `navigator.onLine` and the `online`/`offline` events                                                                                                                                                                                                                                                                                   |
+| `apps/web/components/offline/sw-register.tsx`        | Client: registers the service worker, in production only                                                                                                                                                                                                                                                                                                               |
+| `apps/web/app/sw.js/route.ts`                        | The service worker, served by a static Route Handler so its cache name carries the deployment's commit                                                                                                                                                                                                                                                                 |
+| `apps/web/app/manifest.ts`, `apps/web/public/icons/` | The manifest (exists) gains `icon-192.png` and `icon-512.png`, rendered from `icon.svg` at build of the icons, committed                                                                                                                                                                                                                                               |
+| `apps/web/proxy.ts`                                  | The matcher also excludes `sw.js`, `dex-images/`, `dex-data/` and `icons/`: Proxy runs on "assets in the `public/` folder" (bundled docs: `proxy.md`), so next-intl would redirect them to `/en/…`, a 404. `proxy.test.ts` checks each                                                                                                                                 |
+| `turbo.json`                                         | The build's `env` gains `VERCEL_GIT_COMMIT_SHA`: in Strict Mode a task sees "only those that are specified in the `globalEnv` and `env` keys" (Turborepo's `using-environment-variables.mdx`), so without it every deployment's cache is named `dev`                                                                                                                   |
+
+## Components
+
+All from the shadcn registry (`packages/ui/README.md`, "Which component").
+Added with the CLI into `packages/ui`: `Toggle Group` for grid or list,
+`Select` for sort and the game and version pickers, `Combobox` for ability,
+`Slider` for the stat ranges (the registry has no number field). Already
+installed: `Drawer` for the filters on a phone, `Badge`, `Button`, `Input`
+and `Alert`. A card is a `Link`.
 
 ## Data model
 
@@ -68,9 +79,20 @@ The query string (all optional; lists are comma-separated):
   with the same card sizes, so the first paint is real content and nothing
   shifts when the client takes over.
 - The index is loaded by a dynamic `import()` of its JSON module, so it's a
-  hashed static file the browser and the service worker cache.
+  hashed chunk under `/_next/static/`, which the browser and the service
+  worker cache.
 - Filtering runs inside `startTransition`, and the text box uses
   `useDeferredValue`, so typing stays responsive.
+- A filter change writes the address with `window.history.pushState`, so
+  Back undoes it; typing in the text box uses `replaceState`. Next.js
+  documents both as updating the address "without reloading the page" and
+  integrating "with `useSearchParams`" (bundled docs:
+  `04-linking-and-navigating.md`); neither makes a request (criterion 4).
+- Cards prefetch on intent (hover or focus), not when they scroll into view:
+  "As each `<Link>` enters the viewport, Next.js prefetches", and for "a
+  grid of cards … Prefetch on intent instead" (bundled docs:
+  `prefetching.md`, `optimizing-prefetching.md`). So filtering the grid
+  sends no prefetches.
 - Cards use `content-visibility: auto` with a fixed intrinsic size, and
   sprites `loading="lazy"` with width and height set.
 - Home is static; recently viewed renders on the client after hydration in
@@ -81,10 +103,11 @@ The query string (all optional; lists are comma-separated):
 
 | Request                                                                                                                                                      | Strategy                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
-| `/_next/static/*`, `/dex-images/*`, `/dex-data/*`                                                                                                            | Cache first (file names are hashed, or fixed for a deployment)              |
+| `/_next/static/*` (the form index included), `/dex-images/*`, `/dex-data/*` (spec 005's learnable moves)                                                     | Cache first (file names are hashed, or fixed for a deployment)              |
 | Documents and RSC requests for `/<lang>/`, `/<lang>/dex*`, `/<lang>/games/*`, `/<lang>/types`, `/<lang>/moves*`, `/<lang>/abilities/*`, `/<lang>/team-check` | Network first, saved on success, the saved copy when offline                |
 | Anything else (Leagues, `/api/*`, `/me`)                                                                                                                     | Network only                                                                |
 | A document with no saved copy, offline                                                                                                                       | `/<lang>/offline`, the language taken from the request's first path segment |
+| `/` (the manifest's `start_url`, which has no language), offline                                                                                             | The saved `/<lang>/` for the language `sw-register` last posted, else `en`  |
 
 - On install it saves nothing language-specific; when a page loads,
   `sw-register` posts its language to the worker, which then saves
@@ -94,12 +117,15 @@ The query string (all optional; lists are comma-separated):
   data under `/dex-data/*` and the sprites are language-neutral and saved
   once.
 - The cache name includes the deployment's commit (`VERCEL_GIT_COMMIT_SHA`,
-  `dev` locally). On activate, caches from other deployments are deleted, so
+  passed to the build by `turbo.json`; `dev` locally; `offline-update.spec.ts`
+  sets two different values). On activate, caches from other deployments are deleted, so
   a new deploy replaces the old copy whole (spec, requirement 5.4).
 - `/sw.js` is served with `Cache-Control: no-cache, no-store, must-revalidate`
   and `Content-Type: application/javascript; charset=utf-8`, as Next.js's
   PWA guide shows, and registered with `updateViaCache: "none"`.
-- The site's CSP already allows it: `default-src 'self'` covers workers.
+- The site's CSP already allows it: a worker script falls under
+  `script-src 'self'`. `/sw.js` also gets its own policy,
+  `default-src 'self'; script-src 'self'`, as the PWA guide shows.
 
 ## API
 
@@ -118,7 +144,7 @@ None.
 | Item            | What the docs say (quoted)                                                                                                                                                                                                                                                            | Options                                                               | Decision                                                                                                                                                                                                                              |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Offline caching | Next.js's PWA guide: "For full service-worker-based offline caching, one option is [Serwist]"; `useOffline` is "experimental" and covers "connectivity detection and automatic retry", not caching (bundled docs: `02-guides/progressive-web-apps.md`, `04-functions/use-offline.md`) | A small service worker of our own; Serwist; `experimental.useOffline` | Our own service worker (the table above): one file, no dependency, rules we can read. Task 6 checks that client-side navigation works offline; if it can't without matching the router's requests, Serwist replaces it, recorded here |
-| Connectivity    | –                                                                                                                                                                                                                                                                                     | `navigator.onLine` and its events; `useOffline`                       | `navigator.onLine` and the `online`/`offline` events: stable, no experimental flag                                                                                                                                                    |
+| Connectivity    | `use-offline.md`: `navigator.onLine` "still reports `true` for a device on WiFi with no upstream internet"; `useOffline` is "experimental"                                                                                                                                            | `navigator.onLine` and its events; `useOffline`                       | `navigator.onLine` and the `online`/`offline` events: stable, no experimental flag. A connected Wi-Fi with no internet shows no notice; pages still come from the saved copy when the network fails                                   |
 | Images          | Vercel Hobby includes "First 5,000" image transformations ([Hobby](https://vercel.com/docs/plans/hobby))                                                                                                                                                                              | `next/image` optimisation; plain images at their final size           | Sprites are prepared at their display size by spec 002's import and served as they are (`next/image` with `unoptimized`), so the free limit never applies                                                                             |
 | A long grid     | –                                                                                                                                                                                                                                                                                     | Render every card with `content-visibility`; a virtualised list       | `content-visibility` first; a virtualised list (TanStack Virtual) only if acceptance criterion 5 fails, recorded here                                                                                                                 |
 
@@ -164,7 +190,8 @@ None.
    "Decisions" above.
 7. **The service worker.** Caching as above (precaching spec 001's
    `/offline` page, per language), the update rule, the offline notice,
-   and the manifest's 192 and 512 px icons. Done when: acceptance criteria
+   the manifest's 192 and 512 px icons, the Proxy matcher's new exclusions
+   and `VERCEL_GIT_COMMIT_SHA` in `turbo.json`. Done when: acceptance criteria
    7, 8, 12 and 14 pass.
 8. **The palette's Pokémon source.** Done when: criterion 9 passes.
 9. **Performance, accessibility and languages pass.** Done when: criteria
