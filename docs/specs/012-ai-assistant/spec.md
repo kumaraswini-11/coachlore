@@ -126,13 +126,15 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
    00:00 UTC." in place of the feature; the plain version (filters, the
    team check's arithmetic) stays.
 5. Answers are cached. The cache key holds everything that shaped the
-   answer: the feature, the prompt's version, the model, the question as
-   normalised, the language it's answered in, the subject, the data's
-   version, the conversation it follows, and for league data the league,
-   the person's role in it and, separately, whether they're an admin;
-   when an answer reads the person's own data (their roster, their
-   matches), the person too. A cached answer is returned only to someone
-   the key allows. A cache hit is recorded as a run with no model call.
+   answer: the feature, the prompt's version, the provider and the model,
+   the question as normalised (or, for a team explanation, the computed
+   facts about the team), the language it's answered in, the subject, the
+   data's version, the conversation it follows, and for league data the
+   league, the person's role in it and, separately, whether they're an
+   admin. An answer that read the person's own data (their roster, their
+   matches) is never cached. A cached answer is returned only to someone
+   the key allows. A cache hit is recorded as a run with no model call,
+   and counts against the person's allowance like any other request.
 
 ### 7. Privacy and safety
 
@@ -227,9 +229,11 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
 8. A repeated question returns the cached answer with no model call,
    recorded as a cached run; the same question in another league, by a
    viewer instead of a coach, by an admin instead of a coach who isn't
-   one, in the other language, by another coach when the answer read the
-   asker's own data, or as a follow-up to a different conversation, isn't
-   served from that cache entry.
+   one, in the other language, with another provider, for a team whose
+   computed facts differ, or as a follow-up to a different conversation,
+   isn't served from that cache entry; an answer that read the asker's own
+   data is never served to anyone else; a cached answer requested with the
+   allowance used is refused.
 9. No request to the provider contains a Discord ID or a session
    identifier, shown by a test that inspects outgoing requests.
 10. Every run is recorded with the fields above.

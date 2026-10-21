@@ -44,10 +44,10 @@ run with `dir="rtl"`. Why a trade isn't allowed comes from `checkTrade()` as a r
 
 ## Data model
 
-| Table         | Columns                                                                                                                                                                                                                                                                                        | Constraints                                                                                           |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `trades`      | `id`, `season_id`, `from_member_id`, `to_member_id`, `status` (`offered`, `awaiting_approval`, `completed`, `declined`, `withdrawn`, `rejected`, `lapsed`), `message` (≤ 280), `lapse_reason`, `answered_at`, `decided_by_member_id`, `decided_at`, `completed_at`, `created_at`, `updated_at` | `from_member_id` ≠ `to_member_id`; index on (`season_id`, `status`)                                   |
-| `trade_items` | `id`, `trade_id`, `roster_entry_id` (the entry offered), `form_key`, `from_member_id`, `points`                                                                                                                                                                                                | unique (`trade_id`, `form_key`); index on (`form_key`, `trade_id`) to find open trades holding a form |
+| Table         | Columns                                                                                                                                                                                                                                                                                                                                                                              | Constraints                                                                                           |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| `trades`      | `id`, `season_id`, `from_member_id`, `to_member_id`, `status` (`offered`, `awaiting_approval`, `completed`, `declined`, `withdrawn`, `rejected`, `lapsed`), `message` (≤ 280), `lapse_reason` (jsonb: `{ code, field?, data }`, a `TradeProblem` or a lapse code, never a sentence), `answered_at`, `decided_by_member_id`, `decided_at`, `completed_at`, `created_at`, `updated_at` | `from_member_id` ≠ `to_member_id`; index on (`season_id`, `status`)                                   |
+| `trade_items` | `id`, `trade_id`, `roster_entry_id` (the entry offered), `form_key`, `from_member_id`, `points`                                                                                                                                                                                                                                                                                      | unique (`trade_id`, `form_key`); index on (`form_key`, `trade_id`) to find open trades holding a form |
 
 - `trade_items.points` copies the roster entry's points when the trade is
   offered, so history shows what was traded even after later trades.
@@ -77,7 +77,11 @@ carries the same codes:
 `not_in_season`, `trades_off`, `not_a_coach`, `same_coach`, `empty_side`,
 `unequal_counts`, `too_many` (more than three a side), `duplicate_form`,
 `not_on_roster` (names the form and coach), `over_budget` (names the
-coach, their points after and the budget).
+coach, their points after and the budget). Lapses that aren't a failed
+check use their own codes, stored the same way: `form_moved` (names the
+form), `season_ended`, `trades_off`, `member_left` and `coach_replaced`
+(name the coach). `GET trades` returns `lapse_reason` as stored; both
+dictionaries have a string for every code.
 
 ## API
 
@@ -108,8 +112,9 @@ Each action transaction:
    the season, and run `checkTrade` again. Locking the coaches serialises
    every trade that touches either of them, so two trades by one coach
    with different forms can't each pass the budget check and together
-   break it. A failed check sets `lapsed` with the first problem's
-   sentence and returns 409.
+   break it. A failed check sets `lapsed` with the first problem stored
+   as `lapse_reason` (`{ code, field, data }`), and returns 409 with every
+   problem's code, field and data, worded by the web app.
 3. Complete: release and insert the entries as above, set `completed`,
    then **lapse every other open trade holding any moved form** (found
    through `trade_items.form_key`), with the reason naming the form.
@@ -135,13 +140,15 @@ in the completion's transaction.
 `lapseOpenTrades(tx, { seasonId, memberId?, reason })` in the trade service,
 called inside:
 
-- 009's season end ("The season has ended."),
-- 007's settings update when `trades_enabled` becomes false ("Trades were
-  turned off."),
-- 007's member removal or leaving (that member's trades: "Ash left the
-  league."),
-- 007's "Replace coach" (that member's open trades lapse: "Ash was
-  replaced.").
+- 009's season end (`season_ended`),
+- 007's settings update when `trades_enabled` becomes false
+  (`trades_off`),
+- 007's member removal or leaving (that member's trades: `member_left`,
+  with the coach),
+- 007's "Replace coach" (that member's open trades: `coach_replaced`,
+  with the coach).
+
+`reason` is one of these codes with its data; the web app words it.
 
 `registerPersonalData` (spec 006): the export includes a person's trades
 (offered, received, decided) and messages; deletion anonymises
@@ -149,21 +156,21 @@ called inside:
 
 ## Tests
 
-| Acceptance criterion | Test                                                                                                                                                                                                                                                                          |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                    | `packages/league/src/trade.test.ts`: every problem, and one, two and three a side; `trades/routes.test.ts`: the server refuses a bad request with 422                                                                                                                         |
-| 2                    | `trade.test.ts`: over budget on either side; `routes.test.ts`: refused when sent anyway                                                                                                                                                                                       |
-| 3                    | `trades/service.test.ts`: accept without approval moves the entries, marks them `trade`, in one transaction                                                                                                                                                                   |
-| 4                    | `service.test.ts`: accept with approval waits; approve completes; reject ends                                                                                                                                                                                                 |
-| 5                    | `service.test.ts`: two open trades share a form; completing one lapses the other with the reason; one active entry for the form                                                                                                                                               |
-| 6                    | `trades/concurrency.test.ts`: two connections accept two trades sharing a form at once (a barrier, then both commits); exactly one completes. Also two trades by the same coach, with different forms, that each fit the budget alone but not together: exactly one completes |
-| 7                    | `service.test.ts`: a moved form and a budget no longer met each lapse at accept and at approve                                                                                                                                                                                |
-| 8                    | `service.test.ts`: `lapseOpenTrades` for season end and trades off                                                                                                                                                                                                            |
-| 9                    | `routes.test.ts`: the history's fields; a viewer's actions get 403                                                                                                                                                                                                            |
-| 10                   | Spec 011's `discord/post.test.ts` (one post per completed trade)                                                                                                                                                                                                              |
-| 11                   | `apps/web/e2e/trades.spec.ts`: every state from fixtures, axe at 360 and 1280 px in both themes, keyboard only                                                                                                                                                                |
-| 12                   | `trades/scope.test.ts`: trade and member IDs from another league give 404; `trades/personal-data.test.ts`: export and anonymisation                                                                                                                                           |
-| 13                   | `e2e/trades-languages.spec.ts`: the trades screen in `/hi`, a refused trade's reason in Hindi; a unit test that every `checkTrade()` reason code has a string in both dictionaries                                                                                            |
+| Acceptance criterion | Test                                                                                                                                                                                                                                                                                          |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                    | `packages/league/src/trade.test.ts`: every problem, and one, two and three a side; `trades/routes.test.ts`: the server refuses a bad request with 422                                                                                                                                         |
+| 2                    | `trade.test.ts`: over budget on either side; `routes.test.ts`: refused when sent anyway                                                                                                                                                                                                       |
+| 3                    | `trades/service.test.ts`: accept without approval moves the entries, marks them `trade`, in one transaction                                                                                                                                                                                   |
+| 4                    | `service.test.ts`: accept with approval waits; approve completes; reject ends                                                                                                                                                                                                                 |
+| 5                    | `service.test.ts`: two open trades share a form; completing one lapses the other with the reason; one active entry for the form                                                                                                                                                               |
+| 6                    | `trades/concurrency.test.ts`: two connections accept two trades sharing a form at once (a barrier, then both commits); exactly one completes. Also two trades by the same coach, with different forms, that each fit the budget alone but not together: exactly one completes                 |
+| 7                    | `service.test.ts`: a moved form and a budget no longer met each lapse at accept and at approve, storing `lapse_reason` as `{ code, field, data }` and returning 409 with the codes, never a sentence; `dictionaries.test.ts` (spec 001) finds a string for every trade code in both languages |
+| 8                    | `service.test.ts`: `lapseOpenTrades` for season end and trades off                                                                                                                                                                                                                            |
+| 9                    | `routes.test.ts`: the history's fields; a viewer's actions get 403                                                                                                                                                                                                                            |
+| 10                   | Spec 011's `discord/post.test.ts` (one post per completed trade)                                                                                                                                                                                                                              |
+| 11                   | `apps/web/e2e/trades.spec.ts`: every state from fixtures, axe at 360 and 1280 px in both themes, keyboard only                                                                                                                                                                                |
+| 12                   | `trades/scope.test.ts`: trade and member IDs from another league give 404; `trades/personal-data.test.ts`: export and anonymisation                                                                                                                                                           |
+| 13                   | `e2e/trades-languages.spec.ts`: the trades screen in `/hi`, a refused trade's reason in Hindi; a unit test that every `checkTrade()` reason code has a string in both dictionaries                                                                                                            |
 
 ## Decisions
 

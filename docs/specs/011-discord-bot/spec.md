@@ -45,7 +45,7 @@ when a post is retried (with one rare exception, stated in requirement 4).
    | A coach is on the clock            | "{coach} is on the clock", mentioning only that coach, in drafts whose timer is 10 minutes or more; a coach can turn these off |
    | A pick (if the league posts picks) | "Round 3, pick 21: Misty drafted Kingambit (17 points)"; auto-picks say so                                                     |
    | The draft is complete              | Every roster with points used, and a link to the season                                                                        |
-   | A week starts                      | The week's matches                                                                                                             |
+   | A week starts                      | The week's matches, within an hour of its start; a week that started earlier is never announced late                           |
    | A week has a day left              | The matches not yet confirmed                                                                                                  |
    | A result is confirmed              | The score and each battle's winner, with a link to the match                                                                   |
    | A trade completes                  | Who traded what, with the points                                                                                               |
@@ -54,7 +54,9 @@ when a post is retried (with one rare exception, stated in requirement 4).
    retried, or the same event is sent twice, the channel shows one post.
    The one exception: if Coachlore stops after Discord accepted a post and
    before recording it, and the retry comes when that post is no longer
-   among the channel's 50 most recent messages, it can appear twice.
+   among the channel's 50 most recent messages, it can appear twice. Every
+   post ends with a short reference line in small text, so a retry can
+   recognise the bot's own earlier post without relying on its wording.
 5. **Never in the way.** Nothing a coach does waits for Discord. A pick, a
    confirmed result or a trade is stored and shown on the site first; the
    post follows.

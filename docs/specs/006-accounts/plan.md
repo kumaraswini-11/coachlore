@@ -49,7 +49,8 @@ apps/server/                      the server (new)
     plugins/auth.ts               mounts createAuth()'s handler at /api/auth/* and decorates request.session
     plugins/origin-guard.ts       refuses requests without the proxy's secret header (current or previous)
     plugins/rate-limit.ts         @fastify/rate-limit, per client address
-    plugins/errors.ts             every error as problem details (RFC 9457); Sentry for 5xx
+    plugins/errors.ts             every error as problem details (RFC 9457); Sentry for 5xx, with
+                                  ADR 0006's dataCollection settings and the outgoing-event test
     account/deletion.ts           deleteAccount(): blockers and anonymisers, one transaction
     account/export.ts             exportAccount(): everything held about one person
     realtime/ticket.ts            issue and redeem one-minute, single-use tickets

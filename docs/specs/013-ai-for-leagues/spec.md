@@ -81,7 +81,9 @@ match", "League home", "Trades", "A coach's roster", "League settings").
    only), labelled the same way.
 5. A recap is written once per match. If the result is corrected later
    (spec 009's dispute), the recap is written again from the new facts and
-   the old one is replaced.
+   the old one is replaced. Until the new one is written the page says
+   "Recap being updated"; if it can't be written, the page shows no recap.
+   The old text is never shown once its facts have changed.
 6. If writing fails, the match page shows the result without a recap; the
    job retries, and gives up after three tries.
 
@@ -182,7 +184,8 @@ match", "League home", "Trades", "A coach's roster", "League settings").
 6. A recap or digest naming a Pokémon not in its facts, or a number not in
    them, is refused and retried, then given up after three tries, with the
    result still shown.
-7. A corrected result replaces its recap.
+7. A corrected result replaces its recap; while it's being rewritten, and
+   if rewriting fails, the old recap isn't shown.
 8. The 21st league write-up of a day waits until after 00:00 UTC and is
    then written.
 9. Suggestions and explanations count against the asker's allowance;

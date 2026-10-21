@@ -55,7 +55,9 @@ None of its own: failed jobs from specs 011 and 013 are reported
   request also counts against the person's internal ID, and either limit
   refuses it. Limits per route group: default 120/min per IP; `/api/auth/*`
   20/hour per IP; changes (`POST`, `PATCH`, `DELETE`) 30/min per person;
-  `/api/v1/ai/*` 10/min per person.
+  `/api/v1/ai/*` 10/min per person. Reads on other routes have no
+  per-person limit: for them a signed-in request counts only against its
+  IP, like anyone else's.
 - Body limits: Fastify's `bodyLimit` 64 KB globally; 16 KB on team import
   and replay routes; both refuse before the body is parsed.
 - The 429 response carries `Retry-After`; the web app shows it as the
@@ -228,35 +230,38 @@ screens feel slow, the region choice is revisited first.
 - GitHub warns: "In a public repository, scheduled workflows are
   automatically disabled when no repository activity has occurred in 60
   days." ([GitHub](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows))
-  The launch checklist includes checking it's enabled, and a monthly check
-  after launch catches it being disabled by a quiet month.
+  The workflow can't report its own disablement, so the check is the
+  owner's, by hand: the launch checklist includes checking it's enabled,
+  and after launch a monthly calendar reminder has the owner open the
+  repository's Actions tab and confirm it's still enabled and ran in the
+  last day.
 
 ## Tests
 
-| Acceptance criterion | Test or record                                                                                                                                             |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1–10                 | The earlier specs' tests named in the spec's table; all pass in one CI run                                                                                 |
-| 11                   | `test/limits.test.ts`: per IP, per person, the secret, `Retry-After`                                                                                       |
-| 12                   | `season/replay-fetch.test.ts` additions (spec 009): other hosts and bad IDs refused, no request made                                                       |
-| 13                   | `test/permissions.test.ts`: generated from the route table, every role                                                                                     |
-| 14                   | `load/draft-room.k6.js`, three runs recorded in `review.md`                                                                                                |
-| 15                   | Lighthouse results and `e2e/interactions.spec.ts`, recorded in `review.md`                                                                                 |
-| 16                   | `e2e/a11y-all.spec.ts`; the manual pass in `review.md`                                                                                                     |
-| 17                   | `e2e/notice-crawl.spec.ts`                                                                                                                                 |
-| 18                   | The search described under "Privacy", recorded in `review.md`                                                                                              |
-| 19                   | `docs/runbooks/restore.md` run once, timing recorded; backups visible in object storage                                                                    |
-| 20                   | The OWASP review in `review.md`                                                                                                                            |
-| 21                   | `/legal` reviewed by the owner                                                                                                                             |
-| 22                   | The launch checklist in `review.md`, ticked                                                                                                                |
-| 23                   | `test/data-coverage.test.ts`: reads the schema's tables and the registry; fails on any table with neither                                                  |
-| 24                   | `docs/runbooks/restore.md` run: migrations applied and health answered, recorded                                                                           |
-| 25                   | The latency run under "The forwarding's latency", recorded in `review.md`                                                                                  |
-| 26                   | The owner's screenshot of the setting in `review.md`                                                                                                       |
-| 27                   | `e2e/rtl.spec.ts` screenshots and the right-to-left review in `review.md`; the Hindi review in `review.md`                                                 |
-| 28                   | `dictionaries.test.ts` and `e2e/raw-keys.spec.ts`                                                                                                          |
-| 29                   | `e2e/csp.spec.ts`: one CSP header on every page; spec 008's `e2e/draft-csp.spec.ts` in the same run                                                        |
-| 30                   | `jobs/failure.test.ts` (a handler that throws: the Sentry stub receives it, the job retries, then is failed); the owner's Sentry screenshot in `review.md` |
-| 31                   | The uptime workflow run against a wrong address, its failure email recorded in `review.md`                                                                 |
+| Acceptance criterion | Test or record                                                                                                                                                                                 |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1–10                 | The earlier specs' tests named in the spec's table; all pass in one CI run                                                                                                                     |
+| 11                   | `test/limits.test.ts`: per IP, per person (changes and AI only; a signed-in read counts only per IP), the secret on forwarded `/api/*` requests, the three direct routes exempt, `Retry-After` |
+| 12                   | `season/replay-fetch.test.ts` additions (spec 009): other hosts and bad IDs refused, no request made                                                                                           |
+| 13                   | `test/permissions.test.ts`: generated from the route table, every role                                                                                                                         |
+| 14                   | `load/draft-room.k6.js`, three runs recorded in `review.md`                                                                                                                                    |
+| 15                   | Lighthouse results and `e2e/interactions.spec.ts`, recorded in `review.md`                                                                                                                     |
+| 16                   | `e2e/a11y-all.spec.ts`; the manual pass in `review.md`                                                                                                                                         |
+| 17                   | `e2e/notice-crawl.spec.ts`                                                                                                                                                                     |
+| 18                   | The search described under "Privacy", recorded in `review.md`                                                                                                                                  |
+| 19                   | `docs/runbooks/restore.md` run once, timing recorded; backups visible in object storage                                                                                                        |
+| 20                   | The OWASP review in `review.md`                                                                                                                                                                |
+| 21                   | `/legal` reviewed by the owner                                                                                                                                                                 |
+| 22                   | The launch checklist in `review.md`, ticked                                                                                                                                                    |
+| 23                   | `test/data-coverage.test.ts`: reads the schema's tables and the registry; fails on any table with neither                                                                                      |
+| 24                   | `docs/runbooks/restore.md` run: migrations applied and health answered, recorded                                                                                                               |
+| 25                   | The latency run under "The forwarding's latency", recorded in `review.md`                                                                                                                      |
+| 26                   | The owner's screenshot of the setting in `review.md`                                                                                                                                           |
+| 27                   | `e2e/rtl.spec.ts` screenshots and the right-to-left review in `review.md`; the Hindi review in `review.md`                                                                                     |
+| 28                   | `dictionaries.test.ts` and `e2e/raw-keys.spec.ts`                                                                                                                                              |
+| 29                   | `e2e/csp.spec.ts`: one CSP header on every page; spec 008's `e2e/draft-csp.spec.ts` in the same run                                                                                            |
+| 30                   | `jobs/failure.test.ts` (a handler that throws: the Sentry stub receives it, the job retries, then is failed); the owner's Sentry screenshot in `review.md`                                     |
+| 31                   | The uptime workflow run against a wrong address, its failure email recorded in `review.md`                                                                                                     |
 
 ## The launch checklist
 
@@ -269,9 +274,11 @@ In `review.md`, ticked by the owner:
       repository (`git grep` for each one's prefix).
 - [ ] Backups running; a restore rehearsed.
 - [ ] The uptime workflow enabled and has run.
-- [ ] After launch, monthly: the uptime workflow is still enabled (GitHub
-      disables scheduled workflows after 60 days without repository
-      activity).
+- [ ] After launch, monthly, by hand (a calendar reminder; the workflow
+      can't report its own disablement): the uptime workflow is still
+      enabled and ran in the last day, in the repository's Actions tab
+      (GitHub disables scheduled workflows after 60 days without
+      repository activity).
 - [ ] Private vulnerability reporting turned on (the repository's
       Settings, Security).
 - [ ] The Discord application's redirect and interactions addresses point

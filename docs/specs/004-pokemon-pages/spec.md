@@ -180,8 +180,9 @@ ability, with these details:
 10. **The build stays within budget.** With every Dex page in both
     languages (about 7,000), the production build finishes within its time
     budget (the plan states it), and the page count and output size are
-    recorded in the pull request. Pokémon and form pages are always built
-    ahead of time.
+    recorded in the pull request. Every Dex page is built ahead of time;
+    a build over budget fails this criterion, and changing how any page is
+    built is a new, recorded decision.
 
 ## Out of scope
 

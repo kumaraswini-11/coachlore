@@ -54,6 +54,7 @@ ai_writeups
   kind          text  recap | digest
   subject_id    text  the match ID, or "<season ID>:<week number>"
   facts_hash    text  sha-256 of the facts it was written from
+  status        text  current | updating | failed
   text          text
   language      text  en | hi: the league's language when it was written
   run_id        uuid  references ai_runs
@@ -93,12 +94,12 @@ rankCandidates(input: {
 
 ## API
 
-| Method and path                                     | Who                        | Response                                                       |
-| --------------------------------------------------- | -------------------------- | -------------------------------------------------------------- |
-| `POST /api/v1/leagues/:slug/draft/suggestion`       | the coach whose turn it is | `{ turnNumber, items: [{ form, points, reason }], allowance }` |
-| `POST /api/v1/leagues/:slug/trades/:id/explain`     | either coach, or an admin  | `{ text, allowance }`                                          |
-| `PATCH /api/v1/leagues/:slug/settings/ai`           | an admin                   | the three switches                                             |
-| `GET /api/v1/leagues/:slug/writeups?kind=&subject=` | a member                   | `{ text, language, createdAt }` or 404                         |
+| Method and path                                     | Who                        | Response                                                                                                       |
+| --------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `POST /api/v1/leagues/:slug/draft/suggestion`       | the coach whose turn it is | `{ turnNumber, items: [{ form, points, reason }], allowance }`                                                 |
+| `POST /api/v1/leagues/:slug/trades/:id/explain`     | either coach, or an admin  | `{ text, allowance }`                                                                                          |
+| `PATCH /api/v1/leagues/:slug/settings/ai`           | an admin                   | the three switches                                                                                             |
+| `GET /api/v1/leagues/:slug/writeups?kind=&subject=` | a member                   | `{ text, language, createdAt }` when current, `{ status: "updating" }` while a correction is rewritten, or 404 |
 
 - The suggestion route reads the draft's state in one transaction, checks
   the actor is on the clock for `turnNumber`, ranks, then calls the model
@@ -125,6 +126,15 @@ None.
 - Retries: pg-boss's retry with backoff, `retryLimit: 2`, so three
   attempts in all; after the third the job is left failed (visible, spec 014) and the page shows no
   write-up.
+- **A correction never leaves a stale write-up showing.** The transaction
+  that corrects a result (spec 009) sets the subject's existing
+  `ai_writeups` row to `updating` as it sends the new `ai.recap`. Only a
+  successful job replaces `text`, `facts_hash` and `language` and sets
+  `current`; the job's final failure (pg-boss's `onComplete` for a failed
+  job) sets `failed`. `GET …/writeups` returns the text only when
+  `current`; `updating` returns `{ status: "updating" }` (the page shows
+  "Recap being updated"), and `failed` returns 404, so the old text,
+  written from facts that no longer hold, is never shown.
 - The facts are assembled by `facts.ts` in the job and hashed for the
   key. For a result read from replays, they come from spec 009's battle
   facts (`battle_pokemon_stats`), and so do the MVP and every number. For
@@ -149,22 +159,22 @@ None.
 
 ## Tests
 
-| Acceptance criterion | Test                                                                                                                                                                                                                  |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                    | `league-ai/privacy.test.ts`: every feature with `ai_enabled` off, provider requests intercepted; none sent                                                                                                            |
-| 2                    | `routes/league-ai.suggestion.test.ts` (Testcontainers): another coach, a viewer, after the turn                                                                                                                       |
-| 3                    | `packages/league/suggest.test.ts` (affordability, order); the route test with a stubbed model naming a fourth form                                                                                                    |
-| 4                    | `suggest.test.ts` (no wishlist in the input type) and the route test spying on `rankCandidates`                                                                                                                       |
-| 5                    | `jobs/ai-recap.test.ts`: confirm once, run the job twice; one write-up, one `discord.post`                                                                                                                            |
-| 6                    | `jobs/ai-recap.test.ts` with a stubbed model naming an absent Pokémon and a wrong number                                                                                                                              |
-| 7                    | `jobs/ai-recap.test.ts`: a corrected result's new facts hash replaces the text; a by-hand result's facts hold only winners, Pokémon left and the score, and its recap names no Pokémon                                |
-| 8                    | `jobs/ai-budget.test.ts` with a fixed clock                                                                                                                                                                           |
-| 9                    | `ai/allowance.test.ts` additions                                                                                                                                                                                      |
-| 10                   | `e2e/league-ai.spec.ts` with axe, keyboard                                                                                                                                                                            |
-| 11                   | `ai/league-personal-data.test.ts`: a deleted coach's name in a recap and a digest becomes "A former coach"                                                                                                            |
-| 5 (paths)            | `jobs/ai-recap.test.ts`: confirming by the other coach, by an admin and by auto-confirm each enqueues one recap                                                                                                       |
-| 13                   | `e2e/league-ai.spec.ts`: an English recap on `/hi/l/…/matches/…` has `lang="en"` and the "Written in English" label                                                                                                   |
-| 12                   | `jobs/ai-recap.test.ts` with a stubbed model: a league in Hindi gets a recap requested in Hindi and recorded with `language = 'hi'`; the grounding check passes English names in Hindi text and fails an invented one |
+| Acceptance criterion | Test                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                    | `league-ai/privacy.test.ts`: every feature with `ai_enabled` off, provider requests intercepted; none sent                                                                                                                                                                                                                                                                         |
+| 2                    | `routes/league-ai.suggestion.test.ts` (Testcontainers): another coach, a viewer, after the turn                                                                                                                                                                                                                                                                                    |
+| 3                    | `packages/league/suggest.test.ts` (affordability, order); the route test with a stubbed model naming a fourth form                                                                                                                                                                                                                                                                 |
+| 4                    | `suggest.test.ts` (no wishlist in the input type) and the route test spying on `rankCandidates`                                                                                                                                                                                                                                                                                    |
+| 5                    | `jobs/ai-recap.test.ts`: confirm once, run the job twice; one write-up, one `discord.post`                                                                                                                                                                                                                                                                                         |
+| 6                    | `jobs/ai-recap.test.ts` with a stubbed model naming an absent Pokémon and a wrong number                                                                                                                                                                                                                                                                                           |
+| 7                    | `jobs/ai-recap.test.ts`: a corrected result's new facts hash replaces the text; a correction whose recap fails all three attempts leaves the row `failed` and the endpoint returns 404, never the old text, and while it's being rewritten the endpoint returns `updating`; a by-hand result's facts hold only winners, Pokémon left and the score, and its recap names no Pokémon |
+| 8                    | `jobs/ai-budget.test.ts` with a fixed clock                                                                                                                                                                                                                                                                                                                                        |
+| 9                    | `ai/allowance.test.ts` additions                                                                                                                                                                                                                                                                                                                                                   |
+| 10                   | `e2e/league-ai.spec.ts` with axe, keyboard                                                                                                                                                                                                                                                                                                                                         |
+| 11                   | `ai/league-personal-data.test.ts`: a deleted coach's name in a recap and a digest becomes "A former coach"                                                                                                                                                                                                                                                                         |
+| 5 (paths)            | `jobs/ai-recap.test.ts`: confirming by the other coach, by an admin and by auto-confirm each enqueues one recap                                                                                                                                                                                                                                                                    |
+| 13                   | `e2e/league-ai.spec.ts`: an English recap on `/hi/l/…/matches/…` has `lang="en"` and the "Written in English" label                                                                                                                                                                                                                                                                |
+| 12                   | `jobs/ai-recap.test.ts` with a stubbed model: a league in Hindi gets a recap requested in Hindi and recorded with `language = 'hi'`; the grounding check passes English names in Hindi text and fails an invented one                                                                                                                                                              |
 
 The evaluation set (spec 012) gains `evals/cases/recap.jsonl` and
 `digest.jsonl`: parsed facts from real replays, with the facts each

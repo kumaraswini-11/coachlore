@@ -184,8 +184,12 @@ And this spec's own:
 11. Each limit returns 429 with `Retry-After` when exceeded; for a
     signed-in person, both the per-IP and the per-person limits apply; a
     body over 64 KB, or over 16 KB on a team import or replay route, is
-    refused before it's parsed; a request without the proxy's secret is
-    refused.
+    refused before it's parsed; a forwarded `/api/*` request without the
+    proxy's secret is refused, while the three routes that reach the server
+    directly (the draft room's connection, Discord's interactions and the
+    health check) are exempt and authenticate in their own way. A
+    signed-in person's changes and AI requests also count against a
+    per-person limit; their other requests count only against their IP.
 12. A replay address on any other host, or an ID that doesn't match
     Showdown's pattern, is refused without a request.
 13. The permission matrix test covers every route and every role, and IDs

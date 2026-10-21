@@ -81,10 +81,14 @@ build silently uses localhost" can't happen on Vercel.
   old when added), set up by hand as its
   [Next.js guide](https://docs.sentry.io/platforms/javascript/guides/nextjs/)
   lays out, not with the wizard (which edits files without review).
-- **No personal data:** the SDK's data-collection option set to send no
-  user data (`sendDefaultPii` is deprecated on the 11 line: use the option
-  the current docs name), Session Replay not installed, and a `beforeSend`
-  that drops `request.cookies`, `request.headers`, `user` and `request.data`.
+- **No personal data:** `dataCollection: { userInfo: false, cookies: false,
+httpHeaders: false, httpBodies: [], urlQueryParams: false }`, as
+  [ADR 0006](../../adr/0006-architecture-and-stack.md) records from Sentry's
+  docs; nothing calls `Sentry.setUser()`; Session Replay not installed; and a
+  `beforeSend` that drops `request.cookies`, `request.headers`, `user` and
+  `request.data` as a second guard. A test captures an error with the
+  transport mocked and checks the outgoing event has no IP, user, cookies or
+  headers.
 - **Traces:** a sample rate of 0.1 in production, 1.0 in previews.
 - **The content security policy:** the build plugin's tunnel route sends
   reports to a path on our own address, so `connect-src` stays `'self'`
