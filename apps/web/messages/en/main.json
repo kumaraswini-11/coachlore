@@ -73,9 +73,6 @@
   "toast": {
     "close": "Close this message"
   },
-  "language": {
-    "writtenIn": "Written in {language}"
-  },
   "notFound": {
     "title": "Page not found",
     "metaDescription": "There’s no page at this address on Coachlore.",
@@ -117,41 +114,6 @@
     },
     "privacyHeading": "Your data",
     "privacy": "Reading Coachlore needs no account. Your language is remembered in a cookie on this browser, and your theme and shortcut settings in its storage. Error reports carry no IP address, cookies, account or page address. The full privacy notice arrives before the first league starts."
-  },
-  "states": {
-    "title": "States",
-    "metaDescription": "Every state a Coachlore screen can show, with sample data.",
-    "loading": "Loading",
-    "emptyTitle": "No leagues yet",
-    "emptyDescription": "Create a league, or join one with an invitation link.",
-    "emptyAction": "Create a league",
-    "errorTitle": "The standings couldn’t load",
-    "errorDescription": "Check your connection and try again.",
-    "retry": "Try again",
-    "notFoundTitle": "There’s no league at this address",
-    "notFoundDescription": "Check the link, or search for it.",
-    "offlineTitle": "You’re offline",
-    "offlineDescription": "This shows the last data saved. Changes are off until you’re back online.",
-    "noPermissionTitle": "This league is private",
-    "noPermissionDescription": "Ask an admin for an invitation link to join it.",
-    "aiTitle": "Today’s AI allowance is used",
-    "aiDescription": "AI help returns tomorrow. Everything else works as usual.",
-    "liveAction": "Show the next pick",
-    "livePick": "<name>{coach}</name> picked <en>{pokemon}</en>",
-    "listTitle": "A long list",
-    "sections": {
-      "loading": "Loading",
-      "empty": "Empty",
-      "error": "Error",
-      "notFound": "Not found",
-      "offline": "Offline",
-      "noPermission": "No permission",
-      "ai": "AI unavailable",
-      "live": "Live update",
-      "types": "Type badges"
-    },
-    "row": "Row {n, number}",
-    "lastSaved": "Last saved standings"
   },
   "dex": {
     "title": "Dex",
@@ -247,23 +209,7 @@
       "emptyDescription": "Try fewer filters, or clear them all.",
       "emptyAction": "Clear filters",
       "englishNamesTitle": "Names are searched in English",
-      "englishNamesDescription": "Pokémon names here are their English ones. Try “Garchomp”.",
-      "errorTitle": "The Dex couldn’t load",
-      "errorDescription": "Check your connection and try again.",
-      "retry": "Try again",
-      "loading": "Loading the Dex"
-    },
-    "fixtures": {
-      "title": "Dex browse",
-      "statesTitle": "Dex browse states",
-      "metaDescription": "The Dex's browse screen with sample data, for review.",
-      "sections": {
-        "loadingGrid": "Loading, grid",
-        "loadingList": "Loading, list",
-        "empty": "No match",
-        "error": "Error",
-        "noImage": "A form without an image"
-      }
+      "englishNamesDescription": "Pokémon names here are their English ones. Try “Garchomp”."
     }
   },
   "types": {

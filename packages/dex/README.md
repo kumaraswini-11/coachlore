@@ -25,7 +25,7 @@ It has three entry points:
 | Import                      | What it gives                                                                                                    | Where it runs                                         |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | `@workspace/dex`            | The data model's types; `forms`, `typeChart`, `moves`, `abilities`, `games`, `showdown`, `credits`; `multiplier` | Anywhere, the browser included                        |
-| `@workspace/dex/files`      | `readPokemon(key)`, `readLearnset(form)`, `readUsage()`, `readLocations()`: the large files, on demand           | Node only: Server Components, scripts                 |
+| `@workspace/dex/files`      | `readPokemon(key)`, `readLearnset(form)`: the large files, on demand                                             | Node only: Server Components, scripts                 |
 | `@workspace/dex/type-chart` | `multiplier(chart, attacking, defending)` alone, with no data                                                    | Anywhere; for a component given a chart               |
 | `@workspace/dex/filter`     | `dexFilter`, `filterForms`, `sortForms`, with no data                                                            | Anywhere; for a component that loads the forms itself |
 | `@workspace/dex/types`      | The model's types and key lists (`TYPE_KEYS`, `STAT_KEYS`), with no data                                         | Anywhere                                              |

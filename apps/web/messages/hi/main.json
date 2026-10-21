@@ -73,9 +73,6 @@
   "toast": {
     "close": "यह संदेश बंद करें"
   },
-  "language": {
-    "writtenIn": "{language} में लिखा गया"
-  },
   "notFound": {
     "title": "पेज नहीं मिला",
     "metaDescription": "Coachlore पर इस पते पर कोई पेज नहीं है।",
@@ -117,41 +114,6 @@
     },
     "privacyHeading": "आपका डेटा",
     "privacy": "Coachlore पढ़ने के लिए खाते की ज़रूरत नहीं। आपकी भाषा इस ब्राउज़र की एक कुकी में याद रहती है, और थीम व शॉर्टकट की सेटिंग इसकी स्टोरेज में। एरर रिपोर्ट में कोई IP पता, कुकी, खाता या पेज का पता नहीं होता। पूरी निजता सूचना पहली लीग शुरू होने से पहले आएगी।"
-  },
-  "states": {
-    "title": "स्थितियाँ",
-    "metaDescription": "Coachlore की हर स्क्रीन की हर स्थिति, नमूना डेटा के साथ।",
-    "loading": "लोड हो रहा है",
-    "emptyTitle": "अभी कोई लीग नहीं",
-    "emptyDescription": "एक लीग बनाएँ, या आमंत्रण लिंक से किसी लीग में जुड़ें।",
-    "emptyAction": "लीग बनाएँ",
-    "errorTitle": "अंक तालिका लोड नहीं हो सकी",
-    "errorDescription": "अपना कनेक्शन जाँचें और फिर कोशिश करें।",
-    "retry": "फिर कोशिश करें",
-    "notFoundTitle": "इस पते पर कोई लीग नहीं है",
-    "notFoundDescription": "लिंक जाँचें, या उसे खोजें।",
-    "offlineTitle": "आप ऑफ़लाइन हैं",
-    "offlineDescription": "यह आख़िरी सहेजा गया डेटा है। ऑनलाइन लौटने तक बदलाव बंद हैं।",
-    "noPermissionTitle": "यह लीग निजी है",
-    "noPermissionDescription": "जुड़ने के लिए किसी एडमिन से आमंत्रण लिंक माँगें।",
-    "aiTitle": "आज की AI सीमा पूरी हो गई",
-    "aiDescription": "AI मदद कल लौटेगी। बाक़ी सब पहले की तरह चलता है।",
-    "liveAction": "अगला पिक दिखाएँ",
-    "livePick": "<name>{coach}</name> ने <en>{pokemon}</en> पिक किया",
-    "listTitle": "एक लंबी सूची",
-    "sections": {
-      "loading": "लोड हो रहा है",
-      "empty": "खाली",
-      "error": "एरर",
-      "notFound": "नहीं मिला",
-      "offline": "ऑफ़लाइन",
-      "noPermission": "अनुमति नहीं",
-      "ai": "AI उपलब्ध नहीं",
-      "live": "लाइव अपडेट",
-      "types": "टाइप बैज"
-    },
-    "row": "पंक्ति {n, number}",
-    "lastSaved": "आख़िरी सहेजी गई अंक तालिका"
   },
   "dex": {
     "title": "Dex",
@@ -247,23 +209,7 @@
       "emptyDescription": "कुछ फ़िल्टर हटाकर देखें, या सब हटा दें।",
       "emptyAction": "फ़िल्टर हटाएँ",
       "englishNamesTitle": "नाम अंग्रेज़ी में खोजे जाते हैं",
-      "englishNamesDescription": "यहाँ पोकेमॉन के नाम अंग्रेज़ी में हैं। “Garchomp” लिखकर देखें।",
-      "errorTitle": "Dex लोड नहीं हो पाया",
-      "errorDescription": "अपना कनेक्शन देखें और फिर से कोशिश करें।",
-      "retry": "फिर से कोशिश करें",
-      "loading": "Dex लोड हो रहा है"
-    },
-    "fixtures": {
-      "title": "Dex ब्राउज़",
-      "statesTitle": "Dex ब्राउज़ की स्थितियाँ",
-      "metaDescription": "Dex की ब्राउज़ स्क्रीन, नमूना डेटा के साथ, जाँच के लिए।",
-      "sections": {
-        "loadingGrid": "लोड हो रहा है, ग्रिड",
-        "loadingList": "लोड हो रहा है, सूची",
-        "empty": "कुछ नहीं मिला",
-        "error": "गड़बड़ी",
-        "noImage": "बिना तस्वीर वाला रूप"
-      }
+      "englishNamesDescription": "यहाँ पोकेमॉन के नाम अंग्रेज़ी में हैं। “Garchomp” लिखकर देखें।"
     }
   },
   "types": {

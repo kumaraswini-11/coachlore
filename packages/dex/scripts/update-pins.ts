@@ -20,7 +20,7 @@ import { stableJson } from "./import/write.ts"
 const DAY = 24 * 60 * 60 * 1000
 const MIN_AGE_DAYS = 14
 
-export type PinChange = { source: string; from: string; to: string }
+type PinChange = { source: string; from: string; to: string }
 
 type Fetch = typeof fetch
 

@@ -62,7 +62,7 @@ type PokemonResource = {
 }
 
 /** Smogon's chaos files for one month, by format. */
-export type UsageFiles = { month: string; files: Record<string, string> }
+type UsageFiles = { month: string; files: Record<string, string> }
 
 export function importDex(
   api: ApiData,

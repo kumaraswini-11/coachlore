@@ -30,7 +30,7 @@ export type Sources = {
   }
 }
 
-export type CachedSources = {
+type CachedSources = {
   /** The extracted `api-data` commit; its files are `data/api/v2/…`. */
   apiData: string
   /** Format → the chaos file for the pinned month and cutoff. */

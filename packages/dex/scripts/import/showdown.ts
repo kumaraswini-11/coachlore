@@ -13,7 +13,7 @@ import {
  * inventions (CAP, Custom) are left out.
  */
 
-export type ShowdownMatch = {
+type ShowdownMatch = {
   showdown: ShowdownNames
   /** Showdown species that match no form, by name. */
   unmatched: string[]
@@ -40,7 +40,7 @@ export function showdownId(name: string): string {
  * Fills each form's `gen9` and `tags` from the species named for it.
  */
 /** A Showdown ID that doesn't match our key by rule, and why. */
-export type ShowdownException = {
+type ShowdownException = {
   showdown: string
   key: string
   reason: string

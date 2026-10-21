@@ -11,9 +11,9 @@ import en from "@/messages/en/main.json"
  * 0008, "The browser"; lib/plural.ts).
  */
 export type DexLabels = (typeof en)["dex"]["browser"]
-export type TypeNames = (typeof en)["types"]
+type TypeNames = (typeof en)["types"]
 
-export type DexWords = {
+type DexWords = {
   locale: Locale
   labels: DexLabels
   typeNames: TypeNames

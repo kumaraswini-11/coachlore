@@ -11,7 +11,7 @@ export type Override = {
   link: string
 }
 
-export type Collections = Record<string, { key: string }[]>
+type Collections = Record<string, { key: string }[]>
 
 export function applyOverrides(
   collections: Collections,

@@ -4,8 +4,8 @@
  * Pokémon (`rotom-wash`), moves, abilities, types and games by theirs.
  */
 
-export type PokemonKey = string
-export type FormKey = string
+type PokemonKey = string
+type FormKey = string
 
 export const TYPE_KEYS = [
   "normal",

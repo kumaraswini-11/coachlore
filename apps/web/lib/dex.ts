@@ -39,11 +39,6 @@ export async function dexBrowserData(): Promise<Omit<DexData, "forms">> {
   return dexExtras(forms)
 }
 
-/** The browser's data for the forms given: the sample's, for the fixtures. */
-export function dexData(list: FormSummary[]): DexData {
-  return { forms: list, ...dexExtras(list) }
-}
-
 /** What the browser needs beside the forms, cut to the forms given. */
 function dexExtras(list: FormSummary[]): Omit<DexData, "forms"> {
   const used = new Set(

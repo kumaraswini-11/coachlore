@@ -4,7 +4,7 @@ import { routing } from "@/i18n/routing"
 import en from "@/messages/en/errors.json"
 import hi from "@/messages/hi/errors.json"
 
-export type ErrorMessages = typeof en
+type ErrorMessages = typeof en
 
 // English's types are its exact strings (the generated declaration that
 // types ICU arguments), so the other languages are cast; messages.test.ts

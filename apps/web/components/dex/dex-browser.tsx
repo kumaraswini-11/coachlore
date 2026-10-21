@@ -124,7 +124,7 @@ type Address = {
  * forms already loaded: no request, no spinner. A filter change is a new
  * history entry (Back undoes it); typing replaces the current one.
  */
-export function DexBrowser(props: Props) {
+function DexBrowser(props: Props) {
   const { games, abilities } = props
   const params = useSearchParams()
   const known = useMemo(

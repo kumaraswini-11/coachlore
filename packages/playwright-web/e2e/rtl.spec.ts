@@ -11,9 +11,8 @@ const PATHS = [
   "/en/about",
   "/en/legal",
   "/en/offline",
-  "/en/fixtures/states",
-  "/en/fixtures/dex",
-  "/en/fixtures/dex-states",
+  "/en/dex",
+  "/en/dex?view=list&gen=1",
 ]
 
 for (const width of [360, 1280]) {
