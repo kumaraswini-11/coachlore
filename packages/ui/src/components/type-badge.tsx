@@ -10,15 +10,15 @@ import { cn } from "@workspace/ui/lib/utils"
 /**
  * A Pokémon type: its name on its colour, so the type is always named and
  * never shown by colour alone (WCAG 1.4.1). `children` is the name, given by
- * the app in the page's language.
+ * the app in the page's language, and required.
  */
 function TypeBadge({
   type,
   className,
   ...props
-}: { type: PokemonType } & Omit<
+}: { type: PokemonType; children: string } & Omit<
   React.ComponentProps<typeof Badge>,
-  "variant"
+  "variant" | "children"
 >) {
   return (
     <Badge

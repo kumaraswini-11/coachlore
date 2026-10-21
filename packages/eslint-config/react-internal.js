@@ -6,6 +6,7 @@ import { defineConfig } from "eslint/config"
 import globals from "globals"
 
 import { config as baseConfig } from "./base.js"
+import { interfaceTextRules } from "./interface-text.js"
 import { reactVersion } from "./react-version.js"
 
 /**
@@ -32,6 +33,7 @@ export const config = defineConfig([
     rules: {
       // TypeScript checks props; prop-types would repeat it at runtime.
       "react/prop-types": "off",
+      ...interfaceTextRules,
     },
   },
   eslintConfigPrettier,

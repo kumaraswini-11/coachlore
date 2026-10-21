@@ -39,14 +39,19 @@ function DialogOverlay({
   )
 }
 
+// A close button needs its name in the page's language, so it's required
+// whenever the button shows (AGENTS.md: every string from the messages).
+type CloseButtonProps =
+  | { showCloseButton?: true; closeLabel: string }
+  | { showCloseButton: false; closeLabel?: undefined }
+
 function DialogContent({
   className,
   children,
   showCloseButton = true,
+  closeLabel,
   ...props
-}: DialogPrimitive.Popup.Props & {
-  showCloseButton?: boolean
-}) {
+}: DialogPrimitive.Popup.Props & CloseButtonProps) {
   return (
     <DialogPortal>
       <DialogOverlay />
@@ -71,7 +76,7 @@ function DialogContent({
             }
           >
             <XIcon />
-            <span className="sr-only">Close</span>
+            <span className="sr-only">{closeLabel}</span>
           </DialogPrimitive.Close>
         )}
       </DialogPrimitive.Popup>
@@ -92,11 +97,14 @@ function DialogHeader({ className, ...props }: React.ComponentProps<"div">) {
 function DialogFooter({
   className,
   showCloseButton = false,
+  closeLabel,
   children,
   ...props
-}: React.ComponentProps<"div"> & {
-  showCloseButton?: boolean
-}) {
+}: React.ComponentProps<"div"> &
+  (
+    | { showCloseButton: true; closeLabel: string }
+    | { showCloseButton?: false; closeLabel?: undefined }
+  )) {
   return (
     <div
       data-slot="dialog-footer"
@@ -109,7 +117,7 @@ function DialogFooter({
       {children}
       {showCloseButton && (
         <DialogPrimitive.Close render={<Button variant="outline" />}>
-          Close
+          {closeLabel}
         </DialogPrimitive.Close>
       )}
     </div>
@@ -121,7 +129,7 @@ function DialogTitle({ className, ...props }: DialogPrimitive.Title.Props) {
     <DialogPrimitive.Title
       data-slot="dialog-title"
       className={cn(
-        "font-heading text-base leading-none font-medium",
+        "font-heading text-base leading-snug font-medium",
         className
       )}
       {...props}
@@ -144,6 +152,8 @@ function DialogDescription({
     />
   )
 }
+
+export type { CloseButtonProps }
 
 export {
   Dialog,

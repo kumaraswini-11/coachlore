@@ -33,33 +33,39 @@ function Command({
   )
 }
 
+// The title and description name the dialog for screen readers, in the
+// page's language. They sit inside the popup, so nothing is in the page
+// while it's closed.
 function CommandDialog({
-  title = "Command Palette",
-  description = "Search for a command to run...",
+  title,
+  description,
   children,
   className,
-  showCloseButton = false,
+  closeLabel,
   ...props
 }: Omit<React.ComponentProps<typeof Dialog>, "children"> & {
-  title?: string
-  description?: string
+  title: string
+  description: string
   className?: string
-  showCloseButton?: boolean
+  /** A visible close button's name; without it, Escape and a click outside close. */
+  closeLabel?: string
   children: React.ReactNode
 }) {
   return (
     <Dialog {...props}>
-      <DialogHeader className="sr-only">
-        <DialogTitle>{title}</DialogTitle>
-        <DialogDescription>{description}</DialogDescription>
-      </DialogHeader>
       <DialogContent
         className={cn(
           "top-1/3 translate-y-0 overflow-hidden rounded-xl! p-0",
           className
         )}
-        showCloseButton={showCloseButton}
+        {...(closeLabel === undefined
+          ? { showCloseButton: false as const }
+          : { closeLabel })}
       >
+        <DialogHeader className="sr-only">
+          <DialogTitle>{title}</DialogTitle>
+          <DialogDescription>{description}</DialogDescription>
+        </DialogHeader>
         {children}
       </DialogContent>
     </Dialog>

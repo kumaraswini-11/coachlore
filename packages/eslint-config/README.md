@@ -50,6 +50,11 @@ the check as an error does.
 | `./next-js`        | `nextJsConfig` | `./base`  | [`eslint-config-next`](https://nextjs.org/docs/app/api-reference/config/eslint)'s `core-web-vitals` and `typescript` configs (Next.js, React, React Hooks, import and accessibility plugins); jsx-a11y's whole recommended set; Next.js's default ignores | `apps/web`    |
 | `./react-internal` | `config`       | `./base`  | browser globals; the recommended rules of eslint-plugin-react (with the automatic JSX runtime), React Hooks and jsx-a11y; `react/prop-types` off, since TypeScript checks props                                                                           | `packages/ui` |
 
+Both React configs also add `interface-text.js`: an accessible name
+(`aria-label`, `alt`, `title`, `placeholder` …) written as text in a
+component is an error, since a screen reader would read it in English on
+every page (WCAG 3.1.2); names come from the messages, as props.
+
 ## Known workaround
 
 eslint-plugin-react 7.37, the latest release, finds the React version

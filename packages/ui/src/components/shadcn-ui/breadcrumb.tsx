@@ -4,15 +4,13 @@ import { useRender } from "@base-ui/react/use-render"
 import { cn } from "cn"
 import { ChevronRightIcon, MoreHorizontalIcon } from "lucide-react"
 
-function Breadcrumb({ className, ...props }: React.ComponentProps<"nav">) {
-  return (
-    <nav
-      aria-label="breadcrumb"
-      data-slot="breadcrumb"
-      className={cn(className)}
-      {...props}
-    />
-  )
+// The nav's name comes from the app, in the page's language (AGENTS.md:
+// every string from the messages).
+function Breadcrumb({
+  className,
+  ...props
+}: React.ComponentProps<"nav"> & { "aria-label": string }) {
+  return <nav data-slot="breadcrumb" className={cn(className)} {...props} />
 }
 
 function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
@@ -104,8 +102,9 @@ function BreadcrumbEllipsis({
       )}
       {...props}
     >
+      {/* Hidden from screen readers with its wrapper (aria-hidden), so it
+          carries no text to translate. */}
       <MoreHorizontalIcon />
-      <span className="sr-only">More</span>
     </span>
   )
 }

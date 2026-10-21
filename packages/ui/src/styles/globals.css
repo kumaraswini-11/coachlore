@@ -86,7 +86,15 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
-  --font-sans: var(--font-sans);
+  /* The app's fonts, under their own names, so no variable names itself
+     (the scaffold's `--font-sans: var(--font-sans)` worked only while the
+     font's own class overrode it). The app sets --font-interface (Latin),
+     --font-code (monospace) and, for a language Latin can't write,
+     --font-script (lib/fonts.ts). */
+  --font-sans:
+    var(--font-interface, ui-sans-serif), var(--font-script, ui-sans-serif),
+    sans-serif;
+  --font-mono: var(--font-code, ui-monospace), monospace;
 }
 
 :root {
@@ -238,6 +246,21 @@
     outline: 2px solid Highlight;
     outline-offset: 2px;
   }
+}
+
+/* Devanagari's vowel signs reach above and below the line, so it gets more
+   line height than Latin text, and no tightened tracking, which squeezes the
+   line its letters hang from (spec 001, "Typography"). For every language
+   written in Devanagari, so a new one needs no change here. Tailwind's
+   default is 1.5 (its preflight), and each text size has its own. */
+:root:is(:lang(hi), :lang(mr), :lang(ne)) {
+  line-height: 1.75;
+  --text-xs--line-height: 1.6;
+  --text-sm--line-height: 1.7;
+  --text-base--line-height: 1.75;
+  --text-lg--line-height: 1.75;
+  --tracking-tight: normal;
+  --tracking-tighter: normal;
 }
 
 /* With reduced motion, tw-animate-css's enter and exit animations keep their

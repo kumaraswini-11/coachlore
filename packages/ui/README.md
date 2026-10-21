@@ -114,6 +114,7 @@ is a defect.
 | Nothing to show, an error       | `EmptyState` (on `Empty`), with `role="alert"` for an error     |
 | Loading                         | `Skeleton`, the size and shape of the content                   |
 | A message                       | `Alert`                                                         |
+| A link in a menu                | `DropdownMenuLinkItem` (Base UI's `Menu.LinkItem`, added here)  |
 | A menu                          | `DropdownMenu`                                                  |
 | A panel                         | `Sheet` (from the side), `Drawer` (from the bottom), `Dialog`   |
 | A key                           | `Kbd`                                                           |
@@ -130,6 +131,46 @@ Three rules keep compositions honest
   compound components and explicit variants rather than boolean props.
 - A component is never wrapped only to rename it.
 - Code that only looks alike waits for its third use.
+
+## What the theme and components expect
+
+- **Fonts:** the theme's `--font-sans` and `--font-mono` are built from
+  variables the app sets: `--font-interface` (Latin), `--font-code`
+  (monospace) and, for a language Latin can't write, `--font-script`. A
+  Devanagari page also gets more line height and no tightened tracking
+  (`globals.css`, `:lang(hi)`).
+- **Direction:** the app wraps the page in `DirectionProvider` (from
+  `shadcn-ui/direction`) with the page's direction; Base UI reads it from
+  there, not from `<html dir>`.
+- **Labels:** no component writes interface text. A close button's name
+  (`closeLabel` on `DialogContent`, `SheetContent`, `Toaster`), the
+  Sidebar's names (`labels` on `SidebarProvider`), `CommandDialog`'s
+  `title` and `description`, `Spinner`'s `label` and `Breadcrumb`'s
+  `aria-label` are required props, given in the page's language. ESLint
+  rejects a written accessible name (`@workspace/eslint-config`,
+  `interface-text.js`).
+
+## Registry files edited
+
+Where the design or the rules need it (AGENTS.md, "Interface"), each with a
+comment at the change:
+
+- The labels above, made props.
+- `command.tsx`: `CommandDialog`'s title and description inside the popup,
+  as Base UI's Dialog anatomy places them.
+- `sheet.tsx`, `sidebar.tsx`, `drawer.tsx`: a physical `side` or
+  `swipeDirection` (`left`, `right`) gets physical edges, so right-to-left
+  pages don't put the border or the slide on the wrong side; the Sidebar's
+  tooltip opens at `inline-end`.
+- `toast.tsx`: swiped towards the nearer edge in either direction.
+- `button.tsx`: transitions named, at `--duration-fast`, and the press
+  nudge only without reduced motion.
+- `dialog.tsx`: `DialogTitle` at `leading-snug`, so Devanagari isn't
+  clipped.
+- `dropdown-menu.tsx`: `DropdownMenuLinkItem` added.
+- `breadcrumb.tsx`: the ellipsis's hidden "More" removed (its wrapper is
+  `aria-hidden`).
+- `input-group.tsx`, `scroll-area.tsx`, `hooks/use-mobile.ts`: lint fixes.
 
 ## Shared compositions
 
