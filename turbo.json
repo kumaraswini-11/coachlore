@@ -11,6 +11,13 @@
         "VERCEL_PROJECT_PRODUCTION_URL",
         "VERCEL_BRANCH_URL",
         "VERCEL_URL"
+      ],
+      "passThroughEnv": [
+        "CI",
+        "NEXT_RUNTIME",
+        "SENTRY_AUTH_TOKEN",
+        "SENTRY_ORG",
+        "SENTRY_PROJECT"
       ]
     },
     "transit": {
