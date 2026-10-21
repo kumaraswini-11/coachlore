@@ -294,10 +294,11 @@ when it's changed (AGENTS.md, "Versions").
 `sprite` path), downloads from the pinned `sprites` commit (four at a
 time, cached in `.cache/`), and writes:
 
-| File                                    | From                                                    | Made into                   |
-| --------------------------------------- | ------------------------------------------------------- | --------------------------- |
-| `public/dex-images/sprites/<form>.webp` | `sprites/pokemon/<id>.png` (96 × 96)                    | WebP, lossless, 96 × 96     |
-| `public/dex-images/artwork/<form>.webp` | `sprites/pokemon/other/official-artwork/<id>.png` (475) | WebP, quality 80, 256 × 256 |
+| File                                                   | From                                                    | Made into                                                                                                                                                      |
+| ------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `public/dex-images/sprites/<form>.webp`                | `sprites/pokemon/<id>.png` (96 × 96)                    | WebP, lossless, 96 × 96                                                                                                                                        |
+| `public/dex-images/artwork/<form>.webp`                | `sprites/pokemon/other/official-artwork/<id>.png` (475) | WebP, quality 80, 256 × 256                                                                                                                                    |
+| `public/dex-images/cards/<form>-192.webp`, `-288.webp` | the official artwork                                    | WebP at 192 and 288 px, for the cards on sharp screens; the 475 px artwork added beside the 256 (spec 003's task 9 and spec 004; the owner's call, 2026-10-22) |
 
 - Converted with `sharp` (a dev dependency of `apps/web`; already the
   image library Next.js uses).

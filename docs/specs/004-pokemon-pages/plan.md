@@ -119,8 +119,10 @@ generation, effect text and learners by game.
   `unoptimized` (prepared at size by spec 002), fixed width and height.
   "In most cases, you should use `loading="eager"` or `fetchPriority="high"`
   instead of `preload`" (bundled docs: `02-components/image.md`). With
-  `unoptimized` there's no srcset, so the owner checks the 256 px artwork on
-  a 3× phone screen.
+  `unoptimized` there's no generated srcset, so spec 002's image step makes
+  the artwork at 256 px and at the source's full 475 px, and the page gives
+  both (`srcset`): the 256 px alone looked soft on a 3× phone screen (the
+  owner, 2026-10-22).
 - The accent: the page sets `--accent-type` to its first type's token; the
   header tint and stat bars use it.
 - The type picker and the moves filters read the address with
