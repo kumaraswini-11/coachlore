@@ -378,7 +378,8 @@ None: the import runs from a command, and its output is committed.
    gzipped. Run it, review the summary and the size,
    commit the data. Done when criteria 1, 3, 6, 7 and 9 pass on the full
    dataset.
-10. **Images.** `import-images.ts`, the committed images, `images.test.ts`.
+10. **Images.** Done: 1,330 sprites and 1,335 artworks, 16.6 MB.
+    `import-images.ts`, the committed images, `images.test.ts`.
     Done when criterion 8 passes.
 11. **Documents.** `packages/dex/README.md` (the model, the entry points,
     how to refresh), AGENTS.md's Stack list (the data sources), the
