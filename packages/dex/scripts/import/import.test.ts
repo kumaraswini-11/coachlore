@@ -7,7 +7,13 @@ import { afterAll, describe, expect, it } from "vitest"
 import { multiplier } from "../../src/type-chart.ts"
 import { readSources } from "../fetch.ts"
 import { ApiData } from "./api-data.ts"
-import { files, importDex, writeDataset, type Hand } from "./dataset.ts"
+import {
+  files,
+  importDex,
+  readHand,
+  writeDataset,
+  type Hand,
+} from "./dataset.ts"
 import { problems } from "./integrity.ts"
 
 // The committed sample (scripts/make-fixture.ts): Charizard, Raticate,
@@ -17,6 +23,9 @@ const api = new ApiData(
   join(import.meta.dirname, "..", "..", "test", "fixtures", "api-data")
 )
 const hand: Hand = {
+  showdownExceptions: readHand(
+    join(import.meta.dirname, "..", "..", "overrides")
+  ).showdownExceptions,
   excludedForms: [{ key: "raticate-totem-alola", reason: "A Totem Pokémon" }],
   overrides: [],
   // Not a real exclusive (Combat Breed is in both versions): here only to
@@ -279,5 +288,23 @@ describe("the import, on the sample", () => {
         ],
       })
     ).toThrow("pokemon-z")
+  })
+
+  it("names each form as Showdown does, and flags what Generation 9 allows", () => {
+    expect(dataset.showdown.names["rotom-wash"]).toBe("Rotom-Wash")
+    expect(dataset.showdown.ids.rotomwash).toBe("rotom-wash")
+    // A base name is its Pokémon's default form; a cosmetic pattern, its form.
+    expect(dataset.showdown.ids.urshifu).toBe("urshifu-single-strike")
+    expect(dataset.showdown.ids.vivillonfancy).toBe("vivillon")
+    // A shortened forme, and a Totem (excluded here) to its own form.
+    expect(dataset.showdown.ids.taurospaldeacombat).toBe(
+      "tauros-paldea-combat-breed"
+    )
+    expect(dataset.showdown.ids.raticatealolatotem).toBe("raticate-alola")
+    expect(form("urshifu-single-strike")).toMatchObject({
+      gen9: true,
+      tags: ["Sub-Legendary"],
+    })
+    expect(form("charizard-mega-x")).toMatchObject({ gen9: false, tags: [] })
   })
 })

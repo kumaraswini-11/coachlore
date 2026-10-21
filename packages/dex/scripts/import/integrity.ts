@@ -8,6 +8,7 @@ import {
   type PokemonDetail,
   type TypeChart,
 } from "../../src/types.ts"
+import type { ShowdownNames } from "./showdown.ts"
 
 export type Dataset = {
   forms: FormSummary[]
@@ -20,6 +21,7 @@ export type Dataset = {
   games: Game[]
   /** Location area → its English name. */
   locations: Record<string, string>
+  showdown: ShowdownNames
 }
 
 /**
@@ -160,6 +162,16 @@ export function problems(dataset: Dataset): string[] {
           )
         }
       }
+    }
+  }
+  for (const [id, form] of Object.entries(dataset.showdown.ids)) {
+    if (!forms.has(form)) {
+      found.push(`showdown: ${id} names ${form}, which isn't a form`)
+    }
+  }
+  for (const form of Object.keys(dataset.showdown.names)) {
+    if (!forms.has(form)) {
+      found.push(`showdown: ${form} has a name but isn't a form`)
     }
   }
   return [...new Set(found)]
