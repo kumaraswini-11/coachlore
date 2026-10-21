@@ -1,8 +1,6 @@
 import type * as React from "react"
-import type { Metadata } from "next"
-import { notFound } from "next/navigation"
 import { CloudOffIcon, LockIcon, SparklesIcon } from "lucide-react"
-import { getTranslations } from "next-intl/server"
+import type { getTranslations } from "next-intl/server"
 
 import { EmptyState } from "@workspace/ui/components/empty-state"
 import {
@@ -24,11 +22,8 @@ import { POKEMON_TYPES } from "@workspace/ui/lib/type-colors"
 import { LiveUpdate } from "@/components/fixtures/live-update"
 import { Lang } from "@/components/lang"
 
-// Fixture screens (spec 001, "How a screen is built", step 2): every state
-// with sample data, for the owner's review on a phone and for the
-// end-to-end tests. Built into previews; production has none.
-const SCREENS = ["states", "list"] as const
-type Screen = (typeof SCREENS)[number]
+// The states fixture's sections (spec 001, "States every view has"), each
+// with sample data.
 
 // Sample data: names stay English in every language (spec 001,
 // "Languages").
@@ -43,49 +38,6 @@ const PICKS = [
   { coach: "Misty", pokemon: "Rotom-Wash" },
   { coach: "Brock", pokemon: "Flabébé" },
 ]
-
-export function generateStaticParams() {
-  return SCREENS.map((screen) => ({ screen }))
-}
-
-export async function generateMetadata({
-  params,
-}: PageProps<"/[lang]/fixtures/[screen]">): Promise<Metadata> {
-  const { screen } = await params
-  const t = await getTranslations("states")
-  return {
-    title: screen === "list" ? t("listTitle") : t("title"),
-    description: t("metaDescription"),
-    robots: { index: false },
-  }
-}
-
-export default async function FixturePage({
-  params,
-}: PageProps<"/[lang]/fixtures/[screen]">) {
-  // Decided at build time: production builds these pages as 404s.
-  if (process.env.VERCEL_ENV === "production") {
-    notFound()
-  }
-  const { screen } = await params
-  if (!(SCREENS as readonly string[]).includes(screen)) {
-    notFound()
-  }
-  const t = await getTranslations("states")
-
-  return (
-    <div className="mx-auto flex max-w-3xl flex-col gap-10 p-4 md:p-6">
-      <h1 className="text-2xl font-semibold">
-        {(screen as Screen) === "list" ? t("listTitle") : t("title")}
-      </h1>
-      {(screen as Screen) === "list" ? (
-        <LongList row={(n) => t("row", { n })} />
-      ) : (
-        <States t={t} />
-      )}
-    </div>
-  )
-}
 
 type T = Awaited<ReturnType<typeof getTranslations<"states">>>
 
@@ -104,7 +56,8 @@ function Section({
   )
 }
 
-function States({ t }: { t: T }) {
+/** Every state, one section each, for `/[lang]/fixtures/states`. */
+export function States({ t }: { t: T }) {
   return (
     <>
       <Section title={t("sections.loading")}>
@@ -213,32 +166,5 @@ function States({ t }: { t: T }) {
         </ul>
       </Section>
     </>
-  )
-}
-
-/**
- * A long list under the sticky top bar, for criterion 9: a focused row is
- * never hidden under a sticky bar (WCAG 2.4.11).
- */
-function LongList({ row }: { row: (n: number) => string }) {
-  return (
-    <section>
-      <ItemGroup>
-        {/* ItemGroup is a list; a button row can't also be its item. */}
-        {Array.from({ length: 40 }, (_, index) => (
-          <div key={index} role="listitem">
-            <Item
-              variant="outline"
-              render={<button type="button" />}
-              className="min-h-11 w-full text-start"
-            >
-              <ItemContent>
-                <ItemTitle>{row(index + 1)}</ItemTitle>
-              </ItemContent>
-            </Item>
-          </div>
-        ))}
-      </ItemGroup>
-    </section>
   )
 }
