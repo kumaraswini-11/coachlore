@@ -2,8 +2,10 @@
  * Coachlore's Pokémon data model and the code that reads it (spec 002).
  * Synchronous and framework-agnostic: it runs in the browser, on the
  * server and in scripts alike. The large per-Pokémon and per-form files
- * are read through `@workspace/dex/files` instead; the type-chart
- * arithmetic alone, with no data, is `@workspace/dex/type-chart`.
+ * are read through `@workspace/dex/files` instead. The type-chart
+ * arithmetic and the filters, with no data, are also
+ * `@workspace/dex/type-chart` and `@workspace/dex/filter`, for a Client
+ * Component that loads the data itself.
  */
 import abilitiesData from "../data/abilities.json" with { type: "json" }
 import creditsData from "../data/credits.json" with { type: "json" }
@@ -23,6 +25,7 @@ import type {
 
 export * from "./types.ts"
 export { multiplier } from "./type-chart.ts"
+export * from "./filter.ts"
 
 /** Every form, by National Dex number, each Pokémon's default first. */
 export const forms = formsData as FormSummary[]
