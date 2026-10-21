@@ -363,18 +363,19 @@ None: the import runs from a command, and its output is committed.
    own records). Each record holds types, base stats, abilities and the
    evolution step into it, from the games or a named reference; an unchecked
    one is a todo. Done when every record is checked.
-4. **Fetch and pins.** `sources.json`, `fetch.ts`, `.cache/` gitignored.
+4. **Fetch and pins.** Done: `sources.json`, `fetch.ts`, `.cache/` gitignored.
    Done when the pinned sources download once and are reused.
-5. **Import: Pokémon, forms, types, abilities, moves.** Steps 2 to 4, 11
+5. **Import: Pokémon, forms, types, abilities, moves.** Done: steps 2 to 4, 11
    and 12, with the test sample. Done when criteria 3, 4 and 5 pass on the
    sample.
 6. **Import: evolutions, entries, names, learnsets, games, encounters.**
-   Steps 5 to 8. Done when the sample's output has every field.
-7. **Battle names.** Step 9 and `showdown.test.ts`. Done when criterion 2
+   Done: steps 5 to 8. Done when the sample's output has every field.
+7. **Battle names.** Done: step 9 and `showdown.test.ts`. Done when criterion 2
    passes.
-8. **Usage.** Step 10. Done when the sample month's top forms appear with
+8. **Usage.** Done: step 10. Done when the sample month's top forms appear with
    their lists.
-9. **The first full import.** Run it, review the summary and the size,
+9. **The first full import.** Done: 1,339 forms, `forms.json` 87 KB
+   gzipped. Run it, review the summary and the size,
    commit the data. Done when criteria 1, 3, 6, 7 and 9 pass on the full
    dataset.
 10. **Images.** `import-images.ts`, the committed images, `images.test.ts`.
