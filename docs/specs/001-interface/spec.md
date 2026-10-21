@@ -30,7 +30,7 @@ v1, and why, is under [Out of scope](#out-of-scope).
 
 All colours, sizes and durations are tokens in the shared interface theme,
 used by name. Light and dark are both full palettes; a first visit follows
-the system, and a choice made in the theme menu survives a reload.
+the device, and a choice made with the theme button survives a reload.
 
 **Semantic colours.** shadcn's set (background, foreground, card, popover,
 primary, secondary, muted, accent, destructive, border, input, ring, and
@@ -119,7 +119,7 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 
 ```text
 ┌──────────────────────────────┐
-│ ◆ Coachlore           🔍  ◐  │  logo (home), search, theme
+│ ◆ Coachlore        🔍  文  ◐ │  logo (home), search, language, theme
 ├──────────────────────────────┤
 │                              │
 │         page content         │
@@ -133,7 +133,7 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────┐
-│ ◆ Coachlore      [ Search Pokémon, moves, leagues…   Ctrl K ]     ◐  │
+│ ◆ Coachlore      [ Search Pokémon, moves, leagues…   Ctrl K ]  文  ◐ │
 ├───────────────┬──────────────────────────────────────────────────────┤
 │ Dex           │                                                      │
 │ Types         │                                                      │
@@ -169,20 +169,27 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
   scrolls clear of them.
 - **Landmarks:** one `header`, `nav` (labelled "Main" and, in a league,
   "League"), `main` and `footer` per page; one `h1` per page.
-- **The display menu** (the ◐ button, named "Display: theme and language"
-  for screen readers) holds the theme and a "Language" group with
-  "English" and "हिन्दी", each written in its own language, the current one
-  checked. Choosing one keeps the person on the same page in the other
-  language. The footer's switch and `/me`'s setting (spec 006) do the
-  same, so the language is never only behind an icon.
-- Components: Sidebar, Tabs, Button, Tooltip, Dropdown Menu (the theme
-  and language menu; the theme part is built), Separator, Avatar.
+- **The language button** (文, Lucide's `Languages` icon) opens the same
+  page in the other language with one press. Its name for screen readers
+  says where it goes, with the language written in itself ("Read in
+  हिन्दी" on English pages, "English में पढ़ें" on Hindi ones). The
+  footer's switch and `/me`'s setting (spec 006) do the same, so the
+  language is never only behind an icon. With a third language, the
+  button becomes a choice among them.
+- **The theme button** (◐, the sun or the moon) switches between light and
+  dark with one press: a toggle button named "Dark theme", pressed while
+  the dark theme is on. There's no "System" choice: until the first press
+  the page follows the device, and after it the choice is remembered per
+  browser. A theme setting on `/me`, such as following the device again,
+  can come with accounts (spec 006). Two buttons rather than a menu: each
+  is one press, and opening a floating menu was slow on a phone
+  (scaffold follow-ups, "Theme control's first open").
+- Components: Sidebar, Tabs, Button, Tooltip, Separator, Avatar.
 
 ### 3. The search palette
 
-Opens from the search button, from Ctrl K or ⌘ K, and from `/` while the
-single-key shortcuts are on. It finds Pokémon, forms, moves, abilities,
-types and the person's own leagues as they type, grouped by kind; Enter
+Opens from the search button, and from Ctrl K or ⌘ K. It finds Pokémon,
+forms, moves, abilities, types and the person's own leagues as they type, grouped by kind; Enter
 opens the highlighted result. Spec 001 builds the palette with no sources;
 each later spec adds its own (003: Pokémon and forms; 004: moves,
 abilities, types; 007: leagues). Spec 012 adds "Ask: …" as the last row.
@@ -190,10 +197,10 @@ abilities, types; 007: leagues). Spec 012 adds "Ask: …" as the last row.
 - **Phone:** full screen, the input at the top, results below, the
   keyboard open.
 - **Desktop:** a dialog, 640 px wide, at the top third of the screen.
-- **Single-key shortcuts** (`d` for the theme, `/` for search) are one
-  setting, "Single-key shortcuts", in the theme menu, on by default and
-  remembered per browser (WCAG 2.1.4). The current "Switch theme with D"
-  item becomes this setting.
+- **No single-key shortcuts:** WCAG 2.1.4 asks for a way to turn off
+  any shortcut that's a single key, and the shell has no settings to hold
+  one, so every shortcut uses a modifier (Ctrl K or ⌘ K). `d` and `/` did
+  something until 2026-10-21; they do nothing now.
 - Accessibility: Command's combobox and listbox roles; the result count is
   announced politely; Escape closes and returns focus to what opened it.
 - Components: Command, Dialog, Kbd, Badge (type badges in results),
@@ -1108,8 +1115,9 @@ This spec is done when:
 2. The shell works at 360, 768, 1024 and 1440 px: tabs on a phone, the
    sidebar from 1024 px, the skip link, the landmarks, and the footer's
    notice and credits on every page.
-3. The search palette opens with the button, Ctrl K or ⌘ K, and `/`; the
-   "Single-key shortcuts" setting turns `d` and `/` off and is remembered.
+3. The search palette opens with the button, and with Ctrl K or ⌘ K; no
+   single key opens it or changes the theme. The theme button switches
+   between light and dark, and the choice survives a reload.
 4. Every state in [States every view has](#4-states-every-view-has) has a
    fixture page that shows it, reviewed by the owner on a desktop and a
    phone.
@@ -1126,8 +1134,8 @@ This spec is done when:
    room.
 10. Every page this spec builds works in English and Hindi: an address
     without a language redirects as [Languages](#6-languages) says, the
-    display menu and the footer's switch change the page's language and
-    it's remembered, `<html>` has the
+    top bar's language button and the footer's switch change the page's
+    language and it's remembered, `<html>` has the
     right `lang` and `dir`, Hindi uses its font, and each page lists its
     other-language version.
 11. The two dictionaries have the same keys, checked by a test, and no

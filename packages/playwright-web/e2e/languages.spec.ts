@@ -130,14 +130,11 @@ test("Hindi pages use the Devanagari font; English pages don't", async ({
   ).not.toMatch(/Noto Sans Devanagari/)
 })
 
-test("the display menu and the footer switch the language", async ({
+test("the top bar's button and the footer switch the language", async ({
   page,
 }) => {
   await page.goto("/en")
-  await page
-    .getByRole("button", { name: "Display: theme and language" })
-    .click()
-  await page.getByRole("menuitem", { name: "हिन्दी" }).click()
+  await page.getByRole("link", { name: "Read in हिन्दी" }).click()
   await expect(page).toHaveURL(/\/hi$/)
   await expect(page.locator("html")).toHaveAttribute("lang", "hi")
 

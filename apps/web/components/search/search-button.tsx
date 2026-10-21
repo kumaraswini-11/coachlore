@@ -7,11 +7,6 @@ import type { Locale } from "next-intl"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 import { Kbd } from "@workspace/ui/components/shadcn-ui/kbd"
 
-import {
-  OPEN_SEARCH_EVENT,
-  SHORTCUT_KEYS,
-  useSingleKeyShortcuts,
-} from "@/components/shortcuts"
 import type messages from "@/messages/en/main.json"
 
 export type PaletteMessages = (typeof messages)["palette"]
@@ -68,8 +63,7 @@ class LoadBoundary extends React.Component<
 
 /**
  * The search palette's button in the top bar, and the palette (spec 001,
- * "The search palette"). It opens from the button, from Ctrl K or ⌘ K, and
- * from `/` while the single-key shortcuts are on (`OPEN_SEARCH_EVENT`).
+ * "The search palette"). It opens from the button, and from Ctrl K or ⌘ K.
  */
 function SearchButton({
   locale,
@@ -91,17 +85,17 @@ function SearchButton({
   }))
   const SearchDialog = loader.Dialog
   const isMac = useIsMac()
-  const [singleKeys] = useSingleKeyShortcuts()
 
-  const show = React.useCallback(() => {
+  const show = () => {
     setMounted(true)
     setOpen(true)
-  }, [])
+  }
 
   React.useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
-      // Ctrl K or ⌘ K: not a single key, so always on (WCAG 2.1.4). Not
-      // Ctrl Shift K (Firefox's console), and not while the keys are held.
+      // Ctrl K or ⌘ K: not a single key, so it needs no off switch (WCAG
+      // 2.1.4). Not Ctrl Shift K (Firefox's console), and not while the
+      // keys are held.
       if (
         (event.ctrlKey || event.metaKey) &&
         !event.altKey &&
@@ -115,29 +109,16 @@ function SearchButton({
         setOpen((current) => !current)
       }
     }
-    // `/` from shortcuts.tsx: taking it tells the shortcut a palette is here.
-    function onOpenSearch(event: Event) {
-      event.preventDefault()
-      show()
-    }
     window.addEventListener("keydown", onKeyDown)
-    window.addEventListener(OPEN_SEARCH_EVENT, onOpenSearch)
-    return () => {
-      window.removeEventListener("keydown", onKeyDown)
-      window.removeEventListener(OPEN_SEARCH_EVENT, onOpenSearch)
-    }
-  }, [show])
+    return () => window.removeEventListener("keydown", onKeyDown)
+  }, [])
 
   return (
     <>
       <Button
         variant="outline"
         aria-haspopup="dialog"
-        aria-keyshortcuts={
-          singleKeys
-            ? `Control+K Meta+K ${SHORTCUT_KEYS.search}`
-            : "Control+K Meta+K"
-        }
+        aria-keyshortcuts="Control+K Meta+K"
         onClick={show}
         onPointerEnter={prefetch}
         onFocus={prefetch}

@@ -2,9 +2,9 @@ import { expect, test, type Page } from "@playwright/test"
 
 import { expectAccessible, settled } from "./axe"
 
-// Spec 001, criterion 3: the search palette opens with its button, Ctrl K or
-// ⌘ K, and `/`; the "Single-key shortcuts" setting turns `d` and `/` off,
-// and is remembered.
+// Spec 001, criterion 3: the search palette opens with its button, and with
+// Ctrl K or ⌘ K; no single key opens it, so no setting has to turn one off
+// (WCAG 2.1.4).
 
 const palette = (page: Page) => page.getByRole("dialog", { name: "Search" })
 const searchButton = (page: Page) =>
@@ -55,13 +55,13 @@ test("opens with Ctrl K or ⌘ K, and closes with it", async ({ page }) => {
   await expect(palette(page)).toBeHidden()
 })
 
-test("opens with /, and Escape returns focus to where it was", async ({
+test("from the keyboard, Escape returns focus to where it was", async ({
   page,
 }) => {
   await ready(page)
   await page.locator("main").click()
   await expect(page.locator("main")).toBeFocused()
-  await page.keyboard.press("/")
+  await page.keyboard.press("ControlOrMeta+K")
   await expect(palette(page)).toBeVisible()
   await page.keyboard.press("Escape")
   await expect(page.locator("main")).toBeFocused()
@@ -108,39 +108,11 @@ test("fills a phone's screen, with a close button of 44 px", async ({
   expect(close?.height).toBeGreaterThanOrEqual(44)
 })
 
-test("the setting turns the single-key shortcuts off, and is remembered", async ({
-  page,
-}) => {
-  // Several steps and a reload: a long test.
-  test.slow()
-  const html = page.locator("html")
+test("a single key doesn't open it", async ({ page }) => {
   await ready(page)
   await page.locator("main").click()
-  await page.keyboard.press("d")
-  await expect(html).toHaveClass(/\bdark\b/)
-
-  const display = page.getByRole("button", {
-    name: "Display: theme and language",
-  })
-  const setting = page.getByRole("menuitemcheckbox", {
-    name: /Single-key shortcuts/,
-  })
-  await display.click()
-  await setting.click()
-  await page.keyboard.press("Escape")
-
-  await page.reload()
-  await ready(page)
-  await display.click()
-  await expect(setting).toHaveAttribute("aria-checked", "false")
-  await page.keyboard.press("Escape")
-
-  await page.locator("main").click()
-  const before = await html.getAttribute("class")
-  await page.keyboard.press("d")
   await page.keyboard.press("/")
   // Had `/` opened the palette, Ctrl K would close it now.
   await page.keyboard.press("ControlOrMeta+K")
   await expect(palette(page)).toBeVisible()
-  expect(await html.getAttribute("class")).toBe(before)
 })

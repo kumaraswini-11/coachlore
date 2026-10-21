@@ -33,15 +33,15 @@ for (const width of [360, 1280]) {
         )
         expect(overflow).toBeLessThanOrEqual(0)
 
-        // The name sits at the start, now the right; the display menu at
+        // The name sits at the start, now the right; the theme button at
         // the end, now the left.
         const logo = await page
           .getByRole("link", { name: "Coachlore, home page" })
           .boundingBox()
-        const display = await page
-          .getByRole("button", { name: "Display: theme and language" })
+        const theme = await page
+          .getByRole("button", { name: "Dark theme" })
           .boundingBox()
-        expect(logo!.x).toBeGreaterThan(display!.x)
+        expect(logo!.x).toBeGreaterThan(theme!.x)
       })
     }
   })

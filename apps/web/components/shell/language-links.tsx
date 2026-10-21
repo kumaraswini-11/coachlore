@@ -1,12 +1,15 @@
 "use client"
 
 import { usePathname } from "next/navigation"
+import type { Locale } from "next-intl"
 
 import { buttonVariants } from "@workspace/ui/components/shadcn-ui/button"
 import { cn } from "@workspace/ui/lib/utils"
 
-import type { LanguageOption } from "@/components/shell/display-menu"
 import { switchLocale } from "@/i18n/paths"
+
+/** A language the page can be read in, named in itself ("हिन्दी"). */
+export type LanguageOption = { locale: Locale; name: string }
 
 /**
  * The footer's switch to the page in the other languages, each written in

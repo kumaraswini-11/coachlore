@@ -142,8 +142,9 @@ Where this section and ADR 0008 differ, the ADR wins:
   `/api`, files and metadata routes, and `/monitoring`, Sentry's tunnel (spec
   000): Sentry's docs say to "exclude the tunnel route" from a proxy's
   matcher.
-- **The language switch** is in three places: the display menu (its
-  button's accessible name is "Display: theme and language"), the footer
+- **The language switch** is in three places: the top bar's language
+  button (its accessible name is "Read in हिन्दी" or "English में
+  पढ़ें"; a display menu until 2026-10-21), the footer
   (the other language, written in that language) and `/me` (spec 006).
   Each links to the current path with the other language and sets the
   `lang` cookie (one year, `SameSite=Lax`, readable by the server only);
@@ -183,7 +184,12 @@ Where this section and ADR 0008 differ, the ADR wins:
 
 ## Single-key shortcuts
 
-`components/shortcuts.tsx` replaces `components/theme-hotkey.tsx` (ADR
+Removed on 2026-10-21, with the display menu: the owner chose two one-press
+buttons for the language and the theme, and Ctrl K or ⌘ K as the only
+shortcut, so no setting has to turn one off (spec 001, "The search
+palette"). What was built:
+
+`components/shortcuts.tsx` replaced `components/theme-hotkey.tsx` (ADR
 0003's era) with one setting for every single-key shortcut:
 
 - Storage key `single-key-shortcuts` (`on` / `off`); a stored
@@ -229,7 +235,7 @@ None.
 | 9                    | `e2e/focus-obscured.spec.ts`: at 360 × 640, Tab through a fixture list under the sticky bars; each focused row's box lies inside the viewport minus the bars                                                                                                                                                                                                                                                     |
 | 10                   | `e2e/languages.spec.ts`: `/about` with `Accept-Language: hi-IN` redirects to `/hi/about`, with the cookie set to `en` to `/en/about`, with neither to `/en/about`; `/fr/about` redirects to `/en/fr/about`, which is not found (404); the menu switches and the choice survives a reload; `<html lang>`, the Devanagari font on `/hi`, and the `hreflang` links. `pickLocale.test.ts` (Vitest) covers the choice |
 | 11                   | `dictionaries.test.ts`: the same keys in both, no empty values, placeholders match; `check-logical-css` and ESLint's `react/jsx-no-literals` in `apps/web/components` and `app` (tests and fixtures excepted)                                                                                                                                                                                                    |
-| 12                   | `e2e/rtl.spec.ts`: the shell and every page this spec builds rendered with `dir="rtl"` forced on `<html>`, at 360 and 1280 px: no horizontal overflow (`scrollWidth` equals `clientWidth`), the sidebar on the start side, back and next icons mirrored, no arrow characters in the page's icons, the display button named "Display: theme and language"; `check-logical-css` passes                             |
+| 12                   | `e2e/rtl.spec.ts`: the shell and every page this spec builds rendered with `dir="rtl"` forced on `<html>`, at 360 and 1280 px: no horizontal overflow (`scrollWidth` equals `clientWidth`), the sidebar on the start side, back and next icons mirrored, no arrow characters in the page's icons, the theme button named "Dark theme"; `check-logical-css` passes                                                |
 | 13                   | `e2e/global-not-found.spec.ts`: paths the Proxy doesn't redirect (a file such as `/not-a-route.txt`) return 404 with both languages' text, `lang` attributes on each part, links to `/en` and `/hi`, and axe finds no violations; it's excluded from the shell and single-language checks by name                                                                                                                |
 | 2, 6, 8              | Run in both languages: every e2e spec loops over `en` and `hi`                                                                                                                                                                                                                                                                                                                                                   |
 

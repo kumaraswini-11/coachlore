@@ -5,20 +5,22 @@ import { getLocale, getMessages, getTranslations } from "next-intl/server"
 import { buttonVariants } from "@workspace/ui/components/shadcn-ui/button"
 import { cn } from "@workspace/ui/lib/utils"
 
+import { Lang } from "@/components/lang"
 import { SearchButton } from "@/components/search/search-button"
-import { DisplayMenu } from "@/components/shell/display-menu"
 import { LanguageLinks } from "@/components/shell/language-links"
+import { LanguageToggle } from "@/components/shell/language-toggle"
 import { LogoMark } from "@/components/shell/logo-mark"
+import { ThemeToggle } from "@/components/shell/theme-toggle"
 import { endonym, otherLocales } from "@/i18n/locales"
 import { localeHref } from "@/i18n/paths"
-import { routing } from "@/i18n/routing"
 import { SITE } from "@/lib/site"
 
 /**
  * The app shell (spec 001, "The app shell"): the skip link, the top bar, the
  * page's one <main>, and the footer with the not-affiliated notice, the
  * credits and the switch to the other language. A Server Component; only
- * the display menu and the language links run in the browser.
+ * the search, language and theme buttons and the language links run in the
+ * browser.
  *
  * The bottom tabs and the sidebar arrive with their first item, the Dex
  * (spec 003): until a page exists, nothing links to it (spec 001, "No dead
@@ -31,10 +33,8 @@ async function AppShell({ children }: { children: React.ReactNode }) {
   const messages = await getMessages()
   const footer = await getTranslations("footer")
 
-  const languages = routing.locales.map((other) => ({
-    locale: other,
-    name: endonym(other),
-  }))
+  // Two languages, so the top bar's button opens the other one.
+  const [other] = otherLocales(locale)
 
   return (
     <>
@@ -61,19 +61,16 @@ async function AppShell({ children }: { children: React.ReactNode }) {
             shortcutLabels={messages.shell.searchShortcut}
             messages={messages.palette}
           />
-          <DisplayMenu
-            locale={locale}
-            languages={languages}
-            labels={{
-              display: t("display"),
-              theme: t("theme"),
-              light: t("light"),
-              dark: t("dark"),
-              system: t("system"),
-              shortcuts: t("shortcuts"),
-              language: t("language"),
-            }}
-          />
+          {other ? (
+            <LanguageToggle
+              locale={other}
+              label={t.rich("readIn", {
+                language: endonym(other),
+                lang: (chunks) => <Lang lang={other}>{chunks}</Lang>,
+              })}
+            />
+          ) : null}
+          <ThemeToggle label={t("darkTheme")} />
         </div>
       </header>
       <main id="main" tabIndex={-1} className="flex-1 outline-none">

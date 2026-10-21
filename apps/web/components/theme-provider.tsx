@@ -3,8 +3,6 @@
 import * as React from "react"
 import { ThemeProvider as NextThemesProvider } from "next-themes"
 
-import { Shortcuts } from "@/components/shortcuts"
-
 // The theme's settings live here, once, for both places that render the
 // provider: the root layout and global-error.tsx.
 function ThemeProvider({
@@ -19,7 +17,6 @@ function ThemeProvider({
       disableTransitionOnChange
       {...props}
     >
-      <Shortcuts />
       {children}
     </NextThemesProvider>
   )
