@@ -1,0 +1,2687 @@
+<!doctype html>
+<!--
+  The owner's own preview of the screens, with sample data. It is left out of
+  every document on purpose: don't link it. When a spec changes a screen,
+  update this file to match; the specs win where they differ. It makes no
+  network requests and holds nothing personal.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:"
+    />
+    <title>Coachlore preview</title>
+    <style>
+      /* Preview chrome (not part of the app) */
+      :root {
+        --chrome-bg: #111;
+        --chrome-fg: #eee;
+        color-scheme: light dark;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        background: #3a3a3a;
+        font-family:
+          Inter,
+          "Segoe UI",
+          "Nirmala UI",
+          "Noto Sans Devanagari",
+          system-ui,
+          -apple-system,
+          Roboto,
+          sans-serif;
+      }
+      .chrome {
+        position: fixed;
+        inset: 0 0 auto 0;
+        height: 52px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        padding: 0 12px;
+        background: var(--chrome-bg);
+        color: var(--chrome-fg);
+        z-index: 100;
+        font-size: 13px;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+      .chrome b {
+        font-weight: 600;
+        margin-right: 6px;
+      }
+      .chrome .note {
+        opacity: 0.65;
+        margin-right: 8px;
+      }
+      .chrome button,
+      .chrome select {
+        background: #2a2a2a;
+        color: #eee;
+        border: 1px solid #444;
+        border-radius: 6px;
+        padding: 6px 10px;
+        font: inherit;
+        cursor: pointer;
+      }
+      .chrome button[aria-pressed="true"] {
+        background: #eee;
+        color: #111;
+      }
+      .chrome .sep {
+        width: 1px;
+        height: 24px;
+        background: #444;
+        margin: 0 4px;
+        flex: none;
+      }
+      .stage {
+        position: fixed;
+        inset: 52px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        padding: 16px;
+        overflow: auto;
+      }
+      .frame {
+        width: 100%;
+        max-width: 1280px;
+        height: 100%;
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        flex: none;
+      }
+      .frame[data-size="phone"] {
+        width: 360px;
+      }
+      .frame[data-size="tablet"] {
+        width: 768px;
+      }
+      .frame[data-size="desktop"] {
+        width: 1280px;
+        max-width: 100%;
+      }
+
+      /* The app: tokens from packages/ui globals.css and spec 001 */
+      .app {
+        --radius: 0.45rem;
+        --background: oklch(1 0 0);
+        --foreground: oklch(0.145 0 0);
+        --card: oklch(1 0 0);
+        --primary: oklch(0.205 0 0);
+        --primary-foreground: oklch(0.985 0 0);
+        --secondary: oklch(0.97 0 0);
+        --muted: oklch(0.97 0 0);
+        --muted-foreground: oklch(0.556 0 0);
+        --accent: oklch(0.97 0 0);
+        --destructive: oklch(0.577 0.245 27.325);
+        --border: oklch(0.922 0 0);
+        --input: oklch(0.922 0 0);
+        --ring: oklch(0.205 0 0);
+        --success: oklch(0.52 0.13 150);
+        --warning: oklch(0.55 0.13 70);
+        container-type: inline-size;
+        height: 100%;
+        overflow: auto;
+        background: var(--background);
+        color: var(--foreground);
+        font-size: 14px;
+        line-height: 1.5;
+        scroll-behavior: smooth;
+        position: relative;
+      }
+      .app.dark {
+        --background: oklch(0.145 0 0);
+        --foreground: oklch(0.985 0 0);
+        --card: oklch(0.205 0 0);
+        --primary: oklch(0.922 0 0);
+        --primary-foreground: oklch(0.205 0 0);
+        --secondary: oklch(0.269 0 0);
+        --muted: oklch(0.269 0 0);
+        --muted-foreground: oklch(0.708 0 0);
+        --accent: oklch(0.269 0 0);
+        --destructive: oklch(0.704 0.191 22.216);
+        --border: oklch(1 0 0 / 10%);
+        --input: oklch(1 0 0 / 15%);
+        --ring: oklch(0.922 0 0);
+        --success: oklch(0.75 0.15 150);
+        --warning: oklch(0.8 0.14 75);
+      }
+      .app.reduce *,
+      .app.reduce *::before,
+      .app.reduce *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+      .app svg {
+        width: 18px;
+        height: 18px;
+        flex: none;
+      }
+      .app :focus-visible {
+        outline: 2px solid var(--ring);
+        outline-offset: 2px;
+      }
+      .app a {
+        color: inherit;
+      }
+      .app h1 {
+        font-size: 20px;
+        margin: 0 0 4px;
+        font-weight: 650;
+        letter-spacing: -0.01em;
+      }
+      .app h2 {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted-foreground);
+        margin: 20px 0 8px;
+        font-weight: 600;
+      }
+      .app h3 {
+        font-size: 15px;
+        margin: 0;
+        font-weight: 600;
+      }
+      .app p {
+        margin: 0 0 8px;
+      }
+      .muted {
+        color: var(--muted-foreground);
+      }
+      .num {
+        font-variant-numeric: tabular-nums;
+      }
+      .small {
+        font-size: 12px;
+      }
+      .row {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .between {
+        justify-content: space-between;
+      }
+      .stack > * + * {
+        margin-top: 12px;
+      }
+      .grow {
+        flex: 1;
+        min-width: 0;
+      }
+      .sr {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
+      }
+
+      /* Shell */
+      .skip {
+        position: absolute;
+        inset-inline-start: 8px;
+        top: -40px;
+        z-index: 50;
+        background: var(--primary);
+        color: var(--primary-foreground);
+        padding: 8px 12px;
+        border-radius: var(--radius);
+      }
+      .skip:focus {
+        top: 8px;
+      }
+      .layout {
+        min-height: 100%;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto 1fr auto auto;
+      }
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        height: 56px;
+        padding: 0 12px;
+        background: color-mix(in oklch, var(--background) 92%, transparent);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid var(--border);
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 16px;
+      }
+      .logo i {
+        width: 22px;
+        height: 22px;
+        border-radius: 6px;
+        background: var(--foreground);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2px;
+        padding: 3px;
+      }
+      .logo i span {
+        background: var(--background);
+        border-radius: 1px;
+      }
+      .logo i span:nth-child(n + 4) {
+        opacity: 0.35;
+      }
+      .searchbox {
+        display: none;
+        flex: 1;
+        max-width: 520px;
+        margin: 0 auto;
+      }
+      .main {
+        padding: 16px;
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+        min-width: 0;
+      }
+      .draftbtn {
+        position: sticky;
+        bottom: 68px;
+      }
+      @container (min-width:1024px) {
+        .draftbtn {
+          bottom: 12px;
+        }
+      }
+      .app[data-route="draft"] .tabs-bottom {
+        display: none;
+      }
+      .tabs-bottom {
+        position: sticky;
+        bottom: 0;
+        z-index: 20;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background: color-mix(in oklch, var(--background) 94%, transparent);
+        backdrop-filter: blur(8px);
+        border-top: 1px solid var(--border);
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+      .tabs-bottom a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        min-height: 56px;
+        font-size: 11px;
+        text-decoration: none;
+        color: var(--muted-foreground);
+      }
+      .tabs-bottom a[aria-current="page"] {
+        color: var(--foreground);
+        font-weight: 600;
+      }
+      .tabs-bottom svg,
+      .side svg {
+        width: 20px;
+        height: 20px;
+      }
+      .side {
+        display: none;
+      }
+      .footer {
+        padding: 16px;
+        font-size: 12px;
+        color: var(--muted-foreground);
+        border-top: 1px solid var(--border);
+        text-align: center;
+      }
+      .league-tabs {
+        display: flex;
+        gap: 4px;
+        overflow-x: auto;
+        padding: 8px 12px 0;
+        border-bottom: 1px solid var(--border);
+        scrollbar-width: none;
+        position: sticky;
+        top: 56px;
+        background: var(--background);
+        z-index: 15;
+      }
+      .league-tabs a {
+        padding: 8px 12px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--muted-foreground);
+        border-bottom: 2px solid transparent;
+        white-space: nowrap;
+      }
+      .league-tabs a[aria-current="page"] {
+        color: var(--foreground);
+        border-color: var(--foreground);
+        font-weight: 600;
+      }
+
+      @container (min-width: 1024px) {
+        .layout {
+          grid-template-columns: 240px minmax(0, 1fr);
+          grid-template-rows: auto 1fr auto;
+        }
+        .topbar {
+          grid-column: 1 / -1;
+        }
+        .side {
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          padding: 12px;
+          border-inline-end: 1px solid var(--border);
+          position: sticky;
+          top: 56px;
+          align-self: start;
+          max-height: calc(100vh - 140px);
+          overflow: auto;
+          grid-row: 2 / 4;
+        }
+        .side a {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          padding: 8px 10px;
+          min-height: 40px;
+          border-radius: var(--radius);
+          text-decoration: none;
+          color: var(--muted-foreground);
+        }
+        .side a:hover {
+          background: var(--accent);
+          color: var(--foreground);
+        }
+        .side a[aria-current="page"] {
+          background: var(--accent);
+          color: var(--foreground);
+          font-weight: 600;
+        }
+        .side .label {
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: 0.06em;
+          color: var(--muted-foreground);
+          padding: 12px 10px 4px;
+        }
+        .tabs-bottom,
+        .search-btn-mobile,
+        .league-tabs {
+          display: none;
+        }
+        .searchbox {
+          display: block;
+        }
+        .main {
+          padding: 24px 32px;
+        }
+        .footer {
+          grid-column: 2;
+        }
+      }
+
+      /* Components (shadcn-like) */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        min-height: 44px;
+        padding: 0 16px;
+        border-radius: var(--radius);
+        border: 1px solid transparent;
+        background: var(--primary);
+        color: var(--primary-foreground);
+        font: inherit;
+        font-weight: 550;
+        cursor: pointer;
+        text-decoration: none;
+        transition:
+          transform 0.15s ease-out,
+          opacity 0.15s;
+      }
+      .btn:active {
+        transform: scale(0.98);
+      }
+      .btn.outline {
+        background: transparent;
+        color: var(--foreground);
+        border-color: var(--border);
+      }
+      .btn.ghost {
+        background: transparent;
+        color: var(--foreground);
+      }
+      .btn.icon {
+        width: 44px;
+        padding: 0;
+      }
+      .btn.sm {
+        min-height: 36px;
+        padding: 0 12px;
+        font-size: 13px;
+      }
+      .btn[disabled] {
+        background: var(--muted);
+        color: var(--muted-foreground);
+        border-color: var(--border);
+        cursor: not-allowed;
+      }
+      .app a.btn {
+        color: var(--primary-foreground);
+      }
+      .app a.btn.outline,
+      .app a.btn.ghost {
+        color: var(--foreground);
+      }
+      .app .chip,
+      .app .btn,
+      .app .pcard,
+      .app .logo,
+      .app .card {
+        text-decoration: none;
+      }
+      .btn.danger {
+        background: var(--destructive);
+        color: #fff;
+      }
+      .input {
+        width: 100%;
+        min-height: 44px;
+        padding-block: 0;
+        padding-inline: 38px 12px;
+        border-radius: var(--radius);
+        border: 1px solid var(--input);
+        background: transparent;
+        color: inherit;
+        font: inherit;
+      }
+      .inputwrap {
+        position: relative;
+      }
+      .inputwrap svg {
+        position: absolute;
+        inset-inline-start: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        color: var(--muted-foreground);
+      }
+      .kbd {
+        font-size: 11px;
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        padding: 1px 5px;
+        color: var(--muted-foreground);
+        font-family: ui-monospace, monospace;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: calc(var(--radius) + 4px);
+        padding: 16px;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 32px;
+        padding: 0 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        font-size: 13px;
+        background: var(--card);
+        cursor: pointer;
+        color: inherit;
+        font: inherit;
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        height: 22px;
+        padding: 0 8px;
+        border-radius: 6px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      .badge.neutral {
+        background: var(--secondary);
+        color: var(--foreground);
+        text-transform: none;
+        letter-spacing: 0;
+        font-weight: 600;
+      }
+      .badge.ok {
+        background: color-mix(in oklch, var(--success) 18%, transparent);
+        color: var(--success);
+        text-transform: none;
+        letter-spacing: 0;
+      }
+      .badge.warn {
+        background: color-mix(in oklch, var(--warning) 20%, transparent);
+        color: var(--warning);
+        text-transform: none;
+        letter-spacing: 0;
+      }
+      .live {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-weight: 600;
+        color: var(--destructive);
+        font-size: 12px;
+      }
+      .live::before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: currentColor;
+        animation: pulse 1.6s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        50% {
+          opacity: 0.3;
+        }
+      }
+      .alert {
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 12px 14px;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+        background: var(--card);
+      }
+      .alert.warn {
+        border-color: color-mix(in oklch, var(--warning) 50%, var(--border));
+      }
+      .alert.err {
+        border-color: color-mix(
+          in oklch,
+          var(--destructive) 50%,
+          var(--border)
+        );
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        text-align: start;
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--border);
+      }
+      th {
+        font-size: 12px;
+        color: var(--muted-foreground);
+        font-weight: 600;
+      }
+      td.r,
+      th.r {
+        text-align: end;
+      }
+      tr.me td {
+        background: var(--accent);
+        font-weight: 600;
+      }
+      .skeleton {
+        background: linear-gradient(
+          90deg,
+          var(--muted) 25%,
+          color-mix(in oklch, var(--muted) 60%, var(--background)) 50%,
+          var(--muted) 75%
+        );
+        background-size: 200% 100%;
+        animation: shimmer 1.4s infinite linear;
+        border-radius: var(--radius);
+      }
+      @keyframes shimmer {
+        to {
+          background-position: -200% 0;
+        }
+      }
+      .empty {
+        text-align: center;
+        padding: 32px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+      .empty .ico {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        background: var(--muted);
+        display: grid;
+        place-items: center;
+      }
+
+      /* Pokémon art placeholder (the real app uses a small sprite; images aren't in this preview) */
+      .art {
+        aspect-ratio: 1;
+        border-radius: calc(var(--radius) + 2px);
+        display: grid;
+        place-items: center;
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.92);
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+        position: relative;
+        overflow: hidden;
+      }
+      .art::after {
+        content: "artwork";
+        position: absolute;
+        bottom: 4px;
+        inset-inline-end: 6px;
+        font-size: 9px;
+        font-weight: 500;
+        opacity: 0.7;
+        text-shadow: none;
+        color: rgba(0, 0, 0, 0.55);
+      }
+      .grid-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+      }
+      @container (min-width: 600px) {
+        .grid-cards {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      @container (min-width: 1024px) {
+        .grid-cards {
+          grid-template-columns: repeat(6, 1fr);
+          gap: 12px;
+        }
+      }
+      .pcard {
+        display: block;
+        text-decoration: none;
+        padding: 8px;
+        border-radius: calc(var(--radius) + 4px);
+        border: 1px solid var(--border);
+        background: var(--card);
+        transition:
+          transform 0.15s ease-out,
+          box-shadow 0.15s;
+      }
+      .pcard:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      }
+      .pcard .art {
+        font-size: 22px;
+      }
+      .pcard .nm {
+        font-weight: 600;
+        font-size: 13px;
+        margin-top: 6px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .pcard .types {
+        display: flex;
+        gap: 4px;
+        margin-top: 4px;
+        flex-wrap: wrap;
+      }
+      .pcard .types .badge {
+        height: 18px;
+        font-size: 9px;
+        padding: 0 5px;
+      }
+
+      /* Columns */
+      .cols {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .cols > * {
+        min-width: 0;
+      }
+      @container (min-width: 768px) {
+        .cols.two {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .dex-filters {
+        display: none;
+      }
+      .dex-filters.open {
+        display: block;
+      }
+      @container (min-width: 1024px) {
+        .dex-filters {
+          display: block;
+        }
+        .cols.side-l.mon {
+          grid-template-columns: 320px 1fr;
+        }
+        .cols.side-r {
+          grid-template-columns: 1fr 320px;
+        }
+        .cols.side-l {
+          grid-template-columns: 260px 1fr;
+        }
+        .cols.three {
+          grid-template-columns: minmax(0, 300px) minmax(0, 1fr) 260px;
+        }
+      }
+
+      /* Stats */
+      .stat {
+        display: grid;
+        grid-template-columns: 64px 36px 1fr;
+        gap: 8px;
+        align-items: center;
+        font-size: 13px;
+      }
+      .bar {
+        height: 8px;
+        background: var(--muted);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .bar span {
+        display: block;
+        height: 100%;
+        border-radius: 4px;
+        transition: width 0.6s ease-out;
+      }
+      .hero {
+        border-radius: 16px;
+        padding: 16px;
+        position: relative;
+      }
+      .hero .art {
+        width: min(220px, 60%);
+        margin: 0 auto;
+        font-size: 56px;
+      }
+
+      /* Draft room */
+      .statusbar {
+        position: sticky;
+        top: 56px;
+        z-index: 12;
+      }
+      @container (min-width:1024px) {
+        .statusbar {
+          top: 56px;
+        }
+      }
+      .timer {
+        font-size: 28px;
+        font-weight: 750;
+      }
+      .timer.low {
+        color: var(--warning);
+      }
+      .board td,
+      .board th {
+        padding: 4px 6px;
+        font-size: 12px;
+        text-align: center;
+      }
+      .board td:first-child,
+      .board th:first-child {
+        text-align: start;
+        white-space: nowrap;
+      }
+      .cell {
+        width: 28px;
+        height: 28px;
+        border-radius: 6px;
+        margin: 0 auto;
+        display: grid;
+        place-items: center;
+        font-size: 10px;
+        font-weight: 700;
+        color: #fff;
+      }
+      .cell.empty {
+        background: var(--muted);
+        color: var(--muted-foreground);
+      }
+      .cell.now {
+        outline: 2px solid var(--foreground);
+        background: transparent;
+        color: var(--foreground);
+      }
+      .poolrow {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 8px;
+        border-radius: var(--radius);
+        border: 1px solid var(--border);
+        background: var(--card);
+        cursor: pointer;
+        width: 100%;
+        color: inherit;
+        font: inherit;
+        text-align: start;
+      }
+      .poolrow[aria-pressed="true"] {
+        border-color: var(--foreground);
+        box-shadow: inset 0 0 0 1px var(--foreground);
+      }
+      .poolrow .art {
+        width: 44px;
+        font-size: 14px;
+        flex: none;
+      }
+      .poolrow .art::after {
+        display: none;
+      }
+      .poolrow.taken {
+        opacity: 0.4;
+        cursor: default;
+      }
+      .reveal {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        background: color-mix(in oklch, var(--background) 60%, transparent);
+        z-index: 40;
+        animation: fade 0.2s ease-out;
+      }
+      .reveal .card {
+        width: min(280px, 85%);
+        text-align: center;
+        animation: pop 0.35s cubic-bezier(0.2, 0.8, 0.2, 1.2);
+      }
+      .reveal .art {
+        width: 120px;
+        margin: 8px auto;
+        font-size: 36px;
+      }
+      @keyframes pop {
+        from {
+          transform: scale(0.85);
+          opacity: 0;
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: 0;
+        }
+      }
+      .dtabs {
+        display: flex;
+        gap: 4px;
+        border-bottom: 1px solid var(--border);
+        margin: 12px 0;
+      }
+      .dtabs button {
+        flex: 1;
+        min-height: 44px;
+        background: none;
+        border: 0;
+        border-bottom: 2px solid transparent;
+        color: var(--muted-foreground);
+        font: inherit;
+        cursor: pointer;
+      }
+      .dtabs button[aria-selected="true"] {
+        color: var(--foreground);
+        border-color: var(--foreground);
+        font-weight: 600;
+      }
+      @container (min-width:1024px) {
+        .dtabs {
+          display: none;
+        }
+        .dpanel {
+          display: block !important;
+        }
+      }
+
+      /* Overlays */
+      .overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 60;
+        background: rgba(0, 0, 0, 0.45);
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0;
+        animation: fade 0.15s;
+      }
+      .palette {
+        background: var(--background);
+        color: var(--foreground);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      @container (min-width:768px) {
+        .overlay {
+          padding-top: 10vh;
+        }
+        .palette {
+          width: 640px;
+          height: auto;
+          max-height: 70%;
+          border-radius: 12px;
+          border: 1px solid var(--border);
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+      }
+      .palette .q {
+        border: 0;
+        border-bottom: 1px solid var(--border);
+        min-height: 56px;
+        padding: 0 16px;
+        font: inherit;
+        font-size: 16px;
+        background: transparent;
+        color: inherit;
+        outline: none;
+      }
+      .palette .res {
+        overflow: auto;
+        padding: 8px;
+      }
+      .palette .grp {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: var(--muted-foreground);
+        padding: 8px 8px 4px;
+        letter-spacing: 0.06em;
+      }
+      .palette a {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        padding: 8px;
+        border-radius: var(--radius);
+        text-decoration: none;
+        min-height: 44px;
+      }
+      .palette a[aria-selected="true"] {
+        background: var(--accent);
+      }
+      .palette .art {
+        width: 32px;
+        font-size: 11px;
+      }
+      .palette .art::after {
+        display: none;
+      }
+      .menu {
+        position: absolute;
+        inset-inline-end: 12px;
+        top: 52px;
+        z-index: 61;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 6px;
+        min-width: 230px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+      }
+      .menu .lbl {
+        font-size: 12px;
+        color: var(--muted-foreground);
+        padding: 6px 8px;
+      }
+      .menu button {
+        display: flex;
+        width: 100%;
+        gap: 8px;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 44px;
+        padding: 0 10px;
+        border: 0;
+        background: none;
+        color: inherit;
+        font: inherit;
+        border-radius: 6px;
+        cursor: pointer;
+        text-align: start;
+      }
+      .menu button:hover {
+        background: var(--accent);
+      }
+      .menu hr {
+        border: 0;
+        border-top: 1px solid var(--border);
+        margin: 4px 0;
+      }
+      .toast {
+        position: absolute;
+        left: 50%;
+        bottom: 80px;
+        transform: translateX(-50%);
+        z-index: 70;
+        background: var(--foreground);
+        color: var(--background);
+        padding: 10px 14px;
+        border-radius: 8px;
+        font-size: 13px;
+        animation: fade 0.2s;
+      }
+      .dots {
+        letter-spacing: 2px;
+        font-size: 13px;
+      }
+      .wire-note {
+        font-size: 11px;
+        border: 1px dashed var(--border);
+        border-radius: 6px;
+        padding: 6px 8px;
+        color: var(--muted-foreground);
+        margin-top: 12px;
+      }
+      .stepper {
+        height: 6px;
+        background: var(--muted);
+        border-radius: 3px;
+        overflow: hidden;
+      }
+      .stepper span {
+        display: block;
+        height: 100%;
+        background: var(--foreground);
+      }
+      .field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .field label {
+        font-weight: 550;
+        font-size: 13px;
+      }
+      .seg {
+        display: inline-flex;
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        overflow: hidden;
+      }
+      .seg button {
+        min-height: 40px;
+        padding: 0 14px;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+      }
+      .seg button[aria-pressed="true"] {
+        background: var(--primary);
+        color: var(--primary-foreground);
+      }
+      .msg {
+        max-width: 85%;
+        padding: 10px 12px;
+        border-radius: 12px;
+      }
+      .msg.me {
+        margin-inline-start: auto;
+        background: var(--primary);
+        color: var(--primary-foreground);
+      }
+      .trace {
+        font-size: 12px;
+        color: var(--muted-foreground);
+      }
+      .trace div::before {
+        content: "✓ ";
+        color: var(--success);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chrome" role="toolbar" aria-label="Preview controls">
+      <b>Coachlore · preview</b
+      ><span class="note">sample data · local only · not the real app</span>
+      <span class="sep"></span>
+      <button data-size="phone" aria-pressed="false">Phone 360</button>
+      <button data-size="tablet" aria-pressed="false">Tablet 768</button>
+      <button data-size="desktop" aria-pressed="true">Desktop 1280</button>
+      <span class="sep"></span>
+      <button id="themeBtn">Dark theme</button>
+      <button id="motionBtn" aria-pressed="false">Reduced motion</button>
+      <button id="langBtn" aria-pressed="false">हिन्दी</button>
+      <button id="rtlBtn" aria-pressed="false">RTL check</button>
+      <span class="sep"></span>
+      <select id="jump" aria-label="Go to screen"></select>
+    </div>
+    <div class="stage">
+      <div class="frame" id="frame" data-size="desktop">
+        <div class="app" id="app"></div>
+      </div>
+    </div>
+
+    <script>
+      "use strict"
+      // ---------- Sample data (made up for the preview) ----------
+      const TYPES = {
+        normal: ["#9FA19F", "#0A0A0A"],
+        fire: ["#E42829", "#FFFFFF"],
+        water: ["#2980EF", "#0A0A0A"],
+        electric: ["#FAC000", "#0A0A0A"],
+        grass: ["#3FA129", "#0A0A0A"],
+        ice: ["#3DCEF3", "#0A0A0A"],
+        fighting: ["#FF8000", "#0A0A0A"],
+        poison: ["#9141CB", "#FFFFFF"],
+        ground: ["#915121", "#FFFFFF"],
+        flying: ["#81B9EF", "#0A0A0A"],
+        psychic: ["#EF4179", "#0A0A0A"],
+        bug: ["#91A119", "#0A0A0A"],
+        rock: ["#AFA981", "#0A0A0A"],
+        ghost: ["#704170", "#FFFFFF"],
+        dragon: ["#5060E1", "#FFFFFF"],
+        dark: ["#624D4E", "#FFFFFF"],
+        steel: ["#60A1B8", "#0A0A0A"],
+        fairy: ["#EF70EF", "#0A0A0A"],
+      }
+      const T = Object.keys(TYPES)
+      const CHART = {
+        normal: { rock: 0.5, ghost: 0, steel: 0.5 },
+        fire: {
+          fire: 0.5,
+          water: 0.5,
+          grass: 2,
+          ice: 2,
+          bug: 2,
+          rock: 0.5,
+          dragon: 0.5,
+          steel: 2,
+        },
+        water: {
+          fire: 2,
+          water: 0.5,
+          grass: 0.5,
+          ground: 2,
+          rock: 2,
+          dragon: 0.5,
+        },
+        electric: {
+          water: 2,
+          electric: 0.5,
+          grass: 0.5,
+          ground: 0,
+          flying: 2,
+          dragon: 0.5,
+        },
+        grass: {
+          fire: 0.5,
+          water: 2,
+          grass: 0.5,
+          poison: 0.5,
+          ground: 2,
+          flying: 0.5,
+          bug: 0.5,
+          rock: 2,
+          dragon: 0.5,
+          steel: 0.5,
+        },
+        ice: {
+          fire: 0.5,
+          water: 0.5,
+          grass: 2,
+          ice: 0.5,
+          ground: 2,
+          flying: 2,
+          dragon: 2,
+          steel: 0.5,
+        },
+        fighting: {
+          normal: 2,
+          ice: 2,
+          poison: 0.5,
+          flying: 0.5,
+          psychic: 0.5,
+          bug: 0.5,
+          rock: 2,
+          ghost: 0,
+          dark: 2,
+          steel: 2,
+          fairy: 0.5,
+        },
+        poison: {
+          grass: 2,
+          poison: 0.5,
+          ground: 0.5,
+          rock: 0.5,
+          ghost: 0.5,
+          steel: 0,
+          fairy: 2,
+        },
+        ground: {
+          fire: 2,
+          electric: 2,
+          grass: 0.5,
+          poison: 2,
+          flying: 0,
+          bug: 0.5,
+          rock: 2,
+          steel: 2,
+        },
+        flying: {
+          electric: 0.5,
+          grass: 2,
+          fighting: 2,
+          bug: 2,
+          rock: 0.5,
+          steel: 0.5,
+        },
+        psychic: { fighting: 2, poison: 2, psychic: 0.5, dark: 0, steel: 0.5 },
+        bug: {
+          fire: 0.5,
+          grass: 2,
+          fighting: 0.5,
+          poison: 0.5,
+          flying: 0.5,
+          psychic: 2,
+          ghost: 0.5,
+          dark: 2,
+          steel: 0.5,
+          fairy: 0.5,
+        },
+        rock: {
+          fire: 2,
+          ice: 2,
+          fighting: 0.5,
+          ground: 0.5,
+          flying: 2,
+          bug: 2,
+          steel: 0.5,
+        },
+        ghost: { normal: 0, psychic: 2, ghost: 2, dark: 0.5 },
+        dragon: { dragon: 2, steel: 0.5, fairy: 0 },
+        dark: { fighting: 0.5, psychic: 2, ghost: 2, dark: 0.5, fairy: 0.5 },
+        steel: {
+          fire: 0.5,
+          water: 0.5,
+          electric: 0.5,
+          ice: 2,
+          rock: 2,
+          steel: 0.5,
+          fairy: 2,
+        },
+        fairy: {
+          fire: 0.5,
+          fighting: 2,
+          poison: 0.5,
+          dragon: 2,
+          dark: 2,
+          steel: 0.5,
+        },
+      }
+      const eff = (atk, defTypes) =>
+        defTypes.reduce((m, d) => m * ((CHART[atk] || {})[d] ?? 1), 1)
+      // key, name, number, types, stats [hp, atk, def, spa, spd, spe], abilities, points (Kanto Cup tier)
+      const MON = [
+        [
+          "garchomp",
+          "Garchomp",
+          445,
+          ["dragon", "ground"],
+          [108, 130, 95, 80, 85, 102],
+          ["Sand Veil", "Rough Skin (hidden)"],
+          18,
+        ],
+        [
+          "kingambit",
+          "Kingambit",
+          983,
+          ["dark", "steel"],
+          [100, 135, 120, 60, 85, 50],
+          ["Defiant", "Supreme Overlord", "Pressure (hidden)"],
+          17,
+        ],
+        [
+          "gholdengo",
+          "Gholdengo",
+          1000,
+          ["steel", "ghost"],
+          [87, 60, 95, 133, 91, 84],
+          ["Good as Gold"],
+          17,
+        ],
+        [
+          "dragapult",
+          "Dragapult",
+          887,
+          ["dragon", "ghost"],
+          [88, 120, 75, 100, 75, 142],
+          ["Clear Body", "Infiltrator", "Cursed Body (hidden)"],
+          16,
+        ],
+        [
+          "great-tusk",
+          "Great Tusk",
+          984,
+          ["ground", "fighting"],
+          [115, 131, 131, 53, 53, 87],
+          ["Protosynthesis"],
+          16,
+        ],
+        [
+          "iron-valiant",
+          "Iron Valiant",
+          1006,
+          ["fairy", "fighting"],
+          [74, 130, 90, 120, 60, 116],
+          ["Quark Drive"],
+          15,
+        ],
+        [
+          "rotom-wash",
+          "Rotom-Wash",
+          479,
+          ["electric", "water"],
+          [50, 65, 107, 105, 107, 86],
+          ["Levitate"],
+          14,
+        ],
+        [
+          "corviknight",
+          "Corviknight",
+          823,
+          ["flying", "steel"],
+          [98, 87, 105, 53, 85, 67],
+          ["Pressure", "Unnerve", "Mirror Armor (hidden)"],
+          14,
+        ],
+        [
+          "tyranitar",
+          "Tyranitar",
+          248,
+          ["rock", "dark"],
+          [100, 134, 110, 95, 100, 61],
+          ["Sand Stream", "Unnerve (hidden)"],
+          14,
+        ],
+        [
+          "heatran",
+          "Heatran",
+          485,
+          ["fire", "steel"],
+          [91, 90, 106, 130, 106, 77],
+          ["Flash Fire", "Flame Body (hidden)"],
+          15,
+        ],
+        [
+          "toxapex",
+          "Toxapex",
+          748,
+          ["poison", "water"],
+          [50, 63, 152, 53, 142, 35],
+          ["Merciless", "Limber", "Regenerator (hidden)"],
+          12,
+        ],
+        [
+          "skeledirge",
+          "Skeledirge",
+          911,
+          ["fire", "ghost"],
+          [104, 75, 100, 110, 75, 66],
+          ["Blaze", "Unaware (hidden)"],
+          12,
+        ],
+        [
+          "meowscarada",
+          "Meowscarada",
+          908,
+          ["grass", "dark"],
+          [76, 110, 70, 81, 70, 123],
+          ["Overgrow", "Protean (hidden)"],
+          13,
+        ],
+        [
+          "quaquaval",
+          "Quaquaval",
+          914,
+          ["water", "fighting"],
+          [85, 120, 80, 85, 75, 85],
+          ["Torrent", "Moxie (hidden)"],
+          11,
+        ],
+        [
+          "glimmora",
+          "Glimmora",
+          970,
+          ["rock", "poison"],
+          [83, 55, 90, 130, 81, 86],
+          ["Toxic Debris", "Corrosion (hidden)"],
+          12,
+        ],
+        [
+          "ting-lu",
+          "Ting-Lu",
+          1003,
+          ["dark", "ground"],
+          [155, 110, 125, 55, 80, 45],
+          ["Vessel of Ruin"],
+          13,
+        ],
+        [
+          "clefable",
+          "Clefable",
+          36,
+          ["fairy"],
+          [95, 70, 73, 95, 90, 60],
+          ["Cute Charm", "Magic Guard", "Unaware (hidden)"],
+          11,
+        ],
+        [
+          "weavile",
+          "Weavile",
+          461,
+          ["dark", "ice"],
+          [70, 120, 65, 45, 85, 125],
+          ["Pressure", "Pickpocket (hidden)"],
+          10,
+        ],
+        [
+          "mamoswine",
+          "Mamoswine",
+          473,
+          ["ice", "ground"],
+          [110, 130, 80, 70, 60, 80],
+          ["Oblivious", "Snow Cloak", "Thick Fat (hidden)"],
+          10,
+        ],
+        [
+          "baxcalibur",
+          "Baxcalibur",
+          998,
+          ["dragon", "ice"],
+          [115, 145, 92, 75, 86, 87],
+          ["Thermal Exchange", "Ice Body (hidden)"],
+          15,
+        ],
+        [
+          "volcarona",
+          "Volcarona",
+          637,
+          ["bug", "fire"],
+          [85, 60, 65, 135, 105, 100],
+          ["Flame Body", "Swarm (hidden)"],
+          14,
+        ],
+        [
+          "gyarados",
+          "Gyarados",
+          130,
+          ["water", "flying"],
+          [95, 125, 79, 60, 100, 81],
+          ["Intimidate", "Moxie (hidden)"],
+          11,
+        ],
+        [
+          "magnezone",
+          "Magnezone",
+          462,
+          ["electric", "steel"],
+          [70, 70, 115, 130, 90, 60],
+          ["Magnet Pull", "Sturdy", "Analytic (hidden)"],
+          10,
+        ],
+        [
+          "pikachu",
+          "Pikachu",
+          25,
+          ["electric"],
+          [35, 55, 40, 50, 50, 90],
+          ["Static", "Lightning Rod (hidden)"],
+          2,
+        ],
+      ].map(([key, name, num, types, stats, abilities, pts]) => ({
+        key,
+        name,
+        num,
+        types,
+        stats,
+        abilities,
+        pts,
+      }))
+      const byKey = Object.fromEntries(MON.map((m) => [m.key, m]))
+      const COACHES = [
+        "Brock",
+        "Ash",
+        "Misty",
+        "Gary",
+        "Erika",
+        "Lance",
+        "Sabrina",
+        "Blaine",
+      ]
+      const ME = "Ash"
+      const STAND = [
+        ["Brock", 4, 0, 12],
+        ["Ash", 3, 1, 7],
+        ["Misty", 3, 1, 5],
+        ["Gary", 2, 2, 1],
+        ["Erika", 2, 2, -1],
+        ["Lance", 1, 3, -4],
+        ["Sabrina", 1, 3, -8],
+        ["Blaine", 0, 4, -12],
+      ]
+      const ROSTER = {
+        Ash: [
+          ["tyranitar", 14],
+          ["rotom-wash", 14],
+          ["garchomp", 18],
+          ["clefable", 11],
+          ["weavile", 10],
+          ["toxapex", 12],
+        ],
+      }
+
+      // ---------- Helpers ----------
+      const $ = (s, el = document) => el.querySelector(s)
+      const esc = (s) =>
+        String(s).replace(
+          /[&<>"]/g,
+          (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]
+        )
+      const cap = (s) => s[0].toUpperCase() + s.slice(1)
+      const badge = (t) =>
+        `<span class="badge" style="background:${TYPES[t][0]};color:${TYPES[t][1]}">${t}</span>`
+      const art = (m, extra = "") => {
+        const a = TYPES[m.types[0]][0],
+          b = TYPES[m.types[1] || m.types[0]][0]
+        return `<div class="art" ${extra} style="background:linear-gradient(135deg, ${a}, ${b})" aria-hidden="true">${esc(m.name[0])}</div>`
+      }
+      const pcard = (m) =>
+        `<a class="pcard" href="#/dex/${m.key}" aria-label="#${String(m.num).padStart(4, "0")} ${esc(m.name)}, ${m.types.map(cap).join(" and ")}">${art(m)}<div class="small muted num">#${String(m.num).padStart(4, "0")}</div><div class="nm">${esc(m.name)}</div><div class="types">${m.types.map(badge).join("")}</div></a>`
+      const I = {
+        dex: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h6m6 0h6"/><circle cx="12" cy="12" r="3"/></svg>',
+        team: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>',
+        ask: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-12 7l-5 1 1-4a8 8 0 1 1 16-4z"/></svg>',
+        leagues:
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8m-4-4v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3M7 5H4v2a3 3 0 0 0 3 3"/></svg>',
+        me: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>',
+        search:
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
+        sun: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+        types:
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3zM3 9h18M9 3v18"/></svg>',
+        moves:
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 3 14h9l-1 8 10-12h-9z"/></svg>',
+      }
+
+      // ---------- State ----------
+      const DICT = {
+        en: {
+          skip: "Skip to content",
+          search: "Search Pokémon, moves, leagues…",
+          dex: "Dex",
+          types: "Types",
+          moves: "Moves",
+          teamCheck: "Team check",
+          team: "Team",
+          ask: "Ask",
+          leagues: "Leagues",
+          newLeague: "New league",
+          me: "Me",
+          home: "Home",
+          draft: "Draft",
+          rosters: "Rosters",
+          schedule: "Schedule",
+          trades: "Trades",
+          stats: "Stats",
+          settings: "Settings",
+          footer:
+            "Coachlore is a fan-made project, not affiliated with Nintendo, Creatures, Game Freak or The Pokémon Company. Pokémon names © their owners.",
+          about: "About",
+          legal: "Legal",
+          theme: "Theme",
+          light: "Light",
+          dark: "Dark",
+          system: "System",
+          shortcuts: "Single-key shortcuts",
+          language: "Language",
+          find: "Find a Pokémon",
+          findHint: "Name, number or type",
+          recent: "Recently viewed",
+          browse: "Browse",
+          draftLive: "Draft live",
+          openRoom: "Open the draft room",
+          yourLeagues: "Your leagues",
+          round: "Round",
+          pick: "pick",
+          of: "of",
+          yourTurn: "Your turn",
+          isPicking: "is picking",
+          live: "Live",
+        },
+        hi: {
+          skip: "सामग्री पर जाएँ",
+          search: "Pokémon, मूव और लीग खोजें…",
+          dex: "Dex",
+          types: "टाइप",
+          moves: "मूव",
+          teamCheck: "टीम जाँच",
+          team: "टीम",
+          ask: "पूछें",
+          leagues: "लीग",
+          newLeague: "नई लीग",
+          me: "प्रोफ़ाइल",
+          home: "होम",
+          draft: "ड्राफ़्ट",
+          rosters: "रोस्टर",
+          schedule: "कार्यक्रम",
+          trades: "ट्रेड",
+          stats: "आँकड़े",
+          settings: "सेटिंग्स",
+          footer:
+            "Coachlore प्रशंसकों का बनाया प्रोजेक्ट है; यह Nintendo, Creatures, Game Freak या The Pokémon Company से जुड़ा नहीं है। Pokémon के नाम उनके स्वामियों के हैं।",
+          about: "परिचय",
+          legal: "कानूनी",
+          theme: "थीम",
+          light: "लाइट",
+          dark: "डार्क",
+          system: "सिस्टम",
+          shortcuts: "एक-कुंजी शॉर्टकट",
+          language: "भाषा",
+          find: "Pokémon खोजें",
+          findHint: "नाम, नंबर या टाइप",
+          recent: "हाल ही में देखे गए",
+          browse: "ब्राउज़ करें",
+          draftLive: "ड्राफ़्ट लाइव",
+          openRoom: "ड्राफ़्ट रूम खोलें",
+          yourLeagues: "आपकी लीग",
+          round: "राउंड",
+          pick: "पिक",
+          of: "में से",
+          yourTurn: "आपकी बारी",
+          isPicking: "चुन रहे हैं",
+          live: "लाइव",
+        },
+      }
+      const tr = (k) => DICT[S.lang][k] ?? DICT.en[k]
+      const S = {
+        lang: "en",
+        rtl: false,
+        dark: false,
+        reduce: false,
+        hotkeys: true,
+        menu: false,
+        palette: false,
+        pq: "",
+        psel: 0,
+        toast: "",
+        filters: new Set(["steel"]),
+        view: "grid",
+        team: ["garchomp", "rotom-wash", "corviknight"],
+        dtab: "pool",
+        sel: null,
+        signedIn: true,
+      }
+      const app = $("#app")
+
+      // ---------- Shell ----------
+      function shell(
+        content,
+        { section = "", league = null, title = "" } = {}
+      ) {
+        const nav = (href, label, icon, key) =>
+          `<a href="${href}" ${section === key ? 'aria-current="page"' : ""}>${icon}<span>${label}</span></a>`
+        const ltabs = league
+          ? [
+              ["", tr("home")],
+              ["draft", tr("draft")],
+              ["rosters/ash", tr("rosters")],
+              ["schedule", tr("schedule")],
+              ["trades", tr("trades")],
+              ["stats", tr("stats")],
+              ["settings", tr("settings")],
+            ]
+          : []
+        return `<a class="skip" href="#main" onclick="event.preventDefault();document.getElementById('main').focus()">${tr("skip")}</a>
+  <div class="layout">
+    <header class="topbar">
+      <a class="logo" href="#/" aria-label="Coachlore home"><i><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></i>Coachlore</a>
+      <div class="searchbox"><button class="btn outline" style="width:100%;justify-content:space-between;color:var(--muted-foreground);font-weight:400" onclick="openPalette()"><span class="row">${I.search} ${tr("search")}</span><span class="kbd">Ctrl K</span></button></div>
+      <span class="grow"></span>
+      <button class="btn ghost icon search-btn-mobile" aria-label="Search" onclick="openPalette()">${I.search}</button>
+      <button class="btn ghost icon" aria-label="Display: theme and language" aria-haspopup="menu" aria-expanded="${S.menu}" onclick="S.menu=!S.menu;render()">${I.sun}</button>
+    </header>
+    <nav class="side" aria-label="Main">
+      ${nav("#/dex", tr("dex"), I.dex, "dex")}${nav("#/types", tr("types"), I.types, "types")}${nav("#/moves", tr("moves"), I.moves, "moves")}${nav("#/team-check", tr("teamCheck"), I.team, "team")}${nav("#/ask", tr("ask"), I.ask, "ask")}
+      <div class="label">${tr("leagues")}</div>
+      ${nav("#/l/kanto-cup", "● Kanto Cup", "", "kanto")}
+      <a href="#/l/friday-cup" ${section === "friday" ? 'aria-current="page"' : ""}><span>● Friday Cup</span></a>
+      ${league ? `<div style="padding-inline-start:14px" class="stack">${ltabs.map(([p, l]) => `<a href="#/l/kanto-cup${p ? "/" + p : ""}" ${location.hash.replace(/\/$/, "") === "#/l/kanto-cup" + (p ? "/" + p : "") ? 'aria-current="page"' : ""} style="min-height:34px;font-size:13px">${l}</a>`).join("")}</div>` : ""}
+      ${nav("#/leagues/new", "+ " + tr("newLeague"), "", "new")}
+      <div class="grow"></div>
+      ${nav("#/me", tr("me"), I.me, "me")}
+    </nav>
+    <div>
+      ${league ? `<nav class="league-tabs" aria-label="League">${ltabs.map(([p, l]) => `<a href="#/l/kanto-cup${p ? "/" + p : ""}" ${location.hash.replace(/\/$/, "") === "#/l/kanto-cup" + (p ? "/" + p : "") ? 'aria-current="page"' : ""}>${l}</a>`).join("")}</nav>` : ""}
+      <main class="main" id="main" tabindex="-1">${content}</main>
+    </div>
+    <footer class="footer">${tr("footer")} <a href="#/about">${tr("about")}</a> · <a href="#/legal">${tr("legal")}</a> · <button class="chip" style="min-height:28px" lang="${S.lang === "en" ? "hi" : "en"}" onclick="S.lang=S.lang==='en'?'hi':'en';syncChrome();render()">${S.lang === "en" ? "हिन्दी" : "English"}</button></footer>
+    <nav class="tabs-bottom" aria-label="Main">
+      ${nav("#/dex", tr("dex"), I.dex, "dex")}${nav("#/team-check", tr("team"), I.team, "team")}${nav("#/ask", tr("ask"), I.ask, "ask")}${nav("#/leagues", tr("leagues"), I.leagues, "leagues")}${nav("#/me", tr("me"), I.me, "me")}
+    </nav>
+  </div>
+  ${S.menu ? themeMenu() : ""}${S.palette ? paletteHtml() : ""}${S.toast ? `<div class="toast" role="status">${esc(S.toast)}</div>` : ""}`
+      }
+      function themeMenu() {
+        return `<div class="menu" role="menu"><div class="lbl">${tr("theme")}</div>
+   <button role="menuitemradio" aria-checked="${!S.dark}" onclick="setDark(false)">${tr("light")} <span>${!S.dark ? "●" : ""}</span></button>
+   <button role="menuitemradio" aria-checked="${S.dark}" onclick="setDark(true)">${tr("dark")} <span>${S.dark ? "●" : ""}</span></button>
+   <button role="menuitemradio" aria-checked="false" onclick="setDark(matchMedia('(prefers-color-scheme: dark)').matches)">${tr("system")}</button><hr>
+   <div class="lbl">${tr("language")}</div>
+   <button role="menuitemradio" aria-checked="${S.lang === "en"}" onclick="S.lang='en';S.menu=false;syncChrome();render()" lang="en">English <span>${S.lang === "en" ? "●" : ""}</span></button>
+   <button role="menuitemradio" aria-checked="${S.lang === "hi"}" onclick="S.lang='hi';S.menu=false;syncChrome();render()" lang="hi">हिन्दी <span>${S.lang === "hi" ? "●" : ""}</span></button><hr>
+   <button role="menuitemcheckbox" aria-checked="${S.hotkeys}" onclick="S.hotkeys=!S.hotkeys;render()">${tr("shortcuts")} <span class="kbd">D · /</span> <span>${S.hotkeys ? "✓" : ""}</span></button></div>`
+      }
+      function paletteResults() {
+        const q = S.pq.trim().toLowerCase()
+        const mons = MON.filter(
+          (m) =>
+            !q ||
+            m.name.toLowerCase().includes(q) ||
+            m.types.some((t) => t.startsWith(q))
+        ).slice(0, 6)
+        const moves = [
+          "Earthquake",
+          "Thunderbolt",
+          "Dragon Claw",
+          "Ice Beam",
+          "Stealth Rock",
+        ]
+          .filter((x) => !q || x.toLowerCase().includes(q))
+          .slice(0, 3)
+        const leagues = ["Kanto Cup", "Friday Cup"].filter(
+          (x) => !q || x.toLowerCase().includes(q)
+        )
+        const items = [
+          ...mons.map((m) => ({
+            g: "Pokémon",
+            h: `#/dex/${m.key}`,
+            html: `${art(m)}<span class="grow">${esc(m.name)}</span>${m.types.map(badge).join(" ")}`,
+          })),
+          ...moves.map((x) => ({
+            g: "Moves",
+            h: "#/moves",
+            html: `<span class="grow">${x}</span><span class="muted small">move</span>`,
+          })),
+          ...leagues.map((x) => ({
+            g: "Leagues",
+            h: "#/l/kanto-cup",
+            html: `<span class="grow">${x}</span><span class="muted small">league</span>`,
+          })),
+        ]
+        if (q)
+          items.push({
+            g: "Ask",
+            h: "#/ask",
+            html: `<span class="grow">Ask: “${esc(S.pq)}”</span><span class="muted small">AI · spec 012</span>`,
+          })
+        return items
+      }
+      function paletteHtml() {
+        const items = paletteResults()
+        let g = ""
+        return `<div class="overlay" onclick="if(event.target===this)closePalette()"><div class="palette" role="dialog" aria-label="Search">
+    <input class="q" id="pq" role="combobox" aria-expanded="true" aria-controls="pres" placeholder="Search Pokémon, moves, leagues…" value="${esc(S.pq)}" oninput="S.pq=this.value;S.psel=0;renderPalette()" onkeydown="paletteKey(event)">
+    <div class="res" id="pres" role="listbox">${items.length ? items.map((it, i) => (it.g !== g ? `<div class="grp">${(g = it.g)}</div>` : "") + `<a href="${it.h}" role="option" aria-selected="${i === S.psel}" onclick="closePalette()">${it.html}</a>`).join("") : `<div class="empty"><p>No results for “${esc(S.pq)}”.</p></div>`}</div>
+    <div class="row small muted" style="padding:8px 12px;border-top:1px solid var(--border)"><span class="kbd">↑↓</span> move <span class="kbd">Enter</span> open <span class="kbd">Esc</span> close <span class="sr" aria-live="polite">${items.length} results</span></div>
+  </div></div>`
+      }
+      function openPalette() {
+        S.palette = true
+        S.pq = ""
+        S.psel = 0
+        render()
+        setTimeout(() => $("#pq")?.focus(), 0)
+      }
+      function closePalette() {
+        S.palette = false
+        render()
+      }
+      function renderPalette() {
+        const v = S.pq
+        render()
+        const el = $("#pq")
+        if (el) {
+          el.focus()
+          el.setSelectionRange(v.length, v.length)
+        }
+      }
+      function paletteKey(e) {
+        const n = paletteResults().length
+        if (e.key === "ArrowDown") {
+          S.psel = (S.psel + 1) % n
+          renderPalette()
+          e.preventDefault()
+        }
+        if (e.key === "ArrowUp") {
+          S.psel = (S.psel - 1 + n) % n
+          renderPalette()
+          e.preventDefault()
+        }
+        if (e.key === "Enter") {
+          const it = paletteResults()[S.psel]
+          if (it) {
+            S.palette = false
+            location.hash = it.h.slice(1)
+          }
+        }
+        if (e.key === "Escape") closePalette()
+      }
+      function setDark(v) {
+        S.dark = v
+        S.menu = false
+        render()
+        syncChrome()
+      }
+      function toast(t) {
+        S.toast = t
+        render()
+        setTimeout(() => {
+          S.toast = ""
+          render()
+        }, 1800)
+      }
+
+      // ---------- Pages ----------
+      const P = {}
+      P.home = () =>
+        shell(
+          `
+  <h1>${tr("find")}</h1>
+  <button class="btn outline" style="width:100%;justify-content:flex-start;color:var(--muted-foreground);font-weight:400;margin:8px 0 4px" onclick="openPalette()">${I.search} ${tr("findHint")}</button>
+  <div class="cols side-r" style="margin-top:12px"><div>
+    <h2>${tr("recent")}</h2>
+    <div class="grid-cards">${["garchomp", "rotom-wash", "kingambit", "gholdengo", "dragapult", "clefable"].map((k) => pcard(byKey[k])).join("")}</div>
+    <h2>${tr("browse")}</h2>
+    <div class="row"><a class="chip" href="#/dex">By type</a><a class="chip" href="#/dex">By game</a><a class="chip" href="#/types">Type chart</a><a class="chip" href="#/moves">Moves</a><a class="chip" href="#/team-check">Team check</a></div>
+  </div><div>
+    <h2>${tr("draftLive")}</h2>
+    <div class="card stack"><div class="row between"><h3>Kanto Cup</h3><span class="live">${tr("draftLive")}</span></div><p class="muted">Round 3 · you pick in 2 turns</p><a class="btn" href="#/l/kanto-cup/draft" style="width:100%">${tr("openRoom")}</a></div>
+    <h2>${tr("yourLeagues")}</h2>
+    <div class="card" style="padding:4px 16px">${[
+      ["Kanto Cup", "3rd · Week 5"],
+      ["Friday Cup", "1st · drafting"],
+    ]
+      .map(
+        ([n, s]) =>
+          `<a href="#/l/kanto-cup" class="row between" style="min-height:48px;text-decoration:none;border-bottom:1px solid var(--border)"><b>${n}</b><span class="muted small">${s}</span></a>`
+      )
+      .join("")}</div>
+  </div></div>`,
+          { section: "home" }
+        )
+
+      P.dex = () => {
+        const f = [...S.filters]
+        const list = MON.filter((m) => f.every((t) => m.types.includes(t)))
+        const filterPanel = `<div class="card stack" style="padding:12px"><b>Filters</b>${["Type", "Weak to", "Resists", "Game", "Generation", "Ability", "Stats", "Forms"].map((x) => `<details ${x === "Type" ? "open" : ""}><summary style="min-height:36px;display:flex;align-items:center;cursor:pointer">${x}</summary>${x === "Type" ? `<div class="row" style="padding:6px 0">${T.map((t) => `<button class="badge" aria-pressed="${S.filters.has(t)}" style="cursor:pointer;border:2px solid ${S.filters.has(t) ? "var(--foreground)" : "transparent"};background:${TYPES[t][0]};color:${TYPES[t][1]}" onclick="toggleF('${t}')">${t}</button>`).join("")}</div>` : `<p class="muted small" style="padding:4px 0">Options for ${x.toLowerCase()}…</p>`}</details>`).join("")}<button class="btn outline sm" onclick="S.filters.clear();render()">Clear all</button></div>`
+        return shell(
+          `
+  <div class="row between"><h1>Dex</h1><div class="seg" role="group" aria-label="View"><button aria-pressed="${S.view === "grid"}" onclick="S.view='grid';render()">Grid</button><button aria-pressed="${S.view === "list"}" onclick="S.view='list';render()">List</button></div></div>
+  <div class="cols side-l" style="margin-top:12px"><div class="dex-filters ${S.fopen ? "open" : ""}">${filterPanel}</div><div>
+    <div class="inputwrap">${I.search}<input class="input" placeholder="Filter by name or number" aria-label="Filter by name or number"></div>
+    <div class="row" style="margin:10px 0">${f.map((t) => `<button class="chip" onclick="toggleF('${t}')">${cap(t)} ×</button>`).join("")}<button class="chip" onclick="S.fopen=!S.fopen;render()" aria-expanded="${!!S.fopen}">+ Filter</button></div>
+    <p class="muted small" aria-live="polite">${list.length} Pokémon · Sort: Number ▾ <span class="muted">· address: /dex${f.length ? "?type=" + f.join(",") : ""}</span></p>
+    ${
+      list.length
+        ? S.view === "grid"
+          ? `<div class="grid-cards">${list.map(pcard).join("")}</div>`
+          : `<div class="card" style="padding:0;overflow-x:auto"><table><thead><tr><th>#</th><th>Pokémon</th><th>Types</th><th class="r">HP</th><th class="r">Atk</th><th class="r">Def</th><th class="r">SpA</th><th class="r">SpD</th><th class="r">Spe</th><th class="r">Total</th></tr></thead><tbody>${list.map((m) => `<tr><td class="num muted">${m.num}</td><td><a href="#/dex/${m.key}"><b>${esc(m.name)}</b></a></td><td>${m.types.map(badge).join(" ")}</td>${m.stats.map((s) => `<td class="r num">${s}</td>`).join("")}<td class="r num"><b>${m.stats.reduce((a, b) => a + b)}</b></td></tr>`).join("")}</tbody></table></div>`
+        : `<div class="empty"><div class="ico">${I.search}</div><h3>No Pokémon match these filters</h3><p class="muted">Remove a filter to see more.</p><button class="btn outline" onclick="S.filters.clear();render()">Clear filters</button></div>`
+    }
+    <div class="wire-note">Spec 003 · filters live in the address, so a view can be shared · on a phone the filters open as a bottom sheet · the grid renders only what's on screen.</div>
+  </div></div>`,
+          { section: "dex" }
+        )
+      }
+      function toggleF(t) {
+        S.filters.has(t) ? S.filters.delete(t) : S.filters.add(t)
+        render()
+      }
+
+      P.mon = (key) => {
+        const m = byKey[key]
+        if (!m) return P.notfound()
+        const a = TYPES[m.types[0]][0]
+        const names = ["HP", "Attack", "Defense", "Sp. Atk", "Sp. Def", "Speed"]
+        const groups = { "×4": [], "×2": [], "½": [], "¼": [], "×0": [] }
+        T.forEach((t) => {
+          const e = eff(t, m.types)
+          const k =
+            e === 4
+              ? "×4"
+              : e === 2
+                ? "×2"
+                : e === 0.5
+                  ? "½"
+                  : e === 0.25
+                    ? "¼"
+                    : e === 0
+                      ? "×0"
+                      : null
+          if (k) groups[k].push(t)
+        })
+        const idx = MON.indexOf(m),
+          prev = MON[(idx - 1 + MON.length) % MON.length],
+          next = MON[(idx + 1) % MON.length]
+        return shell(
+          `
+  <div class="row between"><a href="#/dex" class="btn ghost sm">← Dex</a><div class="row"><span class="muted num">#${String(m.num).padStart(4, "0")}</span><a class="btn ghost icon" href="#/dex/${prev.key}" aria-label="Previous: ${esc(prev.name)}">‹</a><a class="btn ghost icon" href="#/dex/${next.key}" aria-label="Next: ${esc(next.name)}">›</a></div></div>
+  <div class="cols side-l mon" style="margin-top:8px">
+   <div><div class="hero" style="background:linear-gradient(160deg, color-mix(in oklch, ${a} 35%, var(--background)), var(--background))">${art(m)}</div>
+     <h1 style="font-size:26px;margin-top:12px">${esc(m.name)}</h1><div class="row">${m.types.map(badge).join("")}</div>
+     ${m.key === "rotom-wash" ? `<div class="row" style="margin-top:10px"><span class="muted small">Form:</span><span class="chip">Rotom</span><span class="chip" style="border-color:var(--foreground)">Wash</span><span class="chip">Heat</span><span class="chip">Mow</span></div>` : ""}
+   </div>
+   <div>
+     <div class="dtabs" role="tablist" style="overflow-x:auto">${["About", "Stats", "Matchups", "Evolution", "Moves", "Where", "Competitive"].map((t, i) => `<button role="tab" aria-selected="${i === 1}">${t}</button>`).join("")}</div>
+     <h2>Base stats</h2>
+     <div class="stack">${m.stats.map((s, i) => `<div class="stat"><span class="muted">${names[i]}</span><span class="num r"><b>${s}</b></span><div class="bar"><span style="width:${Math.min(100, s / 1.6)}%;background:${a}"></span></div></div>`).join("")}
+       <div class="stat"><span><b>Total</b></span><span class="num"><b>${m.stats.reduce((x, y) => x + y)}</b></span><span></span></div></div>
+     <h2>Matchups · damage taken</h2>
+     <div class="stack">${Object.entries(groups)
+       .filter(([, v]) => v.length)
+       .map(
+         ([k, v]) =>
+           `<div class="row"><b class="num" style="width:36px">${k}</b>${v.map(badge).join("")}</div>`
+       )
+       .join("")}</div>
+     <h2>Abilities</h2><p>${m.abilities.map(esc).join(" · ")}</p>
+     <h2>Competitive</h2><p class="muted">Usage, common moves and partners from the monthly usage statistics.</p>
+     <div class="wire-note">Spec 004 · sections are tabs on a phone, one scroll with a section menu on desktop · ‹ › and swipe go to the next number · the artwork is the one official image on this page (placeholder here).</div>
+   </div></div>`,
+          { section: "dex" }
+        )
+      }
+
+      P.types = () => {
+        const sel = S.typeSel || ["steel", "fairy"]
+        const groups = { "×4": [], "×2": [], "½": [], "¼": [], "×0": [] }
+        T.forEach((t) => {
+          const e = eff(t, sel)
+          const k =
+            e === 4
+              ? "×4"
+              : e === 2
+                ? "×2"
+                : e === 0.5
+                  ? "½"
+                  : e === 0.25
+                    ? "¼"
+                    : e === 0
+                      ? "×0"
+                      : null
+          if (k) groups[k].push(t)
+        })
+        const short = (t) => t.slice(0, 3).toUpperCase()
+        return shell(
+          `<h1>Type chart</h1><p class="muted">Defending: pick one or two types.</p>
+  <div class="row" style="margin:8px 0">${T.map((t) => `<button class="badge" style="cursor:pointer;border:2px solid ${sel.includes(t) ? "var(--foreground)" : "transparent"};background:${TYPES[t][0]};color:${TYPES[t][1]}" aria-pressed="${sel.includes(t)}" onclick="pickType('${t}')">${t}</button>`).join("")}</div>
+  <div class="cols side-r"><div class="card" style="padding:0;overflow:auto;max-height:460px"><table class="num" style="font-size:11px"><caption class="sr">Attacking type down, defending type across</caption><thead><tr><th style="position:sticky;inset-inline-start:0;top:0;background:var(--card);z-index:2">Atk ↓ Def →</th>${T.map((t) => `<th style="position:sticky;top:0;background:var(--card)" class="r">${short(t)}</th>`).join("")}</tr></thead><tbody>${T.map(
+    (atk) =>
+      `<tr><th style="position:sticky;inset-inline-start:0;background:var(--card)">${badge(atk)}</th>${T.map(
+        (d) => {
+          const e = eff(atk, [d])
+          return `<td class="r" style="${e === 2 ? "background:color-mix(in oklch, var(--success) 22%, transparent);font-weight:700" : e === 0.5 ? "background:color-mix(in oklch, var(--destructive) 14%, transparent)" : e === 0 ? "background:var(--muted);font-weight:700" : ""}">${e === 1 ? "" : e === 0.5 ? "½" : e === 0 ? "×0" : "×2"}</td>`
+        }
+      ).join("")}</tr>`
+  ).join("")}</tbody></table></div>
+  <div class="card stack"><h3>${sel.map(cap).join(" + ")}</h3>${Object.entries(
+    groups
+  )
+    .filter(([, v]) => v.length)
+    .map(
+      ([k, v]) =>
+        `<div><b class="num">${k} from</b><div class="row" style="margin-top:4px">${v.map(badge).join("")}</div></div>`
+    )
+    .join("")}</div></div>
+  <div class="wire-note">Spec 004 · the chart is a real table with headers; every cell says ×2, ½ or ×0 in text, never colour alone.</div>`,
+          { section: "types" }
+        )
+      }
+      function pickType(t) {
+        let s = S.typeSel || ["steel", "fairy"]
+        s = s.includes(t) ? s.filter((x) => x !== t) : [...s, t].slice(-2)
+        if (!s.length) s = [t]
+        S.typeSel = s
+        render()
+      }
+
+      P.moves = () =>
+        shell(
+          `<h1>Moves</h1><div class="inputwrap" style="margin:8px 0">${I.search}<input class="input" placeholder="Filter by name" aria-label="Filter moves"></div>
+  <div class="card" style="padding:0;overflow-x:auto"><table><thead><tr><th>Move</th><th>Type</th><th>Category</th><th class="r">Power</th><th class="r">Accuracy</th><th class="r">PP</th></tr></thead><tbody>
+  ${[
+    ["Earthquake", "ground", "Physical", 100, 100, 10],
+    ["Thunderbolt", "electric", "Special", 90, 100, 15],
+    ["Dragon Claw", "dragon", "Physical", 80, 100, 15],
+    ["Ice Beam", "ice", "Special", 90, 100, 10],
+    ["Stealth Rock", "rock", "Status", "—", "—", 20],
+    ["Make It Rain", "steel", "Special", 120, 100, 5],
+    ["Kowtow Cleave", "dark", "Physical", 85, "—", 10],
+  ]
+    .map(
+      (r) =>
+        `<tr><td><b>${r[0]}</b></td><td>${badge(r[1])}</td><td>${r[2]}</td><td class="r num">${r[3]}</td><td class="r num">${r[4]}</td><td class="r num">${r[5]}</td></tr>`
+    )
+    .join("")}</tbody></table></div>`,
+          { section: "moves" }
+        )
+
+      P.team = () => {
+        const team = S.team.map((k) => byKey[k])
+        const weak = T.map((t) => ({
+          t,
+          n: team.filter((m) => eff(t, m.types) > 1).length,
+          cover: team.filter((m) => eff(t, m.types) < 1).length,
+        }))
+          .filter((x) => x.n)
+          .sort((a, b) => b.n - a.n)
+        const hits = T.filter((d) =>
+          team.some((m) => m.types.some((at) => eff(at, [d]) > 1))
+        )
+        return shell(
+          `<div class="row between"><h1>Team check</h1><div class="row"><button class="btn outline sm">Import</button><button class="btn sm" onclick="toast('Link copied')">Share</button></div></div>
+  <p class="muted small">The team lives in the link: /team-check?team=${S.team.join(",")}</p>
+  <div class="grid-cards" style="margin:12px 0">${Array.from({ length: 6 }, (_, i) => (team[i] ? `<div class="pcard" style="position:relative">${art(team[i])}<div class="nm">${esc(team[i].name)}</div><div class="types">${team[i].types.map(badge).join("")}</div><button class="btn ghost sm" style="position:absolute;top:4px;inset-inline-end:4px;min-height:28px;padding:0 6px" aria-label="Remove ${esc(team[i].name)}" onclick="S.team.splice(${i},1);render()">×</button></div>` : `<button class="pcard" style="display:grid;place-items:center;min-height:120px;border-style:dashed;cursor:pointer;color:var(--muted-foreground);font:inherit" onclick="addTeam()">+ Add</button>`)).join("")}</div>
+  <div class="cols two"><div class="card"><h3>Weak to</h3><table><thead><tr><th>Type</th><th class="r">Weak</th><th class="r">Resist</th><th></th></tr></thead><tbody>${weak.map((w) => `<tr><td>${badge(w.t)}</td><td class="r num">${w.n} of ${team.length}</td><td class="r num">${w.cover}</td><td>${w.n >= 2 && w.cover === 0 ? `<span class="badge warn">uncovered</span>` : ""}</td></tr>`).join("")}</tbody></table></div>
+  <div class="card"><h3>Coverage (by type)</h3><p class="num" style="font-size:28px;font-weight:750;margin:8px 0">${hits.length} <span class="muted" style="font-size:14px;font-weight:400">of 18 types hit super-effectively</span></p><p class="muted small">Not: ${
+    T.filter((t) => !hits.includes(t))
+      .map(cap)
+      .join(", ") || "none"
+  }</p>
+  <button class="btn outline" style="margin-top:8px" onclick="location.hash='/ask'">✦ Explain my team <span class="muted small">(spec 012)</span></button></div></div>`,
+          { section: "team" }
+        )
+      }
+      function addTeam() {
+        const left = MON.filter((m) => !S.team.includes(m.key))
+        S.team.push(left[Math.floor(Math.random() * left.length)].key)
+        render()
+      }
+
+      P.leagues = () =>
+        shell(
+          `<div class="row between"><h1>Leagues</h1><a class="btn" href="#/leagues/new">+ New</a></div>
+  <div class="cols two" style="margin-top:12px">${[
+    ["KC", "Kanto Cup", "Coach · 3rd · Week 5", "#2563eb", true],
+    ["FC", "Friday Cup", "Admin · drafting", "#b45309", false],
+  ]
+    .map(
+      ([i, n, s, c, live]) =>
+        `<a class="card row" href="#/l/kanto-cup" style="text-decoration:none"><span style="width:44px;height:44px;border-radius:10px;background:${c};color:#fff;display:grid;place-items:center;font-weight:700">${i}</span><div class="grow"><h3>${n}</h3><p class="muted small" style="margin:0">${s}</p></div>${live ? `<span class="live">${tr("draftLive")}</span>` : ""}</a>`
+    )
+    .join("")}</div>
+  <p class="muted" style="margin-top:16px">Got an invitation link? Open it to join.</p>`,
+          { section: "leagues" }
+        )
+
+      P.newLeague = () =>
+        shell(
+          `<h1>New league</h1><p class="muted small">Step 2 of 4 · Draft</p><div class="stepper" style="margin:8px 0 16px"><span style="width:50%"></span></div>
+  <div class="cols side-l"><ol class="card" style="margin:0;padding:12px 28px;line-height:2.2"><li>Basics ✓</li><li><b>Draft</b></li><li class="muted">Season</li><li class="muted">Review</li></ol>
+  <div class="card stack" style="max-width:560px">
+   <div class="field"><label>Draft order</label><div class="seg"><button aria-pressed="true">Snake</button><button aria-pressed="false">Linear</button></div></div>
+   <div class="field"><label for="b">Budget (points)</label><input class="input" id="b" value="110" style="padding-inline-start:12px"></div>
+   <div class="field"><label for="r">Roster size (forms)</label><input class="input" id="r" value="10" style="padding-inline-start:12px"></div>
+   <div class="field"><label for="t">Timer per turn</label><input class="input" id="t" value="2 minutes" style="padding-inline-start:12px"></div>
+   <div class="field"><label>Tier list</label><div class="seg"><button aria-pressed="true">By base stat total</button><button aria-pressed="false">Empty</button><button aria-pressed="false">Copy</button></div></div>
+   <div class="row between" style="margin-top:8px"><button class="btn outline">Back</button><button class="btn">Next</button></div>
+  </div></div>`,
+          { section: "new" }
+        )
+
+      P.leagueHome = () =>
+        shell(
+          `<div class="row between"><h1>Kanto Cup</h1><span class="badge neutral">Season 1</span></div>
+ <div class="cols side-r" style="margin-top:12px"><div class="stack">
+  <div class="card stack"><p class="muted small" style="margin:0">WEEK 5 OF 7</p><h3>You vs Misty</h3><a class="btn" href="#/l/kanto-cup/matches/5">Report a result</a></div>
+  <div class="card"><div class="row between"><h3>This week in the league</h3><span class="muted small">✦ AI · spec 013</span></div><p style="margin-top:8px">Brock stays unbeaten after his Tyranitar took three KOs against Gary. Misty climbs to third with a 4–0 sweep.</p><p class="muted small">Written by AI from the week's confirmed results.</p></div>
+  <div class="card"><h3>Recent</h3><ul style="margin:8px 0 0;padding-inline-start:18px;line-height:2"><li>Gary traded Rotom-Wash for Corviknight</li><li>Misty beat Erika 2–0</li><li>Brock beat Gary 2–1</li></ul></div>
+ </div><div class="card" style="padding:0"><table class="num"><caption style="text-align:start;padding:12px 10px 4px;font-weight:600">Standings</caption><thead><tr><th>#</th><th>Coach</th><th class="r">W–L</th><th class="r">Diff</th></tr></thead><tbody>${STAND.map((s, i) => `<tr class="${s[0] === ME ? "me" : ""}"><td>${i + 1}</td><td>${s[0]}${s[0] === ME ? " (you)" : ""}</td><td class="r">${s[1]}–${s[2]}</td><td class="r">${s[3] > 0 ? "+" : ""}${s[3]}</td></tr>`).join("")}</tbody></table></div></div>`,
+          { section: "kanto", league: true }
+        )
+
+      P.tiers = () => {
+        const tiers = [
+          ["S", 18],
+          ["A", 16],
+          ["B", 14],
+          ["C", 12],
+          ["D", 10],
+          ["E", 2],
+        ]
+        return shell(
+          `<div class="row between"><h1>Tier list</h1><button class="btn outline sm">Edit (admins)</button></div><p class="muted small">Locked: the draft has started. Drafted forms show their coach.</p>
+  <div class="stack" style="margin-top:12px">${tiers
+    .map(([n, p]) => {
+      const ms = MON.filter(
+        (m) =>
+          m.pts >= p &&
+          m.pts < (tiers[tiers.findIndex((x) => x[0] === n) - 1]?.[1] ?? 99)
+      )
+      return `<details class="card" open><summary style="cursor:pointer;display:flex;justify-content:space-between;align-items:center;min-height:32px"><b>${n} · ${p} points</b><span class="muted small">${ms.length} forms</span></summary><div class="grid-cards" style="margin-top:10px">${ms.map((m) => `<div style="opacity:${PICKS_BY[m.key] ? 0.5 : 1}">${pcard(m)}${PICKS_BY[m.key] ? `<div class="small muted" style="text-align:center">${PICKS_BY[m.key]}</div>` : ""}</div>`).join("")}</div></details>`
+    })
+    .join("")}
+   <details class="card"><summary style="cursor:pointer"><b>Banned</b> <span class="muted small">Restricted legendaries and mythicals</span></summary><p class="muted">Koraidon, Miraidon, Mewtwo…</p></details></div>`,
+          { section: "kanto", league: true }
+        )
+      }
+
+      // ---------- Draft room simulation ----------
+      const D = {
+        order: COACHES,
+        round: 3,
+        turn: 0,
+        picks: {},
+        time: 45,
+        timer: null,
+        reveal: null,
+        events: [],
+      }
+      let PICKS_BY = {}
+      function resetDraft() {
+        D.picks = {}
+        PICKS_BY = {}
+        const pre = [
+          ["Brock", "great-tusk"],
+          ["Ash", "tyranitar"],
+          ["Misty", "toxapex"],
+          ["Gary", "corviknight"],
+          ["Erika", "meowscarada"],
+          ["Lance", "dragapult"],
+          ["Sabrina", "iron-valiant"],
+          ["Blaine", "heatran"],
+          ["Blaine", "volcarona"],
+          ["Sabrina", "clefable"],
+          ["Lance", "baxcalibur"],
+          ["Erika", "glimmora"],
+          ["Gary", "rotom-wash"],
+          ["Misty", "gyarados"],
+          ["Ash", "weavile"],
+          ["Brock", "ting-lu"],
+        ]
+        pre.forEach(([c, k]) => {
+          ;(D.picks[c] ||= []).push(k)
+          PICKS_BY[k] = c
+        })
+        D.round = 3
+        D.turn = 0
+        D.time = 45
+      }
+      resetDraft()
+      const onClock = () => {
+        const o = D.round % 2 ? D.order : [...D.order].reverse()
+        return o[D.turn]
+      }
+      const spent = (c) =>
+        (D.picks[c] || []).reduce((a, k) => a + byKey[k].pts, 0)
+      function draftPick(coach, key, auto = false) {
+        ;(D.picks[coach] ||= []).push(key)
+        PICKS_BY[key] = coach
+        D.reveal = { coach, key, auto }
+        D.events.unshift(
+          `${coach} drafted ${byKey[key].name}, ${byKey[key].pts} points${auto ? " (auto-pick)" : ""}`
+        )
+        D.turn++
+        if (D.turn >= D.order.length) {
+          D.turn = 0
+          D.round++
+        }
+        D.time = 45
+        S.sel = null
+        if (location.hash.startsWith("#/l/kanto-cup/draft")) render()
+        setTimeout(
+          () => {
+            D.reveal = null
+            if (location.hash.startsWith("#/l/kanto-cup/draft")) render()
+          },
+          S.reduce ? 1200 : 1800
+        )
+      }
+      function tick() {
+        if (
+          !location.hash.startsWith("#/l/kanto-cup/draft") ||
+          D.reveal ||
+          D.round > 6
+        )
+          return
+        D.time -= 1
+        const c = onClock()
+        if (c !== ME && D.time <= 45 - 4) {
+          const avail = MON.filter((m) => !PICKS_BY[m.key])
+          draftPick(
+            c,
+            avail[Math.floor(Math.random() * Math.min(5, avail.length))].key
+          )
+          return
+        }
+        if (c === ME && D.time <= 0) {
+          const avail = MON.filter(
+            (m) => !PICKS_BY[m.key] && m.pts <= 110 - spent(ME)
+          )
+          draftPick(ME, avail[0].key, true)
+          return
+        }
+        const t = $("#dtimer")
+        if (t) {
+          t.textContent = `0:${String(D.time).padStart(2, "0")}`
+          t.classList.toggle("low", D.time <= 10)
+        }
+      }
+      setInterval(tick, 1000)
+
+      P.draft = () => {
+        const c = onClock(),
+          mine = c === ME,
+          left = 110 - spent(ME)
+        const avail = MON.filter((m) => !PICKS_BY[m.key])
+        const order = D.round % 2 ? D.order : [...D.order].reverse()
+        const myIdx = order.indexOf(ME)
+        const until =
+          myIdx >= D.turn
+            ? myIdx - D.turn
+            : D.order.length - D.turn + (D.order.length - 1 - myIdx)
+        const board = `<div class="card" style="padding:8px;overflow-x:auto"><h3 style="padding:4px 6px">Board</h3><table class="board"><thead><tr><th>Coach</th>${[1, 2, 3, 4, 5, 6].map((r) => `<th>R${r}</th>`).join("")}</tr></thead><tbody>${D.order
+          .map(
+            (co) =>
+              `<tr${co === ME ? ' class="me"' : ""}><td>${co}</td>${[
+                0, 1, 2, 3, 4, 5,
+              ]
+                .map((r) => {
+                  const k = (D.picks[co] || [])[r]
+                  const now = co === c && r === D.round - 1
+                  return `<td>${k ? `<div class="cell" title="${byKey[k].name}" style="background:${TYPES[byKey[k].types[0]][0]};color:${TYPES[byKey[k].types[0]][1]}">${byKey[k].name.slice(0, 2)}</div>` : `<div class="cell ${now ? "now" : "empty"}">${now ? "◔" : "·"}</div>`}</td>`
+                })
+                .join("")}</tr>`
+          )
+          .join("")}</tbody></table></div>`
+        const pool = `<div class="stack"><div class="row"><div class="inputwrap grow">${I.search}<input class="input" placeholder="Search the pool" aria-label="Search the pool"></div><span class="chip">Tier ▾</span><span class="chip">Type ▾</span></div>
+    <div class="stack" style="--g:6px">${avail
+      .slice(0, 9)
+      .map((m) => {
+        const ok = m.pts <= left
+        return `<button class="poolrow" aria-pressed="${S.sel === m.key}" ${!ok ? "aria-disabled=true" : ""} onclick="S.sel='${m.key}';render()">${art(m)}<div class="grow"><b>${esc(m.name)}</b><div class="row" style="gap:4px">${m.types.map(badge).join("")}</div></div><div class="r"><b class="num">${m.pts}</b><div class="muted small">pts</div></div><span aria-hidden="true">☆</span></button>`
+      })
+      .join("")}</div>
+    <button class="btn draftbtn" style="width:100%" ${mine && S.sel ? "" : "disabled"} onclick="draftPick(ME,S.sel)">${mine ? (S.sel ? `Draft ${esc(byKey[S.sel].name)}` : "Choose a form to draft") : "Draft (on your turn)"}</button>
+    ${mine ? `<div class="card" style="padding:12px"><div class="row between"><b>✦ Suggestions</b><span class="muted small">only you see these · spec 013</span></div><ol style="margin:6px 0 0;padding-inline-start:18px"><li><b>Garchomp</b>: covers your Ground gap, 18 pts</li><li><b>Kingambit</b>: resists 8 of your weaknesses</li></ol></div>` : ""}</div>`
+        const roster = `<div class="card stack"><div class="row between"><h3>Your roster</h3><span class="num"><b>${left}</b> <span class="muted">pts left</span></span></div>${(D.picks[ME] || []).map((k) => `<div class="row between"><span>${esc(byKey[k].name)}</span><span class="num muted">${byKey[k].pts}</span></div>`).join("")}<h3 style="margin-top:8px">Wishlist</h3><ol style="margin:0;padding-inline-start:18px">${
+          ["garchomp", "kingambit", "gholdengo"]
+            .filter((k) => !PICKS_BY[k])
+            .map((k) => `<li>${byKey[k].name}</li>`)
+            .join("") || "<li class='muted'>Empty</li>"
+        }</ol><p class="muted small">Auto-pick takes the first affordable form here if your timer runs out.</p><h3>Picks</h3><div class="small muted" style="max-height:120px;overflow:auto">${D.events.map((e) => `<div>${esc(e)}</div>`).join("") || "Waiting for the next pick…"}</div></div>`
+        const tab = S.dtab
+        return shell(
+          `<div class="card statusbar row between" style="margin-bottom:12px"><div><div class="row"><b>${tr("round")} ${D.round} · ${tr("pick")} ${(D.round - 1) * 8 + D.turn + 1} ${tr("of")} 48 <span class="muted small">(sample: 6 rounds)</span></b><span class="live">${tr("live")}</span></div><div class="muted small">${mine ? `<b style='color:var(--foreground)'>${tr("yourTurn")}</b>` : `${c} ${tr("isPicking")}`} · you: ${mine ? "now" : `in ${until} pick${until === 1 ? "" : "s"}`} · ${left} pts</div></div><div class="timer num ${D.time <= 10 ? "low" : ""}" id="dtimer" aria-hidden="true">0:${String(D.time).padStart(2, "0")}</div></div>
+   <div class="sr" aria-live="polite">${D.events[0] || ""}</div>
+   <div class="dtabs" role="tablist">${[
+     ["board", "Board"],
+     ["pool", "Pool"],
+     ["roster", "Roster"],
+   ]
+     .map(
+       ([k, l]) =>
+         `<button role="tab" aria-selected="${tab === k}" onclick="S.dtab='${k}';render()">${l}</button>`
+     )
+     .join("")}</div>
+   <div class="cols three"><div class="dpanel" style="display:${tab === "board" ? "block" : "none"}">${board}</div><div class="dpanel" style="display:${tab === "pool" ? "block" : "none"}">${pool}</div><div class="dpanel" style="display:${tab === "roster" ? "block" : "none"}">${roster}</div></div>
+   ${D.reveal ? `<div class="reveal" role="status"><div class="card"><p class="muted small">${esc(D.reveal.coach)} drafted${D.reveal.auto ? " (auto-pick)" : ""}</p>${art(byKey[D.reveal.key])}<h3>${esc(byKey[D.reveal.key].name)}</h3><p class="num">${byKey[D.reveal.key].pts} points</p></div></div>` : ""}
+   <div class="wire-note">Spec 008 · simulated: other coaches pick every few seconds; on your turn choose a form and draft it, or let the timer run out to see auto-pick. The server decides every pick; a dropped connection shows "Reconnecting…" and catches up from the server.</div>`,
+          { section: "kanto", league: true }
+        )
+      }
+
+      P.coach = () => {
+        const r = ROSTER.Ash
+        return shell(
+          `<h1>Ash</h1><p class="muted num">3–1 · +7 · ${r.reduce((a, x) => a + x[1], 0)} of 110 points used</p>
+  <div class="cols side-r" style="margin-top:12px"><div class="card" style="padding:0;overflow-x:auto"><table class="num"><thead><tr><th>Form</th><th class="r">Pts</th><th class="r"><abbr title="KOs">KO</abbr></th><th class="r"><abbr title="Fainted">Fnt</abbr></th></tr></thead><tbody>${r.map(([k, p], i) => `<tr><td class="row" style="flex-wrap:nowrap">${art(byKey[k], 'style="width:32px;font-size:11px;background:linear-gradient(135deg,' + TYPES[byKey[k].types[0]][0] + "," + TYPES[byKey[k].types[1] || byKey[k].types[0]][0] + ')"')}<b>${byKey[k].name}</b></td><td class="r">${p}</td><td class="r">${[5, 3, 4, 1, 2, 0][i]}</td><td class="r">${[2, 1, 1, 2, 3, 2][i]}</td></tr>`).join("")}</tbody></table></div>
+  <div class="card"><h3>Weak to</h3><p>Fighting ×3 · Ground ×2 · Water ×2</p><h3 style="margin-top:12px">Coverage</h3><p>15 of 18 types</p><a class="btn outline sm" href="#/team-check">Check in team check →</a></div></div>`,
+          { section: "kanto", league: true }
+        )
+      }
+
+      P.schedule = () =>
+        shell(
+          `<h1>Schedule</h1><div class="row between card" style="margin:12px 0;padding:8px"><button class="btn ghost icon" aria-label="Previous week">◀</button><b>Week 5 of 7</b><button class="btn ghost icon" aria-label="Next week">▶</button></div>
+  <div class="cols two">${[
+    ["Ash", "Misty", "upcoming", "", ""],
+    ["Brock", "Erika", "reported: waiting for Erika", "2", "0"],
+    ["Gary", "Lance", "confirmed", "2", "1"],
+    ["Sabrina", "Blaine", "disputed", "1", "2"],
+  ]
+    .map(
+      ([a, b, s, x, y]) =>
+        `<a class="card row between" href="#/l/kanto-cup/matches/5" style="text-decoration:none"><div><b>${a}</b> <span class="num">${x}</span> – <span class="num">${y}</span> <b>${b}</b></div><span class="badge ${s === "confirmed" ? "ok" : s.startsWith("disputed") ? "warn" : "neutral"}">${s}</span></a>`
+    )
+    .join("")}</div>`,
+          { section: "kanto", league: true }
+        )
+
+      P.match = () =>
+        shell(
+          `<a class="btn ghost sm" href="#/l/kanto-cup/schedule">← Week 4</a>
+  <div class="card" style="text-align:center;margin:8px 0"><div class="row" style="justify-content:center;gap:20px;font-size:22px"><b>Ash</b><span class="num" style="font-size:40px;font-weight:800">2 – 1</span><b>Misty</b></div><span class="badge ok">✓ Confirmed by both</span></div>
+  <div class="cols two"><div class="card stack">${[
+    ["Battle 1", "Ash won 4–0"],
+    ["Battle 2", "Misty won 2–0"],
+    ["Battle 3", "Ash won 1–0"],
+  ]
+    .map(
+      ([b, r]) =>
+        `<div class="row between"><span><b>${b}</b> · ${r}</span><a class="btn outline sm" href="#">Watch on Showdown ↗</a></div>`
+    )
+    .join(
+      ""
+    )}<p class="muted small">Read from the battle logs; KOs counted by the rules in spec 009.</p></div>
+  <div class="card" style="padding:0"><table class="num"><thead><tr><th>Form</th><th class="r">KO</th><th class="r">Passive</th><th class="r">Fainted</th></tr></thead><tbody>${[
+    ["Tyranitar", 3, 0, 1],
+    ["Rotom-Wash", 1, 1, 0],
+    ["Toxapex", 0, 1, 1],
+    ["Gyarados", 2, 0, 2],
+  ]
+    .map(
+      (r) =>
+        `<tr><td><b>${r[0]}</b></td><td class="r">${r[1]}</td><td class="r">${r[2]}</td><td class="r">${r[3]}</td></tr>`
+    )
+    .join("")}</tbody></table></div></div>
+  <div class="card" style="margin-top:12px"><div class="row between"><h3>Recap</h3><span class="muted small">✦ AI · spec 013</span></div><p style="margin-top:6px">Tyranitar opened with two quick KOs, and Misty's Gyarados couldn't break through Rotom-Wash in the decider.</p><p class="muted small">Written by AI from the battle logs.</p></div>`,
+          { section: "kanto", league: true }
+        )
+
+      P.trades = () =>
+        shell(
+          `<div class="row between"><h1>Trades</h1><button class="btn">+ New</button></div>
+  <div class="cols two" style="margin-top:12px"><div class="card stack"><p class="muted small" style="margin:0">OFFER FROM GARY</p><div class="row between"><span>You give <b>Corviknight</b> (14)</span><span>You get <b>Rotom-Wash</b> (14)</span></div><p class="muted small">After: you 79/110 · Gary 92/110 · ✓ allowed · needs an admin's approval</p><div class="row"><button class="btn outline">Decline</button><button class="btn">Accept</button></div></div>
+  <div class="card"><h3>History</h3><ul style="margin:8px 0 0;padding-inline-start:18px;line-height:2"><li>Lance ⇄ Erika: Dragapult for Glimmora · completed</li><li>Misty → Brock: declined</li></ul></div></div>`,
+          { section: "kanto", league: true }
+        )
+
+      P.stats = () =>
+        shell(
+          `<h1>Stats</h1><div class="cols two" style="margin-top:12px"><div class="card" style="padding:0"><table class="num"><caption style="text-align:start;padding:12px 10px 4px;font-weight:600">KO leaders</caption><tbody>${[
+            ["Tyranitar", "Ash", 11],
+            ["Kingambit", "Brock", 9],
+            ["Dragapult", "Lance", 8],
+            ["Gyarados", "Misty", 7],
+          ]
+            .map(
+              (r, i) =>
+                `<tr><td>${i + 1}</td><td><b>${r[0]}</b> <span class="muted">(${r[1]})</span></td><td class="r">${r[2]} KO</td></tr>`
+            )
+            .join("")}</tbody></table></div>
+  <div class="card" style="padding:0"><table class="num"><caption style="text-align:start;padding:12px 10px 4px;font-weight:600">Best differential</caption><tbody>${STAND.slice(
+    0,
+    4
+  )
+    .map(
+      (s, i) =>
+        `<tr><td>${i + 1}</td><td>${s[0]}</td><td class="r">+${s[3]}</td></tr>`
+    )
+    .join("")}</tbody></table></div></div>`,
+          { section: "kanto", league: true }
+        )
+
+      P.settings = () =>
+        shell(
+          `<h1>Settings</h1><div class="cols side-l" style="margin-top:12px"><div class="card" style="padding:6px">${["General", "Members", "Draft", "Season", "Discord", "AI"].map((x, i) => `<div style="padding:10px;border-radius:6px;${i === 1 ? "background:var(--accent);font-weight:600" : ""}">${x}</div>`).join("")}</div>
+  <div class="stack"><div class="card"><h3>Members</h3><table style="margin-top:8px"><tbody>${[
+    ["Brock", "coach · admin"],
+    ["Ash", "coach"],
+    ["Misty", "coach"],
+    ["Oak", "viewer"],
+  ]
+    .map(
+      ([n, r]) =>
+        `<tr><td>${n}</td><td class="muted">${r}</td><td class="r"><button class="btn ghost sm" aria-label="Actions for ${n}">⋯</button></td></tr>`
+    )
+    .join(
+      ""
+    )}</tbody></table><button class="btn outline" style="margin-top:12px" onclick="toast('Invitation link copied')">Copy invitation link</button></div>
+  <div class="card"><h3>AI</h3>${["All AI features", "Pick suggestions in the draft room", "Recaps and the weekly digest"].map((x, i) => `<label class="row between" style="min-height:44px"><span>${x}</span><input type="checkbox" ${i !== 1 ? "checked" : ""} style="width:20px;height:20px"></label>`).join("")}<p class="muted small">With AI off, none of this league's data is sent to a model.</p></div>
+  <div class="card"><h3>Discord</h3><p class="muted">Linked to #kanto-cup · <a href="#">Send a test post</a></p></div>
+  <div class="card"><h3>Danger zone</h3><button class="btn danger" style="margin-top:8px">Delete league</button></div></div></div>`,
+          { section: "kanto", league: true }
+        )
+
+      P.ask = () =>
+        shell(
+          `<div class="row between"><h1>Ask</h1><button class="btn ghost sm">New</button></div>
+  <div class="stack" style="max-width:760px;margin:12px auto 0"><div class="msg me">What beats Garchomp?</div>
+  <div class="trace"><div>Looked up Garchomp</div><div>Checked its matchups</div><div>Found 6 Ice-type options in the data</div></div>
+  <div class="card"><p>Garchomp takes ×4 from Ice. Good answers:</p><div class="row">${["weavile", "mamoswine", "baxcalibur"].map((k) => `<a class="chip" href="#/dex/${k}">${byKey[k].name}</a>`).join("")}</div></div>
+  <p class="muted small">✦ Written by AI from the Dex's data · 16 of 20 left today</p>
+  <div class="inputwrap" style="position:sticky;bottom:64px"><input class="input" style="padding-inline-start:12px" placeholder="Ask a follow-up…" aria-label="Ask a follow-up"></div>
+  <div class="wire-note">Spec 012 · an answer appears only after its lookups and the grounding check; every named Pokémon, move or ability is checked against the data.</div></div>`,
+          { section: "ask" }
+        )
+
+      P.me = () =>
+        shell(
+          `<div class="row"><span style="width:56px;height:56px;border-radius:50%;background:var(--muted);display:grid;place-items:center;font-weight:700">A</span><div><h1>Ash</h1><p class="muted small" style="margin:0">Signed in with Discord</p></div></div>
+  <div class="cols two" style="margin-top:16px"><div class="card"><h3>Your leagues</h3><p>Kanto Cup · coach</p><p>Friday Cup · coach, admin</p></div>
+  <div class="card stack"><h3>Your data</h3><p class="muted">We keep your Discord ID, name and avatar, and what you do in your leagues.</p><div class="row"><button class="btn outline">Download my data</button><button class="btn danger">Delete my account</button></div><p class="muted small">AI today: 4 of 20 used.</p><button class="btn ghost">Sign out</button></div></div>`,
+          { section: "me" }
+        )
+
+      P.signin = () =>
+        shell(
+          `<div class="card stack" style="max-width:420px;margin:24px auto;text-align:center"><h1>Sign in</h1><p class="muted">Leagues use your Discord account. We keep your Discord ID, name and avatar, nothing else.</p><button class="btn" style="width:100%">Continue with Discord</button><p class="muted small">The Dex needs no account.</p></div>`,
+          {}
+        )
+
+      P.about = () =>
+        shell(
+          `<div style="max-width:680px"><h1>About</h1><p>Coachlore is a fan-made Pokédex and a home for Pokémon draft leagues, free and non-commercial.</p><h2>Credits</h2><p class="muted">Data: PokéAPI and Pokémon Showdown's data. Usage statistics: Smogon. Images © The Pokémon Company.</p><h2>Not affiliated</h2><p class="muted">Coachlore is not affiliated with Nintendo, Creatures, Game Freak or The Pokémon Company.</p></div>`,
+          {}
+        )
+
+      P.states = () =>
+        shell(
+          `<h1>Every state</h1><p class="muted">Spec 001: a view isn't done until it has every state that applies to it.</p>
+  <div class="cols two" style="margin-top:12px">
+   <div class="card"><h3>Loading</h3><div class="grid-cards" style="margin-top:8px">${Array.from({ length: 6 }, () => `<div><div class="skeleton" style="aspect-ratio:1"></div><div class="skeleton" style="height:12px;margin-top:6px"></div></div>`).join("")}</div></div>
+   <div class="card"><h3>Empty</h3><div class="empty"><div class="ico">⌀</div><b>No leagues yet</b><p class="muted">Create one, or open an invitation link from a friend.</p><a class="btn" href="#/leagues/new">Create a league</a></div></div>
+   <div class="card" role="alert"><h3>Error</h3><div class="empty"><b>This page couldn’t load</b><p class="muted">Try again. If it keeps happening, come back later. (Error reference: 8f3a2c)</p><button class="btn">Try again</button></div></div>
+   <div class="card"><h3>Offline</h3><div class="alert warn">⚠ <div><b>You're offline.</b> <span class="muted">The Dex pages you've opened still work; changes are off until you're back.</span></div></div></div>
+   <div class="card"><h3>No permission</h3><div class="empty"><b>This league is private</b><p class="muted">Ask an admin for an invitation link.</p></div></div>
+   <div class="card"><h3>AI unavailable</h3><div class="alert">✦ <div><b>Today's AI allowance is used.</b> <span class="muted">It resets at midnight UTC. Everything else works.</span></div></div></div>
+   <div class="card"><h3>Reconnecting (draft room)</h3><div class="alert warn">↻ <div><b>Reconnecting…</b> <span class="muted">Picking is off until the room has caught up with the server.</span></div></div></div>
+   <div class="card"><h3>Not found</h3><div class="empty"><b>Page not found</b><p class="muted">There's no page at this address.</p><a class="btn outline" href="#/">Go to the home page</a></div></div>
+  </div>`,
+          {}
+        )
+
+      P.notfound = () =>
+        shell(
+          `<div class="empty" style="min-height:50vh"><h1>Page not found</h1><p class="muted">There's no page at this address. Check the link, or start again from the home page.</p><a class="btn" href="#/">Go to the home page</a></div>`,
+          {}
+        )
+
+      // ---------- Router ----------
+      const ROUTES = [
+        ["#/", "Home", P.home],
+        ["#/dex", "Dex: browse", P.dex],
+        ["#/dex/garchomp", "A Pokémon: Garchomp", () => P.mon("garchomp")],
+        ["#/dex/rotom-wash", "A form: Rotom-Wash", () => P.mon("rotom-wash")],
+        ["#/types", "Type chart", P.types],
+        ["#/moves", "Moves", P.moves],
+        ["#/team-check", "Team check", P.team],
+        ["#/leagues", "Leagues", P.leagues],
+        ["#/leagues/new", "Create a league", P.newLeague],
+        ["#/l/kanto-cup", "League home", P.leagueHome],
+        ["#/l/kanto-cup/tiers", "Tier list", P.tiers],
+        ["#/l/kanto-cup/draft", "Draft room (live)", P.draft],
+        ["#/l/kanto-cup/rosters/ash", "A coach's roster", P.coach],
+        ["#/l/kanto-cup/schedule", "Schedule", P.schedule],
+        ["#/l/kanto-cup/matches/5", "A match", P.match],
+        ["#/l/kanto-cup/trades", "Trades", P.trades],
+        ["#/l/kanto-cup/stats", "Stats", P.stats],
+        ["#/l/kanto-cup/settings", "League settings", P.settings],
+        ["#/ask", "Ask (AI)", P.ask],
+        ["#/me", "Me", P.me],
+        ["#/sign-in", "Sign in", P.signin],
+        ["#/about", "About", P.about],
+        ["#/states", "Every state", P.states],
+        ["#/nowhere", "Not found", P.notfound],
+      ]
+      function render() {
+        const h = location.hash || "#/"
+        let page = P.notfound
+        const m = h.match(/^#\/dex\/([\w-]+)$/)
+        if (m) page = () => P.mon(m[1])
+        else {
+          const r = ROUTES.find(
+            ([p]) =>
+              p === h.replace(/\/$/, "") ||
+              (p === "#/" && (h === "#/" || h === "#" || h === ""))
+          )
+          if (r) page = r[2]
+          if (h.startsWith("#/l/kanto-cup/rosters")) page = P.coach
+          if (h.startsWith("#/l/kanto-cup/matches")) page = P.match
+          if (h === "#/l/friday-cup") page = P.leagueHome
+        }
+        const keepScroll = app.scrollTop
+        const same = render.last === h
+        app.innerHTML = page()
+        app.lang = S.lang
+        app.dataset.route = h.startsWith("#/l/kanto-cup/draft") ? "draft" : ""
+        app.dir = S.rtl ? "rtl" : "ltr"
+        app.classList.toggle("dark", S.dark)
+        app.classList.toggle("reduce", S.reduce)
+        if (same) app.scrollTop = keepScroll
+        else app.scrollTop = 0
+        render.last = h
+        $("#jump").value = ROUTES.find(([p]) => p === h)?.[0] || ""
+      }
+      addEventListener("hashchange", () => {
+        S.menu = false
+        S.palette = false
+        render()
+      })
+      addEventListener("keydown", (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+          e.preventDefault()
+          S.palette ? closePalette() : openPalette()
+          return
+        }
+        const typing =
+          /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName) ||
+          S.palette
+        if (
+          typing ||
+          !S.hotkeys ||
+          e.ctrlKey ||
+          e.metaKey ||
+          e.altKey ||
+          e.repeat
+        ) {
+          if (e.key === "Escape" && S.menu) {
+            S.menu = false
+            render()
+          }
+          return
+        }
+        if (e.key === "/") {
+          e.preventDefault()
+          openPalette()
+        }
+        if (e.key.toLowerCase() === "d") setDark(!S.dark)
+        if (e.key === "Escape" && S.menu) {
+          S.menu = false
+          render()
+        }
+      })
+
+      // ---------- Preview chrome ----------
+      const jump = $("#jump")
+      jump.innerHTML =
+        `<option value="">Go to screen…</option>` +
+        ROUTES.map(([p, l]) => `<option value="${p}">${l}</option>`).join("")
+      jump.onchange = () => {
+        if (jump.value) location.hash = jump.value.slice(1)
+      }
+      document.querySelectorAll(".chrome [data-size]").forEach(
+        (b) =>
+          (b.onclick = () => {
+            $("#frame").dataset.size = b.dataset.size
+            document
+              .querySelectorAll(".chrome [data-size]")
+              .forEach((x) => x.setAttribute("aria-pressed", x === b))
+          })
+      )
+      $("#themeBtn").onclick = () => setDark(!S.dark)
+      $("#langBtn").onclick = () => {
+        S.lang = S.lang === "en" ? "hi" : "en"
+        syncChrome()
+        render()
+      }
+      $("#rtlBtn").onclick = () => {
+        S.rtl = !S.rtl
+        $("#rtlBtn").setAttribute("aria-pressed", S.rtl)
+        render()
+      }
+      $("#motionBtn").onclick = () => {
+        S.reduce = !S.reduce
+        $("#motionBtn").setAttribute("aria-pressed", S.reduce)
+        render()
+      }
+      function syncChrome() {
+        $("#themeBtn").textContent = S.dark ? "Light theme" : "Dark theme"
+        $("#langBtn").textContent = S.lang === "en" ? "हिन्दी" : "English"
+        $("#langBtn").setAttribute("aria-pressed", S.lang === "hi")
+      }
+      if (matchMedia("(max-width: 700px)").matches) {
+        $("#frame").dataset.size = "phone"
+      }
+      render()
+    </script>
+  </body>
+</html>

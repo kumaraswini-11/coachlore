@@ -1,6 +1,8 @@
 # Plan: engineering and interface standards
 
-- Status: not started
+- Status: superseded in part by [spec 001](../specs/001-interface/spec.md),
+  which now holds the states and the shadcn-first rule (section 2); section 4
+  is done; section 1 stays the owner's open call
 - Written: 2026-10-20, from the owner's draft, reviewed against the sources
   linked below
 
@@ -22,6 +24,10 @@ before changing any rule.
 | --------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Registry files        | AGENTS.md, "Interface": "edit its code directly where the design needs it" | "you simply edit the button code directly"; "Modify any part of a component" ([Introduction](https://ui.shadcn.com/docs)) |
 | Taking upstream fixes | none yet                                                                   | the CLI shows what changed: `shadcn add <component> --diff` (the old `diff` command is deprecated)                        |
+
+Until the owner decides, the specs use the default in
+[the specs' defaults](../specs/README.md#defaults-for-the-owners-calls):
+registry files are edited where the design needs it, as AGENTS.md says.
 
 The owner's lean: leave `shadcn-ui/` as installed; customise through the
 theme's tokens (`globals.css`), `className` at the call site, or a

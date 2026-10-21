@@ -61,11 +61,23 @@ to scan the apps and this package for class names.
 ## Adding components
 
 Check the [shadcn/ui registry](https://ui.shadcn.com/docs/components) before
-writing a component. Add one with the CLI, from the repository root:
+writing a component. Add one with the CLI, from the repository root, at
+the version pinned in this package's `package.json` (4.21.3 today), not
+`@latest` (AGENTS.md, "Versions"):
 
 ```bash
-bunx --bun shadcn@latest add <component> -c apps/web
+bunx --bun shadcn@4.21.3 add <component> -c apps/web
 ```
+
+Two things the CLI does that aren't obvious (seen with 4.21.3):
+
+- **`--dry-run` still changes files:** it deleted `.gitkeep` files in the
+  target folders. Check `git status` after any CLI run, and restore with
+  `git restore --source=HEAD --staged --worktree -- <path>`.
+- **Registry components assume the icon library is installed:** they import
+  `lucide-react` (the `iconLibrary` in `components.json`), but the CLI
+  doesn't add it as a dependency. Keep `lucide-react` in `apps/web` and
+  here, even before anything imports it.
 
 `-c apps/web` runs the CLI in the app's folder, as
 [shadcn's monorepo guide](https://ui.shadcn.com/docs/monorepo) asks.

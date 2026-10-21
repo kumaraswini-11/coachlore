@@ -10,7 +10,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Coachlore
 
-A mobile-first Pokédex and a home for Pokémon draft leagues; the owner's personal project, named in [ADR 0005](docs/adr/0005-product-name.md). What it is and how to run it: [README.md](README.md). Before building a feature, read the part of [docs/project-doc.md](docs/project-doc.md) it touches: the product decisions and the reasoning behind them.
+A mobile-first Pokédex and a home for Pokémon draft leagues; the owner's personal project, named in [ADR 0005](docs/adr/0005-product-name.md). What it is and how to run it: [README.md](README.md). Before building a feature, read the part of [docs/project-doc.md](docs/project-doc.md) it touches: the product decisions and the reasoning behind them. Then its spec in [docs/specs/](docs/specs/README.md). Use the words in [GLOSSARY.md](GLOSSARY.md), with the meaning given there, in specs, code and the interface.
 
 ## Commands
 
@@ -36,10 +36,11 @@ Before any git command that writes (commit, branch, rebase, merge, push, config)
 
 Record each piece here as it's decided, with a link to its ADR. Until then, the scaffold's choices are a starting point, not decisions. Decided so far:
 
-- Node.js 24 LTS, TypeScript 6.0, ESLint with typescript-eslint and `eslint-config-next` (any warning fails), shared versions in the workspace catalog, and a 14-day minimum release age: [ADR 0002](docs/adr/0002-toolchain-baseline.md).
 - UI component layout: [ADR 0001](docs/adr/0001-ui-component-layout.md).
-- Agent skills, where they live and how they're pinned: [ADR 0004](docs/adr/0004-agent-skills.md).
+- Node.js 24 LTS, TypeScript 6.0, ESLint with typescript-eslint and `eslint-config-next` (any warning fails), shared versions in the workspace catalog, and a 14-day minimum release age: [ADR 0002](docs/adr/0002-toolchain-baseline.md).
 - Rendering with Cache Components, the error and not-found pages, and the security headers: [ADR 0003](docs/adr/0003-rendering-and-production-defaults.md).
+- Agent skills, where they live and how they're pinned: [ADR 0004](docs/adr/0004-agent-skills.md).
+- Languages: English and Hindi, routes under `/[lang]`, dictionaries, and logical properties for right-to-left later: [ADR 0007](docs/adr/0007-languages-and-right-to-left.md).
 
 Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan before starting its work, and mark it done when it's finished.
 
@@ -51,9 +52,11 @@ Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan b
 - **The core is framework-agnostic:** the league rules, the Pokémon data model and the battle-log parser import no framework, interface or storage code, so they can be reused and tested on their own.
 - **Metadata:** every page has its own title and description, written as [apps/web/README.md](apps/web/README.md) ("Titles and descriptions") describes.
 - **Rendering:** pages and layouts stay Server Components; `"use client"` goes on the interactive component that needs it, as low in the tree as possible. Modules with secrets or server-only code `import "server-only"`; only `NEXT_PUBLIC_` values reach the browser.
-- **Interface:** shadcn registry first: add a component with the CLI, then edit its code directly where the design needs it, as [shadcn/ui](https://ui.shadcn.com/docs) intends. [Base UI](https://base-ui.com)'s docs for behaviour, shadcn's for look. Semantic tokens and HTML; a Pokémon type is always named, never shown by colour alone. Designed at 360 px first, with 44 px touch targets. [WCAG 2.2](https://www.w3.org/TR/WCAG22/) AA, reduced motion respected, no layout shift, and [Core Web Vitals](https://web.dev/articles/vitals)' "good" thresholds on a mid-range phone.
+- **Interface:** shadcn registry first: add a component with the CLI, then edit its code directly where the design needs it, as [shadcn/ui](https://ui.shadcn.com/docs) intends. [Base UI](https://base-ui.com)'s docs for behaviour, shadcn's for look. Semantic tokens and HTML; a Pokémon type is always named, never shown by colour alone. Every string from the dictionaries (English and Hindi) and logical properties (`ms`/`me`, `start`/`end`), never `left`/`right`, so right-to-left languages work ([ADR 0007](docs/adr/0007-languages-and-right-to-left.md)). Designed at 360 px first, with 44 px touch targets. [WCAG 2.2](https://www.w3.org/TR/WCAG22/) AA, reduced motion respected, no layout shift, and [Core Web Vitals](https://web.dev/articles/vitals)' "good" thresholds on a mid-range phone.
 - **Components:** shared UI components (`packages/ui`) present the data they're given and never fetch it. In the app, Server Components fetch the data they need where they use it, as [Next.js](https://nextjs.org/docs/app/getting-started/fetching-data) recommends. Within an app, a composition becomes a shared component on its third use, not before.
 - **Work loop:** within agreed work, each task is checked, audited by the owner, committed, then the next begins; stop for the owner's audit and the owner's calls, and for nothing else.
+- **Reviews and audits:** report every finding, grouped by severity, never a capped "top N"; after fixing, review the text the fixes added before committing, since fixes bring their own edge cases. A spec's fine-grained edge cases are settled by a test while it's built, not by more review rounds of the document.
+- **Project memory:** anything a later session or another machine needs lives in this repository (this file, the docs, an ADR, a package README), never only in an agent's local memory.
 - **Decisions:** decide on merit, never effort. Where official docs settle a choice, take it and say so; ask the owner only their own calls (money, accounts, domains, scope, time). Present each as a table (item, what the repository has now, checked rather than remembered; what the official docs say, quoted; recommendation) with sources. Record hard-to-reverse ones, and any departure from official guidance with its reason, as ADRs in `docs/adr/`, in the format of the existing ones (status, date, context, decision in that table form, alternatives, consequences, sources), whatever a skill's template or criteria say.
 - **Documents:** name and link a practice where it's relied on; check every link before it's committed.
 - **Versions:** LTS or supported stable lines, checked on each project's own release page; a new dependency takes its newest release at least two weeks old. A version shared by packages is defined once, in the workspace catalog ([Bun](https://bun.sh/docs/install/catalogs), [pnpm](https://pnpm.io/catalogs)), and referenced as `catalog:`.
