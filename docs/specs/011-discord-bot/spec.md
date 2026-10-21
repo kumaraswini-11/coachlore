@@ -57,6 +57,9 @@ when a post is retried (with one rare exception, stated in requirement 4).
    among the channel's 50 most recent messages, it can appear twice. Every
    post ends with a short reference line in small text, so a retry can
    recognise the bot's own earlier post without relying on its wording.
+   That retry check is the only time the bot reads a channel: it reads the
+   50 most recent messages, compares them with its own post, and keeps
+   none of their content.
 5. **Never in the way.** Nothing a coach does waits for Discord. A pick, a
    confirmed result or a trade is stored and shown on the site first; the
    post follows.
@@ -187,7 +190,8 @@ League settings, Discord section ([spec 001](../001-interface/spec.md#league-set
 
 - Commands other than `/link` (standings, schedules or picking from
   Discord).
-- Reading messages, roles or members; direct messages to coaches.
+- Reading messages (other than the retry check in requirement 4, which
+  keeps nothing), roles or members; direct messages to coaches.
 - More than one channel per league, or a channel per kind of post.
 - Posts from the AI (spec 013 adds recaps and the digest to this bot).
 

@@ -128,7 +128,7 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
 5. Answers are cached. The cache key holds everything that shaped the
    answer: the feature, the prompt's version, the provider and the model,
    the question as normalised (or, for a team explanation, the computed
-   facts about the team), the language it's answered in, the subject, the
+   facts about the team and the candidates the code proposed, in order), the language it's answered in, the subject, the
    data's version, the conversation it follows, and for league data the
    league, the person's role in it and, separately, whether they're an
    admin. An answer that read the person's own data (their roster, their
@@ -229,8 +229,8 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
 8. A repeated question returns the cached answer with no model call,
    recorded as a cached run; the same question in another league, by a
    viewer instead of a coach, by an admin instead of a coach who isn't
-   one, in the other language, with another provider, for a team whose
-   computed facts differ, or as a follow-up to a different conversation,
+   one, in the other language, with another provider or another model, for
+   a team whose computed facts or proposed candidates differ, or as a follow-up to a different conversation,
    isn't served from that cache entry; an answer that read the asker's own
    data is never served to anyone else; a cached answer requested with the
    allowance used is refused.
