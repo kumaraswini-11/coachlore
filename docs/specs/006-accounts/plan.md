@@ -258,7 +258,7 @@ in the app.
 | 9. Health                    | `health.test.ts`: up, and down with the container stopped                                                                                                                    |
 | 10. Restore a backup         | Owner task, recorded in `docs/plans/` with the date and the commands used                                                                                                    |
 | 11. Rate limit               | `rate-limit.test.ts`: the 21st request in a minute gets 429 with `Retry-After`                                                                                               |
-| 12. Screens                  | `apps/web/e2e/account.spec.ts`: axe at 360 and 1280 px, both themes, keyboard only                                                                                           |
+| 12. Screens                  | `packages/playwright-web/e2e/account.spec.ts`: axe at 360 and 1280 px, both themes, keyboard only                                                                            |
 | 13. Previews off the server  | `proxy-env.test.ts`: with no `SERVER_ORIGIN`, the proxy answers 404 and `/me` renders fixtures                                                                               |
 | 14. Settings checked         | `env.test.ts`: each missing or malformed variable stops start-up with its name                                                                                               |
 | 15. Shutdown                 | `shutdown.test.ts`: a slow request completes after SIGTERM; a new one is refused; a socket is closed                                                                         |

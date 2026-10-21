@@ -135,7 +135,7 @@ acting.
 
 - Packages: Vitest, next to the code (`*.test.ts`).
 - Server: Vitest with a real PostgreSQL from Testcontainers, per test file.
-- Screens: Playwright with axe in `apps/web/e2e/`, at 360 px and 1280 px,
+- Screens: Playwright with axe in `packages/playwright-web/e2e/`, at 360 px and 1280 px,
   in both themes; fixtures in `apps/web/fixtures/`.
 - Every acceptance criterion names the test that proves it.
 

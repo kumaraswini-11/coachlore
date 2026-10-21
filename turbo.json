@@ -29,6 +29,10 @@
     "test": {
       "dependsOn": ["transit"]
     },
+    "e2e": {
+      "dependsOn": ["^build"],
+      "passThroughEnv": ["PLAYWRIGHT_*", "CI"]
+    },
     "dev": {
       "cache": false,
       "persistent": true
