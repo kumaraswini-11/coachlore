@@ -4,6 +4,8 @@
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["es2022"],
-    "types": []
+    "types": [],
+    "allowImportingTsExtensions": true,
+    "noEmit": true
   }
 }

@@ -3,4 +3,5 @@
  * Synchronous and framework-agnostic: it runs in the browser, on the
  * server and in scripts alike.
  */
-export {}
+export * from "./types.ts"
+export { multiplier } from "./type-chart.ts"
