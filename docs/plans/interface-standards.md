@@ -1,8 +1,11 @@
 # Plan: engineering and interface standards
 
-- Status: superseded in part by [spec 001](../specs/001-interface/spec.md),
-  which now holds the states and the shadcn-first rule (section 2); section 4
-  is done; section 1 stays the owner's open call
+- Status: done (2026-10-21). Sections 2 and 3 are in AGENTS.md
+  ("Interface") and [packages/ui/README.md](../../packages/ui/README.md)
+  ("Which component"), the states in
+  [spec 001](../specs/001-interface/spec.md); section 4 is done; section 1
+  follows the default in the specs (registry files edited where the design
+  needs it) until the owner decides otherwise
 - Written: 2026-10-20, from the owner's draft, reviewed against the sources
   linked below
 

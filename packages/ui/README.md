@@ -90,6 +90,39 @@ built from them, such as `login-01`, land in `apps/web/components`. Both
 How to change an added component, and when a composition becomes shared:
 [AGENTS.md](../../AGENTS.md), "Interface" and "Components".
 
+## Which component
+
+Before writing markup, match each element to the registry. A raw
+`<button>`, a bordered `<div>` or a styled `<span>` where one of these fits
+is a defect.
+
+| Element                         | Component                                                     |
+| ------------------------------- | ------------------------------------------------------------- |
+| A button                        | `Button`                                                      |
+| A link that looks like a button | `Button` with its `render` prop (Base UI has no `asChild`)    |
+| A list or a row                 | `Item`                                                        |
+| A count, a status, a type       | `Badge`; a Pokémon type is `TypeBadge`                        |
+| A container                     | `Card`                                                        |
+| Nothing to show, an error       | `EmptyState` (on `Empty`), with `role="alert"` for an error   |
+| Loading                         | `Skeleton`, the size and shape of the content                 |
+| A message                       | `Alert`                                                       |
+| A menu                          | `DropdownMenu`                                                |
+| A panel                         | `Sheet` (from the side), `Drawer` (from the bottom), `Dialog` |
+| A key                           | `Kbd`                                                         |
+
+Check what the registry has with `bunx --bun shadcn@4.21.3 search` and
+`docs`, and every component's states in
+[spec 001](../../docs/specs/001-interface/spec.md) ("States every view has").
+
+Three rules keep compositions honest
+([DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) for knowledge,
+[AHA](https://kentcdodds.com/blog/aha-programming) for look-alike code):
+
+- A composition is thin: a few props, children or slots for the rest,
+  compound components and explicit variants rather than boolean props.
+- A component is never wrapped only to rename it.
+- Code that only looks alike waits for its third use.
+
 ## Shared compositions
 
 Coachlore's own components, in `src/components/`, built from the registry
