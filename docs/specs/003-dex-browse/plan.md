@@ -92,11 +92,12 @@ The query string (all optional; lists are comma-separated):
   documents both as updating the address "without reloading the page" and
   integrating "with `useSearchParams`" (bundled docs:
   `04-linking-and-navigating.md`); neither makes a request (criterion 4).
-- Cards prefetch on intent (hover or focus), not when they scroll into view:
-  "As each `<Link>` enters the viewport, Next.js prefetches", and for "a
-  grid of cards … Prefetch on intent instead" (bundled docs:
-  `prefetching.md`, `optimizing-prefetching.md`). So filtering the grid
-  sends no prefetches.
+- Cards are the default `<Link>`: for "a grid of cards", "each `<Link
+prefetch={true}>` prefetches that link's content as it enters the
+  viewport", while "the default `<Link>` (without `prefetch={true}`) loads
+  only the App Shell, so it doesn't carry this cost" (bundled docs:
+  `optimizing-prefetching.md`): one request for the form page's route, not
+  one per card. So filtering the grid sends no prefetches.
 - Cards use `content-visibility: auto` with a fixed intrinsic size, and
   sprites `loading="lazy"` with width and height set.
 - Home is static; recently viewed renders on the client after hydration in
@@ -158,7 +159,7 @@ None.
 | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1, 2                 | `packages/dex/src/filter.test.ts`: counts and filter results against values computed from the dataset in the test; `packages/playwright-web/e2e/dex-filters.spec.ts` for the same values through the interface                                                                                                                                                                              |
 | 3                    | `apps/web/lib/dex-query.test.ts` (round trip, unknown values dropped); `e2e/dex-filters.spec.ts` (new tab, Back)                                                                                                                                                                                                                                                                            |
-| 4                    | `e2e/dex-filters.spec.ts`: no request after the index has loaded while filtering                                                                                                                                                                                                                                                                                                            |
+| 4                    | `e2e/dex-filters.spec.ts`: no document, RSC or data request after the index has loaded while filtering (newly shown cards' sprites load, lazily)                                                                                                                                                                                                                                            |
 | 5                    | `e2e/dex-performance.spec.ts`: 4× CPU slowdown through the Chrome DevTools Protocol; the Event Timing entry's duration for a filter change under 200 ms                                                                                                                                                                                                                                     |
 | 6                    | `e2e/dex-performance.spec.ts`: LCP and layout shifts from `PerformanceObserver`, at 4× CPU slowdown and a slow network profile; the owner also checks with Lighthouse's mobile profile                                                                                                                                                                                                      |
 | 7                    | `e2e/offline.spec.ts`: a production build, one visit, then `context.setOffline(true)`                                                                                                                                                                                                                                                                                                       |

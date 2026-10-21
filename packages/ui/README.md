@@ -169,8 +169,8 @@ comment at the change:
 - `toast.tsx`: swiped towards the nearer edge in either direction.
 - `button.tsx`: transitions named, at `--duration-fast`, and the press
   nudge only without reduced motion.
-- `dialog.tsx`: `DialogTitle` at `leading-snug`, so Devanagari isn't
-  clipped.
+- `dialog.tsx`, `label.tsx`: `DialogTitle` and `Label` at `leading-snug`,
+  so Devanagari isn't clipped.
 - `dropdown-menu.tsx`: `DropdownMenuLinkItem` added.
 - `breadcrumb.tsx`: the ellipsis's hidden "More" removed (its wrapper is
   `aria-hidden`).
@@ -178,7 +178,9 @@ comment at the change:
   server-render a range slider) and its name from `thumbLabels`.
 - `combobox.tsx`: the trigger, clear and chip-remove buttons get their
   names from the label props above; the registry's had none.
-- `input-group.tsx`, `scroll-area.tsx`, `hooks/use-mobile.ts`: lint fixes.
+- `input-group.tsx`, `scroll-area.tsx`, `hooks/use-mobile.ts`: lint fixes;
+  `label.tsx`: `label-has-associated-control` off for its one line, since
+  the control comes from where it's used.
 
 ## Shared compositions
 

@@ -17,6 +17,9 @@ const PATHS = [
   "/en/fixtures/states",
   "/hi/fixtures/states",
   "/en/fixtures/list",
+  "/en/fixtures/dex",
+  "/hi/fixtures/dex",
+  "/en/fixtures/dex-states",
 ]
 
 for (const path of PATHS) {

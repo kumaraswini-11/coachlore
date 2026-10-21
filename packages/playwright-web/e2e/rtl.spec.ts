@@ -12,6 +12,8 @@ const PATHS = [
   "/en/legal",
   "/en/offline",
   "/en/fixtures/states",
+  "/en/fixtures/dex",
+  "/en/fixtures/dex-states",
 ]
 
 for (const width of [360, 1280]) {

@@ -152,5 +152,138 @@
     },
     "row": "Row {n, number}",
     "lastSaved": "Last saved standings"
+  },
+  "dex": {
+    "title": "Dex",
+    "metaDescription": "Every Pokémon and form, filtered by type, weakness, game, generation, ability and stats.",
+    "browser": {
+      "searchLabel": "Filter by name or number",
+      "searchPlaceholder": "Filter by name or #",
+      "count": {
+        "one": "{count} Pokémon",
+        "other": "{count} Pokémon"
+      },
+      "sortLabel": "Sort by",
+      "sortKeys": {
+        "number": "Number",
+        "name": "Name",
+        "hp": "HP",
+        "attack": "Attack",
+        "defense": "Defense",
+        "special-attack": "Sp. Atk",
+        "special-defense": "Sp. Def",
+        "speed": "Speed",
+        "total": "Total"
+      },
+      "directionLabel": "Order",
+      "ascending": "Low to high",
+      "descending": "High to low",
+      "viewLabel": "View",
+      "grid": "Grid",
+      "list": "List",
+      "filters": "Filters",
+      "openFilters": "Filter",
+      "closeFilters": "Close filters",
+      "clearAll": "Clear all",
+      "showResults": {
+        "one": "Show {count} Pokémon",
+        "other": "Show {count} Pokémon"
+      },
+      "groups": {
+        "type": "Type",
+        "weak": "Weak to",
+        "resist": "Resists",
+        "game": "Game",
+        "generation": "Generation",
+        "ability": "Ability",
+        "stats": "Stats",
+        "forms": "Forms"
+      },
+      "upToTwo": "Choose up to two.",
+      "anyGame": "Any game",
+      "abilityPlaceholder": "Search abilities",
+      "abilityTrigger": "Show abilities",
+      "abilityClear": "Clear the ability",
+      "abilityEmpty": "No ability matches.",
+      "generation": "Generation {roman}",
+      "statMin": "{stat}, lowest",
+      "statMax": "{stat}, highest",
+      "formKinds": {
+        "default": "Default forms",
+        "all": "All forms",
+        "regional": "Regional forms",
+        "mega": "Mega Evolutions",
+        "gigantamax": "Gigantamax",
+        "other": "Other forms"
+      },
+      "chips": {
+        "label": "Active filters",
+        "q": "Name or # “{q}”",
+        "weak": "Weak to {type}",
+        "resist": "Resists {type}",
+        "generation": "Generation {roman}",
+        "statMin": "{stat} ≥ {min}",
+        "statMax": "{stat} ≤ {max}",
+        "statRange": "{stat} {min}–{max}",
+        "remove": "Remove the filter {label}"
+      },
+      "card": "#{number} {name}, {types}",
+      "noImage": "No image",
+      "columns": {
+        "number": "#",
+        "name": "Name",
+        "types": "Types",
+        "hp": "HP",
+        "attack": "Atk",
+        "defense": "Def",
+        "special-attack": "SpA",
+        "special-defense": "SpD",
+        "speed": "Spe",
+        "total": "Total"
+      },
+      "sortColumn": "Sort by {column}",
+      "tableCaption": "Pokémon and their base stats",
+      "emptyTitle": "No Pokémon match these filters",
+      "emptyDescription": "Try fewer filters, or clear them all.",
+      "emptyAction": "Clear filters",
+      "englishNamesTitle": "Names are searched in English",
+      "englishNamesDescription": "Pokémon names here are their English ones. Try “Garchomp”.",
+      "errorTitle": "The Dex couldn’t load",
+      "errorDescription": "Check your connection and try again.",
+      "retry": "Try again",
+      "loading": "Loading the Dex"
+    },
+    "fixtures": {
+      "title": "Dex browse",
+      "statesTitle": "Dex browse states",
+      "metaDescription": "The Dex's browse screen with sample data, for review.",
+      "sections": {
+        "loadingGrid": "Loading, grid",
+        "loadingList": "Loading, list",
+        "empty": "No match",
+        "error": "Error",
+        "noImage": "A form without an image"
+      }
+    }
+  },
+  "types": {
+    "normal": "Normal",
+    "fire": "Fire",
+    "water": "Water",
+    "electric": "Electric",
+    "grass": "Grass",
+    "ice": "Ice",
+    "fighting": "Fighting",
+    "poison": "Poison",
+    "ground": "Ground",
+    "flying": "Flying",
+    "psychic": "Psychic",
+    "bug": "Bug",
+    "rock": "Rock",
+    "ghost": "Ghost",
+    "dragon": "Dragon",
+    "dark": "Dark",
+    "steel": "Steel",
+    "fairy": "Fairy"
   }
 }
