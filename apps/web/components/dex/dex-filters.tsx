@@ -341,23 +341,7 @@ function StatRange({
     value: number,
     label: string,
     onValue: (value: number) => void
-  ) => (
-    <Input
-      type="number"
-      inputMode="numeric"
-      min={0}
-      max={max}
-      value={value}
-      aria-label={label}
-      className="w-20 tabular-nums"
-      onChange={(event) => {
-        const next = Number(event.target.value)
-        if (Number.isFinite(next)) {
-          onValue(next)
-        }
-      }}
-    />
-  )
+  ) => <StatField value={value} max={max} label={label} onValue={onValue} />
 
   return (
     <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
@@ -383,5 +367,55 @@ function StatRange({
         {field(high, highLabel, (value) => commit(low, value))}
       </div>
     </div>
+  )
+}
+
+/**
+ * A stat's number field: what's typed stays in the field and applies when
+ * the field is left or Enter is pressed, so typing "100" is one change, not
+ * three. It follows the slider and the address when they change.
+ */
+function StatField({
+  value,
+  max,
+  label,
+  onValue,
+}: {
+  value: number
+  max: number
+  label: string
+  onValue: (value: number) => void
+}) {
+  const [text, setText] = useState(String(value))
+  const [shown, setShown] = useState(value)
+  if (value !== shown) {
+    setShown(value)
+    setText(String(value))
+  }
+  const apply = () => {
+    const next = Number(text)
+    if (text.trim() === "" || !Number.isFinite(next)) {
+      setText(String(value))
+    } else if (next !== value) {
+      onValue(next)
+    }
+  }
+  return (
+    <Input
+      type="number"
+      inputMode="numeric"
+      min={0}
+      max={max}
+      value={text}
+      aria-label={label}
+      className="w-20 tabular-nums"
+      onChange={(event) => setText(event.target.value)}
+      onBlur={apply}
+      onKeyDown={(event) => {
+        if (event.key === "Enter") {
+          apply()
+        }
+      }}
+    />
   )
 }
