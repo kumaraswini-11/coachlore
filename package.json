@@ -12,6 +12,7 @@
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
     "e2e": "turbo run e2e",
+    "data:refresh": "bun run --filter @workspace/dex update-pins && bun run --filter @workspace/dex import && bun run --filter web import-images",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },

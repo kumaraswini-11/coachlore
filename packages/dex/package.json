@@ -11,7 +11,8 @@
     "test": "vitest run",
     "fetch": "bun scripts/fetch.ts",
     "import": "bun scripts/import.ts",
-    "make-fixture": "bun scripts/make-fixture.ts"
+    "make-fixture": "bun scripts/make-fixture.ts",
+    "update-pins": "bun scripts/update-pins.ts"
   },
   "exports": {
     ".": "./src/index.ts",
