@@ -70,13 +70,19 @@ describe("sentryOptions", () => {
         "client.address": "203.0.113.7",
         "http.request.header.cookie": "session=abc",
         "url.query": "secret=1",
+        "url.full": "https://coachlore.vercel.app/join/a-secret-token",
+        "url.path": "/join/a-secret-token",
+        "url.fragment": "x",
+        "http.target": "/join/a-secret-token",
+        "http.url": "https://coachlore.vercel.app/join/a-secret-token",
+        "network.peer.address": "203.0.113.7",
         "host.name": "a-machine",
-        "http.route": "/dex",
+        "http.route": "/join/[invitation]",
         "server.address": "coachlore.vercel.app",
       },
     })
     expect(span.attributes).toEqual({
-      "http.route": "/dex",
+      "http.route": "/join/[invitation]",
       "server.address": "coachlore.vercel.app",
     })
   })

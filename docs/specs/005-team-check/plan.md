@@ -82,7 +82,7 @@ None.
 | Acceptance criterion | Test                                                                                                                                                           |
 | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1                    | `packages/dex/src/team.test.ts`: five fixed teams against values computed from the chart in the test                                                           |
-| 2                    | `apps/web/lib/team-link.test.ts` (round trip, invalid parts); `apps/web/e2e/team-check.spec.ts` (new tab)                                                      |
+| 2                    | `apps/web/lib/team-link.test.ts` (round trip, invalid parts); `packages/playwright-web/e2e/team-check.spec.ts` (new tab)                                       |
 | 3, 4                 | `packages/dex/src/showdown-team.test.ts`: three fixture exports, round trip, unknown names                                                                     |
 | 5                    | `e2e/team-check.spec.ts`: no request while editing, after the learnable moves loaded                                                                           |
 | 6                    | `e2e/a11y.spec.ts` extended; keyboard path for add, edit, remove; the live region's text                                                                       |

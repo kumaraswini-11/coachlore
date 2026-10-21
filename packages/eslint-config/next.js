@@ -5,6 +5,7 @@ import jsxA11y from "eslint-plugin-jsx-a11y"
 import { defineConfig, globalIgnores } from "eslint/config"
 
 import { config as baseConfig } from "./base.js"
+import { interfaceTextRules } from "./interface-text.js"
 import { reactVersion } from "./react-version.js"
 
 /**
@@ -20,7 +21,7 @@ export const nextJsConfig = defineConfig([
     // eslint-config-next registers jsx-a11y but turns on only a few of its
     // rules; this turns on the plugin's whole recommended set.
     files: ["**/*.{js,jsx,mjs,ts,tsx,mts,cts}"],
-    rules: jsxA11y.flatConfigs.recommended.rules,
+    rules: { ...jsxA11y.flatConfigs.recommended.rules, ...interfaceTextRules },
     settings: {
       // Replaces eslint-config-next's `"detect"`; see react-version.js.
       react: { version: reactVersion },

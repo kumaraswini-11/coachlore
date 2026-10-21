@@ -32,7 +32,7 @@
 | `apps/web/components/trades/trade-builder.tsx`   | The builder (`"use client"`): coach, give and get pickers, the live check, "Send offer".          |
 | `apps/web/components/trades/trade-row.tsx`       | One trade: its forms, points, status and the actions the viewer may take.                         |
 | `apps/web/fixtures/trades.ts`                    | Fixture rosters and trades for every state.                                                       |
-| `apps/web/e2e/trades.spec.ts`                    | The screen's end-to-end and accessibility tests.                                                  |
+| `packages/playwright-web/e2e/trades.spec.ts`     | The screen's end-to-end and accessibility tests.                                                  |
 
 **Languages** ([ADR 0007](../../adr/0007-languages-and-right-to-left.md)):
 every string on these screens comes from the web app's dictionaries
@@ -168,7 +168,7 @@ called inside:
 | 8                    | `service.test.ts`: `lapseOpenTrades` for season end and trades off                                                                                                                                                                                                                            |
 | 9                    | `routes.test.ts`: the history's fields; a viewer's actions get 403                                                                                                                                                                                                                            |
 | 10                   | Spec 011's `discord/post.test.ts` (one post per completed trade)                                                                                                                                                                                                                              |
-| 11                   | `apps/web/e2e/trades.spec.ts`: every state from fixtures, axe at 360 and 1280 px in both themes, keyboard only                                                                                                                                                                                |
+| 11                   | `packages/playwright-web/e2e/trades.spec.ts`: every state from fixtures, axe at 360 and 1280 px in both themes, keyboard only                                                                                                                                                                 |
 | 12                   | `trades/scope.test.ts`: trade and member IDs from another league give 404; `trades/personal-data.test.ts`: export and anonymisation                                                                                                                                                           |
 | 13                   | `e2e/trades-languages.spec.ts`: the trades screen in `/hi`, a refused trade's reason in Hindi; a unit test that every `checkTrade()` reason code has a string in both dictionaries                                                                                                            |
 

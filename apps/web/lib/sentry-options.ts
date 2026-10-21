@@ -37,9 +37,11 @@ export function stripPersonalData(event: ErrorEvent): ErrorEvent {
   return event
 }
 
-// Span attributes that could identify a person or a machine.
+// Span attributes that could identify a person or a machine, or carry the
+// page's address (its path can hold a secret, as for error reports). The
+// route's pattern stays in `http.route`.
 const PERSONAL_ATTRIBUTE =
-  /^(user\.|client\.|http\.client_ip|http\.(request|response)\.header\.|url\.query|host\.name)/
+  /^(user\.|client\.|http\.client_ip|http\.(request|response)\.header\.|http\.(url|target)$|url\.(full|path|query|fragment)$|network\.peer\.|host\.name)/
 
 /**
  * The same guard for performance spans: Sentry 11 sends spans one by one

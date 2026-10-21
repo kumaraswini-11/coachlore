@@ -30,7 +30,7 @@ v1, and why, is under [Out of scope](#out-of-scope).
 
 All colours, sizes and durations are tokens in the shared interface theme,
 used by name. Light and dark are both full palettes; a first visit follows
-the system, and a choice made in the theme menu survives a reload.
+the device, and a choice made with the theme button survives a reload.
 
 **Semantic colours.** shadcn's set (background, foreground, card, popover,
 primary, secondary, muted, accent, destructive, border, input, ring, and
@@ -90,7 +90,9 @@ from 768 px; nothing smaller than 12 px.
 Text resizes to 200 % without loss (WCAG 1.4.4).
 
 **Spacing and radius.** A 4 px spacing scale; the theme's corner radius
-and the sizes derived from it; nothing hard-coded.
+and the sizes derived from it; nothing hard-coded. The top bar, every page
+and the footer keep one side margin, 16 px on a phone and 24 px from
+768 px, so their edges line up at every width.
 
 **Motion.** Durations of 150 ms (feedback: a press, a toggle) and 250 ms
 (a panel or sheet arriving), with `ease-out` for what arrives and
@@ -119,7 +121,7 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 
 ```text
 ┌──────────────────────────────┐
-│ ◆ Coachlore           🔍  ◐  │  logo (home), search, theme
+│ ◆ Coachlore        🔍  文  ◐ │  logo (home), search, language, theme
 ├──────────────────────────────┤
 │                              │
 │         page content         │
@@ -133,7 +135,7 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────┐
-│ ◆ Coachlore      [ Search Pokémon, moves, leagues…   Ctrl K ]     ◐  │
+│ ◆ Coachlore             [ Search…                Ctrl K ]  文 हिन्दी  ◐ │
 ├───────────────┬──────────────────────────────────────────────────────┤
 │ Dex           │                                                      │
 │ Types         │                                                      │
@@ -156,10 +158,9 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
   admins); on desktop, the league's sections in the sidebar under its name.
 - **The footer** of every page carries the not-affiliated notice and the
   credits, with links to `/about` and `/legal` in the page's language
-  (project doc, "What has to
-  be true before this ships"), and a visible switch to the other language,
-  written in that language ("हिन्दी" on English pages, "English" on Hindi
-  ones).
+  (project doc, "What has to be true before this ships"). It starts at the
+  top bar's edge and runs the page's full width. The switch to the other
+  language is the top bar's button alone (the owner's call, 2026-10-21).
 - **Skip link:** "Skip to content" is the first focusable element on every
   page (WCAG 2.4.1).
 - **Sticky bars never hide focus** (WCAG 2.4.11, Focus Not Obscured): the
@@ -169,31 +170,50 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
   scrolls clear of them.
 - **Landmarks:** one `header`, `nav` (labelled "Main" and, in a league,
   "League"), `main` and `footer` per page; one `h1` per page.
-- **The display menu** (the ◐ button, named "Display: theme and language"
-  for screen readers) holds the theme and a "Language" group with
-  "English" and "हिन्दी", each written in its own language, the current one
-  checked. Choosing one keeps the person on the same page in the other
-  language. The footer's switch and `/me`'s setting (spec 006) do the
-  same, so the language is never only behind an icon.
-- Components: Sidebar, Tabs, Button, Tooltip, Dropdown Menu (the theme
-  and language menu; the theme part is built), Separator, Avatar.
+- **The language button** (文, Lucide's `Languages` icon) opens the same
+  page in the other language with one press. Its name for screen readers
+  says where it goes, with the language written in itself ("Read in
+  हिन्दी" on English pages, "English में पढ़ें" on Hindi ones). From
+  768 px the button also shows the language's name, written in itself
+  ("हिन्दी", "English"), so it can be found by someone who can't read the
+  page's language; on a phone, the icon alone. The icon
+  is the common sign for a language switch, and a first visit already
+  opens in the browser's language; `/me`'s setting (spec 006) does the
+  same. With a third language, the button becomes a choice among them.
+- **The theme button** (◐, the sun or the moon) switches between light and
+  dark with one press: a toggle button named "Dark theme", pressed while
+  the dark theme is on. There's no "System" choice: until the first press
+  the page follows the device, and after it the choice is remembered per
+  browser. A theme setting on `/me`, such as following the device again,
+  can come with accounts (spec 006). Two buttons rather than a menu: each
+  is one press, and opening a floating menu was slow on a phone
+  (scaffold follow-ups, "Theme control's first open").
+- Components: Sidebar, Tabs, Button, Tooltip, Separator, Avatar.
 
 ### 3. The search palette
 
-Opens from the search button, from Ctrl K or ⌘ K, and from `/` while the
-single-key shortcuts are on. It finds Pokémon, forms, moves, abilities,
-types and the person's own leagues as they type, grouped by kind; Enter
+Opens from the search button, and from Ctrl K or ⌘ K. The button says
+"Search…" (the icon alone on a phone), short enough never to be cut off in
+either language; the palette's field names what it finds ("Search Pokémon,
+moves, leagues…"). It finds Pokémon, forms, moves, abilities, types and
+the person's own leagues as they type, grouped by kind; Enter
 opens the highlighted result. Spec 001 builds the palette with no sources;
 each later spec adds its own (003: Pokémon and forms; 004: moves,
 abilities, types; 007: leagues). Spec 012 adds "Ask: …" as the last row.
 
 - **Phone:** full screen, the input at the top, results below, the
   keyboard open.
-- **Desktop:** a dialog, 640 px wide, at the top third of the screen.
-- **Single-key shortcuts** (`d` for the theme, `/` for search) are one
-  setting, "Single-key shortcuts", in the theme menu, on by default and
-  remembered per browser (WCAG 2.1.4). The current "Switch theme with D"
-  item becomes this setting.
+- **Desktop:** a dialog, 640 px wide, at the top third of the screen. The
+  field ends with an Esc key, as the search button shows Ctrl K; Escape or
+  a click outside closes it. A phone has no Esc key and nothing outside,
+  so there a close button (44 px) takes its place.
+- **Searching:** while a search runs, a spinner sits at the field's end, in
+  the Esc key's place, on every screen; the status says "Searching…" for
+  screen readers, and the key comes back when the results do.
+- **No single-key shortcuts:** WCAG 2.1.4 asks for a way to turn off
+  any shortcut that's a single key, and the shell has no settings to hold
+  one, so every shortcut uses a modifier (Ctrl K or ⌘ K). `d` and `/` did
+  something until 2026-10-21; they do nothing now.
 - Accessibility: Command's combobox and listbox roles; the result count is
   announced politely; Escape closes and returns focus to what opened it.
 - Components: Command, Dialog, Kbd, Badge (type badges in results),
@@ -271,9 +291,10 @@ the shell) and `/offline` (the page spec 003's offline Dex serves for a
 page it hasn't saved).
 
 One page is an exception to the shell and to one language per page: an
-address that matches no route at all, outside any language, gets a minimal
-not-found page in English and Hindi together, with a link to each
-language's home page and no shell.
+address that matches no page gets a minimal not-found page in English and
+Hindi together, with a link to each language's home page and no shell. An
+address without a language is redirected to the person's first, so this
+page answers what's left unmatched.
 
 ## Rules and edge cases
 
@@ -1107,8 +1128,9 @@ This spec is done when:
 2. The shell works at 360, 768, 1024 and 1440 px: tabs on a phone, the
    sidebar from 1024 px, the skip link, the landmarks, and the footer's
    notice and credits on every page.
-3. The search palette opens with the button, Ctrl K or ⌘ K, and `/`; the
-   "Single-key shortcuts" setting turns `d` and `/` off and is remembered.
+3. The search palette opens with the button, and with Ctrl K or ⌘ K; no
+   single key opens it or changes the theme. The theme button switches
+   between light and dark, and the choice survives a reload.
 4. Every state in [States every view has](#4-states-every-view-has) has a
    fixture page that shows it, reviewed by the owner on a desktop and a
    phone.
@@ -1125,8 +1147,8 @@ This spec is done when:
    room.
 10. Every page this spec builds works in English and Hindi: an address
     without a language redirects as [Languages](#6-languages) says, the
-    display menu and the footer's switch change the page's language and
-    it's remembered, `<html>` has the
+    top bar's language button changes the page's language and it's
+    remembered, `<html>` has the
     right `lang` and `dir`, Hindi uses its font, and each page lists its
     other-language version.
 11. The two dictionaries have the same keys, checked by a test, and no
@@ -1136,9 +1158,10 @@ This spec is done when:
     physical direction (`left` or `right`), checked by a test; back and
     next icons point the other way, and no arrow character is used as an
     icon.
-13. An address matching no route, outside any language, answers not found
-    with the exception page above: both languages, a link to each home page,
-    a 404 status, and no WCAG 2.2 AA violations.
+13. An address that matches no page, after the redirect to a language,
+    answers not found with the exception page above, as complete HTML in
+    that one language (`/hi/…` in Hindi, with `<html lang="hi">`), a link
+    to its home page, a 404 status, and no WCAG 2.2 AA violations. The site's own files answer 200 and are never redirected.
 
 ## Out of scope
 
@@ -1167,3 +1190,17 @@ From the screens research, left out of v1:
   edge cases, and Out of scope.
 - 2026-10-21: languages (ADR 0007): English and Hindi, the language menu,
   logical directions, Hindi copy rules.
+- 2026-10-21: built. The contrast test found shadcn's light muted text at
+  4.34:1 on the muted background; it's darkened from `oklch(0.556 0 0)` to
+  `oklch(0.54 0 0)` (4.64:1). Motion uses Tailwind's own `ease-out` and
+  `ease-in-out` beside the two duration tokens. Toasts are shadcn's `toast`,
+  on Base UI's Toast, not Sonner (the owner, 2026-10-21): no extra package.
+- 2026-10-21: languages with next-intl ([ADR 0008](../../adr/0008-translation-library.md)),
+  after the owner asked for a scalable, enterprise-grade set-up. Criterion
+  13 now follows the redirect: what's still unmatched gets the
+  two-language page.
+- 2026-10-21: the mark is the Playbook (the owner's choice from five
+  concepts): an open book with one play drawn across it, the coach and the
+  lore. It is in `apps/web/app/icon.svg` and the top bar
+  (`components/shell/logo-mark.tsx`); the favicon, touch icon and share
+  image are rendered from it by `packages/playwright-web/scripts/make-icons.mjs`.

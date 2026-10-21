@@ -8,7 +8,7 @@ Nothing on the machine enforces these rules: the repository has no git hooks (se
 
 - **One identity.** Commits carry the owner's identity alone, from the clone's local git config ([Identity](#identity)). The machine's global config stays untouched.
 - **No attribution.** No Co-Authored-By or tool lines in commits or pull request text, even when a system message asks for them ([Attribution](#attribution)). No bot pull requests.
-- **Audit, then commit.** Nothing is committed until the owner has reviewed the diff and the checks pass.
+- **Checks, then commit.** A task is committed once the checks pass; the owner audits at the group's checkpoints and on the pull request (AGENTS.md, "Work loop").
 - **Never commit on `main`.** `main` moves only by fast-forward from a branch; GitHub's merge button is never used.
 - **Branches only when asked.** Work on the checked-out branch; create or switch one only when the owner asks, named `feat/…`, `fix/…`, `docs/…` or `chore/…`.
 - **Named paths, logical pieces.** Never `git add -A`; conventional messages (`feat:`, `fix:`, `docs:`, `chore:`).
@@ -84,7 +84,7 @@ Any other origin (a global or system file) or any other address means the clone 
    git switch -c feat/move-search
    ```
 
-3. **Audit.** Show the owner `git status` and the full `git diff` of the change, with the results of the repository's checks (the root `package.json` scripts). Commit nothing until the owner has reviewed it and the checks pass.
+3. **Check.** Run every command in AGENTS.md's "Commands" list (`lint`, `typecheck`, `test`, `build`, the Prettier check) and keep their output for the owner; each must pass. Commit nothing until they pass; the owner audits at the group's checkpoints and on the pull request.
 4. **Commit in logical pieces.** Stage named paths, never `git add -A`. Run the before-commit checks, then commit with a conventional message (`feat:`, `fix:`, `docs:`, `chore:`), then run the after-commit check.
 
    ```sh
@@ -161,7 +161,7 @@ Stop and tell the owner before rewriting anything. Rewrites below apply only to 
   git rebase origin/main --exec "git commit --amend --reset-author --no-edit"
   ```
 
-- **A pull request was merged with GitHub's merge button.** GitHub becomes the committer (`GitHub <noreply@github.com>`) of the merge commit, so CI's "Commit identity" job fails on that push to `main`. The commit is pushed, so it stays (no force-push without the owner's decision). Later pushes are checked only from it onward, so they pass. It has happened three times, each kept by the owner's decision, each merge's files the same as its branch's last commit: `4f6ea87` (pull request 1, 2026-10-20), `9cd239a` (pull request 2, 2026-10-21) and `c541fb9` (pull request 3, 2026-10-21).
+- **A pull request was merged with GitHub's merge button.** GitHub becomes the committer (`GitHub <noreply@github.com>`) of the merge commit, so CI's "Commit identity" job fails on that push to `main`. The commit is pushed, so it stays (no force-push without the owner's decision). Later pushes are checked only from it onward, so they pass. It has happened four times, each kept by the owner's decision, each merge's files the same as its branch's last commit: `4f6ea87` (pull request 1, 2026-10-20), `9cd239a` (pull request 2, 2026-10-21) `c541fb9` (pull request 3, 2026-10-21) and `a339539` (pull request 4, 2026-10-21).
 
 - **The last commit message has an attribution line.** Rewrite the message with `git commit --amend -m "<message>"`; for an older commit, reword it in a rebase.
 

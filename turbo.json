@@ -29,9 +29,23 @@
     "test": {
       "dependsOn": ["transit"]
     },
+    "e2e": {
+      "dependsOn": ["^build"],
+      "passThroughEnv": ["PLAYWRIGHT_*", "CI"],
+      "cache": false
+    },
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "//#lint:logical-css": {
+      "inputs": [
+        "scripts/check-logical-css.ts",
+        "apps/web/**/*.{ts,tsx,css}",
+        "packages/ui/src/**/*.{ts,tsx,css}",
+        "!**/node_modules/**",
+        "!apps/web/.next/**"
+      ]
     }
   }
 }

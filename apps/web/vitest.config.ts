@@ -16,5 +16,8 @@ export default defineConfig({
   test: {
     include: ["**/*.test.ts", "**/*.test.tsx"],
     exclude: ["node_modules/**", ".next/**"],
+    // next-intl's files import `next/server` without an extension, which
+    // Node's own loader rejects; Vitest bundles it instead.
+    server: { deps: { inline: ["next-intl"] } },
   },
 })

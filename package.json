@@ -7,9 +7,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "lint": "turbo run lint lint:logical-css",
+    "lint:logical-css": "bun scripts/check-logical-css.ts",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
+    "e2e": "turbo run e2e",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
@@ -32,6 +34,7 @@
     ],
     "catalog": {
       "@tailwindcss/postcss": "4.3.3",
+      "@types/node": "24.19.1",
       "@types/react": "19.3.0",
       "@types/react-dom": "19.3.0",
       "eslint": "10.12.0",

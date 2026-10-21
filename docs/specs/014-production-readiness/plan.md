@@ -18,9 +18,9 @@ apps/server/src/plugins/
 apps/server/src/routes/admin-jobs.ts     owner-only failed jobs, retry
 apps/server/test/permissions.test.ts     the route × role matrix, with cross-league IDs
 apps/server/test/data-coverage.test.ts   every table: exporter and anonymiser, or marked as holding nothing personal
-apps/web/e2e/a11y-all.spec.ts            every page, state, width, theme
-apps/web/e2e/notice-crawl.spec.ts        notice and credits on every page
-apps/web/e2e/interactions.spec.ts        INP-style timings, CPU ×4
+packages/playwright-web/e2e/a11y-all.spec.ts            every page, state, width, theme
+packages/playwright-web/e2e/notice-crawl.spec.ts        notice and credits on every page
+packages/playwright-web/e2e/interactions.spec.ts        INP-style timings, CPU ×4
 load/draft-room.k6.js                    k6, Socket.IO over k6/websockets
 load/README.md                           how to run it against a server
 .github/workflows/uptime.yml             scheduled health check
@@ -143,7 +143,7 @@ and its findings are added to the review.
 ## Accessibility
 
 - `a11y-all.spec.ts` builds its list from the screen inventory (a typed
-  list in `apps/web/e2e/routes.ts`), visits each route and each fixture
+  list in `packages/playwright-web/e2e/routes.ts`), visits each route and each fixture
   state, at 360 and 1280 px, in light and dark, under `/en` and `/hi`, and
   runs axe with the WCAG 2.2 A and AA tags.
 - `rtl.spec.ts` visits the same list with `dir="rtl"` forced on `<html>`

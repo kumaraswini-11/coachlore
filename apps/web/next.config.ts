@@ -1,6 +1,7 @@
 import type { NextConfig } from "next"
 import { PHASE_DEVELOPMENT_SERVER } from "next/constants"
 import { withSentryConfig } from "@sentry/nextjs/config"
+import createNextIntlPlugin from "next-intl/plugin"
 
 import { realValue } from "./lib/sentry-options"
 
@@ -9,7 +10,12 @@ import { realValue } from "./lib/sentry-options"
 // 'unsafe-eval' only in development; a nonce-based policy would make every
 // page dynamic.
 // https://nextjs.org/docs/app/guides/content-security-policy#without-nonces
-function contentSecurityPolicy(isDev: boolean) {
+//
+// `upgrade-insecure-requests` only where the site is served over HTTPS (a
+// Vercel deploy): on `http://localhost` WebKit upgrades every script and
+// stylesheet to HTTPS and loads none of them, which broke the end-to-end
+// tests in WebKit while Chromium, which exempts localhost, passed.
+function contentSecurityPolicy(isDev: boolean, https: boolean) {
   return [
     "default-src 'self'",
     `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
@@ -20,9 +26,20 @@ function contentSecurityPolicy(isDev: boolean) {
     "base-uri 'self'",
     "form-action 'self'",
     "frame-ancestors 'none'",
-    "upgrade-insecure-requests",
+    ...(https ? ["upgrade-insecure-requests"] : []),
   ].join("; ")
 }
+
+// next-intl (ADR 0008): finds i18n/request.ts, and generates the types of the
+// English messages' arguments (next-intl's TypeScript docs).
+const withNextIntl = createNextIntlPlugin({
+  experimental: {
+    createMessagesDeclaration: [
+      "./messages/en/main.json",
+      "./messages/en/errors.json",
+    ],
+  },
+})
 
 // A function of the phase, as Next.js documents for config that differs in
 // development, rather than reading NODE_ENV.
@@ -34,7 +51,7 @@ export default function nextConfig(phase: string): NextConfig {
   // real token, then deleted from the build (the plugin's default), so the
   // browser never gets them. Reports from the browser go through our own
   // address, so the content security policy stays 'self'.
-  return withSentryConfig(appConfig(isDev), {
+  return withSentryConfig(withNextIntl(appConfig(isDev)), {
     org: realValue(process.env.SENTRY_ORG),
     project: realValue(process.env.SENTRY_PROJECT),
     authToken,
@@ -51,6 +68,11 @@ function appConfig(isDev: boolean): NextConfig {
     // Next.js 16's rendering model, the create-next-app default: dynamic by
     // default, with what's cached marked by `use cache`. See ADR 0003.
     cacheComponents: true,
+    experimental: {
+      // The page for every address that matches none: the root layout is
+      // under [lang], the case Next.js's not-found docs name for it.
+      globalNotFound: true,
+    },
     partialPrefetching: true,
     typedRoutes: true,
     poweredByHeader: false,
@@ -61,7 +83,10 @@ function appConfig(isDev: boolean): NextConfig {
           headers: [
             {
               key: "Content-Security-Policy",
-              value: contentSecurityPolicy(isDev),
+              value: contentSecurityPolicy(
+                isDev,
+                Boolean(process.env.VERCEL_ENV)
+              ),
             },
             { key: "X-Content-Type-Options", value: "nosniff" },
             {

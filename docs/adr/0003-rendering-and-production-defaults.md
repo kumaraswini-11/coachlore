@@ -42,7 +42,12 @@ a Function") to tell development from the rest, rather than reading
   under `app/[lang]`, which its docs name as the second case ("Your root
   layout is defined using top-level dynamic segments"), so spec 001 adds
   `global-not-found.tsx` with the `experimental.globalNotFound` flag, and
-  each language keeps its own `not-found.tsx`.
+  each language keeps its own `not-found.tsx`. **Built on 2026-10-21 ([ADR 0008](0008-translation-library.md)):**
+  the Proxy gives every address a language, and one that matches no page
+  gets `global-not-found.tsx` as complete HTML (in both languages until
+  2026-10-22, then in the address's language; ADR 0008). A
+  `notFound()` inside a page renders `[lang]/not-found.tsx` only in the
+  browser (tested), so pages check unknown values in the Proxy instead.
 - **The owner's metadata plan**, where the docs differ: the canonical URL is
   set by each page, not the root layout (metadata merges shallowly, so every
   page would inherit "/"); the home page has no title of its own (a layout's

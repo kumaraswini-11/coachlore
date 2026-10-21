@@ -1,12 +1,17 @@
 import type { MetadataRoute } from "next"
 
 import { SITE } from "@/lib/site"
+import main from "@/messages/en/main.json"
 
+// One manifest for the site; it opens at `/`, which the Proxy sends to the
+// person's language.
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: SITE.name,
     short_name: SITE.name,
-    description: SITE.description,
+    description: main.meta.description,
+    lang: "en",
+    dir: "ltr",
     start_url: "/",
     display: "standalone",
     background_color: SITE.colors.light,
