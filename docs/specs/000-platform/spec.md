@@ -81,11 +81,11 @@ None. The error pages (`error.tsx`, `global-error.tsx`) keep their look
 3. With no address variable set, a local build uses
    `http://localhost:3000`; with the variable set, the variable wins.
    (Unit test of the address helper.)
-4. An error thrown on purpose in a preview (a test-only route that exists
-   only outside production) appears in the error-reporting service with
-   its stack trace and digest, and with no IP address, cookie or user
-   field. (Checked by the owner in the service; screenshot in the pull
-   request.)
+4. An error in a preview appears in the error-reporting service with its
+   stack trace and digest, and with no IP address, cookie or user field.
+   (Checked by the owner in the service with a real error; the personal
+   data removed is unit-tested. The test-only route that threw on purpose
+   was removed: [ADR 0010](../../adr/0010-only-real-routes.md).)
 5. The browser's console shows no content-security-policy violation on any
    page, in production and in a preview.
 6. `apps/web/.env.example` lists every variable the app reads; a search of

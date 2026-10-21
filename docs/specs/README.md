@@ -41,14 +41,14 @@ Screens are designed without design tools or design accounts:
 1. **Wireframe.** The screen's text wireframes, at 360 px and at 1024 px,
    are in [spec 001](001-interface/spec.md), with its components, states and
    accessibility notes.
-2. **Fixture screen.** The screen is built with the real components and
-   fixed sample data: no database, no network. Every state (loading, empty,
-   error and the rest) can be shown from the fixtures.
+2. **The screen on its route,** built with the real components and its
+   real data; the app has no fixture or test pages
+   ([ADR 0010](../adr/0010-only-real-routes.md)). Each state it has
+   (empty, error and the rest) is reached and tested on that route.
 3. **Owner's review** on a desktop browser and on a phone, over the local
-   network (`next dev` listens on the machine's address; Next.js's
-   `allowedDevOrigins` lists it). Changes go back into step 2.
-4. **Real data.** Only then is the screen connected to its data, and the
-   fixtures stay as its test data.
+   network (`next dev` listens on the machine's address;
+   `allowedDevOrigins` lists it, from `DEV_ORIGINS` in `.env.local`).
+   Changes go back into step 2.
 
 The owner runs `/interface-review` before a screen is done (AGENTS.md,
 "Skills").
@@ -136,7 +136,7 @@ acting.
 - Packages: Vitest, next to the code (`*.test.ts`).
 - Server: Vitest with a real PostgreSQL from Testcontainers, per test file.
 - Screens: Playwright with axe in `packages/playwright-web/e2e/`, at 360 px and 1280 px,
-  in both themes; fixtures in `apps/web/fixtures/`.
+  in both themes, against the app's real routes (ADR 0010).
 - Every acceptance criterion names the test that proves it.
 
 **Screens.** Every screen has the states in spec 001, its own title and
