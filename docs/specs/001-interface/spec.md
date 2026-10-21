@@ -28,7 +28,7 @@ v1, and why, is under [Out of scope](#out-of-scope).
 
 ### 1. Tokens
 
-All colours, sizes and durations are tokens in `@workspace/ui`'s theme,
+All colours, sizes and durations are tokens in the shared interface theme,
 used by name. Light and dark are both full palettes; a first visit follows
 the system, and a choice made in the theme menu survives a reload.
 
@@ -80,21 +80,21 @@ shows the type's name in its text colour; a stat bar or a header tint in a
 type colour is decoration, and the number or name beside it carries the
 meaning.
 
-**Typography.** One variable sans font (Inter, already loaded) and one
-monospace (Geist Mono, for codes such as an error reference); Hindi pages
-add Noto Sans Devanagari, loaded only for Hindi, since Inter has no
-Devanagari letters. Hindi text gets a little more line height than Latin
-text (`leading-relaxed` for body copy), so matras aren't clipped. Numbers that
-line up (stats, points, standings, the timer) use tabular figures. Sizes:
-Tailwind's scale from `text-xs` to `text-3xl`; body text `text-sm` on a
-phone and `text-base` from 768 px; nothing smaller than `text-xs` (12 px).
+**Typography.** One variable sans font and one monospace (for codes such
+as an error reference); Hindi pages add a Devanagari font, loaded only for
+Hindi, since the sans font has no Devanagari letters. Hindi text gets a
+little more line height than Latin text, so matras aren't clipped. Numbers
+that line up (stats, points, standings, the timer) use tabular figures.
+Sizes: a scale from 12 px to 30 px; body text 14 px on a phone and 16 px
+from 768 px; nothing smaller than 12 px.
 Text resizes to 200 % without loss (WCAG 1.4.4).
 
-**Spacing and radius.** Tailwind's 4 px spacing scale; the theme's
-`--radius` and its derived sizes; nothing hard-coded.
+**Spacing and radius.** A 4 px spacing scale; the theme's corner radius
+and the sizes derived from it; nothing hard-coded.
 
 **Motion.** Durations of 150 ms (feedback: a press, a toggle) and 250 ms
-(a panel or sheet arriving), ease-out in, ease-in out. Allowed: a card
+(a panel or sheet arriving), with `ease-out` for what arrives and
+`ease-in-out` for what moves. Allowed: a card
 growing into its page, a pick revealed to the room, a standings row moving,
 a sheet sliding up. Nothing loops or moves by itself. With
 `prefers-reduced-motion: reduce`, movement becomes an instant change or a
@@ -155,7 +155,8 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
   bar (Home · Draft · Rosters · Schedule · Trades · Stats, and Settings for
   admins); on desktop, the league's sections in the sidebar under its name.
 - **The footer** of every page carries the not-affiliated notice and the
-  credits, with links to `/about` and `/legal` (project doc, "What has to
+  credits, with links to `/about` and `/legal` in the page's language
+  (project doc, "What has to
   be true before this ships"), and a visible switch to the other language,
   written in that language ("हिन्दी" on English pages, "English" on Hindi
   ones).
@@ -201,7 +202,8 @@ abilities, types; 007: leagues). Spec 012 adds "Ask: …" as the last row.
 ### 4. States every view has
 
 A view isn't done until it has every state that applies to it. Each is a
-shared composition in `@workspace/ui` once it's used three times; until
+shared composition in the shared interface package once it's used three
+times; until
 then, the registry components named.
 
 | State          | What the person sees                                                                                                                 | Built from                       |
@@ -267,6 +269,11 @@ not-affiliated notice, credits and licences of the data and images, and the
 privacy notice, completed by spec 014) and not found (built; restyled to
 the shell) and `/offline` (the page spec 003's offline Dex serves for a
 page it hasn't saved).
+
+One page is an exception to the shell and to one language per page: an
+address that matches no route at all, outside any language, gets a minimal
+not-found page in English and Hindi together, with a link to each
+language's home page and no shell.
 
 ## Rules and edge cases
 
@@ -1107,10 +1114,10 @@ This spec is done when:
    phone.
 5. `/about`, `/legal`, not found and `/offline` are built, server-rendered,
    with titles and descriptions as `apps/web/README.md` describes.
-6. Playwright with axe finds no WCAG 2.2 AA violations on every page this
+6. An automated accessibility check finds no WCAG 2.2 AA violations on every page this
    spec builds, in both themes; keyboard-only use reaches everything.
 7. With reduced motion on, nothing moves across the screen.
-8. Lighthouse's mobile profile shows no layout shift on these pages
+8. A mobile lab measurement shows no layout shift on these pages
    (CLS 0), and the owner's `/interface-review` passes.
 9. On a fixture page with the shell's sticky bars and a long list, at
    360 × 640, tabbing to the last row keeps the focused row in view, never
@@ -1129,6 +1136,9 @@ This spec is done when:
     physical direction (`left` or `right`), checked by a test; back and
     next icons point the other way, and no arrow character is used as an
     icon.
+13. An address matching no route, outside any language, answers not found
+    with the exception page above: both languages, a link to each home page,
+    a 404 status, and no WCAG 2.2 AA violations.
 
 ## Out of scope
 

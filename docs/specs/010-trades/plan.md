@@ -70,7 +70,10 @@ checkTrade({
   | { ok: false; problems: TradeProblem[]; pointsAfter?: … }
 ```
 
-Problems, each with a field and a sentence for the interface:
+Problems, each a locale-neutral code with its field and the data to word
+it (form, coach, counts, points after, budget), never a sentence; the web
+app words each code from `en.json` and `hi.json`, and the server's 422
+carries the same codes:
 `not_in_season`, `trades_off`, `not_a_coach`, `same_coach`, `empty_side`,
 `unequal_counts`, `too_many` (more than three a side), `duplicate_form`,
 `not_on_roster` (names the form and coach), `over_budget` (names the

@@ -178,14 +178,10 @@ ability, with these details:
    section names, evolution methods and ability notes are Hindi, the names
    English, and English-only text carries `lang="en"`.
 10. **The build stays within budget.** With every Dex page in both
-    languages (about 7,000), the production build on Vercel finishes in 15
-    minutes or less, a third of Vercel's limit ("The maximum duration of the
-    Build Step is 45 minutes", [Vercel limits](https://vercel.com/docs/limits)),
-    and the page count and output size are recorded in the pull request. If
-    it doesn't, moves and abilities are no longer built ahead: they render
-    on their first request and are then cached, while Pokémon and form pages
-    stay built at build time; Vercel's limits page recommends the same
-    ("pre-render a subset of the total number of pages at build time").
+    languages (about 7,000), the production build finishes within its time
+    budget (the plan states it), and the page count and output size are
+    recorded in the pull request. Pokémon and form pages are always built
+    ahead of time.
 
 ## Out of scope
 

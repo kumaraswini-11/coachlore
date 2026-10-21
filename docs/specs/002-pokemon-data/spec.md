@@ -158,8 +158,12 @@ None. The credits this spec records appear on `/about` and `/legal` (spec 001) a
 8. **Images.** Every form that has a sprite and an artwork in the source
    has both, served from our own address, each within its size limit (a
    test lists any missing).
-9. **Credits and provenance** list every source with its licence and the
-   pinned version used.
+9. **Credits and provenance** list every source with its licence, the
+   pinned version used, and the date it was imported.
+10. **A game's Pokédex** keeps the game's own order and numbers, and marks
+    each version exclusive with its version.
+11. **Every form's images** are found by its own source identifier, for
+    default and non-default forms alike.
 
 ## Out of scope
 

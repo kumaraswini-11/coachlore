@@ -8,7 +8,7 @@
 
 A league's channel on Discord hears about its draft, results, trades and
 weeks without anyone copying them in, and each event is posted once, even
-when a post is retried.
+when a post is retried (with one rare exception, stated in requirement 4).
 
 ## Where this comes from
 
@@ -26,7 +26,8 @@ when a post is retried.
 1. **Adding the bot.** League settings' Discord section gives admins a
    link that adds Coachlore's bot to a Discord server. Discord asks the
    person adding it for the server and the permissions; the bot asks only
-   to see channels, send messages and embed links.
+   to see channels, send messages, embed links and read the channel's
+   recent messages (so it can check for its own post before posting again).
 2. **Linking a channel.** In the channel the league wants, an admin of the
    league types `/link` with the league's address (`/link kanto-cup`). The
    bot links the channel if the person typing is an admin of that league,
@@ -51,6 +52,9 @@ when a post is retried.
 
 4. **Once each.** Every post belongs to one event. If posting fails and is
    retried, or the same event is sent twice, the channel shows one post.
+   The one exception: if Coachlore stops after Discord accepted a post and
+   before recording it, and the retry comes when that post is no longer
+   among the channel's 50 most recent messages, it can appear twice.
 5. **Never in the way.** Nothing a coach does waits for Discord. A pick, a
    confirmed result or a trade is stored and shown on the site first; the
    post follows.
@@ -95,7 +99,8 @@ when a post is retried.
   read "Only an admin of kanto-cup can link it here."
 - **`/link` outside a server** (in a direct message): refused.
 - **Unlinking** stops posts at once; posts already queued for that league
-  are dropped.
+  are dropped. So does relinking to another channel: a post goes only to
+  the channel the league was linked to when its event happened.
 - **The bot removed from the server:** the next post is refused; the link
   is marked "Posting stopped" as above. Adding the bot back and sending a
   test post restores it.
@@ -136,7 +141,7 @@ League settings, Discord section ([spec 001](../001-interface/spec.md#league-set
 ## Acceptance criteria
 
 1. The install link adds the bot with exactly the permissions to view
-   channels, send messages and embed links.
+   channels, send messages, embed links and read message history.
 2. `/link <league>` from an admin of that league who can manage the
    channel links it and posts the linked message; from anyone else, or for
    an unknown league, it replies privately with the same refusal and
@@ -146,7 +151,9 @@ League settings, Discord section ([spec 001](../001-interface/spec.md#league-set
    Discord's time limit.
 4. Each event in the table posts once to the linked channel. The same event
    sent twice, and a post retried after a failure partway through, still
-   give one message (tests below).
+   give one message while the first is among the channel's 50 most recent
+   messages; a post queued before an unlink or a relink isn't sent (tests
+   below).
 5. A pick, a confirmed result and a completed trade are stored and shown on
    the site even when Discord is unreachable; their posts follow when it's
    back.

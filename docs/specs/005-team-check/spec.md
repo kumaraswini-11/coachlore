@@ -46,7 +46,9 @@ checker are arithmetic over data already loaded"). The screen is in
    abilities are read from it. **Export:** the team as Showdown text, to
    copy.
 8. **Instant:** every change recomputes in the browser, with no request.
-9. Works offline once visited (spec 003's service worker covers the route).
+9. Works offline once visited (spec 003's service worker covers the
+   route); a member's move list is available offline only if it was loaded
+   before, and the editor says so when it wasn't.
 10. **Title** `Team check`; **description** "See what a team of up to six
     Pokémon is weak to and what it can't hit, and share it as a link." Both
     from the dictionaries, in the page's language.

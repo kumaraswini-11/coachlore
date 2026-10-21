@@ -63,7 +63,7 @@ league is seen only by its members** in v1.
 
 ### 2. Creating a league (`/leagues/new`)
 
-6. Four steps, each with defaults, so a league can be made by pressing
+1. Four steps, each with defaults, so a league can be made by pressing
    "Next" three times and "Create":
 
    | Step   | Fields and defaults                                                                                                 |
@@ -73,18 +73,18 @@ league is seen only by its members** in v1.
    | Season | Battles per match: 1 (or best of 3); trades: on; trades need an admin's approval: off                               |
    | Review | Everything above, each with "Change"                                                                                |
 
-7. Every field is checked on the server with the same rules as in the
+2. Every field is checked on the server with the same rules as in the
    form; a league that fails a rule isn't made, and the step with the
    problem opens with the reason beside the field.
 
 ### 3. Invitations (`/join/[invitation]`)
 
-8. An admin makes an invitation link for a role (coach or viewer). A link
+1. An admin makes an invitation link for a role (coach or viewer). A link
    works for anyone who has it until it expires (7 days by default, 1 to
    30), reaches its maximum number of uses (none by default; 1 to 16 if
    set), or an admin withdraws it. Members shows how each person joined
    ("by Brock's link"), and the league home's Recent says "Ash joined".
-9. Opening a link shows the league's name and colour, who made the link,
+2. Opening a link shows the league's name and colour, who made the link,
    and the role; "Join" makes the person a member. Signed out, "Join" signs
    them in first (006) and comes back.
 
@@ -93,22 +93,22 @@ league is seen only by its members** in v1.
    a coach changes it from the league home ("Your Showdown username"), and
    before the season starts, admins see which coaches haven't given one.
 
-10. A coach link stops working for new coaches once the draft has started
-    or the league has 16 coaches; it says why. A viewer link keeps working.
+3. A coach link stops working for new coaches once the draft has started
+   or the league has 16 coaches; it says why. A viewer link keeps working.
 
 ### 4. Members
 
-11. A member's name in a league is their Discord name when they join; they
+1.  A member's name in a league is their Discord name when they join; they
     can change it (2–32 characters) for that league.
-12. An admin can make a member an admin or stop them being one (a league
+2.  An admin can make a member an admin or stop them being one (a league
     always keeps at least one), change a coach to a viewer or back before
     the draft starts, and remove a member before the draft starts.
-13. A member can leave before the draft starts. After it starts, coaches
+3.  A member can leave before the draft starts. After it starts, coaches
     stay (a roster needs its coach) unless replaced; viewers can always
     leave.
 
-    **Replacing a coach:** at any time, an admin can hand a coach's place
-    to another person in the league (a viewer, or someone who joined by a
+    **Replacing a coach:** while the season isn't finished, an admin can
+    hand a coach's place to another person in the league (a viewer, or someone who joined by a
     viewer link for it). The new person takes over the coach's roster,
     remaining matches and wishlist, because they belong to the coach's
     place, not the person; the new coach gives their own Showdown username;
@@ -117,61 +117,61 @@ league is seen only by its members** in v1.
 
 ### 5. The tier list (`/l/[league]/tiers`)
 
-14. The tier list belongs to the season. It has tiers, each a name and a
+1.  The tier list belongs to the season. It has tiers, each a name and a
     points value (1 to the budget), in order, and a "Banned" group.
-15. Every form the league's format allows is either in exactly one tier,
+2.  Every form the league's format allows is either in exactly one tier,
     banned, or unpriced. An unpriced form can't be drafted; the draft can't
     start while any form is unpriced (008 checks), so an admin sees how
     many remain.
-16. A tier list starts from a template:
+3.  A tier list starts from a template:
     - **By base stat total:** the format's forms sorted by base stat total
       and split evenly into tiers worth 20, 18, 16 … 2 points; forms tagged
       Restricted Legendary or Mythical start banned.
     - **Empty:** every form unpriced.
     - **Copy:** from a season of another league the admin also runs.
-17. An admin edits by choosing forms (by search, type or tier) and moving
+4.  An admin edits by choosing forms (by search, type or tier) and moving
     them to a tier or to Banned; adding, renaming, re-pricing, reordering
     and removing tiers (a removed tier's forms become unpriced).
-18. The tier list is locked when the draft starts. After that, nothing in
+5.  The tier list is locked when the draft starts. After that, nothing in
     it changes.
-19. Everyone in the league sees the tier list, with search and the Dex's
+6.  Everyone in the league sees the tier list, with search and the Dex's
     type filter.
 
 ### 6. Settings (`/l/[league]/settings`)
 
-20. Sections: **General** (name, colour, time zone, language), **Members** (the
+1.  Sections: **General** (name, colour, time zone, language), **Members** (the
     list, roles, how each joined, Showdown usernames, invitation links with
     their expiry and uses, replace a coach, remove), **Draft** (order,
     budget, roster size, timer), **Season** (battles per match, trades,
     approval, the formats replays may use), and **Delete league**. 011 adds
     Discord; 013 adds AI.
-21. Draft settings lock when the draft starts; season settings lock when
+2.  Draft settings lock when the draft starts; season settings lock when
     the first week starts (009). With a timer of 10 minutes or more and no
     linked league channel (always, until spec 011 adds channels), Draft
     settings note: "Coaches won't be told it's their turn outside the
     room."
-22. Deleting a league removes everything in it, after the admin types the
+3.  Deleting a league removes everything in it, after the admin types the
     league's name to confirm.
 
 ### 7. Elsewhere
 
-23. `/leagues` lists the person's leagues (spec 001's wireframe) with their
+1.  `/leagues` lists the person's leagues (spec 001's wireframe) with their
     role and the league's state: setting up, drafting, in season, finished.
     Spec 008 adds "Draft live" and, when the draft waits on the person,
     "Your turn" to each card.
-24. The sidebar on desktop lists the person's leagues; the search palette
+2.  The sidebar on desktop lists the person's leagues; the search palette
     finds them by name.
-25. `/me` lists the person's leagues with their role (006 left this empty).
-26. `/l/[league]` before the draft shows the league's state, the members,
+3.  `/me` lists the person's leagues with their role (006 left this empty).
+4.  `/l/[league]` before the draft shows the league's state, the members,
     the draft settings, how many forms are unpriced and which coaches have
     no Showdown username (to admins), and links to the tier list and
     settings. 008 adds the draft's scheduled start and order; 009 adds
     standings and this week's match.
-27. Deleting an account (006): an account that's the only admin of a
+5.  Deleting an account (006): an account that's the only admin of a
     league can't be deleted until someone else is admin or the league is
     deleted; otherwise its memberships stay as "A former coach" (or "A
     former viewer"), linked to no one.
-28. **A demo league** can be made for local development and demos with one
+6.  **A demo league** can be made for local development and demos with one
     command: 8 coaches with Showdown usernames, the default settings and a
     tier list from the default template.
 
@@ -262,7 +262,7 @@ This spec adds:
     from a league the person doesn't run is refused.
 14. Replacing a coach moves the place, with its roster and matches, to the
     new person in one change; the replaced person becomes a viewer, and the
-    record shows both.
+    record shows both. A finished season refuses it.
 15. A league's time zone sets its week edges and draft start; a time shown
     to a viewer in another zone shows both.
 16. The demo league command makes a league that can start its draft.

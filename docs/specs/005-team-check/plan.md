@@ -51,7 +51,11 @@ exceptions table for the few that differ.
 The page is static; the checker reads `team` with `useSearchParams` in a
 `<Suspense>` boundary whose fallback is the empty team. A member's
 learnable moves load from `/dex-data/learnable/[form]` when its editor
-opens; types, abilities and the chart come from the browser index already
+opens, and the service worker caches each one it fetches. Offline, a team
+opened before still shows its weaknesses and coverage, and a member's
+moves can be edited if they were loaded on an earlier visit; otherwise the
+editor says the move list needs a connection, and the rest of the checker
+works; types, abilities and the chart come from the browser index already
 loaded. Each change updates the address with `router.replace` (no new
 history entry per edit) and recomputes in a transition.
 
@@ -75,16 +79,16 @@ None.
 
 ## Tests
 
-| Acceptance criterion | Test                                                                                                                               |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1                    | `packages/dex/src/team.test.ts`: five fixed teams against values computed from the chart in the test                               |
-| 2                    | `apps/web/lib/team-link.test.ts` (round trip, invalid parts); `apps/web/e2e/team-check.spec.ts` (new tab)                          |
-| 3, 4                 | `packages/dex/src/showdown-team.test.ts`: three fixture exports, round trip, unknown names                                         |
-| 5                    | `e2e/team-check.spec.ts`: no request while editing, after the learnable moves loaded                                               |
-| 6                    | `e2e/a11y.spec.ts` extended; keyboard path for add, edit, remove; the live region's text                                           |
-| 7                    | `e2e/offline.spec.ts` extended                                                                                                     |
-| 8                    | `apps/web/lib/team-link.test.ts` (more than six forms) and `e2e/team-check.spec.ts` (the swap)                                     |
-| 9                    | `e2e/team-check.spec.ts`: one link on `/en/team-check` and `/hi/team-check`, same members and results; Hindi labels, English names |
+| Acceptance criterion | Test                                                                                                                                                           |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                    | `packages/dex/src/team.test.ts`: five fixed teams against values computed from the chart in the test                                                           |
+| 2                    | `apps/web/lib/team-link.test.ts` (round trip, invalid parts); `apps/web/e2e/team-check.spec.ts` (new tab)                                                      |
+| 3, 4                 | `packages/dex/src/showdown-team.test.ts`: three fixture exports, round trip, unknown names                                                                     |
+| 5                    | `e2e/team-check.spec.ts`: no request while editing, after the learnable moves loaded                                                                           |
+| 6                    | `e2e/a11y.spec.ts` extended; keyboard path for add, edit, remove; the live region's text                                                                       |
+| 7                    | `e2e/offline.spec.ts` extended: offline, a visited team renders; an editor whose moves were loaded works; one whose moves weren't shows the connection message |
+| 8                    | `apps/web/lib/team-link.test.ts` (more than six forms) and `e2e/team-check.spec.ts` (the swap)                                                                 |
+| 9                    | `e2e/team-check.spec.ts`: one link on `/en/team-check` and `/hi/team-check`, same members and results; Hindi labels, English names                             |
 
 ## Tasks
 

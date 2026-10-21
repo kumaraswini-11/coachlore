@@ -58,8 +58,8 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
 
 ### 3. Ask
 
-1. `/ask` is a conversation. The assistant answers only from lookups: each
-   lookup is a query against our data (a Pokémon or form, its matchups,
+1. `/ask` is a conversation. The assistant is told to answer only from its
+   lookups: each lookup is a query against our data (a Pokémon or form, its matchups,
    moves, abilities, evolutions, the type chart; and for a member, their
    leagues' standings, rosters, tier lists and schedule).
 2. The lookups appear first ("Looked up Garchomp", "Checked its matchups"),
@@ -94,6 +94,11 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
    must appear in that answer's lookups. An answer with a number that
    doesn't is treated as failing the check.
 4. The check's result is recorded with the run.
+5. What the check proves, and what it doesn't: it proves every name and
+   every number in an answer is in the data and its lookups. Other
+   statements (that a Pokémon "walls" another, say) are held to the
+   lookups by the model's instructions and measured by the evaluation
+   (section 8), not proven answer by answer.
 
 ### 5. Team explanation
 
@@ -122,8 +127,9 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
    team check's arithmetic) stays.
 5. Answers are cached. The cache key holds everything that shaped the
    answer: the feature, the prompt's version, the model, the question as
-   normalised, the subject, the data's version, the conversation it
-   follows, and for league data the league and the person's role in it;
+   normalised, the language it's answered in, the subject, the data's
+   version, the conversation it follows, and for league data the league,
+   the person's role in it and, separately, whether they're an admin;
    when an answer reads the person's own data (their roster, their
    matches), the person too. A cached answer is returned only to someone
    the key allows. A cache hit is recorded as a run with no model call.
@@ -216,10 +222,12 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
    their role allows. Tested against the server's real permission checks.
 7. The 21st request of a day is refused with the allowance message; the
    global budget's limit turns every AI feature off with the resting
-   message; both reset at 00:00 UTC.
+   message; both reset at 00:00 UTC. Requests arriving at the same moment
+   can't together go past either limit.
 8. A repeated question returns the cached answer with no model call,
    recorded as a cached run; the same question in another league, by a
-   viewer instead of a coach, by another coach when the answer read the
+   viewer instead of a coach, by an admin instead of a coach who isn't
+   one, in the other language, by another coach when the answer read the
    asker's own data, or as a follow-up to a different conversation, isn't
    served from that cache entry.
 9. No request to the provider contains a Discord ID or a session
@@ -231,8 +239,8 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
 13. `/ask` passes axe and keyboard use; a new answer is announced once,
     when complete.
 14. A follow-up whose earlier turns aren't the person's own runs is
-    refused; a person's data download includes their questions and
-    answers, and deleting the account deletes them.
+    refused; a person's data download includes their questions, lookups
+    and answers, and deleting the account deletes all three.
 15. A question asked in Hindi gets a Hindi answer that names Pokémon in
     English and passes the grounding check, and a Hindi plain-language
     search returns filters valid against the same schema.
@@ -244,7 +252,6 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
 - AI for leagues: suggestions, recaps, the digest, trade and roster
   explanations (spec 013).
 - Embeddings or semantic search over descriptions.
-- Saving conversations on the server.
 - AI without signing in.
 - Voice, images or files in a question.
 
@@ -255,3 +262,6 @@ Screens: [spec 001](../001-interface/spec.md) ("Ask", "Browse the Dex",
   cache key holding the conversation and, for the asker's own data, the
   person; personal data exported and deleted.
 - 2026-10-21: final audit: the nonce CSP extended to `/ask`.
+- 2026-10-21: review fixes: what the grounding check proves stated
+  plainly; the language and admin status in the cache key; limits that
+  hold under concurrent requests; lookups deleted with an account.

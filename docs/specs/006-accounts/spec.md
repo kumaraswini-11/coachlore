@@ -31,7 +31,9 @@ the free hosting account.
    comes back signed in, on the page they started from.
 2. We ask Discord for the least it offers that identifies someone: their
    Discord ID, display name and avatar. No email address, no list of
-   servers, no permission to post as them.
+   servers, no permission to post as them. (The sign-in library needs an
+   email field; it holds a placeholder made from the Discord ID, never a
+   real address, and goes with the account.)
 3. The sign-in flow checks a `state` value on return, and uses PKCE, so a
    returning request that we didn't start is refused.
 4. The redirect address is exact: the production address and the local
@@ -47,81 +49,83 @@ the free hosting account.
 
 ### 2. What we keep
 
-8. A person's record holds their Discord ID, the name and avatar Discord
+1. A person's record holds their Discord ID, the name and avatar Discord
    gave us at their last sign-in, the language they chose (English or
    Hindi), and when the record was made and last used. Nothing else about
    them is stored by this spec.
-9. Sessions are stored on the server, so one can be ended from there. A
+2. Sessions are stored on the server, so one can be ended from there. A
    session records no IP address and no browser details.
-10. Discord's tokens are used to read the profile at sign-in and are not
-    kept: nothing in v1 calls Discord on a person's behalf.
+3. Discord's tokens are used to read the profile at sign-in and are not
+   kept: nothing in v1 calls Discord on a person's behalf.
 
 ### 3. `/me`
 
-11. Shows the person's avatar and name, "Signed in with Discord", and the
+1.  Shows the person's avatar and name, "Signed in with Discord", and the
     leagues they belong to with their role in each (empty until 007).
-12. **Download my data** gives a JSON file of everything held about the
+2.  **Download my data** gives a JSON file of everything held about the
     person: their record, their sessions (without secrets), and their
     league memberships (from 007 on, and what later specs add).
-13. **Delete my account** asks for confirmation, saying what's removed and
+3.  **Delete my account** asks for confirmation, saying what's removed and
     what stays (rule 3 below), then deletes the account and signs the
     person out everywhere.
-14. **Sign out**.
+4.  **Sign out**.
 
 ### 4. The server
 
-15. A server exists, reachable only through the web app's own address for
+1.  A server exists, reachable only through the web app's own address for
     HTTP (the browser never calls it directly), and directly only for the
     draft room's real-time connection (008).
-16. Requests that didn't come through the web app are refused.
-17. The server reports its health at a public address that says whether it
+2.  Requests that didn't come through the web app are refused. The health
+    address (17) is the only direct HTTP exception, and its answer holds no
+    account data.
+3.  The server reports its health at a public address that says whether it
     and its database are up, and nothing else.
-18. The server issues a short-lived real-time ticket to a signed-in person,
+4.  The server issues a short-lived real-time ticket to a signed-in person,
     which the draft room (008) exchanges for its connection, since that
     connection can't carry the session cookie.
-19. The database is backed up off the machine every day, and a backup has
+5.  The database is backed up off the machine every day, and a backup has
     been restored once, to prove it works, before any league uses the app.
-20. Errors on the server are reported without personal data, like the web
+6.  Errors on the server are reported without personal data, like the web
     app's (000).
-21. A person can't hammer sign-in or account changes: repeated requests
+7.  A person can't hammer sign-in or account changes: repeated requests
     from one address are slowed and then refused for a while.
-22. **Previews never reach the server.** Only production's web app knows the
+8.  **Previews never reach the server.** Only production's web app knows the
     server's address and secret; a preview has neither, and its league and
     account screens show fixtures.
-23. **The server checks its settings when it starts** and refuses to start,
+9.  **The server checks its settings when it starts** and refuses to start,
     naming the setting, if one is missing or wrong.
-24. **A deploy doesn't break what's in progress.** On shutdown the server
+10. **A deploy doesn't break what's in progress.** On shutdown the server
     stops taking new requests, finishes the ones in flight and closes
     real-time connections so clients reconnect to the new version. A new
     version takes traffic only after its health check passes. The server
     reports whether a draft is live, and nobody deploys while one is.
-25. **Database changes are safe.** Each change only adds or widens, so the
+11. **Database changes are safe.** Each change only adds or widens, so the
     running version keeps working while the new one starts; a backup is
     taken before any deploy that changes the database; a change that fails
     stops the new version with a clear message, and the running version
     keeps serving.
-26. **Pages that show what people wrote run under a strict content policy:**
+12. **Pages that show what people wrote run under a strict content policy:**
     signed-in pages allow only the scripts the server marked for that one
     response. The Dex's static pages keep the current policy.
-27. **The machine is locked down:** its admin panel isn't open to the
+13. **The machine is locked down:** its admin panel isn't open to the
     internet, signing in to it takes a key, security updates install
     themselves, and only the ports for SSH and the web are open.
-28. **Backups are private** (a private bucket, a key that can reach only it),
+14. **Backups are private** (a private bucket, a key that can reach only it),
     kept for 14 days, so deleted data leaves the backups within 14 days;
     `/legal` says so (spec 014).
-29. **The secret between the web app and the server** is long and random,
+15. **The secret between the web app and the server** is long and random,
     and can be changed without downtime: during a change, the server accepts
     the old and the new one.
 
 ### 5. Language
 
-30. **Language** on `/me`: English or Hindi
+1.  **Language** on `/me`: English or Hindi
     ([ADR 0007](../../adr/0007-languages-and-right-to-left.md)). At the first
     sign-in the account takes the language the person was browsing in;
     after that, the account's language wins: signing in on another browser
     opens the site in it, and changing it on `/me` changes it everywhere.
     Signed out, the choice lives in the browser only.
-31. Every word on `/sign-in` and `/me` comes from the dictionaries, in
+2.  Every word on `/sign-in` and `/me` comes from the dictionaries, in
     both languages; the person's name, as Discord gave it, is never
     translated.
 

@@ -64,12 +64,14 @@ type FormSummary = {
   key: FormKey
   pokemon: PokemonKey
   number: number // National Dex
+  sourceId: number // PokéAPI's pokemon ID, for every form (default or not): where its images come from
   name: string // "Rotom-Wash", English, in every interface language; the default form carries the Pokémon's name
   formName?: string // "Wash Rotom", for the form switcher
   isDefault: boolean
   isBattleOnly: boolean
   types: [TypeKey] | [TypeKey, TypeKey]
   stats: Record<StatKey, number>
+  statTotal: number // the six base stats summed, for spec 003's filters and sort
   abilities: { key: string; hidden: boolean }[]
   generation: number
   legendary?: true // PokéAPI's is_legendary
@@ -106,14 +108,18 @@ type Move = {
   effect: string
 }
 
-type Learnset = Record<string, [move: string, method: string, level?: number][]> // game → moves
+type LearnMethod = "level" | "machine" | "egg" | "tutor" | "other" // PokéAPI's other methods kept as "other", never dropped
+type Learnset = Record<
+  string,
+  [move: string, method: LearnMethod, level?: number][]
+> // game → moves
 
 type Game = {
   key: string // "scarlet-violet"
   name: string
   generation: number
   versions: { key: string; name: string }[]
-  pokedex: { form: FormKey; number: number }[] // regional numbers
+  pokedex: { form: FormKey; regionalNumber: number; onlyIn?: string }[] // in regional order; onlyIn is a version key for a version exclusive
   encountersCovered: boolean
 }
 
@@ -186,24 +192,35 @@ type Usage = {
 
 ```json
 {
-  "api-data": { "commit": "<sha>", "date": "<commit date>" },
-  "sprites": { "commit": "<sha>", "date": "<commit date>" },
+  "api-data": {
+    "commit": "<sha>",
+    "date": "<commit date>",
+    "imported": "<YYYY-MM-DD>"
+  },
+  "sprites": {
+    "commit": "<sha>",
+    "date": "<commit date>",
+    "imported": "<YYYY-MM-DD>"
+  },
   "smogon-usage": {
     "month": "2026-09",
     "cutoff": 1500,
-    "formats": ["gen9ou", "gen9doublesou"]
+    "formats": ["gen9ou", "gen9doublesou"],
+    "imported": "<YYYY-MM-DD>"
   }
 }
 ```
 
 `@pkmn/dex` and `@pkmn/data` are pinned in `package.json` like any
-dependency. A pin is the newest commit or release at least two weeks old
+dependency. `imported` is the day the import last ran against that pin,
+written by the import itself. A pin is the newest commit or release at least two weeks old
 when it's changed (AGENTS.md, "Versions").
 
 ## Images
 
-`apps/web/scripts/import-images.ts` reads each form's PokéAPI ID from
-`@workspace/dex`, downloads from the pinned `sprites` commit (four at a
+`apps/web/scripts/import-images.ts` reads each form's `sourceId` from
+`@workspace/dex` (default and non-default forms alike; never the output
+`sprite` path), downloads from the pinned `sprites` commit (four at a
 time, cached in `.cache/`), and writes:
 
 | File                                    | From                                                    | Made into                   |
@@ -246,6 +263,9 @@ None: the import runs from a command, and its output is committed.
 | 6                    | `size.test.ts`: `forms.json` gzipped ≤ 150 KB                                                                                                                                       |
 | 7                    | The `core` lint config (`no-restricted-imports` for `react`, `next`, `node:fs` outside `files.ts`, database clients) and `script.test.ts` running a plain script                    |
 | 8                    | `images.test.ts` in `apps/web`: every form with source images has both files; the folder ≤ 25 MB                                                                                    |
+| 10                   | `games.test.ts`: on the fixed sample, a game's Pokédex keeps regional order, and a version exclusive carries `onlyIn` (the sample includes one)                                     |
+| 11                   | `sources.test.ts`: every source in `sources.json` has `commit` or `month` and an `imported` date                                                                                    |
+| 8 (ids)              | `images.test.ts` also checks `sourceId` for a default form and a non-default one (Rotom, Rotom-Wash)                                                                                |
 | 9                    | `credits.test.ts`: every source in `sources.json` is in `credits.json` with a licence                                                                                               |
 
 ## Decisions
@@ -254,7 +274,7 @@ None: the import runs from a command, and its output is committed.
 | ----------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Getting the data        | none                            | PokéAPI: "Locally cache resources whenever you request them" ([docs](https://pokeapi.co/docs/v2)); `api-data` is "a static copy of the JSON data produced by PokeAPI" ([api-data](https://github.com/PokeAPI/api-data)) | One tarball of a pinned `api-data` commit per refresh; the live API is never called                      |
 | Where the dataset lives | none                            | –                                                                                                                                                                                                                       | Committed JSON in `packages/dex/data/`, so builds need no network and refreshes are reviewable diffs     |
-| Images                  | none                            | PokéAPI's sprites: "All image contents within are Copyright The Pokémon Company" ([licence](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt))                                                                | Committed WebP in `apps/web/public/dex/`, credited; never hot-linked                                     |
+| Images                  | none                            | PokéAPI's sprites: "All image contents within are Copyright The Pokémon Company" ([licence](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt))                                                                | Committed WebP in `apps/web/public/dex-images/`, credited; never hot-linked                              |
 | Core packages           | the follow-ups plan's open item | –                                                                                                                                                                                                                       | `@workspace/eslint-config/core` and `@workspace/typescript-config/core.json`, used by every core package |
 
 ## Tasks

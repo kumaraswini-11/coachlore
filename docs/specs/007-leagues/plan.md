@@ -53,7 +53,7 @@ server passes it the forms, so it never loads data itself.
 | `invitations`    | `id`, `league_id`, `token` (32 random bytes, base64url), `role`, `created_by` (member), `expires_at`, `max_uses` (nullable), `uses`, `revoked_at`, `created_at`                                                                                                                                                                                                                                                                                                          | `token` unique                                                                                 |
 | `seasons`        | `id`, `league_id`, `number`, `status` (`setup`, `drafting`, `in_season`, `finished`), `format_id` (a Showdown format ID: `gen9draft` or `gen96v6doublesdraft`), `allowed_format_ids` (text array, default `{format_id}`), `budget`, `roster_size`, `draft_order_type` (`snake`, `linear`), `timer_seconds`, `weeks` (nullable: null means one round robin, set by 009), `battles_per_match` (1 or 3), `trades_enabled`, `trade_approval_required`, `tier_list_locked_at` | unique (`league_id`, `number`); checks on ranges                                               |
 | `tiers`          | `id`, `season_id`, `name`, `points`, `position`                                                                                                                                                                                                                                                                                                                                                                                                                          | unique (`season_id`, `position`); `points` between 1 and the season's budget (checked in code) |
-| `coach_changes`  | `id`, `league_id`, `member_id` (the coach's place), `from_user_id` (nullable), `to_user_id`, `changed_by` (member), `changed_at`                                                                                                                                                                                                                                                                                                                                         | –                                                                                              |
+| `coach_changes`  | `id`, `league_id`, `member_id` (the coach's place), `from_user_id` (nullable), `to_user_id` (nullable), `changed_by` (member), `changed_at`                                                                                                                                                                                                                                                                                                                              | –                                                                                              |
 | `tier_forms`     | `season_id`, `form_key`, `tier_id` (nullable), `banned`                                                                                                                                                                                                                                                                                                                                                                                                                  | primary key (`season_id`, `form_key`); check: exactly one of `tier_id` set or `banned` true    |
 
 - **The role model:** `role` is `coach` or `viewer`; `is_admin` is
@@ -67,12 +67,21 @@ server passes it the forms, so it never loads data itself.
 - **Deleting a league** deletes its rows by `ON DELETE CASCADE` from
   `leagues`; later specs' tables cascade the same way.
 - **Former members:** the anonymiser sets `user_id` to null and
-  `display_name` to "A former coach" or "A former viewer".
+  `display_name` to "A former coach" or "A former viewer", and nulls the
+  person's other references in this spec's tables: `leagues.created_by`,
+  `coach_changes.from_user_id` and `coach_changes.to_user_id` (each
+  nullable, with `ON DELETE SET NULL` as the backstop), so a deleted
+  account is never referenced and never blocks deletion, while the
+  league's history keeps its rows.
 - **A coach's place:** a `league_members` row with `role = 'coach'` is the
   place that rosters (008), matches (009) and trades (010) point at.
-  Replacing a coach sets that row's `user_id` to the new person and clears
-  `showdown_name`, adds a viewer row for the person replaced, and writes
-  `coach_changes`, in one transaction; nothing else moves.
+  Replacing a coach keeps the place's `member_id`, so nothing that points
+  at it moves. In one transaction, in this order: the incoming person's
+  viewer row gets `left_at` (so the partial unique index on active rows
+  holds); the coach row's `user_id` becomes theirs and `showdown_name` is
+  cleared; the person replaced gets a new viewer row (they stay as a
+  viewer, and can leave later); `coach_changes` is written. It's refused
+  when the season is finished.
 - **Recent** on the league home is read from the tables' own timestamps
   (joins and coach changes here; picks, results and trades from 008–010),
   newest ten; there's no separate activity table.
@@ -122,27 +131,27 @@ None.
 
 ## Tests
 
-| Acceptance criterion     | Proved by                                                                                                                                            |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1. Defaults are valid    | `packages/league/src/settings.test.ts` and `templates.test.ts` against the real dataset: every allowed form priced or banned                         |
-| 2. Private to members    | `server/test/leagues-access.test.ts`: every league route as a non-member returns 404 without the name                                                |
-| 3. Admin actions         | `leagues-roles.test.ts`: each admin route called as coach and viewer is 403, and the rows are unchanged                                              |
-| 4. Invitations           | `invitations.test.ts`, with a fake clock and a started draft                                                                                         |
-| 5. One place per form    | `tier-list.test.ts`: inserting a duplicate or a tiered and banned row fails at the database                                                          |
-| 6. Lock                  | `tier-list.test.ts` and `season-settings.test.ts` with `tier_list_locked_at` set                                                                     |
-| 7. Feasibility           | `packages/league/src/settings.test.ts`                                                                                                               |
-| 8. Account deletion      | `server/test/deletion.test.ts` (006's), extended with leagues                                                                                        |
-| 9. League deletion       | `leagues-delete.test.ts`: no row with the league's ID remains in any table                                                                           |
-| 10. Where leagues appear | `apps/web/e2e/leagues.spec.ts` as a member and as another person                                                                                     |
-| 11. Screens              | `apps/web/e2e/leagues.spec.ts`: axe at 360 and 1280 px, both themes; the tier list edited with the keyboard only                                     |
-| 12. Invitation uses      | `invitations.test.ts`: two accepts in parallel against a limit of 2, then a third refused                                                            |
-| 13. IDs in their league  | `leagues-scope.test.ts`: every route that takes an ID, called with another league's ID, is 404; copying from a league not run is 404                 |
-| 14. Replacing a coach    | `replace-coach.test.ts`: the place's `user_id` changes, a viewer row appears, `coach_changes` has the row, all in one transaction                    |
-| 15. Time zone            | `packages/league/src/time.test.ts` (week edges across a daylight-saving change); `e2e/leagues.spec.ts` with the browser in another zone              |
-| 18. Language             | `leagues.test.ts`: created with the creator's language, changed in General; e2e: league screens at `/en` and `/hi`, axe in both and with `dir="rtl"` |
-| 16. Demo league          | `seed.test.ts`: the seeded league passes the draft's start checks (008's `canStart`)                                                                 |
-| 19. Turn note            | `e2e/leagues.spec.ts` with fixtures: Draft settings with a 10-minute timer and no channel show the note; with a 2-minute timer they don't            |
-| 17. Finished season      | `season-finished.test.ts`: every change route is refused                                                                                             |
+| Acceptance criterion     | Proved by                                                                                                                                                                                                                                                                                                          |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1. Defaults are valid    | `packages/league/src/settings.test.ts` and `templates.test.ts` against the real dataset: every allowed form priced or banned                                                                                                                                                                                       |
+| 2. Private to members    | `server/test/leagues-access.test.ts`: every league route as a non-member returns 404 without the name                                                                                                                                                                                                              |
+| 3. Admin actions         | `leagues-roles.test.ts`: each admin route called as coach and viewer is 403, and the rows are unchanged                                                                                                                                                                                                            |
+| 4. Invitations           | `invitations.test.ts`, with a fake clock and a started draft                                                                                                                                                                                                                                                       |
+| 5. One place per form    | `tier-list.test.ts`: inserting a duplicate or a tiered and banned row fails at the database                                                                                                                                                                                                                        |
+| 6. Lock                  | `tier-list.test.ts` and `season-settings.test.ts` with `tier_list_locked_at` set                                                                                                                                                                                                                                   |
+| 7. Feasibility           | `packages/league/src/settings.test.ts`                                                                                                                                                                                                                                                                             |
+| 8. Account deletion      | `server/test/deletion.test.ts` (006's), extended with leagues                                                                                                                                                                                                                                                      |
+| 9. League deletion       | `leagues-delete.test.ts`: no row with the league's ID remains in any table                                                                                                                                                                                                                                         |
+| 10. Where leagues appear | `apps/web/e2e/leagues.spec.ts` as a member and as another person                                                                                                                                                                                                                                                   |
+| 11. Screens              | `apps/web/e2e/leagues.spec.ts`: axe at 360 and 1280 px, both themes; the tier list edited with the keyboard only                                                                                                                                                                                                   |
+| 12. Invitation uses      | `invitations.test.ts`: two accepts in parallel against a limit of 2, then a third refused                                                                                                                                                                                                                          |
+| 13. IDs in their league  | `leagues-scope.test.ts`: every route that takes an ID, called with another league's ID, is 404; copying from a league not run is 404                                                                                                                                                                               |
+| 14. Replacing a coach    | `replace-coach.test.ts`: the place's `member_id` stays and its `user_id` changes, the incoming viewer row is closed, a viewer row appears for the replaced person, `coach_changes` has the row, all in one transaction; refused in a finished season; deleting either person's account leaves no reference to them |
+| 15. Time zone            | `packages/league/src/time.test.ts` (week edges across a daylight-saving change); `e2e/leagues.spec.ts` with the browser in another zone                                                                                                                                                                            |
+| 18. Language             | `leagues.test.ts`: created with the creator's language, changed in General; e2e: league screens at `/en` and `/hi`, axe in both and with `dir="rtl"`                                                                                                                                                               |
+| 16. Demo league          | `seed.test.ts`: the seeded league passes the draft's start checks (008's `canStart`)                                                                                                                                                                                                                               |
+| 19. Turn note            | `e2e/leagues.spec.ts` with fixtures: Draft settings with a 10-minute timer and no channel show the note; with a 2-minute timer they don't                                                                                                                                                                          |
+| 17. Finished season      | `season-finished.test.ts`: every change route is refused                                                                                                                                                                                                                                                           |
 
 ## Decisions
 

@@ -117,7 +117,7 @@ No stack and no folder names here; those are recorded as decisions. These are co
 
 **Results come from the battle log.** A Showdown replay is downloaded once, kept, and parsed by code into the score, each Pokémon's KOs and faints, and the winner. Both coaches confirm. Typing a result by hand stays possible, and says so.
 
-**Anything the outside world hears about goes through a queue.** Discord posts, recaps and reminders are jobs, retried on failure. A retry can't know for certain whether the first try reached Discord before it failed, so each job carries an idempotency key and checks whether its effect already happened before trying again: a retried post appears once. Nothing a coach does waits for Discord to answer.
+**Anything the outside world hears about goes through a queue.** Discord posts, recaps and reminders are jobs, retried on failure. A retry can't know for certain whether the first try reached Discord before it failed, so each job carries an idempotency key and checks whether its effect already happened before trying again: a retried post appears once, except in one narrow case spec 011 states (a crash just after Discord accepted the post, with the retry coming much later). Nothing a coach does waits for Discord to answer.
 
 **The AI is provider-agnostic, traced and cached.** Models are reached through one interface; every call is traced, answers are cached, and a cache hit is a recorded run with no model call. A cached answer is keyed by everything that shaped it, the league and what the asker may see included, and is returned only to someone allowed to see it. Each person has a daily allowance, and when it's spent, the feature says so and everything else works.
 
@@ -187,7 +187,7 @@ Not "it looks right". Specifics:
 - No AI answer names a Pokémon, move or ability that isn't in the data, shown by a check rather than asserted.
 - The assistant shows what it looked up before it answers; an answer with no lookups behind it isn't shown.
 - With the AI switched off, every page still works.
-- A Discord post retried after a failure appears once.
+- A Discord post retried after a failure appears once, in every case spec 011 covers.
 - On a mid-range phone, the Dex meets Core Web Vitals' "good" thresholds, and every page passes WCAG 2.2 AA.
 - Every page carries the not-affiliated notice and credits.
 

@@ -55,6 +55,7 @@ ai_writeups
   subject_id    text  the match ID, or "<season ID>:<week number>"
   facts_hash    text  sha-256 of the facts it was written from
   text          text
+  language      text  en | hi: the league's language when it was written
   run_id        uuid  references ai_runs
   created_at    timestamptz
   unique (kind, subject_id)
@@ -97,7 +98,7 @@ rankCandidates(input: {
 | `POST /api/v1/leagues/:slug/draft/suggestion`       | the coach whose turn it is | `{ turnNumber, items: [{ form, points, reason }], allowance }` |
 | `POST /api/v1/leagues/:slug/trades/:id/explain`     | either coach, or an admin  | `{ text, allowance }`                                          |
 | `PATCH /api/v1/leagues/:slug/settings/ai`           | an admin                   | the three switches                                             |
-| `GET /api/v1/leagues/:slug/writeups?kind=&subject=` | a member                   | `{ text, createdAt } \| 404`                                   |
+| `GET /api/v1/leagues/:slug/writeups?kind=&subject=` | a member                   | `{ text, language, createdAt }` or 404                         |
 
 - The suggestion route reads the draft's state in one transaction, checks
   the actor is on the clock for `turnNumber`, ranks, then calls the model
@@ -121,12 +122,15 @@ None.
 | `ai.recap`  | In every transaction that confirms or corrects a result (spec 009: the other coach, an admin, auto-confirm, settle, correct), through `jobDb(tx)` (spec 011) | `recap:<match ID>:<facts hash>` | Skips if `ai_writeups` has this subject with the same `facts_hash`; checks the switches; checks the league's day and the budget, else re-sends itself with `startAfter` 00:00 UTC; writes; upserts `ai_writeups`; sends `discord.post` (spec 011) in the same transaction, through `jobDb(tx)` |
 | `ai.digest` | In the transaction that completes a week (spec 009: `weeks.completed_at` set), through `jobDb(tx)`                                                           | `digest:<season ID>:<week>`     | The same, from the week's facts                                                                                                                                                                                                                                                                |
 
-- Retries: pg-boss's retry with backoff, `retryLimit: 3`; after the last
-  failure the job is left failed (visible, spec 014) and the page shows no
+- Retries: pg-boss's retry with backoff, `retryLimit: 2`, so three
+  attempts in all; after the third the job is left failed (visible, spec 014) and the page shows no
   write-up.
-- The MVP and every number come from spec 009's battle facts
-  (`battle_pokemon_stats`), assembled by `facts.ts` in the job, hashed for
-  the key.
+- The facts are assembled by `facts.ts` in the job and hashed for the
+  key. For a result read from replays, they come from spec 009's battle
+  facts (`battle_pokemon_stats`), and so do the MVP and every number. For
+  a result entered by hand (`by_hand`), they are only what was entered:
+  each battle's winner and Pokémon left, and the score; no Pokémon,
+  KOs or MVP are sent, and none are invented.
 
 ## Web
 
@@ -153,7 +157,7 @@ None.
 | 4                    | `suggest.test.ts` (no wishlist in the input type) and the route test spying on `rankCandidates`                                                                                                                       |
 | 5                    | `jobs/ai-recap.test.ts`: confirm once, run the job twice; one write-up, one `discord.post`                                                                                                                            |
 | 6                    | `jobs/ai-recap.test.ts` with a stubbed model naming an absent Pokémon and a wrong number                                                                                                                              |
-| 7                    | `jobs/ai-recap.test.ts`: a corrected result's new facts hash replaces the text                                                                                                                                        |
+| 7                    | `jobs/ai-recap.test.ts`: a corrected result's new facts hash replaces the text; a by-hand result's facts hold only winners, Pokémon left and the score, and its recap names no Pokémon                                |
 | 8                    | `jobs/ai-budget.test.ts` with a fixed clock                                                                                                                                                                           |
 | 9                    | `ai/allowance.test.ts` additions                                                                                                                                                                                      |
 | 10                   | `e2e/league-ai.spec.ts` with axe, keyboard                                                                                                                                                                            |

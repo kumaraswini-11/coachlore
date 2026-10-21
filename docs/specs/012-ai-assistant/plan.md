@@ -63,6 +63,7 @@ generateStructured<T>(input: {
   schema: ZodType<T>;
   prompt: PromptVersion;          // { id, version, system, build(data) }
   data: unknown;                  // computed facts and the person's text, as data
+  language: "en" | "hi";          // the answer's language: into the prompt and the cache key
   actor: Actor;                   // internal user ID, league scope if any
 }): Promise<AiResult<T>>
 
@@ -70,6 +71,7 @@ runAssistant(input: {
   question: string;
   followsRunIds: string[];        // earlier runs of this conversation, owned by the actor; at most 6
   subject?: { kind: "form"; key: string };
+  language: "en" | "hi";          // the asker's page language: into the prompt and the cache key
   actor: Actor;
 }): Promise<AskResult>            // lookups, answer, grounding, allowance
 ```
@@ -107,7 +109,10 @@ ai_runs
   prompt_version     integer
   data_version       text            packages/dex's dataset version
   cache_key          text            sha-256 of the key's parts (below)
+  input              jsonb null      the question, or the structured input (facts, filters'
+                                     text); what follow-ups, GET /ai/ask/:runId and the export read
   input_hash         text            sha-256 of the normalised input
+  language           text            en | hi
   lookups            jsonb           [{ tool, input, resultSummary }]
   output             jsonb
   grounding          text            passed | retried-passed | failed | n/a
@@ -128,13 +133,21 @@ ai_budget_days
 
 - **The allowance** is counted from `ai_runs` (`user_id`, `created_at` on
   the UTC day), so there's no second counter to keep in step.
-- **The global budget** is `ai_budget_days.model_calls`, incremented in
-  the same transaction that records a run with a model call, and checked
-  before the call (`AI_DAILY_BUDGET`, default 800).
+- **The global budget** is `ai_budget_days.model_calls`
+  (`AI_DAILY_BUDGET`, default 800).
+- **Reserving, atomically.** Before any model call, one transaction takes
+  `pg_advisory_xact_lock` on the person's ID, upserts today's
+  `ai_budget_days` row and locks it (`SELECT … FOR UPDATE`), counts the
+  person's runs today, refuses if either limit is reached, then increments
+  `model_calls` and inserts the run (its result filled in after the call).
+  Concurrent requests queue on the locks, so neither limit can be passed.
+  A cache hit takes the person's lock and inserts its run without
+  touching the budget. A provider error releases the reservation in a
+  second transaction: `model_calls` decremented, the run marked `error`.
 - **The cache key** is a SHA-256 of: feature, prompt id and version,
-  provider and model, the data version, the normalised question (lower
-  case, trimmed, whitespace collapsed) or the hash of the computed facts,
-  the subject, and for league scope the league ID and the person's `role` and
+  provider and model, the data version, the language, the normalised
+  question (lower case, trimmed, whitespace collapsed) or the hash of the
+  computed facts, the subject, and for league scope the league ID and the person's `role` and
   `is_admin` (007), the hash of the earlier runs' IDs the question
   follows, and the member's ID whenever a lookup the answer used reads the
   asker's own data (their roster, wishlist, matches or trades; each tool
@@ -148,8 +161,9 @@ ai_budget_days
 - **Retention:** runs older than 90 days have `output` and `lookups`
   cleared by a nightly job (`ai.prune`); the counts stay.
 - **Personal data** (spec 006): the export includes a person's runs
-  (question, lookups, answer, date); deletion deletes their runs' input
-  and output and sets `user_id` to null, keeping the counts for the budget.
+  (question, lookups, answer, date); deletion clears their runs' input,
+  lookups and output and sets `user_id` to null, keeping the counts for
+  the budget.
 
 ## API
 
@@ -241,23 +255,23 @@ prompt; a second failure returns `reason: "grounding"` with the lookups.
 
 ## Tests
 
-| Acceptance criterion | Test                                                                                                                                                                                                                                                           |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                    | `ai/provider.test.ts`: the same feature runs against two mocked providers chosen by configuration                                                                                                                                                              |
-| 2                    | `routes/ai.search.test.ts` (stubbed model returning a known and an unknown type); `e2e/ai-search.spec.ts` (chips and address)                                                                                                                                  |
-| 3, 5                 | `ai/ask.test.ts` with a stubbed model: no lookups → refused; bad names → one retry → refused                                                                                                                                                                   |
-| 4                    | `ai/grounding.test.ts`: fixed answers, passing and failing, names and numbers                                                                                                                                                                                  |
-| 6                    | `ai/tools/league.test.ts` with Testcontainers: non-member, viewer, coach, admin                                                                                                                                                                                |
-| 7                    | `ai/allowance.test.ts`: the 21st request; the budget; UTC rollover with a fixed clock                                                                                                                                                                          |
-| 8                    | `ai/cache.test.ts`: hit, miss across leagues and roles, recorded as cached; two coaches asking "what is my roster weak to?" each get their own answer; the same question following two different conversations misses                                          |
-| 9                    | `ai/privacy.test.ts`: intercepts provider requests and searches their bodies                                                                                                                                                                                   |
-| 10                   | `ai/runs.test.ts`: every field recorded                                                                                                                                                                                                                        |
-| 11                   | `bun run eval` runs `evals/run.ts`; checked by running it once against the baseline                                                                                                                                                                            |
-| 12                   | `e2e/ai-off.spec.ts`: the whole e2e suite's Dex and team pages with `AI_PROVIDER` unset                                                                                                                                                                        |
-| 13                   | `e2e/ask.spec.ts` with axe, keyboard-only                                                                                                                                                                                                                      |
-| 14                   | `ai/conversation.test.ts`: another person's run ID in `followsRunIds` gives 404; `ai/personal-data.test.ts`: export and deletion                                                                                                                               |
-| 16                   | `e2e/csp.spec.ts` (006's, extended): `/en/ask` and `/hi/ask` send one CSP header, with a nonce                                                                                                                                                                 |
-| 15                   | `ai/grounding.test.ts` (Hindi cases: English names inside Hindi text pass, an invented name fails); `routes/ai.search.test.ts` with a stubbed model: a Hindi question's filters validate against the same schema; the evaluation set's Hindi cases (on demand) |
+| Acceptance criterion | Test                                                                                                                                                                                                                                                                                                                  |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                    | `ai/provider.test.ts`: the same feature runs against two mocked providers chosen by configuration                                                                                                                                                                                                                     |
+| 2                    | `routes/ai.search.test.ts` (stubbed model returning a known and an unknown type); `e2e/ai-search.spec.ts` (chips and address)                                                                                                                                                                                         |
+| 3, 5                 | `ai/ask.test.ts` with a stubbed model: no lookups → refused; bad names → one retry → refused                                                                                                                                                                                                                          |
+| 4                    | `ai/grounding.test.ts`: fixed answers, passing and failing, names and numbers                                                                                                                                                                                                                                         |
+| 6                    | `ai/tools/league.test.ts` with Testcontainers: non-member, viewer, coach, admin                                                                                                                                                                                                                                       |
+| 7                    | `ai/allowance.test.ts`: the 21st request; the budget; UTC rollover with a fixed clock; 25 concurrent requests by one person with 20 left let exactly 20 through, and concurrent requests at the budget let exactly the remainder through                                                                              |
+| 8                    | `ai/cache.test.ts`: hit, miss across leagues and roles, recorded as cached; two coaches asking "what is my roster weak to?" each get their own answer; the same question following two different conversations misses; the same request in English and Hindi misses; a coach and an admin who coaches miss each other |
+| 9                    | `ai/privacy.test.ts`: intercepts provider requests and searches their bodies                                                                                                                                                                                                                                          |
+| 10                   | `ai/runs.test.ts`: every field recorded                                                                                                                                                                                                                                                                               |
+| 11                   | `bun run eval` runs `evals/run.ts`; checked by running it once against the baseline                                                                                                                                                                                                                                   |
+| 12                   | `e2e/ai-off.spec.ts`: the whole e2e suite's Dex and team pages with `AI_PROVIDER` unset                                                                                                                                                                                                                               |
+| 13                   | `e2e/ask.spec.ts` with axe, keyboard-only                                                                                                                                                                                                                                                                             |
+| 14                   | `ai/conversation.test.ts`: another person's run ID in `followsRunIds` gives 404; `ai/personal-data.test.ts`: export and deletion, with input, lookups and output cleared                                                                                                                                              |
+| 16                   | `e2e/csp.spec.ts` (006's, extended): `/en/ask` and `/hi/ask` send one CSP header, with a nonce                                                                                                                                                                                                                        |
+| 15                   | `ai/grounding.test.ts` (Hindi cases: English names inside Hindi text pass, an invented name fails); `routes/ai.search.test.ts` with a stubbed model: a Hindi question's filters validate against the same schema; the evaluation set's Hindi cases (on demand)                                                        |
 
 ## The evaluation
 

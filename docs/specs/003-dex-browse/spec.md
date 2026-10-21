@@ -102,9 +102,8 @@ example), rather than only "No results".
    next visit online; a person never gets a mix of old and new pages.
 5. Nothing from Leagues is saved for offline use.
 6. **Installable:** the web app manifest lists 192 × 192 and 512 × 512
-   icons beside the existing ones, as Next.js's progressive web apps guide
-   shows, so a phone can add the Dex to its home screen. No install prompt
-   of our own.
+   icons beside the existing ones, so a phone can add the Dex to its home
+   screen. No install prompt of our own.
 7. **One language at a time:** the pages saved for offline use are those of
    the language in use (`/en/…` or `/hi/…`), plus the language-neutral
    data (the form list, sprites); an unsaved page offline shows that
@@ -199,7 +198,7 @@ details:
 11. The result count is announced in a polite live region when filters
     change.
 12. The manifest lists 192 × 192 and 512 × 512 PNG icons that exist and
-    load, and Lighthouse reports no installability errors for the site.
+    load, and an installability check reports no errors for the site.
 13. Every page in this spec is built for `en` and `hi` (the build's route
     table lists both), shows its interface text in the page's language and
     Pokémon names in English, and names its other-language version.

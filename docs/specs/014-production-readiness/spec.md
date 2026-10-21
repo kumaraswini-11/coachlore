@@ -31,8 +31,8 @@ Core Web Vitals' "good" thresholds on a mid-range phone. Hosting risks:
    20 sign-in attempts an hour per IP; 30 changes a minute per person;
    AI routes as spec 012 says, plus 10 a minute per person.
 2. A request over a limit gets status 429 with a `Retry-After` header and
-   a plain message; the interface shows "Too many requests. Try again in a
-   minute."
+   a plain message; the interface shows "Too many requests. Try again in
+   {time}.", with the time taken from `Retry-After`.
 3. Request bodies are capped (64 KB; a team import or replay list at most
    16 KB of text) and refused above that before they're parsed.
 4. The visitor's IP address is taken from the header the web app's host
@@ -181,8 +181,10 @@ check that proves it:
 
 And this spec's own:
 
-11. Each limit returns 429 with `Retry-After` when exceeded; the per-person
-    limit applies when signed in; a request without the proxy's secret is
+11. Each limit returns 429 with `Retry-After` when exceeded; for a
+    signed-in person, both the per-IP and the per-person limits apply; a
+    body over 64 KB, or over 16 KB on a team import or replay route, is
+    refused before it's parsed; a request without the proxy's secret is
     refused.
 12. A replay address on any other host, or an ID that doesn't match
     Showdown's pattern, is refused without a request.
@@ -198,7 +200,8 @@ And this spec's own:
 17. A crawl of every page in the screen inventory finds the notice and the
     credits links on each.
 18. A search of error reports and logs from the test league finds no
-    Discord ID, name, IP address or cookie.
+    Discord ID, name, IP address, cookie, replay address or question text,
+    and the record lists which sources were searched.
 19. A backup restore is rehearsed and recorded; daily backups appear off
     the VM.
 20. The OWASP review is recorded with no open high-risk finding.
@@ -219,6 +222,10 @@ And this spec's own:
 29. Every page sends exactly one Content-Security-Policy header; signed-in
     pages carry a per-response nonce (spec 006), and the draft room's
     socket connects under it (spec 008).
+30. A job made to fail appears in Sentry and is retried; after its last
+    attempt it's listed as failed.
+31. A forced uptime failure (the health check pointed at a wrong address)
+    emails the owner.
 
 ## Out of scope
 
@@ -233,3 +240,4 @@ And this spec's own:
 - 2026-10-21: both languages in the accessibility and speed checks, a right-to-left review, the Hindi review and complete dictionaries (ADR 0007).
 - 2026-10-21: audit: cross-league IDs in the permission matrix, every table covered by export and deletion, the restored backup migrated, the forwarding's latency measured, private vulnerability reporting, backups in `/legal`.
 - 2026-10-21: final audit: one CSP header per page, and the socket under the nonce policy, checked.
+- 2026-10-21: review fixes: per-IP and per-person limits together, body limits in criterion 11, the retry time shown, replay addresses and questions in the log search, failed jobs and uptime alerts checked, the uptime workflow's 60-day rule.

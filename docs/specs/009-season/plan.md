@@ -22,7 +22,7 @@
 | `packages/league/src/schedule.ts`                         | `roundRobin(memberIds, weeks)`: the circle method, byes for odd counts.                           |
 | `packages/league/src/standings.ts`                        | `standings(matches)`: records, differentials and places by the spec's rule 19.                    |
 | `apps/server/src/season/`                                 | Schedule, reports, confirmations, settling, standings and stats: services and routes.             |
-| `apps/server/src/season/replay-fetch.ts`                  | `fetchReplay(id)`: one guarded request to Showdown's replay server (below).                       |
+| `apps/server/src/season/replay-fetch.ts`                  | `fetchReplay({ id, password })`: one guarded request to Showdown's replay server (below).         |
 | `apps/server/src/season/auto-confirm.ts`                  | The sweep that confirms undisputed reports whose time has come.                                   |
 | `apps/server/src/season/personal-data.ts`                 | Registers this spec's exporter and anonymiser with spec 006.                                      |
 | `packages/db/src/schema/season.ts`                        | The tables below; their migration in `packages/db/drizzle/`.                                      |
@@ -117,10 +117,13 @@ None. A report reads at most three small replays, so it does it while the
 coach waits; a queue would add a status, polling and a retry policy for no
 gain.
 
-**Fetching a replay** (`fetchReplay`): `GET <base>/<id>.json`, where the
-base is `https://replay.pokemonshowdown.com` (configuration, so tests point
-it at a stub) and the ID comes only from `parseReplayLink`, never from the
-pasted text; `redirect: "error"`; a 10-second timeout and one retry; the
+**Fetching a replay** (`fetchReplay({ id, password })`): `GET
+<base>/<id>.json`, or `<base>/<id>-<password>.json` for a private replay,
+where the base is `https://replay.pokemonshowdown.com` (configuration, so
+tests point it at a stub) and the ID and password come only from
+`parseReplayLink`, never from the pasted text; the password travels with
+the ID to this one request and is never logged (the request's address is
+redacted in logs and error reports); `redirect: "error"`; a 10-second timeout and one retry; the
 body read up to 2 MB and refused beyond; refused unless the content type is
 JSON and the JSON has a `log`. A replay already stored is never fetched
 again.

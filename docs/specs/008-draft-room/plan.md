@@ -75,19 +75,19 @@ problem details. Every child ID in a path or body (a member, a turn, a
 pick) is looked up with the slug's `league_id` in the same query, so an ID
 from another league is a 404.
 
-| Method and path               | Who                           | Does                                                                                                     |
-| ----------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `GET draft`                   | members                       | The snapshot: state, order, turns, picks, pool, timer, `seq`, `serverNow`, and the caller's own wishlist |
-| `PATCH draft`                 | admins, scheduled             | `{ scheduledAt }`: the planned start, or null                                                            |
-| `PUT draft/order`             | admins, scheduled             | `{ memberIds }`: the whole order                                                                         |
-| `POST draft/order/shuffle`    | admins, scheduled             | A random order (`crypto.randomInt`), stored and returned                                                 |
-| `POST draft/start`            | admins                        | Checks the start conditions; writes the turns; first deadline                                            |
-| `POST draft/pause`, `resume`  | admins                        | As the spec's state table                                                                                |
-| `POST draft/picks`            | the turn's coach, or an admin | `{ turnNumber, formKey }`, header `Idempotency-Key`; 201 with the pick, or 409 with the reason           |
-| `DELETE draft/picks/last`     | admins                        | `{ turnNumber }` of the pick to undo, so two admins can't undo two picks                                 |
-| `GET draft/wishlist`, `PUT …` | the coach                     | `{ formKeys }`: the whole ordered list (up to 50)                                                        |
-| `GET rosters`                 | members                       | Every coach's points used and left                                                                       |
-| `GET rosters/:memberId`       | members                       | The roster: entries, points used and left                                                                |
+| Method and path               | Who                           | Does                                                                                                                                                                               |
+| ----------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `GET draft`                   | members                       | The snapshot: state, order, turns, picks, pool, timer, `seq`, `serverNow`, and the caller's own wishlist                                                                           |
+| `PATCH draft`                 | admins, scheduled             | `{ scheduledAt }`: the planned start, or null                                                                                                                                      |
+| `PUT draft/order`             | admins, scheduled             | `{ memberIds }`: the whole order                                                                                                                                                   |
+| `POST draft/order/shuffle`    | admins, scheduled             | A random order (`crypto.randomInt`), stored and returned                                                                                                                           |
+| `POST draft/start`            | admins                        | Checks the start conditions; writes the turns; first deadline                                                                                                                      |
+| `POST draft/pause`, `resume`  | admins                        | As the spec's state table                                                                                                                                                          |
+| `POST draft/picks`            | the turn's coach, or an admin | `{ turnNumber, formKey }`, header `Idempotency-Key`; 201 with the pick; 200 with the same pick for a matching retry; 409 with the reason; 422 if the key was used for another pick |
+| `DELETE draft/picks/last`     | admins                        | `{ turnNumber }` of the pick to undo, so two admins can't undo two picks                                                                                                           |
+| `GET draft/wishlist`, `PUT …` | the coach                     | `{ formKeys }`: the whole ordered list (up to 50)                                                                                                                                  |
+| `GET rosters`                 | members                       | Every coach's points used and left                                                                                                                                                 |
+| `GET rosters/:memberId`       | members                       | The roster: entries, points used and left                                                                                                                                          |
 
 **The pick, in one transaction:**
 
@@ -96,13 +96,20 @@ from another league is a 404.
    transactions until the current transaction ends"
    ([explicit locking](https://www.postgresql.org/docs/current/explicit-locking.html)),
    so picks in one draft are decided one at a time.
-2. Check: live; `turnNumber` is `current_turn`; the caller is that turn's
+2. A retry first: look up the pick by (`draft_id`, `idempotency_key`).
+   If there is one and it matches the request (same caller, `turnNumber`
+   and `formKey`), return it (200) before any of the checks below, which a
+   retry would now fail; if it differs, refuse with 422 ("this
+   Idempotency-Key was used for another pick"). The unique constraint on
+   (`draft_id`, `idempotency_key`) stays as the guard against two retries
+   racing.
+3. Check: live; `turnNumber` is `current_turn`; the caller is that turn's
    coach or an admin; `now() < turn_deadline`; the form is priced, not
    banned and not on a roster; `canAfford`.
-3. Insert the pick and the roster entry; mark the turn; advance
+4. Insert the pick and the roster entry; mark the turn; advance
    `current_turn` (completing the draft after the last turn); set the next
    deadline; append the event with `seq = last_seq + 1`.
-4. Commit, then arm the in-memory timer for the new deadline and broadcast
+5. Commit, then arm the in-memory timer for the new deadline and broadcast
    the event.
 
 The unique constraints refuse a double pick even if a check above were
@@ -179,22 +186,22 @@ or an undo.
 
 ## Tests
 
-| Criterion | Test                                                                                                                                                                                                                                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | `apps/server/src/draft/concurrency.test.ts`: 16 coaches, every turn submitted by every coach at once (overlapping forms, the same idempotency key resent), a full draft, repeated 20 times; then SQL checks: no form twice, no budget broken, one pick per turn                                         |
-| 2         | `packages/league/src/draft/turns.test.ts`: every turn for 2–24 coaches, both types, with make-up turns appended                                                                                                                                                                                         |
-| 3         | `packages/league/src/draft/budget.test.ts`: allowed and refused at the exact boundary, last slot, cheapest tier changing                                                                                                                                                                                |
-| 4         | `apps/server/src/draft/timer.test.ts`: `expireTurn` with the deadline set in the past; wishlist hit, none affordable (skip), a second miss (forfeit), a pick at the deadline                                                                                                                            |
-| 5         | `apps/server/src/draft/restart.test.ts`: a live draft with a past deadline; starting the server auto-picks once                                                                                                                                                                                         |
-| 6         | `apps/server/src/realtime/reconnect.test.ts`: a socket client dropped, picks made, reconnected at once and again after 61 seconds (fake timers on the ticket's expiry); its applied state equals `GET draft`                                                                                            |
-| 7         | `apps/server/src/draft/admin.test.ts`: pause keeps the remaining time; resume restores it; undo returns the form and the turn                                                                                                                                                                           |
-| 8         | `apps/server/src/realtime/privacy.test.ts`: every message a second member receives, checked for the first coach's wishlist                                                                                                                                                                              |
-| 9         | `apps/web/e2e/draft-room.spec.ts` and `roster.spec.ts`: axe, keyboard, both themes, 360 and 1280 px; the live region's text after a pick and a turn change; the tab title on the coach's turn                                                                                                           |
-| 10        | `apps/server/src/realtime/membership.test.ts`: a removed member's socket closed and `sync` refused; `apps/web/components/draft/clock.test.ts`: a client clock 5 minutes off still shows the server's time left; `apps/server/src/draft/scope.test.ts`: member and turn IDs from another league give 404 |
-| 11        | `apps/server/src/draft/personal-data.test.ts`: the export holds the wishlist and picks made; deletion anonymises `made_by_user_id` and removes the wishlist                                                                                                                                             |
-| 13        | `e2e/draft-csp.spec.ts`: a league page sends one CSP header with a nonce and the server in `connect-src`, and the socket connects under it; `e2e/preview-build.test.ts` (006's) extended: no `NEXT_PUBLIC_REALTIME_URL` in a preview build                                                              |
-| 14        | `draft/start.test.ts`: a 10-minute draft with no channel refused without `confirmNoChannel`, started with it; a 2-minute draft starts; `e2e/leagues.spec.ts`: "Your turn" on `/leagues` and home from fixtures                                                                                          |
-| 12        | `e2e/draft-room-languages.spec.ts`: the room in `/hi`, a pick announced in Hindi (the live region's text), and the room at 360 px with `dir="rtl"`: no overlap, back and next arrows flipped                                                                                                            |
+| Criterion | Test                                                                                                                                                                                                                                                                                                                                                                               |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | `apps/server/src/draft/concurrency.test.ts`: 16 coaches, every turn submitted by every coach at once (overlapping forms, the same idempotency key resent), a full draft, repeated 20 times; then SQL checks: no form twice, no budget broken, one pick per turn; a resent key after its turn has passed returns the stored pick (200), and the same key with another form gets 422 |
+| 2         | `packages/league/src/draft/turns.test.ts`: every turn for 2–24 coaches, both types, with make-up turns appended                                                                                                                                                                                                                                                                    |
+| 3         | `packages/league/src/draft/budget.test.ts`: allowed and refused at the exact boundary, last slot, cheapest tier changing                                                                                                                                                                                                                                                           |
+| 4         | `apps/server/src/draft/timer.test.ts`: `expireTurn` with the deadline set in the past; wishlist hit, none affordable (skip), a second miss (forfeit), a pick at the deadline                                                                                                                                                                                                       |
+| 5         | `apps/server/src/draft/restart.test.ts`: a live draft with a past deadline; starting the server auto-picks once                                                                                                                                                                                                                                                                    |
+| 6         | `apps/server/src/realtime/reconnect.test.ts`: a socket client dropped, picks made, reconnected at once and again after 61 seconds (fake timers on the ticket's expiry); its applied state equals `GET draft`                                                                                                                                                                       |
+| 7         | `apps/server/src/draft/admin.test.ts`: pause keeps the remaining time; resume restores it; undo returns the form and the turn                                                                                                                                                                                                                                                      |
+| 8         | `apps/server/src/realtime/privacy.test.ts`: every message a second member receives, checked for the first coach's wishlist                                                                                                                                                                                                                                                         |
+| 9         | `apps/web/e2e/draft-room.spec.ts` and `roster.spec.ts`: axe, keyboard, both themes, 360 and 1280 px; the live region's text after a pick and a turn change; the tab title on the coach's turn                                                                                                                                                                                      |
+| 10        | `apps/server/src/realtime/membership.test.ts`: a removed member's socket closed and `sync` refused; `apps/web/components/draft/clock.test.ts`: a client clock 5 minutes off still shows the server's time left; `apps/server/src/draft/scope.test.ts`: member and turn IDs from another league give 404                                                                            |
+| 11        | `apps/server/src/draft/personal-data.test.ts`: the export holds the wishlist and picks made; deletion anonymises `made_by_user_id` and removes the wishlist                                                                                                                                                                                                                        |
+| 13        | `e2e/draft-csp.spec.ts`: a league page sends one CSP header with a nonce and the server in `connect-src`, and the socket connects under it; `e2e/preview-build.test.ts` (006's) extended: no `NEXT_PUBLIC_REALTIME_URL` in a preview build                                                                                                                                         |
+| 14        | `draft/start.test.ts`: a 10-minute draft with no channel refused without `confirmNoChannel`, started with it; a 2-minute draft starts; `e2e/leagues.spec.ts`: "Your turn" on `/leagues` and home from fixtures                                                                                                                                                                     |
+| 12        | `e2e/draft-room-languages.spec.ts`: the room in `/hi`, a pick announced in Hindi (the live region's text), and the room at 360 px with `dir="rtl"`: no overlap, back and next arrows flipped                                                                                                                                                                                       |
 
 ## Decisions
 

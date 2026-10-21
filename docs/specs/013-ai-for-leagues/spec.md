@@ -211,3 +211,4 @@ match", "League home", "Trades", "A coach's roster", "League settings").
   the team check); write-ups hooked into every confirming path of spec 009,
   including auto-confirm; personal data.
 - 2026-10-21: final audit: write-up jobs saved through `jobDb(tx)`; write-ups carry their language and say so on a page in another.
+- 2026-10-21: review fixes: write-ups store and return their language; a by-hand result's recap uses only what was entered; three attempts in all.

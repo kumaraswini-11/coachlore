@@ -134,9 +134,11 @@ None.
 
 1. **Owner: Vercel.** Sign in to Vercel with GitHub as `kumaraswini-11`,
    import the repository, name the project `coachlore`, set Root Directory
-   to `apps/web`, keep the detected settings, and set the Ignored Build Step
-   above. Done when the first production deploy is live and its address is
-   known.
+   to `apps/web`, keep the detected settings, make sure Environment
+   Variables → "Automatically expose System Environment Variables" is on
+   (the address helper reads them), and set the Ignored Build Step above.
+   Done when the first production deploy is live and test 1 (the production
+   canonical link and `og:url`) passes against it.
 2. **Tests and the address helper.** Vitest (its version in the workspace
    catalog) in `apps/web`, a `test` task in `turbo.json`, a root `test`
    script and a `bun run test` step in CI: the repository's first tests.

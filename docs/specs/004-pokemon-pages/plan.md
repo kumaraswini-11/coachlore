@@ -61,7 +61,7 @@ type FormDetail = {
     game: string
     moves: {
       move: string
-      method: "level" | "machine" | "egg" | "tutor"
+      method: "level" | "machine" | "egg" | "tutor" | "other" // spec 002's LearnMethod; "other" shown as "Other"
       level?: number
     }[]
   }[]
@@ -116,24 +116,38 @@ None.
 
 None.
 
+## Form addresses
+
+`/dex/[pokemon]/[form]`'s `[form]` is the form key without its Pokémon's
+key and hyphen: `/dex/rotom/wash` → `rotom-wash`. `formFromSlug(pokemon,
+slug)` in `packages/dex` builds the key, then checks that the form exists
+and belongs to that Pokémon; `generateStaticParams` lists exactly these
+pairs with `dynamicParams = false`, so an unknown slug (`/dex/rotom/wet`)
+or a form under the wrong Pokémon is a 404. The default form has no slug
+page: `/dex/rotom/rotom` redirects to `/dex/rotom`.
+
 ## Decisions
 
-None new: everything here follows ADR 0006 and specs 002 and 003.
+| Item         | Options                                                                                                   | Decision                                                                                                                                                                                                                                                           |
+| ------------ | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Build budget | Vercel: "The maximum duration of the Build Step is 45 minutes" ([limits](https://vercel.com/docs/limits)) | 15 minutes, a third of the limit. If it's exceeded, moves and abilities render on first request and are cached, as Vercel's limits page suggests ("pre-render a subset of the total number of pages at build time"), while Pokémon and form pages stay built ahead |
+
+Everything else follows ADR 0006 and specs 002 and 003.
 
 ## Tests
 
-| Acceptance criterion | Test                                                                                                                                                                                                                                                              |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1                    | `apps/web/e2e/dex-pages.spec.ts`: a sample of form, move and ability pages load; an unknown key returns 404. A build check counts generated pages against the dataset                                                                                             |
-| 2                    | `packages/dex/src/hand-checked.test.ts`: the ten forms' expected values, typed in from the games' published data, compared with the dataset                                                                                                                       |
-| 3                    | `packages/dex/src/matchups.test.ts`: the chart against a fixed table; dual types as products                                                                                                                                                                      |
-| 4                    | `apps/web/e2e/dex-pages.spec.ts` with a fixture form missing encounters, usage and an evolution method                                                                                                                                                            |
-| 5                    | `e2e/dex-performance.spec.ts` (spec 003's), extended to a form's page; LCP element is the artwork                                                                                                                                                                 |
-| 6                    | `e2e/a11y.spec.ts`, extended to these pages; keyboard paths for tabs, switcher, prev/next, sorting                                                                                                                                                                |
-| 7                    | `e2e/search-palette.spec.ts`, extended                                                                                                                                                                                                                            |
-| 9                    | `e2e/dex-pages.spec.ts` in `hi`: Hindi labels and evolution methods, English names, `lang="en"` on entries and effects; `packages/dex/src/evolution.test.ts` returns data, and `apps/web/lib/i18n/evolution.test.ts` words every method kind in both dictionaries |
-| 8                    | `e2e/offline.spec.ts`, extended to a visited form and move page                                                                                                                                                                                                   |
-| 10                   | The production build on Vercel, timed from its log; `scripts/count-pages.ts` counts the generated pages per language and sums the output size; both recorded in the pull request. Fails the task if the build takes more than 15 minutes                          |
+| Acceptance criterion | Test                                                                                                                                                                                                                                                                                                                       |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                    | `apps/web/e2e/dex-pages.spec.ts`: a sample of form, move and ability pages load; an unknown key returns 404; `/dex/rotom/wash` shows Rotom-Wash, `/dex/rotom/wet` and `/dex/pikachu/wash` return 404. `packages/dex/src/form-slug.test.ts` covers `formFromSlug`. A build check counts generated pages against the dataset |
+| 2                    | `packages/dex/src/hand-checked.test.ts`: the ten forms' expected values, typed in from the games' published data, compared with the dataset                                                                                                                                                                                |
+| 3                    | `packages/dex/src/matchups.test.ts`: the chart against a fixed table; dual types as products                                                                                                                                                                                                                               |
+| 4                    | `apps/web/e2e/dex-pages.spec.ts` with a fixture form missing encounters, usage and an evolution method                                                                                                                                                                                                                     |
+| 5                    | `e2e/dex-performance.spec.ts` (spec 003's), extended to a form's page; LCP element is the artwork                                                                                                                                                                                                                          |
+| 6                    | `e2e/a11y.spec.ts`, extended to these pages; keyboard paths for tabs, switcher, prev/next, sorting                                                                                                                                                                                                                         |
+| 7                    | `e2e/search-palette.spec.ts`, extended                                                                                                                                                                                                                                                                                     |
+| 9                    | `e2e/dex-pages.spec.ts` in `hi`: Hindi labels and evolution methods, English names, `lang="en"` on entries and effects; `packages/dex/src/evolution.test.ts` returns data, and `apps/web/lib/i18n/evolution.test.ts` words every method kind in both dictionaries                                                          |
+| 8                    | `e2e/offline.spec.ts`, extended to a visited form and move page                                                                                                                                                                                                                                                            |
+| 10                   | The production build on Vercel, timed from its log; `scripts/count-pages.ts` counts the generated pages per language and sums the output size; both recorded in the pull request. Fails the task if the build takes more than 15 minutes                                                                                   |
 
 ## Tasks
 
