@@ -96,6 +96,10 @@ stackFrameVariables: false }`, as
   (ADR 0003).
 - **Source maps:** uploaded at build with `SENTRY_AUTH_TOKEN`, then deleted
   from the build output, so the browser never gets them.
+- **Placeholders count as unset:** `.env.example` shows required values as
+  `<placeholder>`, so a value still in angle brackets (a copied file not yet
+  filled in) is treated as unset: no reporting without a real DSN, and no
+  source-map upload without a real token. A test covers both.
 - **Environments:** `VERCEL_ENV` is the Sentry environment (`production`,
   `preview`, `development`); nothing is sent in development unless the DSN
   is set locally.
