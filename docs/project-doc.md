@@ -2,7 +2,7 @@
 
 | Status | Owner             | Last updated |
 | ------ | ----------------- | ------------ |
-| Draft  | Aswini Kumar Sahu | 2026-10-20   |
+| Draft  | Aswini Kumar Sahu | 2026-10-21   |
 
 The product decisions behind this build, written before it starts, with the reasoning attached. The reasoning matters more than the decision: you'll hit forks this doesn't cover, and you'll need to know which way the thinking was leaning.
 
@@ -20,13 +20,13 @@ Where a model helps, it explains: it turns a question into filters, explains why
 
 ## The problem
 
-**For draft leagues:** they run on spreadsheets and Discord. A commissioner keeps a sheet of tiers and points, a sheet of rosters, a sheet of the schedule, and copies every result in by hand. The draft itself happens in a Discord channel, one message per pick, with someone checking by eye that nobody took a Pokémon twice or went over budget. It works because commissioners are patient. It breaks when they're busy, and every league rebuilds the same sheets from scratch.
+**For draft leagues:** they run on spreadsheets and Discord. An admin (what the community calls a commissioner) keeps a sheet of tiers and points, a sheet of rosters, a sheet of the schedule, and copies every result in by hand. The draft itself happens in a Discord channel, one message per pick, with someone checking by eye that nobody took a Pokémon twice or went over budget. It works because commissioners are patient. It breaks when they're busy, and every league rebuilds the same sheets from scratch.
 
 **For everyone else:** the good Pokédex sites are dense, desktop-first and carry ads that cover the content; the competitive tools are hard to use on a phone. Finding "where do I catch this in my game" or "what does my team lose to" means three tabs and some arithmetic in your head.
 
 ## Who it's for
 
-**A draft league commissioner and their coaches.** Eight to sixteen friends, organised on Discord, playing one match a week. The commissioner wants the league to run itself; the coaches want the draft to feel like an event and the standings to be right without anyone typing them in.
+**A draft league's admin and its coaches.** Eight to sixteen friends, organised on Discord, playing one match a week. The admin wants the league to run itself; the coaches want the draft to feel like an event and the standings to be right without anyone typing them in.
 
 **Anyone who plays the games,** on their phone, mid-game, wanting one answer fast.
 
@@ -43,7 +43,7 @@ How we'll know it worked:
 
 And, because this is a personal project built to learn:
 
-- **The hard parts are built for real and written up:** real-time with fairness under concurrency, a state machine, background jobs that retry safely, data imported on a schedule, and AI held to the data by checks and an evaluation. Each with tests and a short note on what it took.
+- **The hard parts are built for real and written up:** real-time with fairness under concurrency, a state machine, background jobs that retry safely, data imported from pinned sources and refreshed by commit, and AI held to the data by checks and an evaluation. Each with tests and a short note on what it took.
 
 ## Why this, and why now
 
@@ -64,7 +64,7 @@ Each was weighed in the research, and each could reasonably have been the projec
 
 ## Appetite
 
-Part-time, about twelve weeks for the first version: eight for the Dex, Leagues and the draft room, four for the AI features and polish. Time is fixed and scope is not: when something takes longer than planned, the feature shrinks, the deadline doesn't move.
+A personal project, so nothing here is estimated in time: no weeks, no deadlines. The plan is the order of the [specs](specs/README.md): each spec is finished when its acceptance criteria pass, and the next one starts. Scope is what moves: when a feature grows, it shrinks back to what its spec needs, and quality (the rules below, accessibility, tests) doesn't. The order protects Leagues: the Dex comes first because Leagues stand on its data, and the AI comes last because everything works without it.
 
 ## The rules everything rests on
 
@@ -72,7 +72,7 @@ Part-time, about twelve weeks for the first version: eight for the Dex, Leagues 
 
 The reason: a league runs on trust. If a recap says a Pokémon got three KOs and it got two, or a suggestion names a Pokémon the league banned, every number on the page becomes a maybe. So every Pokémon, move or ability an answer names is checked against the data before it's shown, and the app works with the AI turned off.
 
-**The server decides the draft.** Whose turn it is, whether a pick is allowed, and what's been taken are decided in one place, by the server, and a Pokémon can be taken once per league. The interface shows the draft; it never decides it. A draft that lets two coaches take the same Pokémon, even once, has failed at the one thing it's for.
+**The server decides the draft.** Whose turn it is, whether a pick is allowed, and what's been taken are decided in one place, by the server, and a Pokémon can be taken once per season. The interface shows the draft; it never decides it. A draft that lets two coaches take the same Pokémon, even once, has failed at the one thing it's for.
 
 **Pokémon belongs to others.** Coachlore is an independent, unofficial, non-commercial project: no ads, no paid tiers, no app-store app, as few official images as possible, a clear notice that it isn't affiliated, and no scraping of game servers. Pressure to break this will come from wanting the app to look more official. It's refused.
 
@@ -80,9 +80,10 @@ The reason: a league runs on trust. If a recap says a Pokémon got three KOs and
 
 - **The Dex:** browse and filter every Pokémon (type, weakness, game, generation, ability, stats), a page for each, moves and abilities, a type chart, a game's own Pokédex, and a team checker.
 - **Plain-language search,** turned into filters the user can see and edit.
+- **English and Hindi,** with every screen built so that more languages, right-to-left ones included, can be added without redesigning it ([ADR 0007](adr/0007-languages-and-right-to-left.md)).
 - **Offline Dex and mobile first:** every screen designed at phone width first.
 - **Sign-in with Discord,** for identity only; the Dex never needs it.
-- **Leagues:** creation, invitations, roles (admin, coach, viewer), rules, and a points-based tier list.
+- **Leagues:** creation, invitations, roles (coach or viewer; any member may be an admin), rules, and a points-based tier list.
 - **The live draft room:** snake or linear order, a timer, a wishlist with auto-pick, every pick seen by everyone at once, and reconnection that catches up from the server.
 - **The season:** a schedule, results read from Showdown replays and confirmed by both coaches, trades with approval, standings and stats.
 - **A Discord bot** that posts picks, results, trades and reminders.
@@ -108,11 +109,11 @@ No stack and no folder names here; those are recorded as decisions. These are co
 
 **The core is isolated and framework-agnostic.** The league rules (draft order, points, trade validation, standings), the Pokémon data model and the battle-log parser are plain code: no web framework, no interface, no storage. Each must run from a plain script and be tested on its own. If one can't, the layering is wrong.
 
-**Pokémon data is ours once it's imported.** Public data is imported into our own database on a schedule, never fetched from its source while a page loads. That keeps the Dex fast, keeps us within the source's fair use, and lets a gap for a new game be filled by hand.
+**Pokémon data is ours once it's imported.** Public data is imported into our own dataset from a pinned copy of each source, and refreshed when a source updates, by a commit like any other; it's never fetched from its source while a page loads. That keeps the Dex fast and working offline, keeps us within the source's fair use, makes every change to the data reviewable, and lets a gap for a new game be filled by hand. How: [ADR 0006](adr/0006-architecture-and-stack.md).
 
 **A Pokémon and a form are different things.** Rotom and Rotom-Wash are one species and two forms with different types, stats and tiers, and leagues draft forms. The data model gets this right from the start, because everything (search, tier lists, rosters, stats) depends on it.
 
-**The draft is a state machine on the server.** Each pick is a transaction that checks the turn, the points and availability, and the database enforces "one Pokémon, once, per league". The room is told about each pick after it's stored, never before. A coach who reconnects asks the server for the state; the browser never guesses it.
+**The draft is a state machine on the server.** Each pick is a transaction that checks the turn, the points and availability, and the database enforces "one Pokémon, once, per season". The room is told about each pick after it's stored, never before. A coach who reconnects asks the server for the state; the browser never guesses it.
 
 **Results come from the battle log.** A Showdown replay is downloaded once, kept, and parsed by code into the score, each Pokémon's KOs and faints, and the winner. Both coaches confirm. Typing a result by hand stays possible, and says so.
 
@@ -190,16 +191,18 @@ Not "it looks right". Specifics:
 - On a mid-range phone, the Dex meets Core Web Vitals' "good" thresholds, and every page passes WCAG 2.2 AA.
 - Every page carries the not-affiliated notice and credits.
 
-## Open questions
+## Answered questions
 
-Answered in the spec that needs them, then moved into this document's text:
+Each was open when this document was written; the spec that needed it answered it, with the owner able to change the answer (the [specs' defaults](specs/README.md#defaults-for-the-owners-calls)):
 
-- Which games and formats the first version supports: the current generation only, or older ones too.
-- How a KO is credited when no move caused it (poison, weather, recoil, a forfeit).
-- Whether a league's pages can be public, and what a visitor may see.
-- Whether the season has playoffs in the first version.
-- How long a finished league's data is kept.
+- **Games and formats.** The Dex covers every Pokémon and game in the data. Leagues play Generation 9 singles or doubles on Showdown; a season lists the Showdown format IDs it allows ([spec 002](specs/002-pokemon-data/spec.md), [spec 007](specs/007-leagues/spec.md)).
+- **A KO no move caused** (poison, weather, recoil, a forfeit). Direct and passive KOs are counted separately; a passive KO goes to the Pokémon whose effect caused it when the log names it; otherwise the faint counts with no KO; a forfeit or a loss on time credits no KOs ([spec 009](specs/009-season/spec.md), rule 15).
+- **Public league pages.** Not in the first version: a league is private to its members, and anyone else gets "not found" ([spec 007](specs/007-leagues/spec.md)).
+- **Playoffs.** Not in the first version; standings are final when the last week is confirmed ([spec 009](specs/009-season/spec.md)).
+- **How long a league's data is kept.** Until an admin deletes the league. A deleted account shows as "A former coach" in its leagues' history ([spec 006](specs/006-accounts/spec.md), [spec 009](specs/009-season/spec.md)).
 
 ## Changes
 
 - 2026-10-20: first draft.
+- 2026-10-21: no time estimates ("Appetite"); Pokémon data imported into our own dataset from pinned sources, not a database on a schedule ("How it works").
+- 2026-10-21: the audit: a Pokémon is taken once per season; roles are coach or viewer, with admin as a flag; the open questions answered ("Answered questions").
