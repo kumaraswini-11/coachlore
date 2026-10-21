@@ -8,6 +8,7 @@ import { cn } from "@workspace/ui/lib/utils"
 import { SearchButton } from "@/components/search/search-button"
 import { DisplayMenu } from "@/components/shell/display-menu"
 import { LanguageLinks } from "@/components/shell/language-links"
+import { LogoMark } from "@/components/shell/logo-mark"
 import { endonym, otherLocales } from "@/i18n/locales"
 import { localeHref } from "@/i18n/paths"
 import { routing } from "@/i18n/routing"
@@ -48,8 +49,9 @@ async function AppShell({ children }: { children: React.ReactNode }) {
         <Link
           href={localeHref(locale, "/")}
           aria-label={t("home")}
-          className="inline-flex min-h-11 items-center text-base font-semibold"
+          className="inline-flex min-h-11 items-center gap-2 text-base font-semibold"
         >
+          <LogoMark className="size-6" />
           {SITE.name}
         </Link>
         <div className="ms-auto flex items-center gap-2">

@@ -1,0 +1,1099 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coachlore logo concepts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --page: #f4f4f5;
+        --card: #ffffff;
+        --ink: #18181b;
+        --muted: #71717a;
+        --line: #e4e4e7;
+        --light-tile: #ffffff;
+        --dark-tile: #0c0c0e;
+        --dark-ink: #fafafa;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+        font-family: Inter, system-ui, sans-serif;
+      }
+      main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 0 0 4px;
+        letter-spacing: -0.02em;
+      }
+      .lead {
+        color: var(--muted);
+        margin: 0 0 28px;
+        max-width: 70ch;
+        line-height: 1.5;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(540px, 1fr));
+        gap: 20px;
+      }
+      @media (max-width: 600px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 20px;
+      }
+      .card h2 {
+        margin: 0;
+        font-size: 18px;
+        letter-spacing: -0.01em;
+      }
+      .card .tag {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 2px 8px;
+        border-radius: 99px;
+        background: #18181b;
+        color: #fff;
+        margin-left: 6px;
+        vertical-align: 2px;
+      }
+      .card p {
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.5;
+        margin: 6px 0 16px;
+      }
+      .hero {
+        display: flex;
+        gap: 12px;
+      }
+      .hero > div {
+        flex: 1;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        height: 132px;
+      }
+      .on-light {
+        background: var(--light-tile);
+        color: var(--ink);
+        border: 1px solid var(--line);
+      }
+      .on-dark {
+        background: var(--dark-tile);
+        color: var(--dark-ink);
+      }
+      .mark-xl {
+        width: 88px;
+        height: 88px;
+      }
+      .lockup {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .lockup svg {
+        width: 36px;
+        height: 36px;
+      }
+      .word {
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: -0.035em;
+      }
+      .row {
+        display: flex;
+        gap: 12px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+      }
+      .sizes {
+        flex: 1;
+        min-width: 220px;
+        border-radius: 12px;
+        padding: 12px;
+        display: flex;
+        align-items: flex-end;
+        gap: 14px;
+      }
+      .sizes figure {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        font-size: 10px;
+        color: inherit;
+        opacity: 0.9;
+      }
+      .s16 {
+        width: 16px;
+        height: 16px;
+      }
+      .s24 {
+        width: 24px;
+        height: 24px;
+      }
+      .s32 {
+        width: 32px;
+        height: 32px;
+      }
+      .s48 {
+        width: 48px;
+        height: 48px;
+      }
+      .icons {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      .app {
+        width: 64px;
+        height: 64px;
+        border-radius: 15px;
+        background: #18181b;
+        color: #fff;
+        display: grid;
+        place-items: center;
+      }
+      .app svg {
+        width: 40px;
+        height: 40px;
+      }
+      .mask {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: #18181b;
+        color: #fff;
+        display: grid;
+        place-items: center;
+      }
+      .mask svg {
+        width: 34px;
+        height: 34px;
+      }
+      .label {
+        font-size: 11px;
+        color: var(--muted);
+        text-align: center;
+        margin-top: 4px;
+      }
+      .leagues {
+        display: flex;
+        gap: 10px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+      }
+      .leagues svg {
+        width: 44px;
+        height: 44px;
+      }
+      .leagues div {
+        text-align: center;
+        font-size: 11px;
+        color: var(--muted);
+      }
+      .pick {
+        margin-top: 28px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        padding: 20px;
+        line-height: 1.55;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <!-- 1. Playbook: an open book (the lore) with one play drawn across
+             its pages, a start and an arrow, as in a coach's playbook -->
+        <symbol id="playbook" viewBox="0 0 24 24">
+          <path
+            d="M12 6.25C9.75 4.75 6.75 4.25 2.75 4.5v14c4-.25 7 .25 9.25 1.75 2.25-1.5 5.25-2 9.25-1.75v-14c-4-.25-7 .25-9.25 1.75z"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M7.25 14.25C9 10 14 9.25 16.5 11.75"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+          />
+          <path
+            d="M14 11.5 16.75 12 17 9.25"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="6.5" cy="15" r="1.5" fill="currentColor" />
+        </symbol>
+
+        <!-- 2. C monogram: a C whose end is the first pick -->
+        <symbol id="c-mono" viewBox="0 0 24 24">
+          <path
+            d="M18 6.5A8.25 8.25 0 1 0 18 17.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="3.5"
+            stroke-linecap="round"
+          />
+          <circle cx="18" cy="6.5" r="2.4" fill="currentColor" />
+        </symbol>
+
+        <!-- 3. Coach's clipboard: the coach's board, with the draft order -->
+        <symbol id="clipboard" viewBox="0 0 24 24">
+          <rect
+            x="4"
+            y="4.5"
+            width="16"
+            height="17.5"
+            rx="3"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <rect
+            x="8.5"
+            y="2"
+            width="7"
+            height="4.5"
+            rx="1.5"
+            fill="currentColor"
+          />
+          <path
+            d="M9.75 10.5h4.75a1.75 1.75 0 0 1 0 3.5H9.5a1.75 1.75 0 0 0 0 3.5h5.75"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="8" cy="10.5" r="1.35" fill="currentColor" />
+        </symbol>
+
+        <!-- 4. Snake board: the snake-draft order inside a board -->
+        <symbol id="snake-board" viewBox="0 0 24 24">
+          <rect
+            x="2"
+            y="2"
+            width="20"
+            height="20"
+            rx="5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M8.5 7.5H15.25a2.25 2.25 0 0 1 0 4.5H8.75a2.25 2.25 0 0 0 0 4.5H16.5"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="7" cy="7.5" r="1.75" fill="currentColor" />
+        </symbol>
+
+        <!-- 5. League crest: a club badge, the shape each league's own badge
+             takes -->
+        <symbol id="crest" viewBox="0 0 24 24">
+          <path
+            d="M12 1.75 20.5 4.75v6.5c0 5.4-3.6 9.2-8.5 11-4.9-1.8-8.5-5.6-8.5-11v-6.5z"
+            style="fill: var(--crest, currentColor)"
+          />
+          <path
+            d="M9 8.25h5.5a1.875 1.875 0 0 1 0 3.75H9.5a1.875 1.875 0 0 0 0 3.75H15"
+            fill="none"
+            style="stroke: var(--on-crest, #fff)"
+            stroke-width="1.9"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle
+            cx="7.6"
+            cy="8.25"
+            r="1.4"
+            style="fill: var(--on-crest, #fff)"
+          />
+        </symbol>
+        <symbol id="crest-blank" viewBox="0 0 24 24">
+          <path
+            d="M12 1.75 20.5 4.75v6.5c0 5.4-3.6 9.2-8.5 11-4.9-1.8-8.5-5.6-8.5-11v-6.5z"
+            style="fill: var(--crest, currentColor)"
+          />
+        </symbol>
+      </defs>
+    </svg>
+
+    <main>
+      <h1>Coachlore logo concepts</h1>
+      <p class="lead">
+        One thing to see before judging: the snake-draft path, shared by marks 3
+        to 5, reads as the digit "2" at small sizes, so the two marks meant to
+        be Coachlore's own (1 and 2) don't use it.
+      </p>
+      <p class="lead">
+        The name, from ADR 0005: in a draft league the players are coaches, and
+        lore is what a coach knows, every Pokémon, move and matchup (the Dex)
+        and the league's history of picks, trades and replays. So the marks say
+        "coach", "lore" or both, with the snake-draft order as the shared motif.
+        Each is shown large, as a lockup with the name, at the real favicon
+        sizes (16 to 48 px) on light and dark, and as an app icon and a maskable
+        (circle-cropped) icon. Every mark is one colour, drawn on a 24 × 24 grid
+        like the app's Lucide icons, so it follows the theme. The app's icon
+        today (apps/web/app/icon.svg, a 3 × 3 draft grid) is a placeholder. No
+        mark is round with a band across it: that reads as a Poké Ball, and
+        AGENTS.md keeps "Poké" out of the name and the logo.
+      </p>
+
+      <div class="grid">
+        <section class="card">
+          <h2>1 · Playbook <span class="tag">Recommended</span></h2>
+          <p>
+            An open book with one play drawn across its pages: where it starts,
+            and an arrow to where it goes, as in a coach's playbook. The name in
+            one object: the coach, and the lore they keep. The book reads at 16
+            px; the play shows from 24 px.
+          </p>
+          <div class="hero">
+            <div class="on-light">
+              <svg class="mark-xl"><use href="#playbook" /></svg>
+            </div>
+            <div class="on-dark">
+              <div class="lockup">
+                <svg><use href="#playbook" /></svg
+                ><span class="word">Coachlore</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sizes on-light">
+              <figure>
+                <svg class="s16"><use href="#playbook" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#playbook" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#playbook" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#playbook" /></svg>48
+              </figure>
+            </div>
+            <div class="sizes on-dark">
+              <figure>
+                <svg class="s16"><use href="#playbook" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#playbook" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#playbook" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#playbook" /></svg>48
+              </figure>
+            </div>
+            <div class="icons">
+              <div>
+                <div class="app">
+                  <svg><use href="#playbook" /></svg>
+                </div>
+                <div class="label">App icon</div>
+              </div>
+              <div>
+                <div class="mask">
+                  <svg><use href="#playbook" /></svg>
+                </div>
+                <div class="label">Maskable</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>2 · C monogram</h2>
+          <p>
+            A heavy C whose end is the first pick. The most legible at 16 px and
+            the most ownable, the way an initial is; it says less of "coach" and
+            "lore" than the Playbook does.
+          </p>
+          <div class="hero">
+            <div class="on-light">
+              <svg class="mark-xl"><use href="#c-mono" /></svg>
+            </div>
+            <div class="on-dark">
+              <div class="lockup">
+                <svg><use href="#c-mono" /></svg
+                ><span class="word">Coachlore</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sizes on-light">
+              <figure>
+                <svg class="s16"><use href="#c-mono" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#c-mono" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#c-mono" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#c-mono" /></svg>48
+              </figure>
+            </div>
+            <div class="sizes on-dark">
+              <figure>
+                <svg class="s16"><use href="#c-mono" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#c-mono" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#c-mono" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#c-mono" /></svg>48
+              </figure>
+            </div>
+            <div class="icons">
+              <div>
+                <div class="app">
+                  <svg><use href="#c-mono" /></svg>
+                </div>
+                <div class="label">App icon</div>
+              </div>
+              <div>
+                <div class="mask">
+                  <svg><use href="#c-mono" /></svg>
+                </div>
+                <div class="label">Maskable</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>3 · Coach's clipboard</h2>
+          <p>
+            A coach's clipboard with the draft order on it. Says "coach" plainly
+            and is easy to recognise, but it says nothing of the lore, and
+            clipboards are a common icon for lists and tasks.
+          </p>
+          <div class="hero">
+            <div class="on-light">
+              <svg class="mark-xl"><use href="#clipboard" /></svg>
+            </div>
+            <div class="on-dark">
+              <div class="lockup">
+                <svg><use href="#clipboard" /></svg
+                ><span class="word">Coachlore</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sizes on-light">
+              <figure>
+                <svg class="s16"><use href="#clipboard" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#clipboard" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#clipboard" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#clipboard" /></svg>48
+              </figure>
+            </div>
+            <div class="sizes on-dark">
+              <figure>
+                <svg class="s16"><use href="#clipboard" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#clipboard" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#clipboard" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#clipboard" /></svg>48
+              </figure>
+            </div>
+            <div class="icons">
+              <div>
+                <div class="app">
+                  <svg><use href="#clipboard" /></svg>
+                </div>
+                <div class="label">App icon</div>
+              </div>
+              <div>
+                <div class="mask">
+                  <svg><use href="#clipboard" /></svg>
+                </div>
+                <div class="label">Maskable</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>4 · Snake board</h2>
+          <p>
+            A board with the snake-draft order running through it, the dot the
+            first pick. Clear at every size and true to the draft, but it would
+            fit any draft tool: nothing in it is Coachlore's own.
+          </p>
+          <div class="hero">
+            <div class="on-light">
+              <svg class="mark-xl"><use href="#snake-board" /></svg>
+            </div>
+            <div class="on-dark">
+              <div class="lockup">
+                <svg><use href="#snake-board" /></svg
+                ><span class="word">Coachlore</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sizes on-light">
+              <figure>
+                <svg class="s16"><use href="#snake-board" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#snake-board" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#snake-board" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#snake-board" /></svg>48
+              </figure>
+            </div>
+            <div class="sizes on-dark">
+              <figure>
+                <svg class="s16"><use href="#snake-board" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#snake-board" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#snake-board" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#snake-board" /></svg>48
+              </figure>
+            </div>
+            <div class="icons">
+              <div>
+                <div class="app">
+                  <svg><use href="#snake-board" /></svg>
+                </div>
+                <div class="label">App icon</div>
+              </div>
+              <div>
+                <div class="mask">
+                  <svg><use href="#snake-board" /></svg>
+                </div>
+                <div class="label">Maskable</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h2>5 · League crest, for each league</h2>
+          <p>
+            A sports crest. Better as a system than as the product's logo: every
+            league gets its own badge from the same shape, in its own colour
+            with its initials (spec 001 leaves uploaded logos out: "a colour and
+            initials do the job"). The product's mark sits beside it.
+          </p>
+          <div class="hero">
+            <div class="on-light">
+              <svg class="mark-xl"><use href="#crest" /></svg>
+            </div>
+            <div class="on-dark" style="--on-crest: #0c0c0e">
+              <div class="lockup">
+                <svg><use href="#crest" /></svg
+                ><span class="word">Coachlore</span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="sizes on-light">
+              <figure>
+                <svg class="s16"><use href="#crest" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#crest" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#crest" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#crest" /></svg>48
+              </figure>
+            </div>
+            <div class="sizes on-dark" style="--on-crest: #0c0c0e">
+              <figure>
+                <svg class="s16"><use href="#crest" /></svg>16
+              </figure>
+              <figure>
+                <svg class="s24"><use href="#crest" /></svg>24
+              </figure>
+              <figure>
+                <svg class="s32"><use href="#crest" /></svg>32
+              </figure>
+              <figure>
+                <svg class="s48"><use href="#crest" /></svg>48
+              </figure>
+            </div>
+            <div class="icons">
+              <div>
+                <div class="app" style="--on-crest: #18181b">
+                  <svg style="color: #fff"><use href="#crest" /></svg>
+                </div>
+                <div class="label">App icon</div>
+              </div>
+              <div>
+                <div class="mask" style="--on-crest: #18181b">
+                  <svg style="color: #fff"><use href="#crest" /></svg>
+                </div>
+                <div class="label">Maskable</div>
+              </div>
+            </div>
+          </div>
+          <div class="leagues">
+            <div>
+              <svg viewBox="0 0 24 24" style="--crest: #2563eb">
+                <use href="#crest-blank" />
+                <text
+                  x="12"
+                  y="14.25"
+                  text-anchor="middle"
+                  font-size="7.5"
+                  font-weight="700"
+                  fill="#fff"
+                  font-family="Inter, sans-serif"
+                >
+                  KC
+                </text></svg
+              ><br />Kanto Cup
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" style="--crest: #dc2626">
+                <use href="#crest-blank" />
+                <text
+                  x="12"
+                  y="14.25"
+                  text-anchor="middle"
+                  font-size="7.5"
+                  font-weight="700"
+                  fill="#fff"
+                  font-family="Inter, sans-serif"
+                >
+                  FV
+                </text></svg
+              ><br />Friday VGC
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" style="--crest: #16a34a">
+                <use href="#crest-blank" />
+                <text
+                  x="12"
+                  y="14.25"
+                  text-anchor="middle"
+                  font-size="7.5"
+                  font-weight="700"
+                  fill="#fff"
+                  font-family="Inter, sans-serif"
+                >
+                  UL
+                </text></svg
+              ><br />Uni League
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" style="--crest: #9333ea">
+                <use href="#crest-blank" />
+                <text
+                  x="12"
+                  y="14.25"
+                  text-anchor="middle"
+                  font-size="7.5"
+                  font-weight="700"
+                  fill="#fff"
+                  font-family="Inter, sans-serif"
+                >
+                  ND
+                </text></svg
+              ><br />Night Draft
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" style="--crest: #ea580c">
+                <use href="#crest-blank" />
+                <text
+                  x="12"
+                  y="14.25"
+                  text-anchor="middle"
+                  font-size="7.5"
+                  font-weight="700"
+                  fill="#fff"
+                  font-family="Inter, sans-serif"
+                >
+                  OC
+                </text></svg
+              ><br />Office Cup
+            </div>
+            <div>
+              <svg viewBox="0 0 24 24" style="--crest: #0891b2">
+                <use href="#crest-blank" />
+                <text
+                  x="12"
+                  y="14.25"
+                  text-anchor="middle"
+                  font-size="7.5"
+                  font-weight="700"
+                  fill="#fff"
+                  font-family="Inter, sans-serif"
+                >
+                  D3
+                </text></svg
+              ><br />Discord #3
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="pick">
+        <strong>The recommendation:</strong> the <strong>Playbook</strong> as
+        Coachlore's mark, since it's the only one that carries the whole name,
+        with the <strong>C monogram</strong> as the alternative if the 16 px tab
+        icon matters most. The <strong>League crest</strong> is each league's
+        badge either way: one is the product, the other every league inside it.
+        Judge them at 16 px first (the browser tab), then the app icon (a
+        phone's home screen), then the big one: a logo that only works big isn't
+        the one.
+      </div>
+
+      <h1 style="margin-top: 40px">Ready-made SVG icons, free to use</h1>
+      <p class="lead">
+        Each opens its SVG file. Good as placeholders or as a starting point to
+        customise; used as they are, they're the same icons thousands of other
+        sites use, so they won't be uniquely yours.
+      </p>
+      <style>
+        .lib {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+          gap: 12px;
+          margin-bottom: 20px;
+        }
+        .lib a {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+          padding: 14px 8px;
+          background: var(--card);
+          border: 1px solid var(--line);
+          border-radius: 12px;
+          color: var(--ink);
+          text-decoration: none;
+          font-size: 12px;
+          text-align: center;
+        }
+        .lib a:hover {
+          border-color: var(--ink);
+        }
+        .lib img {
+          width: 48px;
+          height: 48px;
+        }
+        .lib small {
+          color: var(--muted);
+        }
+        h3 {
+          font-size: 15px;
+          margin: 18px 0 8px;
+        }
+      </style>
+
+      <h3>Lucide (ISC licence; the icons this app already uses)</h3>
+      <div class="lib">
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/route.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/route.svg"
+            alt=""
+          />route<small>a winding path between two points</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/waypoints.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/waypoints.svg"
+            alt=""
+          />waypoints</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/list-ordered.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/list-ordered.svg"
+            alt=""
+          />list-ordered<small>pick order</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/book-open.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/book-open.svg"
+            alt=""
+          />book-open<small>the lore</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/notebook-pen.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/notebook-pen.svg"
+            alt=""
+          />notebook-pen<small>a coach's notes</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/clipboard-list.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/clipboard-list.svg"
+            alt=""
+          />clipboard-list<small>the coach</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/grid-3x3.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/grid-3x3.svg"
+            alt=""
+          />grid-3x3<small>the board</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/layout-grid.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/layout-grid.svg"
+            alt=""
+          />layout-grid</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/shield.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/shield.svg"
+            alt=""
+          />shield<small>crest base</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/shield-half.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/shield-half.svg"
+            alt=""
+          />shield-half</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/trophy.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/trophy.svg"
+            alt=""
+          />trophy</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/medal.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/medal.svg"
+            alt=""
+          />medal</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/crown.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/crown.svg"
+            alt=""
+          />crown</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/swords.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@latest/icons/swords.svg"
+            alt=""
+          />swords<small>a match</small></a
+        >
+      </div>
+
+      <h3>Tabler (MIT licence)</h3>
+      <div class="lib">
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/tournament.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/tournament.svg"
+            alt=""
+          />tournament<small>a bracket</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/layout-board.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/layout-board.svg"
+            alt=""
+          />layout-board</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/route.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/route.svg"
+            alt=""
+          />route</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/podium.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/podium.svg"
+            alt=""
+          />podium<small>standings</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/trophy.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/trophy.svg"
+            alt=""
+          />trophy</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/shield-half.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/shield-half.svg"
+            alt=""
+          />shield-half</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/crown.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/icons/outline/crown.svg"
+            alt=""
+          />crown</a
+        >
+      </div>
+
+      <h3>Phosphor (MIT licence)</h3>
+      <div class="lib">
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/path.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/path.svg"
+            alt=""
+          />path</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/ranking.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/ranking.svg"
+            alt=""
+          />ranking<small>standings</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/strategy.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/strategy.svg"
+            alt=""
+          />strategy<small>a coach's plan</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/shield-star.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/shield-star.svg"
+            alt=""
+          />shield-star<small>a crest</small></a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/squares-four.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/squares-four.svg"
+            alt=""
+          />squares-four</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/trophy.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/trophy.svg"
+            alt=""
+          />trophy</a
+        >
+        <a
+          href="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/crown-simple.svg"
+          ><img
+            src="https://cdn.jsdelivr.net/npm/@phosphor-icons/core@latest/assets/regular/crown-simple.svg"
+            alt=""
+          />crown-simple</a
+        >
+      </div>
+
+      <h3>game-icons.net (CC BY 3.0: credit the artist)</h3>
+      <div class="lib">
+        <a
+          href="https://raw.githubusercontent.com/game-icons/icons/master/lorc/laurel-crown.svg"
+          ><img
+            src="https://raw.githubusercontent.com/game-icons/icons/master/lorc/laurel-crown.svg"
+            alt=""
+          />laurel-crown<small>by Lorc</small></a
+        >
+        <a
+          href="https://raw.githubusercontent.com/game-icons/icons/master/delapouite/podium.svg"
+          ><img
+            src="https://raw.githubusercontent.com/game-icons/icons/master/delapouite/podium.svg"
+            alt=""
+          />podium<small>by Delapouite</small></a
+        >
+        <a
+          href="https://raw.githubusercontent.com/game-icons/icons/master/lorc/crossed-swords.svg"
+          ><img
+            src="https://raw.githubusercontent.com/game-icons/icons/master/lorc/crossed-swords.svg"
+            alt=""
+          />crossed-swords<small>by Lorc</small></a
+        >
+        <a
+          href="https://raw.githubusercontent.com/game-icons/icons/master/delapouite/checkered-flag.svg"
+          ><img
+            src="https://raw.githubusercontent.com/game-icons/icons/master/delapouite/checkered-flag.svg"
+            alt=""
+          />checkered-flag<small>by Delapouite</small></a
+        >
+      </div>
+    </main>
+  </body>
+</html>

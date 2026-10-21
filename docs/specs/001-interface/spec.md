@@ -1178,3 +1178,8 @@ From the screens research, left out of v1:
   after the owner asked for a scalable, enterprise-grade set-up. Criterion
   13 now follows the redirect: what's still unmatched gets the
   two-language page.
+- 2026-10-21: the mark is the Playbook (the owner's choice from five
+  concepts): an open book with one play drawn across it, the coach and the
+  lore. It is in `apps/web/app/icon.svg` and the top bar
+  (`components/shell/logo-mark.tsx`); the favicon, touch icon and share
+  image are rendered from it by `packages/playwright-web/scripts/make-icons.mjs`.
