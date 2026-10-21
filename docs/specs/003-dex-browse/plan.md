@@ -49,9 +49,13 @@ other; the "Forms" filter), the games whose Pokédex lists it, and `sprite`
 (`/dex-images/sprites/<form>.webp`, or null). The query string's stat keys
 (`hp` … `spe`) map onto 002's stat names.
 
-Each game's Pokédex (spec 002): its key, name, versions, and the ordered
-list of `{ form, regionalNumber, onlyIn?: version }`, with a flag for
-incomplete data.
+Each game's Pokédexes (spec 002): its key, name, versions, and each of its
+Pokédexes in the game's order, with the ordered list of
+`{ form, regionalNumber, onlyIn?: version }`, and a flag for incomplete
+data. `/games/[game]` shows them on one page, a section per Pokédex with
+its own numbers (Scarlet and Violet: Paldea, then Kitakami, then
+Blueberry), the owner's call of 2026-10-22. "Browse by game" opens the
+newest game that has a Pokédex in the data.
 
 The query string (all optional; lists are comma-separated):
 

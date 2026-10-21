@@ -124,7 +124,11 @@ type Game = {
   name: string
   generation: number
   versions: { key: string; name: string }[]
-  pokedex: { form: FormKey; regionalNumber: number; onlyIn?: string }[] // in regional order; onlyIn is a version key for a version exclusive
+  pokedexes: {
+    key: string // "kitakami"
+    name: string
+    entries: { form: FormKey; regionalNumber: number; onlyIn?: string }[] // in regional order; onlyIn is a version key for a version exclusive
+  }[] // in the game's order: Paldea, Kitakami, Blueberry
   encountersCovered: boolean
 }
 
@@ -296,12 +300,14 @@ None: the import runs from a command, and its output is committed.
 
 ## Decisions
 
-| Item                    | The repository now              | What the sources say (quoted)                                                                                                                                                                                           | Decision                                                                                                 |
-| ----------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Getting the data        | none                            | PokéAPI: "Locally cache resources whenever you request them" ([docs](https://pokeapi.co/docs/v2)); `api-data` is "a static copy of the JSON data produced by PokeAPI" ([api-data](https://github.com/PokeAPI/api-data)) | One tarball of a pinned `api-data` commit per refresh; the live API is never called                      |
-| Where the dataset lives | none                            | –                                                                                                                                                                                                                       | Committed JSON in `packages/dex/data/`, so builds need no network and refreshes are reviewable diffs     |
-| Images                  | none                            | PokéAPI's sprites: "All image contents within are Copyright The Pokémon Company" ([licence](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt))                                                                | Committed WebP in `apps/web/public/dex-images/`, credited; never hot-linked                              |
-| Core packages           | the follow-ups plan's open item | –                                                                                                                                                                                                                       | `@workspace/eslint-config/core` and `@workspace/typescript-config/core.json`, used by every core package |
+| Item                    | The repository now              | What the sources say (quoted)                                                                                                                                                                                           | Decision                                                                                                                                                  |
+| ----------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Getting the data        | none                            | PokéAPI: "Locally cache resources whenever you request them" ([docs](https://pokeapi.co/docs/v2)); `api-data` is "a static copy of the JSON data produced by PokeAPI" ([api-data](https://github.com/PokeAPI/api-data)) | One tarball of a pinned `api-data` commit per refresh; the live API is never called                                                                       |
+| Where the dataset lives | none                            | –                                                                                                                                                                                                                       | Committed JSON in `packages/dex/data/`, so builds need no network and refreshes are reviewable diffs                                                      |
+| Images                  | none                            | PokéAPI's sprites: "All image contents within are Copyright The Pokémon Company" ([licence](https://github.com/PokeAPI/sprites/blob/master/LICENCE.txt))                                                                | Committed WebP in `apps/web/public/dex-images/`, credited; never hot-linked                                                                               |
+| Core packages           | the follow-ups plan's open item | –                                                                                                                                                                                                                       | `@workspace/eslint-config/core` and `@workspace/typescript-config/core.json`, used by every core package                                                  |
+| Newer games' data       | –                               | The pinned `api-data` has the `legends-za`, `mega-dimension` and `champions` version groups, and Legends Z-A's new Megas                                                                                                | The owner's call (2026-10-22): included, like everything in the pin; the new Megas are battle-only, and `gen9` comes from `@pkmn/dex` as for any form     |
+| Who checks by hand      | –                               | –                                                                                                                                                                                                                       | The owner's call (2026-10-22): Claude records each form from Bulbapedia, a source independent of PokéAPI, noted in `where`; the owner reviews the records |
 
 ## Tasks
 
@@ -309,7 +315,8 @@ None: the import runs from a command, and its output is committed.
    `@workspace/dex` with Vitest, wired into Turborepo's `lint`, `typecheck`
    and `test`.
 2. **The model.** Done: `types.ts` and `type-chart.ts` with its tests.
-3. **Owner: the hand-checked forms.** The file is committed with a blank
+3. **The hand-checked forms** (recorded by Claude, reviewed by the owner;
+   see "Decisions"). The file is committed with a blank
    record for each form in this spec's criterion 1 and spec 004's criterion
    2 (19 records: Charizard's two Megas and Urshifu's two styles are their
    own records). Each record holds types, base stats, abilities and the

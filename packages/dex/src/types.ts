@@ -140,8 +140,16 @@ export type Game = {
   name: string
   generation: number
   versions: { key: string; name: string }[]
-  /** In regional order; `onlyIn` is a version key for a version exclusive. */
-  pokedex: { form: FormKey; regionalNumber: number; onlyIn?: string }[]
+  /**
+   * The game's Pokédexes in its own order (Scarlet and Violet: Paldea,
+   * Kitakami, Blueberry), each in regional order; `onlyIn` is a version
+   * key for a version exclusive.
+   */
+  pokedexes: {
+    key: string
+    name: string
+    entries: { form: FormKey; regionalNumber: number; onlyIn?: string }[]
+  }[]
   encountersCovered: boolean
 }
 
