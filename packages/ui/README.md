@@ -69,6 +69,16 @@ the version pinned in this package's `package.json` (4.21.3 today), not
 bunx --bun shadcn@4.21.3 add <component> -c apps/web
 ```
 
+Two things the CLI does that aren't obvious (seen with 4.21.3):
+
+- **`--dry-run` still changes files:** it deleted `.gitkeep` files in the
+  target folders. Check `git status` after any CLI run, and restore with
+  `git restore --source=HEAD --staged --worktree -- <path>`.
+- **Registry components assume the icon library is installed:** they import
+  `lucide-react` (the `iconLibrary` in `components.json`), but the CLI
+  doesn't add it as a dependency. Keep `lucide-react` in `apps/web` and
+  here, even before anything imports it.
+
 `-c apps/web` runs the CLI in the app's folder, as
 [shadcn's monorepo guide](https://ui.shadcn.com/docs/monorepo) asks.
 Components such as `button` land in `packages/ui/src/components/shadcn-ui`,
