@@ -24,6 +24,7 @@ Before saying a change is done, run these from the root and show the owner the o
 ```sh
 bun run lint
 bun run typecheck
+bun run test
 bun run build
 bunx prettier --check .
 ```

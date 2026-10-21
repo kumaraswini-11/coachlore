@@ -9,6 +9,7 @@
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
@@ -37,7 +38,8 @@
       "lucide-react": "1.52.0",
       "react": "19.3.0",
       "react-dom": "19.3.0",
-      "typescript": "6.0.3"
+      "typescript": "6.0.3",
+      "vitest": "5.0.3"
     }
   }
 }
