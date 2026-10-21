@@ -1136,9 +1136,11 @@ This spec is done when:
     physical direction (`left` or `right`), checked by a test; back and
     next icons point the other way, and no arrow character is used as an
     icon.
-13. An address matching no route, outside any language, answers not found
-    with the exception page above: both languages, a link to each home page,
-    a 404 status, and no WCAG 2.2 AA violations.
+13. An address matching no route that isn't redirected to a language (a
+    file, say) answers not found with the exception page above: both
+    languages, a link to each home page, a 404 status, and no WCAG 2.2 AA
+    violations. Any other address without a language is redirected first,
+    so `/fr/about` ends at `/en/fr/about`, not found inside the shell.
 
 ## Out of scope
 
