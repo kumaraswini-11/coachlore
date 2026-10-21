@@ -123,7 +123,22 @@ export type Move = {
   accuracy: number | null
   pp: number
   priority: number
-  effect: string
+  generation: number
+  /**
+   * PokéAPI's English short effect, else its newest English game text;
+   * absent when the source has neither (spec 002, "Missing data says so").
+   */
+  effect?: string
+  /** The chance of the effect, 0–100: "Has a chance to burn" is 10% for Ember. */
+  effectChance?: number
+}
+
+export type Ability = {
+  key: string
+  name: string
+  generation: number
+  /** As a move's `effect`. */
+  effect?: string
 }
 
 /** PokéAPI's other methods are kept as "other", never dropped. */

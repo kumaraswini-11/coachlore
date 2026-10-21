@@ -11,3 +11,8 @@ pnpm-lock.yaml
 .agents/skills/
 .claude/skills/
 skills-lock.json
+
+# The Pokémon dataset and its test sample: written by the import in its own
+# stable layout (packages/dex/scripts/import/write.ts).
+packages/dex/data/
+packages/dex/test/fixtures/

@@ -110,7 +110,16 @@ type Move = {
   accuracy: number | null
   pp: number
   priority: number
-  effect: string
+  generation: number
+  effect?: string // the English short effect, else the newest English game text; absent when the source has neither
+  effectChance?: number // 0–100
+}
+
+type Ability = {
+  key: string
+  name: string
+  generation: number
+  effect?: string // as a move's
 }
 
 type LearnMethod = "level" | "machine" | "egg" | "tutor" | "other" // PokéAPI's other methods kept as "other", never dropped
@@ -174,8 +183,8 @@ type Usage = {
    `is_default` and its `pokemon-form`'s `is_mega` and form name (a regional
    name such as `alola`, `galar`, `hisui` or `paldea`, or `gmax`); anything
    else is `other`. `sprite` is set when the image step wrote one.
-4. **Abilities and moves** with their English short effects
-   (`effect_chance` substituted): main-series abilities only
+4. **Abilities and moves** with their English short effects, and a move's
+   `effect_chance` as its own field (the text no longer carries it): main-series abilities only
    (`is_main_series`), and no Shadow moves (type `shadow`, Colosseum and
    XD). A move with no English effect (most of Generation 9's, such as Tera
    Blast and Dire Claw) takes its newest English flavour text;
