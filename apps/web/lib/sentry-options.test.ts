@@ -122,6 +122,10 @@ describe("an outgoing error report", () => {
           query_string: "secret=1",
         },
       })
+      scope.addBreadcrumb({
+        category: "navigation",
+        data: { to: "/dex?email=someone@example.com" },
+      })
       const local = "a local value"
       Sentry.captureException(new Error(`check ${local.length}`))
     })
@@ -144,6 +148,7 @@ describe("an outgoing error report", () => {
     expect(frames.some((frame) => "vars" in frame)).toBe(false)
     expect(report).toContain("check 13")
     expect(report).not.toContain("server_name")
+    expect(report).not.toContain("breadcrumbs")
     for (const forbidden of [
       "203.0.113.7",
       "ip_address",
@@ -152,6 +157,7 @@ describe("an outgoing error report", () => {
       "x-forwarded-for",
       "secret=1",
       "a local value",
+      "someone@example.com",
       '"user"',
     ]) {
       expect(report).not.toContain(forbidden)

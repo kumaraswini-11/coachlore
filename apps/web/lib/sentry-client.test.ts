@@ -16,5 +16,11 @@ describe("isServerError", () => {
     )
     expect(isServerError("a message")).toBe(false)
     expect(isServerError(null)).toBe(false)
+    expect(isServerError(undefined)).toBe(false)
+    expect(isServerError({ digest: 0 })).toBe(false)
+  })
+
+  it("is true for any object with a digest", () => {
+    expect(isServerError({ digest: "abc" })).toBe(true)
   })
 })

@@ -17,11 +17,13 @@ export function realValue(value: string | undefined): string | undefined {
 /**
  * Drops anything that could identify a person, as a second guard behind
  * `dataCollection` (ADR 0006, "Errors and logs"): the user, the machine's
- * name, and the request's cookies, headers, body and query string.
+ * name, breadcrumbs (their addresses can carry personal data), and the
+ * request's cookies, headers, body and query string.
  */
 export function stripPersonalData(event: ErrorEvent): ErrorEvent {
   delete event.user
   delete event.server_name
+  delete event.breadcrumbs
   if (event.request) {
     delete event.request.cookies
     delete event.request.headers

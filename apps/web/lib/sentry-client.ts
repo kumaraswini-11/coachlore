@@ -4,12 +4,14 @@ type Sentry = typeof import("@/lib/sentry-browser")
 
 // Integrations the browser doesn't use (spec 000, "Performance"): tracing and
 // web vitals (speed is measured in spec 014), sessions (meaningless when the
-// SDK loads on the first error), and Sentry's own global handlers
+// SDK loads on the first error), breadcrumbs (never sent: their addresses can
+// carry personal data), and Sentry's own global handlers
 // (instrumentation-client.ts listens instead, so each error is sent once).
 const UNUSED = new Set([
   "BrowserTracing",
   "WebVitals",
   "BrowserSession",
+  "Breadcrumbs",
   "GlobalHandlers",
 ])
 
