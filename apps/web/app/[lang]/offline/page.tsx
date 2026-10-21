@@ -35,7 +35,7 @@ export default async function OfflinePage() {
       titleAs="h1"
       title={t("title")}
       description={t("description")}
-      className="p-6"
+      className="px-4 py-6 md:px-6"
     >
       <Link
         href={localeHref(locale, "/")}

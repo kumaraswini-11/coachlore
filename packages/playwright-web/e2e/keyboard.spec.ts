@@ -15,7 +15,7 @@ test("the shell, in tab order, from the keyboard alone", async ({
   const order = [
     page.getByRole("link", { name: "Skip to content" }),
     page.getByRole("link", { name: "Coachlore, home page" }),
-    page.getByRole("button", { name: "Search Pokémon, moves, leagues…" }),
+    page.getByRole("button", { name: "Search…", exact: true }),
     page.getByRole("link", { name: "Read in हिन्दी" }),
     page.getByRole("button", { name: "Dark theme" }),
   ]

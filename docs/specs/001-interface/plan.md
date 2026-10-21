@@ -142,10 +142,10 @@ Where this section and ADR 0008 differ, the ADR wins:
   `/api`, files and metadata routes, and `/monitoring`, Sentry's tunnel (spec
   000): Sentry's docs say to "exclude the tunnel route" from a proxy's
   matcher.
-- **The language switch** is in three places: the top bar's language
+- **The language switch** is in two places: the top bar's language
   button (its accessible name is "Read in हिन्दी" or "English में
-  पढ़ें"; a display menu until 2026-10-21), the footer
-  (the other language, written in that language) and `/me` (spec 006).
+  पढ़ें"; a display menu until 2026-10-21; the footer's link, removed the
+  same day) and `/me` (spec 006).
   Each links to the current path with the other language and sets the
   `lang` cookie (one year, `SameSite=Lax`, readable by the server only);
   signed-in people's choice is also saved on the account by spec 006.

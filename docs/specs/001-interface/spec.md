@@ -90,7 +90,9 @@ from 768 px; nothing smaller than 12 px.
 Text resizes to 200 % without loss (WCAG 1.4.4).
 
 **Spacing and radius.** A 4 px spacing scale; the theme's corner radius
-and the sizes derived from it; nothing hard-coded.
+and the sizes derived from it; nothing hard-coded. The top bar, every page
+and the footer keep one side margin, 16 px on a phone and 24 px from
+768 px, so their edges line up at every width.
 
 **Motion.** Durations of 150 ms (feedback: a press, a toggle) and 250 ms
 (a panel or sheet arriving), with `ease-out` for what arrives and
@@ -133,7 +135,7 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────┐
-│ ◆ Coachlore      [ Search Pokémon, moves, leagues…   Ctrl K ]  文  ◐ │
+│ ◆ Coachlore             [ Search…                Ctrl K ]  文 हिन्दी  ◐ │
 ├───────────────┬──────────────────────────────────────────────────────┤
 │ Dex           │                                                      │
 │ Types         │                                                      │
@@ -156,10 +158,9 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
   admins); on desktop, the league's sections in the sidebar under its name.
 - **The footer** of every page carries the not-affiliated notice and the
   credits, with links to `/about` and `/legal` in the page's language
-  (project doc, "What has to
-  be true before this ships"), and a visible switch to the other language,
-  written in that language ("हिन्दी" on English pages, "English" on Hindi
-  ones).
+  (project doc, "What has to be true before this ships"). It starts at the
+  top bar's edge and runs the page's full width. The switch to the other
+  language is the top bar's button alone (the owner's call, 2026-10-21).
 - **Skip link:** "Skip to content" is the first focusable element on every
   page (WCAG 2.4.1).
 - **Sticky bars never hide focus** (WCAG 2.4.11, Focus Not Obscured): the
@@ -172,10 +173,13 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 - **The language button** (文, Lucide's `Languages` icon) opens the same
   page in the other language with one press. Its name for screen readers
   says where it goes, with the language written in itself ("Read in
-  हिन्दी" on English pages, "English में पढ़ें" on Hindi ones). The
-  footer's switch and `/me`'s setting (spec 006) do the same, so the
-  language is never only behind an icon. With a third language, the
-  button becomes a choice among them.
+  हिन्दी" on English pages, "English में पढ़ें" on Hindi ones). From
+  768 px the button also shows the language's name, written in itself
+  ("हिन्दी", "English"), so it can be found by someone who can't read the
+  page's language; on a phone, the icon alone. The icon
+  is the common sign for a language switch, and a first visit already
+  opens in the browser's language; `/me`'s setting (spec 006) does the
+  same. With a third language, the button becomes a choice among them.
 - **The theme button** (◐, the sun or the moon) switches between light and
   dark with one press: a toggle button named "Dark theme", pressed while
   the dark theme is on. There's no "System" choice: until the first press
@@ -188,15 +192,24 @@ safe-area insets, so the bottom tabs clear a phone's home indicator.
 
 ### 3. The search palette
 
-Opens from the search button, and from Ctrl K or ⌘ K. It finds Pokémon,
-forms, moves, abilities, types and the person's own leagues as they type, grouped by kind; Enter
+Opens from the search button, and from Ctrl K or ⌘ K. The button says
+"Search…" (the icon alone on a phone), short enough never to be cut off in
+either language; the palette's field names what it finds ("Search Pokémon,
+moves, leagues…"). It finds Pokémon, forms, moves, abilities, types and
+the person's own leagues as they type, grouped by kind; Enter
 opens the highlighted result. Spec 001 builds the palette with no sources;
 each later spec adds its own (003: Pokémon and forms; 004: moves,
 abilities, types; 007: leagues). Spec 012 adds "Ask: …" as the last row.
 
 - **Phone:** full screen, the input at the top, results below, the
   keyboard open.
-- **Desktop:** a dialog, 640 px wide, at the top third of the screen.
+- **Desktop:** a dialog, 640 px wide, at the top third of the screen. The
+  field ends with an Esc key, as the search button shows Ctrl K; Escape or
+  a click outside closes it. A phone has no Esc key and nothing outside,
+  so there a close button (44 px) takes its place.
+- **Searching:** while a search runs, a spinner sits at the field's end, in
+  the Esc key's place, on every screen; the status says "Searching…" for
+  screen readers, and the key comes back when the results do.
 - **No single-key shortcuts:** WCAG 2.1.4 asks for a way to turn off
   any shortcut that's a single key, and the shell has no settings to hold
   one, so every shortcut uses a modifier (Ctrl K or ⌘ K). `d` and `/` did
@@ -1134,8 +1147,8 @@ This spec is done when:
    room.
 10. Every page this spec builds works in English and Hindi: an address
     without a language redirects as [Languages](#6-languages) says, the
-    top bar's language button and the footer's switch change the page's
-    language and it's remembered, `<html>` has the
+    top bar's language button changes the page's language and it's
+    remembered, `<html>` has the
     right `lang` and `dir`, Hindi uses its font, and each page lists its
     other-language version.
 11. The two dictionaries have the same keys, checked by a test, and no

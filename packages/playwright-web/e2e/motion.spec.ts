@@ -9,7 +9,8 @@ import { settled } from "./axe"
 async function samplePaletteOpening(page: Page) {
   await page.goto("/en")
   const trigger = page.getByRole("button", {
-    name: "Search Pokémon, moves, leagues…",
+    name: "Search…",
+    exact: true,
   })
   const palette = page.getByRole("dialog", { name: "Search" })
   // Hydrated and loaded first, so the measured click is the one that opens

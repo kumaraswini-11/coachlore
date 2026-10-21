@@ -30,7 +30,7 @@ export default async function NotFound() {
         titleAs="h1"
         title={t("title")}
         description={t("description")}
-        className="p-6"
+        className="px-4 py-6 md:px-6"
       >
         {/* A link styled as a button keeps its link role, as shadcn's
             Base UI Button docs advise. */}

@@ -122,7 +122,7 @@ function SearchButton({
         onClick={show}
         onPointerEnter={prefetch}
         onFocus={prefetch}
-        className="size-11 justify-center text-muted-foreground md:w-72 md:justify-start md:px-3"
+        className="size-11 justify-center text-muted-foreground md:w-60 md:justify-start md:px-3"
       >
         <SearchIcon aria-hidden />
         <span className="sr-only md:not-sr-only md:flex-1 md:truncate md:text-start">

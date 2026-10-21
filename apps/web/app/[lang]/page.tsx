@@ -29,7 +29,7 @@ export default async function Page() {
   }
 
   return (
-    <div className="flex flex-col gap-2 p-6">
+    <div className="flex flex-col gap-2 px-4 py-6 md:px-6">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

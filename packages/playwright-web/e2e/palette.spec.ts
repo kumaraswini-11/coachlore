@@ -8,7 +8,7 @@ import { expectAccessible, settled } from "./axe"
 
 const palette = (page: Page) => page.getByRole("dialog", { name: "Search" })
 const searchButton = (page: Page) =>
-  page.getByRole("button", { name: "Search Pokémon, moves, leagues…" })
+  page.getByRole("button", { name: "Search…", exact: true })
 const status = (page: Page) => palette(page).locator("p[aria-live=polite]")
 
 // Until React has attached its handlers, a click does nothing, so the click
@@ -79,7 +79,7 @@ test("speaks Hindi on Hindi pages", async ({ page }) => {
   await page.goto("/hi")
   const dialog = page.getByRole("dialog", { name: "खोजें" })
   await expect(async () => {
-    await page.getByRole("button", { name: "पोकेमॉन, मूव, लीग खोजें…" }).click()
+    await page.getByRole("button", { name: "खोजें…", exact: true }).click()
     await expect(dialog).toBeVisible({ timeout: 5000 })
   }).toPass()
   await expect(dialog.locator("p[aria-live=polite]")).toHaveText(
@@ -106,6 +106,18 @@ test("fills a phone's screen, with a close button of 44 px", async ({
     .boundingBox()
   expect(close?.width).toBeGreaterThanOrEqual(44)
   expect(close?.height).toBeGreaterThanOrEqual(44)
+})
+
+test("shows the Esc key on a wider screen, and closes on a click outside", async ({
+  page,
+}) => {
+  await openWithButton(page)
+  await expect(palette(page).getByText("Esc", { exact: true })).toBeVisible()
+  await expect(
+    palette(page).getByRole("button", { name: "Close search" })
+  ).toBeHidden()
+  await page.mouse.click(5, 5)
+  await expect(palette(page)).toBeHidden()
 })
 
 test("a single key doesn't open it", async ({ page }) => {

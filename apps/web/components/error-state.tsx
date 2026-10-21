@@ -26,7 +26,7 @@ function ErrorState({
   retry: () => void
 }) {
   return (
-    <div className="flex p-6">
+    <div className="flex px-4 py-6 md:px-6">
       <EmptyState
         titleAs="h1"
         role="alert"

@@ -74,13 +74,16 @@ function CommandDialog({
 
 // Coachlore: 44 px tall (AGENTS.md's touch targets), with an optional
 // `trailing` control beside the field, such as a dialog's close button, so
-// it never sits on top of what's typed.
+// it never sits on top of what's typed, and an optional `hint` at the
+// field's end, such as the key that closes it.
 function CommandInput({
   className,
   trailing,
+  hint,
   ...props
 }: React.ComponentProps<typeof CommandPrimitive.Input> & {
   trailing?: React.ReactNode
+  hint?: React.ReactNode
 }) {
   return (
     <div
@@ -99,6 +102,9 @@ function CommandInput({
         <InputGroupAddon>
           <SearchIcon className="size-4 shrink-0 opacity-50" />
         </InputGroupAddon>
+        {hint ? (
+          <InputGroupAddon align="inline-end">{hint}</InputGroupAddon>
+        ) : null}
       </InputGroup>
       {trailing}
     </div>

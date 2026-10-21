@@ -15,6 +15,7 @@ import {
   CommandList,
 } from "@workspace/ui/components/shadcn-ui/command"
 import { DialogClose } from "@workspace/ui/components/shadcn-ui/dialog"
+import { Kbd } from "@workspace/ui/components/shadcn-ui/kbd"
 import { Spinner } from "@workspace/ui/components/shadcn-ui/spinner"
 
 import type { PaletteMessages } from "@/components/search/search-button"
@@ -33,7 +34,9 @@ type Group = { source: SearchSource; results: SearchResult[] }
  * (spec 001, "The search palette"). The sources filter, so cmdk's own
  * filtering is off (`shouldFilter={false}`, cmdk's docs). The status is
  * announced politely; Escape closes, and Base UI returns focus to what was
- * focused before.
+ * focused before. Wider screens show the Esc key in the field, as the
+ * search button shows Ctrl K, and close on a click outside; a phone, with
+ * no Esc key and nothing outside, gets a close button.
  */
 export default function SearchDialog({
   open,
@@ -126,12 +129,29 @@ export default function SearchDialog({
           onValueChange={setQuery}
           placeholder={t("placeholder")}
           aria-label={t("title")}
+          hint={
+            // While a search runs, the spinner takes the key's place, on
+            // every screen; the status below says "Searching…" aloud.
+            pending ? (
+              <Spinner label={t("searching")} aria-hidden />
+            ) : (
+              // The field is already the Kbd's grey: the page's background
+              // keeps the key's box visible, as Ctrl K's is on its button.
+              <Kbd aria-hidden className="bg-background max-md:hidden">
+                {t("escapeKey")}
+              </Kbd>
+            )
+          }
           trailing={
             // Beside the field, 44 px, never over what's typed; on a phone
             // the palette fills the screen and this is the way out.
             <DialogClose
               render={
-                <Button variant="ghost" size="icon" className="size-11" />
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="size-11 md:hidden"
+                />
               }
             >
               <XIcon aria-hidden />
@@ -179,7 +199,6 @@ export default function SearchDialog({
             : "sr-only"
         }
       >
-        {pending ? <Spinner label={t("searching")} /> : null}
         {status}
       </p>
     </CommandDialog>
