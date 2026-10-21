@@ -147,8 +147,10 @@ Three rules keep compositions honest
 - **Labels:** no component writes interface text. A close button's name
   (`closeLabel` on `DialogContent`, `SheetContent`, `Toaster`), the
   Sidebar's names (`labels` on `SidebarProvider`), `CommandDialog`'s
-  `title` and `description`, `Spinner`'s `label` and `Breadcrumb`'s
-  `aria-label` are required props, given in the page's language. ESLint
+  `title` and `description`, `Spinner`'s `label`, `Breadcrumb`'s
+  `aria-label`, `Slider`'s `thumbLabels`, `ComboboxInput`'s `triggerLabel`
+  (and `clearLabel` with `showClear`) and `ComboboxChip`'s `removeLabel` are
+  required props, given in the page's language. ESLint
   rejects a written accessible name (`@workspace/eslint-config`,
   `interface-text.js`).
 
@@ -172,6 +174,10 @@ comment at the change:
 - `dropdown-menu.tsx`: `DropdownMenuLinkItem` added.
 - `breadcrumb.tsx`: the ellipsis's hidden "More" removed (its wrapper is
   `aria-hidden`).
+- `slider.tsx`: each thumb gets its `index` (Base UI needs it to
+  server-render a range slider) and its name from `thumbLabels`.
+- `combobox.tsx`: the trigger, clear and chip-remove buttons get their
+  names from the label props above; the registry's had none.
 - `input-group.tsx`, `scroll-area.tsx`, `hooks/use-mobile.ts`: lint fixes.
 
 ## Shared compositions
