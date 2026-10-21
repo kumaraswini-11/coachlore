@@ -10,15 +10,12 @@
         "VERCEL_ENV",
         "VERCEL_PROJECT_PRODUCTION_URL",
         "VERCEL_BRANCH_URL",
-        "VERCEL_URL"
-      ],
-      "passThroughEnv": [
-        "CI",
-        "NEXT_RUNTIME",
+        "VERCEL_URL",
         "SENTRY_AUTH_TOKEN",
         "SENTRY_ORG",
         "SENTRY_PROJECT"
-      ]
+      ],
+      "passThroughEnv": ["CI", "NEXT_RUNTIME"]
     },
     "transit": {
       "dependsOn": ["^transit"]

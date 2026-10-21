@@ -1,7 +1,12 @@
 import * as Sentry from "@sentry/nextjs"
 import { afterAll, describe, expect, it } from "vitest"
 
-import { realValue, sentryOptions, stripSpan } from "./sentry-options"
+import {
+  realValue,
+  sentryOptions,
+  stripPersonalData,
+  stripSpan,
+} from "./sentry-options"
 
 const DSN = "https://abc123@o1.ingest.sentry.io/1"
 
@@ -74,6 +79,14 @@ describe("sentryOptions", () => {
       "http.route": "/dex",
       "server.address": "coachlore.vercel.app",
     })
+  })
+
+  it("keeps a page's address without its query string or fragment", () => {
+    const event = stripPersonalData({
+      type: undefined,
+      request: { url: "https://coachlore.vercel.app/dex/garchomp?e=a@b.c#x" },
+    })
+    expect(event.request?.url).toBe("https://coachlore.vercel.app/dex/garchomp")
   })
 
   it("collects no personal data", () => {

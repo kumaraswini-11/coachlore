@@ -29,6 +29,16 @@ export function stripPersonalData(event: ErrorEvent): ErrorEvent {
     delete event.request.headers
     delete event.request.data
     delete event.request.query_string
+    // Keep the page's address, which says where it broke, without its query
+    // string or fragment, where personal data could be.
+    if (event.request.url) {
+      try {
+        const url = new URL(event.request.url)
+        event.request.url = url.origin + url.pathname
+      } catch {
+        delete event.request.url
+      }
+    }
   }
   return event
 }
