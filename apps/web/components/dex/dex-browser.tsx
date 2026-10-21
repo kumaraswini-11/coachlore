@@ -1,12 +1,20 @@
 "use client"
 
-import { useDeferredValue, useMemo, useState, useTransition } from "react"
+import {
+  use,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  useTransition,
+} from "react"
 import type { Route } from "next"
 import { useSearchParams } from "next/navigation"
 import { LayoutGridIcon, ListIcon, PlusIcon, SearchIcon } from "lucide-react"
 import type { Locale } from "next-intl"
 
 import {
+  DEFAULT_SORT,
   filterForms,
   SORT_KEYS,
   sortForms,
@@ -78,12 +86,139 @@ type Props = DexData & {
 }
 
 /**
+ * `value`, once the browser has drawn the frame showing what changed it:
+ * after the next animation frame and a task, as a transition.
+ */
+function useAfterPaint<T>(value: T): T {
+  const [shown, setShown] = useState(value)
+  const [, startTransition] = useTransition()
+  useEffect(() => {
+    let task: ReturnType<typeof setTimeout> | undefined
+    const frame = requestAnimationFrame(() => {
+      task = setTimeout(() => startTransition(() => setShown(value)))
+    })
+    return () => {
+      cancelAnimationFrame(frame)
+      clearTimeout(task)
+    }
+  }, [value])
+  return shown
+}
+
+/** The view from the address, and how to write a new one. */
+type Address = {
+  view: DexView
+  /** The address's `q` as typed, spaces and all. */
+  text: string
+  write: (next: DexView, entry: "push" | "replace") => void
+  /** The view as it is now: for a handler that mustn't change each render. */
+  read: () => DexView
+  /** The static page's stand-in: shows the forms given, as they are. */
+  preview?: boolean
+}
+
+/**
  * Browse the Dex (spec 003): the forms filtered, sorted and shown as a grid
- * or a list, the view held in the address. Filtering runs here, over the
+ * or a list, the view held here and mirrored in the address, so a link or
+ * Back brings it back. Filtering runs here, over the
  * forms already loaded: no request, no spinner. A filter change is a new
  * history entry (Back undoes it); typing replaces the current one.
  */
 export function DexBrowser(props: Props) {
+  const { games, abilities } = props
+  const params = useSearchParams()
+  const known = useMemo(
+    () => ({
+      games: new Set(games.map((game) => game.key)),
+      abilities: new Set(abilities.map((ability) => ability.key)),
+    }),
+    [games, abilities]
+  )
+  // The view is held here and the address follows it. A change shows on
+  // the next paint: Next.js applies an address change as a transition, so a
+  // control that waited for it painted late (spec 003, criterion 5). The
+  // address still wins when it changes from elsewhere: Back, Forward, or a
+  // link to another view of this page.
+  const query = params.toString()
+  const [state, setState] = useState(() => ({
+    query,
+    view: parseDexQuery(new URLSearchParams(query), known),
+  }))
+  let view = state.view
+  if (query !== state.query) {
+    view = parseDexQuery(new URLSearchParams(query), known)
+    setState({ query, view })
+  }
+  const write = useCallback((next: DexView, entry: "push" | "replace") => {
+    const written = toDexQuery(next)
+    // Stored as the address will read back, so this write isn't taken for
+    // a change from elsewhere.
+    setState({ query: new URLSearchParams(written).toString(), view: next })
+    const url = written === "" ? window.location.pathname : `?${written}`
+    if (entry === "push") {
+      window.history.pushState(null, "", url)
+    } else {
+      window.history.replaceState(null, "", url)
+    }
+  }, [])
+  const read = useCallback(
+    () => parseDexQuery(new URLSearchParams(window.location.search), known),
+    [known]
+  )
+  return (
+    <DexScreen
+      {...props}
+      address={{ view, text: params.get("q") ?? "", write, read }}
+    />
+  )
+}
+
+/**
+ * The full browser on every form, the forms loaded as a file of their own
+ * (a hashed chunk the browser and the service worker cache; plan 003,
+ * "Rendering"). Suspends until they're in.
+ */
+export function DexBrowserLoader(props: Omit<Props, "forms">) {
+  const forms = use(loadForms())
+  return <DexBrowser {...props} forms={forms} />
+}
+
+let formsFile: Promise<FormSummary[]> | undefined
+function loadForms(): Promise<FormSummary[]> {
+  formsFile ??= import("@workspace/dex/forms.json").then(
+    (module) => module.default as unknown as FormSummary[]
+  )
+  return formsFile
+}
+
+const DEFAULT_VIEW: DexView = { filter: {}, sort: DEFAULT_SORT, view: "grid" }
+
+/**
+ * The screen before the forms load: the default view of the forms given
+ * (the first few), counted as `total`, so the first paint is real content
+ * in the final layout and nothing shifts when the browser takes over. It
+ * reads no address, so it's part of the static page.
+ */
+export function DexPreview(props: Props & { total: number }) {
+  return (
+    <DexScreen
+      {...props}
+      address={{
+        view: DEFAULT_VIEW,
+        text: "",
+        write: () => {},
+        read: () => DEFAULT_VIEW,
+        preview: true,
+      }}
+    />
+  )
+}
+
+function DexScreen({
+  address,
+  total,
+  ...props
+}: Props & { address: Address; total?: number }) {
   const {
     forms,
     chart,
@@ -94,47 +229,57 @@ export function DexBrowser(props: Props) {
     typeNames,
     typeLang,
   } = props
-  const params = useSearchParams()
-  const known = useMemo(
-    () => ({
-      games: new Set(games.map((game) => game.key)),
-      abilities: new Set(abilities.map((ability) => ability.key)),
-    }),
-    [games, abilities]
+  const { view, write, read } = address
+
+  // The text box shows what's typed. It takes the address's text only on
+  // Back and Forward: while typing, the address lags a keystroke behind and
+  // would undo it.
+  const [text, setText] = useState(address.text)
+  useEffect(() => {
+    const restore = () =>
+      setText(new URLSearchParams(window.location.search).get("q") ?? "")
+    window.addEventListener("popstate", restore)
+    return () => window.removeEventListener("popstate", restore)
+  }, [])
+
+  // Each reads the view as it is now, so it stays the same function from
+  // one render to the next, and the memoized parts skip rendering.
+  const updateFilter = useCallback(
+    (update: (filter: DexFilter) => DexFilter) => {
+      const current = read()
+      write({ ...current, filter: update(current.filter) }, "push")
+    },
+    [read, write]
   )
-  const view = useMemo(
-    () => parseDexQuery(new URLSearchParams(params.toString()), known),
-    [params, known]
+  const setSort = useCallback(
+    (sort: DexSort) => write({ ...read(), sort }, "push"),
+    [read, write]
   )
-  const [, startTransition] = useTransition()
 
-  // The text box follows what's typed; Back or a link resets it.
-  const addressText = params.get("q") ?? ""
-  const [text, setText] = useState(addressText)
-  const [shown, setShown] = useState(addressText)
-  if (addressText !== shown) {
-    setShown(addressText)
-    setText(addressText)
-  }
-
-  const write = (next: DexView, entry: "push" | "replace") => {
-    const query = toDexQuery(next)
-    const url = query === "" ? window.location.pathname : `?${query}`
-    startTransition(() => {
-      if (entry === "push") {
-        window.history.pushState(null, "", url)
-      } else {
-        window.history.replaceState(null, "", url)
-      }
-    })
-  }
-  const setFilter = (filter: DexFilter) => write({ ...view, filter }, "push")
-  const setSort = (sort: DexSort) => write({ ...view, sort }, "push")
-
-  const filter = useDeferredValue(view.filter)
+  // The results follow the view once the control's change has been drawn:
+  // after the next frame, then as a transition that gives way to the next
+  // keystroke or click. Rendering them first held that frame back (spec
+  // 003, criterion 5; web.dev's "Optimize INP": yield after the visual
+  // feedback). The grid and the list are memoized, so the control's own
+  // render skips them.
+  const shownView = useAfterPaint(view)
   const results = useMemo(
-    () => sortForms(filterForms(forms, filter, chart), view.sort),
-    [forms, filter, chart, view.sort]
+    () =>
+      sortForms(filterForms(forms, shownView.filter, chart), shownView.sort),
+    [forms, shownView.filter, chart, shownView.sort]
+  )
+  const card = useCallback(
+    (form: FormSummary) => (
+      <FormCard
+        form={form}
+        href={`/${locale}${formPath(form)}` as Route}
+        label={cardLabel(labels.card, form, typeNames, locale)}
+        typeNames={typeNames}
+        typeLang={typeLang}
+        noImage={labels.noImage}
+      />
+    ),
+    [locale, labels, typeNames, typeLang]
   )
   const chips = chipsFor(view.filter, {
     labels,
@@ -143,16 +288,36 @@ export function DexBrowser(props: Props) {
     games,
     abilities,
   })
-  const href = (form: FormSummary) => `/${locale}${formPath(form)}` as Route
+  const href = useCallback(
+    (form: FormSummary) => `/${locale}${formPath(form)}` as Route,
+    [locale]
+  )
+  // A column header sorts by it, or turns its order round.
+  const sortColumn = useCallback(
+    (key: DexSort["key"]) => {
+      const current = read()
+      write(
+        {
+          ...current,
+          sort:
+            current.sort.key === key
+              ? { key, descending: !current.sort.descending }
+              : { key, descending: key !== "number" && key !== "name" },
+        },
+        "push"
+      )
+    },
+    [read, write]
+  )
   const filters = (
     <DexFilters
       {...props}
       filter={view.filter}
-      onChange={setFilter}
+      onChange={updateFilter}
       labels={labels}
     />
   )
-  const clear = () => write({ ...view, filter: {} }, "push")
+  const clear = useCallback(() => updateFilter(() => ({})), [updateFilter])
 
   return (
     <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:gap-6">
@@ -181,7 +346,6 @@ export function DexBrowser(props: Props) {
             onChange={(event) => {
               const value = event.target.value
               setText(value)
-              setShown(value)
               write(
                 { ...view, filter: { ...view.filter, q: value || undefined } },
                 "replace"
@@ -223,13 +387,13 @@ export function DexBrowser(props: Props) {
             chips={chips}
             label={labels.chips.label}
             removeLabel={labels.chips.remove}
-            onRemove={(chip) => setFilter(chip.remove(view.filter))}
+            onRemove={(chip) => updateFilter(chip.remove)}
           />
         </div>
 
         <div className="flex flex-wrap items-center justify-between gap-2">
           <p role="status" className="font-medium tabular-nums">
-            {plural(labels.count, results.length, locale)}
+            {plural(labels.count, total ?? results.length, locale)}
           </p>
           <div className="flex flex-wrap items-center gap-2">
             <Select
@@ -325,18 +489,12 @@ export function DexBrowser(props: Props) {
           >
             <Button onClick={clear}>{labels.emptyAction}</Button>
           </EmptyState>
-        ) : view.view === "list" ? (
+        ) : shownView.view === "list" ? (
           <DexList
             forms={results}
             href={href}
-            sort={view.sort}
-            onSort={(key) =>
-              setSort(
-                view.sort.key === key
-                  ? { key, descending: !view.sort.descending }
-                  : { key, descending: key !== "number" && key !== "name" }
-              )
-            }
+            sort={shownView.sort}
+            onSort={sortColumn}
             labels={labels}
             typeNames={typeNames}
             typeLang={typeLang}
@@ -344,16 +502,9 @@ export function DexBrowser(props: Props) {
         ) : (
           <DexGrid
             forms={results}
-            card={(form) => (
-              <FormCard
-                form={form}
-                href={href(form)}
-                label={cardLabel(labels.card, form, typeNames, locale)}
-                typeNames={typeNames}
-                typeLang={typeLang}
-                noImage={labels.noImage}
-              />
-            )}
+            card={card}
+            virtual={!address.preview}
+            total={total ?? results.length}
           />
         )}
       </div>

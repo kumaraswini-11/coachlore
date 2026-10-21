@@ -1,5 +1,5 @@
+import { memo } from "react"
 import type { Route } from "next"
-import Link from "next/link"
 import { ArrowDownIcon, ArrowUpIcon } from "lucide-react"
 
 import type { DexSort, StatFilterKey } from "@workspace/dex/filter"
@@ -20,6 +20,7 @@ import { fill } from "@/i18n/error-messages"
 import type { DexLabels } from "@/lib/dex-labels"
 
 import { dexNumber } from "./form-card"
+import { IntentLink } from "./intent-link"
 
 const STAT_COLUMNS: StatFilterKey[] = [...STAT_KEYS, "total"]
 
@@ -29,7 +30,7 @@ const STAT_COLUMNS: StatFilterKey[] = [...STAT_KEYS, "total"]
  * name; with room, a column per stat. Every stat column sorts by its
  * header; the number and name columns too.
  */
-export function DexList({
+export const DexList = memo(function DexList({
   forms,
   href,
   sort,
@@ -100,13 +101,13 @@ export function DexList({
               {dexNumber(form.number)}
             </TableCell>
             <TableCell className="whitespace-normal">
-              <Link
+              <IntentLink
                 href={href(form)}
                 lang="en"
                 className="font-medium underline-offset-4 hover:underline"
               >
                 {form.name}
-              </Link>
+              </IntentLink>
               <span className="mt-1 flex flex-wrap gap-1 @2xl:hidden">
                 {form.types.map((type) => (
                   <TypeBadge key={type} type={type} lang={typeLang}>
@@ -142,4 +143,4 @@ export function DexList({
       </TableBody>
     </Table>
   )
-}
+})

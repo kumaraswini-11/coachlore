@@ -1,10 +1,10 @@
 import type { Route } from "next"
-import Image from "next/image"
-import Link from "next/link"
 
 import type { FormSummary, TypeKey } from "@workspace/dex/types"
 import { Card } from "@workspace/ui/components/shadcn-ui/card"
 import { TypeBadge } from "@workspace/ui/components/type-badge"
+
+import { IntentLink } from "./intent-link"
 
 /** "#0082": the national number as the games write it. */
 export function dexNumber(number: number): string {
@@ -14,7 +14,8 @@ export function dexNumber(number: number): string {
 /**
  * One form in the grid (spec 003, "Browse the Dex"): its sprite at a fixed
  * size, number, name and types, all one link named for the whole card
- * ("#0208 Steelix, Steel and Ground"). Names wrap rather than cut off.
+ * ("#0208 Steelix, Steel and Ground"), prefetched on intent. Names wrap
+ * rather than cut off.
  */
 export function FormCard({
   form,
@@ -34,7 +35,7 @@ export function FormCard({
   noImage: string
 }) {
   return (
-    <Link
+    <IntentLink
       href={href}
       aria-label={label}
       className="group/form block h-full rounded-xl outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
@@ -48,13 +49,18 @@ export function FormCard({
             {noImage}
           </span>
         ) : (
-          <Image
+          // A plain image: the sprites are prepared at this size (spec 002),
+          // so next/image has nothing to optimise, and its client code on
+          // each of the grid's cards slowed a filter change (spec 003,
+          // criterion 5).
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
             src={form.sprite}
             alt=""
             width={96}
             height={96}
-            unoptimized
             loading="lazy"
+            decoding="async"
             className="size-24"
           />
         )}
@@ -75,6 +81,6 @@ export function FormCard({
           ))}
         </span>
       </Card>
-    </Link>
+    </IntentLink>
   )
 }

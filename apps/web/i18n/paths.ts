@@ -8,12 +8,12 @@ import { routing } from "@/i18n/routing"
  * metadata take paths from. paths.test.ts checks that each has its
  * `app/[lang]/…/page.tsx`. A spec that adds a page adds it here.
  */
-export const PAGES = ["/", "/about", "/legal", "/offline"] as const
+export const PAGES = ["/", "/about", "/legal", "/offline", "/dex"] as const
 
 export type Path = (typeof PAGES)[number]
 
 /** The sitemap's pages: the public ones (`/offline` is for the offline Dex). */
-export const PUBLIC_PAGES: readonly Path[] = ["/", "/about", "/legal"]
+export const PUBLIC_PAGES: readonly Path[] = ["/", "/about", "/legal", "/dex"]
 
 /**
  * An address in a language: `/hi/about` from `hi` and `/about`. Typed routes

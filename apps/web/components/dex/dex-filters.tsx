@@ -1,6 +1,6 @@
 "use client"
 
-import { useId, useState } from "react"
+import { memo, useCallback, useId, useState } from "react"
 
 import {
   FORM_KINDS,
@@ -49,7 +49,12 @@ export type Named = { key: string; name: string }
 
 type Props = {
   filter: DexFilter
-  onChange: (filter: DexFilter) => void
+  /**
+   * Takes how the filter changes, not the new filter, so a control's
+   * handler never depends on the current filter and its row needn't render
+   * again when another control changes it.
+   */
+  onChange: (update: (filter: DexFilter) => DexFilter) => void
   games: readonly Named[]
   abilities: readonly Named[]
   statMax: Record<StatFilterKey, number>
@@ -65,9 +70,10 @@ const GENERATIONS = [1, 2, 3, 4, 5, 6, 7, 8, 9]
  * on a wide screen, the bottom drawer on a phone. Every change goes to
  * `onChange` at once; the browser writes it to the address.
  */
-export function DexFilters(props: Props) {
+export const DexFilters = memo(function DexFilters(props: Props) {
   const { filter, onChange, labels } = props
-  const set = (patch: Partial<DexFilter>) => onChange({ ...filter, ...patch })
+  const set = (patch: Partial<DexFilter>) =>
+    onChange((current) => ({ ...current, ...patch }))
 
   return (
     <Accordion multiple defaultValue={["type"]} className="w-full">
@@ -77,11 +83,9 @@ export function DexFilters(props: Props) {
           <AccordionContent>
             <TypeChoice
               {...props}
+              group={group}
               chosen={filter[group] ?? []}
               label={labels.groups[group]}
-              onChoose={(types) =>
-                set({ [group]: types.length > 0 ? types : undefined })
-              }
             />
           </AccordionContent>
         </AccordionItem>
@@ -165,17 +169,20 @@ export function DexFilters(props: Props) {
               range={filter.stats?.[key]}
               max={props.statMax[key]}
               labels={labels}
-              onRange={(range) => {
-                const stats = { ...filter.stats }
-                if (range === undefined) {
-                  delete stats[key]
-                } else {
-                  stats[key] = range
-                }
-                set({
-                  stats: Object.keys(stats).length > 0 ? stats : undefined,
+              onRange={(range) =>
+                onChange((current) => {
+                  const stats = { ...current.stats }
+                  if (range === undefined) {
+                    delete stats[key]
+                  } else {
+                    stats[key] = range
+                  }
+                  return {
+                    ...current,
+                    stats: Object.keys(stats).length > 0 ? stats : undefined,
+                  }
                 })
-              }}
+              }
             />
           ))}
         </AccordionContent>
@@ -205,20 +212,23 @@ export function DexFilters(props: Props) {
       </AccordionItem>
     </Accordion>
   )
-}
+})
+
+type TypeGroup = "type" | "weak" | "resist"
 
 /** Up to two of the eighteen types, each a checkbox labelled with its badge. */
 function TypeChoice({
+  group,
   chosen,
   label,
-  onChoose,
+  onChange,
   labels,
   typeNames,
   typeLang,
 }: Props & {
+  group: TypeGroup
   chosen: readonly TypeKey[]
   label: string
-  onChoose: (types: TypeKey[]) => void
 }) {
   const hint = useId()
   const full = chosen.length >= 2
@@ -236,28 +246,65 @@ function TypeChoice({
         {TYPE_KEYS.map((type) => {
           const checked = chosen.includes(type)
           return (
-            <Label key={type} className="min-h-11">
-              <Checkbox
-                checked={checked}
-                disabled={full && !checked}
-                onCheckedChange={(next) =>
-                  onChoose(
-                    next
-                      ? [...chosen, type]
-                      : chosen.filter((each) => each !== type)
-                  )
-                }
-              />
-              <TypeBadge type={type} lang={typeLang}>
-                {typeNames[type]}
-              </TypeBadge>
-            </Label>
+            <TypeOption
+              key={type}
+              group={group}
+              type={type}
+              checked={checked}
+              disabled={full && !checked}
+              name={typeNames[type]}
+              lang={typeLang}
+              onChange={onChange}
+            />
           )
         })}
       </div>
     </div>
   )
 }
+
+// Renders again only when its own state changes.
+const TypeOption = memo(function TypeOption({
+  group,
+  type,
+  checked,
+  disabled,
+  name,
+  lang,
+  onChange,
+}: {
+  group: TypeGroup
+  type: TypeKey
+  checked: boolean
+  disabled: boolean
+  name: string
+  lang: string
+  onChange: Props["onChange"]
+}) {
+  const toggle = useCallback(
+    (next: boolean) =>
+      onChange((current) => {
+        const chosen = current[group] ?? []
+        const types = next
+          ? [...chosen.filter((each) => each !== type), type]
+          : chosen.filter((each) => each !== type)
+        return { ...current, [group]: types.length > 0 ? types : undefined }
+      }),
+    [group, type, onChange]
+  )
+  return (
+    <Label className="min-h-11">
+      <Checkbox
+        checked={checked}
+        disabled={disabled}
+        onCheckedChange={toggle}
+      />
+      <TypeBadge type={type} lang={lang}>
+        {name}
+      </TypeBadge>
+    </Label>
+  )
+})
 
 function AbilityChoice({ filter, onChange, abilities, labels }: Props) {
   const items = abilities.map((ability) => ({
@@ -269,7 +316,9 @@ function AbilityChoice({ filter, onChange, abilities, labels }: Props) {
     <Combobox
       items={items}
       value={selected}
-      onValueChange={(item) => onChange({ ...filter, ability: item?.value })}
+      onValueChange={(item) =>
+        onChange((current) => ({ ...current, ability: item?.value }))
+      }
       itemToStringLabel={(item) => item.label}
       isItemEqualToValue={(item, value) => item.value === value.value}
     >

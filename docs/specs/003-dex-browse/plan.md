@@ -85,21 +85,32 @@ The query string (all optional; lists are comma-separated):
 - The index is loaded by a dynamic `import()` of its JSON module, so it's a
   hashed chunk under `/_next/static/`, which the browser and the service
   worker cache.
-- Filtering runs inside `startTransition`, and the text box uses
-  `useDeferredValue`, so typing stays responsive.
-- A filter change writes the address with `window.history.pushState`, so
-  Back undoes it; typing in the text box uses `replaceState`. Next.js
-  documents both as updating the address "without reloading the page" and
-  integrating "with `useSearchParams`" (bundled docs:
-  `04-linking-and-navigating.md`); neither makes a request (criterion 4).
-- Cards are the default `<Link>`: for "a grid of cards", "each `<Link
-prefetch={true}>` prefetches that link's content as it enters the
-  viewport", while "the default `<Link>` (without `prefetch={true}`) loads
-  only the App Shell, so it doesn't carry this cost" (bundled docs:
-  `optimizing-prefetching.md`): one request for the form page's route, not
-  one per card. So filtering the grid sends no prefetches.
-- Cards use `content-visibility: auto` with a fixed intrinsic size, and
-  sprites `loading="lazy"` with width and height set.
+- The browser holds the view in state and mirrors it in the address: a
+  filter change with `window.history.pushState`, so Back undoes it; typing
+  with `replaceState`. Next.js documents both as updating the address
+  "without reloading the page" and integrating "with `useSearchParams`"
+  (bundled docs: `04-linking-and-navigating.md`); neither makes a request
+  (criterion 4). The address still wins when it changes from elsewhere
+  (Back, Forward, a link to another view). Measured: reading the view from
+  the address alone, a control's change waited for Next.js's transition,
+  about 80 ms at 4× CPU slowdown, before it could paint.
+- The changed control paints first; the results follow after the next
+  frame, as a transition (`useAfterPaint` in `dex-browser.tsx`), so a
+  change responds before the grid re-renders: web.dev's "Optimize INP",
+  yield after the visual feedback. The grid, the list and each type
+  checkbox are memoized behind stable handlers, so the control's own render
+  skips them.
+- The grid is virtualised: only the rows on screen and three beyond are in
+  the page (see "Decisions", "A long grid"). Each card carries
+  `aria-posinset` and `aria-setsize`, so a screen reader hears its place in
+  the whole list. The static fallback is a plain grid with the same
+  columns.
+- Cards and list rows prefetch on intent: pointed at, focused or touched
+  (`intent-link.tsx`; see "Decisions", "Prefetching").
+- Sprites are plain `<img>` elements with width, height,
+  `loading="lazy"` and `decoding="async"` (see "Decisions", "Images").
+  The first row's sprites may be worth loading eagerly for LCP; task 9's
+  performance pass measures it.
 - Home is static; recently viewed renders on the client after hydration in
   a box of fixed height (hidden when empty, before first paint, from a
   class set by an inline check of `localStorage`, so it doesn't shift).
@@ -146,12 +157,13 @@ None.
 
 ## Decisions
 
-| Item            | What the docs say (quoted)                                                                                                                                                                                                                                                            | Options                                                               | Decision                                                                                                                                                                                                                              |
-| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Offline caching | Next.js's PWA guide: "For full service-worker-based offline caching, one option is [Serwist]"; `useOffline` is "experimental" and covers "connectivity detection and automatic retry", not caching (bundled docs: `02-guides/progressive-web-apps.md`, `04-functions/use-offline.md`) | A small service worker of our own; Serwist; `experimental.useOffline` | Our own service worker (the table above): one file, no dependency, rules we can read. Task 6 checks that client-side navigation works offline; if it can't without matching the router's requests, Serwist replaces it, recorded here |
-| Connectivity    | `use-offline.md`: `navigator.onLine` "still reports `true` for a device on WiFi with no upstream internet"; `useOffline` is "experimental"                                                                                                                                            | `navigator.onLine` and its events; `useOffline`                       | `navigator.onLine` and the `online`/`offline` events: stable, no experimental flag. A connected Wi-Fi with no internet shows no notice; pages still come from the saved copy when the network fails                                   |
-| Images          | Vercel Hobby includes "First 5,000" image transformations ([Hobby](https://vercel.com/docs/plans/hobby))                                                                                                                                                                              | `next/image` optimisation; plain images at their final size           | Sprites are prepared at their display size by spec 002's import and served as they are (`next/image` with `unoptimized`), so the free limit never applies                                                                             |
-| A long grid     | –                                                                                                                                                                                                                                                                                     | Render every card with `content-visibility`; a virtualised list       | `content-visibility` first; a virtualised list (TanStack Virtual) only if acceptance criterion 5 fails, recorded here                                                                                                                 |
+| Item            | What the docs say (quoted)                                                                                                                                                                                                                                                            | Options                                                               | Decision                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Offline caching | Next.js's PWA guide: "For full service-worker-based offline caching, one option is [Serwist]"; `useOffline` is "experimental" and covers "connectivity detection and automatic retry", not caching (bundled docs: `02-guides/progressive-web-apps.md`, `04-functions/use-offline.md`) | A small service worker of our own; Serwist; `experimental.useOffline` | Our own service worker (the table above): one file, no dependency, rules we can read. Task 6 checks that client-side navigation works offline; if it can't without matching the router's requests, Serwist replaces it, recorded here                                                                                                                                                                                                                                                                                                                                                              |
+| Connectivity    | `use-offline.md`: `navigator.onLine` "still reports `true` for a device on WiFi with no upstream internet"; `useOffline` is "experimental"                                                                                                                                            | `navigator.onLine` and its events; `useOffline`                       | `navigator.onLine` and the `online`/`offline` events: stable, no experimental flag. A connected Wi-Fi with no internet shows no notice; pages still come from the saved copy when the network fails                                                                                                                                                                                                                                                                                                                                                                                                |
+| Images          | Vercel Hobby includes "First 5,000" image transformations ([Hobby](https://vercel.com/docs/plans/hobby))                                                                                                                                                                              | `next/image` optimisation; plain images at their final size           | Sprites are prepared at their display size by spec 002's import and served as they are, so the free limit never applies. Changed in task 4 from `next/image` with `unoptimized` to a plain `<img>`: with nothing to optimise, `next/image`'s client code on each new card added to a filter change (spec 003, criterion 5); the one artwork on a form's page (spec 004) keeps `next/image`                                                                                                                                                                                                         |
+| A long grid     | Spec 001's wireframe: "The grid renders only what's on screen"                                                                                                                                                                                                                        | Render every card with `content-visibility`; a virtualised list       | Virtualised with TanStack Virtual (`@tanstack/react-virtual` 3.14.13, the newest release two weeks old; MIT), because criterion 5 failed without it. Measured at 4× CPU slowdown with every form showing: rendering all 1,339 cards, a filter change took 250 to 944 ms; hiding rather than removing them, still 216 to 696 ms, most of it the browser laying out the grid. Virtualised, with the changes below, most changes took 40 to 170 ms, with two runs at 256 and 336 ms on a machine also running a dev server. Ctrl+F finds only the cards on screen; the filter box is the Dex's search |
+| Prefetching     | `optimizing-prefetching.md`: for "a grid of cards", "Prefetch on intent instead"; `prefetching.md`, "Hover-triggered prefetch": "Using `false` before intent disables the App Shell prefetch"                                                                                         | The default `<Link>`; prefetch on intent                              | On intent: `prefetch={false}` until a card is pointed at, focused or touched, then `true`. Measured: the default `<Link>` sent one route-tree request (`_tree`) per card that scrolled in, 24 on one filter change, since each form's address is its own URL; that broke criterion 4 and slowed the change. A tap on a phone, with no hover, prefetches at the touch                                                                                                                                                                                                                               |
 
 ## Tests
 

@@ -3,7 +3,7 @@ import "server-only"
 import { forms } from "@workspace/dex"
 
 import type { DexData } from "@/components/dex/dex-browser"
-import { dexData } from "@/lib/dex-data"
+import { dexData } from "@/lib/dex"
 
 // The Dex browse screen's sample data (spec 001, "How a screen is built",
 // step 2): a fixed set of forms from the dataset, chosen for what they
