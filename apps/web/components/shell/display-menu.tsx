@@ -19,8 +19,9 @@ import {
   DropdownMenuShortcut,
   DropdownMenuTrigger,
 } from "@workspace/ui/components/shadcn-ui/dropdown-menu"
+import { Kbd } from "@workspace/ui/components/shadcn-ui/kbd"
 
-import { THEME_HOTKEY, useThemeHotkey } from "@/components/theme-hotkey"
+import { SHORTCUT_KEYS, useSingleKeyShortcuts } from "@/components/shortcuts"
 import { switchLocale } from "@/i18n/paths"
 
 // 44 px targets (AGENTS.md), and a focus outline that shows on the popover:
@@ -43,7 +44,7 @@ export type LanguageOption = { locale: Locale; name: string }
 
 /**
  * The display menu (spec 001, "The app shell"): the theme, the language, and
- * the single-key shortcuts. Each language is a link to the same page in it,
+ * the single-key shortcuts (`d` and `/`, one setting). Each language is a link to the same page in it,
  * a full page load, so the Proxy remembers the choice in the `lang` cookie;
  * the current one is marked `aria-current`.
  */
@@ -57,7 +58,7 @@ function DisplayMenu({
   languages: LanguageOption[]
 }) {
   const { theme, setTheme } = useTheme()
-  const [hotkeyEnabled, setHotkeyEnabled] = useThemeHotkey()
+  const [shortcutsEnabled, setShortcutsEnabled] = useSingleKeyShortcuts()
   const pathname = usePathname()
 
   return (
@@ -110,12 +111,13 @@ function DisplayMenu({
         <DropdownMenuSeparator />
         <DropdownMenuCheckboxItem
           className={itemClassName}
-          checked={hotkeyEnabled}
-          onCheckedChange={(checked) => setHotkeyEnabled(checked)}
+          checked={shortcutsEnabled}
+          onCheckedChange={(checked) => setShortcutsEnabled(checked)}
         >
           {labels.shortcuts}
-          <DropdownMenuShortcut>
-            {THEME_HOTKEY.toUpperCase()}
+          <DropdownMenuShortcut className="flex gap-1">
+            <Kbd>{SHORTCUT_KEYS.theme.toUpperCase()}</Kbd>
+            <Kbd>{SHORTCUT_KEYS.search}</Kbd>
           </DropdownMenuShortcut>
         </DropdownMenuCheckboxItem>
       </DropdownMenuContent>

@@ -1,7 +1,8 @@
 import type * as React from "react"
 import Link from "next/link"
-import { getLocale, getTranslations } from "next-intl/server"
+import { getLocale, getMessages, getTranslations } from "next-intl/server"
 
+import { SearchButton } from "@/components/search/search-button"
 import { DisplayMenu } from "@/components/shell/display-menu"
 import { LanguageLinks } from "@/components/shell/language-links"
 import { endonym, otherLocales } from "@/i18n/locales"
@@ -22,6 +23,7 @@ import { SITE } from "@/lib/site"
 async function AppShell({ children }: { children: React.ReactNode }) {
   const locale = await getLocale()
   const t = await getTranslations("shell")
+  const messages = await getMessages()
   const footer = await getTranslations("footer")
 
   const languages = routing.locales.map((other) => ({
@@ -38,7 +40,7 @@ async function AppShell({ children }: { children: React.ReactNode }) {
       >
         {t("skipToContent")}
       </a>
-      <header className="sticky top-0 z-40 flex h-(--sticky-top) items-center justify-between gap-2 border-b bg-background/95 px-4 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <header className="sticky top-0 z-40 flex h-(--sticky-top) items-center gap-2 border-b bg-background/95 px-4 backdrop-blur supports-[backdrop-filter]:bg-background/80">
         <Link
           href={localeHref(locale, "/")}
           aria-label={t("home")}
@@ -46,19 +48,26 @@ async function AppShell({ children }: { children: React.ReactNode }) {
         >
           {SITE.name}
         </Link>
-        <DisplayMenu
-          locale={locale}
-          languages={languages}
-          labels={{
-            display: t("display"),
-            theme: t("theme"),
-            light: t("light"),
-            dark: t("dark"),
-            system: t("system"),
-            shortcuts: t("shortcuts"),
-            language: t("language"),
-          }}
-        />
+        <div className="ms-auto flex items-center gap-2">
+          <SearchButton
+            locale={locale}
+            hint={t("searchHint")}
+            messages={messages.palette}
+          />
+          <DisplayMenu
+            locale={locale}
+            languages={languages}
+            labels={{
+              display: t("display"),
+              theme: t("theme"),
+              light: t("light"),
+              dark: t("dark"),
+              system: t("system"),
+              shortcuts: t("shortcuts"),
+              language: t("language"),
+            }}
+          />
+        </div>
       </header>
       <main id="main" tabIndex={-1} className="flex-1 outline-none">
         {children}

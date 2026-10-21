@@ -268,7 +268,7 @@ palette opens from a shortcut.
 
 ## Tasks
 
-Progress (2026-10-21): tasks 1 to 6 built. Open before 001 is done:
+Progress (2026-10-21): tasks 1 to 7 built. Open before 001 is done:
 
 - **Performance:** after the shell, `/en` is 306 KB with LCP 2.7–2.9 s on
   a throttled mid-range phone (Playwright, 4× CPU, slow 4G), over the 2.5 s
@@ -277,7 +277,7 @@ Progress (2026-10-21): tasks 1 to 6 built. Open before 001 is done:
 - **Navigation:** the bottom tabs and sidebar arrive with their first item
   (spec 003), and the footer's About and Legal links with task 9: nothing
   links to a page that doesn't exist (spec rule 4).
-- Tasks 7 to 9.
+- Tasks 8 and 9, then the performance pass with Lighthouse (owner, 2026-10-21: last).
 
 1. **Rules.** AGENTS.md's interface lines and `packages/ui/README.md`'s
    element-to-component table, from the interface standards plan (its
