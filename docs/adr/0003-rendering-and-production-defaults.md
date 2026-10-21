@@ -37,7 +37,12 @@ a Function") to tell development from the rest, rather than reading
   experimental, and its docs say it's for apps that "can't build a 404 page
   using a combination of `layout.js` and `not-found.js`" (several root
   layouts, or one under a dynamic segment). Coachlore has one root layout,
-  so `not-found.tsx` serves.
+  so `not-found.tsx` serves. **Superseded on 2026-10-21 by
+  [ADR 0007](0007-languages-and-right-to-left.md):** the root layout moves
+  under `app/[lang]`, which its docs name as the second case ("Your root
+  layout is defined using top-level dynamic segments"), so spec 001 adds
+  `global-not-found.tsx` with the `experimental.globalNotFound` flag, and
+  each language keeps its own `not-found.tsx`.
 - **The owner's metadata plan**, where the docs differ: the canonical URL is
   set by each page, not the root layout (metadata merges shallowly, so every
   page would inherit "/"); the home page has no title of its own (a layout's
