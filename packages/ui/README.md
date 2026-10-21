@@ -61,10 +61,12 @@ to scan the apps and this package for class names.
 ## Adding components
 
 Check the [shadcn/ui registry](https://ui.shadcn.com/docs/components) before
-writing a component. Add one with the CLI, from the repository root:
+writing a component. Add one with the CLI, from the repository root, at
+the version pinned in this package's `package.json` (4.21.3 today), not
+`@latest` (AGENTS.md, "Versions"):
 
 ```bash
-bunx --bun shadcn@latest add <component> -c apps/web
+bunx --bun shadcn@4.21.3 add <component> -c apps/web
 ```
 
 `-c apps/web` runs the CLI in the app's folder, as

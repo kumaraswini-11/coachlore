@@ -1,6 +1,10 @@
-# Coachlore | Pokédex and Draft League Manager
+<div align="center">
 
-<!-- Badges follow the Stack section's order: the app, then the tooling. Only what the repository uses today gets a badge; planned tools get one when they're added. Each takes its brand's colour (Simple Icons, from each brand's guidelines; React's from react.dev); where shields' white text on it would read under 3:1, the badge is black and the logo carries the colour. -->
+# Coachlore
+
+**A fast, mobile-first Pokédex and a home for Pokémon draft leagues, from the live draft to the final standings.**
+
+<!-- Badges: only what the repository uses today, in the Stack table's order. Each takes its brand's colour (Simple Icons; React's from react.dev); where shields' white text on it would read under 3:1, the badge is black and the logo carries the colour. -->
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-23272F?style=for-the-badge&logo=react&logoColor=58C4DC)](https://react.dev)
@@ -10,243 +14,123 @@
 [![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.sh)
 [![Turborepo](https://img.shields.io/badge/Turborepo-FF1E56?style=for-the-badge&logo=turborepo&logoColor=white)](https://turborepo.dev)
 
-> The name joins two words. In a draft league the players are **coaches**:
-> each one drafts a team of Pokémon, each priced in points, and runs it
-> through a season. **Lore** is the knowledge a coach builds up: what every
-> Pokémon, move and matchup does, and the league's own history of picks,
-> trades, replays and rivalries.
->
-> Coachlore keeps both: the Pokédex is the first kind, the league the second.
+[Why](#why) · [Features](#features) · [Highlights](#highlights) · [Stack](#stack) · [How it’s built](#how-its-built) · [Getting started](#getting-started) · [Docs](#documentation) · [Contributing](#contributing-and-security) · [Credits](#credits-and-disclaimer) · [License](#license)
 
-A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live
-drafts, schedules, trades, standings and AI match recaps from real battle
-logs.
+</div>
 
 > [!NOTE]
-> **Early days.** The repository holds the monorepo scaffold and the working
-> rules. Everything under "How it works" and "Features" is planned, not built.
+> **Early days:** the plan is complete, spec by spec, and the build is
+> starting. Everything below is planned unless the Stack table says "today".
 
-## About
+## Why
 
-Coachlore has two halves:
+Pokémon draft leagues run on spreadsheets and Discord: a sheet of tiers and
+points, a sheet of rosters, and a draft held one message at a time, with
+someone checking by eye that nobody took a Pokémon twice. Coachlore is that
+league's home, with the fastest, calmest Pokédex beside it.
 
-- **The Dex**: a Pokédex anyone can use on a phone, with no sign-in, no ads
-  and nothing that jumps around while it loads.
-- **Leagues**: for the draft leagues that run on Discord and spreadsheets
-  today. A league is created, its coaches draft live, they play their
-  matches on Pokémon Showdown, and Coachlore keeps the schedule, results,
-  trades, standings and stats.
-
-Every number comes from data and code. Where a model helps, it explains
-or chooses among options the code worked out, and what it says is checked
-against the data.
-
-Coachlore is a personal project, built to learn and show heavy backend and
-full-stack work. It's independent, unofficial and non-commercial (see
-[Credits and disclaimer](#credits-and-disclaimer)).
-
-## How it works
-
-Planned:
-
-```text
-Pokémon data
-  → PokéAPI and Smogon's monthly usage statistics, imported by a worker
-  → stored in one database, the one source for the Dex and every league
-
-A draft
-  → a coach picks; the server checks the turn, points left and availability
-  → the pick is stored (no Pokémon can be taken twice in a league)
-  → every coach in the room sees it at once; the Discord bot posts it
-
-A match
-  → played on Showdown; the winner pastes the replay link
-  → the battle log is parsed by code: the score, each Pokémon's KOs, the MVP
-  → standings and stats update; a recap is written from those facts
-```
+The name joins the league's **coaches** and their **lore**: everything they
+know about every Pokémon, and everything their league has lived through.
 
 ## Features
 
-Planned for the first version.
+**The Dex**, open to everyone, no sign-in: search and filters (or plain
+words), a page for every Pokémon and form, the type chart, a team checker
+you share by link, and it works offline.
 
-### The Dex
+**Leagues**, signed in with Discord: create a league, a points-based tier
+list, a **live draft room**, a schedule with results read from Showdown
+replays, trades, standings, stats, and a Discord bot that posts it all.
 
-- **Search and filters**: by type, weakness, game, generation, ability and
-  stats, or in plain words ("fast steel types that resist fairy"), turned
-  into filters you can see and edit.
-- **A page for each Pokémon**: stats, type matchups, evolutions, moves, where
-  to find it in each game, Pokédex entries, names in other languages, and how
-  it's used competitively.
-- **Type chart** for one type or two.
-- **Team check**: a team of six's weaknesses and coverage at a glance.
-- **Mobile first and offline**: designed at phone width first; the Dex works
-  without a connection.
+**In English and Hindi**, and built for more, right-to-left languages included.
 
-### Leagues
+**AI that shows its work**: plain-language search, an assistant that shows
+its lookups, draft suggestions, match recaps and a weekly digest, all
+checked against the data and all optional.
 
-- **Create a league**: format, rules, points budget, picks per coach, timer,
-  schedule and a Discord channel.
-- **Tier list**: each Pokémon's cost in points for this league, and its bans.
-- **Live draft room**: snake or linear order, a timer, a wishlist with
-  auto-pick, and each pick revealed to everyone at once.
-- **Schedule and results**: results read from Showdown replays and confirmed
-  by both coaches.
-- **Trades** between coaches, with points checked and an admin's approval if
-  the league asks for it.
-- **Standings and stats**: records, differentials, KO leaders.
-- **Discord bot**: picks, results, trade offers and reminders, in the
-  league's channel.
+## Highlights
 
-### AI that shows its work
-
-- **Plain-language search**: the model turns a question into filters; the
-  database returns the Pokémon.
-- **Ask**: a chat that looks facts up and shows its lookups before it
-  answers.
-- **Team and trade checks**: code works out the weaknesses and the
-  candidates that cover them; the model explains them.
-- **Draft suggestions**, seen only by the coach whose turn it is, and
-  switched off by a league if it chooses.
-- **Match recaps and a weekly digest**, written from the parsed battle logs
-  and the standings.
-
-## Held to account
-
-Planned: each of these will be a check that runs, not a promise.
-
-- **Nothing the AI says is unchecked.** Every Pokémon, move or ability an
-  answer names is looked up in the data; an answer naming one that doesn't
-  exist is never shown. An evaluation on fixed cases fails the build on a
-  regression.
-- **A fair draft.** A Pokémon can be drafted once per league, enforced by the
-  database and tested with coaches picking at the same moment.
-- **Works without the AI.** Every feature has a path that doesn't need a
-  model, and runs when the AI's quota is spent.
-- **Accessible.** WCAG 2.2 AA: type colours paired with text that passes
-  contrast, never colour alone; keyboard and screen-reader support for the
-  grid, search and draft room.
-- **Fast on a phone.** Core Web Vitals' "good" thresholds, measured on a
-  mid-range phone profile.
-- **Respectful of the franchise.** No ads, paid tiers or app-store app, as
-  few official images as possible, and the notice below on every page.
-
-## What's next
-
-1. The glossary: one meaning for each term (coach, league, tier, pick,
-   match). The [project doc](docs/project-doc.md) is written.
-2. The stack's decisions, each recorded with its alternatives: the package
-   manager, the API, the database, real-time and hosting.
-3. Specs in build order, starting with the platform and the Dex.
+- **Fair under pressure**: every pick decided by the server in a
+  transaction; the database refuses a Pokémon taken twice; reconnecting
+  catches up from the server.
+- **State machines**: the draft, a match's result and a trade, every
+  transition stated and tested.
+- **Reliable jobs**: saved with the change they belong to and retried
+  safely; a retried Discord post appears once.
+- **Real input, real rules**: Showdown battle logs parsed into scores and
+  KOs, checked against real replays.
+- **AI with guardrails**: structured output, a grounding check on every
+  name and number, an evaluation, a daily allowance, and nothing breaks
+  with the AI off.
+- **Built for phones**: designed at 360 px first, WCAG 2.2 AA, an offline
+  Dex, Core Web Vitals measured on a mid-range phone.
 
 ## Stack
 
-What the repository uses today, from the scaffold. Each remaining piece will
-be chosen and recorded as a decision in `docs/adr/`, with the alternatives
-considered.
+| Layer   | Tools                                                                                                                                                                                                                                                           |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Web     | **Today:** [Next.js](https://nextjs.org) 16, React 19, [shadcn/ui](https://ui.shadcn.com) on [Base UI](https://base-ui.com), [Tailwind CSS](https://tailwindcss.com) 4                                                                                          |
+| Tooling | **Today:** TypeScript, ESLint, Prettier, [Bun](https://bun.sh) workspaces, [Turborepo](https://turborepo.dev), GitHub Actions                                                                                                                                   |
+| Server  | [Fastify](https://fastify.dev), [Socket.IO](https://github.com/socketio/socket.io), [PostgreSQL](https://www.postgresql.org) with [Drizzle](https://orm.drizzle.team), [pg-boss](https://github.com/timgit/pg-boss), [Better Auth](https://www.better-auth.com) |
+| Core    | Framework-agnostic TypeScript packages: the Pokémon data model, the league rules, the battle-log parser                                                                                                                                                         |
+| AI      | The [AI SDK](https://ai-sdk.dev) behind one interface, so the provider can change                                                                                                                                                                               |
+| Quality | [Vitest](https://vitest.dev), [Playwright](https://playwright.dev) with axe, [Testcontainers](https://testcontainers.com), [k6](https://k6.io), [Sentry](https://sentry.io)                                                                                     |
+| Hosting | $0: [Vercel](https://vercel.com) for the web app; an Oracle Cloud Always Free VM with [Coolify](https://coolify.io) for the server and database                                                                                                                 |
 
-- **The app**: [Next.js](https://nextjs.org) 16 on React 19;
-  [shadcn/ui](https://ui.shadcn.com) on [Base UI](https://base-ui.com), with
-  [Tailwind CSS](https://tailwindcss.com) 4, Lucide icons and next-themes
-- **Tooling**: TypeScript, ESLint, Prettier, [Bun](https://bun.sh) workspaces
-  and [Turborepo](https://turborepo.dev)
+Proposed in [ADR 0006](docs/adr/0006-architecture-and-stack.md); each piece
+is added only when the first spec that needs it is built.
 
-Planned, with each tool still to be chosen: an API with a relational
-database and a cache, real-time updates for the draft room, background jobs,
-a Discord bot, a provider-agnostic AI layer with its evaluation, and tests
-from unit to end-to-end and load. The core (league
-rules, Pokémon data, the battle-log parser) is planned as isolated,
-framework-agnostic packages, tested on their own.
+## How it's built
 
-## Layout
-
-```text
-apps/
-  web/                 the Next.js app
-packages/
-  ui/                  shared UI: shadcn components, the theme (globals.css), cn
-  eslint-config/, typescript-config/
-                       the settings every package shares
-docs/
-  project-doc.md       the product decisions, with their reasoning
-  adr/                 architecture decision records
-  plans/               open work and pending decisions
-  research/            the dated research that led to Coachlore
-  git-workflow.md      a new clone's setup, the checks, branches and merging
-```
+Agile and iterative, in small increments of working software: each
+[spec](docs/specs/README.md) is a slice with its own acceptance criteria,
+built in small tasks, each checked by CI, reviewed and committed before the
+next. Decisions are recorded as [ADRs](docs/adr/), screens are reviewed on a
+desktop and a phone before they meet real data, and the specs change as we
+learn. No deadlines: scope flexes, quality doesn't.
 
 ## Getting started
 
-Requires [Bun](https://bun.sh) (the version is set by `packageManager` in
-`package.json`) and [Node.js](https://nodejs.org) 24, the LTS line (set by
-`engines` in `package.json`).
+Needs [Bun](https://bun.sh) (the version in `package.json`'s
+`packageManager`) and [Node.js](https://nodejs.org) 24.
 
 ```bash
 git clone https://github.com/kumaraswini-11/coachlore.git
 cd coachlore
 bun install
-bun run dev
+bun run dev        # http://localhost:3000
 ```
 
-Before your first commit in a new clone, set it up as
+`bun run lint`, `typecheck`, `build` and `format:check` are the checks CI
+runs on every pull request. Before your first commit, set up the clone as
 [docs/git-workflow.md](docs/git-workflow.md) describes.
 
-The app runs at <http://localhost:3000>.
+## Documentation
 
-## Scripts
+[Project doc](docs/project-doc.md) (the why) ·
+[Specs](docs/specs/README.md) (the what, in build order) ·
+[Decisions](docs/adr/) · [Glossary](GLOSSARY.md) ·
+[AGENTS.md](AGENTS.md) (how to work here)
 
-Run from the repository root. Turborepo runs the first four in every app and
-package; Prettier runs once, over the whole repository.
+## Contributing and security
 
-| Script                 | What it does                                          |
-| ---------------------- | ----------------------------------------------------- |
-| `bun run dev`          | Starts the app in development mode                    |
-| `bun run build`        | Builds every app and package                          |
-| `bun run lint`         | Lints every app and package; any warning fails it     |
-| `bun run typecheck`    | Type-checks every app and package                     |
-| `bun run format`       | Formats every file with Prettier and sorts imports    |
-| `bun run format:check` | Checks every file's formatting without changing files |
-
-CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the same
-checks on every pull request and push to `main`.
-
-## Adding UI components
-
-With the shadcn CLI, from the repository root:
-
-```bash
-bunx --bun shadcn@latest add button -c apps/web
-```
-
-The component lands in `packages/ui/src/components/shadcn-ui`, and the app
-imports it from the `ui` package:
-
-```tsx
-import { Button } from "@workspace/ui/components/shadcn-ui/button"
-```
-
-## References
-
-- [AGENTS.md](AGENTS.md): how to work in this repository: the limits on
-  Pokémon's names and images, the AI rule, the interface, git, decisions,
-  versions and tooling
-- [Git workflow](docs/git-workflow.md): a new clone's setup, the checks before
-  a commit or push, and recovery
-- [Project doc](docs/project-doc.md): the product decisions behind the build,
-  with their reasoning
-- [Research](docs/research/): the dated research that led to Coachlore
-- [Decisions](docs/adr/): the architecture decision records
-- [Plans](docs/plans/): open work and pending decisions
+Questions and ideas are welcome as
+[issues](https://github.com/kumaraswini-11/coachlore/issues). It's a personal
+project, so pull requests aren't accepted. For a security problem, see
+[SECURITY.md](SECURITY.md), never a public issue.
 
 ## Credits and disclaimer
 
-Coachlore is an independent, unofficial and non-commercial project. It is
-not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak
-or The Pokémon Company. Pokémon and Pokémon character names are trademarks of
+Coachlore is an independent, unofficial, non-commercial fan project, not
+affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak or
+The Pokémon Company. Pokémon and Pokémon character names are trademarks of
 Nintendo, Creatures and Game Freak; Pokémon images and names © Nintendo,
-Creatures, Game Freak and The Pokémon Company.
+Creatures, Game Freak and The Pokémon Company. Data from
+[PokéAPI](https://pokeapi.co) and
+[Pokémon Showdown](https://github.com/smogon/pokemon-showdown); usage
+statistics from [Smogon](https://www.smogon.com/stats/).
 
 ## License
 
-Coachlore's own code is under the [MIT License](LICENSE). The Pokémon names,
-images and data it shows belong to their owners (see
-[Credits and disclaimer](#credits-and-disclaimer)).
+[MIT](LICENSE) for Coachlore's own code. The Pokémon names, images and data
+it shows belong to their owners.
