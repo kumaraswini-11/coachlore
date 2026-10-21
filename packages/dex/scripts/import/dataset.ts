@@ -16,20 +16,21 @@ import {
 } from "./details.ts"
 import type { Dataset } from "./integrity.ts"
 import { applyOverrides, type Override } from "./overrides.ts"
-import { matchShowdown, type ShowdownException } from "./showdown.ts"
+import { matchShowdown, type ShowdownExceptions } from "./showdown.ts"
 import {
   importAbilities,
   importChart,
   importForms,
   importMoves,
 } from "./steps.ts"
+import { importUsage } from "./usage.ts"
 import { stableJson, writeJson } from "./write.ts"
 
 export type Hand = {
   excludedForms: { key: string; reason: string }[]
   overrides: Override[]
   exclusives: Exclusives
-  showdownExceptions: ShowdownException[]
+  showdownExceptions: ShowdownExceptions
 }
 
 /** The hand-kept files in `overrides/`. */
@@ -60,7 +61,14 @@ type PokemonResource = {
   }
 }
 
-export function importDex(api: ApiData, hand: Hand): Dataset {
+/** Smogon's chaos files for one month, by format. */
+export type UsageFiles = { month: string; files: Record<string, string> }
+
+export function importDex(
+  api: ApiData,
+  hand: Hand,
+  usageFiles: UsageFiles
+): Dataset {
   const forms = importForms(
     api,
     new Set(hand.excludedForms.map((form) => form.key))
@@ -70,7 +78,7 @@ export function importDex(api: ApiData, hand: Hand): Dataset {
   // Step 9 fills each form's `gen9` and `tags`; a name it can't map, or maps
   // to a form with other battle data, is an error, never a guess (spec 002,
   // "A name in a battle log we can't map is an error").
-  const match = matchShowdown(forms, hand.showdownExceptions)
+  const match = matchShowdown(forms, moves, abilities, hand.showdownExceptions)
   if (match.unmatched.length > 0 || match.mismatched.length > 0) {
     throw new Error(
       [
@@ -142,6 +150,7 @@ export function importDex(api: ApiData, hand: Hand): Dataset {
     games: gameList,
     locations: locationNames(api, areas),
     showdown: match.showdown,
+    usage: importUsage(usageFiles.month, usageFiles.files, match.showdown),
   }
 }
 
@@ -161,6 +170,7 @@ export function files(
     "games.json": dataset.games,
     "locations.json": dataset.locations,
     "showdown.json": dataset.showdown,
+    "usage.json": dataset.usage,
     "credits.json": credits(sources),
     ...Object.fromEntries(
       dataset.details.map((detail) => [`pokemon/${detail.key}.json`, detail])

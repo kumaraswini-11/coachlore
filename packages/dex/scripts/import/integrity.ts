@@ -7,6 +7,7 @@ import {
   type Move,
   type PokemonDetail,
   type TypeChart,
+  type Usage,
 } from "../../src/types.ts"
 import type { ShowdownNames } from "./showdown.ts"
 
@@ -22,6 +23,7 @@ export type Dataset = {
   /** Location area → its English name. */
   locations: Record<string, string>
   showdown: ShowdownNames
+  usage: Usage
 }
 
 /**
@@ -161,6 +163,22 @@ export function problems(dataset: Dataset): string[] {
             `games: ${entry.form} is only in ${entry.onlyIn}, not a version of ${game.key}`
           )
         }
+      }
+    }
+  }
+  for (const [format, entries] of Object.entries(dataset.usage.formats)) {
+    for (const [form, entry] of Object.entries(entries)) {
+      const missing = [
+        ...[form, ...entry.partners.map(([key]) => key)].filter(
+          (key) => !forms.has(key)
+        ),
+        ...entry.moves.map(([key]) => key).filter((key) => !moves.has(key)),
+        ...entry.abilities
+          .map(([key]) => key)
+          .filter((key) => !abilities.has(key)),
+      ]
+      for (const key of missing) {
+        found.push(`usage: ${format}'s ${form} names ${key}`)
       }
     }
   }

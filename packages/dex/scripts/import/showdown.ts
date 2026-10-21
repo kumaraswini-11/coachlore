@@ -13,6 +13,10 @@ export type ShowdownNames = {
   ids: Record<string, string>
   /** Our form → its Showdown name ("Rotom-Wash"), where it has its own. */
   names: Record<string, string>
+  /** Showdown's move ID ("uturn") → our move ("u-turn"). */
+  moves: Record<string, string>
+  /** Showdown's ability ID → our ability. */
+  abilities: Record<string, string>
 }
 
 export type ShowdownMatch = {
@@ -41,18 +45,26 @@ export function showdownId(name: string): string {
  * the form's types and base stats; one made through the base needn't.
  * Fills each form's `gen9` and `tags` from the species named for it.
  */
+/** A Showdown ID that doesn't match our key by rule, and why. */
 export type ShowdownException = {
   showdown: string
-  form: string
+  key: string
   reason: string
 }
 
+export type ShowdownExceptions = Record<
+  "species" | "moves" | "abilities",
+  ShowdownException[]
+>
+
 export function matchShowdown(
   forms: FormSummary[],
-  exceptionList: readonly ShowdownException[]
+  moves: readonly { key: string }[],
+  abilities: readonly { key: string }[],
+  exceptionLists: ShowdownExceptions
 ): ShowdownMatch {
   const exceptions = Object.fromEntries(
-    exceptionList.map((each) => [each.showdown, each.form])
+    exceptionLists.species.map((each) => [each.showdown, each.key])
   )
   const dex = Dex.forGen(9)
   const byId = new Map(forms.map((form) => [showdownId(form.key), form]))
@@ -157,7 +169,40 @@ export function matchShowdown(
       `showdown-exceptions.json names species Showdown doesn't have: ${unused.join(", ")}.`
     )
   }
-  return { showdown: { ids, names }, unmatched, mismatched }
+  return {
+    showdown: {
+      ids,
+      names,
+      moves: keysById(moves, exceptionLists.moves),
+      abilities: keysById(abilities, exceptionLists.abilities),
+    },
+    unmatched,
+    mismatched,
+  }
+}
+
+/**
+ * Each of our moves or abilities by its Showdown ID (`u-turn` is `uturn`),
+ * plus the exceptions; an exception to a key we don't have fails.
+ */
+function keysById(
+  items: readonly { key: string }[],
+  exceptions: readonly ShowdownException[]
+): Record<string, string> {
+  const keys = new Set(items.map((item) => item.key))
+  for (const each of exceptions) {
+    if (!keys.has(each.key)) {
+      throw new Error(
+        `showdown-exceptions.json maps ${each.showdown} to ${each.key}, which we don't have.`
+      )
+    }
+  }
+  return Object.fromEntries(
+    [
+      ...items.map((item) => [showdownId(item.key), item.key] as const),
+      ...exceptions.map((each) => [each.showdown, each.key] as const),
+    ].sort(([a], [b]) => (a < b ? -1 : 1))
+  )
 }
 
 const SHOWDOWN_STATS = ["hp", "atk", "def", "spa", "spd", "spe"] as const

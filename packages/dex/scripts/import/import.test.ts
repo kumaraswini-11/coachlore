@@ -23,9 +23,14 @@ const api = new ApiData(
   join(import.meta.dirname, "..", "..", "test", "fixtures", "api-data")
 )
 const hand: Hand = {
-  showdownExceptions: readHand(
-    join(import.meta.dirname, "..", "..", "overrides")
-  ).showdownExceptions,
+  // The real species exceptions; the move and ability ones name keys the
+  // sample's eight moves don't have, which the full import checks.
+  showdownExceptions: {
+    species: readHand(join(import.meta.dirname, "..", "..", "overrides"))
+      .showdownExceptions.species,
+    moves: [],
+    abilities: [],
+  },
   excludedForms: [{ key: "raticate-totem-alola", reason: "A Totem Pokémon" }],
   overrides: [],
   // Not a real exclusive (Combat Breed is in both versions): here only to
@@ -38,7 +43,18 @@ const hand: Hand = {
     },
   ],
 }
-const dataset = importDex(api, hand)
+const fixtures = join(import.meta.dirname, "..", "..", "test", "fixtures")
+const usage = {
+  month: "2026-09",
+  files: Object.fromEntries(
+    ["gen9ou", "gen9doublesou"].map((format) => [
+      format,
+      join(fixtures, "smogon", `${format}-1500.json`),
+    ])
+  ),
+}
+const run = (given: Hand) => importDex(api, given, usage)
+const dataset = run(hand)
 const form = (key: string) => dataset.forms.find((each) => each.key === key)
 const move = (key: string) => dataset.moves.find((each) => each.key === key)
 const detail = (key: string) => dataset.details.find((each) => each.key === key)
@@ -53,7 +69,7 @@ describe("the import, on the sample", () => {
   it("gives identical bytes when run twice (criterion 4)", () => {
     const [first, second] = ["first", "second"].map((name) => {
       const dir = join(work, name)
-      writeDataset(dir, files(importDex(api, hand), readSources()))
+      writeDataset(dir, files(run(hand), readSources()))
       return dir
     })
     const list = (dir: string) =>
@@ -167,7 +183,7 @@ describe("the import, on the sample", () => {
 
   it("fails on an excluded form the source doesn't have", () => {
     expect(() =>
-      importDex(api, {
+      run({
         ...hand,
         excludedForms: [{ key: "pikachu-totem", reason: "–" }],
       })
@@ -281,7 +297,7 @@ describe("the import, on the sample", () => {
 
   it("fails on an exclusive for a game the source doesn't have", () => {
     expect(() =>
-      importDex(api, {
+      run({
         ...hand,
         exclusives: [
           { game: "pokemon-z", link: "https://example.com", forms: {} },
@@ -306,5 +322,33 @@ describe("the import, on the sample", () => {
       tags: ["Sub-Legendary"],
     })
     expect(form("charizard-mega-x")).toMatchObject({ gen9: false, tags: [] })
+  })
+
+  it("keeps each format's usage, its lists cut to six and mapped to our keys", () => {
+    expect(dataset.usage.month).toBe("2026-09")
+    expect(Object.keys(dataset.usage.formats)).toEqual([
+      "gen9doublesou",
+      "gen9ou",
+    ])
+    const rotomWash = dataset.usage.formats.gen9ou?.["rotom-wash"]
+    expect(rotomWash?.share).toBeGreaterThan(0)
+    // Smogon's empty move slot isn't a move.
+    expect(rotomWash?.moves.map(([key]) => key)).toEqual(["hydro-pump"])
+    expect(rotomWash?.abilities).toEqual([["levitate", 1]])
+    expect(rotomWash?.items.map(([name]) => name)).toContain("Leftovers")
+    // Showdown's "Tauros-Paldea-Aqua" is our Aqua Breed.
+    expect(rotomWash?.partners.map(([key]) => key)).toContain(
+      "tauros-paldea-aqua-breed"
+    )
+    for (const entry of Object.values(dataset.usage.formats.gen9ou ?? {})) {
+      for (const list of [
+        entry.moves,
+        entry.items,
+        entry.abilities,
+        entry.partners,
+      ]) {
+        expect(list.length).toBeLessThanOrEqual(6)
+      }
+    }
   })
 })

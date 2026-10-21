@@ -26,7 +26,8 @@ const sources = readSources()
 const cached = await fetchSources(sources)
 const dataset = importDex(
   new ApiData(cached.apiData),
-  readHand(join(PACKAGE, "overrides"))
+  readHand(join(PACKAGE, "overrides")),
+  { month: sources["smogon-usage"].month, files: cached.usage }
 )
 
 const found = problems(dataset)
@@ -42,6 +43,6 @@ console.log(summary(DATA, output).join("\n"))
 writeDataset(DATA, output)
 
 const today = new Date().toISOString().slice(0, 10)
-// Usage joins in step 10 (task 8); until then only api-data is imported.
 sources["api-data"].imported = today
+sources["smogon-usage"].imported = today
 writeFileSync(join(PACKAGE, "sources.json"), stableJson(sources))

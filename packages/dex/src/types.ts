@@ -183,7 +183,9 @@ export type Game = {
 export type UsageEntry = {
   /** 0–1. */
   share: number
+  /** Each list: its top six, [key, share 0–1]. */
   moves: [string, number][]
+  /** Items by English name ("Choice Scarf"): the dataset has no items. */
   items: [string, number][]
   abilities: [string, number][]
   partners: [FormKey, number][]

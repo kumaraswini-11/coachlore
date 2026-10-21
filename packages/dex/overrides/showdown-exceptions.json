@@ -1,57 +1,88 @@
-[
-  {
-    "showdown": "darmanitangalar",
-    "form": "darmanitan-galar-standard",
-    "reason": "Galarian Darmanitan's standard mode; the prefix rule would pick Zen Mode, the shorter key"
-  },
-  {
-    "showdown": "miniormeteor",
-    "form": "minior-red-meteor",
-    "reason": "Minior's Meteor Form: PokéAPI keys it by its core colour, red by default"
-  },
-  {
-    "showdown": "greninjabond",
-    "form": "greninja-battle-bond",
-    "reason": "Greninja with Battle Bond: PokéAPI names the ability in full"
-  },
-  {
-    "showdown": "rockruffdusk",
-    "form": "rockruff-own-tempo",
-    "reason": "The Rockruff that becomes Dusk Lycanroc: PokéAPI names it by its ability, Own Tempo"
-  },
-  {
-    "showdown": "necrozmaduskmane",
-    "form": "necrozma-dusk",
-    "reason": "Dusk Mane Necrozma: PokéAPI's key drops \"Mane\""
-  },
-  {
-    "showdown": "necrozmadawnwings",
-    "form": "necrozma-dawn",
-    "reason": "Dawn Wings Necrozma: PokéAPI's key drops \"Wings\""
-  },
-  {
-    "showdown": "mausholdfour",
-    "form": "maushold-family-of-four",
-    "reason": "Maushold's Family of Four: Showdown's \"Four\" doesn't begin PokéAPI's key"
-  },
-  {
-    "showdown": "meowsticmmega",
-    "form": "meowstic-male-mega",
-    "reason": "Mega Meowstic (male): Showdown writes M, PokéAPI male"
-  },
-  {
-    "showdown": "meowsticfmega",
-    "form": "meowstic-female-mega",
-    "reason": "Mega Meowstic (female): Showdown writes F, PokéAPI female"
-  },
-  {
-    "showdown": "toxtricitygmax",
-    "form": "toxtricity-amped-gmax",
-    "reason": "Gigantamax Toxtricity: PokéAPI keys it by its Amped Form"
-  },
-  {
-    "showdown": "urshifugmax",
-    "form": "urshifu-single-strike-gmax",
-    "reason": "Gigantamax Urshifu: PokéAPI keys it by its Single Strike Style"
-  }
-]
+{
+  "species": [
+    {
+      "showdown": "darmanitangalar",
+      "key": "darmanitan-galar-standard",
+      "reason": "Galarian Darmanitan's standard mode; the prefix rule would pick Zen Mode, the shorter key"
+    },
+    {
+      "showdown": "miniormeteor",
+      "key": "minior-red-meteor",
+      "reason": "Minior's Meteor Form: PokéAPI keys it by its core colour, red by default"
+    },
+    {
+      "showdown": "greninjabond",
+      "key": "greninja-battle-bond",
+      "reason": "Greninja with Battle Bond: PokéAPI names the ability in full"
+    },
+    {
+      "showdown": "rockruffdusk",
+      "key": "rockruff-own-tempo",
+      "reason": "The Rockruff that becomes Dusk Lycanroc: PokéAPI names it by its ability, Own Tempo"
+    },
+    {
+      "showdown": "necrozmaduskmane",
+      "key": "necrozma-dusk",
+      "reason": "Dusk Mane Necrozma: PokéAPI's key drops \"Mane\""
+    },
+    {
+      "showdown": "necrozmadawnwings",
+      "key": "necrozma-dawn",
+      "reason": "Dawn Wings Necrozma: PokéAPI's key drops \"Wings\""
+    },
+    {
+      "showdown": "mausholdfour",
+      "key": "maushold-family-of-four",
+      "reason": "Maushold's Family of Four: Showdown's \"Four\" doesn't begin PokéAPI's key"
+    },
+    {
+      "showdown": "meowsticmmega",
+      "key": "meowstic-male-mega",
+      "reason": "Mega Meowstic (male): Showdown writes M, PokéAPI male"
+    },
+    {
+      "showdown": "meowsticfmega",
+      "key": "meowstic-female-mega",
+      "reason": "Mega Meowstic (female): Showdown writes F, PokéAPI female"
+    },
+    {
+      "showdown": "toxtricitygmax",
+      "key": "toxtricity-amped-gmax",
+      "reason": "Gigantamax Toxtricity: PokéAPI keys it by its Amped Form"
+    },
+    {
+      "showdown": "urshifugmax",
+      "key": "urshifu-single-strike-gmax",
+      "reason": "Gigantamax Urshifu: PokéAPI keys it by its Single Strike Style"
+    }
+  ],
+  "moves": [
+    {
+      "showdown": "visegrip",
+      "key": "vice-grip",
+      "reason": "Vise Grip: PokéAPI keeps the older spelling, Vice Grip"
+    }
+  ],
+  "abilities": [
+    {
+      "showdown": "embodyaspectcornerstone",
+      "key": "embody-aspect",
+      "reason": "Embody Aspect: Showdown names one per mask, PokéAPI has one ability"
+    },
+    {
+      "showdown": "embodyaspecthearthflame",
+      "key": "embody-aspect",
+      "reason": "Embody Aspect: Showdown names one per mask, PokéAPI has one ability"
+    },
+    {
+      "showdown": "embodyaspectteal",
+      "key": "embody-aspect",
+      "reason": "Embody Aspect: Showdown names one per mask, PokéAPI has one ability"
+    },
+    {
+      "showdown": "embodyaspectwellspring",
+      "key": "embody-aspect",
+      "reason": "Embody Aspect: Showdown names one per mask, PokéAPI has one ability"
+    }
+  ]
+}

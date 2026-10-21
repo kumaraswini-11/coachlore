@@ -22,7 +22,7 @@ packages/
     overrides/
       overrides.json               hand fixes: path, value, reason, link
       excluded-forms.json          forms left out (Totem forms…), each with a reason
-      showdown-exceptions.json     Showdown names that don't match by rule
+      showdown-exceptions.json     Showdown species, move and ability IDs that don't match by rule, each with a reason
       exclusives.json              version exclusives per game, each with a link (the source has none)
     src/
       types.ts                     the data model (below)
@@ -231,9 +231,20 @@ type Usage = {
    `urshifu-single-strike`), with cosmetic formes mapped to their base form.
    The same match fills each form's `gen9` (Generation 9's species has no
    `isNonstandard`) and `tags` (the species' tags); a form with no
-   Showdown species gets `gen9: false` and no tags.
+   Showdown species gets `gen9: false` and no tags. The rules beyond the
+   ID: a base name is its Pokémon's form named by its base forme (Maushold
+   is its Family of Three), a Totem its form without "Totem", a shortened
+   forme the one form its ID begins, and a forme with no form of its own
+   (Vivillon's patterns, Arceus's plates, Ogerpon's Tera forms) the form it
+   changes from. A match by name must have the form's types and base stats,
+   and an unmapped or mismatched name fails the import. The step also maps
+   Showdown's move and ability IDs to ours (`uturn` → `u-turn`), for usage
+   and spec 005's team import; `showdown.json` holds all three maps.
 10. **Usage** from the chaos files, names mapped through step 9, each
-    list cut to its top six.
+    list cut to its top six, each share its weighted count over the
+    Pokémon's total, rounded to four places. Smogon's empty slots (`""`,
+    `nothing`, `empty`) are dropped; items keep `@pkmn/dex`'s English name,
+    since the dataset has no items.
 11. **Overrides** applied; an override whose path doesn't exist fails the
     import.
 12. **Write** every file sorted (by number, then key), with stable key

@@ -5,11 +5,13 @@
  * Pokémon, chosen for what they test, trimmed to the fields the import
  * reads. Run it again when the import reads a new endpoint.
  */
-import { existsSync, readdirSync, rmSync } from "node:fs"
+import { existsSync, readdirSync, readFileSync, rmSync } from "node:fs"
 import { join } from "node:path"
+import { Dex } from "@pkmn/dex"
 
 import { fetchSources, readSources } from "./fetch.ts"
 import { ApiData, idOf, type Link } from "./import/api-data.ts"
+import { showdownId } from "./import/showdown.ts"
 import { writeJson } from "./import/write.ts"
 
 // With their evolution chains' other species (below). Charizard: Megas
@@ -129,7 +131,8 @@ type Pokemon = {
   sprites: Record<string, unknown> & { other?: Record<string, unknown> }
 }
 
-const api = new ApiData((await fetchSources(readSources())).apiData)
+const cached = await fetchSources(readSources())
+const api = new ApiData(cached.apiData)
 const written = new Map<string, Map<number, string>>()
 
 function copy(endpoint: string, id: number, value: Resource): void {
@@ -256,6 +259,48 @@ for (const id of api.ids("version-group")) {
       ),
     })
   }
+}
+
+// Smogon's chaos files cut to the sample: its Pokémon's entries, each list
+// trimmed to the moves, abilities and teammates the sample has.
+const numbers = new Set([...species.keys()])
+const abilityIds = new Set(
+  [...(written.get("ability")?.values() ?? [])].map(showdownId)
+)
+const moveIds = new Set([...moveNames].map(showdownId))
+const inSample = (name: string) =>
+  numbers.has(Dex.forGen(9).species.get(name).num)
+type ChaosEntry = Record<string, unknown> & {
+  Abilities: Record<string, number>
+  Items: Record<string, number>
+  Moves: Record<string, number>
+  Teammates: Record<string, number>
+}
+const pick = (list: Record<string, number>, keep: (key: string) => boolean) =>
+  Object.fromEntries(Object.entries(list).filter(([key]) => keep(key)))
+for (const [format, file] of Object.entries(cached.usage)) {
+  const chaos = JSON.parse(readFileSync(file, "utf8")) as {
+    info: unknown
+    data: Record<string, ChaosEntry>
+  }
+  const data = Object.fromEntries(
+    Object.entries(chaos.data)
+      .filter(([name]) => inSample(name))
+      .map(([name, entry]) => [
+        name,
+        {
+          usage: entry.usage,
+          Abilities: pick(entry.Abilities, (key) => abilityIds.has(key)),
+          Items: Object.fromEntries(Object.entries(entry.Items).slice(0, 3)),
+          Moves: pick(entry.Moves, (key) => key === "" || moveIds.has(key)),
+          Teammates: pick(entry.Teammates, inSample),
+        },
+      ])
+  )
+  writeJson(join(OUT, "..", "smogon", `${format}-1500.json`), {
+    info: chaos.info,
+    data,
+  })
 }
 
 // Each endpoint's index lists only what the sample has.
