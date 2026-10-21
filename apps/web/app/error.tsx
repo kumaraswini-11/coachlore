@@ -16,7 +16,8 @@ export default function ErrorPage({
   retry: () => void
 }) {
   useEffect(() => {
-    // Reported to Sentry (spec 000), with the reference the page shows.
+    // Sent to Sentry if it happened in the browser; the server reports its
+    // own errors (spec 000).
     reportError(error)
   }, [error])
 

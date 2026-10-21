@@ -21,33 +21,56 @@ let loading: Promise<Sentry> | undefined
  * without errors never loads it.
  */
 function loadSentry(): Promise<Sentry> {
-  loading ??= import("@/lib/sentry-browser").then((Sentry) => {
-    Sentry.init({
-      ...sentryOptions(
-        {
-          NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
-          NEXT_PUBLIC_VERCEL_ENV: process.env.NEXT_PUBLIC_VERCEL_ENV,
-        },
-        "browser"
-      ),
-      integrations: (defaults) =>
-        defaults.filter((integration) => !UNUSED.has(integration.name)),
+  loading ??= import("@/lib/sentry-browser")
+    .then((Sentry) => {
+      Sentry.init({
+        ...sentryOptions(
+          {
+            NEXT_PUBLIC_SENTRY_DSN: process.env.NEXT_PUBLIC_SENTRY_DSN,
+            NEXT_PUBLIC_VERCEL_ENV: process.env.NEXT_PUBLIC_VERCEL_ENV,
+          },
+          "browser"
+        ),
+        integrations: (defaults) =>
+          defaults.filter((integration) => !UNUSED.has(integration.name)),
+      })
+      return Sentry
     })
-    return Sentry
-  })
+    .catch((error: unknown) => {
+      // Forget a failed load (offline, or a chunk a new deploy replaced), so
+      // the next error tries again.
+      loading = undefined
+      throw error
+    })
   return loading
 }
 
 /**
- * Sends an error to Sentry, with the reference the error page shows
- * (`digest`) when there is one.
+ * Whether an error came from the server. Next.js gives those a `digest` and
+ * shows the browser only a generic message; the server has already reported
+ * the real error with its stack (`onRequestError` in instrumentation.ts).
+ */
+export function isServerError(error: unknown): boolean {
+  return (
+    typeof error === "object" &&
+    error !== null &&
+    "digest" in error &&
+    Boolean(error.digest)
+  )
+}
+
+/**
+ * Sends an error that happened in the browser to Sentry; errors from the
+ * server are not sent twice. Reporting never throws: if Sentry can't load,
+ * the report is dropped instead of being raised as another error.
  */
 export function reportError(error: unknown): void {
-  void loadSentry().then((Sentry) => {
-    const digest =
-      error instanceof Error && "digest" in error
-        ? String(error.digest)
-        : undefined
-    Sentry.captureException(error, digest ? { tags: { digest } } : undefined)
-  })
+  if (isServerError(error)) {
+    return
+  }
+  loadSentry()
+    .then((Sentry) => {
+      Sentry.captureException(error)
+    })
+    .catch(() => {})
 }
