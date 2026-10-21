@@ -61,8 +61,12 @@ next-intl's `Link` is shown to work with `"use cache"`.
   `@parcel/watcher`, pre-1.0 `@eloqnt/*`) as dependencies though they're
   unused here: a larger install, nothing more in the browser.
 - An address without a language is redirected into one; one that then
-  matches no page gets `app/global-not-found.tsx`, in every language, as
-  complete server HTML with a 404. A `notFound()` inside a page, under
+  matches no page gets `app/global-not-found.tsx`, as complete server HTML
+  with a 404, in the language the Proxy chose (next-intl's `requestLocale`).
+  Until 2026-10-22 it showed every language at once, which wouldn't scale
+  past two; reading the request's language needs `export const instant =
+false` (Next.js's "blocking-prerender-runtime" message), so the page
+  renders on each request instead of at build time. A `notFound()` inside a page, under
   Cache Components and a root layout under `[lang]`, renders its
   not-found page only in the browser (tested on 2026-10-21), so a page with
   an unknown value (a Pokémon, spec 004) is checked in the Proxy and

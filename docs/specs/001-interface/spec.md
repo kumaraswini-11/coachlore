@@ -1159,9 +1159,9 @@ This spec is done when:
     next icons point the other way, and no arrow character is used as an
     icon.
 13. An address that matches no page, after the redirect to a language,
-    answers not found with the exception page above, as complete HTML: both
-    languages, a link to each home page, a 404 status, and no WCAG 2.2 AA
-    violations. The site's own files answer 200 and are never redirected.
+    answers not found with the exception page above, as complete HTML in
+    that one language (`/hi/…` in Hindi, with `<html lang="hi">`), a link
+    to its home page, a 404 status, and no WCAG 2.2 AA violations. The site's own files answer 200 and are never redirected.
 
 ## Out of scope
 

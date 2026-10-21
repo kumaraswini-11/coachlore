@@ -155,17 +155,39 @@ test("the sitemap lists each page in each language with its alternates", async (
 })
 
 test.describe("an address that matches no page", () => {
-  for (const path of ["/en/nothing-here", "/hi/a/b/c"]) {
-    test(`${path} answers 404 with the page in every language`, async ({
+  const cases = [
+    {
+      path: "/en/nothing-here",
+      lang: "en",
+      title: "Page not found",
+      other: "पेज नहीं मिला",
+    },
+    {
+      path: "/hi/a/b/c",
+      lang: "hi",
+      title: "पेज नहीं मिला",
+      other: "Page not found",
+    },
+    // The Proxy skips it, so no language comes with it: the default.
+    {
+      path: "/api/nothing",
+      lang: "en",
+      title: "Page not found",
+      other: "पेज नहीं मिला",
+    },
+  ]
+  for (const { path, lang, title, other } of cases) {
+    test(`${path} answers 404 in its own language only`, async ({
       request,
     }) => {
       const response = await request.get(path)
       expect(response.status()).toBe(404)
       const html = await response.text()
-      expect(html).toContain(`<html lang="en"`)
-      expect(html).toMatch(/<h1[^>]*>Page not found<\/h1>/)
-      expect(html).toContain("पेज नहीं मिला")
-      expect(html).toMatch(/<title>[^<]*Page not found[^<]*<\/title>/)
+      expect(html).toContain(`<html lang="${lang}"`)
+      expect(html).toMatch(new RegExp(`<h1[^>]*>${title}</h1>`))
+      expect(html).toMatch(new RegExp(`<title>${title} · Coachlore</title>`))
+      expect(html).toContain(`href="/${lang}"`)
+      expect(html).not.toContain(other)
     })
   }
 

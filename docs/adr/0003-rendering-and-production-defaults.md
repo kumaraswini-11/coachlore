@@ -44,7 +44,8 @@ a Function") to tell development from the rest, rather than reading
   `global-not-found.tsx` with the `experimental.globalNotFound` flag, and
   each language keeps its own `not-found.tsx`. **Built on 2026-10-21 ([ADR 0008](0008-translation-library.md)):**
   the Proxy gives every address a language, and one that matches no page
-  gets `global-not-found.tsx`, in both languages, as complete HTML. A
+  gets `global-not-found.tsx` as complete HTML (in both languages until
+  2026-10-22, then in the address's language; ADR 0008). A
   `notFound()` inside a page renders `[lang]/not-found.tsx` only in the
   browser (tested), so pages check unknown values in the Proxy instead.
 - **The owner's metadata plan**, where the docs differ: the canonical URL is
