@@ -7,13 +7,19 @@ import "@workspace/ui/globals.css"
 
 import { ErrorState } from "@/components/error-state"
 import { ThemeProvider } from "@/components/theme-provider"
+import { errorMessages, fill } from "@/i18n/error-messages"
 import { rootClassName } from "@/lib/fonts"
 import { reportError } from "@/lib/sentry-client"
 import { SITE } from "@/lib/site"
 
 // Replaces the root layout when the root layout itself fails, so it brings
-// its own <html>, <body>, styles, fonts and theme. Client Components can't
-// export metadata, so the title is React's <title>.
+// its own <html>, <body>, landmark, styles, fonts and theme. It sits outside
+// [lang], so it can't know the language: it speaks English, the default
+// (spec 001's plan, "Global error"). Client Components can't export
+// metadata, so the title is React's <title>.
+const t = errorMessages(undefined)
+const title = `${t.title} · ${SITE.name}`
+
 export default function GlobalError({
   error,
   retry,
@@ -30,9 +36,21 @@ export default function GlobalError({
   return (
     <html lang="en" suppressHydrationWarning className={rootClassName}>
       <body>
-        <title>{`This page couldn’t load · ${SITE.name}`}</title>
+        <title>{title}</title>
         <ThemeProvider>
-          <ErrorState digest={error.digest} retry={retry} />
+          <main className="min-h-svh">
+            <ErrorState
+              title={t.title}
+              description={t.description}
+              reference={
+                error.digest
+                  ? fill(t.reference, { digest: error.digest })
+                  : undefined
+              }
+              retryLabel={t.retry}
+              retry={retry}
+            />
+          </main>
         </ThemeProvider>
       </body>
     </html>

@@ -7,7 +7,8 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "lint": "turbo run lint lint:logical-css",
+    "lint:logical-css": "bun scripts/check-logical-css.ts",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
     "e2e": "turbo run e2e",

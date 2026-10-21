@@ -1,0 +1,141 @@
+{
+  "terms": {
+    "coach": "coach",
+    "roster": "roster",
+    "pick": "pick",
+    "draft": "draft",
+    "ko": "KO",
+    "tier": "tier",
+    "points": "points",
+    "league": "league",
+    "season": "season",
+    "match": "match",
+    "trade": "trade",
+    "admin": "admin",
+    "viewer": "viewer",
+    "dex": "Dex",
+    "type": "type",
+    "move": "move",
+    "ability": "ability",
+    "form": "form",
+    "team": "team"
+  },
+  "meta": {
+    "title": "Coachlore · Pokédex and draft leagues",
+    "description": "A fast, mobile-first Pokédex and a home for Pokémon draft leagues: live drafts, schedules, trades, standings and match recaps.",
+    "openGraphLocale": "en_US"
+  },
+  "home": {
+    "heading": "Coachlore",
+    "intro": "A fast, mobile-first Pokédex and a home for Pokémon draft leagues, from the live draft to the final standings."
+  },
+  "shell": {
+    "skipToContent": "Skip to content",
+    "home": "Coachlore, home page",
+    "mainNav": "Main",
+    "leagueNav": "League",
+    "search": "Search",
+    "searchHint": "Search Pokémon, moves, leagues…",
+    "display": "Display: theme and language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "shortcuts": "Single-key shortcuts",
+    "language": "Language",
+    "toggleSidebar": "Show or hide the sidebar",
+    "nav": {
+      "dex": "Dex",
+      "types": "Types",
+      "moves": "Moves",
+      "teamCheck": "Team check",
+      "leagues": "Leagues",
+      "me": "Me"
+    }
+  },
+  "footer": {
+    "notice": "Coachlore is an independent, non-commercial fan project, not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak or The Pokémon Company. Pokémon and its names are their trademarks.",
+    "credits": "Data from PokéAPI and Pokémon Showdown; usage statistics from Smogon.",
+    "about": "About",
+    "legal": "Legal"
+  },
+  "palette": {
+    "title": "Search",
+    "description": "Find Pokémon, moves, abilities, types and your leagues.",
+    "placeholder": "Search Pokémon, moves, leagues…",
+    "empty": "Type to search",
+    "noResults": "Nothing matches “{query}”",
+    "results": "{count, plural, one {# result} other {# results}}"
+  },
+  "toast": {
+    "close": "Close this message"
+  },
+  "language": {
+    "writtenIn": "Written in {language}"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "metaDescription": "There’s no page at this address on Coachlore.",
+    "description": "There’s no page at this address. Check the link, or start again from the home page.",
+    "home": "Go to the home page"
+  },
+  "offline": {
+    "title": "You’re offline",
+    "metaDescription": "This page isn’t saved for offline use on Coachlore.",
+    "description": "This page isn’t saved for offline use. Pages you’ve opened before still work.",
+    "home": "Go to the home page"
+  },
+  "about": {
+    "title": "About",
+    "metaDescription": "What Coachlore is: a fan-made Pokédex and a home for Pokémon draft leagues, and the sources it credits.",
+    "intro": "Coachlore is a fast, mobile-first Pokédex and a home for Pokémon draft leagues, from the live draft to the final standings.",
+    "leaguesHeading": "How leagues work",
+    "leagues": "Friends draft Pokémon with a points budget, then play a season of matches on Pokémon Showdown. Coachlore keeps the score: the draft, the schedule, trades, standings and stats.",
+    "madeHeading": "Who makes it",
+    "made": "A personal, non-commercial project. Its code is open to read.",
+    "source": "The code on GitHub",
+    "creditsHeading": "Credits",
+    "credits": "The Pokémon data comes from PokéAPI and Pokémon Showdown, and usage statistics from Smogon. Their licences are on the legal page.",
+    "legalLink": "Licences and notices"
+  },
+  "legal": {
+    "title": "Legal",
+    "metaDescription": "Coachlore’s not-affiliated notice, the licences of the data and images it uses, and how it handles your data.",
+    "onThisPage": "On this page",
+    "noticeHeading": "Not affiliated",
+    "notice": "Coachlore is an independent, unofficial, non-commercial fan project, not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak or The Pokémon Company. Pokémon and Pokémon character names are trademarks of Nintendo, Creatures and Game Freak; Pokémon images and names © Nintendo, Creatures, Game Freak and The Pokémon Company.",
+    "licencesHeading": "Data and images",
+    "licences": {
+      "pokeapi": "Pokémon data. BSD 3-Clause licence.",
+      "showdown": "Battle data and formats. MIT licence.",
+      "pkmn": "Battle tools. MIT licence.",
+      "smogon": "Usage statistics, credited to Smogon.",
+      "sprites": "Sprites and artwork © The Pokémon Company, shown as few as possible."
+    },
+    "privacyHeading": "Your data",
+    "privacy": "Reading Coachlore needs no account. Your language is remembered in a cookie on this browser, and your theme and shortcut settings in its storage. Error reports carry no IP address, cookies, account or page address. The full privacy notice arrives before the first league starts."
+  },
+  "states": {
+    "title": "States",
+    "metaDescription": "Every state a Coachlore screen can show, with sample data.",
+    "loading": "Loading",
+    "emptyTitle": "No leagues yet",
+    "emptyDescription": "Create a league, or join one with an invitation link.",
+    "emptyAction": "Create a league",
+    "errorTitle": "The standings couldn’t load",
+    "errorDescription": "Check your connection and try again.",
+    "retry": "Try again",
+    "notFoundTitle": "There’s no league at this address",
+    "notFoundDescription": "Check the link, or search for it.",
+    "offlineTitle": "You’re offline",
+    "offlineDescription": "This shows the last data saved. Changes are off until you’re back online.",
+    "noPermissionTitle": "This league is private",
+    "noPermissionDescription": "Ask an admin for an invitation link to join it.",
+    "aiTitle": "Today’s AI allowance is used",
+    "aiDescription": "AI help returns tomorrow. Everything else works as usual.",
+    "liveTitle": "Live update",
+    "liveAction": "Show the next pick",
+    "livePick": "{coach} picked {pokemon}",
+    "listTitle": "A long list"
+  }
+}
