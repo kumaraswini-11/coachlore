@@ -11,6 +11,10 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: CI,
   retries: CI ? 1 : 0,
+  // One worker in CI, as Playwright's own template sets. Four locally: more
+  // WebKit instances at once crashed it on a 12-core Windows machine (six
+  // did; four and two passed every test).
+  workers: CI ? 1 : 4,
   reporter: CI ? [["github"], ["list"]] : "list",
   use: {
     baseURL: `http://localhost:${PORT}`,
