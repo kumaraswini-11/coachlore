@@ -41,6 +41,7 @@ Record each piece here as it's decided, with a link to its ADR. Until then, the 
 - Node.js 24 LTS, TypeScript 6.0, ESLint with typescript-eslint and `eslint-config-next` (any warning fails), shared versions in the workspace catalog, and a 14-day minimum release age: [ADR 0002](docs/adr/0002-toolchain-baseline.md).
 - Rendering with Cache Components, the error and not-found pages, and the security headers: [ADR 0003](docs/adr/0003-rendering-and-production-defaults.md).
 - Agent skills, where they live and how they're pinned: [ADR 0004](docs/adr/0004-agent-skills.md).
+- Hosting for the web app on Vercel's free plan, no domain, the site's address from Vercel's own variables, and error reports in Sentry's free plan without personal data: [ADR 0006](docs/adr/0006-architecture-and-stack.md) ("Hosting", "Errors and logs") and [spec 000](docs/specs/000-platform/spec.md).
 - Languages: English and Hindi, routes under `/[lang]`, dictionaries, and logical properties for right-to-left later: [ADR 0007](docs/adr/0007-languages-and-right-to-left.md).
 
 Open work and pending decisions are in [docs/plans/](docs/plans/); read a plan before starting its work, and mark it done when it's finished.
