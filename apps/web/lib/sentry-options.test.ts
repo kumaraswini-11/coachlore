@@ -81,12 +81,13 @@ describe("sentryOptions", () => {
     })
   })
 
-  it("keeps a page's address without its query string or fragment", () => {
+  it("drops the page's address, whose path can carry a secret", () => {
     const event = stripPersonalData({
       type: undefined,
-      request: { url: "https://coachlore.vercel.app/dex/garchomp?e=a@b.c#x" },
+      request: { url: "https://coachlore.vercel.app/join/a-secret-token?e=a" },
     })
-    expect(event.request?.url).toBe("https://coachlore.vercel.app/dex/garchomp")
+    expect(event.request).toBeDefined()
+    expect(event.request).not.toHaveProperty("url")
   })
 
   it("collects no personal data", () => {

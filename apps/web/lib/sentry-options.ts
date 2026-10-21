@@ -18,7 +18,7 @@ export function realValue(value: string | undefined): string | undefined {
  * Drops anything that could identify a person, as a second guard behind
  * `dataCollection` (ADR 0006, "Errors and logs"): the user, the machine's
  * name, breadcrumbs (their addresses can carry personal data), and the
- * request's cookies, headers, body and query string.
+ * request's cookies, headers, body, query string and address.
  */
 export function stripPersonalData(event: ErrorEvent): ErrorEvent {
   delete event.user
@@ -29,16 +29,10 @@ export function stripPersonalData(event: ErrorEvent): ErrorEvent {
     delete event.request.headers
     delete event.request.data
     delete event.request.query_string
-    // Keep the page's address, which says where it broke, without its query
-    // string or fragment, where personal data could be.
-    if (event.request.url) {
-      try {
-        const url = new URL(event.request.url)
-        event.request.url = url.origin + url.pathname
-      } catch {
-        delete event.request.url
-      }
-    }
+    // The address goes too: a path can carry secrets and IDs, not only the
+    // query (an invitation is /join/<token>, spec 007). Server reports still
+    // name the route as a pattern, such as "GET /join/[invitation]".
+    delete event.request.url
   }
   return event
 }
