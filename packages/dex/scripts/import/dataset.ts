@@ -46,19 +46,13 @@ export function readHand(dir: string): Hand {
 }
 
 type DetailForm = PokemonDetail["forms"][number]
-type FormExtras = Pick<
-  DetailForm,
-  "height" | "weight" | "artwork" | "encounters"
->
+type FormExtras = Pick<DetailForm, "height" | "weight" | "encounters">
 
 type PokemonResource = {
   id: number
   height: number
   weight: number
   moves: Parameters<typeof learnset>[0]
-  sprites: {
-    other?: { "official-artwork"?: { front_default: string | null } }
-  }
 }
 
 /** Smogon's chaos files for one month, by format. */
@@ -111,11 +105,6 @@ export function importDex(
     extras.set(form.key, {
       height: pokemon.height,
       weight: pokemon.weight,
-      artwork:
-        typeof pokemon.sprites.other?.["official-artwork"]?.front_default ===
-        "string"
-          ? `/dex-images/artwork/${form.key}.webp`
-          : null,
       encounters: encounters(found),
     })
   }

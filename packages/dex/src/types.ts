@@ -71,6 +71,11 @@ export type FormSummary = {
   kind: "default" | "regional" | "mega" | "gigantamax" | "other"
   /** "/dex-images/sprites/rotom-wash.webp", or null without an image. */
   sprite: string | null
+  /**
+   * "/dex-images/artwork/rotom-wash.webp", the official artwork, or null
+   * without one: the cards' image, and the form page's.
+   */
+  artwork: string | null
 }
 
 /**
@@ -111,8 +116,6 @@ export type PokemonDetail = {
     /** Decimetres and hectograms, as the source gives them. */
     height: number
     weight: number
-    /** "/dex-images/artwork/rotom-wash.webp", or null without an image. */
-    artwork: string | null
     /** Version → where this form is found; only versions the data covers. */
     encounters: Record<string, Encounter[]>
   })[]

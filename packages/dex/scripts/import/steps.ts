@@ -88,7 +88,10 @@ type Pokemon = {
   stats: { base_stat: number; stat: Link }[]
   abilities: { slot: number; is_hidden: boolean; ability: Link }[]
   forms: Link[]
-  sprites: { front_default: string | null }
+  sprites: {
+    front_default: string | null
+    other?: { "official-artwork"?: { front_default: string | null } }
+  }
 }
 
 type PokemonForm = {
@@ -217,6 +220,11 @@ function formSummary(
       pokemon.sprites.front_default === null
         ? null
         : `/dex-images/sprites/${pokemon.name}.webp`,
+    artwork:
+      typeof pokemon.sprites.other?.["official-artwork"]?.front_default ===
+      "string"
+        ? `/dex-images/artwork/${pokemon.name}.webp`
+        : null,
   }
 }
 

@@ -86,6 +86,7 @@ type FormSummary = {
   games: string[] // games whose regional Pokédex includes it
   kind: "default" | "regional" | "mega" | "gigantamax" | "other" // spec 003's "Forms" filter
   sprite: string | null // "/dex-images/sprites/rotom-wash.webp"
+  artwork: string | null // "/dex-images/artwork/rotom-wash.webp": the Dex's cards and the form's page
 }
 
 type PokemonDetail = {
@@ -97,7 +98,6 @@ type PokemonDetail = {
   forms: (FormSummary & {
     height: number
     weight: number
-    artwork: string | null // "/dex-images/artwork/rotom-wash.webp"
     encounters: Record<string, Encounter[]> // version → encounters, this form's own; only covered versions
   })[]
   evolution: EvolutionStep[] // the whole chain, flattened with parents; the first species with from: null
