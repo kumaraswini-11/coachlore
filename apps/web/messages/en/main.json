@@ -147,6 +147,10 @@
       "openFilters": "Filter",
       "closeFilters": "Close filters",
       "clearAll": "Clear all",
+      "activeFilters": {
+        "one": "{count} active filter",
+        "other": "{count} active filters"
+      },
       "showResults": {
         "one": "Show {count} Pokémon",
         "other": "Show {count} Pokémon"
@@ -167,7 +171,7 @@
       "abilityTrigger": "Show abilities",
       "abilityClear": "Clear the ability",
       "abilityEmpty": "No ability matches.",
-      "generation": "Generation {roman}",
+      "generationShort": "Gen {roman}",
       "statMin": "{stat}, lowest",
       "statMax": "{stat}, highest",
       "formKinds": {
@@ -207,7 +211,6 @@
       "tableCaption": "Pokémon and their base stats",
       "emptyTitle": "No Pokémon match these filters",
       "emptyDescription": "Try fewer filters, or clear them all.",
-      "emptyAction": "Clear filters",
       "englishNamesTitle": "Names are searched in English",
       "englishNamesDescription": "Pokémon names here are their English ones. Try “Garchomp”."
     }

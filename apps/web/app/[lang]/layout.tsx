@@ -51,10 +51,11 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
       dir={dir(locale)}
       suppressHydrationWarning
       // The sticky top bar's height, which scroll padding keeps focus clear
-      // of (WCAG 2.4.11, spec 001 criterion 9).
+      // of (WCAG 2.4.11, spec 001 criterion 9), and a page's own sticky bar
+      // under it (`data-sticky-bar`, 3.75 rem: /dex's search and sort).
       className={cn(
         rootClassName,
-        "scroll-pt-(--sticky-top) [--sticky-top:3.5rem]"
+        "scroll-pt-(--sticky-top) [--sticky-top:3.5rem] has-data-sticky-bar:scroll-pt-[calc(var(--sticky-top)+3.75rem)]"
       )}
       style={fontStyle(locale)}
     >

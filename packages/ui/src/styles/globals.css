@@ -23,6 +23,7 @@
   --color-chart-1: var(--chart-1);
   --color-ring: var(--ring);
   --color-input: var(--input);
+  --color-control-border: var(--control-border);
   --color-border: var(--border);
   --color-destructive: var(--destructive);
   --color-success: var(--success);
@@ -116,6 +117,10 @@
   --destructive: oklch(0.577 0.245 27.325);
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
+  /* A checkbox or radio is drawn by its border alone, which needs 3:1 on
+     --background (WCAG 1.4.11): 0.6 reaches 3.95:1, where --input reaches
+     1.26:1. */
+  --control-border: oklch(0.6 0 0);
   /* Focus rings draw at 50%: dark enough to reach 3:1 on --background
      (WCAG 1.4.11). */
   --ring: oklch(0.205 0 0);
@@ -202,6 +207,8 @@
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
+  /* 0.52 reaches 3.59:1 on --background, where --input reaches 1.48:1. */
+  --control-border: oklch(0.52 0 0);
   --ring: oklch(0.922 0 0);
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);

@@ -57,7 +57,13 @@ test("a view's address opens the same view (criterion 3)", async ({ page }) => {
 test("filtering asks the server for nothing (criterion 4)", async ({
   page,
 }) => {
-  await page.goto("/en/dex?forms=all", { waitUntil: "networkidle" })
+  await page.goto("/en/dex?forms=all")
+  const status = page.getByRole("status").filter({ hasText: "Pokémon" })
+  // The full browser has taken over from the static preview (which counts
+  // only the default forms) once every form is counted; the page's own
+  // loading, prefetches included, is over at the next quiet moment.
+  await expect(status).toHaveText(`${count({ forms: "all" })} Pokémon`)
+  await page.waitForLoadState("networkidle")
   const requests: string[] = []
   page.on("request", (request) => {
     // Newly shown cards' sprites load, lazily; nothing else may.
@@ -68,11 +74,43 @@ test("filtering asks the server for nothing (criterion 4)", async ({
   await page
     .getByRole("searchbox", { name: "Filter by name or number" })
     .fill("char")
-  await expect(
-    page.getByRole("status").filter({ hasText: "Pokémon" })
-  ).toHaveText(`${count({ q: "char", forms: "all" })} Pokémon`)
+  await expect(status).toHaveText(
+    `${count({ q: "char", forms: "all" })} Pokémon`
+  )
   await page.waitForLoadState("networkidle")
   expect(requests).toEqual([])
+})
+
+test("what's typed before the forms load is kept, focus too", async ({
+  page,
+}) => {
+  // Holds the forms' file back (the chunk with the artwork paths in it),
+  // so the typing lands on the static preview.
+  let release = () => {}
+  const held = new Promise<void>((resolve) => (release = resolve))
+  let asked = () => {}
+  const requested = new Promise<void>((resolve) => (asked = resolve))
+  await page.route("**/_next/static/chunks/*.js", async (route) => {
+    const response = await route.fetch()
+    const body = await response.text()
+    if (body.includes("/dex-images/artwork/")) {
+      asked()
+      await held
+    }
+    await route.fulfill({ response, body })
+  })
+  await page.goto("/en/dex")
+  await requested
+  const search = page.getByRole("searchbox", {
+    name: "Filter by name or number",
+  })
+  await search.fill("char")
+  release()
+  await expect(
+    page.getByRole("status").filter({ hasText: "Pokémon" })
+  ).toHaveText(`${count({ q: "char" })} Pokémon`)
+  await expect(search).toHaveValue("char")
+  await expect(search).toBeFocused()
 })
 
 test("a name in Devanagari says names are searched in English (criterion 15)", async ({

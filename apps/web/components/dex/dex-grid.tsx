@@ -6,23 +6,24 @@ import { useWindowVirtualizer } from "@tanstack/react-virtual"
 import type { FormSummary } from "@workspace/dex/types"
 import { ItemGroup } from "@workspace/ui/components/shadcn-ui/item"
 
-// The grid's columns by its own width, as the CSS has them (`@xl`, `@3xl`,
-// `@6xl`: 36, 48 and 72 rem): 3 on a phone, up to 8 on a wide screen
+// The grid's columns by its own width, as the CSS has them (`@xl`, `@4xl`,
+// `@7xl`: 36, 56 and 80 rem): 2 on a phone, up to 5 on a wide screen
 // (spec 003, "Screens").
 const COLUMNS: [minRem: number, columns: number][] = [
-  [72, 8],
-  [48, 6],
-  [36, 4],
+  [80, 5],
+  [56, 4],
+  [36, 3],
 ]
+const GAP = 12
 const GRID =
-  "grid grid-cols-3 gap-2.5 @xl:grid-cols-4 @3xl:grid-cols-6 @6xl:grid-cols-8"
-// A card's height before it's measured: its sprite, number, one line of
-// name and one of badges, and the gap.
-const ROW_ESTIMATE = 200
+  "grid grid-cols-2 gap-3 @xl:grid-cols-3 @4xl:grid-cols-4 @7xl:grid-cols-5"
+// A card's height below its square image, before it's measured: the
+// footer's padding, the number, one line of name, the badges and the gaps.
+const CARD_TEXT = 114
 
 function columnsFor(width: number): number {
   const rem = width / 16
-  return COLUMNS.find(([min]) => rem >= min)?.[1] ?? 3
+  return COLUMNS.find(([min]) => rem >= min)?.[1] ?? 2
 }
 
 /**
@@ -74,7 +75,8 @@ function VirtualGrid({
   card: (form: FormSummary) => ReactNode
 }) {
   const list = useRef<HTMLDivElement>(null)
-  const [columns, setColumns] = useState(3)
+  const [columns, setColumns] = useState(2)
+  const [width, setWidth] = useState(0)
   const [top, setTop] = useState(0)
 
   // Measured before the first paint, so the grid never shows the wrong
@@ -85,7 +87,9 @@ function VirtualGrid({
       return
     }
     const measure = () => {
-      setColumns(columnsFor(element.getBoundingClientRect().width))
+      const box = element.getBoundingClientRect()
+      setWidth(box.width)
+      setColumns(columnsFor(box.width))
       setTop(element.getBoundingClientRect().top + window.scrollY)
     }
     measure()
@@ -97,7 +101,9 @@ function VirtualGrid({
   const rows = Math.ceil(forms.length / columns)
   const virtualizer = useWindowVirtualizer({
     count: rows,
-    estimateSize: () => ROW_ESTIMATE,
+    // The square image is a column wide.
+    estimateSize: () =>
+      (width - GAP * (columns - 1)) / columns + CARD_TEXT + GAP,
     overscan: 3,
     scrollMargin: top,
   })
@@ -115,7 +121,7 @@ function VirtualGrid({
           role="none"
           data-index={row.index}
           ref={virtualizer.measureElement}
-          className="absolute inset-x-0 top-0 grid gap-2.5 pb-2.5"
+          className="absolute inset-x-0 top-0 grid gap-3 pb-3"
           style={{
             gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
             transform: `translateY(${row.start - virtualizer.options.scrollMargin}px)`,

@@ -49,7 +49,9 @@ async function AppShell({ children }: { children: React.ReactNode }) {
           aria-label={t("home")}
           className="inline-flex min-h-11 items-center gap-2 text-base font-semibold"
         >
-          <LogoMark className="size-6" />
+          <span className="flex size-8 items-center justify-center rounded-lg bg-foreground text-background">
+            <LogoMark className="size-5" />
+          </span>
           {SITE.name}
         </Link>
         <div className="ms-auto flex items-center gap-2">

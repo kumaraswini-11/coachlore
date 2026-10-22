@@ -29,10 +29,13 @@ function AccordionTrigger({
 }: AccordionPrimitive.Trigger.Props) {
   return (
     <AccordionPrimitive.Header className="flex">
+      {/* Coachlore: the whole row highlights on hover, not an underline under
+          its label; the row's padding is taken back by its margin, so the
+          label stays aligned with what's around it. */}
       <AccordionPrimitive.Trigger
         data-slot="accordion-trigger"
         className={cn(
-          "group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-start text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ms-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground",
+          "group/accordion-trigger relative -mx-2 flex flex-1 items-start justify-between rounded-lg border border-transparent px-2 py-2.5 text-start text-sm font-medium transition-all outline-none hover:bg-muted focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring aria-disabled:pointer-events-none aria-disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ms-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground",
           className
         )}
         {...props}
@@ -57,9 +60,12 @@ function AccordionContent({
   ...props
 }: AccordionPrimitive.Panel.Props) {
   return (
+    // Coachlore: the panel clips its content while it animates, so it reaches
+    // 4 px past each side (and gives them back as padding): a control's focus
+    // ring at the edge shows whole.
     <AccordionPrimitive.Panel
       data-slot="accordion-content"
-      className="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+      className="-mx-1 overflow-hidden px-1 text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
       {...props}
     >
       <div

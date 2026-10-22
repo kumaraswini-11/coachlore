@@ -20,7 +20,7 @@
 | `apps/web/app/[lang]/dex/page.tsx`                   | Browse the Dex                                                                                                                                                                                                                                                                                                                                                         |
 | `apps/web/app/[lang]/games/[game]/page.tsx`          | A game's Dex; `generateStaticParams` lists every game with a Pokédex, for each language from the layout's params; an unknown game is a 404 from the Proxy (spec 004, "Builds on")                                                                                                                                                                                      |
 | `apps/web/components/dex/dex-browser.tsx`            | Client: reads the query, loads the index, filters, sorts, renders grid or list                                                                                                                                                                                                                                                                                         |
-| `apps/web/components/dex/form-card.tsx`              | One card: sprite, number, name, type badges; a link                                                                                                                                                                                                                                                                                                                    |
+| `apps/web/components/dex/form-card.tsx`              | One card: artwork (the sprite where there's none), number, name, type badges; a link                                                                                                                                                                                                                                                                                   |
 | `apps/web/components/dex/dex-filters.tsx`            | The filter panel (desktop) and `Drawer` from the bottom (phone), and the chips; each filter's control named in "Components" below                                                                                                                                                                                                                                      |
 | `apps/web/components/dex/recently-viewed.tsx`        | Client: reads and writes the recently viewed list in `localStorage` (guarded with try/catch)                                                                                                                                                                                                                                                                           |
 | `apps/web/components/offline/offline-notice.tsx`     | Client: the offline Alert, from `navigator.onLine` and the `online`/`offline` events                                                                                                                                                                                                                                                                                   |
@@ -37,7 +37,10 @@ Added with the CLI into `packages/ui`: `Toggle Group` for grid or list,
 `Select` for sort and the game and version pickers, `Combobox` for ability,
 `Slider` for the stat ranges (the registry has no number field). Already
 installed: `Drawer` for the filters on a phone, `Badge`, `Button`, `Input`
-and `Alert`. A card is a `Link`.
+and `Alert`. From the owner's review (2026-10-22): `Accordion` for the
+filter groups, `Toggle` for each type (a pill in its colour), `Checkbox`
+for generations, `Radio Group` for forms, `Input Group` for the name
+field. A card is a `Card` in a `Link`.
 
 ## Data model
 
@@ -45,8 +48,9 @@ The browser index is spec 002's `forms.json`: one `FormSummary` per form
 (002's plan, "Data model"), with no learnsets and no text. It carries what
 the grid, the filters and search need: key, Pokémon, number, name, types,
 stats, abilities, generation, `kind` (default, regional, Mega, Gigantamax,
-other; the "Forms" filter), the games whose Pokédex lists it, and `sprite`
-(`/dex-images/sprites/<form>.webp`, or null). The query string's stat keys
+other; the "Forms" filter), the games whose Pokédex lists it, `sprite`
+(`/dex-images/sprites/<form>.webp`, or null) and `artwork`
+(`/dex-images/artwork/<form>.webp`, or null; the cards' image). The query string's stat keys
 (`hp` … `spe`) map onto 002's stat names.
 
 Each game's Pokédexes (spec 002): its key, name, versions, and each of its
@@ -81,7 +85,10 @@ The query string (all optional; lists are comma-separated):
   as Next.js requires for a prerendered page ([useSearchParams](https://nextjs.org/docs/app/api-reference/functions/use-search-params)).
   The boundary's fallback is the server-rendered first 48 default forms,
   with the same card sizes, so the first paint is real content and nothing
-  shifts when the client takes over.
+  shifts when the client takes over. What's typed or chosen in it before
+  the index loads is written to the address, which the browser opens with,
+  and the name field keeps its focus, so nothing typed is lost
+  (`dex.spec.ts`).
 - The index is loaded by a dynamic `import()` of its JSON module, so it's a
   hashed chunk under `/_next/static/`, which the browser and the service
   worker cache.
@@ -98,7 +105,7 @@ The query string (all optional; lists are comma-separated):
   frame, as a transition (`useAfterPaint` in `dex-browser.tsx`), so a
   change responds before the grid re-renders: web.dev's "Optimize INP",
   yield after the visual feedback. The grid, the list and each type
-  checkbox are memoized behind stable handlers, so the control's own render
+  pill are memoized behind stable handlers, so the control's own render
   skips them.
 - The grid is virtualised: only the rows on screen and three beyond are in
   the page (see "Decisions", "A long grid"). Each card carries
@@ -107,10 +114,11 @@ The query string (all optional; lists are comma-separated):
   columns.
 - Cards and list rows prefetch on intent: pointed at, focused or touched
   (`intent-link.tsx`; see "Decisions", "Prefetching").
-- Sprites are plain `<img>` elements with width, height,
-  `loading="lazy"` and `decoding="async"` (see "Decisions", "Images").
-  The first row's sprites may be worth loading eagerly for LCP; task 9's
-  performance pass measures it.
+- Card images are plain `<img>` elements with width, height,
+  `loading="lazy"` and `decoding="async"` (see "Decisions", "Images"):
+  the 256 px artwork until task 9 gives them `srcset`. The first row's
+  images may be worth loading eagerly for LCP; task 9's performance pass
+  measures it.
 - Home is static; recently viewed renders on the client after hydration in
   a box of fixed height (hidden when empty, before first paint, from a
   class set by an inline check of `localStorage`, so it doesn't shift).

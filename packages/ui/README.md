@@ -172,6 +172,11 @@ comment at the change:
 - `dialog.tsx`, `label.tsx`: `DialogTitle` and `Label` at `leading-snug`,
   so Devanagari isn't clipped.
 - `dropdown-menu.tsx`: `DropdownMenuLinkItem` added.
+- `accordion.tsx`: the trigger's whole row highlights on hover
+  (`hover:bg-muted`) instead of underlining its label; the panel reaches
+  4 px past each side, so a control's focus ring at its edge isn't clipped.
+- `checkbox.tsx`, `radio-group.tsx`: bordered with `--control-border`, which
+  reaches 3:1 in both themes (WCAG 1.4.11), where `--input` doesn't.
 - `breadcrumb.tsx`: the ellipsis's hidden "More" removed (its wrapper is
   `aria-hidden`).
 - `slider.tsx`: each thumb gets its `index` (Base UI needs it to

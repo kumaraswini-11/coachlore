@@ -1,6 +1,7 @@
 "use client"
 
-import { memo, useCallback, useId, useState } from "react"
+import { memo, useCallback, useId, useState, type CSSProperties } from "react"
+import { CheckIcon } from "lucide-react"
 
 import {
   FORM_KINDS,
@@ -38,7 +39,8 @@ import {
   SelectValue,
 } from "@workspace/ui/components/shadcn-ui/select"
 import { Slider } from "@workspace/ui/components/shadcn-ui/slider"
-import { TypeBadge } from "@workspace/ui/components/type-badge"
+import { Toggle } from "@workspace/ui/components/shadcn-ui/toggle"
+import { cn } from "@workspace/ui/lib/utils"
 
 import { fill } from "@/i18n/error-messages"
 import type { DexLabels } from "@/lib/dex-labels"
@@ -80,7 +82,7 @@ export const DexFilters = memo(function DexFilters(props: Props) {
       {(["type", "weak", "resist"] as const).map((group) => (
         <AccordionItem key={group} value={group}>
           <AccordionTrigger>{labels.groups[group]}</AccordionTrigger>
-          <AccordionContent>
+          <AccordionContent className="pt-1.5">
             <TypeChoice
               {...props}
               group={group}
@@ -93,7 +95,7 @@ export const DexFilters = memo(function DexFilters(props: Props) {
 
       <AccordionItem value="game">
         <AccordionTrigger>{labels.groups.game}</AccordionTrigger>
-        <AccordionContent>
+        <AccordionContent className="pt-1.5">
           <Select
             items={[
               { value: "", label: labels.anyGame },
@@ -122,21 +124,20 @@ export const DexFilters = memo(function DexFilters(props: Props) {
 
       <AccordionItem value="generation">
         <AccordionTrigger>{labels.groups.generation}</AccordionTrigger>
-        <AccordionContent>
+        <AccordionContent className="pt-1.5">
           <div
             role="group"
             aria-label={labels.groups.generation}
-            className="grid grid-cols-3 gap-2"
+            // Rows touch: each is already a 44 px target.
+            className="grid grid-cols-3 gap-x-2"
           >
             {GENERATIONS.map((generation) => {
               const chosen = filter.gen ?? []
               return (
-                <Label key={generation} className="min-h-11">
+                <Label key={generation} className="min-h-11 font-normal">
                   <Checkbox
+                    className="size-5"
                     checked={chosen.includes(generation)}
-                    aria-label={fill(labels.generation, {
-                      roman: roman(generation),
-                    })}
                     onCheckedChange={(checked) => {
                       const next = checked
                         ? [...chosen, generation].sort((a, b) => a - b)
@@ -144,7 +145,7 @@ export const DexFilters = memo(function DexFilters(props: Props) {
                       set({ gen: next.length > 0 ? next : undefined })
                     }}
                   />
-                  {roman(generation)}
+                  {fill(labels.generationShort, { roman: roman(generation) })}
                 </Label>
               )
             })}
@@ -154,14 +155,14 @@ export const DexFilters = memo(function DexFilters(props: Props) {
 
       <AccordionItem value="ability">
         <AccordionTrigger>{labels.groups.ability}</AccordionTrigger>
-        <AccordionContent>
+        <AccordionContent className="pt-1.5">
           <AbilityChoice {...props} />
         </AccordionContent>
       </AccordionItem>
 
       <AccordionItem value="stats">
         <AccordionTrigger>{labels.groups.stats}</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-5">
+        <AccordionContent className="flex flex-col gap-5 pt-1.5">
           {STAT_FILTER_KEYS.map((key) => (
             <StatRange
               key={key}
@@ -190,7 +191,7 @@ export const DexFilters = memo(function DexFilters(props: Props) {
 
       <AccordionItem value="forms">
         <AccordionTrigger>{labels.groups.forms}</AccordionTrigger>
-        <AccordionContent>
+        <AccordionContent className="pt-1.5">
           <RadioGroup
             aria-label={labels.groups.forms}
             value={filter.forms ?? "default"}
@@ -234,14 +235,18 @@ function TypeChoice({
   const full = chosen.length >= 2
   return (
     <div className="flex flex-col gap-2">
-      <p id={hint} className="text-muted-foreground">
+      {/* A span, not a p: the Accordion's panel puts a 1rem margin under
+          every paragraph but the last. */}
+      <span id={hint} className="block text-muted-foreground">
         {labels.upToTwo}
-      </p>
+      </span>
       <div
         role="group"
         aria-label={label}
         aria-describedby={hint}
-        className="grid grid-cols-2 gap-x-3 gap-y-1"
+        // 24 px pills, each with a 44 px touch area: rows 44 px apart, so
+        // neighbouring areas never overlap (AGENTS.md, "Interface").
+        className="flex flex-wrap gap-x-2.5 gap-y-5 py-1"
       >
         {TYPE_KEYS.map((type) => {
           const checked = chosen.includes(type)
@@ -293,16 +298,29 @@ const TypeOption = memo(function TypeOption({
     [group, type, onChange]
   )
   return (
-    <Label className="min-h-11">
-      <Checkbox
-        checked={checked}
-        disabled={disabled}
-        onCheckedChange={toggle}
-      />
-      <TypeBadge type={type} lang={lang}>
-        {name}
-      </TypeBadge>
-    </Label>
+    <Toggle
+      pressed={checked}
+      disabled={disabled}
+      onPressedChange={toggle}
+      lang={lang}
+      // The type's colours as variables, so every state of the Toggle (its
+      // hover and pressed styles too) keeps them. Pressed adds a ring and a
+      // check; an unpressed pill isn't dimmed, which took its name under
+      // 4.5:1 (WCAG 1.4.3).
+      style={
+        {
+          "--pill": `var(--type-${type})`,
+          "--pill-foreground": `var(--type-${type}-foreground)`,
+        } as CSSProperties
+      }
+      className={cn(
+        "relative h-6 min-h-6 min-w-0 gap-1 rounded-sm bg-(--pill) px-2 text-xs font-medium text-(--pill-foreground) after:absolute after:-inset-x-1 after:-inset-y-2.5 after:content-[''] hover:bg-(--pill) hover:text-(--pill-foreground) aria-pressed:bg-(--pill) [&_svg:not([class*='size-'])]:size-3",
+        checked && "ring-2 ring-foreground ring-offset-2 ring-offset-background"
+      )}
+    >
+      {checked && <CheckIcon aria-hidden="true" />}
+      {name}
+    </Toggle>
   )
 })
 
@@ -411,8 +429,9 @@ function StatRange({
           commit(from, to)
         }}
       />
-      <div className="flex items-center justify-between gap-2">
+      <div className="flex items-center gap-2">
         {field(low, lowLabel, (value) => commit(value, high))}
+        <span aria-hidden="true" className="h-px flex-1 bg-border" />
         {field(high, highLabel, (value) => commit(low, value))}
       </div>
     </div>
@@ -457,7 +476,7 @@ function StatField({
       max={max}
       value={text}
       aria-label={label}
-      className="w-20 tabular-nums"
+      className="w-16 [appearance:textfield] text-center tabular-nums [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
       onChange={(event) => setText(event.target.value)}
       onBlur={apply}
       onKeyDown={(event) => {
