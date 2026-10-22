@@ -1,5 +1,6 @@
 import { z } from "zod"
 
+import { normalize } from "./text.ts"
 import { multiplier } from "./type-chart.ts"
 import {
   STAT_KEYS,
@@ -23,6 +24,11 @@ const range = z.object({
   min: z.number().int().nonnegative().optional(),
   max: z.number().int().nonnegative().optional(),
 })
+export type StatRange = z.infer<typeof range>
+
+/** The filters that take up to two types each. */
+export const TYPE_GROUPS = ["type", "weak", "resist"] as const
+export type TypeGroup = (typeof TYPE_GROUPS)[number]
 
 export const STAT_FILTER_KEYS = [...STAT_KEYS, "total"] as const
 export type StatFilterKey = (typeof STAT_FILTER_KEYS)[number]
@@ -65,6 +71,14 @@ export const dexSort = z.object({
 export type DexSort = z.infer<typeof dexSort>
 export const DEFAULT_SORT: DexSort = { key: "number", descending: false }
 
+/**
+ * The order a sort key starts in when it's chosen: numbers and names low
+ * to high, as the games list them; stats high to low, strongest first.
+ */
+export function defaultDescending(key: DexSort["key"]): boolean {
+  return key !== "number" && key !== "name"
+}
+
 function statOf(form: FormSummary, key: StatFilterKey): number {
   return key === "total" ? form.statTotal : form.stats[key as StatKey]
 }
@@ -75,13 +89,14 @@ export function filterForms(
   filter: DexFilter,
   chart: TypeChart
 ): FormSummary[] {
-  const text = filter.q?.toLowerCase().replace(/^#/, "") ?? ""
+  // Names compare without case or accents (text.ts), as search does.
+  const text = normalize((filter.q ?? "").trim()).replace(/^#/, "")
   const number = /^\d+$/.test(text) ? Number(text) : undefined
   const kind = filter.forms ?? "default"
   const generations = filter.gen?.length ? new Set(filter.gen) : undefined
   const ranges = Object.entries(filter.stats ?? {}) as [
     StatFilterKey,
-    z.infer<typeof range>,
+    StatRange,
   ][]
 
   return forms.filter(
@@ -90,7 +105,7 @@ export function filterForms(
         (kind === "default" ? form.isDefault : form.kind === kind)) &&
       (text === "" ||
         (number === undefined
-          ? form.name.toLowerCase().includes(text)
+          ? normalize(form.name).includes(text)
           : form.number === number)) &&
       (filter.type ?? []).every((type) => form.types.includes(type)) &&
       (filter.weak ?? []).every(

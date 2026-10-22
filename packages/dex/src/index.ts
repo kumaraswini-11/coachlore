@@ -26,6 +26,7 @@ import type {
 export * from "./types.ts"
 export { multiplier } from "./type-chart.ts"
 export * from "./filter.ts"
+export { matches, normalize } from "./text.ts"
 export { formPath } from "./paths.ts"
 
 /** Every form, by National Dex number, each Pokémon's default first. */

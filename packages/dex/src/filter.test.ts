@@ -35,6 +35,9 @@ describe("filterForms", () => {
     expect(keys({ q: "479" })).toEqual(["rotom"])
     expect(keys({ q: "#445" })).toEqual(["garchomp"])
     expect(keys({ q: "rotom-w", forms: "all" })).toEqual(["rotom-wash"])
+    // As search matches: without accents, a space for a hyphen.
+    expect(keys({ q: "flabebe" })).toEqual(["flabebe"])
+    expect(keys({ q: "rotom wash", forms: "all" })).toEqual(["rotom-wash"])
   })
 
   it("keeps forms with every chosen type", () => {

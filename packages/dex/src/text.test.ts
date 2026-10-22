@@ -1,6 +1,6 @@
 import { expect, it } from "vitest"
 
-import { matches, normalize } from "@/components/search/match"
+import { matches, normalize } from "./text.ts"
 
 it("ignores case and accents", () => {
   expect(normalize("Pokémon")).toBe("pokemon")
