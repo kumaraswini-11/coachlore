@@ -4,7 +4,7 @@ import { useRender } from "@base-ui/react/use-render"
 import { cn } from "cn"
 import { ChevronRightIcon, MoreHorizontalIcon } from "lucide-react"
 
-// The nav's name comes from the app, in the page's language (AGENTS.md:
+// Coachlore: the nav's name comes from the app, in the page's language (AGENTS.md:
 // every string from the messages).
 function Breadcrumb({
   className,

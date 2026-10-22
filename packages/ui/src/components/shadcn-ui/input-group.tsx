@@ -49,7 +49,7 @@ function InputGroupAddon({
   ...props
 }: React.ComponentProps<"div"> & VariantProps<typeof inputGroupAddonVariants>) {
   return (
-    // A click on an addon (an icon, a label) focuses the input, for the
+    // Coachlore: a click on an addon (an icon, a label) focuses the input, for the
     // pointer only: the keyboard reaches the input itself, so no key handler.
     // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-noninteractive-element-interactions
     <div

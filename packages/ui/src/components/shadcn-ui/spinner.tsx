@@ -1,7 +1,7 @@
 import { cn } from "cn"
 import { Loader2Icon } from "lucide-react"
 
-// `label` is what a screen reader announces, in the page's language.
+// Coachlore: `label` is what a screen reader announces, in the page's language.
 function Spinner({
   className,
   label,

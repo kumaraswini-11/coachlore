@@ -29,4 +29,31 @@ function TypeBadge({
   )
 }
 
-export { TypeBadge }
+/**
+ * A form's types as badges, in order, wrapping: what a card, a list row or
+ * a search result shows. `names` gives each type's name in the page's
+ * language, `lang` the language they're written in.
+ */
+function TypeBadges({
+  types,
+  names,
+  lang,
+  className,
+  ...props
+}: {
+  types: readonly PokemonType[]
+  names: Record<PokemonType, string>
+  lang?: string
+} & React.ComponentProps<"span">) {
+  return (
+    <span className={cn("flex flex-wrap gap-1.5", className)} {...props}>
+      {types.map((type) => (
+        <TypeBadge key={type} type={type} lang={lang}>
+          {names[type]}
+        </TypeBadge>
+      ))}
+    </span>
+  )
+}
+
+export { TypeBadge, TypeBadges }

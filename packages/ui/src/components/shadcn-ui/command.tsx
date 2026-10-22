@@ -33,7 +33,7 @@ function Command({
   )
 }
 
-// The title and description name the dialog for screen readers, in the
+// Coachlore: the title and description name the dialog for screen readers, in the
 // page's language. They sit inside the popup, so nothing is in the page
 // while it's closed.
 function CommandDialog({
