@@ -1,0 +1,258 @@
+{
+  "category": "Sword Pokémon",
+  "entries": [
+    {
+      "text": "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+      "version": "x"
+    },
+    {
+      "text": "If anyone dares to grab its hilt, it wraps a blue cloth around that person’s arm and drains that person’s life energy completely.",
+      "version": "y"
+    },
+    {
+      "text": "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If anyone dares to grab its hilt, it wraps a blue cloth around that person’s arm and drains that person’s life energy completely.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Honedge’s soul once belonged to a person who was killed a long time ago by the sword that makes up Honedge’s body.",
+      "version": "sword"
+    },
+    {
+      "text": "The blue eye on the sword’s handguard is the true body of Honedge. With its old cloth, it drains people’s lives away.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "honedge",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "honedge",
+      "to": "doublade",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "doublade",
+      "to": "aegislash",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "no-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/honedge.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "island-scan",
+            "minLevel": 23
+          }
+        ],
+        "shield": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 118,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 118,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "island-scan",
+            "minLevel": 23
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 118,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 118,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "island-scan",
+            "minLevel": 24
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "island-scan",
+            "minLevel": 24
+          }
+        ],
+        "x": [
+          {
+            "chance": 15,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 11
+          }
+        ],
+        "y": [
+          {
+            "chance": 15,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 11
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "honedge",
+      "kind": "default",
+      "name": "Honedge",
+      "number": 679,
+      "pokemon": "honedge",
+      "sourceId": 679,
+      "sprite": "/dex-images/sprites/honedge.webp",
+      "statTotal": 325,
+      "stats": {
+        "attack": 80,
+        "defense": 100,
+        "hp": 45,
+        "special-attack": 35,
+        "special-defense": 37,
+        "speed": 28
+      },
+      "tags": [],
+      "types": ["steel", "ghost"],
+      "weight": 20
+    }
+  ],
+  "generation": 6,
+  "key": "honedge",
+  "name": "Honedge",
+  "names": {
+    "de": "Gramokles",
+    "en": "Honedge",
+    "es": "Honedge",
+    "es-419": "Honedge",
+    "fr": "Monorpale",
+    "it": "Honedge",
+    "ja": "ヒトツキ",
+    "ja-hrkt": "ヒトツキ",
+    "ja-roma": "Hitotsuki",
+    "ko": "단칼빙",
+    "zh-hans": "独剑鞘",
+    "zh-hant": "獨劍鞘"
+  },
+  "number": 679
+}

@@ -1,0 +1,325 @@
+{
+  "category": "Drill Pokémon",
+  "entries": [
+    {
+      "text": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+      "version": "red"
+    },
+    {
+      "text": "It uses its powerful tail in battle to smash, constrict, then break the prey's bones.",
+      "version": "blue"
+    },
+    {
+      "text": "Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond.",
+      "version": "yellow"
+    },
+    {
+      "text": "It swings its big tail around during battle. If its foe flinches, it will charge with its sturdy body.",
+      "version": "gold"
+    },
+    {
+      "text": "Its tail is thick and powerful. If it binds an enemy, it can snap the victim's spine quite easily.",
+      "version": "silver"
+    },
+    {
+      "text": "It uses its thick arms, legs and tail to attack forcefully. Melee combat is its specialty.",
+      "version": "crystal"
+    },
+    {
+      "text": "NIDOKING’s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this POKéMON goes on a rampage, there is no stopping it.",
+      "version": "ruby"
+    },
+    {
+      "text": "NIDOKING’s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this POKéMON goes on a rampage, there is no stopping it.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A NIDOKING’s thick tail packs enormously destructive power capable of toppling a metal transmission tower. Once it goes on a rampage, there is no stopping it.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn as it contains venom.",
+      "version": "firered"
+    },
+    {
+      "text": "It uses its powerful tail in battle to smash, constrict, then break the prey’s bones.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "diamond"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "pearl"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "platinum"
+    },
+    {
+      "text": "It swings its big tail around during battle. If its foe flinches, it will charge with its sturdy body.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "black"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "white"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "black-2"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn, as it contains venom.",
+      "version": "x"
+    },
+    {
+      "text": "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+      "version": "y"
+    },
+    {
+      "text": "Nidoking’s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Nidoking’s thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "When it goes on a rampage, it’s impossible to control. But in the presence of a Nidoqueen it’s lived with for a long time, Nidoking calms down.",
+      "version": "sword"
+    },
+    {
+      "text": "Nidoking prides itself on its strength. It’s forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nidoran-m",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "nidoran-m",
+      "to": "nidorino",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "moon-stone"
+      },
+      "from": "nidorino",
+      "to": "nidoking",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/nidoking.webp",
+      "encounters": {
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-23-area",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-23-area",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 125,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 700,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 700,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-crown-tundra", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "nidoking",
+      "kind": "default",
+      "name": "Nidoking",
+      "number": 34,
+      "pokemon": "nidoking",
+      "sourceId": 34,
+      "sprite": "/dex-images/sprites/nidoking.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 102,
+        "defense": 77,
+        "hp": 81,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["poison", "ground"],
+      "weight": 620
+    }
+  ],
+  "generation": 1,
+  "key": "nidoking",
+  "name": "Nidoking",
+  "names": {
+    "de": "Nidoking",
+    "en": "Nidoking",
+    "es": "Nidoking",
+    "es-419": "Nidoking",
+    "fr": "Nidoking",
+    "it": "Nidoking",
+    "ja": "ニドキング",
+    "ja-hrkt": "ニドキング",
+    "ja-roma": "Nidoking",
+    "ko": "니드킹",
+    "zh-hans": "尼多王",
+    "zh-hant": "尼多王"
+  },
+  "number": 34
+}

@@ -1,0 +1,190 @@
+{
+  "category": "Chimp Pokémon",
+  "entries": [
+    {
+      "text": "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+      "version": "platinum"
+    },
+    {
+      "text": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+      "version": "black"
+    },
+    {
+      "text": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+      "version": "white"
+    },
+    {
+      "text": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.",
+      "version": "x"
+    },
+    {
+      "text": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+      "version": "y"
+    },
+    {
+      "text": "Its fiery rear end is fueled by gas made in its belly. Even rain can’t extinguish the fire.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Full of vigor and always in high spirits. It was once known by the name ”Lantern-Tail” and feared as some kind of apparition.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chimchar",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "chimchar",
+      "to": "monferno",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "monferno",
+      "to": "infernape",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chimchar.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "chimchar",
+      "kind": "default",
+      "name": "Chimchar",
+      "number": 390,
+      "pokemon": "chimchar",
+      "sourceId": 390,
+      "sprite": "/dex-images/sprites/chimchar.webp",
+      "statTotal": 309,
+      "stats": {
+        "attack": 58,
+        "defense": 44,
+        "hp": 44,
+        "special-attack": 58,
+        "special-defense": 44,
+        "speed": 61
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 62
+    }
+  ],
+  "generation": 4,
+  "key": "chimchar",
+  "name": "Chimchar",
+  "names": {
+    "de": "Panflam",
+    "en": "Chimchar",
+    "es": "Chimchar",
+    "es-419": "Chimchar",
+    "fr": "Ouisticram",
+    "it": "Chimchar",
+    "ja": "ヒコザル",
+    "ja-hrkt": "ヒコザル",
+    "ja-roma": "Hikozaru",
+    "ko": "불꽃숭이",
+    "zh-hans": "小火焰猴",
+    "zh-hant": "小火焰猴"
+  },
+  "number": 390
+}

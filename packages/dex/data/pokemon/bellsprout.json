@@ -1,0 +1,899 @@
+{
+  "category": "Flower Pokémon",
+  "entries": [
+    {
+      "text": "A carnivorous POKéMON that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+      "version": "red"
+    },
+    {
+      "text": "A carnivorous POKéMON that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+      "version": "blue"
+    },
+    {
+      "text": "Prefers hot and humid places. It ensnares tiny insects with its vines and devours them.",
+      "version": "yellow"
+    },
+    {
+      "text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+      "version": "gold"
+    },
+    {
+      "text": "It plants its feet deep underground to replenish wa ter. It can't escape its enemy while it's rooted.",
+      "version": "silver"
+    },
+    {
+      "text": "If it notices anything that moves, it immediately flings its vine at the object.",
+      "version": "crystal"
+    },
+    {
+      "text": "BELLSPROUT’s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this POKéMON spits a corrosive fluid that melts even iron.",
+      "version": "ruby"
+    },
+    {
+      "text": "BELLSPROUT’s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this POKéMON spits a corrosive fluid that melts even iron.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A BELLSPROUT’s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, it leaks a fluid that melts even iron.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
+      "version": "firered"
+    },
+    {
+      "text": "A carnivorous POKéMON that traps and eats bugs. It appears to use its root feet to replenish moisture.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "diamond"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "pearl"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "platinum"
+    },
+    {
+      "text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It plants its feet deep underground to replenish water. It can’t escape its enemy while it’s rooted.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "black"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "white"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "black-2"
+    },
+    {
+      "text": "It prefers hot and humid environments. It is quick at capturing prey with its vines.",
+      "version": "white-2"
+    },
+    {
+      "text": "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+      "version": "x"
+    },
+    {
+      "text": "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
+      "version": "y"
+    },
+    {
+      "text": "Bellsprout’s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Bellsprout’s thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bellsprout",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "bellsprout",
+      "to": "weepinbell",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "weepinbell",
+      "to": "victreebel",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "gluttony"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bellsprout.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 35,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-32-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-36-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 13,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 11,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "gold": [
+          {
+            "chance": 60,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-5-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 35,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 110,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-5-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 10,
+            "location": "berry-forest-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "bond-bridge-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "cape-brink-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-12-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-13-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 35,
+            "location": "kanto-route-15-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-7-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "water-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 9
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "island-scan",
+            "minLevel": 16
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 13,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 11,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "silver": [
+          {
+            "chance": 60,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-5-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 80,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 110,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-5-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 80,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "island-scan",
+            "minLevel": 16
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "kalos-route-14-area",
+            "maxLevel": 16,
+            "method": "horde",
+            "minLevel": 16
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "kalos-route-14-area",
+            "maxLevel": 16,
+            "method": "horde",
+            "minLevel": 16
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bellsprout",
+      "kind": "default",
+      "name": "Bellsprout",
+      "number": 69,
+      "pokemon": "bellsprout",
+      "sourceId": 69,
+      "sprite": "/dex-images/sprites/bellsprout.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 75,
+        "defense": 35,
+        "hp": 50,
+        "special-attack": 70,
+        "special-defense": 30,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 40
+    }
+  ],
+  "generation": 1,
+  "key": "bellsprout",
+  "name": "Bellsprout",
+  "names": {
+    "de": "Knofensa",
+    "en": "Bellsprout",
+    "es": "Bellsprout",
+    "es-419": "Bellsprout",
+    "fr": "Chétiflor",
+    "it": "Bellsprout",
+    "ja": "マダツボミ",
+    "ja-hrkt": "マダツボミ",
+    "ja-roma": "Madatsubomi",
+    "ko": "모다피",
+    "zh-hans": "喇叭芽",
+    "zh-hant": "喇叭芽"
+  },
+  "number": 69
+}

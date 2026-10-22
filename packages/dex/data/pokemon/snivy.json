@@ -1,0 +1,175 @@
+{
+  "category": "Grass Snake Pokémon",
+  "entries": [
+    {
+      "text": "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+      "version": "black"
+    },
+    {
+      "text": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+      "version": "white"
+    },
+    {
+      "text": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+      "version": "black-2"
+    },
+    {
+      "text": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+      "version": "white-2"
+    },
+    {
+      "text": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+      "version": "x"
+    },
+    {
+      "text": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+      "version": "y"
+    },
+    {
+      "text": "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snivy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "snivy",
+      "to": "servine",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "servine",
+      "to": "serperior",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "contrary"
+        }
+      ],
+      "artwork": "/dex-images/artwork/snivy.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "black": [
+          {
+            "chance": 100,
+            "location": "nuvema-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "aspertia-city-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "nuvema-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "aspertia-city-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "snivy",
+      "kind": "default",
+      "name": "Snivy",
+      "number": 495,
+      "pokemon": "snivy",
+      "sourceId": 495,
+      "sprite": "/dex-images/sprites/snivy.webp",
+      "statTotal": 308,
+      "stats": {
+        "attack": 45,
+        "defense": 55,
+        "hp": 45,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 63
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 81
+    }
+  ],
+  "generation": 5,
+  "key": "snivy",
+  "name": "Snivy",
+  "names": {
+    "de": "Serpifeu",
+    "en": "Snivy",
+    "es": "Snivy",
+    "es-419": "Snivy",
+    "fr": "Vipélierre",
+    "it": "Snivy",
+    "ja": "ツタージャ",
+    "ja-hrkt": "ツタージャ",
+    "ja-roma": "Tsutarja",
+    "ko": "주리비얀",
+    "zh-hans": "藤藤蛇",
+    "zh-hant": "藤藤蛇"
+  },
+  "number": 495
+}

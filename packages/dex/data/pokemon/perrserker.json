@@ -1,0 +1,348 @@
+{
+  "category": "Viking Pokémon",
+  "entries": [
+    {
+      "text": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+      "version": "sword"
+    },
+    {
+      "text": "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "meowth",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "meowth",
+      "to": "persian",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "persian-alola",
+        "min_happiness": 160,
+        "required_pokemon_form": "meowth-alola"
+      },
+      "from": "meowth",
+      "to": "persian",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 28,
+        "required_pokemon_form": "meowth-galar"
+      },
+      "from": "meowth",
+      "to": "perrserker",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "battle-armor"
+        },
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        },
+        {
+          "hidden": true,
+          "key": "steely-spirit"
+        }
+      ],
+      "artwork": "/dex-images/artwork/perrserker.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 95,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-7-area",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 900,
+            "location": "giants-mirror-main",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 95,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 95,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-7-area",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 900,
+            "location": "giants-mirror-main",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 95,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 90,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 90,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "perrserker",
+      "kind": "default",
+      "name": "Perrserker",
+      "number": 863,
+      "pokemon": "perrserker",
+      "sourceId": 863,
+      "sprite": "/dex-images/sprites/perrserker.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 110,
+        "defense": 100,
+        "hp": 70,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["steel"],
+      "weight": 280
+    }
+  ],
+  "generation": 8,
+  "key": "perrserker",
+  "name": "Perrserker",
+  "names": {
+    "de": "Mauzinger",
+    "en": "Perrserker",
+    "es": "Perrserker",
+    "es-419": "Perrserker",
+    "fr": "Berserkatt",
+    "it": "Perrserker",
+    "ja": "ニャイキング",
+    "ja-hrkt": "ニャイキング",
+    "ja-roma": "Nyaiking",
+    "ko": "나이킹",
+    "zh-hans": "喵头目",
+    "zh-hant": "喵頭目"
+  },
+  "number": 863
+}

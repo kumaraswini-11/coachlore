@@ -1,0 +1,275 @@
+{
+  "category": "Cerebral Pokémon",
+  "entries": [
+    {
+      "text": "It can manipulate an opponent’s memory. Apparently, it communicates by flashing its three different-colored fingers.",
+      "version": "black"
+    },
+    {
+      "text": "It uses psychic power to control an opponent’s brain and tamper with its memories.",
+      "version": "white"
+    },
+    {
+      "text": "Apparently, it communicates by flashing its three fingers, but those patterns haven’t been decoded.",
+      "version": "black-2"
+    },
+    {
+      "text": "Apparently, it communicates by flashing its three fingers, but those patterns haven’t been decoded.",
+      "version": "white-2"
+    },
+    {
+      "text": "Apparently, it communicates by flashing its three fingers, but those patterns haven’t been decoded.",
+      "version": "x"
+    },
+    {
+      "text": "It uses psychic power to control an opponent’s brain and tamper with its memories.",
+      "version": "y"
+    },
+    {
+      "text": "Apparently, it communicates by flashing its three fingers, but those patterns haven’t been decoded.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It uses psychic power to control an opponent’s brain and tamper with its memories.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "With its psychic powers, it rewrites its opponents’ memories. You, too, may have already had your memories rewritten.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It has strong psychic powers. Using its fingers that flash three different colors, it controls its opponents and rewrites their memories.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
+      "version": "sword"
+    },
+    {
+      "text": "Sometimes found drifting above wheat fields, this Pokémon can control the memories of its opponents.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "elgyem",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "elgyem",
+      "to": "beheeyem",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "telepathy"
+        },
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "analytic"
+        }
+      ],
+      "artwork": "/dex-images/artwork/beheeyem.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "shield": [
+          {
+            "chance": 1200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 64,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 1200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 64,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "beheeyem",
+      "kind": "default",
+      "name": "Beheeyem",
+      "number": 606,
+      "pokemon": "beheeyem",
+      "sourceId": 606,
+      "sprite": "/dex-images/sprites/beheeyem.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 75,
+        "defense": 75,
+        "hp": 75,
+        "special-attack": 125,
+        "special-defense": 95,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 345
+    }
+  ],
+  "generation": 5,
+  "key": "beheeyem",
+  "name": "Beheeyem",
+  "names": {
+    "de": "Megalon",
+    "en": "Beheeyem",
+    "es": "Beheeyem",
+    "es-419": "Beheeyem",
+    "fr": "Neitram",
+    "it": "Beheeyem",
+    "ja": "オーベム",
+    "ja-hrkt": "オーベム",
+    "ja-roma": "Ohbem",
+    "ko": "벰크",
+    "zh-hans": "大宇怪",
+    "zh-hant": "大宇怪"
+  },
+  "number": 606
+}

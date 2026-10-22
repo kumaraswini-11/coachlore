@@ -1,0 +1,96 @@
+{
+  "category": "Water Lizard Pokémon",
+  "entries": [
+    {
+      "text": "A clever combatant, this Pokémon battles using water balloons created with moisture secreted from its palms.",
+      "version": "sword"
+    },
+    {
+      "text": "Highly intelligent but also very lazy, it keeps enemies out of its territory by laying traps everywhere.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sobble",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "sobble",
+      "to": "drizzile",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "drizzile",
+      "to": "inteleon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "sniper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/drizzile.webp",
+      "encounters": {},
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 8,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "drizzile",
+      "kind": "default",
+      "name": "Drizzile",
+      "number": 817,
+      "pokemon": "drizzile",
+      "sourceId": 817,
+      "sprite": "/dex-images/sprites/drizzile.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 60,
+        "defense": 55,
+        "hp": 65,
+        "special-attack": 95,
+        "special-defense": 55,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 115
+    }
+  ],
+  "generation": 8,
+  "key": "drizzile",
+  "name": "Drizzile",
+  "names": {
+    "de": "Phlegleon",
+    "en": "Drizzile",
+    "es": "Drizzile",
+    "es-419": "Drizzile",
+    "fr": "Arrozard",
+    "it": "Drizzile",
+    "ja": "ジメレオン",
+    "ja-hrkt": "ジメレオン",
+    "ja-roma": "Jimereon",
+    "ko": "누겔레온",
+    "zh-hans": "变涩蜥",
+    "zh-hant": "變澀蜥"
+  },
+  "number": 817
+}

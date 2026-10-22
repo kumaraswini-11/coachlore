@@ -1,0 +1,387 @@
+{
+  "category": "Sea Urchin Pokémon",
+  "entries": [
+    {
+      "text": "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
+      "version": "sword"
+    },
+    {
+      "text": "It stores electricity in each spine. Even if one gets broken off, it still continues to emit electricity for at least three hours.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pincurchin",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": true,
+          "key": "electric-surge"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pincurchin.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-main",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-9-main",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 115,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 115,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 115,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 115,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 115,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 115,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 115,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 80,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 80,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 870,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 870,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 80,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 80,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 870,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 870,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "the-crown-tundra", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pincurchin",
+      "kind": "default",
+      "name": "Pincurchin",
+      "number": 871,
+      "pokemon": "pincurchin",
+      "sourceId": 871,
+      "sprite": "/dex-images/sprites/pincurchin.webp",
+      "statTotal": 435,
+      "stats": {
+        "attack": 101,
+        "defense": 95,
+        "hp": 48,
+        "special-attack": 91,
+        "special-defense": 85,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 10
+    }
+  ],
+  "generation": 8,
+  "key": "pincurchin",
+  "name": "Pincurchin",
+  "names": {
+    "de": "Britzigel",
+    "en": "Pincurchin",
+    "es": "Pincurchin",
+    "es-419": "Pincurchin",
+    "fr": "Wattapik",
+    "it": "Pincurchin",
+    "ja": "バチンウニ",
+    "ja-hrkt": "バチンウニ",
+    "ja-roma": "Bachinuni",
+    "ko": "찌르성게",
+    "zh-hans": "啪嚓海胆",
+    "zh-hant": "啪嚓海膽"
+  },
+  "number": 871
+}

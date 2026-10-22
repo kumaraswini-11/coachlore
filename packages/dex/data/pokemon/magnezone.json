@@ -1,0 +1,335 @@
+{
+  "category": "Magnet Area Pokémon",
+  "entries": [
+    {
+      "text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+      "version": "diamond"
+    },
+    {
+      "text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+      "version": "pearl"
+    },
+    {
+      "text": "A group tried to use scientific means to make MAGNEZONE evolve, but their efforts ended in failure.",
+      "version": "platinum"
+    },
+    {
+      "text": "Exposure to a special magnetic field changed MAGNETON’s molecular structure, turning it into MAGNEZONE.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Exposure to a special magnetic field changed MAGNETON’s molecular structure, turning it into MAGNEZONE.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A group tried to use scientific means to make Magnezone evolve, but their efforts ended in failure.",
+      "version": "black"
+    },
+    {
+      "text": "A group tried to use scientific means to make Magnezone evolve, but their efforts ended in failure.",
+      "version": "white"
+    },
+    {
+      "text": "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+      "version": "black-2"
+    },
+    {
+      "text": "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+      "version": "white-2"
+    },
+    {
+      "text": "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+      "version": "x"
+    },
+    {
+      "text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+      "version": "y"
+    },
+    {
+      "text": "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Three units generate magnetism. There have been many mistaken reports of UFO sightings when Magnezone flies through the night sky.",
+      "version": "sun"
+    },
+    {
+      "text": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin, while transmitting signals of unknown purpose.",
+      "version": "moon"
+    },
+    {
+      "text": "It uses radar to monitor its territory. Intruders are quickly disposed of with a hyper beam.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "There are still people who believe that this Pokémon came from outer space. It emanates a powerful magnetic field.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Some say that Magnezone receives signals from space via the antenna on its head and that it’s being controlled by some mysterious being.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s thought that a special magnetic field changed the molecular structure of this Pokémon’s body, and that’s what caused the Pokémon’s evolution.",
+      "version": "shield"
+    },
+    {
+      "text": "I theorize that a special magnetic field influenced this Pokémon, changing its molecular structure and causing it to evolve. It emits strange radio waves toward space from its antenna.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "magnemite",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "magnemite",
+      "to": "magneton",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "magneton",
+      "to": "magnezone",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "magnet-pull"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "analytic"
+        }
+      ],
+      "artwork": "/dex-images/artwork/magnezone.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 15,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ]
+      },
+      "games": ["platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "magnezone",
+      "kind": "default",
+      "name": "Magnezone",
+      "number": 462,
+      "pokemon": "magnezone",
+      "sourceId": 462,
+      "sprite": "/dex-images/sprites/magnezone.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 70,
+        "defense": 115,
+        "hp": 70,
+        "special-attack": 130,
+        "special-defense": 90,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["electric", "steel"],
+      "weight": 1800
+    }
+  ],
+  "generation": 4,
+  "key": "magnezone",
+  "name": "Magnezone",
+  "names": {
+    "de": "Magnezone",
+    "en": "Magnezone",
+    "es": "Magnezone",
+    "es-419": "Magnezone",
+    "fr": "Magnézone",
+    "it": "Magnezone",
+    "ja": "ジバコイル",
+    "ja-hrkt": "ジバコイル",
+    "ja-roma": "Jibacoil",
+    "ko": "자포코일",
+    "zh-hans": "自爆磁怪",
+    "zh-hant": "自爆磁怪"
+  },
+  "number": 462
+}

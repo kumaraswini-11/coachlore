@@ -1,0 +1,253 @@
+{
+  "category": "Nurturing Pokémon",
+  "entries": [
+    {
+      "text": "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
+      "version": "black"
+    },
+    {
+      "text": "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
+      "version": "white"
+    },
+    {
+      "text": "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+      "version": "black-2"
+    },
+    {
+      "text": "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+      "version": "white-2"
+    },
+    {
+      "text": "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+      "version": "x"
+    },
+    {
+      "text": "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
+      "version": "y"
+    },
+    {
+      "text": "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It keeps its eggs warm with heat from fermenting leaves. It also uses leaves to make warm wrappings for Sewaddle.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sewaddle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "sewaddle",
+      "to": "swadloon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 220
+      },
+      "from": "swadloon",
+      "to": "leavanny",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/leavanny.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "grass-spots",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-hidden-grotto",
+            "maxLevel": 24,
+            "method": "hidden-grotto",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "grass-spots",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "grass-spots",
+            "minLevel": 26
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "island-scan",
+            "minLevel": 57
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "island-scan",
+            "minLevel": 57
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "island-scan",
+            "minLevel": 57
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "poni-meadow-area",
+            "maxLevel": 57,
+            "method": "island-scan",
+            "minLevel": 57
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "grass-spots",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-hidden-grotto",
+            "maxLevel": 24,
+            "method": "hidden-grotto",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "grass-spots",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "grass-spots",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "leavanny",
+      "kind": "default",
+      "name": "Leavanny",
+      "number": 542,
+      "pokemon": "leavanny",
+      "sourceId": 542,
+      "sprite": "/dex-images/sprites/leavanny.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 103,
+        "defense": 80,
+        "hp": 75,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 92
+      },
+      "tags": [],
+      "types": ["bug", "grass"],
+      "weight": 205
+    }
+  ],
+  "generation": 5,
+  "key": "leavanny",
+  "name": "Leavanny",
+  "names": {
+    "de": "Matrifol",
+    "en": "Leavanny",
+    "es": "Leavanny",
+    "es-419": "Leavanny",
+    "fr": "Manternel",
+    "it": "Leavanny",
+    "ja": "ハハコモリ",
+    "ja-hrkt": "ハハコモリ",
+    "ja-roma": "Hahakomori",
+    "ko": "모아머",
+    "zh-hans": "保姆虫",
+    "zh-hant": "保母蟲"
+  },
+  "number": 542
+}

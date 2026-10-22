@@ -1,0 +1,633 @@
+{
+  "category": "Pig Pokémon",
+  "entries": [
+    {
+      "text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+      "version": "gold"
+    },
+    {
+      "text": "If it smells something enticing, it dashes headlong off to find the source of the aroma.",
+      "version": "silver"
+    },
+    {
+      "text": "It uses the tip of its nose to dig for food. Its nose is so tough that even frozen ground poses no problem.",
+      "version": "crystal"
+    },
+    {
+      "text": "SWINUB roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This POKéMON occasionally roots out hot springs.",
+      "version": "ruby"
+    },
+    {
+      "text": "SWINUB roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This POKéMON occasionally roots out hot springs.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under dried grass. It occasionally roots out hot springs.",
+      "version": "emerald"
+    },
+    {
+      "text": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "version": "firered"
+    },
+    {
+      "text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+      "version": "diamond"
+    },
+    {
+      "text": "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
+      "version": "platinum"
+    },
+    {
+      "text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
+      "version": "black"
+    },
+    {
+      "text": "It has a very sensitive nose. It can locate mushrooms, berries, and even hot springs buried under ice.",
+      "version": "white"
+    },
+    {
+      "text": "Rooting the tip of its snout into the ground, it searches for food. Sometimes it even digs up a hot spring.",
+      "version": "black-2"
+    },
+    {
+      "text": "Rooting the tip of its snout into the ground, it searches for food. Sometimes it even digs up a hot spring.",
+      "version": "white-2"
+    },
+    {
+      "text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+      "version": "x"
+    },
+    {
+      "text": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "version": "y"
+    },
+    {
+      "text": "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pokémon occasionally roots out hot springs.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead grass. This Pokémon occasionally roots out hot springs.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+      "version": "sword"
+    },
+    {
+      "text": "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+      "version": "shield"
+    },
+    {
+      "text": "Swinub excels at sniffing out mushrooms buried beneath grass or snow. Since ancient times, the people of Hisui have often relied upon this skill.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "swinub",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 33
+      },
+      "from": "swinub",
+      "to": "piloswine",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "known_move": "ancient-power"
+      },
+      "from": "piloswine",
+      "to": "mamoswine",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/swinub.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 80,
+            "location": "ice-path-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 80,
+            "location": "ice-path-b1f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 80,
+            "location": "ice-path-b2f",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 80,
+            "location": "ice-path-b3f",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "firered": [
+          {
+            "chance": 50,
+            "location": "icefall-cave-1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 50,
+            "location": "icefall-cave-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "gold": [
+          {
+            "chance": 120,
+            "location": "ice-path-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 120,
+            "location": "ice-path-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 120,
+            "location": "ice-path-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 120,
+            "location": "ice-path-b3f",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "ice-path-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "ice-path-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "ice-path-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "ice-path-b3f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 50,
+            "location": "icefall-cave-1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 50,
+            "location": "icefall-cave-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "island-scan",
+            "minLevel": 31
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 35,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "shield": [
+          {
+            "chance": 70,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 120,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 150,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 120,
+            "location": "ice-path-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 120,
+            "location": "ice-path-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 120,
+            "location": "ice-path-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 120,
+            "location": "ice-path-b3f",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 40,
+            "location": "ice-path-1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "ice-path-b1f",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "ice-path-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "ice-path-b3f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "island-scan",
+            "minLevel": 31
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 80,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 150,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 122,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 122,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "island-scan",
+            "minLevel": 33
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "island-scan",
+            "minLevel": 33
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "phenac-city-stadium-outside",
+            "maxLevel": 22,
+            "method": "snag",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "swinub",
+      "kind": "default",
+      "name": "Swinub",
+      "number": 220,
+      "pokemon": "swinub",
+      "sourceId": 220,
+      "sprite": "/dex-images/sprites/swinub.webp",
+      "statTotal": 250,
+      "stats": {
+        "attack": 50,
+        "defense": 40,
+        "hp": 50,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ice", "ground"],
+      "weight": 65
+    }
+  ],
+  "generation": 2,
+  "key": "swinub",
+  "name": "Swinub",
+  "names": {
+    "de": "Quiekel",
+    "en": "Swinub",
+    "es": "Swinub",
+    "es-419": "Swinub",
+    "fr": "Marcacrin",
+    "it": "Swinub",
+    "ja": "ウリムー",
+    "ja-hrkt": "ウリムー",
+    "ja-roma": "Urimoo",
+    "ko": "꾸꾸리",
+    "zh-hans": "小山猪",
+    "zh-hant": "小山豬"
+  },
+  "number": 220
+}

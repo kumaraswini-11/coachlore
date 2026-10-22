@@ -1,0 +1,284 @@
+{
+  "category": "Deep Sea Pokémon",
+  "entries": [
+    {
+      "text": "HUNTAIL’s presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This POKéMON’s eyes can see clearly even in the murky dark depths of the ocean.",
+      "version": "ruby"
+    },
+    {
+      "text": "HUNTAIL’s tail is shaped like a fish. It uses the tail to attract prey, then swallows the prey whole with its large, gaping mouth. This POKéMON swims by wiggling its slender body like a snake.",
+      "version": "sapphire"
+    },
+    {
+      "text": "To withstand the crushing pressure of water deep under the sea, its spine is very thick and sturdy. Its tail, which is shaped like a small fish, has eyes that light up.",
+      "version": "emerald"
+    },
+    {
+      "text": "It lives deep in the sea where no light ever filters down. It lights up its small fishlike tail to attract prey.",
+      "version": "firered"
+    },
+    {
+      "text": "It lives deep in the sea where no light ever filters down. It lights up its small fishlike tail to attract prey.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "pearl"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives deep in the pitch-dark sea. It attracts prey by moving its tail in mimicry of a small animal.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives deep in the pitch-dark sea. It attracts prey by moving its tail in mimicry of a small animal.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "black"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "white"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives deep in the sea where no light ever filters down. It lights up its small fishlike tail to attract prey.",
+      "version": "x"
+    },
+    {
+      "text": "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+      "version": "y"
+    },
+    {
+      "text": "Huntail’s presence went unnoticed by people for a long time because it lives at extreme depths in the sea. This Pokémon’s eyes can see clearly even in the murky dark depths of the ocean.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Huntail’s tail is shaped like a fish. It uses the tail to attract prey, then swallows the prey whole with its large, gaping mouth. This Pokémon swims by wiggling its slender body like a snake.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It’s not the strongest swimmer. It wags its tail to lure in its prey and then gulps them down as soon as they get close.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "clamperl",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "deep-sea-tooth"
+      },
+      "from": "clamperl",
+      "to": "huntail",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "held_item": "deep-sea-scale"
+      },
+      "from": "clamperl",
+      "to": "gorebyss",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": true,
+          "key": "water-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/huntail.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 40,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 40,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 17,
+            "method": "sos",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "melemele-sea-area",
+            "maxLevel": 22,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 10
+          }
+        ],
+        "x": [
+          {
+            "chance": 5,
+            "location": "kalos-route-12-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "huntail",
+      "kind": "default",
+      "name": "Huntail",
+      "number": 367,
+      "pokemon": "huntail",
+      "sourceId": 367,
+      "sprite": "/dex-images/sprites/huntail.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 104,
+        "defense": 105,
+        "hp": 55,
+        "special-attack": 94,
+        "special-defense": 75,
+        "speed": 52
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 270
+    }
+  ],
+  "generation": 3,
+  "key": "huntail",
+  "name": "Huntail",
+  "names": {
+    "de": "Aalabyss",
+    "en": "Huntail",
+    "es": "Huntail",
+    "es-419": "Huntail",
+    "fr": "Serpang",
+    "it": "Huntail",
+    "ja": "ハンテール",
+    "ja-hrkt": "ハンテール",
+    "ja-roma": "Huntail",
+    "ko": "헌테일",
+    "zh-hans": "猎斑鱼",
+    "zh-hant": "獵斑魚"
+  },
+  "number": 367
+}

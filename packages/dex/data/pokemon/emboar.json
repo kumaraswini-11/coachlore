@@ -1,0 +1,175 @@
+{
+  "category": "Mega Fire Pig Pokémon",
+  "entries": [
+    {
+      "text": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+      "version": "black"
+    },
+    {
+      "text": "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+      "version": "white"
+    },
+    {
+      "text": "A flaring beard of fire is proof that it is fired up. It is adept at using many different moves.",
+      "version": "black-2"
+    },
+    {
+      "text": "A flaring beard of fire is proof that it is fired up. It is adept at using many different moves.",
+      "version": "white-2"
+    },
+    {
+      "text": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+      "version": "x"
+    },
+    {
+      "text": "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+      "version": "y"
+    },
+    {
+      "text": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tepig",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "tepig",
+      "to": "pignite",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "pignite",
+      "to": "emboar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/emboar.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "island-scan",
+            "minLevel": 43
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "island-scan",
+            "minLevel": 43
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "emboar",
+      "kind": "default",
+      "name": "Emboar",
+      "number": 500,
+      "pokemon": "emboar",
+      "sourceId": 500,
+      "sprite": "/dex-images/sprites/emboar.webp",
+      "statTotal": 528,
+      "stats": {
+        "attack": 123,
+        "defense": 65,
+        "hp": 110,
+        "special-attack": 100,
+        "special-defense": 65,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fire", "fighting"],
+      "weight": 1500
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/emboar-mega.webp",
+      "encounters": {},
+      "formName": "Mega Emboar",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 18,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "emboar-mega",
+      "kind": "mega",
+      "name": "Emboar-Mega",
+      "number": 500,
+      "pokemon": "emboar",
+      "sourceId": 10286,
+      "sprite": "/dex-images/sprites/emboar-mega.webp",
+      "statTotal": 628,
+      "stats": {
+        "attack": 148,
+        "defense": 75,
+        "hp": 110,
+        "special-attack": 110,
+        "special-defense": 110,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["fire", "fighting"],
+      "weight": 1803
+    }
+  ],
+  "generation": 5,
+  "key": "emboar",
+  "name": "Emboar",
+  "names": {
+    "de": "Flambirex",
+    "en": "Emboar",
+    "es": "Emboar",
+    "es-419": "Emboar",
+    "fr": "Roitiflam",
+    "it": "Emboar",
+    "ja": "エンブオー",
+    "ja-hrkt": "エンブオー",
+    "ja-roma": "Enbuoh",
+    "ko": "염무왕",
+    "zh-hans": "炎武王",
+    "zh-hant": "炎武王"
+  },
+  "number": 500
+}

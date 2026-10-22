@@ -1,0 +1,680 @@
+{
+  "category": "Ball Pokémon",
+  "entries": [
+    {
+      "text": "Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people.",
+      "version": "red"
+    },
+    {
+      "text": "Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people.",
+      "version": "blue"
+    },
+    {
+      "text": "It is said to camouflage itself as a POKé BALL. It will self-destruct with very little stimulus.",
+      "version": "yellow"
+    },
+    {
+      "text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+      "version": "gold"
+    },
+    {
+      "text": "It was discovered when POKé BALLS were introduced. It is said that there is some connection.",
+      "version": "silver"
+    },
+    {
+      "text": "During the study of this POKéMON, it was discovered that its components are not found in nature.",
+      "version": "crystal"
+    },
+    {
+      "text": "VOLTORB was first sighted at a company that manufactures POKé BALLS. The link between that sighting and the fact that this POKéMON looks very similar to a POKé BALL remains a mystery.",
+      "version": "ruby"
+    },
+    {
+      "text": "VOLTORB is extremely sensitive - it explodes at the slightest of shocks. It is rumored that it was first created when a POKé BALL was exposed to a powerful pulse of energy.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It bears an uncanny and unexplained resemblance to a POKé BALL. Because it explodes at the slightest shock, even veteran TRAINERS treat it with caution.",
+      "version": "emerald"
+    },
+    {
+      "text": "A life-form whose identity is unknown. It is said to SCREECH or suddenly SELFDESTRUCT.",
+      "version": "firered"
+    },
+    {
+      "text": "Usually found in power plants. Easily mistaken for a POKé BALL, it has zapped many people.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "version": "diamond"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "version": "pearl"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "version": "platinum"
+    },
+    {
+      "text": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "version": "black"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+      "version": "white"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.",
+      "version": "black-2"
+    },
+    {
+      "text": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.",
+      "version": "white-2"
+    },
+    {
+      "text": "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+      "version": "x"
+    },
+    {
+      "text": "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+      "version": "y"
+    },
+    {
+      "text": "Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "voltorb",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "voltorb",
+      "to": "electrode",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "electrode-hisui",
+        "item": "leaf-stone",
+        "required_pokemon_form": "voltorb-hisui"
+      },
+      "from": "voltorb",
+      "to": "electrode",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "aftermath"
+        }
+      ],
+      "artwork": "/dex-images/artwork/voltorb.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 465,
+            "location": "new-mauville-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 465,
+            "location": "new-mauville-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ],
+        "blue": [
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 90,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          },
+          {
+            "chance": 800,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 649,
+            "location": "new-mauville-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          },
+          {
+            "chance": 649,
+            "location": "new-mauville-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 50,
+            "location": "new-mauville-entrance",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "firered": [
+          {
+            "chance": 30,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "gold": [
+          {
+            "chance": 90,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          },
+          {
+            "chance": 800,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 1
+          },
+          {
+            "chance": 600,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 30,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 465,
+            "location": "new-mauville-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 465,
+            "location": "new-mauville-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "red": [
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 630,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 649,
+            "location": "new-mauville-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          },
+          {
+            "chance": 649,
+            "location": "new-mauville-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 50,
+            "location": "new-mauville-entrance",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 349,
+            "location": "new-mauville-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          },
+          {
+            "chance": 349,
+            "location": "new-mauville-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 50,
+            "location": "new-mauville-entrance",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "silver": [
+          {
+            "chance": 90,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          },
+          {
+            "chance": 800,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "olivine-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 1
+          },
+          {
+            "chance": 600,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "sun": [
+          {
+            "chance": 300,
+            "location": "new-mauville-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "pokespot-cave",
+            "maxLevel": 19,
+            "method": "snag",
+            "minLevel": 19
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 620,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 620,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "voltorb",
+      "kind": "default",
+      "name": "Voltorb",
+      "number": 100,
+      "pokemon": "voltorb",
+      "sourceId": 100,
+      "sprite": "/dex-images/sprites/voltorb.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 30,
+        "defense": 50,
+        "hp": 40,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 104
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "aftermath"
+        }
+      ],
+      "artwork": "/dex-images/artwork/voltorb-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "voltorb-hisui",
+      "kind": "regional",
+      "name": "Voltorb-Hisui",
+      "number": 100,
+      "pokemon": "voltorb",
+      "sourceId": 10231,
+      "sprite": "/dex-images/sprites/voltorb-hisui.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 30,
+        "defense": 50,
+        "hp": 40,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["electric", "grass"],
+      "weight": 130
+    }
+  ],
+  "generation": 1,
+  "key": "voltorb",
+  "name": "Voltorb",
+  "names": {
+    "de": "Voltobal",
+    "en": "Voltorb",
+    "es": "Voltorb",
+    "es-419": "Voltorb",
+    "fr": "Voltorbe",
+    "it": "Voltorb",
+    "ja": "ビリリダマ",
+    "ja-hrkt": "ビリリダマ",
+    "ja-roma": "Biriridama",
+    "ko": "찌리리공",
+    "zh-hans": "霹雳电球",
+    "zh-hant": "霹靂電球"
+  },
+  "number": 100
+}

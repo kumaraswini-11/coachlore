@@ -1,0 +1,568 @@
+{
+  "category": "Compass Pokémon",
+  "entries": [
+    {
+      "text": "NOSEPASS’s magnetic nose is always pointed to the north. If two of these POKéMON meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.",
+      "version": "ruby"
+    },
+    {
+      "text": "NOSEPASS had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the POKéMON actually moves by a little over 3/8 of an inch every year.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its magnetic nose consistently faces north. Travelers check NOSEPASS to get their bearings.",
+      "version": "firered"
+    },
+    {
+      "text": "Its magnetic nose consistently faces north. Travelers check NOSEPASS to get their bearings.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.",
+      "version": "pearl"
+    },
+    {
+      "text": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+      "version": "platinum"
+    },
+    {
+      "text": "If two of these meet, they cannot get too close because their noses repel each other.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If two of these meet, they cannot get too close because their noses repel each other.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+      "version": "black"
+    },
+    {
+      "text": "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+      "version": "white"
+    },
+    {
+      "text": "Its magnetic nose always faces north and draws iron objects to its body to protect itself better.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its magnetic nose always faces north and draws iron objects to its body to protect itself better.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its magnetic nose always faces north and draws iron objects to its body to protect itself better.",
+      "version": "x"
+    },
+    {
+      "text": "Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.",
+      "version": "y"
+    },
+    {
+      "text": "Nosepass’s magnetic nose is always pointed to the north. If two of these Pokémon meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pokémon actually moves by a little over 3/8 of an inch every year.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The magnet in Nosepass’s nose provides an unerring compass, making it an excellent partner for Trainers going on a journey.",
+      "version": "sun"
+    },
+    {
+      "text": "It uses powerful magnetism to drag its prey toward it. It’s also been known to pull in metal, which it collects and uses to protect itself.",
+      "version": "moon"
+    },
+    {
+      "text": "It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Once the people of Hisui discovered that its red nose always points north, they grew to rely on it greatly when traveling afar. The nose seems to work in a similar way to ancient compasses.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nosepass",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "nosepass",
+      "to": "probopass",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "magnet-pull"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/nosepass.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "clay-tunnel-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "glacier-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "iron-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "underground-ruins-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-hidden-grotto-mistralton-cave",
+            "maxLevel": 29,
+            "method": "hidden-grotto",
+            "minLevel": 25
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "granite-cave-b2f",
+            "maxLevel": 20,
+            "method": "rock-smash",
+            "minLevel": 10
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-1f-route-216",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-3f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-5f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-6f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 30,
+            "location": "granite-cave-b2f",
+            "maxLevel": 20,
+            "method": "rock-smash",
+            "minLevel": 10
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 30,
+            "location": "granite-cave-b2f",
+            "maxLevel": 20,
+            "method": "rock-smash",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "chargestone-cave-1f",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "chargestone-cave-b2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "clay-tunnel-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "glacier-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "iron-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rocky-mountain-room-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "underground-ruins-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-hidden-grotto-mistralton-cave",
+            "maxLevel": 29,
+            "method": "hidden-grotto",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-10-area",
+            "maxLevel": 10,
+            "method": "horde",
+            "minLevel": 10
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "pokespot-cave",
+            "maxLevel": 26,
+            "method": "snag",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "pokespot-oasis",
+            "maxLevel": 26,
+            "method": "snag",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "pokespot-rock",
+            "maxLevel": 26,
+            "method": "snag",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "pyrite-town-colosseum",
+            "maxLevel": 26,
+            "method": "snag",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "realgam-tower-colosseum",
+            "maxLevel": 26,
+            "method": "snag",
+            "minLevel": 26
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-rock",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 60,
+            "location": "kalos-route-10-area",
+            "maxLevel": 10,
+            "method": "horde",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "nosepass",
+      "kind": "default",
+      "name": "Nosepass",
+      "number": 299,
+      "pokemon": "nosepass",
+      "sourceId": 299,
+      "sprite": "/dex-images/sprites/nosepass.webp",
+      "statTotal": 375,
+      "stats": {
+        "attack": 45,
+        "defense": 135,
+        "hp": 30,
+        "special-attack": 45,
+        "special-defense": 90,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 970
+    }
+  ],
+  "generation": 3,
+  "key": "nosepass",
+  "name": "Nosepass",
+  "names": {
+    "de": "Nasgnet",
+    "en": "Nosepass",
+    "es": "Nosepass",
+    "es-419": "Nosepass",
+    "fr": "Tarinor",
+    "it": "Nosepass",
+    "ja": "ノズパス",
+    "ja-hrkt": "ノズパス",
+    "ja-roma": "Nosepass",
+    "ko": "코코파스",
+    "zh-hans": "朝北鼻",
+    "zh-hant": "朝北鼻"
+  },
+  "number": 299
+}

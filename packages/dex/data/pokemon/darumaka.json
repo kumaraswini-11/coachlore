@@ -1,0 +1,396 @@
+{
+  "category": "Zen Charm Pokémon",
+  "entries": [
+    {
+      "text": "When its internal fire is burning, it cannot calm down and it runs around. When the fire diminishes, it falls asleep.",
+      "version": "black"
+    },
+    {
+      "text": "Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+      "version": "white"
+    },
+    {
+      "text": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100° F.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100° F.",
+      "version": "white-2"
+    },
+    {
+      "text": "Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+      "version": "x"
+    },
+    {
+      "text": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit.",
+      "version": "y"
+    },
+    {
+      "text": "Darumaka’s droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It derives its power from fire burning inside its body. If the fire dwindles, this Pokémon will immediately fall asleep.",
+      "version": "sword"
+    },
+    {
+      "text": "This popular symbol of good fortune will never fall over in its sleep, no matter how it’s pushed or pulled.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "darumaka",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "darumaka",
+      "to": "darmanitan",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "darmanitan-galar-standard",
+        "item": "ice-stone",
+        "required_pokemon_form": "darumaka-galar"
+      },
+      "from": "darumaka",
+      "to": "darmanitan",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": true,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darumaka.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "desert-resort-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "desert-resort-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "desert-resort-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "desert-resort-entrance",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "unova-route-4-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "desert-resort-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "desert-resort-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "desert-resort-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 30,
+            "location": "desert-resort-entrance",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 35,
+            "location": "unova-route-4-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2"],
+      "gen9": false,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "darumaka",
+      "kind": "default",
+      "name": "Darumaka",
+      "number": 554,
+      "pokemon": "darumaka",
+      "sourceId": 554,
+      "sprite": "/dex-images/sprites/darumaka.webp",
+      "statTotal": 315,
+      "stats": {
+        "attack": 90,
+        "defense": 45,
+        "hp": 70,
+        "special-attack": 15,
+        "special-defense": 45,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 375
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": true,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/darumaka-galar.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-10-main",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-10-near-station",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 85,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 130,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "formName": "Galarian Form",
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 8,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "darumaka-galar",
+      "kind": "regional",
+      "name": "Darumaka-Galar",
+      "number": 554,
+      "pokemon": "darumaka",
+      "sourceId": 10176,
+      "sprite": "/dex-images/sprites/darumaka-galar.webp",
+      "statTotal": 315,
+      "stats": {
+        "attack": 90,
+        "defense": 45,
+        "hp": 70,
+        "special-attack": 15,
+        "special-defense": 45,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 400
+    }
+  ],
+  "generation": 5,
+  "key": "darumaka",
+  "name": "Darumaka",
+  "names": {
+    "de": "Flampion",
+    "en": "Darumaka",
+    "es": "Darumaka",
+    "es-419": "Darumaka",
+    "fr": "Darumarond",
+    "it": "Darumaka",
+    "ja": "ダルマッカ",
+    "ja-hrkt": "ダルマッカ",
+    "ja-roma": "Darumakka",
+    "ko": "달막화",
+    "zh-hans": "火红不倒翁",
+    "zh-hant": "火紅不倒翁"
+  },
+  "number": 554
+}

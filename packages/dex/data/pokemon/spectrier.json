@@ -1,0 +1,96 @@
+{
+  "category": "Swift Horse Pokémon",
+  "entries": [
+    {
+      "text": "It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body.",
+      "version": "sword"
+    },
+    {
+      "text": "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "spectrier",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "grim-neigh"
+        }
+      ],
+      "artwork": "/dex-images/artwork/spectrier.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "crown-shrine-area",
+            "maxLevel": 75,
+            "method": "static",
+            "minLevel": 75
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "crown-shrine-area",
+            "maxLevel": 75,
+            "method": "static",
+            "minLevel": 75
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": true,
+      "generation": 8,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "spectrier",
+      "kind": "default",
+      "legendary": true,
+      "name": "Spectrier",
+      "number": 897,
+      "pokemon": "spectrier",
+      "sourceId": 897,
+      "sprite": "/dex-images/sprites/spectrier.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 65,
+        "defense": 60,
+        "hp": 100,
+        "special-attack": 145,
+        "special-defense": 80,
+        "speed": 130
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["ghost"],
+      "weight": 445
+    }
+  ],
+  "generation": 8,
+  "key": "spectrier",
+  "name": "Spectrier",
+  "names": {
+    "de": "Phantoross",
+    "en": "Spectrier",
+    "es": "Spectrier",
+    "es-419": "Spectrier",
+    "fr": "Spectreval",
+    "it": "Spectrier",
+    "ja": "レイスポス",
+    "ja-hrkt": "レイスポス",
+    "ja-roma": "Wraithpos",
+    "ko": "레이스포스",
+    "zh-hans": "灵幽马",
+    "zh-hant": "靈幽馬"
+  },
+  "number": 897
+}

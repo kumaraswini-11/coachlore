@@ -14,9 +14,9 @@ const PATHS = [
   "/hi/legal",
   "/en/offline",
   "/hi/offline",
-  "/en/fixtures/states",
-  "/hi/fixtures/states",
-  "/en/fixtures/list",
+  "/en/dex",
+  "/hi/dex",
+  "/en/dex?view=list&gen=1",
 ]
 
 for (const path of PATHS) {

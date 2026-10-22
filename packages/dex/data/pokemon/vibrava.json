@@ -1,0 +1,297 @@
+{
+  "category": "Vibration Pokémon",
+  "entries": [
+    {
+      "text": "To make prey faint, VIBRAVA generates ultrasonic waves by vigorously making its two wings vibrate. This POKéMON’s ultrasonic waves are so powerful, they can bring on headaches in people.",
+      "version": "ruby"
+    },
+    {
+      "text": "VIBRAVA’s wings have not yet completed the process of growing. Rather than flying long distances, they are more useful for generating ultrasonic waves by vibrating.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It looses ultrasonic waves by rubbing its wings together. Since a VIBRAVA’s wings are still in the process of growing, it can only fly short distances.",
+      "version": "emerald"
+    },
+    {
+      "text": "It generates ultrasonic waves by violently flapping its wings. After making its prey faint, it melts the prey with acid.",
+      "version": "firered"
+    },
+    {
+      "text": "It generates ultrasonic waves by violently flapping its wings. After making its prey faint, it melts the prey with acid.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+      "version": "diamond"
+    },
+    {
+      "text": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+      "version": "pearl"
+    },
+    {
+      "text": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+      "version": "platinum"
+    },
+    {
+      "text": "It vibrates its wings vigorously, creating ultrasonic waves that cause serious headaches.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It vibrates its wings vigorously, creating ultrasonic waves that cause serious headaches.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+      "version": "black"
+    },
+    {
+      "text": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+      "version": "white"
+    },
+    {
+      "text": "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+      "version": "black-2"
+    },
+    {
+      "text": "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+      "version": "white-2"
+    },
+    {
+      "text": "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+      "version": "x"
+    },
+    {
+      "text": "It generates ultrasonic waves by violently flapping its wings. After making its prey faint, it melts the prey with acid.",
+      "version": "y"
+    },
+    {
+      "text": "To make prey faint, Vibrava generates ultrasonic waves by vigorously making its two wings vibrate. This Pokémon’s ultrasonic waves are so powerful, they can bring on headaches in people.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Vibrava’s wings have not yet completed the process of growing. Rather than flying long distances, they are more useful for generating ultrasonic waves by vibrating.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Rather than using its underdeveloped wings for flight, it rubs them together, producing ultrasonic waves to attack its enemies.",
+      "version": "sun"
+    },
+    {
+      "text": "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+      "version": "moon"
+    },
+    {
+      "text": "It vibrates its wings to generate ultrasonic waves, causing its prey to faint. Then it buries the prey alive in the sand to preserve it.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It vibrates its wings to send out odd sound waves. Trainers who are with it need earplugs.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+      "version": "sword"
+    },
+    {
+      "text": "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "trapinch",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "trapinch",
+      "to": "vibrava",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 45
+      },
+      "from": "vibrava",
+      "to": "flygon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/vibrava.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 38,
+            "method": "dark-grass",
+            "minLevel": 38
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf1",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-228-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 89,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 89,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 120,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 38,
+            "method": "dark-grass",
+            "minLevel": 38
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 3,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "vibrava",
+      "kind": "default",
+      "name": "Vibrava",
+      "number": 329,
+      "pokemon": "vibrava",
+      "sourceId": 329,
+      "sprite": "/dex-images/sprites/vibrava.webp",
+      "statTotal": 340,
+      "stats": {
+        "attack": 70,
+        "defense": 50,
+        "hp": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["ground", "dragon"],
+      "weight": 153
+    }
+  ],
+  "generation": 3,
+  "key": "vibrava",
+  "name": "Vibrava",
+  "names": {
+    "de": "Vibrava",
+    "en": "Vibrava",
+    "es": "Vibrava",
+    "es-419": "Vibrava",
+    "fr": "Vibraninf",
+    "it": "Vibrava",
+    "ja": "ビブラーバ",
+    "ja-hrkt": "ビブラーバ",
+    "ja-roma": "Vibrava",
+    "ko": "비브라바",
+    "zh-hans": "超音波幼虫",
+    "zh-hant": "超音波幼蟲"
+  },
+  "number": 329
+}

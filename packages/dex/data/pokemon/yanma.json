@@ -1,0 +1,462 @@
+{
+  "category": "Clear Wing Pokémon",
+  "entries": [
+    {
+      "text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+      "version": "gold"
+    },
+    {
+      "text": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey.",
+      "version": "silver"
+    },
+    {
+      "text": "It can see in all directions without moving its big eyes, helping it spot attackers and food right away.",
+      "version": "crystal"
+    },
+    {
+      "text": "YANMA is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This POKéMON uses its flying ability to quickly chase down targeted prey.",
+      "version": "ruby"
+    },
+    {
+      "text": "YANMA is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This POKéMON uses its flying ability to quickly chase down targeted prey.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It can see 360 degrees without moving its eyes. It is a great flier capable of making sudden stops and turning midair to quickly chase down targeted prey.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey.",
+      "version": "firered"
+    },
+    {
+      "text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its eyes can see 360 degrees without moving its head. It won’t miss prey--even those behind it.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its eyes can see 360 degrees without moving its head. It won’t miss prey--even those behind it.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+      "version": "platinum"
+    },
+    {
+      "text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its large eyes can scan 360 degrees. It looks in all directions to seek out insects as its prey.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+      "version": "black"
+    },
+    {
+      "text": "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+      "version": "white"
+    },
+    {
+      "text": "By flapping its wings at high speed, it can fly freely through the air. Even sudden stops are no problem.",
+      "version": "black-2"
+    },
+    {
+      "text": "By flapping its wings at high speed, it can fly freely through the air. Even sudden stops are no problem.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its eyes can see 360 degrees without moving its head. It won’t miss prey--even those behind it.",
+      "version": "x"
+    },
+    {
+      "text": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+      "version": "y"
+    },
+    {
+      "text": "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Yanma is capable of seeing 360 degrees without having to move its eyes. It is a great flier that is adept at making sudden stops and turning midair. This Pokémon uses its flying ability to quickly chase down targeted prey.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "yanma",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "ancient-power"
+      },
+      "from": "yanma",
+      "to": "yanmega",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "speed-boost"
+        },
+        {
+          "hidden": false,
+          "key": "compound-eyes"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/yanma.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 63,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-bldg-1f",
+            "maxLevel": 33,
+            "method": "snag",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 33,
+            "method": "snag-rematch",
+            "minLevel": 33
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 93,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "firered": [
+          {
+            "chance": 10,
+            "location": "ruin-valley-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "gold": [
+          {
+            "chance": 33,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 41,
+            "location": "johto-route-35-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 10,
+            "location": "ruin-valley-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 31,
+            "location": "great-marsh-area-1",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-2",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-3",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-4",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 61,
+            "location": "great-marsh-area-5",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 61,
+            "location": "great-marsh-area-6",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "silver": [
+          {
+            "chance": 33,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 41,
+            "location": "johto-route-35-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 63,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-10-area",
+            "maxLevel": 10,
+            "method": "horde",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-10-area",
+            "maxLevel": 10,
+            "method": "horde",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "yanma",
+      "kind": "default",
+      "name": "Yanma",
+      "number": 193,
+      "pokemon": "yanma",
+      "sourceId": 193,
+      "sprite": "/dex-images/sprites/yanma.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 65,
+        "defense": 45,
+        "hp": 65,
+        "special-attack": 75,
+        "special-defense": 45,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 380
+    }
+  ],
+  "generation": 2,
+  "key": "yanma",
+  "name": "Yanma",
+  "names": {
+    "de": "Yanma",
+    "en": "Yanma",
+    "es": "Yanma",
+    "es-419": "Yanma",
+    "fr": "Yanma",
+    "it": "Yanma",
+    "ja": "ヤンヤンマ",
+    "ja-hrkt": "ヤンヤンマ",
+    "ja-roma": "Yanyanma",
+    "ko": "왕자리",
+    "zh-hans": "蜻蜻蜓",
+    "zh-hant": "蜻蜻蜓"
+  },
+  "number": 193
+}

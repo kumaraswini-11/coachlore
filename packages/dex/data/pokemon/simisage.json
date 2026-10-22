@@ -1,0 +1,112 @@
+{
+  "category": "Thorn Monkey Pokémon",
+  "entries": [
+    {
+      "text": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+      "version": "black"
+    },
+    {
+      "text": "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+      "version": "white"
+    },
+    {
+      "text": "It strikes its enemies with a thorn-covered tail. The leaf on its head is bitter.",
+      "version": "black-2"
+    },
+    {
+      "text": "It strikes its enemies with a thorn-covered tail. The leaf on its head is bitter.",
+      "version": "white-2"
+    },
+    {
+      "text": "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+      "version": "x"
+    },
+    {
+      "text": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+      "version": "y"
+    },
+    {
+      "text": "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pansage",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "pansage",
+      "to": "simisage",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "overgrow"
+        }
+      ],
+      "artwork": "/dex-images/artwork/simisage.webp",
+      "encounters": {},
+      "games": ["black-white", "black-2-white-2", "x-y", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "simisage",
+      "kind": "default",
+      "name": "Simisage",
+      "number": 512,
+      "pokemon": "simisage",
+      "sourceId": 512,
+      "sprite": "/dex-images/sprites/simisage.webp",
+      "statTotal": 498,
+      "stats": {
+        "attack": 98,
+        "defense": 63,
+        "hp": 75,
+        "special-attack": 98,
+        "special-defense": 63,
+        "speed": 101
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 305
+    }
+  ],
+  "generation": 5,
+  "key": "simisage",
+  "name": "Simisage",
+  "names": {
+    "de": "Vegichita",
+    "en": "Simisage",
+    "es": "Simisage",
+    "es-419": "Simisage",
+    "fr": "Feuiloutan",
+    "it": "Simisage",
+    "ja": "ヤナッキー",
+    "ja-hrkt": "ヤナッキー",
+    "ja-roma": "Yanakkie",
+    "ko": "야나키",
+    "zh-hans": "花椰猿",
+    "zh-hant": "花椰猿"
+  },
+  "number": 512
+}

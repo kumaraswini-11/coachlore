@@ -1,0 +1,183 @@
+{
+  "category": "Sand Castle Pokémon",
+  "entries": [
+    {
+      "text": "Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.",
+      "version": "sun"
+    },
+    {
+      "text": "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
+      "version": "moon"
+    },
+    {
+      "text": "Each of its grains of sand has its own will. Palossand eats small Pokémon and siphons away their vital essence while they’re still alive.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Palossand is known as the Beach Nightmare. It pulls its prey down into the sand by controlling the sand itself, and then it sucks out their souls.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon lives on beaches, but it hates water. Palossand can’t maintain its castle-like shape if it gets drenched by a heavy rain.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sandygast",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "sandygast",
+      "to": "palossand",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-compaction"
+        },
+        {
+          "hidden": true,
+          "key": "sand-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/palossand.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 55,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 55,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 70,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 7,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "palossand",
+      "kind": "default",
+      "name": "Palossand",
+      "number": 770,
+      "pokemon": "palossand",
+      "sourceId": 770,
+      "sprite": "/dex-images/sprites/palossand.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 75,
+        "defense": 110,
+        "hp": 85,
+        "special-attack": 100,
+        "special-defense": 75,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["ghost", "ground"],
+      "weight": 2500
+    }
+  ],
+  "generation": 7,
+  "key": "palossand",
+  "name": "Palossand",
+  "names": {
+    "de": "Colossand",
+    "en": "Palossand",
+    "es": "Palossand",
+    "es-419": "Palossand",
+    "fr": "Trépassable",
+    "it": "Palossand",
+    "ja": "シロデスナ",
+    "ja-hrkt": "シロデスナ",
+    "ja-roma": "Sirodethna",
+    "ko": "모래성이당",
+    "zh-hans": "噬沙堡爷",
+    "zh-hant": "噬沙堡爺"
+  },
+  "number": 770
+}

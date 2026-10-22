@@ -1,0 +1,855 @@
+{
+  "category": "Sea Weasel Pokémon",
+  "entries": [
+    {
+      "text": "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+      "version": "diamond"
+    },
+    {
+      "text": "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+      "version": "pearl"
+    },
+    {
+      "text": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+      "version": "platinum"
+    },
+    {
+      "text": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+      "version": "black"
+    },
+    {
+      "text": "It spins its two tails like a screw to propel itself through water. The tails also slice clinging seaweed.",
+      "version": "white"
+    },
+    {
+      "text": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
+      "version": "black-2"
+    },
+    {
+      "text": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
+      "version": "white-2"
+    },
+    {
+      "text": "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+      "version": "x"
+    },
+    {
+      "text": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
+      "version": "y"
+    },
+    {
+      "text": "It swims by rotating its two tails like a screw. When it dives, its flotation sac collapses.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It moves freely in the water by spinning its forked tail for propulsion. The resemblance to the screw of a steamboat is coincidental.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "buizel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 26
+      },
+      "from": "buizel",
+      "to": "floatzel",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": true,
+          "key": "water-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/buizel.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 90,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 51,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 51,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 51,
+            "location": "valley-windworks-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-route-30-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-34-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-35-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-42-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-45-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-22-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-26-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-27-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-4-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "ruins-of-alph-outside",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 51,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 51,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 51,
+            "location": "valley-windworks-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 27,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "valley-windworks-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-route-30-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-34-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-35-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-42-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-45-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-22-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-26-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-27-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-4-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-6-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "ruins-of-alph-outside",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "white": [
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 90,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-14-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "buizel",
+      "kind": "default",
+      "name": "Buizel",
+      "number": 418,
+      "pokemon": "buizel",
+      "sourceId": 418,
+      "sprite": "/dex-images/sprites/buizel.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 65,
+        "defense": 35,
+        "hp": 55,
+        "special-attack": 60,
+        "special-defense": 30,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 295
+    }
+  ],
+  "generation": 4,
+  "key": "buizel",
+  "name": "Buizel",
+  "names": {
+    "de": "Bamelin",
+    "en": "Buizel",
+    "es": "Buizel",
+    "es-419": "Buizel",
+    "fr": "Mustébouée",
+    "it": "Buizel",
+    "ja": "ブイゼル",
+    "ja-hrkt": "ブイゼル",
+    "ja-roma": "Buoysel",
+    "ko": "브이젤",
+    "zh-hans": "泳圈鼬",
+    "zh-hant": "泳圈鼬"
+  },
+  "number": 418
+}

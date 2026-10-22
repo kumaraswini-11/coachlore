@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { getLocale, getTranslations } from "next-intl/server"
 
+import { Page, PageTitle } from "@/components/page"
 import { pageMetadata } from "@/i18n/metadata"
 import { localeHref } from "@/i18n/paths"
 import { SITE } from "@/lib/site"
@@ -12,8 +13,8 @@ export function generateMetadata(): Promise<Metadata> {
   return pageMetadata("/")
 }
 
-// Until the Dex arrives (spec 003), home says what Coachlore is.
-export default async function Page() {
+// Home says what Coachlore is; spec 003's task 5 adds the Dex's blocks.
+export default async function HomePage() {
   const locale = await getLocale()
   const t = await getTranslations("home")
 
@@ -29,17 +30,17 @@ export default async function Page() {
   }
 
   return (
-    <div className="flex flex-col gap-2 px-4 py-6 md:px-6">
+    <Page className="gap-2">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      <h1 className="text-2xl font-semibold">{t("heading")}</h1>
+      <PageTitle>{t("heading")}</PageTitle>
       <p className="max-w-prose text-sm text-muted-foreground md:text-base">
         {t("intro")}
       </p>
-    </div>
+    </Page>
   )
 }

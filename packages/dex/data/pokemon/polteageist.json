@@ -1,0 +1,222 @@
+{
+  "category": "Black Tea Pokémon",
+  "entries": [
+    {
+      "text": "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
+      "version": "sword"
+    },
+    {
+      "text": "Leaving leftover black tea unattended is asking for this Pokémon to come along and pour itself into it, turning the tea into a new Polteageist.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sinistea",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "polteageist-phony",
+        "item": "cracked-pot",
+        "required_pokemon_form": "sinistea-phony"
+      },
+      "from": "sinistea",
+      "to": "polteageist",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "polteageist-antique",
+        "item": "chipped-pot",
+        "required_pokemon_form": "sinistea-antique"
+      },
+      "from": "sinistea",
+      "to": "polteageist",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "weak-armor"
+        },
+        {
+          "hidden": true,
+          "key": "cursed-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/polteageist.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 59,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 60,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 600,
+            "location": "old-cemetery-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 60,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 60,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 60,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 600,
+            "location": "old-cemetery-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 60,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Phony Form",
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "polteageist",
+      "kind": "default",
+      "name": "Polteageist",
+      "number": 855,
+      "pokemon": "polteageist",
+      "sourceId": 855,
+      "sprite": "/dex-images/sprites/polteageist.webp",
+      "statTotal": 508,
+      "stats": {
+        "attack": 65,
+        "defense": 65,
+        "hp": 60,
+        "special-attack": 134,
+        "special-defense": 114,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 4
+    }
+  ],
+  "generation": 8,
+  "key": "polteageist",
+  "name": "Polteageist",
+  "names": {
+    "de": "Mortipot",
+    "en": "Polteageist",
+    "es": "Polteageist",
+    "es-419": "Polteageist",
+    "fr": "Polthégeist",
+    "it": "Polteageist",
+    "ja": "ポットデス",
+    "ja-hrkt": "ポットデス",
+    "ja-roma": "Potdeath",
+    "ko": "포트데스",
+    "zh-hans": "怖思壶",
+    "zh-hant": "怖思壺"
+  },
+  "number": 855
+}

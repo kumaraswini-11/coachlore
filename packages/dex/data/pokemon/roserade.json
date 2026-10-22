@@ -1,0 +1,282 @@
+{
+  "category": "Bouquet Pokémon",
+  "entries": [
+    {
+      "text": "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
+      "version": "diamond"
+    },
+    {
+      "text": "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+      "version": "pearl"
+    },
+    {
+      "text": "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its sweet aroma attracts prey. Then it spews poison. The more toxic it is, the sweeter its aroma.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+      "version": "black"
+    },
+    {
+      "text": "Each of its hands contains different toxins, but both hands can jab with near-fatal power.",
+      "version": "white"
+    },
+    {
+      "text": "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+      "version": "black-2"
+    },
+    {
+      "text": "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+      "version": "white-2"
+    },
+    {
+      "text": "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+      "version": "x"
+    },
+    {
+      "text": "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+      "version": "y"
+    },
+    {
+      "text": "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "After captivating opponents with its sweet scent, it lashes them with its thorny whips.",
+      "version": "sword"
+    },
+    {
+      "text": "The poison in its right hand is quick acting. The poison in its left hand is slow acting. Both are life threatening.",
+      "version": "shield"
+    },
+    {
+      "text": "Hidden within the bouquet on each hand are thorned whips loaded with virulent poison. Roserade moves gracefully as it corners its prey and mercilessly lashes them with its whips.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "budew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "day"
+      },
+      "from": "budew",
+      "to": "roselia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "roselia",
+      "to": "roserade",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/roserade.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "grass-spots",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "shield": [
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          }
+        ],
+        "sword": [
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "grass-spots",
+            "minLevel": 24
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 38,
+            "method": "grass-spots",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "roserade",
+      "kind": "default",
+      "name": "Roserade",
+      "number": 407,
+      "pokemon": "roserade",
+      "sourceId": 407,
+      "sprite": "/dex-images/sprites/roserade.webp",
+      "statTotal": 515,
+      "stats": {
+        "attack": 70,
+        "defense": 65,
+        "hp": 60,
+        "special-attack": 125,
+        "special-defense": 105,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 145
+    }
+  ],
+  "generation": 4,
+  "key": "roserade",
+  "name": "Roserade",
+  "names": {
+    "de": "Roserade",
+    "en": "Roserade",
+    "es": "Roserade",
+    "es-419": "Roserade",
+    "fr": "Roserade",
+    "it": "Roserade",
+    "ja": "ロズレイド",
+    "ja-hrkt": "ロズレイド",
+    "ja-roma": "Roserade",
+    "ko": "로즈레이드",
+    "zh-hans": "罗丝雷朵",
+    "zh-hant": "羅絲雷朵"
+  },
+  "number": 407
+}

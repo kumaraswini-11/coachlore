@@ -1,0 +1,220 @@
+{
+  "category": "Fang Scorpion Pokémon",
+  "entries": [
+    {
+      "text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+      "version": "diamond"
+    },
+    {
+      "text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+      "version": "pearl"
+    },
+    {
+      "text": "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
+      "version": "black"
+    },
+    {
+      "text": "If it succeeds in catching even a faint breeze properly, it can circle the globe without flapping once.",
+      "version": "white"
+    },
+    {
+      "text": "It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.",
+      "version": "black-2"
+    },
+    {
+      "text": "It dances silently through the sky. When it approaches prey, it can land a critical hit in an instant.",
+      "version": "white-2"
+    },
+    {
+      "text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+      "version": "x"
+    },
+    {
+      "text": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+      "version": "y"
+    },
+    {
+      "text": "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It glides soundlessly on pitch-black wings and sinks sharp fangs into the throat of its prey. It takes on a look of satisfaction once it has entirely drained its prey of blood.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gligar",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "razor-fang",
+        "time_of_day": "night"
+      },
+      "from": "gligar",
+      "to": "gliscor",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hyper-cutter"
+        },
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "poison-heal"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gliscor.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-route-11-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "grass-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-area",
+            "maxLevel": 51,
+            "method": "grass-spots",
+            "minLevel": 51
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-route-11-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "grass-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-area",
+            "maxLevel": 51,
+            "method": "grass-spots",
+            "minLevel": 51
+          }
+        ]
+      },
+      "games": ["platinum", "black-2-white-2", "x-y", "legends-arceus", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gliscor",
+      "kind": "default",
+      "name": "Gliscor",
+      "number": 472,
+      "pokemon": "gliscor",
+      "sourceId": 472,
+      "sprite": "/dex-images/sprites/gliscor.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 95,
+        "defense": 125,
+        "hp": 75,
+        "special-attack": 45,
+        "special-defense": 75,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["ground", "flying"],
+      "weight": 425
+    }
+  ],
+  "generation": 4,
+  "key": "gliscor",
+  "name": "Gliscor",
+  "names": {
+    "de": "Skorgro",
+    "en": "Gliscor",
+    "es": "Gliscor",
+    "es-419": "Gliscor",
+    "fr": "Scorvol",
+    "it": "Gliscor",
+    "ja": "グライオン",
+    "ja-hrkt": "グライオン",
+    "ja-roma": "Glion",
+    "ko": "글라이온",
+    "zh-hans": "天蝎王",
+    "zh-hant": "天蠍王"
+  },
+  "number": 472
+}

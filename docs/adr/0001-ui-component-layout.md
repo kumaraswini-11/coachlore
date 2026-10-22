@@ -23,12 +23,13 @@ pages) as the folder structure.
 
 Folders say where code comes from and who uses it:
 
-| Folder                                  | Holds                                                                                |
-| --------------------------------------- | ------------------------------------------------------------------------------------ |
-| `packages/ui/src/components/shadcn-ui/` | registry output, written by the CLI (the `ui` alias in both `components.json` files) |
-| `packages/ui/src/components/`           | Coachlore's own shared compositions                                                  |
-| `apps/web/components/<feature>/`        | compositions only that feature uses                                                  |
-| `apps/web/app/`                         | layouts and pages (Next.js)                                                          |
+| Folder                                  | Holds                                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------- |
+| `packages/ui/src/components/shadcn-ui/` | registry output, written by the CLI (the `ui` alias in both `components.json` files)  |
+| `packages/ui/src/components/`           | Coachlore's own shared compositions                                                   |
+| `apps/web/components/<feature>/`        | compositions only that feature uses                                                   |
+| `apps/web/components/` (its root)       | the app's own compositions used across its features (the page container, error state) |
+| `apps/web/app/`                         | layouts and pages (Next.js)                                                           |
 
 Atomic Design is the vocabulary, not the folders. Its levels map onto them:
 

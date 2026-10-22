@@ -1,0 +1,750 @@
+{
+  "category": "Sea Slug Pokémon",
+  "entries": [
+    {
+      "text": "It has a pliable body without any bones. If any part of its body is torn off, it grows right back.",
+      "version": "diamond"
+    },
+    {
+      "text": "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
+      "version": "pearl"
+    },
+    {
+      "text": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
+      "version": "platinum"
+    },
+    {
+      "text": "When its natural enemy attacks, it oozes purple fluid and escapes.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When its natural enemy attacks, it oozes purple fluid and escapes.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
+      "version": "black"
+    },
+    {
+      "text": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
+      "version": "white"
+    },
+    {
+      "text": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
+      "version": "black-2"
+    },
+    {
+      "text": "Long ago, its entire back was shielded with a sturdy shell. There are traces of it left in its cells.",
+      "version": "white-2"
+    },
+    {
+      "text": "When its natural enemy attacks, it oozes purple fluid and escapes.",
+      "version": "x"
+    },
+    {
+      "text": "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
+      "version": "y"
+    },
+    {
+      "text": "When its natural enemy attacks, it oozes purple fluid and escapes.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It apparently had a huge shell for protection in ancient times. It lives in shallow tidal pools.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It has strong regenerative capabilities. Even if parts of it are bitten off by fish Pokémon, it will return to normal within a few hours.",
+      "version": "sun"
+    },
+    {
+      "text": "Plankton, invisible to the naked eye, is its main food source. It comes onto the land periodically, but the reason for this is not known.",
+      "version": "moon"
+    },
+    {
+      "text": "Long ago, it had a shell on its back. There’s now a vestigial plate on its back that’s hard but thin.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Their shape and color change, depending on their environment and diet. There are many of them at beaches where the waves are calm.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its search for food sometimes leads it onto land, where it leaves behind a sticky trail of slime as it passes through.",
+      "version": "sword"
+    },
+    {
+      "text": "The softness of its body helps disperse the force of impacts, so although its body is uncommonly squishy, it’s also surprisingly resilient.",
+      "version": "shield"
+    },
+    {
+      "text": "Eats beach sand for nourishment. Should one Gastrodon encounter another of a different color, a fierce battle will inevitably ensue.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shellos",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gastrodon-west",
+        "min_level": 30,
+        "required_pokemon_form": "shellos-west"
+      },
+      "from": "shellos",
+      "to": "gastrodon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gastrodon-east",
+        "min_level": 30,
+        "required_pokemon_form": "shellos-east"
+      },
+      "from": "shellos",
+      "to": "gastrodon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sticky-hold"
+        },
+        {
+          "hidden": false,
+          "key": "storm-drain"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gastrodon.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 15,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 15,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 1,
+            "location": "canalave-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 26,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 26,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 1,
+            "location": "pastoria-city-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 9,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 9,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 36,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 36,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 9,
+            "location": "valley-windworks-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 55,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1800,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 56
+          },
+          {
+            "chance": 45,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-9-main",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1800,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 56
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "sword": [
+          {
+            "chance": 55,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1800,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 56
+          },
+          {
+            "chance": 45,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-9-main",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1800,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 56
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 75,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "surf",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 44,
+            "method": "surf",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "surf",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 44,
+            "method": "surf",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "West Sea",
+      "games": ["diamond-pearl", "platinum", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gastrodon",
+      "kind": "default",
+      "name": "Gastrodon",
+      "number": 423,
+      "pokemon": "gastrodon",
+      "sourceId": 423,
+      "sprite": "/dex-images/sprites/gastrodon.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 83,
+        "defense": 68,
+        "hp": 111,
+        "special-attack": 92,
+        "special-defense": 82,
+        "speed": 39
+      },
+      "tags": [],
+      "types": ["water", "ground"],
+      "weight": 299
+    }
+  ],
+  "generation": 4,
+  "key": "gastrodon",
+  "name": "Gastrodon",
+  "names": {
+    "de": "Gastrodon",
+    "en": "Gastrodon",
+    "es": "Gastrodon",
+    "es-419": "Gastrodon",
+    "fr": "Tritosor",
+    "it": "Gastrodon",
+    "ja": "トリトドン",
+    "ja-hrkt": "トリトドン",
+    "ja-roma": "Tritodon",
+    "ko": "트리토돈",
+    "zh-hans": "海兔兽",
+    "zh-hant": "海兔獸"
+  },
+  "number": 423
+}

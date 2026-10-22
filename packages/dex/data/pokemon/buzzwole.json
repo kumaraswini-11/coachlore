@@ -1,0 +1,121 @@
+{
+  "category": "Swollen Pokémon",
+  "entries": [
+    {
+      "text": "This Ultra Beast appeared from another world. It shows off its body, but whether that display is a boast or a threat remains unclear.",
+      "version": "sun"
+    },
+    {
+      "text": "A mysterious life-form called an Ultra Beast. Witnesses saw it pulverize a dump truck with a single punch.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Buzzwole goes around showing off its abnormally swollen muscles. It is one kind of Ultra Beast.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "buzzwole",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/buzzwole.webp",
+      "encounters": {
+        "sun": [
+          {
+            "chance": 100,
+            "location": "melemele-meadow-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-jungle",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 24,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "buzzwole",
+      "kind": "default",
+      "name": "Buzzwole",
+      "number": 794,
+      "pokemon": "buzzwole",
+      "sourceId": 794,
+      "sprite": "/dex-images/sprites/buzzwole.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 139,
+        "defense": 139,
+        "hp": 107,
+        "special-attack": 53,
+        "special-defense": 53,
+        "speed": 79
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["bug", "fighting"],
+      "weight": 3336
+    }
+  ],
+  "generation": 7,
+  "key": "buzzwole",
+  "name": "Buzzwole",
+  "names": {
+    "de": "Masskito",
+    "en": "Buzzwole",
+    "es": "Buzzwole",
+    "es-419": "Buzzwole",
+    "fr": "Mouscoto",
+    "it": "Buzzwole",
+    "ja": "マッシブーン",
+    "ja-hrkt": "マッシブーン",
+    "ja-roma": "Massivoon",
+    "ko": "매시붕",
+    "zh-hans": "爆肌蚊",
+    "zh-hant": "爆肌蚊"
+  },
+  "number": 794
+}

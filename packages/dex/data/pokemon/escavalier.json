@@ -1,0 +1,268 @@
+{
+  "category": "Cavalry Pokémon",
+  "entries": [
+    {
+      "text": "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+      "version": "black"
+    },
+    {
+      "text": "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
+      "version": "white"
+    },
+    {
+      "text": "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+      "version": "black-2"
+    },
+    {
+      "text": "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+      "version": "white-2"
+    },
+    {
+      "text": "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+      "version": "x"
+    },
+    {
+      "text": "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
+      "version": "y"
+    },
+    {
+      "text": "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They use shells they’ve stolen from Shelmet to arm and protect themselves. They’re very popular Pokémon in the Galar region.",
+      "version": "sword"
+    },
+    {
+      "text": "It charges its enemies, lances at the ready. An image of one of its duels is captured in a famous painting of Escavalier clashing with Sirfetch’d.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "karrablast",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "trade_species": "shelmet"
+      },
+      "from": "karrablast",
+      "to": "escavalier",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/escavalier.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 15,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "escavalier",
+      "kind": "default",
+      "name": "Escavalier",
+      "number": 589,
+      "pokemon": "escavalier",
+      "sourceId": 589,
+      "sprite": "/dex-images/sprites/escavalier.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 135,
+        "defense": 105,
+        "hp": 70,
+        "special-attack": 60,
+        "special-defense": 105,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["bug", "steel"],
+      "weight": 330
+    }
+  ],
+  "generation": 5,
+  "key": "escavalier",
+  "name": "Escavalier",
+  "names": {
+    "de": "Cavalanzas",
+    "en": "Escavalier",
+    "es": "Escavalier",
+    "es-419": "Escavalier",
+    "fr": "Lançargot",
+    "it": "Escavalier",
+    "ja": "シュバルゴ",
+    "ja-hrkt": "シュバルゴ",
+    "ja-roma": "Chevargo",
+    "ko": "슈바르고",
+    "zh-hans": "骑士蜗牛",
+    "zh-hant": "騎士蝸牛"
+  },
+  "number": 589
+}

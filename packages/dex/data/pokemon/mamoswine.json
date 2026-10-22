@@ -1,0 +1,313 @@
+{
+  "category": "Twin Tusk Pokémon",
+  "entries": [
+    {
+      "text": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+      "version": "pearl"
+    },
+    {
+      "text": "A frozen one was dug up from soil dating back 10,000 years. It woke up to much amazement.",
+      "version": "platinum"
+    },
+    {
+      "text": "A frozen MAMOSWINE was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It flourished worldwide during the ice age but its population declined when the masses of ice began to dwindle.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A frozen one was dug up from soil dating back 10,000 years. It woke up to much amazement.",
+      "version": "black"
+    },
+    {
+      "text": "A frozen one was dug up from soil dating back 10,000 years. It woke up to much amazement.",
+      "version": "white"
+    },
+    {
+      "text": "When the temperature rose at the end of the ice age, most Mamoswine disappeared.",
+      "version": "black-2"
+    },
+    {
+      "text": "When the temperature rose at the end of the ice age, most Mamoswine disappeared.",
+      "version": "white-2"
+    },
+    {
+      "text": "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+      "version": "x"
+    },
+    {
+      "text": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+      "version": "y"
+    },
+    {
+      "text": "A frozen Mamoswine was dug from ice dating back 10,000 years. This Pokémon has been around a long, long, long time.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its impressive tusks are made of ice. The population thinned when it turned warm after the ice age.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon can be spotted in wall paintings from as far back as 10,000 years ago. For a while, it was thought to have gone extinct.",
+      "version": "sword"
+    },
+    {
+      "text": "It looks strong, and that’s exactly what it is. As the weather grows colder, its ice tusks grow longer, thicker, and more impressive.",
+      "version": "shield"
+    },
+    {
+      "text": "This species reached its zenith during the period known as the ice age. I suspect that Hisui's frigid climate is in harmony with Mamoswine's constitution, thus awakening hidden potential.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "swinub",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 33
+      },
+      "from": "swinub",
+      "to": "piloswine",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "known_move": "ancient-power"
+      },
+      "from": "piloswine",
+      "to": "mamoswine",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mamoswine.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 45,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 500,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 15,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 500,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 15,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 25,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mamoswine",
+      "kind": "default",
+      "name": "Mamoswine",
+      "number": 473,
+      "pokemon": "mamoswine",
+      "sourceId": 473,
+      "sprite": "/dex-images/sprites/mamoswine.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 130,
+        "defense": 80,
+        "hp": 110,
+        "special-attack": 70,
+        "special-defense": 60,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["ice", "ground"],
+      "weight": 2910
+    }
+  ],
+  "generation": 4,
+  "key": "mamoswine",
+  "name": "Mamoswine",
+  "names": {
+    "de": "Mamutel",
+    "en": "Mamoswine",
+    "es": "Mamoswine",
+    "es-419": "Mamoswine",
+    "fr": "Mammochon",
+    "it": "Mamoswine",
+    "ja": "マンムー",
+    "ja-hrkt": "マンムー",
+    "ja-roma": "Mammoo",
+    "ko": "맘모꾸리",
+    "zh-hans": "象牙猪",
+    "zh-hant": "象牙豬"
+  },
+  "number": 473
+}

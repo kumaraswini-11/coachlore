@@ -1,0 +1,292 @@
+{
+  "category": "Fresh Snow Pokémon",
+  "entries": [
+    {
+      "text": "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+      "version": "diamond"
+    },
+    {
+      "text": "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+      "version": "pearl"
+    },
+    {
+      "text": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+      "version": "platinum"
+    },
+    {
+      "text": "It causes small ice crystals to form by lowering the temperature of the surrounding atmosphere.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It causes small ice crystals to form by lowering the temperature of the surrounding atmosphere.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+      "version": "black"
+    },
+    {
+      "text": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+      "version": "white"
+    },
+    {
+      "text": "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+      "version": "white-2"
+    },
+    {
+      "text": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+      "version": "x"
+    },
+    {
+      "text": "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+      "version": "y"
+    },
+    {
+      "text": "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It can control its body temperature at will. This enables it to freeze the moisture in the atmosphere, creating flurries of diamond dust.",
+      "version": "sun"
+    },
+    {
+      "text": "It freezes its fur into icicles, spiky and sharp, and tackles its prey.",
+      "version": "moon"
+    },
+    {
+      "text": "It protects itself by freezing its fur into sharp needles. It can drop its body temperature below –75 degrees Fahrenheit.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It can instantaneously freeze any moisture that’s around it, creating ice pellets to shoot at its prey.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Any who become captivated by the beauty of the snowfall that Glaceon creates will be frozen before they know it.",
+      "version": "sword"
+    },
+    {
+      "text": "The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokémon at ski resorts.",
+      "version": "shield"
+    },
+    {
+      "text": "Glaceon is able to lower its body temperature very quickly. It freezes the atmosphere, creating diamond dust that glitters like gems while it flutters and dances around.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "eevee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "vaporeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "jolteon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "fire-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "flareon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "day"
+      },
+      "from": "eevee",
+      "to": "espeon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "night"
+      },
+      "from": "eevee",
+      "to": "umbreon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "leafeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "ice-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "glaceon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move_type": "fairy",
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "sylveon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "ice-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glaceon.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ]
+      },
+      "games": ["platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "glaceon",
+      "kind": "default",
+      "name": "Glaceon",
+      "number": 471,
+      "pokemon": "glaceon",
+      "sourceId": 471,
+      "sprite": "/dex-images/sprites/glaceon.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 60,
+        "defense": 110,
+        "hp": 65,
+        "special-attack": 130,
+        "special-defense": 95,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 259
+    }
+  ],
+  "generation": 4,
+  "key": "glaceon",
+  "name": "Glaceon",
+  "names": {
+    "de": "Glaziola",
+    "en": "Glaceon",
+    "es": "Glaceon",
+    "es-419": "Glaceon",
+    "fr": "Givrali",
+    "it": "Glaceon",
+    "ja": "グレイシア",
+    "ja-hrkt": "グレイシア",
+    "ja-roma": "Glacia",
+    "ko": "글레이시아",
+    "zh-hans": "冰伊布",
+    "zh-hant": "冰伊布"
+  },
+  "number": 471
+}

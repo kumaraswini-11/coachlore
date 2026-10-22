@@ -1,0 +1,334 @@
+{
+  "category": "Manipulate Pokémon",
+  "entries": [
+    {
+      "text": "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+      "version": "black"
+    },
+    {
+      "text": "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+      "version": "white"
+    },
+    {
+      "text": "According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.",
+      "version": "black-2"
+    },
+    {
+      "text": "According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.",
+      "version": "white-2"
+    },
+    {
+      "text": "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+      "version": "x"
+    },
+    {
+      "text": "According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.",
+      "version": "y"
+    },
+    {
+      "text": "Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "According to many old tales, it creates friends for itself by controlling sleeping children on starry nights.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It’s said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment.",
+      "version": "sword"
+    },
+    {
+      "text": "On nights when the stars shine, this Pokémon’s psychic power is at its strongest. It’s unknown just what link Gothorita has to the greater universe.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gothita",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "gothita",
+      "to": "gothorita",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "gothorita",
+      "to": "gothitelle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": false,
+          "key": "competitive"
+        },
+        {
+          "hidden": true,
+          "key": "shadow-tag"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gothorita.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "strange-house-1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 15,
+            "location": "strange-house-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-9-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-9-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 48
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 48
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gothorita",
+      "kind": "default",
+      "name": "Gothorita",
+      "number": 575,
+      "pokemon": "gothorita",
+      "sourceId": 575,
+      "sprite": "/dex-images/sprites/gothorita.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 45,
+        "defense": 70,
+        "hp": 60,
+        "special-attack": 75,
+        "special-defense": 85,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 180
+    }
+  ],
+  "generation": 5,
+  "key": "gothorita",
+  "name": "Gothorita",
+  "names": {
+    "de": "Hypnomorba",
+    "en": "Gothorita",
+    "es": "Gothorita",
+    "es-419": "Gothorita",
+    "fr": "Mesmérella",
+    "it": "Gothorita",
+    "ja": "ゴチミル",
+    "ja-hrkt": "ゴチミル",
+    "ja-roma": "Gothimiru",
+    "ko": "고디보미",
+    "zh-hans": "哥德小童",
+    "zh-hant": "哥德小童"
+  },
+  "number": 575
+}

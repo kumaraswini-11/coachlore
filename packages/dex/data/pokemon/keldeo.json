@@ -1,0 +1,166 @@
+{
+  "category": "Colt Pokémon",
+  "entries": [
+    {
+      "text": "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+      "version": "black"
+    },
+    {
+      "text": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+      "version": "white"
+    },
+    {
+      "text": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+      "version": "white-2"
+    },
+    {
+      "text": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+      "version": "x"
+    },
+    {
+      "text": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+      "version": "y"
+    },
+    {
+      "text": "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Cobalion, Terrakion, and Virizion taught this Pokémon how to fight. It dashes across the world, seeking more opportunities to further its training.",
+      "version": "sword"
+    },
+    {
+      "text": "They say that Keldeo must survive harsh battles and fully develop the horn on its forehead before this Pokémon’s true power will awaken.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "keldeo",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "justified"
+        }
+      ],
+      "artwork": "/dex-images/artwork/keldeo-ordinary.webp",
+      "encounters": {},
+      "formName": "Ordinary Form",
+      "games": ["black-white", "black-2-white-2", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 5,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "keldeo-ordinary",
+      "kind": "default",
+      "mythical": true,
+      "name": "Keldeo",
+      "number": 647,
+      "pokemon": "keldeo",
+      "sourceId": 647,
+      "sprite": "/dex-images/sprites/keldeo-ordinary.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 72,
+        "defense": 90,
+        "hp": 91,
+        "special-attack": 129,
+        "special-defense": 90,
+        "speed": 108
+      },
+      "tags": ["Mythical"],
+      "types": ["water", "fighting"],
+      "weight": 485
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "justified"
+        }
+      ],
+      "artwork": "/dex-images/artwork/keldeo-resolute.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "static",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "static",
+            "minLevel": 65
+          }
+        ]
+      },
+      "formName": "Resolute Form",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "keldeo-resolute",
+      "kind": "other",
+      "mythical": true,
+      "name": "Keldeo-Resolute",
+      "number": 647,
+      "pokemon": "keldeo",
+      "sourceId": 10024,
+      "sprite": "/dex-images/sprites/keldeo-resolute.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 72,
+        "defense": 90,
+        "hp": 91,
+        "special-attack": 129,
+        "special-defense": 90,
+        "speed": 108
+      },
+      "tags": ["Mythical"],
+      "types": ["water", "fighting"],
+      "weight": 485
+    }
+  ],
+  "generation": 5,
+  "key": "keldeo",
+  "name": "Keldeo",
+  "names": {
+    "de": "Keldeo",
+    "en": "Keldeo",
+    "es": "Keldeo",
+    "es-419": "Keldeo",
+    "fr": "Keldeo",
+    "it": "Keldeo",
+    "ja": "ケルディオ",
+    "ja-hrkt": "ケルディオ",
+    "ja-roma": "Keldeo",
+    "ko": "케르디오",
+    "zh-hans": "凯路迪欧",
+    "zh-hant": "凱路迪歐"
+  },
+  "number": 647
+}

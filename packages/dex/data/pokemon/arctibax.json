@@ -1,0 +1,96 @@
+{
+  "category": "Ice Fin Pokémon",
+  "entries": [
+    {
+      "text": "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "frigibax",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "frigibax",
+      "to": "arctibax",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 54
+      },
+      "from": "arctibax",
+      "to": "baxcalibur",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thermal-exchange"
+        },
+        {
+          "hidden": true,
+          "key": "ice-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/arctibax.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "arctibax",
+      "kind": "default",
+      "name": "Arctibax",
+      "number": 997,
+      "pokemon": "arctibax",
+      "sourceId": 997,
+      "sprite": "/dex-images/sprites/arctibax.webp",
+      "statTotal": 423,
+      "stats": {
+        "attack": 95,
+        "defense": 66,
+        "hp": 90,
+        "special-attack": 45,
+        "special-defense": 65,
+        "speed": 62
+      },
+      "tags": [],
+      "types": ["dragon", "ice"],
+      "weight": 300
+    }
+  ],
+  "generation": 9,
+  "key": "arctibax",
+  "name": "Arctibax",
+  "names": {
+    "de": "Cryospino",
+    "en": "Arctibax",
+    "es": "Arctibax",
+    "es-419": "Arctibax",
+    "fr": "Cryodo",
+    "it": "Arctibax",
+    "ja": "セゴール",
+    "ja-hrkt": "セゴール",
+    "ja-roma": "Segohru",
+    "ko": "드니꽁",
+    "zh-hans": "冻脊龙",
+    "zh-hant": "凍脊龍"
+  },
+  "number": 997
+}

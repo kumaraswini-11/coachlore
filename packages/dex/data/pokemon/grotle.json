@@ -1,0 +1,163 @@
+{
+  "category": "Grove Pokémon",
+  "entries": [
+    {
+      "text": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+      "version": "diamond"
+    },
+    {
+      "text": "The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.",
+      "version": "pearl"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "platinum"
+    },
+    {
+      "text": "A GROTLE that lives in the forest is said to have its own secret springwater.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A GROTLE that lives in the forest is said to have its own secret springwater.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "black"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "white"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "black-2"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+      "version": "x"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "y"
+    },
+    {
+      "text": "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It knows where pure water wells up. It carries fellow Pokémon there on its back.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Appears where there is clean spring water. The fruit that grows on the shrubs on its shell is sweet, nutritious, and truly delicious.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "turtwig",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "turtwig",
+      "to": "grotle",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "grotle",
+      "to": "torterra",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grotle.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "island-scan",
+            "minLevel": 36
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ulaula-meadow-area",
+            "maxLevel": 36,
+            "method": "island-scan",
+            "minLevel": 36
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "grotle",
+      "kind": "default",
+      "name": "Grotle",
+      "number": 388,
+      "pokemon": "grotle",
+      "sourceId": 388,
+      "sprite": "/dex-images/sprites/grotle.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 89,
+        "defense": 85,
+        "hp": 75,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 36
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 970
+    }
+  ],
+  "generation": 4,
+  "key": "grotle",
+  "name": "Grotle",
+  "names": {
+    "de": "Chelcarain",
+    "en": "Grotle",
+    "es": "Grotle",
+    "es-419": "Grotle",
+    "fr": "Boskara",
+    "it": "Grotle",
+    "ja": "ハヤシガメ",
+    "ja-hrkt": "ハヤシガメ",
+    "ja-roma": "Hayashigame",
+    "ko": "수풀부기",
+    "zh-hans": "树林龟",
+    "zh-hant": "樹林龜"
+  },
+  "number": 388
+}

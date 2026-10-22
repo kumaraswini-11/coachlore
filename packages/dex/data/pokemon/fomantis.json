@@ -1,0 +1,468 @@
+{
+  "category": "Sickle Grass Pokémon",
+  "entries": [
+    {
+      "text": "During the day, it sleeps and soaks up light. When night falls, it walks around looking for a safer place to sleep.",
+      "version": "sun"
+    },
+    {
+      "text": "They give off a sweet and refreshing scent. Cutiefly often gather near the tall grass where Fomantis are hiding.",
+      "version": "moon"
+    },
+    {
+      "text": "When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "When bathed in sunlight, this Pokémon emits a pleasantly sweet scent, which causes bug Pokémon to gather around it.",
+      "version": "sword"
+    },
+    {
+      "text": "During the day, Fomantis basks in sunlight and sleeps peacefully. It wakes and moves around at night.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fomantis",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 34,
+        "time_of_day": "day"
+      },
+      "from": "fomantis",
+      "to": "lurantis",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "leaf-guard"
+        },
+        {
+          "hidden": true,
+          "key": "contrary"
+        }
+      ],
+      "artwork": "/dex-images/artwork/fomantis.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 120,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 18
+          },
+          {
+            "chance": 120,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 30,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 120,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 18
+          },
+          {
+            "chance": 120,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 130,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 55,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 130,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 55,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 130,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 55,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 130,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 55,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 130,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "fomantis",
+      "kind": "default",
+      "name": "Fomantis",
+      "number": 753,
+      "pokemon": "fomantis",
+      "sourceId": 753,
+      "sprite": "/dex-images/sprites/fomantis.webp",
+      "statTotal": 250,
+      "stats": {
+        "attack": 55,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 50,
+        "special-defense": 35,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 15
+    }
+  ],
+  "generation": 7,
+  "key": "fomantis",
+  "name": "Fomantis",
+  "names": {
+    "de": "Imantis",
+    "en": "Fomantis",
+    "es": "Fomantis",
+    "es-419": "Fomantis",
+    "fr": "Mimantis",
+    "it": "Fomantis",
+    "ja": "カリキリ",
+    "ja-hrkt": "カリキリ",
+    "ja-roma": "Karikiri",
+    "ko": "짜랑랑",
+    "zh-hans": "伪螳草",
+    "zh-hant": "偽螳草"
+  },
+  "number": 753
+}

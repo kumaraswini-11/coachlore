@@ -1,0 +1,588 @@
+{
+  "category": "Cottonweed Pokémon",
+  "entries": [
+    {
+      "text": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+      "version": "gold"
+    },
+    {
+      "text": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
+      "version": "silver"
+    },
+    {
+      "text": "It can be carried away on even the gentlest breeze. It may even float all the way to the next town.",
+      "version": "crystal"
+    },
+    {
+      "text": "This POKéMON drifts and floats with the wind. If it senses the approach of strong winds, HOPPIP links its leaves with other HOPPIP to prepare against being blown away.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON drifts and floats with the wind. If it senses the approach of strong winds, HOPPIP links its leaves with other HOPPIP to prepare against being blown away.",
+      "version": "sapphire"
+    },
+    {
+      "text": "This POKéMON drifts and floats with the wind. If it senses the approach of strong winds, a HOPPIP links leaves with others to prepare against being blown away.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
+      "version": "firered"
+    },
+    {
+      "text": "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It drifts on winds. It is said that when HOPPIP gather in fields and mountains, spring is on the way.",
+      "version": "diamond"
+    },
+    {
+      "text": "It drifts on winds. It is said that when HOPPIP gather in fields and mountains, spring is on the way.",
+      "version": "pearl"
+    },
+    {
+      "text": "It drifts on winds. It is said that when HOPPIP gather in fields and mountains, spring is on the way.",
+      "version": "platinum"
+    },
+    {
+      "text": "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+      "version": "black"
+    },
+    {
+      "text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+      "version": "white"
+    },
+    {
+      "text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+      "version": "black-2"
+    },
+    {
+      "text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
+      "version": "x"
+    },
+    {
+      "text": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+      "version": "y"
+    },
+    {
+      "text": "This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, Hoppip links its leaves with other Hoppip to prepare against being blown away.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, Hoppip links its leaves with other Hoppip to prepare against being blown away.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "hoppip",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "hoppip",
+      "to": "skiploom",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 27
+      },
+      "from": "skiploom",
+      "to": "jumpluff",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "leaf-guard"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/hoppip.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "johto-route-29-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-32-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-33-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "kanto-route-11-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 38,
+            "location": "kanto-route-13-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 38,
+            "location": "kanto-route-15-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "firered": [
+          {
+            "chance": 30,
+            "location": "five-island-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 130,
+            "location": "memorial-pillar-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 130,
+            "location": "memorial-pillar-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "resort-gorgeous-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "water-labyrinth-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-33-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 34,
+            "location": "kanto-route-13-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 34,
+            "location": "kanto-route-15-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-33-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 11,
+            "location": "johto-route-48-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 70,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 38,
+            "location": "kanto-route-13-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 38,
+            "location": "kanto-route-15-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 30,
+            "location": "five-island-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 45,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 130,
+            "location": "memorial-pillar-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 130,
+            "location": "memorial-pillar-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "resort-gorgeous-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "water-labyrinth-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "silver": [
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-33-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 34,
+            "location": "kanto-route-13-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 34,
+            "location": "kanto-route-15-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 70,
+            "location": "johto-route-33-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 11,
+            "location": "johto-route-48-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 70,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 38,
+            "location": "kanto-route-13-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 38,
+            "location": "kanto-route-15-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "kalos-route-7-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          }
+        ],
+        "xd": [
+          {
+            "chance": 50,
+            "location": "pokespot-oasis",
+            "maxLevel": 20,
+            "method": "pokespot",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "kalos-route-7-area",
+            "maxLevel": 7,
+            "method": "horde",
+            "minLevel": 7
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "hoppip",
+      "kind": "default",
+      "name": "Hoppip",
+      "number": 187,
+      "pokemon": "hoppip",
+      "sourceId": 187,
+      "sprite": "/dex-images/sprites/hoppip.webp",
+      "statTotal": 250,
+      "stats": {
+        "attack": 35,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 35,
+        "special-defense": 55,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["grass", "flying"],
+      "weight": 5
+    }
+  ],
+  "generation": 2,
+  "key": "hoppip",
+  "name": "Hoppip",
+  "names": {
+    "de": "Hoppspross",
+    "en": "Hoppip",
+    "es": "Hoppip",
+    "es-419": "Hoppip",
+    "fr": "Granivol",
+    "it": "Hoppip",
+    "ja": "ハネッコ",
+    "ja-hrkt": "ハネッコ",
+    "ja-roma": "Hanecco",
+    "ko": "통통코",
+    "zh-hans": "毽子草",
+    "zh-hant": "毽子草"
+  },
+  "number": 187
+}

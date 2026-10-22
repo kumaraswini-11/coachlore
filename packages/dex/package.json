@@ -1,0 +1,40 @@
+{
+  "name": "@workspace/dex",
+  "description": "Coachlore's Pokémon dataset and the code that reads it: forms, types, moves, abilities and games, framework-agnostic.",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "lint": "eslint --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "fetch": "bun scripts/fetch.ts",
+    "import": "bun scripts/import.ts",
+    "make-fixture": "bun scripts/make-fixture.ts",
+    "update-pins": "bun scripts/update-pins.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./files": "./src/files.ts",
+    "./type-chart": "./src/type-chart.ts",
+    "./filter": "./src/filter.ts",
+    "./types": "./src/types.ts",
+    "./paths": "./src/paths.ts",
+    "./text": "./src/text.ts",
+    "./forms.json": "./data/forms.json"
+  },
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@pkmn/data": "0.10.11",
+    "@pkmn/dex": "0.10.11",
+    "@types/node": "catalog:",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "eslint": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

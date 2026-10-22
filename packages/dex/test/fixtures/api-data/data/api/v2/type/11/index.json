@@ -1,0 +1,63 @@
+{
+  "damage_relations": {
+    "double_damage_from": [
+      {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+      },
+      {
+        "name": "electric",
+        "url": "/api/v2/type/13/"
+      }
+    ],
+    "double_damage_to": [
+      {
+        "name": "ground",
+        "url": "/api/v2/type/5/"
+      },
+      {
+        "name": "rock",
+        "url": "/api/v2/type/6/"
+      },
+      {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+      }
+    ],
+    "half_damage_from": [
+      {
+        "name": "steel",
+        "url": "/api/v2/type/9/"
+      },
+      {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+      },
+      {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+      },
+      {
+        "name": "ice",
+        "url": "/api/v2/type/15/"
+      }
+    ],
+    "half_damage_to": [
+      {
+        "name": "water",
+        "url": "/api/v2/type/11/"
+      },
+      {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+      },
+      {
+        "name": "dragon",
+        "url": "/api/v2/type/16/"
+      }
+    ],
+    "no_damage_from": [],
+    "no_damage_to": []
+  },
+  "name": "water"
+}

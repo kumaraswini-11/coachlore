@@ -1,0 +1,292 @@
+{
+  "category": "Mach Pokémon",
+  "entries": [
+    {
+      "text": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+      "version": "diamond"
+    },
+    {
+      "text": "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its body is covered in fine scales that reduce drag, enabling it to fly at high speeds.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its body is covered in fine scales that reduce drag, enabling it to fly at high speeds.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+      "version": "black"
+    },
+    {
+      "text": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+      "version": "white"
+    },
+    {
+      "text": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+      "version": "white-2"
+    },
+    {
+      "text": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+      "version": "x"
+    },
+    {
+      "text": "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+      "version": "y"
+    },
+    {
+      "text": "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It can fly at speeds rivaling jet planes. It dives into flocks of bird Pokémon and gulps the entire flock down whole.",
+      "version": "sun"
+    },
+    {
+      "text": "The protuberances on its head serve as sensors. It can even detect distant prey.",
+      "version": "moon"
+    },
+    {
+      "text": "It flies at the speed of sound while searching for prey, and it has midair battles with Salamence as the two compete for food.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its fine scales don’t just reduce wind resistance—their sharp edges also cause injury to any opponent who attacks it.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Garchomp makes its home in volcanic mountains. It flies through the sky as fast as a jet airplane, hunting down as much prey as it can.",
+      "version": "sword"
+    },
+    {
+      "text": "Garchomp is fast both underground and above. It can bring down prey and return to its den before its body has chilled from being outside.",
+      "version": "shield"
+    },
+    {
+      "text": "Soars across the heavens at blinding speed—a magnificent sight! It has a feral disposition. Utmost caution is required if one meets a Garchomp out in the wilds.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gible",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "gible",
+      "to": "gabite",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "gabite",
+      "to": "garchomp",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "rough-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/garchomp.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 85,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 85,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "garchomp",
+      "kind": "default",
+      "name": "Garchomp",
+      "number": 445,
+      "pokemon": "garchomp",
+      "sourceId": 445,
+      "sprite": "/dex-images/sprites/garchomp.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 130,
+        "defense": 95,
+        "hp": 108,
+        "special-attack": 80,
+        "special-defense": 85,
+        "speed": 102
+      },
+      "tags": [],
+      "types": ["dragon", "ground"],
+      "weight": 950
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/garchomp-mega.webp",
+      "encounters": {},
+      "formName": "Mega Garchomp",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 19,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "garchomp-mega",
+      "kind": "mega",
+      "name": "Garchomp-Mega",
+      "number": 445,
+      "pokemon": "garchomp",
+      "sourceId": 10058,
+      "sprite": "/dex-images/sprites/garchomp-mega.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 170,
+        "defense": 115,
+        "hp": 108,
+        "special-attack": 120,
+        "special-defense": 95,
+        "speed": 92
+      },
+      "tags": [],
+      "types": ["dragon", "ground"],
+      "weight": 950
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/garchomp-mega-z.webp",
+      "encounters": {},
+      "formName": "Mega Garchomp Z",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 19,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "garchomp-mega-z",
+      "kind": "mega",
+      "name": "Garchomp-Mega-Z",
+      "number": 445,
+      "pokemon": "garchomp",
+      "sourceId": 10309,
+      "sprite": "/dex-images/sprites/garchomp-mega-z.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 130,
+        "defense": 85,
+        "hp": 108,
+        "special-attack": 141,
+        "special-defense": 85,
+        "speed": 151
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 990
+    }
+  ],
+  "generation": 4,
+  "key": "garchomp",
+  "name": "Garchomp",
+  "names": {
+    "de": "Knakrack",
+    "en": "Garchomp",
+    "es": "Garchomp",
+    "es-419": "Garchomp",
+    "fr": "Carchacrok",
+    "it": "Garchomp",
+    "ja": "ガブリアス",
+    "ja-hrkt": "ガブリアス",
+    "ja-roma": "Gaburias",
+    "ko": "한카리아스",
+    "zh-hans": "烈咬陆鲨",
+    "zh-hant": "烈咬陸鯊"
+  },
+  "number": 445
+}

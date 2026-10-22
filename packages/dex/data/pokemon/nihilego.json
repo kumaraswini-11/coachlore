@@ -1,0 +1,153 @@
+{
+  "category": "Parasite Pokémon",
+  "entries": [
+    {
+      "text": "One of several mysterious Ultra Beasts. People on the street report observing those infested by it suddenly becoming violent.",
+      "version": "sun"
+    },
+    {
+      "text": "One of the Ultra Beasts. It’s unclear whether or not this Pokémon is sentient, but sometimes it can be observed behaving like a young girl.",
+      "version": "moon"
+    },
+    {
+      "text": "A life-form from another world, it was dubbed a UB and is thought to produce a strong neurotoxin.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It appeared in this world from an Ultra Wormhole. Nihilego appears to be a parasite that lives by feeding on people and Pokémon.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nihilego",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/nihilego.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "digletts-tunnel-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "digletts-tunnel-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-deep-sea",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-deep-sea",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "nihilego",
+      "kind": "default",
+      "name": "Nihilego",
+      "number": 793,
+      "pokemon": "nihilego",
+      "sourceId": 793,
+      "sprite": "/dex-images/sprites/nihilego.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 53,
+        "defense": 47,
+        "hp": 109,
+        "special-attack": 127,
+        "special-defense": 131,
+        "speed": 103
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["rock", "poison"],
+      "weight": 555
+    }
+  ],
+  "generation": 7,
+  "key": "nihilego",
+  "name": "Nihilego",
+  "names": {
+    "de": "Anego",
+    "en": "Nihilego",
+    "es": "Nihilego",
+    "es-419": "Nihilego",
+    "fr": "Zéroïd",
+    "it": "Nihilego",
+    "ja": "ウツロイド",
+    "ja-hrkt": "ウツロイド",
+    "ja-roma": "Uturoid",
+    "ko": "텅비드",
+    "zh-hans": "虚吾伊德",
+    "zh-hant": "虛吾伊德"
+  },
+  "number": 793
+}

@@ -1,0 +1,96 @@
+{
+  "category": "Olive Pokémon",
+  "entries": [
+    {
+      "text": "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+      "version": "scarlet"
+    },
+    {
+      "text": "This Pokémon drives back enemies by launching its rich, aromatic oil at them with enough force to smash a boulder.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "smoliv",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "smoliv",
+      "to": "dolliv",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "dolliv",
+      "to": "arboliva",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "seed-sower"
+        },
+        {
+          "hidden": true,
+          "key": "harvest"
+        }
+      ],
+      "artwork": "/dex-images/artwork/arboliva.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "arboliva",
+      "kind": "default",
+      "name": "Arboliva",
+      "number": 930,
+      "pokemon": "arboliva",
+      "sourceId": 930,
+      "sprite": "/dex-images/sprites/arboliva.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 69,
+        "defense": 90,
+        "hp": 78,
+        "special-attack": 125,
+        "special-defense": 109,
+        "speed": 39
+      },
+      "tags": [],
+      "types": ["grass", "normal"],
+      "weight": 482
+    }
+  ],
+  "generation": 9,
+  "key": "arboliva",
+  "name": "Arboliva",
+  "names": {
+    "de": "Olithena",
+    "en": "Arboliva",
+    "es": "Arboliva",
+    "es-419": "Arboliva",
+    "fr": "Arboliva",
+    "it": "Arboliva",
+    "ja": "オリーヴァ",
+    "ja-hrkt": "オリーヴァ",
+    "ja-roma": "Oliva",
+    "ko": "올리르바",
+    "zh-hans": "奥利瓦",
+    "zh-hant": "奧利瓦"
+  },
+  "number": 930
+}

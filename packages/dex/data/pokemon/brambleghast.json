@@ -1,0 +1,88 @@
+{
+  "category": "Tumbleweed Pokémon",
+  "entries": [
+    {
+      "text": "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bramblin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_steps": 1000
+      },
+      "from": "bramblin",
+      "to": "brambleghast",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "wind-rider"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/brambleghast.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "brambleghast",
+      "kind": "default",
+      "name": "Brambleghast",
+      "number": 947,
+      "pokemon": "brambleghast",
+      "sourceId": 947,
+      "sprite": "/dex-images/sprites/brambleghast.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 115,
+        "defense": 70,
+        "hp": 55,
+        "special-attack": 80,
+        "special-defense": 70,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["grass", "ghost"],
+      "weight": 60
+    }
+  ],
+  "generation": 9,
+  "key": "brambleghast",
+  "name": "Brambleghast",
+  "names": {
+    "de": "Horrerba",
+    "en": "Brambleghast",
+    "es": "Brambleghast",
+    "es-419": "Brambleghast",
+    "fr": "Virevorreur",
+    "it": "Brambleghast",
+    "ja": "アノホラグサ",
+    "ja-hrkt": "アノホラグサ",
+    "ja-roma": "Anohoragusa",
+    "ko": "공푸리",
+    "zh-hans": "怖纳噬草",
+    "zh-hant": "怖納噬草"
+  },
+  "number": 947
+}

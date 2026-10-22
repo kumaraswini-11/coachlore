@@ -1,0 +1,616 @@
+{
+  "category": "Fairy Pokémon",
+  "entries": [
+    {
+      "text": "A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people.",
+      "version": "red"
+    },
+    {
+      "text": "A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people.",
+      "version": "blue"
+    },
+    {
+      "text": "They appear to be very protective of their own world. It is a kind of fairy, rarely seen by people.",
+      "version": "yellow"
+    },
+    {
+      "text": "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+      "version": "gold"
+    },
+    {
+      "text": "Its very sensitive ears lets it distinguish distant sounds. As a result, it prefers quiet places.",
+      "version": "silver"
+    },
+    {
+      "text": "Said to live in quiet, remote mountains, this type of fairy has a strong aversion to being seen.",
+      "version": "crystal"
+    },
+    {
+      "text": "CLEFABLE moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+      "version": "ruby"
+    },
+    {
+      "text": "CLEFABLE moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A CLEFABLE uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
+      "version": "firered"
+    },
+    {
+      "text": "A timid fairy POKéMON that is rarely seen, it will run and hide the moment it senses people.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Rarely seen by people, it is said to be drawn by the full moon to play at deserted lakes.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is very wary and rarely shows itself to people. Its ears can hear a pin drop over half a mile away.",
+      "version": "platinum"
+    },
+    {
+      "text": "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its very sensitive ears let it distinguish distant sounds. As a result, it prefers quiet places.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is very wary and rarely shows itself to people. Its ears can hear a pin drop over half a mile away.",
+      "version": "black"
+    },
+    {
+      "text": "It is very wary and rarely shows itself to people. Its ears can hear a pin drop over half a mile away.",
+      "version": "white"
+    },
+    {
+      "text": "Their ears are sensitive enough to hear a pin drop from over a mile away, so they’re usually found in quiet places.",
+      "version": "black-2"
+    },
+    {
+      "text": "Their ears are sensitive enough to hear a pin drop from over a mile away, so they’re usually found in quiet places.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+      "version": "x"
+    },
+    {
+      "text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+      "version": "y"
+    },
+    {
+      "text": "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They don’t like to reveal themselves in front of people. They live quietly in packs deep in the mountains.",
+      "version": "sun"
+    },
+    {
+      "text": "According to tradition, people who see a pair of Clefable skipping by can look forward to a happy marriage.",
+      "version": "moon"
+    },
+    {
+      "text": "It can’t help but hear a pin drop from over half a mile away, so it lives deep in the mountains where there aren’t many people or Pokémon.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Some scientists believe that it gazes intently at the sky on nights with a full moon because it’s homesick.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "They appear to be very protective of their own world. It is a kind of fairy, rarely seen by people.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "They appear to be very protective of their own world. It is a kind of fairy, rarely seen by people.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+      "version": "sword"
+    },
+    {
+      "text": "Their ears are sensitive enough to hear a pin drop from over a mile away, so they’re usually found in quiet places.",
+      "version": "shield"
+    },
+    {
+      "text": "Legend says that on clear, quiet nights, it listens for the voices of its kin living on the moon. I, too, often think of my homeland, so far away.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cleffa",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "cleffa",
+      "to": "clefairy",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "moon-stone"
+      },
+      "from": "clefairy",
+      "to": "clefable",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cute-charm"
+        },
+        {
+          "hidden": false,
+          "key": "magic-guard"
+        },
+        {
+          "hidden": true,
+          "key": "unaware"
+        }
+      ],
+      "artwork": "/dex-images/artwork/clefable.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-outside",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          }
+        ],
+        "blue-japan": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 24,
+            "method": "gift",
+            "minLevel": 24
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "mt-moon-b2f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "mt-moon-b2f",
+            "maxLevel": 10,
+            "method": "overworld",
+            "minLevel": 5
+          }
+        ],
+        "shield": [
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-outside",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "clefable",
+      "kind": "default",
+      "name": "Clefable",
+      "number": 36,
+      "pokemon": "clefable",
+      "sourceId": 36,
+      "sprite": "/dex-images/sprites/clefable.webp",
+      "statTotal": 483,
+      "stats": {
+        "attack": 70,
+        "defense": 73,
+        "hp": 95,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "magic-bounce"
+        }
+      ],
+      "artwork": "/dex-images/artwork/clefable-mega.webp",
+      "encounters": {},
+      "formName": "Mega Clefable",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 17,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "clefable-mega",
+      "kind": "mega",
+      "name": "Clefable-Mega",
+      "number": 36,
+      "pokemon": "clefable",
+      "sourceId": 10278,
+      "sprite": "/dex-images/sprites/clefable-mega.webp",
+      "statTotal": 583,
+      "stats": {
+        "attack": 80,
+        "defense": 93,
+        "hp": 95,
+        "special-attack": 135,
+        "special-defense": 110,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["fairy", "flying"],
+      "weight": 423
+    }
+  ],
+  "generation": 1,
+  "key": "clefable",
+  "name": "Clefable",
+  "names": {
+    "de": "Pixi",
+    "en": "Clefable",
+    "es": "Clefable",
+    "es-419": "Clefable",
+    "fr": "Mélodelfe",
+    "it": "Clefable",
+    "ja": "ピクシー",
+    "ja-hrkt": "ピクシー",
+    "ja-roma": "Pixy",
+    "ko": "픽시",
+    "zh-hans": "皮可西",
+    "zh-hant": "皮可西"
+  },
+  "number": 36
+}

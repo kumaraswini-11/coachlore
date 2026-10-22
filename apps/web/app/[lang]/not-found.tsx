@@ -3,10 +3,10 @@ import { getLocale, getTranslations } from "next-intl/server"
 
 import { EmptyState } from "@workspace/ui/components/empty-state"
 import { buttonVariants } from "@workspace/ui/components/shadcn-ui/button"
-import { cn } from "@workspace/ui/lib/utils"
 
+import { Page } from "@/components/page"
 import { localeHref } from "@/i18n/paths"
-import { SITE } from "@/lib/site"
+import { pageTitle } from "@/lib/site"
 
 // For a page that calls `notFound()`. Unknown addresses don't come here:
 // they match no page and get global-not-found.tsx, which Next.js serves as
@@ -20,27 +20,28 @@ import { SITE } from "@/lib/site"
 export default async function NotFound() {
   const locale = await getLocale()
   const t = await getTranslations("notFound")
-  const title = `${t("title")} · ${SITE.name}`
+  const title = pageTitle(t("title"))
 
   return (
     <>
       <title>{title}</title>
       <meta name="description" content={t("metaDescription")} />
-      <EmptyState
-        titleAs="h1"
-        title={t("title")}
-        description={t("description")}
-        className="px-4 py-6 md:px-6"
-      >
-        {/* A link styled as a button keeps its link role, as shadcn's
-            Base UI Button docs advise. */}
-        <Link
-          href={localeHref(locale, "/")}
-          className={cn(buttonVariants(), "h-11 px-4")}
+      <Page>
+        <EmptyState
+          titleAs="h1"
+          title={t("title")}
+          description={t("description")}
         >
-          {t("home")}
-        </Link>
-      </EmptyState>
+          {/* A link styled as a button keeps its link role, as shadcn's
+              Base UI Button docs advise. */}
+          <Link
+            href={localeHref(locale, "/")}
+            className={buttonVariants({ size: "touch" })}
+          >
+            {t("home")}
+          </Link>
+        </EmptyState>
+      </Page>
     </>
   )
 }

@@ -1,0 +1,191 @@
+{
+  "category": "Bolt Strike Pokémon",
+  "entries": [
+    {
+      "text": "Countless charred remains mar the landscape of places through which Thundurus has passed.",
+      "version": "black"
+    },
+    {
+      "text": "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+      "version": "white"
+    },
+    {
+      "text": "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+      "version": "black-2"
+    },
+    {
+      "text": "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+      "version": "white-2"
+    },
+    {
+      "text": "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+      "version": "x"
+    },
+    {
+      "text": "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+      "version": "y"
+    },
+    {
+      "text": "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They say this wielder of electricity has waged war with its nemesis, Tornadus, since time immemorial. The lightning bolts it hurls pierce the very earth and enrich the soil.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "thundurus",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prankster"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/thundurus-incarnate.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "team-flare-secret-hq-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          }
+        ]
+      },
+      "formName": "Incarnate Forme",
+      "games": ["black-white", "black-2-white-2", "legends-arceus"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "thundurus-incarnate",
+      "kind": "default",
+      "legendary": true,
+      "name": "Thundurus",
+      "number": 642,
+      "pokemon": "thundurus",
+      "sourceId": 642,
+      "sprite": "/dex-images/sprites/thundurus-incarnate.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 115,
+        "defense": 70,
+        "hp": 79,
+        "special-attack": 125,
+        "special-defense": 80,
+        "speed": 111
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["electric", "flying"],
+      "weight": 610
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "volt-absorb"
+        }
+      ],
+      "artwork": "/dex-images/artwork/thundurus-therian.webp",
+      "encounters": {},
+      "formName": "Therian Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "thundurus-therian",
+      "kind": "other",
+      "legendary": true,
+      "name": "Thundurus-Therian",
+      "number": 642,
+      "pokemon": "thundurus",
+      "sourceId": 10020,
+      "sprite": "/dex-images/sprites/thundurus-therian.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 105,
+        "defense": 70,
+        "hp": 79,
+        "special-attack": 145,
+        "special-defense": 80,
+        "speed": 101
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["electric", "flying"],
+      "weight": 610
+    }
+  ],
+  "generation": 5,
+  "key": "thundurus",
+  "name": "Thundurus",
+  "names": {
+    "de": "Voltolos",
+    "en": "Thundurus",
+    "es": "Thundurus",
+    "es-419": "Thundurus",
+    "fr": "Fulguris",
+    "it": "Thundurus",
+    "ja": "ボルトロス",
+    "ja-hrkt": "ボルトロス",
+    "ja-roma": "Voltolos",
+    "ko": "볼트로스",
+    "zh-hans": "雷电云",
+    "zh-hant": "雷電雲"
+  },
+  "number": 642
+}

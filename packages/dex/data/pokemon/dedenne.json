@@ -1,0 +1,363 @@
+{
+  "category": "Antenna Pokémon",
+  "entries": [
+    {
+      "text": "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+      "version": "x"
+    },
+    {
+      "text": "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
+      "version": "y"
+    },
+    {
+      "text": "Its whiskers serve as antennas. By sending and receiving electrical waves, it can communicate with others over vast distances.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It sneaks into people’s homes and steals electricity from their outlets. When your electric bill seems off, it’s the handiwork of this rascal.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "A Dedenne’s whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another.",
+      "version": "sword"
+    },
+    {
+      "text": "Since Dedenne can’t generate much electricity on its own, it steals electricity from outlets or other electric Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dedenne",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cheek-pouch"
+        },
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": true,
+          "key": "plus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dedenne.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 55,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 215,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 215,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 215,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 215,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 215,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 215,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 215,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 215,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-fairy",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-11-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-fairy",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-11-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dedenne",
+      "kind": "default",
+      "name": "Dedenne",
+      "number": 702,
+      "pokemon": "dedenne",
+      "sourceId": 702,
+      "sprite": "/dex-images/sprites/dedenne.webp",
+      "statTotal": 431,
+      "stats": {
+        "attack": 58,
+        "defense": 57,
+        "hp": 67,
+        "special-attack": 81,
+        "special-defense": 67,
+        "speed": 101
+      },
+      "tags": [],
+      "types": ["electric", "fairy"],
+      "weight": 22
+    }
+  ],
+  "generation": 6,
+  "key": "dedenne",
+  "name": "Dedenne",
+  "names": {
+    "de": "Dedenne",
+    "en": "Dedenne",
+    "es": "Dedenne",
+    "es-419": "Dedenne",
+    "fr": "Dedenne",
+    "it": "Dedenne",
+    "ja": "デデンネ",
+    "ja-hrkt": "デデンネ",
+    "ja-roma": "Dedenne",
+    "ko": "데덴네",
+    "zh-hans": "咚咚鼠",
+    "zh-hant": "咚咚鼠"
+  },
+  "number": 702
+}

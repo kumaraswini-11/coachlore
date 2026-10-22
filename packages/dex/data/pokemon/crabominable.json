@@ -1,0 +1,136 @@
+{
+  "category": "Woolly Crab Pokémon",
+  "entries": [
+    {
+      "text": "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
+      "version": "sun"
+    },
+    {
+      "text": "It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.",
+      "version": "moon"
+    },
+    {
+      "text": "It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "crabrawler",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "ice-stone"
+      },
+      "from": "crabrawler",
+      "to": "crabominable",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hyper-cutter"
+        },
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        },
+        {
+          "hidden": true,
+          "key": "anger-point"
+        }
+      ],
+      "artwork": "/dex-images/artwork/crabominable.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "crabominable",
+      "kind": "default",
+      "name": "Crabominable",
+      "number": 740,
+      "pokemon": "crabominable",
+      "sourceId": 740,
+      "sprite": "/dex-images/sprites/crabominable.webp",
+      "statTotal": 478,
+      "stats": {
+        "attack": 132,
+        "defense": 77,
+        "hp": 97,
+        "special-attack": 62,
+        "special-defense": 67,
+        "speed": 43
+      },
+      "tags": [],
+      "types": ["fighting", "ice"],
+      "weight": 1800
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/crabominable-mega.webp",
+      "encounters": {},
+      "formName": "Mega Crabominable",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 26,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "crabominable-mega",
+      "kind": "mega",
+      "name": "Crabominable-Mega",
+      "number": 740,
+      "pokemon": "crabominable",
+      "sourceId": 10315,
+      "sprite": "/dex-images/sprites/crabominable-mega.webp",
+      "statTotal": 578,
+      "stats": {
+        "attack": 157,
+        "defense": 122,
+        "hp": 97,
+        "special-attack": 62,
+        "special-defense": 107,
+        "speed": 33
+      },
+      "tags": [],
+      "types": ["fighting", "ice"],
+      "weight": 2528
+    }
+  ],
+  "generation": 7,
+  "key": "crabominable",
+  "name": "Crabominable",
+  "names": {
+    "de": "Krawell",
+    "en": "Crabominable",
+    "es": "Crabominable",
+    "es-419": "Crabominable",
+    "fr": "Crabominable",
+    "it": "Crabominable",
+    "ja": "ケケンカニ",
+    "ja-hrkt": "ケケンカニ",
+    "ja-roma": "Kekenkani",
+    "ko": "모단단게",
+    "zh-hans": "好胜毛蟹",
+    "zh-hant": "好勝毛蟹"
+  },
+  "number": 740
+}

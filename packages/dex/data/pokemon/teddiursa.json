@@ -1,0 +1,360 @@
+{
+  "category": "Little Bear Pokémon",
+  "entries": [
+    {
+      "text": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+      "version": "gold"
+    },
+    {
+      "text": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+      "version": "silver"
+    },
+    {
+      "text": "It always licks honey. Its palm tastes sweet because of all the honey it has absorbed.",
+      "version": "crystal"
+    },
+    {
+      "text": "This POKéMON likes to lick its palms that are sweetened by being soaked in honey. TEDDIURSA concocts its own honey by blending fruits and pollen collected by BEEDRILL.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON likes to lick its palms that are sweetened by being soaked in honey. TEDDIURSA concocts its own honey by blending fruits and pollen collected by BEEDRILL.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It licks its palms that are sweetened by being soaked in honey. A TEDDIURSA makes its own honey by blending fruits and pollen collected by BEEDRILL.",
+      "version": "emerald"
+    },
+    {
+      "text": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+      "version": "firered"
+    },
+    {
+      "text": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "pearl"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "platinum"
+    },
+    {
+      "text": "If it finds honey, its crescent mark glows. It always licks its paws because they’re soaked with honey.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "black"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "white"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+      "version": "white-2"
+    },
+    {
+      "text": "If it finds honey, its crescent mark glows. It always licks its paws because they’re soaked with honey.",
+      "version": "x"
+    },
+    {
+      "text": "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+      "version": "y"
+    },
+    {
+      "text": "This Pokémon likes to lick its palms that are sweetened by being soaked in honey. Teddiursa concocts its own honey by blending fruits and pollen collected by Beedrill.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon likes to lick its palms that are sweetened by being soaked in honey. Teddiursa concocts its own honey by blending fruits and pollen collected by Beedrill.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It licks its paws because of the sweet honey that has soaked into them. It is cunning, stealing into the nests of Combee and taking for itself the honey that the Combee have amassed.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "teddiursa",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "teddiursa",
+      "to": "ursaring",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "peat-block",
+        "time_of_day": "full-moon"
+      },
+      "from": "ursaring",
+      "to": "ursaluna",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "quick-feet"
+        },
+        {
+          "hidden": true,
+          "key": "honey-gather"
+        }
+      ],
+      "artwork": "/dex-images/artwork/teddiursa.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "dark-cave-blackthorn-city-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-expansion-north",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "kanto-altering-cave-e",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "kanto-altering-cave-e",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 8,
+            "location": "lake-acuity-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-route-45-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-3f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-mountainside",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "pokemon-hq-lab-outside",
+            "maxLevel": 11,
+            "method": "snag",
+            "minLevel": 11
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "teddiursa",
+      "kind": "default",
+      "name": "Teddiursa",
+      "number": 216,
+      "pokemon": "teddiursa",
+      "sourceId": 216,
+      "sprite": "/dex-images/sprites/teddiursa.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 80,
+        "defense": 50,
+        "hp": 60,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 88
+    }
+  ],
+  "generation": 2,
+  "key": "teddiursa",
+  "name": "Teddiursa",
+  "names": {
+    "de": "Teddiursa",
+    "en": "Teddiursa",
+    "es": "Teddiursa",
+    "es-419": "Teddiursa",
+    "fr": "Teddiursa",
+    "it": "Teddiursa",
+    "ja": "ヒメグマ",
+    "ja-hrkt": "ヒメグマ",
+    "ja-roma": "Himeguma",
+    "ko": "깜지곰",
+    "zh-hans": "熊宝宝",
+    "zh-hant": "熊寶寶"
+  },
+  "number": 216
+}

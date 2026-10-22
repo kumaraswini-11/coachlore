@@ -1,0 +1,515 @@
+{
+  "category": "Pond Skater Pokémon",
+  "entries": [
+    {
+      "text": "From the tips of its feet, SURSKIT secretes an oil that enables it to walk on water as if it were skating. This POKéMON feeds on microscopic organisms in ponds and lakes.",
+      "version": "ruby"
+    },
+    {
+      "text": "If SURSKIT senses danger, it secretes a thick, sugary syrup from the tip of its head. There are some POKéMON that love eating this syrup.",
+      "version": "sapphire"
+    },
+    {
+      "text": "They gather on puddles after evening downpours, gliding across the surface of water as if sliding. It secretes honey with a sweet aroma from its head.",
+      "version": "emerald"
+    },
+    {
+      "text": "They usually live on ponds, but after an evening shower, they may appear on puddles in towns.",
+      "version": "firered"
+    },
+    {
+      "text": "They usually live on ponds, but after an evening shower, they may appear on puddles in towns.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "diamond"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "pearl"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "platinum"
+    },
+    {
+      "text": "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It secretes a thick, sweet-scented syrup from the tip of its head. It lives on weed-choked ponds.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "black"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "white"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "black-2"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "white-2"
+    },
+    {
+      "text": "They usually live on ponds, but after an evening shower, they may appear on puddles in towns.",
+      "version": "x"
+    },
+    {
+      "text": "It appears as if it is skating on water. It draws prey with a sweet scent from the tip of its head.",
+      "version": "y"
+    },
+    {
+      "text": "From the tips of its feet, Surskit secretes an oil that enables it to walk on water as if it were skating. This Pokémon feeds on microscopic organisms in ponds and lakes.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If Surskit senses danger, it secretes a thick, sugary syrup from the tip of its head. There are some Pokémon that love eating this syrup.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It moves as if skating on the surface of the water. It often fights with Dewpider over food.",
+      "version": "sun"
+    },
+    {
+      "text": "When this Pokémon senses danger, a sweet fluid oozes from the tip of its head. The taste of it disgusts bird Pokémon.",
+      "version": "moon"
+    },
+    {
+      "text": "If it’s in a pinch, it will secrete a sweet liquid from the tip of its head. Syrup made from gathering that liquid is tasty on bread.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It lives in ponds and marshes that feature lots of plant life. It often fights with Dewpider, whose habitat and diet are similar.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "surskit",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "surskit",
+      "to": "masquerain",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": true,
+          "key": "rain-dish"
+        }
+      ],
+      "artwork": "/dex-images/artwork/surskit.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "moon": [
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 2,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 95,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 2,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-114-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-114-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 2,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-114-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-114-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "sun": [
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 60,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 60,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-north",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "brooklet-hill-south",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "xd": [
+          {
+            "chance": 15,
+            "location": "pokespot-oasis",
+            "maxLevel": 20,
+            "method": "pokespot",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "surskit",
+      "kind": "default",
+      "name": "Surskit",
+      "number": 283,
+      "pokemon": "surskit",
+      "sourceId": 283,
+      "sprite": "/dex-images/sprites/surskit.webp",
+      "statTotal": 269,
+      "stats": {
+        "attack": 30,
+        "defense": 32,
+        "hp": 40,
+        "special-attack": 50,
+        "special-defense": 52,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["bug", "water"],
+      "weight": 17
+    }
+  ],
+  "generation": 3,
+  "key": "surskit",
+  "name": "Surskit",
+  "names": {
+    "de": "Gehweiher",
+    "en": "Surskit",
+    "es": "Surskit",
+    "es-419": "Surskit",
+    "fr": "Arakdo",
+    "it": "Surskit",
+    "ja": "アメタマ",
+    "ja-hrkt": "アメタマ",
+    "ja-roma": "Ametama",
+    "ko": "비구술",
+    "zh-hans": "溜溜糖球",
+    "zh-hant": "溜溜糖球"
+  },
+  "number": 283
+}

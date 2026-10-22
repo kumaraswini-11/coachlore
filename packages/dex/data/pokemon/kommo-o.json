@@ -1,0 +1,206 @@
+{
+  "category": "Scaly Pokémon",
+  "entries": [
+    {
+      "text": "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
+      "version": "sun"
+    },
+    {
+      "text": "Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.",
+      "version": "moon"
+    },
+    {
+      "text": "When it howls after finishing off its prey, the metallic sounds of its celebrating comrades can be heard from all around.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It battles valiantly with its fists, which are armored in steel scales. Kommo-o specializes in uppercuts.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It clatters its tail scales to unnerve opponents. This Pokémon will battle only those who stand steadfast in the face of this display.",
+      "version": "sword"
+    },
+    {
+      "text": "Certain ruins have paintings of ancient warriors wearing armor made of Kommo-o scales.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "jangmo-o",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "jangmo-o",
+      "to": "hakamo-o",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 45
+      },
+      "from": "hakamo-o",
+      "to": "kommo-o",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "bulletproof"
+        },
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kommo-o.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 15,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 41
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 41
+          }
+        ],
+        "sword": [
+          {
+            "chance": 85,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 600,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 50,
+            "method": "gift",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "sos",
+            "minLevel": 43
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "sos",
+            "minLevel": 43
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kommo-o",
+      "kind": "default",
+      "name": "Kommo-o",
+      "number": 784,
+      "pokemon": "kommo-o",
+      "sourceId": 784,
+      "sprite": "/dex-images/sprites/kommo-o.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 110,
+        "defense": 125,
+        "hp": 75,
+        "special-attack": 100,
+        "special-defense": 105,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["dragon", "fighting"],
+      "weight": 782
+    }
+  ],
+  "generation": 7,
+  "key": "kommo-o",
+  "name": "Kommo-o",
+  "names": {
+    "de": "Grandiras",
+    "en": "Kommo-o",
+    "es": "Kommo-o",
+    "es-419": "Kommo-o",
+    "fr": "Ékaïser",
+    "it": "Kommo-o",
+    "ja": "ジャラランガ",
+    "ja-hrkt": "ジャラランガ",
+    "ja-roma": "Jyararanga",
+    "ko": "짜랑고우거",
+    "zh-hans": "杖尾鳞甲龙",
+    "zh-hant": "杖尾鱗甲龍"
+  },
+  "number": 784
+}

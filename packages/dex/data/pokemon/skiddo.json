@@ -1,0 +1,129 @@
+{
+  "category": "Mount Pokémon",
+  "entries": [
+    {
+      "text": "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+      "version": "x"
+    },
+    {
+      "text": "If it has sunshine and water, it doesn’t need to eat, because it can generate energy from the leaves on its back.",
+      "version": "y"
+    },
+    {
+      "text": "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If it has sunshine and water, it doesn’t need to eat, because it can generate energy from the leaves on its back.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "skiddo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "skiddo",
+      "to": "gogoat",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sap-sipper"
+        },
+        {
+          "hidden": true,
+          "key": "grass-pelt"
+        }
+      ],
+      "artwork": "/dex-images/artwork/skiddo.webp",
+      "encounters": {
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "purple-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "purple-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "skiddo",
+      "kind": "default",
+      "name": "Skiddo",
+      "number": 672,
+      "pokemon": "skiddo",
+      "sourceId": 672,
+      "sprite": "/dex-images/sprites/skiddo.webp",
+      "statTotal": 350,
+      "stats": {
+        "attack": 65,
+        "defense": 48,
+        "hp": 66,
+        "special-attack": 62,
+        "special-defense": 57,
+        "speed": 52
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 310
+    }
+  ],
+  "generation": 6,
+  "key": "skiddo",
+  "name": "Skiddo",
+  "names": {
+    "de": "Mähikel",
+    "en": "Skiddo",
+    "es": "Skiddo",
+    "es-419": "Skiddo",
+    "fr": "Cabriolaine",
+    "it": "Skiddo",
+    "ja": "メェークル",
+    "ja-hrkt": "メェークル",
+    "ja-roma": "Meecle",
+    "ko": "메이클",
+    "zh-hans": "坐骑小羊",
+    "zh-hant": "坐騎小羊"
+  },
+  "number": 672
+}

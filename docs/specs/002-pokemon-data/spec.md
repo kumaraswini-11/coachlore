@@ -62,8 +62,8 @@ data; ADR 0006, "Pokémon data"; the glossary's Pokémon data terms.
     give a Pokémon to our form (Rotom-Wash → `rotom-wash`, Urshifu →
     `urshifu-single-strike`), covering every Pokémon and form legal in
     Generation 9.
-12. **Images:** for each form, a small sprite for lists and one artwork
-    for its page, from a source that allows reuse with credit, stored and
+12. **Images:** for each form, a small sprite (search) and one artwork
+    (the Dex's cards and the form's page), from a source that allows reuse with credit, stored and
     served by us, never loaded from the source's servers.
 13. **Provenance:** the dataset records which source, at which version,
     each part came from, and the date it was imported. Credits for every
@@ -177,3 +177,4 @@ None. The credits this spec records appear on `/about` and `/legal` (spec 001) a
 - 2026-10-21: written.
 - 2026-10-21: names and languages (ADR 0007): English names everywhere,
   other languages' names kept for the Pokémon page.
+- 2026-10-22: the artwork is in the form list too, for spec 003's cards.

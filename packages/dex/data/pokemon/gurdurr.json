@@ -1,0 +1,536 @@
+{
+  "category": "Muscular Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      "version": "black"
+    },
+    {
+      "text": "They strengthen their bodies by carrying steel beams. They show off their big muscles to their friends.",
+      "version": "white"
+    },
+    {
+      "text": "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+      "version": "black-2"
+    },
+    {
+      "text": "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+      "version": "white-2"
+    },
+    {
+      "text": "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+      "version": "x"
+    },
+    {
+      "text": "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      "version": "y"
+    },
+    {
+      "text": "With strengthened bodies, they skillfully wield steel beams to take down buildings.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It shows off its muscles to Machoke and other Gurdurr. If it fails to measure up to the other Pokémon, it lies low for a little while.",
+      "version": "sword"
+    },
+    {
+      "text": "Gurdurr excels at demolition—construction is not its forte. In any case, there’s skill in the way this Pokémon wields its metal beam.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "timburr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "timburr",
+      "to": "gurdurr",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "gurdurr",
+      "to": "conkeldurr",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gurdurr.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "relic-passage-pwt-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 50,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 52
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "shield": [
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-8-main",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-8-main",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 220,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 150,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 150,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 150,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 105,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 105,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "relic-passage-pwt-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 50,
+            "location": "twist-mountain-b1f-3f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 55,
+            "method": "dark-grass",
+            "minLevel": 52
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "red-flowers",
+            "minLevel": 46
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "red-flowers",
+            "minLevel": 46
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-18-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gurdurr",
+      "kind": "default",
+      "name": "Gurdurr",
+      "number": 533,
+      "pokemon": "gurdurr",
+      "sourceId": 533,
+      "sprite": "/dex-images/sprites/gurdurr.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 105,
+        "defense": 85,
+        "hp": 85,
+        "special-attack": 40,
+        "special-defense": 50,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 400
+    }
+  ],
+  "generation": 5,
+  "key": "gurdurr",
+  "name": "Gurdurr",
+  "names": {
+    "de": "Strepoli",
+    "en": "Gurdurr",
+    "es": "Gurdurr",
+    "es-419": "Gurdurr",
+    "fr": "Ouvrifier",
+    "it": "Gurdurr",
+    "ja": "ドテッコツ",
+    "ja-hrkt": "ドテッコツ",
+    "ja-roma": "Dotekkotsu",
+    "ko": "토쇠골",
+    "zh-hans": "铁骨土人",
+    "zh-hant": "鐵骨土人"
+  },
+  "number": 533
+}

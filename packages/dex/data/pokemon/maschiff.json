@@ -1,0 +1,92 @@
+{
+  "category": "Rascal Pokémon",
+  "entries": [
+    {
+      "text": "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff’s face.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "maschiff",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "maschiff",
+      "to": "mabosstiff",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": true,
+          "key": "stakeout"
+        }
+      ],
+      "artwork": "/dex-images/artwork/maschiff.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "maschiff",
+      "kind": "default",
+      "name": "Maschiff",
+      "number": 942,
+      "pokemon": "maschiff",
+      "sourceId": 942,
+      "sprite": "/dex-images/sprites/maschiff.webp",
+      "statTotal": 340,
+      "stats": {
+        "attack": 78,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 40,
+        "special-defense": 51,
+        "speed": 51
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 160
+    }
+  ],
+  "generation": 9,
+  "key": "maschiff",
+  "name": "Maschiff",
+  "names": {
+    "de": "Mobtiff",
+    "en": "Maschiff",
+    "es": "Maschiff",
+    "es-419": "Maschiff",
+    "fr": "Grondogue",
+    "it": "Maschiff",
+    "ja": "オラチフ",
+    "ja-hrkt": "オラチフ",
+    "ja-roma": "Orachifu",
+    "ko": "오라티프",
+    "zh-hans": "偶叫獒",
+    "zh-hant": "偶叫獒"
+  },
+  "number": 942
+}

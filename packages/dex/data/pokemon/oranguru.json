@@ -1,0 +1,283 @@
+{
+  "category": "Sage Pokémon",
+  "entries": [
+    {
+      "text": "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it’s best suited to veteran Trainers.",
+      "version": "sun"
+    },
+    {
+      "text": "Deep in the jungle, high in the lofty canopy, this Pokémon abides. On rare occasions, it shows up at the beach to match wits with Slowking.",
+      "version": "moon"
+    },
+    {
+      "text": "It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Oranguru don’t get along with each other, so they’re always engaging in battles of wits to decide which one is superior.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "With waves of its fan—made from leaves and its own fur—Oranguru skillfully gives instructions to other Pokémon.",
+      "version": "sword"
+    },
+    {
+      "text": "It knows the forest inside and out. If it comes across a wounded Pokémon, Oranguru will gather medicinal herbs to treat it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oranguru",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "telepathy"
+        },
+        {
+          "hidden": true,
+          "key": "symbiosis"
+        }
+      ],
+      "artwork": "/dex-images/artwork/oranguru.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 5,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 9,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 260,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 260,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 10,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 5,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 19
+          },
+          {
+            "chance": 35,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "oranguru",
+      "kind": "default",
+      "name": "Oranguru",
+      "number": 765,
+      "pokemon": "oranguru",
+      "sourceId": 765,
+      "sprite": "/dex-images/sprites/oranguru.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 60,
+        "defense": 80,
+        "hp": 90,
+        "special-attack": 90,
+        "special-defense": 110,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["normal", "psychic"],
+      "weight": 760
+    }
+  ],
+  "generation": 7,
+  "key": "oranguru",
+  "name": "Oranguru",
+  "names": {
+    "de": "Kommandutan",
+    "en": "Oranguru",
+    "es": "Oranguru",
+    "es-419": "Oranguru",
+    "fr": "Gouroutan",
+    "it": "Oranguru",
+    "ja": "ヤレユータン",
+    "ja-hrkt": "ヤレユータン",
+    "ja-roma": "Yareyuutan",
+    "ko": "하랑우탄",
+    "zh-hans": "智挥猩",
+    "zh-hant": "智揮猩"
+  },
+  "number": 765
+}

@@ -1,0 +1,208 @@
+{
+  "category": "Herb Pokémon",
+  "entries": [
+    {
+      "text": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+      "version": "gold"
+    },
+    {
+      "text": "MEGANIUM's breath has the power to revive dead grass and plants. It can make them healthy again.",
+      "version": "silver"
+    },
+    {
+      "text": "Anyone who stands beside it becomes refreshed, just as if they were relaxing in a sunny forest.",
+      "version": "crystal"
+    },
+    {
+      "text": "The fragrance of MEGANIUM’s flower soothes and calms emotions. In battle, this POKéMON gives off more of its becalming scent to blunt the foe’s fighting spirit.",
+      "version": "ruby"
+    },
+    {
+      "text": "The fragrance of MEGANIUM’s flower soothes and calms emotions. In battle, this POKéMON gives off more of its becalming scent to blunt the foe’s fighting spirit.",
+      "version": "sapphire"
+    },
+    {
+      "text": "The fragrance of a MEGANIUM’s flower soothes and calms emotions. In battle, it gives off more of its becalming scent to blunt the foe’s fighting spirit.",
+      "version": "emerald"
+    },
+    {
+      "text": "MEGANIUM’s breath has the power to revive dead grass and plants. It can make them healthy again.",
+      "version": "firered"
+    },
+    {
+      "text": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "platinum"
+    },
+    {
+      "text": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+      "version": "heartgold"
+    },
+    {
+      "text": "MEGANIUM’s breath has the power to revive dead grass and plants. It can make them healthy again.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "black"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "white"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its breath has the fantastic ability to revive dead plants and flowers.",
+      "version": "white-2"
+    },
+    {
+      "text": "The aroma that rises from its petals contains a substance that calms aggressive feelings.",
+      "version": "x"
+    },
+    {
+      "text": "Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again.",
+      "version": "y"
+    },
+    {
+      "text": "The fragrance of Meganium’s flower soothes and calms emotions. In battle, this Pokémon gives off more of its becalming scent to blunt the foe’s fighting spirit.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The fragrance of Meganium’s flower soothes and calms emotions. In battle, this Pokémon gives off more of its becalming scent to blunt the foe’s fighting spirit.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chikorita",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "chikorita",
+      "to": "bayleef",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "bayleef",
+      "to": "meganium",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meganium.webp",
+      "encounters": {},
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "meganium",
+      "kind": "default",
+      "name": "Meganium",
+      "number": 154,
+      "pokemon": "meganium",
+      "sourceId": 154,
+      "sprite": "/dex-images/sprites/meganium.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 82,
+        "defense": 100,
+        "hp": 80,
+        "special-attack": 83,
+        "special-defense": 100,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 1005
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "mega-sol"
+        }
+      ],
+      "artwork": "/dex-images/artwork/meganium-mega.webp",
+      "encounters": {},
+      "formName": "Mega Meganium",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 24,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "meganium-mega",
+      "kind": "mega",
+      "name": "Meganium-Mega",
+      "number": 154,
+      "pokemon": "meganium",
+      "sourceId": 10282,
+      "sprite": "/dex-images/sprites/meganium-mega.webp",
+      "statTotal": 625,
+      "stats": {
+        "attack": 92,
+        "defense": 115,
+        "hp": 80,
+        "special-attack": 143,
+        "special-defense": 115,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["grass", "fairy"],
+      "weight": 2010
+    }
+  ],
+  "generation": 2,
+  "key": "meganium",
+  "name": "Meganium",
+  "names": {
+    "de": "Meganie",
+    "en": "Meganium",
+    "es": "Meganium",
+    "es-419": "Meganium",
+    "fr": "Méganium",
+    "it": "Meganium",
+    "ja": "メガニウム",
+    "ja-hrkt": "メガニウム",
+    "ja-roma": "Meganium",
+    "ko": "메가니움",
+    "zh-hans": "大竺葵",
+    "zh-hant": "大竺葵"
+  },
+  "number": 154
+}

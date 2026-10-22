@@ -1,0 +1,128 @@
+{
+  "category": "Hex Nut Pokémon",
+  "entries": [
+    {
+      "text": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+      "version": "sword"
+    },
+    {
+      "text": "Centrifugal force is behind the punches of Melmetal’s heavy hex-nut arms. Melmetal is said to deliver the strongest punches of all Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "meltan",
+      "trigger": null
+    },
+    {
+      "conditions": {},
+      "from": "meltan",
+      "to": "melmetal",
+      "trigger": "meltan-candies"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/melmetal.webp",
+      "encounters": {},
+      "games": ["lets-go-pikachu-lets-go-eevee", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 7,
+      "height": 25,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "melmetal",
+      "kind": "default",
+      "mythical": true,
+      "name": "Melmetal",
+      "number": 809,
+      "pokemon": "melmetal",
+      "sourceId": 809,
+      "sprite": "/dex-images/sprites/melmetal.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 143,
+        "defense": 143,
+        "hp": 135,
+        "special-attack": 80,
+        "special-defense": 65,
+        "speed": 34
+      },
+      "tags": ["Mythical"],
+      "types": ["steel"],
+      "weight": 8000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/melmetal-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 250,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "melmetal-gmax",
+      "kind": "gigantamax",
+      "mythical": true,
+      "name": "Melmetal-Gmax",
+      "number": 809,
+      "pokemon": "melmetal",
+      "sourceId": 10208,
+      "sprite": "/dex-images/sprites/melmetal-gmax.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 143,
+        "defense": 143,
+        "hp": 135,
+        "special-attack": 80,
+        "special-defense": 65,
+        "speed": 34
+      },
+      "tags": ["Mythical"],
+      "types": ["steel"],
+      "weight": 10000
+    }
+  ],
+  "generation": 7,
+  "key": "melmetal",
+  "name": "Melmetal",
+  "names": {
+    "de": "Melmetal",
+    "en": "Melmetal",
+    "es": "Melmetal",
+    "es-419": "Melmetal",
+    "fr": "Melmetal",
+    "it": "Melmetal",
+    "ja": "メルメタル",
+    "ja-hrkt": "メルメタル",
+    "ja-roma": "Melmetal",
+    "ko": "멜메탈",
+    "zh-hans": "美录梅塔",
+    "zh-hant": "美錄梅塔"
+  },
+  "number": 809
+}

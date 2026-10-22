@@ -1,0 +1,646 @@
+{
+  "category": "Clap Pokémon",
+  "entries": [
+    {
+      "text": "SPHEAL is much faster rolling than walking to get around. When groups of this POKéMON eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy.",
+      "version": "ruby"
+    },
+    {
+      "text": "SPHEAL always travels by rolling around on its ball-like body. When the season for ice floes arrives, this POKéMON can be seen rolling about on ice and crossing the sea.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is completely covered with plushy fur. As a result, it never feels the cold even when it is rolling about on ice floes or diving in the sea.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.",
+      "version": "firered"
+    },
+    {
+      "text": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+      "version": "diamond"
+    },
+    {
+      "text": "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+      "version": "pearl"
+    },
+    {
+      "text": "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+      "version": "platinum"
+    },
+    {
+      "text": "It crosses the oceans by rolling itself on drifting ice. Fluffy fur keeps it warm when the temperature is below freezing.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It crosses the oceans by rolling itself on drifting ice. Fluffy fur keeps it warm when the temperature is below freezing.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+      "version": "black"
+    },
+    {
+      "text": "It rolls across ice floes to reach shore because its body is poorly shaped for swimming.",
+      "version": "white"
+    },
+    {
+      "text": "They can’t swim well yet, and they move much faster by rolling. When they’re happy, they clap fins.",
+      "version": "black-2"
+    },
+    {
+      "text": "They can’t swim well yet, and they move much faster by rolling. When they’re happy, they clap fins.",
+      "version": "white-2"
+    },
+    {
+      "text": "They can’t swim well yet, and they move much faster by rolling. When they’re happy, they clap fins.",
+      "version": "x"
+    },
+    {
+      "text": "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.",
+      "version": "y"
+    },
+    {
+      "text": "Spheal is much faster rolling than walking to get around. When groups of this Pokémon eat, they all clap at once to show their pleasure. Because of this, their mealtimes are noisy.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Spheal always travels by rolling around on its ball-like body. When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon’s body is covered in blubber and impressively round. It’s faster for Spheal to roll around than walk.",
+      "version": "sword"
+    },
+    {
+      "text": "As it drifts among the waves, Spheal probes the sea. As soon as it spots prey, it informs the Walrein in its herd.",
+      "version": "shield"
+    },
+    {
+      "text": "During the season when drift ice approaches the shore, Spheal prefers living on the ice—where fewer predators lurk—rather than the land. Its fur retains heat superbly and resists harsh cold.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "spheal",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "spheal",
+      "to": "sealeo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 44
+      },
+      "from": "sealeo",
+      "to": "walrein",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "ice-body"
+        },
+        {
+          "hidden": true,
+          "key": "oblivious"
+        }
+      ],
+      "artwork": "/dex-images/artwork/spheal.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 35,
+            "location": "shoal-cave-b1f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "shoal-cave-b2f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 40,
+            "location": "shoal-cave-low-tide",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          }
+        ],
+        "black": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-hidden-grotto-stairs",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 50,
+            "location": "shoal-cave-b1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "shoal-cave-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 45,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "shoal-cave-low-tide",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "island-scan",
+            "minLevel": 19
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 35,
+            "location": "shoal-cave-b1f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "shoal-cave-b2f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 35,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          },
+          {
+            "chance": 40,
+            "location": "shoal-cave-low-tide",
+            "maxLevel": 17,
+            "method": "horde",
+            "minLevel": 17
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 50,
+            "location": "shoal-cave-b1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "shoal-cave-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 45,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "shoal-cave-low-tide",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 50,
+            "location": "shoal-cave-b1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "shoal-cave-b2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 45,
+            "location": "shoal-cave-b3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "shoal-cave-high-tide",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "shoal-cave-low-tide",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-peak",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "island-scan",
+            "minLevel": 19
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 1051,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 1051,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 1051,
+            "location": "frigid-sea-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 1105,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 1105,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 1105,
+            "location": "frigid-sea-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "island-scan",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "island-scan",
+            "minLevel": 19
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-hidden-grotto-stairs",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-lab-outside",
+            "maxLevel": 17,
+            "method": "snag",
+            "minLevel": 17
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "sword-shield", "the-crown-tundra", "legends-arceus"],
+      "gen9": false,
+      "generation": 3,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "spheal",
+      "kind": "default",
+      "name": "Spheal",
+      "number": 363,
+      "pokemon": "spheal",
+      "sourceId": 363,
+      "sprite": "/dex-images/sprites/spheal.webp",
+      "statTotal": 290,
+      "stats": {
+        "attack": 40,
+        "defense": 50,
+        "hp": 70,
+        "special-attack": 55,
+        "special-defense": 50,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["ice", "water"],
+      "weight": 395
+    }
+  ],
+  "generation": 3,
+  "key": "spheal",
+  "name": "Spheal",
+  "names": {
+    "de": "Seemops",
+    "en": "Spheal",
+    "es": "Spheal",
+    "es-419": "Spheal",
+    "fr": "Obalie",
+    "it": "Spheal",
+    "ja": "タマザラシ",
+    "ja-hrkt": "タマザラシ",
+    "ja-roma": "Tamazarashi",
+    "ko": "대굴레오",
+    "zh-hans": "海豹球",
+    "zh-hant": "海豹球"
+  },
+  "number": 363
+}

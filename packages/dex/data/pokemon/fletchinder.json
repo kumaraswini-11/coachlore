@@ -1,0 +1,453 @@
+{
+  "category": "Ember Pokémon",
+  "entries": [
+    {
+      "text": "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+      "version": "x"
+    },
+    {
+      "text": "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
+      "version": "y"
+    },
+    {
+      "text": "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "From its beak, it fires embers at its prey. Once it has caught them, it grills them at high heat before feasting upon them.",
+      "version": "sun"
+    },
+    {
+      "text": "It will not tolerate other Fletchinder entering its territory, which has a radius of several miles.",
+      "version": "moon"
+    },
+    {
+      "text": "It scatters embers in the tall grass. Then bug Pokémon, frightened by the flames, come flying out, and Fletchinder gobbles them up.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Fletchinder launches embers into the den of its prey. When the prey comes leaping out, Fletchinder’s sharp talons finish it off.",
+      "version": "sword"
+    },
+    {
+      "text": "Fletchinder are exceedingly territorial and aggressive. These Pokémon fight among themselves over feeding grounds.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fletchling",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "fletchling",
+      "to": "fletchinder",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "fletchinder",
+      "to": "talonflame",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flame-body"
+        },
+        {
+          "hidden": true,
+          "key": "gale-wings"
+        }
+      ],
+      "artwork": "/dex-images/artwork/fletchinder.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "sos",
+            "minLevel": 17
+          },
+          {
+            "chance": 15,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "sos",
+            "minLevel": 16
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "sos",
+            "minLevel": 17
+          },
+          {
+            "chance": 15,
+            "location": "wela-volcano-park-area",
+            "maxLevel": 19,
+            "method": "sos",
+            "minLevel": 16
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "fletchinder",
+      "kind": "default",
+      "name": "Fletchinder",
+      "number": 662,
+      "pokemon": "fletchinder",
+      "sourceId": 662,
+      "sprite": "/dex-images/sprites/fletchinder.webp",
+      "statTotal": 382,
+      "stats": {
+        "attack": 73,
+        "defense": 55,
+        "hp": 62,
+        "special-attack": 56,
+        "special-defense": 52,
+        "speed": 84
+      },
+      "tags": [],
+      "types": ["fire", "flying"],
+      "weight": 160
+    }
+  ],
+  "generation": 6,
+  "key": "fletchinder",
+  "name": "Fletchinder",
+  "names": {
+    "de": "Dartignis",
+    "en": "Fletchinder",
+    "es": "Fletchinder",
+    "es-419": "Fletchinder",
+    "fr": "Braisillon",
+    "it": "Fletchinder",
+    "ja": "ヒノヤコマ",
+    "ja-hrkt": "ヒノヤコマ",
+    "ja-roma": "Hinoyakoma",
+    "ko": "불화살빈",
+    "zh-hans": "火箭雀",
+    "zh-hant": "火箭雀"
+  },
+  "number": 662
+}

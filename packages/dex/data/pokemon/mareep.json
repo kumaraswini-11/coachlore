@@ -1,0 +1,427 @@
+{
+  "category": "Wool Pokémon",
+  "entries": [
+    {
+      "text": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+      "version": "gold"
+    },
+    {
+      "text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+      "version": "silver"
+    },
+    {
+      "text": "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+      "version": "crystal"
+    },
+    {
+      "text": "MAREEP’s fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail grows.",
+      "version": "ruby"
+    },
+    {
+      "text": "MAREEP’s fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail grows.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its fluffy wool rubs together and builds a static charge. The more energy is charged, the more brightly the lightbulb at the tip of its tail glows.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+      "version": "firered"
+    },
+    {
+      "text": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+      "version": "platinum"
+    },
+    {
+      "text": "If static electricity builds in its body, its fleece doubles in volume. Touching it will shock you.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+      "version": "black"
+    },
+    {
+      "text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+      "version": "white"
+    },
+    {
+      "text": "When cold weather increases static electricity, its wool doubles in size and the tip of its tail glows slightly.",
+      "version": "black-2"
+    },
+    {
+      "text": "When cold weather increases static electricity, its wool doubles in size and the tip of its tail glows slightly.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its fluffy coat swells to double when static electricity builds up. Touching it can be shocking.",
+      "version": "x"
+    },
+    {
+      "text": "It stores lots of air in its soft fur, allowing it to stay cool in summer and warm in winter.",
+      "version": "y"
+    },
+    {
+      "text": "Mareep’s fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail glows.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Mareep’s fluffy coat of wool rubs together and builds a static charge. The more static electricity is charged, the more brightly the lightbulb at the tip of its tail glows.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Clothing made from Mareep’s fleece is easily charged with static electricity, so a special process is used on it.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Rubbing its fleece generates electricity. You’ll want to pet it because it’s cute, but if you use your bare hand, you’ll get a painful shock.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mareep",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "mareep",
+      "to": "flaaffy",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "flaaffy",
+      "to": "ampharos",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "plus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mareep.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "phenac-city-card-e-room",
+            "maxLevel": 37,
+            "method": "snag",
+            "minLevel": 37
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "valley-windworks-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-expansion-south",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "kanto-altering-cave-b",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "gold": [
+          {
+            "chance": 50,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-42-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-43-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 50,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-42-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-43-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 100,
+            "location": "violet-city-pokemon-center",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "kanto-altering-cave-b",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "valley-windworks-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "valley-windworks-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "silver": [
+          {
+            "chance": 50,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 150,
+            "location": "johto-route-42-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-43-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 50,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 50,
+            "location": "johto-route-42-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-43-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 43
+          },
+          {
+            "chance": 100,
+            "location": "violet-city-pokemon-center",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "paniola-ranch-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "paniola-ranch-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-12-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-lab-outside",
+            "maxLevel": 17,
+            "method": "snag",
+            "minLevel": 17
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-12-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mareep",
+      "kind": "default",
+      "name": "Mareep",
+      "number": 179,
+      "pokemon": "mareep",
+      "sourceId": 179,
+      "sprite": "/dex-images/sprites/mareep.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 40,
+        "defense": 40,
+        "hp": 55,
+        "special-attack": 65,
+        "special-defense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 78
+    }
+  ],
+  "generation": 2,
+  "key": "mareep",
+  "name": "Mareep",
+  "names": {
+    "de": "Voltilamm",
+    "en": "Mareep",
+    "es": "Mareep",
+    "es-419": "Mareep",
+    "fr": "Wattouat",
+    "it": "Mareep",
+    "ja": "メリープ",
+    "ja-hrkt": "メリープ",
+    "ja-roma": "Merriep",
+    "ko": "메리프",
+    "zh-hans": "咩利羊",
+    "zh-hant": "咩利羊"
+  },
+  "number": 179
+}

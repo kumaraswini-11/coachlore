@@ -1,0 +1,218 @@
+{
+  "category": "Multiplying Pokémon",
+  "entries": [
+    {
+      "text": "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+      "version": "black"
+    },
+    {
+      "text": "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
+      "version": "white"
+    },
+    {
+      "text": "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+      "version": "black-2"
+    },
+    {
+      "text": "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+      "version": "white-2"
+    },
+    {
+      "text": "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+      "version": "x"
+    },
+    {
+      "text": "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+      "version": "y"
+    },
+    {
+      "text": "They use psychic power to control their arms, which are made of a special liquid. They can crush boulders psychically.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s said that drinking the liquid surrounding Reuniclus grants wisdom. Problem is, the liquid is highly toxic to anything besides Reuniclus itself.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "solosis",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "solosis",
+      "to": "duosion",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "duosion",
+      "to": "reuniclus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overcoat"
+        },
+        {
+          "hidden": false,
+          "key": "magic-guard"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/reuniclus.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-route-9-area",
+            "maxLevel": 34,
+            "method": "grass-spots",
+            "minLevel": 34
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "unova-route-9-area",
+            "maxLevel": 40,
+            "method": "grass-spots",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "reuniclus",
+      "kind": "default",
+      "name": "Reuniclus",
+      "number": 579,
+      "pokemon": "reuniclus",
+      "sourceId": 579,
+      "sprite": "/dex-images/sprites/reuniclus.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 65,
+        "defense": 75,
+        "hp": 110,
+        "special-attack": 125,
+        "special-defense": 85,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 201
+    }
+  ],
+  "generation": 5,
+  "key": "reuniclus",
+  "name": "Reuniclus",
+  "names": {
+    "de": "Zytomega",
+    "en": "Reuniclus",
+    "es": "Reuniclus",
+    "es-419": "Reuniclus",
+    "fr": "Symbios",
+    "it": "Reuniclus",
+    "ja": "ランクルス",
+    "ja-hrkt": "ランクルス",
+    "ja-roma": "Lanculus",
+    "ko": "란쿨루스",
+    "zh-hans": "人造细胞卵",
+    "zh-hant": "人造細胞卵"
+  },
+  "number": 579
+}

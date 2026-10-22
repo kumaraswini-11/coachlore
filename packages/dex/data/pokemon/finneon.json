@@ -1,0 +1,746 @@
+{
+  "category": "Wing Fish Pokémon",
+  "entries": [
+    {
+      "text": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+      "version": "diamond"
+    },
+    {
+      "text": "The way its two tail fins flutter while it swims has earned it the nickname “BEAUTIFLY of the Sea.”",
+      "version": "pearl"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "platinum"
+    },
+    {
+      "text": "Swimming and fluttering its two tail fins, it looks like a BEAUTIFLY. At night, the patterns on its tail fins softly shine.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Swimming and fluttering its two tail fins, it looks like a BEAUTIFLY. At night, the patterns on its tail fins softly shine.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "black"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "white"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "black-2"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "white-2"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "x"
+    },
+    {
+      "text": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+      "version": "y"
+    },
+    {
+      "text": "The line running down its side can store sunlight. It shines vividly at night.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It absorbs sunlight with the pink areas of its skin, which then shine. This appears to be a form of camouflage.",
+      "version": "sun"
+    },
+    {
+      "text": "Its double tail fins propel its energetic jumps. When it breaks the surface of the sea, Wingull swoop down to grab it on the fly.",
+      "version": "moon"
+    },
+    {
+      "text": "When night falls, their pink patterns begin to shine. They’re popular with divers, so there are resorts that feed them to keep them close.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "What a gorgeous sight this Pokémon is as it swims with its long, pink-painted caudal fins fluttering behind it. Finneon's beautiful appearance has led to its nickname: ”finery fish.”",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "finneon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 31
+      },
+      "from": "finneon",
+      "to": "lumineon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "storm-drain"
+        },
+        {
+          "hidden": true,
+          "key": "water-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/finneon.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 45,
+            "location": "p2-laboratory-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-17-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 44,
+            "location": "unova-route-18-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 45,
+            "location": "p2-laboratory-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 55,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 55,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "virbank-city-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "virbank-complex-outer",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 45,
+            "location": "canalave-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "iron-island-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "valley-windworks-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          }
+        ],
+        "moon": [
+          {
+            "chance": 40,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "surf",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "secluded-shore-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 27
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 45,
+            "location": "canalave-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "iron-island-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "valley-windworks-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 45,
+            "location": "canalave-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "iron-island-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "valley-windworks-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 10
+          }
+        ],
+        "sun": [
+          {
+            "chance": 40,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "surf",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "hano-beach-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 21
+          },
+          {
+            "chance": 40,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "secluded-shore-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 27
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "sos",
+            "minLevel": 22
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-7-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "brooklet-hill-totems-den",
+            "maxLevel": 17,
+            "method": "surf",
+            "minLevel": 14
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "sos",
+            "minLevel": 22
+          },
+          {
+            "chance": 45,
+            "location": "hano-beach-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 45,
+            "location": "p2-laboratory-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "unova-route-17-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 44,
+            "location": "unova-route-18-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 45,
+            "location": "p2-laboratory-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 55,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 55,
+            "location": "unova-route-4-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "virbank-city-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 55,
+            "location": "virbank-complex-outer",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "sun-moon", "ultra-sun-ultra-moon", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "finneon",
+      "kind": "default",
+      "name": "Finneon",
+      "number": 456,
+      "pokemon": "finneon",
+      "sourceId": 456,
+      "sprite": "/dex-images/sprites/finneon.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 49,
+        "defense": 56,
+        "hp": 49,
+        "special-attack": 49,
+        "special-defense": 61,
+        "speed": 66
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 70
+    }
+  ],
+  "generation": 4,
+  "key": "finneon",
+  "name": "Finneon",
+  "names": {
+    "de": "Finneon",
+    "en": "Finneon",
+    "es": "Finneon",
+    "es-419": "Finneon",
+    "fr": "Écayon",
+    "it": "Finneon",
+    "ja": "ケイコウオ",
+    "ja-hrkt": "ケイコウオ",
+    "ja-roma": "Keikouo",
+    "ko": "형광어",
+    "zh-hans": "荧光鱼",
+    "zh-hant": "螢光魚"
+  },
+  "number": 456
+}

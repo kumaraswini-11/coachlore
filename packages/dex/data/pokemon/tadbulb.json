@@ -1,0 +1,92 @@
+{
+  "category": "EleTadpole Pokémon",
+  "entries": [
+    {
+      "text": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tadbulb",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "tadbulb",
+      "to": "bellibolt",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tadbulb.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tadbulb",
+      "kind": "default",
+      "name": "Tadbulb",
+      "number": 938,
+      "pokemon": "tadbulb",
+      "sourceId": 938,
+      "sprite": "/dex-images/sprites/tadbulb.webp",
+      "statTotal": 272,
+      "stats": {
+        "attack": 31,
+        "defense": 41,
+        "hp": 61,
+        "special-attack": 59,
+        "special-defense": 35,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 4
+    }
+  ],
+  "generation": 9,
+  "key": "tadbulb",
+  "name": "Tadbulb",
+  "names": {
+    "de": "Blipp",
+    "en": "Tadbulb",
+    "es": "Tadbulb",
+    "es-419": "Tadbulb",
+    "fr": "Têtampoule",
+    "it": "Tadbulb",
+    "ja": "ズピカ",
+    "ja-hrkt": "ズピカ",
+    "ja-roma": "Zupika",
+    "ko": "빈나두",
+    "zh-hans": "光蚪仔",
+    "zh-hant": "光蚪仔"
+  },
+  "number": 938
+}

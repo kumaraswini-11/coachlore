@@ -1,0 +1,616 @@
+{
+  "category": "Aqua Rabbit Pokémon",
+  "entries": [
+    {
+      "text": "By keeping still and listening intently, it can tell what is in even wild, fast- moving rivers.",
+      "version": "gold"
+    },
+    {
+      "text": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
+      "version": "silver"
+    },
+    {
+      "text": "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.",
+      "version": "crystal"
+    },
+    {
+      "text": "AZUMARILL’s long ears are indispensable sensors. By focusing its hearing, this POKéMON can identify what kinds of prey are around, even in rough and fast-running rivers.",
+      "version": "ruby"
+    },
+    {
+      "text": "AZUMARILL can make balloons out of air. It makes these air balloons if it spots a drowning POKéMON. The air balloons enable the POKéMON in trouble to breathe.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It lives in water virtually all day long. Its body color and pattern act as camouflage that makes it tough for enemies to spot in water.",
+      "version": "emerald"
+    },
+    {
+      "text": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
+      "version": "firered"
+    },
+    {
+      "text": "By keeping still and listening intently, it can even tell what is in wild, fast-moving rivers.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives in rivers and lakes. In water, its coloring and patterns trick the vision of foes.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its long ears are superb sensors. It can distinguish the movements of living things on riverbeds.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can spend all day in water, since it can inhale and store a large volume of air.",
+      "version": "platinum"
+    },
+    {
+      "text": "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can spend all day in water, since it can inhale and store a large volume of air.",
+      "version": "black"
+    },
+    {
+      "text": "It can spend all day in water, since it can inhale and store a large volume of air.",
+      "version": "white"
+    },
+    {
+      "text": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its long ears are superb sensors. It can distinguish the movements of living things on riverbeds.",
+      "version": "x"
+    },
+    {
+      "text": "The bubble-like pattern on its stomach helps it camouflage itself when it’s in the water.",
+      "version": "y"
+    },
+    {
+      "text": "Azumarill’s long ears are indispensable sensors. By focusing its hearing, this Pokémon can identify what kinds of prey are around, even in rough and fast-running rivers.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Azumarill can make balloons out of air. It makes these air balloons if it spots a drowning Pokémon. The air balloons enable the Pokémon in trouble to breathe.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It spends most of its time in the water. On sunny days, Azumarill floats on the surface of the water and sunbathes.",
+      "version": "sword"
+    },
+    {
+      "text": "These Pokémon create air-filled bubbles. When Azurill play in rivers, Azumarill will cover them with these bubbles.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "azurill",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "azurill",
+      "to": "marill",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "marill",
+      "to": "azumarill",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "huge-power"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/azumarill.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "grass-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-22-area",
+            "maxLevel": 42,
+            "method": "grass-spots",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-22-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "grass-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "village-bridge-area",
+            "maxLevel": 39,
+            "method": "grass-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "village-bridge-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 30,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "abundant-shrine-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "abundant-shrine-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "grass-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-22-area",
+            "maxLevel": 42,
+            "method": "grass-spots",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-22-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "grass-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 35,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "village-bridge-area",
+            "maxLevel": 39,
+            "method": "grass-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "village-bridge-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 25,
+            "location": "kalos-route-22-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 25,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 25,
+            "location": "kalos-route-22-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 25,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "azumarill",
+      "kind": "default",
+      "name": "Azumarill",
+      "number": 184,
+      "pokemon": "azumarill",
+      "sourceId": 184,
+      "sprite": "/dex-images/sprites/azumarill.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 50,
+        "defense": 80,
+        "hp": 100,
+        "special-attack": 60,
+        "special-defense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["water", "fairy"],
+      "weight": 285
+    }
+  ],
+  "generation": 2,
+  "key": "azumarill",
+  "name": "Azumarill",
+  "names": {
+    "de": "Azumarill",
+    "en": "Azumarill",
+    "es": "Azumarill",
+    "es-419": "Azumarill",
+    "fr": "Azumarill",
+    "it": "Azumarill",
+    "ja": "マリルリ",
+    "ja-hrkt": "マリルリ",
+    "ja-roma": "Marilli",
+    "ko": "마릴리",
+    "zh-hans": "玛力露丽",
+    "zh-hant": "瑪力露麗"
+  },
+  "number": 184
+}

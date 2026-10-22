@@ -1,0 +1,391 @@
+{
+  "category": "Cerebral Pokémon",
+  "entries": [
+    {
+      "text": "It uses its strong psychic power to squeeze its opponent’s brain, causing unendurable headaches.",
+      "version": "black"
+    },
+    {
+      "text": "This Pokémon had never been seen until it appeared from far in the desert 50 years ago.",
+      "version": "white"
+    },
+    {
+      "text": "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+      "version": "black-2"
+    },
+    {
+      "text": "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+      "version": "white-2"
+    },
+    {
+      "text": "It uses its strong psychic power to squeeze its opponent’s brain, causing unendurable headaches.",
+      "version": "x"
+    },
+    {
+      "text": "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+      "version": "y"
+    },
+    {
+      "text": "It uses its strong psychic power to squeeze its opponent’s brain, causing unendurable headaches.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It controls tremendous psychic power. Most reports of alien sightings are actually just people mistaking Elgyem for an alien.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This Pokémon is shrouded in mystery. It’s said to have appeared from a UFO that fell from the sky about 50 years ago.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon was discovered about 50 years ago. Its highly developed brain enables it to exert its psychic powers.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "elgyem",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "elgyem",
+      "to": "beheeyem",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "telepathy"
+        },
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "analytic"
+        }
+      ],
+      "artwork": "/dex-images/artwork/elgyem.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 15,
+            "location": "celestial-tower-3f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "celestial-tower-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "celestial-tower-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 15,
+            "location": "celestial-tower-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 25,
+            "location": "celestial-tower-4f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "celestial-tower-5f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "shield": [
+          {
+            "chance": 120,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 120,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 120,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 120,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 135,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 135,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 50,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 20,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 50,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 20,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "white": [
+          {
+            "chance": 15,
+            "location": "celestial-tower-3f",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "celestial-tower-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "celestial-tower-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "celestial-tower-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 25,
+            "location": "celestial-tower-4f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "celestial-tower-5f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 5,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "elgyem",
+      "kind": "default",
+      "name": "Elgyem",
+      "number": 605,
+      "pokemon": "elgyem",
+      "sourceId": 605,
+      "sprite": "/dex-images/sprites/elgyem.webp",
+      "statTotal": 335,
+      "stats": {
+        "attack": 55,
+        "defense": 55,
+        "hp": 55,
+        "special-attack": 85,
+        "special-defense": 55,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 90
+    }
+  ],
+  "generation": 5,
+  "key": "elgyem",
+  "name": "Elgyem",
+  "names": {
+    "de": "Pygraulon",
+    "en": "Elgyem",
+    "es": "Elgyem",
+    "es-419": "Elgyem",
+    "fr": "Lewsor",
+    "it": "Elgyem",
+    "ja": "リグレー",
+    "ja-hrkt": "リグレー",
+    "ja-roma": "Ligray",
+    "ko": "리그레",
+    "zh-hans": "小灰怪",
+    "zh-hant": "小灰怪"
+  },
+  "number": 605
+}

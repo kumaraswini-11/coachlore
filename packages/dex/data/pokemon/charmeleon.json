@@ -1,0 +1,269 @@
+{
+  "category": "Flame Pokémon",
+  "entries": [
+    {
+      "text": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+      "version": "red"
+    },
+    {
+      "text": "When it swings its burning tail, it elevates the temperature to unbearably high levels.",
+      "version": "blue"
+    },
+    {
+      "text": "Tough fights could excite this POKéMON. When excited, it may blow out bluish- white flames.",
+      "version": "yellow"
+    },
+    {
+      "text": "It is very hotheaded by nature, so it constantly seeks opponents. It calms down only when it wins.",
+      "version": "gold"
+    },
+    {
+      "text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+      "version": "silver"
+    },
+    {
+      "text": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+      "version": "crystal"
+    },
+    {
+      "text": "CHARMELEON mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+      "version": "ruby"
+    },
+    {
+      "text": "CHARMELEON mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Without pity, its sharp claws destroy foes. If it encounters a strong enemy, it becomes agitated, and the flame on its tail flares with a bluish white color.",
+      "version": "emerald"
+    },
+    {
+      "text": "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+      "version": "firered"
+    },
+    {
+      "text": "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "In the rocky mountains where CHARMELEON live, their fiery tails shine at night like stars.",
+      "version": "diamond"
+    },
+    {
+      "text": "In the rocky mountains where CHARMELEON live, their fiery tails shine at night like stars.",
+      "version": "pearl"
+    },
+    {
+      "text": "In the rocky mountains where CHARMELEON live, their fiery tails shine at night like stars.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is very hotheaded by nature, so it constantly seeks opponents. It calms down only when it wins.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+      "version": "black"
+    },
+    {
+      "text": "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+      "version": "white"
+    },
+    {
+      "text": "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+      "version": "black-2"
+    },
+    {
+      "text": "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+      "version": "x"
+    },
+    {
+      "text": "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+      "version": "y"
+    },
+    {
+      "text": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Tough fights could excite this Pokémon. When excited, it may breathe out bluish-white flames.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Tough fights could excite this Pokémon. When excited, it may breathe out bluish-white flames.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+      "version": "sword"
+    },
+    {
+      "text": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "charmander",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "charmander",
+      "to": "charmeleon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "charmeleon",
+      "to": "charizard",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "solar-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charmeleon.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "charmeleon",
+      "kind": "default",
+      "name": "Charmeleon",
+      "number": 5,
+      "pokemon": "charmeleon",
+      "sourceId": 5,
+      "sprite": "/dex-images/sprites/charmeleon.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 64,
+        "defense": 58,
+        "hp": 58,
+        "special-attack": 80,
+        "special-defense": 65,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 190
+    }
+  ],
+  "generation": 1,
+  "key": "charmeleon",
+  "name": "Charmeleon",
+  "names": {
+    "de": "Glutexo",
+    "en": "Charmeleon",
+    "es": "Charmeleon",
+    "es-419": "Charmeleon",
+    "fr": "Reptincel",
+    "it": "Charmeleon",
+    "ja": "リザード",
+    "ja-hrkt": "リザード",
+    "ja-roma": "Lizardo",
+    "ko": "리자드",
+    "zh-hans": "火恐龙",
+    "zh-hant": "火恐龍"
+  },
+  "number": 5
+}

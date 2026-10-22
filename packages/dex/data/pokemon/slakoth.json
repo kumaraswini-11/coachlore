@@ -1,0 +1,229 @@
+{
+  "category": "Slacker Pokémon",
+  "entries": [
+    {
+      "text": "SLAKOTH lolls around for over twenty hours every day. Because it moves so little, it does not need much food. This POKéMON’s sole daily meal consists of just three leaves.",
+      "version": "ruby"
+    },
+    {
+      "text": "SLAKOTH’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this POKéMON in motion.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It sleeps virtually all day and night long. It doesn’t change its nest its entire life, but it sometimes travels great distances by swimming in rivers.",
+      "version": "emerald"
+    },
+    {
+      "text": "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
+      "version": "firered"
+    },
+    {
+      "text": "It sleeps for 20 hours every day. Making drowsy those that see it is one of its abilities.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+      "version": "diamond"
+    },
+    {
+      "text": "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+      "version": "pearl"
+    },
+    {
+      "text": "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+      "version": "platinum"
+    },
+    {
+      "text": "The way SLAKOTH lolls around makes anyone who watches it feel like doing the same.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The way SLAKOTH lolls around makes anyone who watches it feel like doing the same.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+      "version": "black"
+    },
+    {
+      "text": "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+      "version": "white"
+    },
+    {
+      "text": "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day.",
+      "version": "black-2"
+    },
+    {
+      "text": "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day.",
+      "version": "white-2"
+    },
+    {
+      "text": "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+      "version": "x"
+    },
+    {
+      "text": "If it eats just three leaves in a day, it is satisfied. Other than that, it sleeps for 20 hours a day.",
+      "version": "y"
+    },
+    {
+      "text": "Slakoth lolls around for over 20 hours every day. Because it moves so little, it does not need much food. This Pokémon’s sole daily meal consists of just three leaves.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Slakoth’s heart beats just once a minute. Whatever happens, it is content to loaf around motionless. It is rare to see this Pokémon in motion.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "slakoth",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "slakoth",
+      "to": "vigoroth",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "vigoroth",
+      "to": "slaking",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "truant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slakoth.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 5,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 35,
+            "location": "kanto-route-25-area",
+            "maxLevel": 18,
+            "method": "headbutt",
+            "minLevel": 10
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 5,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 5,
+            "location": "petalburg-woods-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 35,
+            "location": "kanto-route-25-area",
+            "maxLevel": 18,
+            "method": "headbutt",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 3,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "slakoth",
+      "kind": "default",
+      "name": "Slakoth",
+      "number": 287,
+      "pokemon": "slakoth",
+      "sourceId": 287,
+      "sprite": "/dex-images/sprites/slakoth.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 60,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 240
+    }
+  ],
+  "generation": 3,
+  "key": "slakoth",
+  "name": "Slakoth",
+  "names": {
+    "de": "Bummelz",
+    "en": "Slakoth",
+    "es": "Slakoth",
+    "es-419": "Slakoth",
+    "fr": "Parecool",
+    "it": "Slakoth",
+    "ja": "ナマケロ",
+    "ja-hrkt": "ナマケロ",
+    "ja-roma": "Namakero",
+    "ko": "게을로",
+    "zh-hans": "懒人獭",
+    "zh-hant": "懶人獺"
+  },
+  "number": 287
+}

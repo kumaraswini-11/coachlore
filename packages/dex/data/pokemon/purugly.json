@@ -1,0 +1,217 @@
+{
+  "category": "Tiger Cat Pokémon",
+  "entries": [
+    {
+      "text": "It is a brazen brute that barges its way into another Pokémon’s nest and claims it as its own.",
+      "version": "diamond"
+    },
+    {
+      "text": "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+      "version": "pearl"
+    },
+    {
+      "text": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
+      "version": "platinum"
+    },
+    {
+      "text": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
+      "version": "black"
+    },
+    {
+      "text": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
+      "version": "white"
+    },
+    {
+      "text": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
+      "version": "black-2"
+    },
+    {
+      "text": "It binds its body with its tails to make itself look bigger. If it locks eyes, it will glare ceaselessly.",
+      "version": "white-2"
+    },
+    {
+      "text": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable.",
+      "version": "x"
+    },
+    {
+      "text": "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+      "version": "y"
+    },
+    {
+      "text": "It would claim another Pokémon’s nest as its own if it finds a nest sufficiently comfortable.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Though impudent and difficult to tame, Purugly enjoys great popularity due to its fur, the beauty of which surpasses even velveteen.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "glameow",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "glameow",
+      "to": "purugly",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/purugly.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-west-of-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-island-east-of-shoal-cave",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-west-of-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-island-east-of-shoal-cave",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "purugly",
+      "kind": "default",
+      "name": "Purugly",
+      "number": 432,
+      "pokemon": "purugly",
+      "sourceId": 432,
+      "sprite": "/dex-images/sprites/purugly.webp",
+      "statTotal": 452,
+      "stats": {
+        "attack": 82,
+        "defense": 64,
+        "hp": 71,
+        "special-attack": 64,
+        "special-defense": 59,
+        "speed": 112
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 438
+    }
+  ],
+  "generation": 4,
+  "key": "purugly",
+  "name": "Purugly",
+  "names": {
+    "de": "Shnurgarst",
+    "en": "Purugly",
+    "es": "Purugly",
+    "es-419": "Purugly",
+    "fr": "Chaffreux",
+    "it": "Purugly",
+    "ja": "ブニャット",
+    "ja-hrkt": "ブニャット",
+    "ja-roma": "Bunyatto",
+    "ko": "몬냥이",
+    "zh-hans": "东施喵",
+    "zh-hant": "東施喵"
+  },
+  "number": 432
+}

@@ -89,6 +89,18 @@ next. Decisions are recorded as [ADRs](docs/adr/), screens are reviewed on a
 desktop and a phone before they meet real data, and the specs change as we
 learn. No deadlines: scope flexes, quality doesn't.
 
+> [!NOTE]
+> **Why the Dex doesn't fetch Pokémon data when a page loads.** Pokémon
+> data is reference data: it changes only when a new game or update comes
+> out, and is the same for everyone, like a dictionary or a timetable. So
+> it's imported once from pinned sources, checked, committed, and built
+> into ready-made pages: fast on a phone, working offline, and unaffected
+> if a source is down. A GitHub job looks for newer data every month and
+> opens an issue when there is some; `bun run data:refresh` brings it in.
+> The Leagues are the opposite, live data from our own database. The
+> question, the answer and the alternatives:
+> [ADR 0009](docs/adr/0009-pokemon-data-imported-and-refreshed.md).
+
 ## Getting started
 
 Needs [Bun](https://bun.sh) (the version in `package.json`'s

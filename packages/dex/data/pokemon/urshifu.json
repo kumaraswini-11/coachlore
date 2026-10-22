@@ -1,0 +1,207 @@
+{
+  "category": "Wushu Pokémon",
+  "entries": [
+    {
+      "text": "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.",
+      "version": "sword"
+    },
+    {
+      "text": "Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "kubfu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "urshifu-single-strike",
+        "item": "scroll-of-darkness"
+      },
+      "from": "kubfu",
+      "to": "urshifu",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "urshifu-rapid-strike",
+        "item": "scroll-of-waters"
+      },
+      "from": "kubfu",
+      "to": "urshifu",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unseen-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/urshifu-single-strike.webp",
+      "encounters": {},
+      "formName": "Single Strike Style",
+      "games": ["sword-shield", "the-isle-of-armor"],
+      "gen9": true,
+      "generation": 8,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "urshifu-single-strike",
+      "kind": "default",
+      "legendary": true,
+      "name": "Urshifu",
+      "number": 892,
+      "pokemon": "urshifu",
+      "sourceId": 892,
+      "sprite": "/dex-images/sprites/urshifu-single-strike.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 130,
+        "defense": 100,
+        "hp": 100,
+        "special-attack": 63,
+        "special-defense": 60,
+        "speed": 97
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["fighting", "dark"],
+      "weight": 1050
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unseen-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/urshifu-rapid-strike.webp",
+      "encounters": {},
+      "formName": "Rapid Strike Style",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "urshifu-rapid-strike",
+      "kind": "other",
+      "legendary": true,
+      "name": "Urshifu-Rapid-Strike",
+      "number": 892,
+      "pokemon": "urshifu",
+      "sourceId": 10191,
+      "sprite": "/dex-images/sprites/urshifu-rapid-strike.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 130,
+        "defense": 100,
+        "hp": 100,
+        "special-attack": 63,
+        "special-defense": 60,
+        "speed": 97
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["fighting", "water"],
+      "weight": 1050
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unseen-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/urshifu-rapid-strike-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 260,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "urshifu-rapid-strike-gmax",
+      "kind": "gigantamax",
+      "legendary": true,
+      "name": "Urshifu-Rapid-Strike-Gmax",
+      "number": 892,
+      "pokemon": "urshifu",
+      "sourceId": 10227,
+      "sprite": "/dex-images/sprites/urshifu-rapid-strike-gmax.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 130,
+        "defense": 100,
+        "hp": 100,
+        "special-attack": 63,
+        "special-defense": 60,
+        "speed": 97
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["fighting", "water"],
+      "weight": 10000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unseen-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/urshifu-single-strike-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 290,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "urshifu-single-strike-gmax",
+      "kind": "gigantamax",
+      "legendary": true,
+      "name": "Urshifu-Single-Strike-Gmax",
+      "number": 892,
+      "pokemon": "urshifu",
+      "sourceId": 10226,
+      "sprite": "/dex-images/sprites/urshifu-single-strike-gmax.webp",
+      "statTotal": 550,
+      "stats": {
+        "attack": 130,
+        "defense": 100,
+        "hp": 100,
+        "special-attack": 63,
+        "special-defense": 60,
+        "speed": 97
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["fighting", "dark"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "urshifu",
+  "name": "Urshifu",
+  "names": {
+    "de": "Wulaosu",
+    "en": "Urshifu",
+    "es": "Urshifu",
+    "es-419": "Urshifu",
+    "fr": "Shifours",
+    "it": "Urshifu",
+    "ja": "ウーラオス",
+    "ja-hrkt": "ウーラオス",
+    "ja-roma": "Wulaosu",
+    "ko": "우라오스",
+    "zh-hans": "武道熊师",
+    "zh-hant": "武道熊師"
+  },
+  "number": 892
+}

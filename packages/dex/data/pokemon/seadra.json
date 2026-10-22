@@ -1,0 +1,950 @@
+{
+  "category": "Dragon Pokémon",
+  "entries": [
+    {
+      "text": "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+      "version": "red"
+    },
+    {
+      "text": "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
+      "version": "blue"
+    },
+    {
+      "text": "Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.",
+      "version": "yellow"
+    },
+    {
+      "text": "An examination of its cells revealed the presence of a gene not found in HORSEA. It became a hot topic.",
+      "version": "gold"
+    },
+    {
+      "text": "Its fin-tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine.",
+      "version": "silver"
+    },
+    {
+      "text": "The male raises the young. If it is approached, it uses its toxic spikes to fend off the intruder.",
+      "version": "crystal"
+    },
+    {
+      "text": "SEADRA sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this POKéMON’s poison barbs if they fail to notice it.",
+      "version": "ruby"
+    },
+    {
+      "text": "SEADRA generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This POKéMON weakens prey with these currents, then swallows it whole.",
+      "version": "sapphire"
+    },
+    {
+      "text": "The poisonous barbs all over its body are highly valued as ingredients for making traditional herbal medicine. It shows no mercy to anything approaching its nest.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
+      "version": "firered"
+    },
+    {
+      "text": "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+      "version": "platinum"
+    },
+    {
+      "text": "An examination of its cells revealed the presence of a gene not found in HORSEA. It became a hot topic.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its fin-tips leak poison. Its fins and bones are highly valued as ingredients in herbal medicine.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+      "version": "black"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional medicine ingredients.",
+      "version": "white"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional-medicine ingredients.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its spines provide protection. Its fins and bones are prized as traditional-medicine ingredients.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes.",
+      "version": "x"
+    },
+    {
+      "text": "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+      "version": "y"
+    },
+    {
+      "text": "Seadra sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this Pokémon’s poison barbs if they fail to notice it.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokémon weakens prey with these currents, then swallows it whole.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It’s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
+      "version": "sword"
+    },
+    {
+      "text": "Seadra’s mouth is slender, but its suction power is strong. In an instant, Seadra can suck in food that’s larger than the opening of its mouth.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "horsea",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "horsea",
+      "to": "seadra",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "dragon-scale"
+      },
+      "from": "seadra",
+      "to": "kingdra",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "sniper"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/seadra.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          }
+        ],
+        "blue": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "whirl-islands-1f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b3f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b3f",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 45,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "firered": [
+          {
+            "chance": 4,
+            "location": "bond-bridge-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "cinnabar-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "five-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "green-path-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "icefall-cave-waterfall",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "kindle-road-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "memorial-pillar-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "one-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "outcast-island-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "pallet-town-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "resort-gorgeous-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "tanoby-ruins-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "trainer-tower-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "treasure-beach-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "water-labyrinth-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "water-path-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "whirl-islands-1f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-b3f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 15,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-1f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld-water",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld-water",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld-water",
+            "minLevel": 33
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld-water",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld-water",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld-water",
+            "minLevel": 33
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 45,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 45,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "red": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-23-area",
+            "maxLevel": 23,
+            "method": "super-rod",
+            "minLevel": 23
+          },
+          {
+            "chance": 1,
+            "location": "seafoam-islands-b1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "seafoam-islands-b3f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "whirl-islands-1f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-b3f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 15,
+            "location": "seafoam-islands-b4f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "whirl-islands-1f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "whirl-islands-b2f",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-17-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "p2-laboratory-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-17-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-18-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 5,
+            "location": "ambrette-town-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "cyllage-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "ambrette-town-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "cyllage-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 30,
+            "location": "kanto-route-12-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 20,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "seadra",
+      "kind": "default",
+      "name": "Seadra",
+      "number": 117,
+      "pokemon": "seadra",
+      "sourceId": 117,
+      "sprite": "/dex-images/sprites/seadra.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 65,
+        "defense": 95,
+        "hp": 55,
+        "special-attack": 95,
+        "special-defense": 45,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 250
+    }
+  ],
+  "generation": 1,
+  "key": "seadra",
+  "name": "Seadra",
+  "names": {
+    "de": "Seemon",
+    "en": "Seadra",
+    "es": "Seadra",
+    "es-419": "Seadra",
+    "fr": "Hypocéan",
+    "it": "Seadra",
+    "ja": "シードラ",
+    "ja-hrkt": "シードラ",
+    "ja-roma": "Seadra",
+    "ko": "시드라",
+    "zh-hans": "海刺龙",
+    "zh-hant": "海刺龍"
+  },
+  "number": 117
+}

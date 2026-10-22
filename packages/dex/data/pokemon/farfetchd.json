@@ -1,0 +1,609 @@
+{
+  "category": "Wild Duck Pokémon",
+  "entries": [
+    {
+      "text": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+      "version": "red"
+    },
+    {
+      "text": "The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
+      "version": "blue"
+    },
+    {
+      "text": "Lives where reedy plants grow. They are rarely seen, so it's thought their numbers are decreasing.",
+      "version": "yellow"
+    },
+    {
+      "text": "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them.",
+      "version": "gold"
+    },
+    {
+      "text": "If it eats the plant stick it carries as emer gency rations, it runs off in search of a new stick.",
+      "version": "silver"
+    },
+    {
+      "text": "In order to prevent their extinction, more people have made an effort to breed these POKéMON.",
+      "version": "crystal"
+    },
+    {
+      "text": "FARFETCH’D is always seen with a stick from a plant of some sort. Apparently, there are good sticks and bad sticks. This POKéMON has been known to fight with others over sticks.",
+      "version": "ruby"
+    },
+    {
+      "text": "FARFETCH’D is always seen with a stick from a plant of some sort. Apparently, there are good sticks and bad sticks. This POKéMON has been known to fight with others over sticks.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is always seen with a stick from a plant. Apparently, there are good sticks and bad sticks. This POKéMON occasionally fights with others over choice sticks.",
+      "version": "emerald"
+    },
+    {
+      "text": "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
+      "version": "firered"
+    },
+    {
+      "text": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "diamond"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "platinum"
+    },
+    {
+      "text": "If anyone tries to disturb where the essential plant stalks grow, it uses its own stalk to thwart them.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If it eats the plant stalk it carries as emergency rations, it runs off in search of a new stalk.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "black"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "white"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "black-2"
+    },
+    {
+      "text": "It can’t live without the stalk it holds. That’s why it defends the stalk from attackers with its life.",
+      "version": "white-2"
+    },
+    {
+      "text": "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+      "version": "x"
+    },
+    {
+      "text": "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
+      "version": "y"
+    },
+    {
+      "text": "Farfetch’d is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Farfetch’d is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They live where reedy plants grow. Farfetch’d are rarely seen, so it’s thought their numbers are decreasing.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "They live where reedy plants grow. Farfetch’d are rarely seen, so it’s thought their numbers are decreasing.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+      "version": "sword"
+    },
+    {
+      "text": "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "farfetchd",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "required_pokemon_form": "farfetchd-galar"
+      },
+      "from": "farfetchd",
+      "to": "sirfetchd",
+      "trigger": "three-critical-hits"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/farfetchd.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 100,
+            "location": "vermilion-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 3
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 40,
+            "location": "johto-route-43-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "vermilion-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-47-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-48-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "vermilion-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "red": [
+          {
+            "chance": 100,
+            "location": "vermilion-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 3
+          }
+        ],
+        "silver": [
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-47-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-48-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 70,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "isle-of-armor-caves-area",
+            "maxLevel": 15,
+            "method": "npc-trade",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 26
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-1f",
+            "maxLevel": 36,
+            "method": "snag",
+            "minLevel": 36
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-flying",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 26
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 1,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "farfetchd",
+      "kind": "default",
+      "name": "Farfetch’d",
+      "number": 83,
+      "pokemon": "farfetchd",
+      "sourceId": 83,
+      "sprite": "/dex-images/sprites/farfetchd.webp",
+      "statTotal": 377,
+      "stats": {
+        "attack": 90,
+        "defense": 55,
+        "hp": 52,
+        "special-attack": 58,
+        "special-defense": 62,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 150
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "steadfast"
+        },
+        {
+          "hidden": true,
+          "key": "scrappy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/farfetchd-galar.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 20,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ]
+      },
+      "formName": "Galarian Form",
+      "games": ["sword-shield"],
+      "gen9": false,
+      "generation": 8,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "farfetchd-galar",
+      "kind": "regional",
+      "name": "Farfetch’d-Galar",
+      "number": 83,
+      "pokemon": "farfetchd",
+      "sourceId": 10166,
+      "sprite": "/dex-images/sprites/farfetchd-galar.webp",
+      "statTotal": 377,
+      "stats": {
+        "attack": 95,
+        "defense": 55,
+        "hp": 52,
+        "special-attack": 58,
+        "special-defense": 62,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 420
+    }
+  ],
+  "generation": 1,
+  "key": "farfetchd",
+  "name": "Farfetch’d",
+  "names": {
+    "de": "Porenta",
+    "en": "Farfetch’d",
+    "es": "Farfetch’d",
+    "es-419": "Farfetch’d",
+    "fr": "Canarticho",
+    "it": "Farfetch’d",
+    "ja": "カモネギ",
+    "ja-hrkt": "カモネギ",
+    "ja-roma": "Kamonegi",
+    "ko": "파오리",
+    "zh-hans": "大葱鸭",
+    "zh-hant": "大蔥鴨"
+  },
+  "number": 83
+}

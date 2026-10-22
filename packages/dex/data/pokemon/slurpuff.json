@@ -1,0 +1,135 @@
+{
+  "category": "Meringue Pokémon",
+  "entries": [
+    {
+      "text": "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+      "version": "x"
+    },
+    {
+      "text": "Its sense of smell is 100 million times better than a human’s, so even the faintest scent tells it about everything in the area. It’s like it can see with its nose!",
+      "version": "y"
+    },
+    {
+      "text": "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its sense of smell is 100 million times better than a human’s, so even the faintest scent tells it about everything in the area. It’s like it can see with its nose!",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "By taking in a person’s scent, it can sniff out their mental and physical condition. It’s hoped that this skill will have many medical applications.",
+      "version": "sword"
+    },
+    {
+      "text": "Slurpuff’s fur contains a lot of air, making it soft to the touch and lighter than it looks.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "swirlix",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "whipped-dream"
+      },
+      "from": "swirlix",
+      "to": "slurpuff",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sweet-veil"
+        },
+        {
+          "hidden": true,
+          "key": "unburden"
+        }
+      ],
+      "artwork": "/dex-images/artwork/slurpuff.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "slurpuff",
+      "kind": "default",
+      "name": "Slurpuff",
+      "number": 685,
+      "pokemon": "slurpuff",
+      "sourceId": 685,
+      "sprite": "/dex-images/sprites/slurpuff.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 80,
+        "defense": 86,
+        "hp": 82,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 72
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 50
+    }
+  ],
+  "generation": 6,
+  "key": "slurpuff",
+  "name": "Slurpuff",
+  "names": {
+    "de": "Sabbaione",
+    "en": "Slurpuff",
+    "es": "Slurpuff",
+    "es-419": "Slurpuff",
+    "fr": "Cupcanaille",
+    "it": "Slurpuff",
+    "ja": "ペロリーム",
+    "ja-hrkt": "ペロリーム",
+    "ja-roma": "Peroream",
+    "ko": "나루림",
+    "zh-hans": "胖甜妮",
+    "zh-hant": "胖甜妮"
+  },
+  "number": 685
+}

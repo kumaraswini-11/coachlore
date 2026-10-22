@@ -1,0 +1,241 @@
+{
+  "category": "Sand Snake Pokémon",
+  "entries": [
+    {
+      "text": "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand.",
+      "version": "sword"
+    },
+    {
+      "text": "It spews sand from its nostrils. While the enemy is blinded, it burrows into the ground to hide.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "silicobra",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "silicobra",
+      "to": "sandaconda",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-spit"
+        },
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        },
+        {
+          "hidden": true,
+          "key": "sand-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/silicobra.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-6-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-6-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 70,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 40,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 50,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 50,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "scarlet-violet"],
+      "gen9": true,
+      "generation": 8,
+      "height": 22,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "silicobra",
+      "kind": "default",
+      "name": "Silicobra",
+      "number": 843,
+      "pokemon": "silicobra",
+      "sourceId": 843,
+      "sprite": "/dex-images/sprites/silicobra.webp",
+      "statTotal": 315,
+      "stats": {
+        "attack": 57,
+        "defense": 75,
+        "hp": 52,
+        "special-attack": 35,
+        "special-defense": 50,
+        "speed": 46
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 76
+    }
+  ],
+  "generation": 8,
+  "key": "silicobra",
+  "name": "Silicobra",
+  "names": {
+    "de": "Salanga",
+    "en": "Silicobra",
+    "es": "Silicobra",
+    "es-419": "Silicobra",
+    "fr": "Dunaja",
+    "it": "Silicobra",
+    "ja": "スナヘビ",
+    "ja-hrkt": "スナヘビ",
+    "ja-roma": "Sunahebi",
+    "ko": "모래뱀",
+    "zh-hans": "沙包蛇",
+    "zh-hant": "沙包蛇"
+  },
+  "number": 843
+}

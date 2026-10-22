@@ -1,0 +1,3829 @@
+{
+  "category": "Hostile Pokémon",
+  "entries": [
+    {
+      "text": "Red and blue Basculin get along so poorly, they’ll start fighting instantly. These Pokémon are very hostile.",
+      "version": "black"
+    },
+    {
+      "text": "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other’s school.",
+      "version": "white"
+    },
+    {
+      "text": "Red- and blue-striped Basculin are very violent and always fighting. They are also remarkably tasty.",
+      "version": "black-2"
+    },
+    {
+      "text": "Red- and blue-striped Basculin are very violent and always fighting. They are also remarkably tasty.",
+      "version": "white-2"
+    },
+    {
+      "text": "Red- and blue-striped Basculin are very violent and always fighting. They are also remarkably tasty.",
+      "version": "x"
+    },
+    {
+      "text": "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other’s school.",
+      "version": "y"
+    },
+    {
+      "text": "Red- and blue-striped Basculin are very violent and always fighting. They are also remarkably tasty.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other’s school.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Savage, violent Pokémon, red and blue Basculin are always fighting each other over territory.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When a school of Basculin appears in a lake, everything else disappears, except for Corphish and Crawdaunt. That’s how violent Basculin are.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Anglers love the fight this Pokémon puts up on the hook. And there are always more to catch— many people release them into lakes illicitly.",
+      "version": "sword"
+    },
+    {
+      "text": "In the past, it often appeared on the dinner table. The meat of red-striped Basculin is on the fatty side, and it’s more popular with the youth.",
+      "version": "shield"
+    },
+    {
+      "text": "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "basculin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "basculegion-male",
+        "gender": 2,
+        "min_damage_taken": 294,
+        "required_pokemon_form": "basculin-white-striped"
+      },
+      "from": "basculin",
+      "to": "basculegion",
+      "trigger": "recoil-damage"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "basculegion-female",
+        "gender": 1,
+        "min_damage_taken": 294,
+        "required_pokemon_form": "basculin-white-striped"
+      },
+      "from": "basculin",
+      "to": "basculegion",
+      "trigger": "recoil-damage"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "reckless"
+        },
+        {
+          "hidden": false,
+          "key": "adaptability"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/basculin-red-striped.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 140,
+            "location": "village-bridge-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "village-bridge-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "humilau-city-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 110,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 110,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "undella-town-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-20-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-22-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-22-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-23-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-6-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "village-bridge-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          }
+        ],
+        "shield": [
+          {
+            "chance": 10,
+            "location": "hulbury-area",
+            "maxLevel": 24,
+            "method": "bubbling-spots",
+            "minLevel": 20
+          }
+        ],
+        "sword": [
+          {
+            "chance": 110,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "hulbury-area",
+            "maxLevel": 24,
+            "method": "bubbling-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 110,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 860,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 860,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 4,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 196,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 196,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "ballimere-lake-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "frigid-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 268,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 268,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 210,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 210,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "giants-foot-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 190,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-south",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-south",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "malie-garden-area",
+            "maxLevel": 33,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 51,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 46,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-north",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-south",
+            "maxLevel": 21,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "brooklet-hill-south",
+            "maxLevel": 16,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "malie-garden-area",
+            "maxLevel": 33,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 51,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 46,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 70,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 155,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 155,
+            "location": "unova-route-1-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 135,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 135,
+            "location": "village-bridge-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 75,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "abundant-shrine-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "humilau-city-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 75,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 130,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 130,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "undella-town-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "unova-route-20-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 105,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-22-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-22-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-23-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-6-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-6-area",
+            "maxLevel": 35,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "village-bridge-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "couriway-town-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-313",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-15-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "kalos-route-21-area",
+            "maxLevel": 40,
+            "method": "good-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 95,
+            "location": "kalos-route-21-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 35,
+            "location": "kalos-victory-road-outside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "laverre-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 65,
+            "location": "couriway-town-area",
+            "maxLevel": 35,
+            "method": "good-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "frost-cavern-unknown-area-313",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 65,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 65,
+            "location": "kalos-route-15-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "kalos-route-16-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "kalos-route-21-area",
+            "maxLevel": 40,
+            "method": "good-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 95,
+            "location": "kalos-route-21-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-outside",
+            "maxLevel": 45,
+            "method": "good-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 45,
+            "method": "good-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 45,
+            "method": "good-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "laverre-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "pokemon-village-area",
+            "maxLevel": 40,
+            "method": "good-rod",
+            "minLevel": 40
+          }
+        ]
+      },
+      "formName": "Red-Striped Form",
+      "games": ["black-white", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "basculin-red-striped",
+      "kind": "default",
+      "name": "Basculin",
+      "number": 550,
+      "pokemon": "basculin",
+      "sourceId": 550,
+      "sprite": "/dex-images/sprites/basculin-red-striped.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 92,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 80,
+        "special-defense": 55,
+        "speed": 98
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 180
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": false,
+          "key": "adaptability"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/basculin-blue-striped.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 70,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 155,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 155,
+            "location": "unova-route-1-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 135,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 135,
+            "location": "village-bridge-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 75,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "abundant-shrine-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 105,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "giant-chasm-area",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "humilau-city-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 75,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 130,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 130,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "undella-town-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-14-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 105,
+            "location": "unova-route-20-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 105,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-22-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-22-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-23-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-6-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-6-area",
+            "maxLevel": 30,
+            "method": "surf-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 75,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 70,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "village-bridge-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          }
+        ],
+        "shield": [
+          {
+            "chance": 110,
+            "location": "bridge-field-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "lake-of-outrage-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 860,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 860,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 4,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 14
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 196,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 196,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "ballimere-lake-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "frigid-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 268,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 268,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 210,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 210,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "giants-foot-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 190,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "bubbling-spots",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 20,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "striaton-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-3-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 20
+          },
+          {
+            "chance": 140,
+            "location": "village-bridge-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "village-bridge-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "abundant-shrine-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "aspertia-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "giant-chasm-area",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "humilau-city-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 110,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 110,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "undella-town-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 195,
+            "location": "unova-route-1-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-14-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 140,
+            "location": "unova-route-19-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-20-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-20-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 5
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-22-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-22-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-23-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-23-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-6-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-route-6-area",
+            "maxLevel": 30,
+            "method": "surf",
+            "minLevel": 10
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 50,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 110,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 110,
+            "location": "village-bridge-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 50
+          },
+          {
+            "chance": 140,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          }
+        ],
+        "x": [
+          {
+            "chance": 65,
+            "location": "couriway-town-area",
+            "maxLevel": 35,
+            "method": "good-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "frost-cavern-unknown-area-313",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 65,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 65,
+            "location": "kalos-route-15-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "kalos-route-16-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-outside",
+            "maxLevel": 45,
+            "method": "good-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 45,
+            "method": "good-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 45,
+            "method": "good-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "laverre-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 65,
+            "location": "pokemon-village-area",
+            "maxLevel": 40,
+            "method": "good-rod",
+            "minLevel": 40
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "couriway-town-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-313",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-15-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-16-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "kalos-victory-road-outside",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "laverre-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ]
+      },
+      "formName": "Blue-Striped Form",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "basculin-blue-striped",
+      "kind": "other",
+      "name": "Basculin-Blue-Striped",
+      "number": 550,
+      "pokemon": "basculin",
+      "sourceId": 10016,
+      "sprite": "/dex-images/sprites/basculin-blue-striped.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 92,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 80,
+        "special-defense": 55,
+        "speed": 98
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 180
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rattled"
+        },
+        {
+          "hidden": false,
+          "key": "adaptability"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/basculin-white-striped.webp",
+      "encounters": {},
+      "formName": "White-Striped Form",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "basculin-white-striped",
+      "kind": "other",
+      "name": "Basculin-White-Striped",
+      "number": 550,
+      "pokemon": "basculin",
+      "sourceId": 10247,
+      "sprite": "/dex-images/sprites/basculin-white-striped.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 92,
+        "defense": 65,
+        "hp": 70,
+        "special-attack": 80,
+        "special-defense": 55,
+        "speed": 98
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 180
+    }
+  ],
+  "generation": 5,
+  "key": "basculin",
+  "name": "Basculin",
+  "names": {
+    "de": "Barschuft",
+    "en": "Basculin",
+    "es": "Basculin",
+    "es-419": "Basculin",
+    "fr": "Bargantua",
+    "it": "Basculin",
+    "ja": "バスラオ",
+    "ja-hrkt": "バスラオ",
+    "ja-roma": "Bassrao",
+    "ko": "배쓰나이",
+    "zh-hans": "野蛮鲈鱼",
+    "zh-hant": "野蠻鱸魚"
+  },
+  "number": 550
+}

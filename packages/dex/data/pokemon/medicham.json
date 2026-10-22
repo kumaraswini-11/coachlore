@@ -1,0 +1,582 @@
+{
+  "category": "Meditate Pokémon",
+  "entries": [
+    {
+      "text": "It is said that through meditation, MEDICHAM heightens energy inside its body and sharpens its sixth sense. This POKéMON hides its presence by merging itself with fields and mountains.",
+      "version": "ruby"
+    },
+    {
+      "text": "Through the power of meditation, MEDICHAM developed its sixth sense. It gained the ability to use psychokinetic powers. This POKéMON is known to meditate for a whole month without eating.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Through crushingly harsh yoga training, it gained the power to foretell its foe’s actions. It battles with elegant, dance- like movement.",
+      "version": "emerald"
+    },
+    {
+      "text": "It elegantly avoids attacks with dance- like steps, then launches a devastating blow in the same motion.",
+      "version": "firered"
+    },
+    {
+      "text": "It elegantly avoids attacks with dance- like steps, then launches a devastating blow in the same motion.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Through yoga training, it has honed its sixth sense. Its movements are elegant.",
+      "version": "diamond"
+    },
+    {
+      "text": "Through daily meditation, it hones its spiritual power. It can sense what others are thinking.",
+      "version": "pearl"
+    },
+    {
+      "text": "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
+      "version": "platinum"
+    },
+    {
+      "text": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
+      "version": "black"
+    },
+    {
+      "text": "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
+      "version": "white"
+    },
+    {
+      "text": "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
+      "version": "black-2"
+    },
+    {
+      "text": "It gains the ability to see the aura of its opponents by honing its mind through starvation.",
+      "version": "white-2"
+    },
+    {
+      "text": "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
+      "version": "x"
+    },
+    {
+      "text": "Through yoga training, it gained the psychic power to predict its foe’s next move.",
+      "version": "y"
+    },
+    {
+      "text": "It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Through the power of meditation, Medicham developed its sixth sense. It gained the ability to use psychokinetic powers. This Pokémon is known to meditate for a whole month without eating.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "meditite",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "meditite",
+      "to": "medicham",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pure-power"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/medicham.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-hidden-grotto-outer-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 52,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-3f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-4f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-5f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-6f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 52,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 52,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-3f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-4f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-5f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-6f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 52,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-2f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-inside",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-inside-b1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-victory-road-inside-exit",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 30,
+            "location": "mt-coronet-1f-from-exterior",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-2f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 31,
+            "location": "mt-coronet-3f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-4f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-5f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-6f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-victory-road-b2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-victory-road-b2f",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 75,
+            "location": "pinwheel-forest-hidden-grotto-outer-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "x-y", "omega-ruby-alpha-sapphire", "brilliant-diamond-shining-pearl", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "medicham",
+      "kind": "default",
+      "name": "Medicham",
+      "number": 308,
+      "pokemon": "medicham",
+      "sourceId": 308,
+      "sprite": "/dex-images/sprites/medicham.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 60,
+        "defense": 75,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 75,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["fighting", "psychic"],
+      "weight": 315
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pure-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/medicham-mega.webp",
+      "encounters": {},
+      "formName": "Mega Medicham",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 13,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "medicham-mega",
+      "kind": "mega",
+      "name": "Medicham-Mega",
+      "number": 308,
+      "pokemon": "medicham",
+      "sourceId": 10054,
+      "sprite": "/dex-images/sprites/medicham-mega.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 100,
+        "defense": 85,
+        "hp": 60,
+        "special-attack": 80,
+        "special-defense": 85,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fighting", "psychic"],
+      "weight": 315
+    }
+  ],
+  "generation": 3,
+  "key": "medicham",
+  "name": "Medicham",
+  "names": {
+    "de": "Meditalis",
+    "en": "Medicham",
+    "es": "Medicham",
+    "es-419": "Medicham",
+    "fr": "Charmina",
+    "it": "Medicham",
+    "ja": "チャーレム",
+    "ja-hrkt": "チャーレム",
+    "ja-roma": "Charem",
+    "ko": "요가램",
+    "zh-hans": "恰雷姆",
+    "zh-hant": "恰雷姆"
+  },
+  "number": 308
+}

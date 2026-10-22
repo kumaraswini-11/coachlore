@@ -1,0 +1,611 @@
+{
+  "category": "Cave Pokémon",
+  "entries": [
+    {
+      "text": "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+      "version": "black"
+    },
+    {
+      "text": "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+      "version": "white"
+    },
+    {
+      "text": "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+      "version": "black-2"
+    },
+    {
+      "text": "It runs through the narrow tunnels formed by Excadrill and Onix. It uses its sharp claws to catch prey.",
+      "version": "white-2"
+    },
+    {
+      "text": "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+      "version": "x"
+    },
+    {
+      "text": "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+      "version": "y"
+    },
+    {
+      "text": "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The red skin on its face is harder than rock. In narrow caves, it squares off against its enemies and charges face-first right into them.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It infiltrates tunnels that Pokémon like Diglett and Dugtrio have dug and quietly waits for prey to pass through.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Druddigon lives in caves, but it never skips sunbathing—it won’t be able to move if its body gets too cold.",
+      "version": "sword"
+    },
+    {
+      "text": "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "druddigon",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rough-skin"
+        },
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/druddigon.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 15,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 66
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-77",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-80",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 125,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 120,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 120,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 125,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 10,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 125,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 125,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 120,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 120,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 125,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 220,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 10,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 125,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 190,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 190,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 190,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 190,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 15,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 66
+          },
+          {
+            "chance": 10,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-77",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 80,
+            "location": "unova-victory-road-2-unknown-area-80",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dragon",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-322",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-324",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-326",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 5,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "druddigon",
+      "kind": "default",
+      "name": "Druddigon",
+      "number": 621,
+      "pokemon": "druddigon",
+      "sourceId": 621,
+      "sprite": "/dex-images/sprites/druddigon.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 120,
+        "defense": 90,
+        "hp": 77,
+        "special-attack": 60,
+        "special-defense": 90,
+        "speed": 48
+      },
+      "tags": [],
+      "types": ["dragon"],
+      "weight": 1390
+    }
+  ],
+  "generation": 5,
+  "key": "druddigon",
+  "name": "Druddigon",
+  "names": {
+    "de": "Shardrago",
+    "en": "Druddigon",
+    "es": "Druddigon",
+    "es-419": "Druddigon",
+    "fr": "Drakkarmin",
+    "it": "Druddigon",
+    "ja": "クリムガン",
+    "ja-hrkt": "クリムガン",
+    "ja-roma": "Crimgan",
+    "ko": "크리만",
+    "zh-hans": "赤面龙",
+    "zh-hant": "赤面龍"
+  },
+  "number": 621
+}

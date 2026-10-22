@@ -1,0 +1,243 @@
+{
+  "category": "Generator Pokémon",
+  "entries": [
+    {
+      "text": "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+      "version": "x"
+    },
+    {
+      "text": "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+      "version": "y"
+    },
+    {
+      "text": "They make their home in deserts. They can generate their energy from basking in the sun, so eating food is not a requirement.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon’s electric moves.",
+      "version": "sword"
+    },
+    {
+      "text": "The sun powers this Pokémon’s electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "helioptile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "helioptile",
+      "to": "heliolisk",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dry-skin"
+        },
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "solar-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/helioptile.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 20,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 29,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 80,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 29,
+            "location": "galar-route-6-area",
+            "maxLevel": 33,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 80,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-9-area",
+            "maxLevel": 17,
+            "method": "rough-terrain",
+            "minLevel": 15
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-9-area",
+            "maxLevel": 17,
+            "method": "rough-terrain",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "helioptile",
+      "kind": "default",
+      "name": "Helioptile",
+      "number": 694,
+      "pokemon": "helioptile",
+      "sourceId": 694,
+      "sprite": "/dex-images/sprites/helioptile.webp",
+      "statTotal": 289,
+      "stats": {
+        "attack": 38,
+        "defense": 33,
+        "hp": 44,
+        "special-attack": 61,
+        "special-defense": 43,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["electric", "normal"],
+      "weight": 60
+    }
+  ],
+  "generation": 6,
+  "key": "helioptile",
+  "name": "Helioptile",
+  "names": {
+    "de": "Eguana",
+    "en": "Helioptile",
+    "es": "Helioptile",
+    "es-419": "Helioptile",
+    "fr": "Galvaran",
+    "it": "Helioptile",
+    "ja": "エリキテル",
+    "ja-hrkt": "エリキテル",
+    "ja-roma": "Erikiteru",
+    "ko": "목도리키텔",
+    "zh-hans": "伞电蜥",
+    "zh-hant": "傘電蜥"
+  },
+  "number": 694
+}

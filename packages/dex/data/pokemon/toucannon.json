@@ -1,0 +1,197 @@
+{
+  "category": "Cannon Pokémon",
+  "entries": [
+    {
+      "text": "When it battles, its beak heats up. The temperature can easily exceed 212 degrees Fahrenheit, causing severe burns when it hits.",
+      "version": "sun"
+    },
+    {
+      "text": "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
+      "version": "moon"
+    },
+    {
+      "text": "They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Known for forming harmonious couples, this Pokémon is brought to wedding ceremonies as a good luck charm.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pikipek",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "pikipek",
+      "to": "trumbeak",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "trumbeak",
+      "to": "toucannon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "skill-link"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toucannon.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "sos",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "sos",
+            "minLevel": 26
+          },
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          },
+          {
+            "chance": 15,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "toucannon",
+      "kind": "default",
+      "name": "Toucannon",
+      "number": 733,
+      "pokemon": "toucannon",
+      "sourceId": 733,
+      "sprite": "/dex-images/sprites/toucannon.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 120,
+        "defense": 75,
+        "hp": 80,
+        "special-attack": 75,
+        "special-defense": 75,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 260
+    }
+  ],
+  "generation": 7,
+  "key": "toucannon",
+  "name": "Toucannon",
+  "names": {
+    "de": "Tukanon",
+    "en": "Toucannon",
+    "es": "Toucannon",
+    "es-419": "Toucannon",
+    "fr": "Bazoucan",
+    "it": "Toucannon",
+    "ja": "ドデカバシ",
+    "ja-hrkt": "ドデカバシ",
+    "ja-roma": "Dodekabashi",
+    "ko": "왕큰부리",
+    "zh-hans": "铳嘴大鸟",
+    "zh-hant": "銃嘴大鳥"
+  },
+  "number": 733
+}

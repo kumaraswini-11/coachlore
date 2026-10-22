@@ -1,0 +1,1981 @@
+{
+  "category": "Mouse Pokémon",
+  "entries": [
+    {
+      "text": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
+      "version": "red"
+    },
+    {
+      "text": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
+      "version": "blue"
+    },
+    {
+      "text": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+      "version": "yellow"
+    },
+    {
+      "text": "Gnaws on anything with its tough fangs. It can even topple concrete buildings by gnawing on them.",
+      "version": "gold"
+    },
+    {
+      "text": "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down.",
+      "version": "silver"
+    },
+    {
+      "text": "The webs on its hind legs enable it to cross rivers. It searches wide areas for food.",
+      "version": "crystal"
+    },
+    {
+      "text": "RATICATE’s sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+      "version": "ruby"
+    },
+    {
+      "text": "RATICATE’s sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A RATICATE’s sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its rear feet have three toes each. They are webbed, enabling it to swim across rivers.",
+      "version": "firered"
+    },
+    {
+      "text": "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+      "version": "diamond"
+    },
+    {
+      "text": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+      "version": "pearl"
+    },
+    {
+      "text": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+      "version": "platinum"
+    },
+    {
+      "text": "Gnaws on anything with its tough fangs. It can even topple concrete buildings by gnawing on them.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+      "version": "black"
+    },
+    {
+      "text": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+      "version": "white"
+    },
+    {
+      "text": "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
+      "version": "black-2"
+    },
+    {
+      "text": "With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.",
+      "version": "white-2"
+    },
+    {
+      "text": "It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls.",
+      "version": "x"
+    },
+    {
+      "text": "The webs on its hind legs enable it to cross rivers. It searches wide areas for food.",
+      "version": "y"
+    },
+    {
+      "text": "Raticate’s sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Raticate’s sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its hind feet are webbed, so it’s a strong swimmer. It can cross rivers and sometimes even oceans.",
+      "version": "sun"
+    },
+    {
+      "text": "Its disposition is far more violent than its looks would suggest. Don’t let your hand get too close to its face, as it could bite your hand clean off.",
+      "version": "moon"
+    },
+    {
+      "text": "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rattata",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "rattata",
+      "to": "raticate",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "raticate-alola",
+        "min_level": 20,
+        "required_pokemon_form": "rattata-alola",
+        "time_of_day": "night"
+      },
+      "from": "rattata",
+      "to": "raticate",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "guts"
+        },
+        {
+          "hidden": true,
+          "key": "hustle"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raticate.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 48,
+            "method": "dark-grass",
+            "minLevel": 48
+          },
+          {
+            "chance": 35,
+            "location": "dreamyard-b1f",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 47
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "dreamyard-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "dreamyard-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 25,
+            "location": "dreamyard-b1f",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 10,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "strange-house-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 15,
+            "location": "strange-house-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "blue": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "johto-route-42-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-1-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-11-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-3-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-4-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-6-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-7-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-9-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "mt-mortar-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 15,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "mt-mortar-lower-cave",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 40,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b2f",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 30,
+            "location": "sinnoh-route-225-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-39-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-10-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 49,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 110,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-39-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "johto-route-47-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-10-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-7-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 45,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 5,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-7-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-8-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-9-area",
+            "maxLevel": 22,
+            "method": "overworld",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-7-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-8-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-9-area",
+            "maxLevel": 22,
+            "method": "overworld",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 30,
+            "location": "sinnoh-route-225-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-225-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "red": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-17-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-18-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 90,
+            "location": "johto-route-39-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 65,
+            "location": "kanto-route-10-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 139,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-7-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "burned-tower-1f",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-39-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "johto-route-47-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-10-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "kanto-route-26-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-7-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 5,
+            "location": "mt-mortar-b1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "mt-mortar-upper-cave",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "tohjo-falls-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b2f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 48,
+            "method": "dark-grass",
+            "minLevel": 48
+          },
+          {
+            "chance": 35,
+            "location": "dreamyard-b1f",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 47
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "dreamyard-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "dreamyard-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 25,
+            "location": "dreamyard-b1f",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 10,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "strange-house-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 15,
+            "location": "strange-house-b1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-1f",
+            "maxLevel": 34,
+            "method": "snag",
+            "minLevel": 34
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "kanto-route-10-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-11-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-18-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 4,
+            "location": "kanto-route-9-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 30,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "black-2-white-2", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "raticate",
+      "kind": "default",
+      "name": "Raticate",
+      "number": 20,
+      "pokemon": "raticate",
+      "sourceId": 20,
+      "sprite": "/dex-images/sprites/raticate.webp",
+      "statTotal": 413,
+      "stats": {
+        "attack": 81,
+        "defense": 60,
+        "hp": 55,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 97
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 185
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/raticate-alola.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 30,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 30,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "sun": [
+          {
+            "chance": 30,
+            "location": "akala-outskirts-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 30,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 30,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-16-east",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-west",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "sos",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-16-east",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-16-west",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-northeast",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "sos",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-east",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 10,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 30,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "raticate-alola",
+      "kind": "regional",
+      "name": "Raticate-Alola",
+      "number": 20,
+      "pokemon": "raticate",
+      "sourceId": 10092,
+      "sprite": "/dex-images/sprites/raticate-alola.webp",
+      "statTotal": 413,
+      "stats": {
+        "attack": 71,
+        "defense": 70,
+        "hp": 75,
+        "special-attack": 40,
+        "special-defense": 80,
+        "speed": 77
+      },
+      "tags": [],
+      "types": ["dark", "normal"],
+      "weight": 255
+    }
+  ],
+  "generation": 1,
+  "key": "raticate",
+  "name": "Raticate",
+  "names": {
+    "de": "Rattikarl",
+    "en": "Raticate",
+    "es": "Raticate",
+    "es-419": "Raticate",
+    "fr": "Rattatac",
+    "it": "Raticate",
+    "ja": "ラッタ",
+    "ja-hrkt": "ラッタ",
+    "ja-roma": "Ratta",
+    "ko": "레트라",
+    "zh-hans": "拉达",
+    "zh-hant": "拉達"
+  },
+  "number": 20
+}

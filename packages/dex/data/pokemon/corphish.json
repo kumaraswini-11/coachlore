@@ -1,0 +1,762 @@
+{
+  "category": "Ruffian Pokémon",
+  "entries": [
+    {
+      "text": "CORPHISH were originally foreign POKéMON that were imported as pets. They eventually turned up in the wild. This POKéMON is very hardy and has greatly increased its population.",
+      "version": "ruby"
+    },
+    {
+      "text": "CORPHISH catches prey with its sharp claws. It has no likes or dislikes when it comes to food - it will eat anything. This POKéMON has no trouble living in filthy water.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Once it grips prey with its large pincers, it will never let go, no matter what. It is a hardy POKéMON that can thrive in any environment.",
+      "version": "emerald"
+    },
+    {
+      "text": "It came from overseas. It is a very hardy creature that will quickly proliferate, even in polluted streams.",
+      "version": "firered"
+    },
+    {
+      "text": "It came from overseas. It is a very hardy creature that will quickly proliferate, even in polluted streams.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+      "version": "platinum"
+    },
+    {
+      "text": "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+      "version": "black"
+    },
+    {
+      "text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+      "version": "white"
+    },
+    {
+      "text": "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+      "version": "black-2"
+    },
+    {
+      "text": "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+      "version": "white-2"
+    },
+    {
+      "text": "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+      "version": "x"
+    },
+    {
+      "text": "Its hardy vitality enables it to adapt to any environment. Its pincers will never release prey.",
+      "version": "y"
+    },
+    {
+      "text": "Corphish were originally foreign Pokémon that were imported as pets. They eventually turned up in the wild. This Pokémon is very hardy and has greatly increased its population.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Corphish catches prey with its sharp claws. It has no likes or dislikes when it comes to food—it will eat anything. This Pokémon has no trouble living in filthy water.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Individuals that have been set free by Trainers who could no longer raise them have become common, and they can now be found in Alola.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It can adapt very well to its environment. Feebas and Corphish are about the only Pokémon to live in stagnant ditches.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+      "version": "sword"
+    },
+    {
+      "text": "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "corphish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "corphish",
+      "to": "crawdaunt",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hyper-cutter"
+        },
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "adaptability"
+        }
+      ],
+      "artwork": "/dex-images/artwork/corphish.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "celestic-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 120,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "petalburg-city-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "petalburg-city-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 48,
+            "method": "super-rod",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 28,
+            "method": "good-rod",
+            "minLevel": 26
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "celestic-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "celestic-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 120,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "petalburg-city-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "petalburg-city-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 120,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-102-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-117-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "petalburg-city-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "petalburg-city-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 24,
+            "method": "bubbling-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 52,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 540,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 540,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 48,
+            "method": "super-rod",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 28,
+            "method": "good-rod",
+            "minLevel": 26
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "galar-mine-no-2-area",
+            "maxLevel": 24,
+            "method": "bubbling-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 52,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 540,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 540,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 90,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 210,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 210,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 100,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 90,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 230,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 230,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 230,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 140,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 140,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 40,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 51,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 46,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 40,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 51,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "vast-poni-canyon-northwest",
+            "maxLevel": 46,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "striaton-city-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf",
+            "minLevel": 45
+          },
+          {
+            "chance": 90,
+            "location": "unova-route-3-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 45
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-3-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "parfum-palace-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-3-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "parfum-palace-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "corphish",
+      "kind": "default",
+      "name": "Corphish",
+      "number": 341,
+      "pokemon": "corphish",
+      "sourceId": 341,
+      "sprite": "/dex-images/sprites/corphish.webp",
+      "statTotal": 308,
+      "stats": {
+        "attack": 80,
+        "defense": 65,
+        "hp": 43,
+        "special-attack": 50,
+        "special-defense": 35,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 115
+    }
+  ],
+  "generation": 3,
+  "key": "corphish",
+  "name": "Corphish",
+  "names": {
+    "de": "Krebscorps",
+    "en": "Corphish",
+    "es": "Corphish",
+    "es-419": "Corphish",
+    "fr": "Écrapince",
+    "it": "Corphish",
+    "ja": "ヘイガニ",
+    "ja-hrkt": "ヘイガニ",
+    "ja-roma": "Heigani",
+    "ko": "가재군",
+    "zh-hans": "龙虾小兵",
+    "zh-hant": "龍蝦小兵"
+  },
+  "number": 341
+}

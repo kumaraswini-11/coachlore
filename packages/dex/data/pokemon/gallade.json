@@ -1,0 +1,301 @@
+{
+  "category": "Blade Pokémon",
+  "entries": [
+    {
+      "text": "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+      "version": "diamond"
+    },
+    {
+      "text": "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+      "version": "pearl"
+    },
+    {
+      "text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+      "version": "platinum"
+    },
+    {
+      "text": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+      "version": "black"
+    },
+    {
+      "text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+      "version": "white"
+    },
+    {
+      "text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+      "version": "black-2"
+    },
+    {
+      "text": "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
+      "version": "white-2"
+    },
+    {
+      "text": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+      "version": "x"
+    },
+    {
+      "text": "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+      "version": "y"
+    },
+    {
+      "text": "Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
+      "version": "sword"
+    },
+    {
+      "text": "Sharply attuned to others’ wishes for help, this Pokémon seeks out those in need and aids them in battle.",
+      "version": "shield"
+    },
+    {
+      "text": "The blades extending from its elbows are sharper than the finest swords. Its swordsmanship, albeit self-taught, is astonishingly impressive.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "ralts",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "ralts",
+      "to": "kirlia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "kirlia",
+      "to": "gardevoir",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "gender": 2,
+        "item": "dawn-stone"
+      },
+      "from": "kirlia",
+      "to": "gallade",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "steadfast"
+        },
+        {
+          "hidden": false,
+          "key": "sharpness"
+        },
+        {
+          "hidden": true,
+          "key": "justified"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gallade.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 600,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 600,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 65,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          }
+        ]
+      },
+      "games": ["platinum", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gallade",
+      "kind": "default",
+      "name": "Gallade",
+      "number": 475,
+      "pokemon": "gallade",
+      "sourceId": 475,
+      "sprite": "/dex-images/sprites/gallade.webp",
+      "statTotal": 518,
+      "stats": {
+        "attack": 125,
+        "defense": 65,
+        "hp": 68,
+        "special-attack": 65,
+        "special-defense": 115,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["psychic", "fighting"],
+      "weight": 520
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gallade-mega.webp",
+      "encounters": {},
+      "formName": "Mega Gallade",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 16,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "gallade-mega",
+      "kind": "mega",
+      "name": "Gallade-Mega",
+      "number": 475,
+      "pokemon": "gallade",
+      "sourceId": 10068,
+      "sprite": "/dex-images/sprites/gallade-mega.webp",
+      "statTotal": 618,
+      "stats": {
+        "attack": 165,
+        "defense": 95,
+        "hp": 68,
+        "special-attack": 65,
+        "special-defense": 115,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["psychic", "fighting"],
+      "weight": 564
+    }
+  ],
+  "generation": 4,
+  "key": "gallade",
+  "name": "Gallade",
+  "names": {
+    "de": "Galagladi",
+    "en": "Gallade",
+    "es": "Gallade",
+    "es-419": "Gallade",
+    "fr": "Gallame",
+    "it": "Gallade",
+    "ja": "エルレイド",
+    "ja-hrkt": "エルレイド",
+    "ja-roma": "Erureido",
+    "ko": "엘레이드",
+    "zh-hans": "艾路雷朵",
+    "zh-hant": "艾路雷朵"
+  },
+  "number": 475
+}

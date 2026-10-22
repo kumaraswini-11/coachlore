@@ -1,0 +1,139 @@
+{
+  "category": "Regal Pokémon",
+  "entries": [
+    {
+      "text": "It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.",
+      "version": "black"
+    },
+    {
+      "text": "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
+      "version": "white"
+    },
+    {
+      "text": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
+      "version": "black-2"
+    },
+    {
+      "text": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
+      "version": "white-2"
+    },
+    {
+      "text": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
+      "version": "x"
+    },
+    {
+      "text": "It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.",
+      "version": "y"
+    },
+    {
+      "text": "It only gives its all against strong opponents who are not fazed by the glare from Serperior’s noble eyes.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snivy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "snivy",
+      "to": "servine",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "servine",
+      "to": "serperior",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "contrary"
+        }
+      ],
+      "artwork": "/dex-images/artwork/serperior.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "island-scan",
+            "minLevel": 43
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "exeggutor-island-area",
+            "maxLevel": 43,
+            "method": "island-scan",
+            "minLevel": 43
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 33,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "serperior",
+      "kind": "default",
+      "name": "Serperior",
+      "number": 497,
+      "pokemon": "serperior",
+      "sourceId": 497,
+      "sprite": "/dex-images/sprites/serperior.webp",
+      "statTotal": 528,
+      "stats": {
+        "attack": 75,
+        "defense": 95,
+        "hp": 75,
+        "special-attack": 75,
+        "special-defense": 95,
+        "speed": 113
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 630
+    }
+  ],
+  "generation": 5,
+  "key": "serperior",
+  "name": "Serperior",
+  "names": {
+    "de": "Serpiroyal",
+    "en": "Serperior",
+    "es": "Serperior",
+    "es-419": "Serperior",
+    "fr": "Majaspic",
+    "it": "Serperior",
+    "ja": "ジャローダ",
+    "ja-hrkt": "ジャローダ",
+    "ja-roma": "Jalorda",
+    "ko": "샤로다",
+    "zh-hans": "君主蛇",
+    "zh-hant": "君主蛇"
+  },
+  "number": 497
+}

@@ -1,3 +1,5 @@
+import type { CSSProperties } from "react"
+
 /**
  * The 18 Pokémon types in the games' order. The colours themselves live
  * once, in globals.css (`--type-<name>`); this maps each type to its
@@ -46,4 +48,16 @@ export const TYPE_CLASS_NAMES: Record<PokemonType, string> = {
   dark: "bg-type-dark text-type-dark-foreground",
   steel: "bg-type-steel text-type-steel-foreground",
   fairy: "bg-type-fairy text-type-fairy-foreground",
+}
+
+/**
+ * A type's fill and text colours as two CSS variables, `--type-color` and
+ * `--type-color-foreground`, for what draws them itself: a card's tint, or
+ * a control whose own hover and pressed styles would repaint a class.
+ */
+export function typeColorVars(type: PokemonType): CSSProperties {
+  return {
+    "--type-color": `var(--type-${type})`,
+    "--type-color-foreground": `var(--type-${type}-foreground)`,
+  } as CSSProperties
 }

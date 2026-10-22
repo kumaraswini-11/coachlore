@@ -1,0 +1,989 @@
+{
+  "category": "Cocoon Pokémon",
+  "entries": [
+    {
+      "text": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "version": "red"
+    },
+    {
+      "text": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "version": "blue"
+    },
+    {
+      "text": "Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell.",
+      "version": "yellow"
+    },
+    {
+      "text": "Inside the shell, it is soft and weak as it pre pares to evolve. It stays motionless in the shell.",
+      "version": "gold"
+    },
+    {
+      "text": "It prepares for evolution by hardening its shell as much as possible to protect its soft body.",
+      "version": "silver"
+    },
+    {
+      "text": "This is its pre- evolved form. At this stage, it can only harden, so it remains motionless to avoid attack.",
+      "version": "crystal"
+    },
+    {
+      "text": "The shell covering this POKéMON’s body is as hard as an iron slab. METAPOD does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+      "version": "ruby"
+    },
+    {
+      "text": "The shell covering this POKéMON’s body is as hard as an iron slab. METAPOD does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its shell is as hard as an iron slab. A METAPOD does not move very much because it is preparing its soft innards for evolution inside the shell.",
+      "version": "emerald"
+    },
+    {
+      "text": "Even though it is encased in a sturdy shell, the body inside is tender. It can’t withstand a harsh attack.",
+      "version": "firered"
+    },
+    {
+      "text": "This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "diamond"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "pearl"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "platinum"
+    },
+    {
+      "text": "Inside the shell, it is soft and weak as it prepares to evolve. It stays motionless in the shell.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It prepares for evolution by hardening its shell as much as possible to protect its soft body.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "black"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "white"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "black-2"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "white-2"
+    },
+    {
+      "text": "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+      "version": "x"
+    },
+    {
+      "text": "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
+      "version": "y"
+    },
+    {
+      "text": "The shell covering this Pokémon’s body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The shell covering this Pokémon’s body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its shell is filled with its soft innards. It doesn’t move much because of the risk it might carelessly spill its innards out.",
+      "version": "sun"
+    },
+    {
+      "text": "Its shell is hard, but it’s still just a bug shell. It’s been known to break, so intense battles with it should be avoided.",
+      "version": "moon"
+    },
+    {
+      "text": "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its hard shell doesn’t crack a bit even if Pikipek pecks at it, but it will tip over, spilling out its insides.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It is waiting for the moment to evolve. At this stage, it can only harden, so it remains motionless to avoid attack.",
+      "version": "sword"
+    },
+    {
+      "text": "Even though it is encased in a sturdy shell, the body inside is tender. It can’t withstand a harsh attack.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "caterpie",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 7
+      },
+      "from": "caterpie",
+      "to": "metapod",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "metapod",
+      "to": "butterfree",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/metapod.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 40,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 45,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-high",
+            "minLevel": 10
+          },
+          {
+            "chance": 45,
+            "location": "ilex-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "firered": [
+          {
+            "chance": 1,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 5,
+            "location": "pattern-bush-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 30,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "azalea-town-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 90,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-30-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-31-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-34-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-35-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-36-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-37-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-38-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-39-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-26-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-27-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-rage-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "national-park-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 40,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 70,
+            "location": "ilex-forest-area",
+            "maxLevel": 5,
+            "method": "headbutt",
+            "minLevel": 3
+          },
+          {
+            "chance": 70,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 25,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 30,
+            "location": "johto-route-31-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 50,
+            "location": "johto-route-47-area",
+            "maxLevel": 28,
+            "method": "headbutt",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 80,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 60,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 4,
+            "location": "kanto-route-24-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 4,
+            "location": "kanto-route-25-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 5,
+            "location": "pattern-bush-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 10,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-1-south",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 9,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 9,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 4,
+            "location": "eterna-forest-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          }
+        ],
+        "red": [
+          {
+            "chance": 4,
+            "location": "kanto-route-25-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 4,
+            "location": "kanto-route-25-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "shield": [
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 180,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 220,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 220,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-1-south",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 9,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 9,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "sword": [
+          {
+            "chance": 30,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 180,
+            "location": "rolling-fields-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 230,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 7
+          },
+          {
+            "chance": 230,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 9,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 9,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 9,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 9,
+            "location": "melemele-meadow-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "unova-route-12-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-12-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "y": [
+          {
+            "chance": 4,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 25,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "sword-shield", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "metapod",
+      "kind": "default",
+      "name": "Metapod",
+      "number": 11,
+      "pokemon": "metapod",
+      "sourceId": 11,
+      "sprite": "/dex-images/sprites/metapod.webp",
+      "statTotal": 205,
+      "stats": {
+        "attack": 20,
+        "defense": 55,
+        "hp": 50,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 99
+    }
+  ],
+  "generation": 1,
+  "key": "metapod",
+  "name": "Metapod",
+  "names": {
+    "de": "Safcon",
+    "en": "Metapod",
+    "es": "Metapod",
+    "es-419": "Metapod",
+    "fr": "Chrysacier",
+    "it": "Metapod",
+    "ja": "トランセル",
+    "ja-hrkt": "トランセル",
+    "ja-roma": "Transel",
+    "ko": "단데기",
+    "zh-hans": "铁甲蛹",
+    "zh-hant": "鐵甲蛹"
+  },
+  "number": 11
+}

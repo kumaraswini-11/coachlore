@@ -55,7 +55,7 @@
   },
   "footer": {
     "notice": "Coachlore एक स्वतंत्र, गैर-व्यावसायिक फ़ैन प्रोजेक्ट है। इसका Nintendo, Creatures, Game Freak या The Pokémon Company से कोई संबंध नहीं है, न ही उनका समर्थन या प्रायोजन। पोकेमॉन और उसके नाम उनके ट्रेडमार्क हैं।",
-    "credits": "डेटा PokéAPI और Pokémon Showdown से; उपयोग के आँकड़े Smogon से।",
+    "credits": "डेटा PokéAPI और Pokémon Showdown से; उपयोग के आँकड़े Smogon से; पोकेमॉन की तस्वीरें © The Pokémon Company, PokéAPI के स्प्राइट्स से।",
     "about": "परिचय",
     "legal": "क़ानूनी जानकारी"
   },
@@ -69,12 +69,6 @@
     "close": "खोज बंद करें",
     "escapeKey": "Esc",
     "searching": "खोज रहे हैं…"
-  },
-  "toast": {
-    "close": "यह संदेश बंद करें"
-  },
-  "language": {
-    "writtenIn": "{language} में लिखा गया"
   },
   "notFound": {
     "title": "पेज नहीं मिला",
@@ -118,39 +112,123 @@
     "privacyHeading": "आपका डेटा",
     "privacy": "Coachlore पढ़ने के लिए खाते की ज़रूरत नहीं। आपकी भाषा इस ब्राउज़र की एक कुकी में याद रहती है, और थीम व शॉर्टकट की सेटिंग इसकी स्टोरेज में। एरर रिपोर्ट में कोई IP पता, कुकी, खाता या पेज का पता नहीं होता। पूरी निजता सूचना पहली लीग शुरू होने से पहले आएगी।"
   },
-  "states": {
-    "title": "स्थितियाँ",
-    "metaDescription": "Coachlore की हर स्क्रीन की हर स्थिति, नमूना डेटा के साथ।",
-    "loading": "लोड हो रहा है",
-    "emptyTitle": "अभी कोई लीग नहीं",
-    "emptyDescription": "एक लीग बनाएँ, या आमंत्रण लिंक से किसी लीग में जुड़ें।",
-    "emptyAction": "लीग बनाएँ",
-    "errorTitle": "अंक तालिका लोड नहीं हो सकी",
-    "errorDescription": "अपना कनेक्शन जाँचें और फिर कोशिश करें।",
-    "retry": "फिर कोशिश करें",
-    "notFoundTitle": "इस पते पर कोई लीग नहीं है",
-    "notFoundDescription": "लिंक जाँचें, या उसे खोजें।",
-    "offlineTitle": "आप ऑफ़लाइन हैं",
-    "offlineDescription": "यह आख़िरी सहेजा गया डेटा है। ऑनलाइन लौटने तक बदलाव बंद हैं।",
-    "noPermissionTitle": "यह लीग निजी है",
-    "noPermissionDescription": "जुड़ने के लिए किसी एडमिन से आमंत्रण लिंक माँगें।",
-    "aiTitle": "आज की AI सीमा पूरी हो गई",
-    "aiDescription": "AI मदद कल लौटेगी। बाक़ी सब पहले की तरह चलता है।",
-    "liveAction": "अगला पिक दिखाएँ",
-    "livePick": "<name>{coach}</name> ने <en>{pokemon}</en> पिक किया",
-    "listTitle": "एक लंबी सूची",
-    "sections": {
-      "loading": "लोड हो रहा है",
-      "empty": "खाली",
-      "error": "एरर",
-      "notFound": "नहीं मिला",
-      "offline": "ऑफ़लाइन",
-      "noPermission": "अनुमति नहीं",
-      "ai": "AI उपलब्ध नहीं",
-      "live": "लाइव अपडेट",
-      "types": "टाइप बैज"
-    },
-    "row": "पंक्ति {n, number}",
-    "lastSaved": "आख़िरी सहेजी गई अंक तालिका"
+  "dex": {
+    "title": "Dex",
+    "metaDescription": "हर पोकेमॉन और उसका हर रूप, टाइप, कमज़ोरी, गेम, पीढ़ी, ऐबिलिटी और स्टैट्स के हिसाब से छाँटें।",
+    "browser": {
+      "searchLabel": "नाम या नंबर से छाँटें",
+      "searchPlaceholder": "नाम या # से छाँटें",
+      "count": {
+        "one": "{count} पोकेमॉन",
+        "other": "{count} पोकेमॉन"
+      },
+      "sortLabel": "क्रम",
+      "sortKeys": {
+        "number": "नंबर",
+        "name": "नाम",
+        "hp": "HP",
+        "attack": "अटैक",
+        "defense": "डिफ़ेंस",
+        "special-attack": "स्पे. अटैक",
+        "special-defense": "स्पे. डिफ़ेंस",
+        "speed": "स्पीड",
+        "total": "कुल"
+      },
+      "descending": "ज़्यादा से कम",
+      "viewLabel": "दिखावट",
+      "grid": "ग्रिड",
+      "list": "सूची",
+      "filters": "फ़िल्टर",
+      "openFilters": "फ़िल्टर",
+      "clearAll": "सब हटाएँ",
+      "activeFilters": {
+        "one": "{count} फ़िल्टर लगा है",
+        "other": "{count} फ़िल्टर लगे हैं"
+      },
+      "showResults": {
+        "one": "{count} पोकेमॉन दिखाएँ",
+        "other": "{count} पोकेमॉन दिखाएँ"
+      },
+      "groups": {
+        "type": "टाइप",
+        "weak": "किससे कमज़ोर",
+        "resist": "किसे झेले",
+        "game": "गेम",
+        "generation": "पीढ़ी",
+        "ability": "ऐबिलिटी",
+        "stats": "स्टैट्स",
+        "forms": "रूप"
+      },
+      "upToTwo": "ज़्यादा से ज़्यादा दो चुनें।",
+      "anyGame": "कोई भी गेम",
+      "abilityPlaceholder": "ऐबिलिटी खोजें",
+      "abilityTrigger": "ऐबिलिटी दिखाएँ",
+      "abilityClear": "ऐबिलिटी हटाएँ",
+      "abilityEmpty": "कोई ऐबिलिटी नहीं मिली।",
+      "generationShort": "पीढ़ी {roman}",
+      "statMin": "{stat}, सबसे कम",
+      "statMax": "{stat}, सबसे ज़्यादा",
+      "statValues": "{min}–{max}",
+      "formKinds": {
+        "default": "मूल रूप",
+        "all": "सभी रूप",
+        "regional": "क्षेत्रीय रूप",
+        "mega": "मेगा इवोल्यूशन",
+        "gigantamax": "गिगांटामैक्स",
+        "other": "दूसरे रूप"
+      },
+      "chips": {
+        "label": "लगे हुए फ़िल्टर",
+        "q": "नाम या # “{q}”",
+        "weak": "{type} से कमज़ोर",
+        "resist": "{type} को झेले",
+        "generation": "पीढ़ी {roman}",
+        "statMin": "{stat} ≥ {min}",
+        "statMax": "{stat} ≤ {max}",
+        "statRange": "{stat} {min}–{max}",
+        "remove": "{label} फ़िल्टर हटाएँ"
+      },
+      "card": "#{number} {name}, {types}",
+      "noImage": "तस्वीर नहीं है",
+      "columns": {
+        "number": "#",
+        "name": "नाम",
+        "types": "टाइप",
+        "hp": "HP",
+        "attack": "अटैक",
+        "defense": "डिफ़ेंस",
+        "special-attack": "स्पे. अटैक",
+        "special-defense": "स्पे. डिफ़ेंस",
+        "speed": "स्पीड",
+        "total": "कुल"
+      },
+      "statSeparator": " · ",
+      "sortColumn": "{short}, {column} से क्रम में लगाएँ",
+      "tableCaption": "पोकेमॉन और उनके बेस स्टैट्स",
+      "emptyTitle": "इन फ़िल्टर से कोई पोकेमॉन नहीं मिला",
+      "emptyDescription": "कुछ फ़िल्टर हटाकर देखें, या सब हटा दें।",
+      "englishNamesTitle": "नाम अंग्रेज़ी में खोजे जाते हैं",
+      "englishNamesDescription": "यहाँ पोकेमॉन के नाम अंग्रेज़ी में हैं। “Garchomp” लिखकर देखें।"
+    }
+  },
+  "types": {
+    "normal": "Normal",
+    "fire": "Fire",
+    "water": "Water",
+    "electric": "Electric",
+    "grass": "Grass",
+    "ice": "Ice",
+    "fighting": "Fighting",
+    "poison": "Poison",
+    "ground": "Ground",
+    "flying": "Flying",
+    "psychic": "Psychic",
+    "bug": "Bug",
+    "rock": "Rock",
+    "ghost": "Ghost",
+    "dragon": "Dragon",
+    "dark": "Dark",
+    "steel": "Steel",
+    "fairy": "Fairy"
   }
 }

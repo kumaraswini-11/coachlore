@@ -1,0 +1,699 @@
+{
+  "category": "Martial Arts Pokémon",
+  "entries": [
+    {
+      "text": "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+      "version": "black"
+    },
+    {
+      "text": "They have mastered elegant combos. As they concentrate, their battle moves become swifter and more precise.",
+      "version": "white"
+    },
+    {
+      "text": "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+      "version": "black-2"
+    },
+    {
+      "text": "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+      "version": "white-2"
+    },
+    {
+      "text": "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+      "version": "x"
+    },
+    {
+      "text": "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+      "version": "y"
+    },
+    {
+      "text": "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They can often be seen in packs in the morning, slowly moving their bodies through a series of poses.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "In one minute, a well-trained Mienfoo can chop with its arms more than 100 times.",
+      "version": "sword"
+    },
+    {
+      "text": "Though small, Mienfoo’s temperament is fierce. Any creature that approaches Mienfoo carelessly will be greeted with a flurry of graceful attacks.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mienfoo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 50
+      },
+      "from": "mienfoo",
+      "to": "mienshao",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "regenerator"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mienfoo.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "trial-chamber-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-14-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-4f-middle-room",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "unova-victory-road-outside",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-54",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-55",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-57",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-59",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-60",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-61",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-62",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-63",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-64",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-65",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-66",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 1,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 66
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-14-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-14-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-22-area",
+            "maxLevel": 47,
+            "method": "dark-grass",
+            "minLevel": 44
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-22-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-22-hidden-grotto",
+            "maxLevel": 44,
+            "method": "hidden-grotto",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-23-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 235,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 494,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 494,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 235,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 235,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 235,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 235,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 494,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 494,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 235,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 235,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 235,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "vast-poni-canyon-outside",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 43
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "dragonspiral-tower-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 60,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "trial-chamber-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-14-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-4f-middle-room",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "unova-victory-road-outside",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-54",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-55",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-57",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-59",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-60",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-61",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-62",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-63",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-64",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-65",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-unknown-area-66",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 1,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 66
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-14-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-14-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-22-area",
+            "maxLevel": 47,
+            "method": "dark-grass",
+            "minLevel": 44
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-22-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-22-hidden-grotto",
+            "maxLevel": 44,
+            "method": "hidden-grotto",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-23-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "yellow-flowers",
+            "minLevel": 13
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "yellow-flowers",
+            "minLevel": 13
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 5,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mienfoo",
+      "kind": "default",
+      "name": "Mienfoo",
+      "number": 619,
+      "pokemon": "mienfoo",
+      "sourceId": 619,
+      "sprite": "/dex-images/sprites/mienfoo.webp",
+      "statTotal": 350,
+      "stats": {
+        "attack": 85,
+        "defense": 50,
+        "hp": 45,
+        "special-attack": 55,
+        "special-defense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 200
+    }
+  ],
+  "generation": 5,
+  "key": "mienfoo",
+  "name": "Mienfoo",
+  "names": {
+    "de": "Lin-Fu",
+    "en": "Mienfoo",
+    "es": "Mienfoo",
+    "es-419": "Mienfoo",
+    "fr": "Kungfouine",
+    "it": "Mienfoo",
+    "ja": "コジョフー",
+    "ja-hrkt": "コジョフー",
+    "ja-roma": "Kojofu",
+    "ko": "비조푸",
+    "zh-hans": "功夫鼬",
+    "zh-hant": "功夫鼬"
+  },
+  "number": 619
+}

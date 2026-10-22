@@ -1,0 +1,405 @@
+{
+  "category": "Eruption Pokémon",
+  "entries": [
+    {
+      "text": "CAMERUPT has a volcano inside its body. Magma of 18,000 degrees F courses through its body. Occasionally, the humps on this POKéMON’s back erupt, spewing the superheated magma.",
+      "version": "ruby"
+    },
+    {
+      "text": "The humps on CAMERUPT’s back are formed by a transformation of its bones. They sometimes blast out molten magma. This POKéMON apparently erupts often when it is enraged.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A POKéMON that lives in the crater of a volcano. Every 10 years, the volcanoes on its back erupt violently. Research is under way on the cause of eruption.",
+      "version": "emerald"
+    },
+    {
+      "text": "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
+      "version": "firered"
+    },
+    {
+      "text": "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+      "version": "diamond"
+    },
+    {
+      "text": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives in the crater of a volcano. It is well known that the humps on its back erupt every 10 years.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+      "version": "black"
+    },
+    {
+      "text": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+      "version": "white"
+    },
+    {
+      "text": "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+      "version": "black-2"
+    },
+    {
+      "text": "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+      "version": "white-2"
+    },
+    {
+      "text": "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+      "version": "x"
+    },
+    {
+      "text": "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
+      "version": "y"
+    },
+    {
+      "text": "Camerupt has a volcano inside its body. Magma of 18,000 degrees Fahrenheit courses through its body. Occasionally, the humps on this Pokémon’s back erupt, spewing the superheated magma.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The humps on Camerupt’s back are formed by a transformation of its bones. They sometimes blast out molten magma. This Pokémon apparently erupts often when it is enraged.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "numel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 33
+      },
+      "from": "numel",
+      "to": "camerupt",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "magma-armor"
+        },
+        {
+          "hidden": false,
+          "key": "solid-rock"
+        },
+        {
+          "hidden": true,
+          "key": "anger-point"
+        }
+      ],
+      "artwork": "/dex-images/artwork/camerupt.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "battle-resort-area",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-inside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "battle-resort-area",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-inside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 20,
+            "location": "stark-mountain-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-49",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "reversal-mountain-unknown-area-50",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-51",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-52",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-53",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-54",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-55",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "reversal-mountain-unknown-area-56",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-57",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-58",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-59",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "reversal-mountain-unknown-area-60",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "camerupt",
+      "kind": "default",
+      "name": "Camerupt",
+      "number": 323,
+      "pokemon": "camerupt",
+      "sourceId": 323,
+      "sprite": "/dex-images/sprites/camerupt.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 100,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 105,
+        "special-defense": 75,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["fire", "ground"],
+      "weight": 2200
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/camerupt-mega.webp",
+      "encounters": {},
+      "formName": "Mega Camerupt",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 25,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "camerupt-mega",
+      "kind": "mega",
+      "name": "Camerupt-Mega",
+      "number": 323,
+      "pokemon": "camerupt",
+      "sourceId": 10087,
+      "sprite": "/dex-images/sprites/camerupt-mega.webp",
+      "statTotal": 560,
+      "stats": {
+        "attack": 120,
+        "defense": 100,
+        "hp": 70,
+        "special-attack": 145,
+        "special-defense": 105,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["fire", "ground"],
+      "weight": 3205
+    }
+  ],
+  "generation": 3,
+  "key": "camerupt",
+  "name": "Camerupt",
+  "names": {
+    "de": "Camerupt",
+    "en": "Camerupt",
+    "es": "Camerupt",
+    "es-419": "Camerupt",
+    "fr": "Camérupt",
+    "it": "Camerupt",
+    "ja": "バクーダ",
+    "ja-hrkt": "バクーダ",
+    "ja-roma": "Bakuuda",
+    "ko": "폭타",
+    "zh-hans": "喷火驼",
+    "zh-hant": "噴火駝"
+  },
+  "number": 323
+}

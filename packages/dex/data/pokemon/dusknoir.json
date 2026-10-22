@@ -1,0 +1,213 @@
+{
+  "category": "Gripper Pokémon",
+  "entries": [
+    {
+      "text": "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
+      "version": "diamond"
+    },
+    {
+      "text": "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "platinum"
+    },
+    {
+      "text": "This feared Pokémon is said to travel to worlds unknown. Some even believe that it takes lost spirits along with it.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This feared Pokémon is said to travel to worlds unknown. Some even believe that it takes lost spirits along with it.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "black"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "white"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "x"
+    },
+    {
+      "text": "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
+      "version": "y"
+    },
+    {
+      "text": "It is said to take lost spirits into its pliant body and guide them home.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
+      "version": "sword"
+    },
+    {
+      "text": "With the mouth on its belly, Dusknoir swallows its target whole. The soul is the only thing eaten— Dusknoir disgorges the body before departing.",
+      "version": "shield"
+    },
+    {
+      "text": "Comes to those whose lives have come to an end and escorts their souls to the afterlife. Known to mistakenly take the souls of those who yet have life left in them, albeit rarely.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "duskull",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "duskull",
+      "to": "dusclops",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "reaper-cloth"
+      },
+      "from": "dusclops",
+      "to": "dusknoir",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dusknoir.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 15,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 900,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 15,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 900,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["platinum", "omega-ruby-alpha-sapphire", "sword-shield", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 22,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dusknoir",
+      "kind": "default",
+      "name": "Dusknoir",
+      "number": 477,
+      "pokemon": "dusknoir",
+      "sourceId": 477,
+      "sprite": "/dex-images/sprites/dusknoir.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 100,
+        "defense": 135,
+        "hp": 45,
+        "special-attack": 65,
+        "special-defense": 135,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 1066
+    }
+  ],
+  "generation": 4,
+  "key": "dusknoir",
+  "name": "Dusknoir",
+  "names": {
+    "de": "Zwirrfinst",
+    "en": "Dusknoir",
+    "es": "Dusknoir",
+    "es-419": "Dusknoir",
+    "fr": "Noctunoir",
+    "it": "Dusknoir",
+    "ja": "ヨノワール",
+    "ja-hrkt": "ヨノワール",
+    "ja-roma": "Yonoir",
+    "ko": "야느와르몽",
+    "zh-hans": "黑夜魔灵",
+    "zh-hant": "黑夜魔靈"
+  },
+  "number": 477
+}

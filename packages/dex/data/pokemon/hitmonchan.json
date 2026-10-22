@@ -1,0 +1,433 @@
+{
+  "category": "Punching Pokémon",
+  "entries": [
+    {
+      "text": "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
+      "version": "red"
+    },
+    {
+      "text": "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see.",
+      "version": "blue"
+    },
+    {
+      "text": "Punches in corkscrew fashion. It can punch its way through a concrete wall in the same way as a drill.",
+      "version": "yellow"
+    },
+    {
+      "text": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+      "version": "gold"
+    },
+    {
+      "text": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+      "version": "silver"
+    },
+    {
+      "text": "To increase the strength of all its punch moves, it spins its arms just before making contact.",
+      "version": "crystal"
+    },
+    {
+      "text": "HITMONCHAN is said to possess the spirit of a boxer who had been working towards a world championship. This POKéMON has an indomitable spirit and will never give up in the face of adversity.",
+      "version": "ruby"
+    },
+    {
+      "text": "HITMONCHAN is said to possess the spirit of a boxer who had been working towards a world championship. This POKéMON has an indomitable spirit and will never give up in the face of adversity.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A HITMONCHAN is said to possess the spirit of a boxer who aimed to become the world champion. Having an indomitable spirit means that it will never give up.",
+      "version": "emerald"
+    },
+    {
+      "text": "The spirit of a pro boxer has infused this POKéMON. It throws punches that are faster than a bullet train.",
+      "version": "firered"
+    },
+    {
+      "text": "While apparently doing nothing, it fires punches in lightning-fast volleys that are impossible to see.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "diamond"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "pearl"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "black"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "white"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "black-2"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "white-2"
+    },
+    {
+      "text": "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+      "version": "x"
+    },
+    {
+      "text": "The spirit of a pro boxer has infused this Pokémon. It throws punches that are faster than a bullet train.",
+      "version": "y"
+    },
+    {
+      "text": "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Punches in corkscrew fashion. It can punch its way through a concrete wall like a drill.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Punches in corkscrew fashion. It can punch its way through a concrete wall like a drill.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+      "version": "sword"
+    },
+    {
+      "text": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tyrogue",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": 1
+      },
+      "from": "tyrogue",
+      "to": "hitmonlee",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": -1
+      },
+      "from": "tyrogue",
+      "to": "hitmonchan",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 20,
+        "relative_physical_stats": 0
+      },
+      "from": "tyrogue",
+      "to": "hitmontop",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        },
+        {
+          "hidden": true,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/hitmonchan.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld-special",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld-special",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "red": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "shield": [
+          {
+            "chance": 10,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 45,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 45,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frostpoint-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "snowslide-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-3f",
+            "maxLevel": 38,
+            "method": "snag",
+            "minLevel": 38
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "saffron-city-fighting-dojo",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "hitmonchan",
+      "kind": "default",
+      "name": "Hitmonchan",
+      "number": 107,
+      "pokemon": "hitmonchan",
+      "sourceId": 107,
+      "sprite": "/dex-images/sprites/hitmonchan.webp",
+      "statTotal": 455,
+      "stats": {
+        "attack": 105,
+        "defense": 79,
+        "hp": 50,
+        "special-attack": 35,
+        "special-defense": 110,
+        "speed": 76
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 502
+    }
+  ],
+  "generation": 1,
+  "key": "hitmonchan",
+  "name": "Hitmonchan",
+  "names": {
+    "de": "Nockchan",
+    "en": "Hitmonchan",
+    "es": "Hitmonchan",
+    "es-419": "Hitmonchan",
+    "fr": "Tygnon",
+    "it": "Hitmonchan",
+    "ja": "エビワラー",
+    "ja-hrkt": "エビワラー",
+    "ja-roma": "Ebiwalar",
+    "ko": "홍수몬",
+    "zh-hans": "快拳郎",
+    "zh-hant": "快拳郎"
+  },
+  "number": 107
+}

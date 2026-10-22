@@ -1,0 +1,223 @@
+{
+  "category": "High Temp Pokémon",
+  "entries": [
+    {
+      "text": "When it is angered, the temperature of its head tuft reaches 600° F. It uses its tuft to roast berries.",
+      "version": "black"
+    },
+    {
+      "text": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600° F.",
+      "version": "white"
+    },
+    {
+      "text": "Very intelligent, it roasts berries before eating them. It likes to help people.",
+      "version": "black-2"
+    },
+    {
+      "text": "Very intelligent, it roasts berries before eating them. It likes to help people.",
+      "version": "white-2"
+    },
+    {
+      "text": "Very intelligent, it roasts berries before eating them. It likes to help people.",
+      "version": "x"
+    },
+    {
+      "text": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+      "version": "y"
+    },
+    {
+      "text": "Very intelligent, it roasts berries before eating them. It likes to help people.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pansear",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "fire-stone"
+      },
+      "from": "pansear",
+      "to": "simisear",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "blaze"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pansear.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "dreamyard-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "grass-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "dreamyard-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 20,
+            "method": "grass-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 22,
+            "method": "grass-spots",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "legends-za"],
+      "gen9": false,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pansear",
+      "kind": "default",
+      "name": "Pansear",
+      "number": 513,
+      "pokemon": "pansear",
+      "sourceId": 513,
+      "sprite": "/dex-images/sprites/pansear.webp",
+      "statTotal": 316,
+      "stats": {
+        "attack": 53,
+        "defense": 48,
+        "hp": 50,
+        "special-attack": 53,
+        "special-defense": 48,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 110
+    }
+  ],
+  "generation": 5,
+  "key": "pansear",
+  "name": "Pansear",
+  "names": {
+    "de": "Grillmak",
+    "en": "Pansear",
+    "es": "Pansear",
+    "es-419": "Pansear",
+    "fr": "Flamajou",
+    "it": "Pansear",
+    "ja": "バオップ",
+    "ja-hrkt": "バオップ",
+    "ja-roma": "Baoppu",
+    "ko": "바오프",
+    "zh-hans": "爆香猴",
+    "zh-hant": "爆香猴"
+  },
+  "number": 513
+}

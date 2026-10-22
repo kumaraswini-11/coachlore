@@ -1,0 +1,459 @@
+{
+  "category": "Boxing Pokémon",
+  "entries": [
+    {
+      "text": "While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.",
+      "version": "sun"
+    },
+    {
+      "text": "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+      "version": "moon"
+    },
+    {
+      "text": "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "crabrawler",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "ice-stone"
+      },
+      "from": "crabrawler",
+      "to": "crabominable",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hyper-cutter"
+        },
+        {
+          "hidden": false,
+          "key": "iron-fist"
+        },
+        {
+          "hidden": true,
+          "key": "anger-point"
+        }
+      ],
+      "artwork": "/dex-images/artwork/crabrawler.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-berry-fields-area",
+            "maxLevel": 10,
+            "method": "berry-trees",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "berry-trees",
+            "minLevel": 24
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-12-area",
+            "maxLevel": 30,
+            "method": "berry-trees",
+            "minLevel": 27
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "berry-trees",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "berry-trees",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "berry-trees",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-2-south",
+            "maxLevel": 10,
+            "method": "berry-trees",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-3-south",
+            "maxLevel": 12,
+            "method": "berry-trees",
+            "minLevel": 9
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "berry-trees",
+            "minLevel": 11
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "berry-trees",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "berry-trees",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "berry-trees",
+            "minLevel": 40
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-berry-fields-area",
+            "maxLevel": 10,
+            "method": "berry-trees",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "berry-trees",
+            "minLevel": 24
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-12-area",
+            "maxLevel": 30,
+            "method": "berry-trees",
+            "minLevel": 27
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-15-main",
+            "maxLevel": 33,
+            "method": "berry-trees",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "berry-trees",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-17-west",
+            "maxLevel": 34,
+            "method": "berry-trees",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-2-south",
+            "maxLevel": 10,
+            "method": "berry-trees",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-3-south",
+            "maxLevel": 12,
+            "method": "berry-trees",
+            "minLevel": 9
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "berry-trees",
+            "minLevel": 11
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "berry-trees",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "berry-trees",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 43,
+            "method": "berry-trees",
+            "minLevel": 40
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-berry-fields-area",
+            "maxLevel": 10,
+            "method": "berry-trees",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "berry-trees",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 35,
+            "method": "berry-trees",
+            "minLevel": 32
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "berry-trees",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-2-south",
+            "maxLevel": 11,
+            "method": "berry-trees",
+            "minLevel": 8
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-3-south",
+            "maxLevel": 13,
+            "method": "berry-trees",
+            "minLevel": 10
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "berry-trees",
+            "minLevel": 11
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "berry-trees",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "berry-trees",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "berry-trees",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "ulaula-beach-area",
+            "maxLevel": 32,
+            "method": "berry-trees",
+            "minLevel": 29
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-berry-fields-area",
+            "maxLevel": 10,
+            "method": "berry-trees",
+            "minLevel": 7
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "berry-trees",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 35,
+            "method": "berry-trees",
+            "minLevel": 32
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-17-west",
+            "maxLevel": 36,
+            "method": "berry-trees",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-2-south",
+            "maxLevel": 11,
+            "method": "berry-trees",
+            "minLevel": 8
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-3-south",
+            "maxLevel": 13,
+            "method": "berry-trees",
+            "minLevel": 10
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "berry-trees",
+            "minLevel": 11
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "berry-trees",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "berry-trees",
+            "minLevel": 17
+          },
+          {
+            "chance": 100,
+            "location": "poni-plains-west",
+            "maxLevel": 57,
+            "method": "berry-trees",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "berry-trees",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "ulaula-beach-area",
+            "maxLevel": 32,
+            "method": "berry-trees",
+            "minLevel": 29
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 7,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "crabrawler",
+      "kind": "default",
+      "name": "Crabrawler",
+      "number": 739,
+      "pokemon": "crabrawler",
+      "sourceId": 739,
+      "sprite": "/dex-images/sprites/crabrawler.webp",
+      "statTotal": 338,
+      "stats": {
+        "attack": 82,
+        "defense": 57,
+        "hp": 47,
+        "special-attack": 42,
+        "special-defense": 47,
+        "speed": 63
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 70
+    }
+  ],
+  "generation": 7,
+  "key": "crabrawler",
+  "name": "Crabrawler",
+  "names": {
+    "de": "Krabbox",
+    "en": "Crabrawler",
+    "es": "Crabrawler",
+    "es-419": "Crabrawler",
+    "fr": "Crabagarre",
+    "it": "Crabrawler",
+    "ja": "マケンカニ",
+    "ja-hrkt": "マケンカニ",
+    "ja-roma": "Makenkani",
+    "ko": "오기지게",
+    "zh-hans": "好胜蟹",
+    "zh-hant": "好勝蟹"
+  },
+  "number": 739
+}

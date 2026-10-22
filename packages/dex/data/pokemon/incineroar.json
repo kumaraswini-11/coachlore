@@ -1,0 +1,112 @@
+{
+  "category": "Heel Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon has a violent, selfish disposition. If it’s not in the mood to listen, it will ignore its Trainer’s orders with complete nonchalance.",
+      "version": "sun"
+    },
+    {
+      "text": "After hurling ferocious punches and flinging furious kicks, it finishes opponents off by spewing fire from around its navel.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When its fighting spirit is set alight, the flames around its waist become especially intense.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It excels at violent, no-holds-barred battles. The temperature of the flames that issue from its navel exceeds 3,600 degrees Fahrenheit.",
+      "version": "sword"
+    },
+    {
+      "text": "Incineroar’s rough and aggressive behavior is its most notable trait, but the way it helps out small Pokémon shows that it has a kind side as well.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litten",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 17
+      },
+      "from": "litten",
+      "to": "torracat",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "torracat",
+      "to": "incineroar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/incineroar.webp",
+      "encounters": {},
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "incineroar",
+      "kind": "default",
+      "name": "Incineroar",
+      "number": 727,
+      "pokemon": "incineroar",
+      "sourceId": 727,
+      "sprite": "/dex-images/sprites/incineroar.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 115,
+        "defense": 90,
+        "hp": 95,
+        "special-attack": 80,
+        "special-defense": 90,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["fire", "dark"],
+      "weight": 830
+    }
+  ],
+  "generation": 7,
+  "key": "incineroar",
+  "name": "Incineroar",
+  "names": {
+    "de": "Fuegro",
+    "en": "Incineroar",
+    "es": "Incineroar",
+    "es-419": "Incineroar",
+    "fr": "Félinferno",
+    "it": "Incineroar",
+    "ja": "ガオガエン",
+    "ja-hrkt": "ガオガエン",
+    "ja-roma": "Gaogaen",
+    "ko": "어흥염",
+    "zh-hans": "炽焰咆哮虎",
+    "zh-hant": "熾焰咆哮虎"
+  },
+  "number": 727
+}

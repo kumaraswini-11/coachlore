@@ -1,0 +1,897 @@
+{
+  "category": "Weed Pokémon",
+  "entries": [
+    {
+      "text": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+      "version": "red"
+    },
+    {
+      "text": "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
+      "version": "blue"
+    },
+    {
+      "text": "Smells incredibly foul! However, around 1 out of 1,000 people enjoy sniffing its nose- bending stink.",
+      "version": "yellow"
+    },
+    {
+      "text": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+      "version": "gold"
+    },
+    {
+      "text": "It secretes a sticky, drool-like honey. Although sweet, it smells too repulsive to get very close.",
+      "version": "silver"
+    },
+    {
+      "text": "The smell from its drool-like syrup and the pollen on its petals is so bad, it may make opponents faint.",
+      "version": "crystal"
+    },
+    {
+      "text": "GLOOM releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this POKéMON is feeling calm and secure, it does not release its usual stinky aroma.",
+      "version": "ruby"
+    },
+    {
+      "text": "From its mouth GLOOM drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A horribly noxious honey drools from its mouth. One whiff of the honey can result in memory loss. Some fans are said to enjoy this overwhelming stink, however.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
+      "version": "firered"
+    },
+    {
+      "text": "The fluid that oozes from its mouth isn’t drool. It is a nectar that is used to attract prey.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "diamond"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "pearl"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "platinum"
+    },
+    {
+      "text": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It secretes a sticky, drool-like honey. Although sweet, it smells too repulsive to get very close.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "black"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "white"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "black-2"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "white-2"
+    },
+    {
+      "text": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+      "version": "x"
+    },
+    {
+      "text": "The honey it drools from its mouth smells so atrocious, it can curl noses more than a mile away.",
+      "version": "y"
+    },
+    {
+      "text": "Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "From its mouth Gloom drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Its pistils exude an incredibly foul odor. The horrid stench can cause fainting at a distance of 1.25 miles.",
+      "version": "sword"
+    },
+    {
+      "text": "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oddish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "oddish",
+      "to": "gloom",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "gloom",
+      "to": "vileplume",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "gloom",
+      "to": "bellossom",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "stench"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gloom.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "firered": [
+          {
+            "chance": 20,
+            "location": "berry-forest-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "bond-bridge-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 15,
+            "location": "cape-brink-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "water-path-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "johto-route-47-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-48-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "red": [
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-safari-zone-neacro-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 15,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 120,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 160,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "johto-route-47-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-48-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 120,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 160,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gloom",
+      "kind": "default",
+      "name": "Gloom",
+      "number": 44,
+      "pokemon": "gloom",
+      "sourceId": 44,
+      "sprite": "/dex-images/sprites/gloom.webp",
+      "statTotal": 395,
+      "stats": {
+        "attack": 65,
+        "defense": 70,
+        "hp": 60,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 86
+    }
+  ],
+  "generation": 1,
+  "key": "gloom",
+  "name": "Gloom",
+  "names": {
+    "de": "Duflor",
+    "en": "Gloom",
+    "es": "Gloom",
+    "es-419": "Gloom",
+    "fr": "Ortide",
+    "it": "Gloom",
+    "ja": "クサイハナ",
+    "ja-hrkt": "クサイハナ",
+    "ja-roma": "Kusaihana",
+    "ko": "냄새꼬",
+    "zh-hans": "臭臭花",
+    "zh-hant": "臭臭花"
+  },
+  "number": 44
+}

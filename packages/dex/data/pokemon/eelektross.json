@@ -1,0 +1,189 @@
+{
+  "category": "EleFish Pokémon",
+  "entries": [
+    {
+      "text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+      "version": "black"
+    },
+    {
+      "text": "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+      "version": "white"
+    },
+    {
+      "text": "It latches on to prey with its sucker mouth, sinking in its fangs and shocking the prey with powerful electricity.",
+      "version": "black-2"
+    },
+    {
+      "text": "It latches on to prey with its sucker mouth, sinking in its fangs and shocking the prey with powerful electricity.",
+      "version": "white-2"
+    },
+    {
+      "text": "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+      "version": "x"
+    },
+    {
+      "text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+      "version": "y"
+    },
+    {
+      "text": "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tynamo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39
+      },
+      "from": "tynamo",
+      "to": "eelektrik",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "eelektrik",
+      "to": "eelektross",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/eelektross.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "island-scan",
+            "minLevel": 55
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "island-scan",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "island-scan",
+            "minLevel": 55
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "island-scan",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-teal-mask", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 21,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "eelektross",
+      "kind": "default",
+      "name": "Eelektross",
+      "number": 604,
+      "pokemon": "eelektross",
+      "sourceId": 604,
+      "sprite": "/dex-images/sprites/eelektross.webp",
+      "statTotal": 515,
+      "stats": {
+        "attack": 115,
+        "defense": 80,
+        "hp": 85,
+        "special-attack": 105,
+        "special-defense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 805
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "eelevate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/eelektross-mega.webp",
+      "encounters": {},
+      "formName": "Mega Eelektross",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 30,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "eelektross-mega",
+      "kind": "mega",
+      "name": "Eelektross-Mega",
+      "number": 604,
+      "pokemon": "eelektross",
+      "sourceId": 10290,
+      "sprite": "/dex-images/sprites/eelektross-mega.webp",
+      "statTotal": 615,
+      "stats": {
+        "attack": 145,
+        "defense": 80,
+        "hp": 85,
+        "special-attack": 135,
+        "special-defense": 90,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 1800
+    }
+  ],
+  "generation": 5,
+  "key": "eelektross",
+  "name": "Eelektross",
+  "names": {
+    "de": "Zapplarang",
+    "en": "Eelektross",
+    "es": "Eelektross",
+    "es-419": "Eelektross",
+    "fr": "Ohmassacre",
+    "it": "Eelektross",
+    "ja": "シビルドン",
+    "ja-hrkt": "シビルドン",
+    "ja-roma": "Shibirudon",
+    "ko": "저리더프",
+    "zh-hans": "麻麻鳗鱼王",
+    "zh-hant": "麻麻鰻魚王"
+  },
+  "number": 604
+}

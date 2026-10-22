@@ -1,0 +1,191 @@
+{
+  "category": "Cyclone Pokémon",
+  "entries": [
+    {
+      "text": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+      "version": "black"
+    },
+    {
+      "text": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+      "version": "white"
+    },
+    {
+      "text": "In every direction it flies, creating winds so powerful, they blow everything away.",
+      "version": "black-2"
+    },
+    {
+      "text": "In every direction it flies, creating winds so powerful, they blow everything away.",
+      "version": "white-2"
+    },
+    {
+      "text": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+      "version": "x"
+    },
+    {
+      "text": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+      "version": "y"
+    },
+    {
+      "text": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This storm-stirring Pokémon is said to cause the seasons to turn by whipping up the air. I suspect its humanlike form to be a false one.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tornadus",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "prankster"
+        },
+        {
+          "hidden": true,
+          "key": "defiant"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tornadus-incarnate.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "team-flare-secret-hq-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "formName": "Incarnate Forme",
+      "games": ["black-white", "black-2-white-2", "legends-arceus"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tornadus-incarnate",
+      "kind": "default",
+      "legendary": true,
+      "name": "Tornadus",
+      "number": 641,
+      "pokemon": "tornadus",
+      "sourceId": 641,
+      "sprite": "/dex-images/sprites/tornadus-incarnate.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 115,
+        "defense": 70,
+        "hp": 79,
+        "special-attack": 125,
+        "special-defense": 80,
+        "speed": 111
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["flying"],
+      "weight": 630
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tornadus-therian.webp",
+      "encounters": {},
+      "formName": "Therian Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "tornadus-therian",
+      "kind": "other",
+      "legendary": true,
+      "name": "Tornadus-Therian",
+      "number": 641,
+      "pokemon": "tornadus",
+      "sourceId": 10019,
+      "sprite": "/dex-images/sprites/tornadus-therian.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 100,
+        "defense": 80,
+        "hp": 79,
+        "special-attack": 110,
+        "special-defense": 90,
+        "speed": 121
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["flying"],
+      "weight": 630
+    }
+  ],
+  "generation": 5,
+  "key": "tornadus",
+  "name": "Tornadus",
+  "names": {
+    "de": "Boreos",
+    "en": "Tornadus",
+    "es": "Tornadus",
+    "es-419": "Tornadus",
+    "fr": "Boréas",
+    "it": "Tornadus",
+    "ja": "トルネロス",
+    "ja-hrkt": "トルネロス",
+    "ja-roma": "Tornelos",
+    "ko": "토네로스",
+    "zh-hans": "龙卷云",
+    "zh-hant": "龍捲雲"
+  },
+  "number": 641
+}

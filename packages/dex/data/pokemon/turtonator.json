@@ -1,0 +1,215 @@
+{
+  "category": "Blast Turtle Pokémon",
+  "entries": [
+    {
+      "text": "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+      "version": "sun"
+    },
+    {
+      "text": "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+      "version": "moon"
+    },
+    {
+      "text": "It lives in volcanoes and eats sulfur and other minerals. Materials from the food it eats form the basis of its explosive shell.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its exploding shell poses a real danger but is sensitive to moisture. On rainy days, Turtonator takes silent refuge in caves.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation.",
+      "version": "sword"
+    },
+    {
+      "text": "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "turtonator",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/turtonator.webp",
+      "encounters": {
+        "sun": [
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 45,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 45,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 7,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "turtonator",
+      "kind": "default",
+      "name": "Turtonator",
+      "number": 776,
+      "pokemon": "turtonator",
+      "sourceId": 776,
+      "sprite": "/dex-images/sprites/turtonator.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 78,
+        "defense": 135,
+        "hp": 60,
+        "special-attack": 91,
+        "special-defense": 85,
+        "speed": 36
+      },
+      "tags": [],
+      "types": ["fire", "dragon"],
+      "weight": 2120
+    }
+  ],
+  "generation": 7,
+  "key": "turtonator",
+  "name": "Turtonator",
+  "names": {
+    "de": "Tortunator",
+    "en": "Turtonator",
+    "es": "Turtonator",
+    "es-419": "Turtonator",
+    "fr": "Boumata",
+    "it": "Turtonator",
+    "ja": "バクガメス",
+    "ja-hrkt": "バクガメス",
+    "ja-roma": "Bakugames",
+    "ko": "폭거북스",
+    "zh-hans": "爆焰龟兽",
+    "zh-hant": "爆焰龜獸"
+  },
+  "number": 776
+}

@@ -1,0 +1,88 @@
+{
+  "category": "Dog Pokémon",
+  "entries": [
+    {
+      "text": "The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The surface of this Pokémon’s skin hardens when exposed to intense heat, and its body has an appetizing aroma.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fidough",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 26
+      },
+      "from": "fidough",
+      "to": "dachsbun",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "well-baked-body"
+        },
+        {
+          "hidden": true,
+          "key": "aroma-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dachsbun.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dachsbun",
+      "kind": "default",
+      "name": "Dachsbun",
+      "number": 927,
+      "pokemon": "dachsbun",
+      "sourceId": 927,
+      "sprite": "/dex-images/sprites/dachsbun.webp",
+      "statTotal": 477,
+      "stats": {
+        "attack": 80,
+        "defense": 115,
+        "hp": 57,
+        "special-attack": 50,
+        "special-defense": 80,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 149
+    }
+  ],
+  "generation": 9,
+  "key": "dachsbun",
+  "name": "Dachsbun",
+  "names": {
+    "de": "Backel",
+    "en": "Dachsbun",
+    "es": "Dachsbun",
+    "es-419": "Dachsbun",
+    "fr": "Briochien",
+    "it": "Dachsbun",
+    "ja": "バウッツェル",
+    "ja-hrkt": "バウッツェル",
+    "ja-roma": "Bowtzel",
+    "ko": "바우첼",
+    "zh-hans": "麻花犬",
+    "zh-hant": "麻花犬"
+  },
+  "number": 927
+}

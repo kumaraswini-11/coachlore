@@ -1,0 +1,92 @@
+{
+  "category": "Spicy Pepper Pokémon",
+  "entries": [
+    {
+      "text": "The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "capsakid",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "fire-stone"
+      },
+      "from": "capsakid",
+      "to": "scovillain",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": true,
+          "key": "klutz"
+        }
+      ],
+      "artwork": "/dex-images/artwork/capsakid.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "capsakid",
+      "kind": "default",
+      "name": "Capsakid",
+      "number": 951,
+      "pokemon": "capsakid",
+      "sourceId": 951,
+      "sprite": "/dex-images/sprites/capsakid.webp",
+      "statTotal": 304,
+      "stats": {
+        "attack": 62,
+        "defense": 40,
+        "hp": 50,
+        "special-attack": 62,
+        "special-defense": 40,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 30
+    }
+  ],
+  "generation": 9,
+  "key": "capsakid",
+  "name": "Capsakid",
+  "names": {
+    "de": "Chilingel",
+    "en": "Capsakid",
+    "es": "Capsakid",
+    "es-419": "Capsakid",
+    "fr": "Pimito",
+    "it": "Capsakid",
+    "ja": "カプサイジ",
+    "ja-hrkt": "カプサイジ",
+    "ja-roma": "Capsaiji",
+    "ko": "캡싸이",
+    "zh-hans": "热辣娃",
+    "zh-hant": "熱辣娃"
+  },
+  "number": 951
+}

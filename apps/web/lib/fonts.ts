@@ -12,7 +12,7 @@ import { cn } from "@workspace/ui/lib/utils"
 // swapped in mid-read, so nothing reflows (web.dev, "Best practices for
 // fonts"); the next page uses it from the cache. Swapping moved a Hindi page
 // by a whole line (spec 001, criterion 8: no layout shift).
-export const fontSans = Inter({
+const fontSans = Inter({
   subsets: ["latin"],
   variable: "--font-interface",
   display: "optional",
@@ -20,7 +20,7 @@ export const fontSans = Inter({
 
 // Only for codes such as an error reference, so not preloaded: most pages
 // show none (spec 001's audit measured 23 KB saved on every page).
-export const fontMono = Geist_Mono({
+const fontMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-code",
   preload: false,
@@ -32,7 +32,7 @@ export const fontMono = Geist_Mono({
 // (Next.js's font docs, "Preloading"). Only Hindi pages name it, so an
 // English page's one Devanagari word (the language switch's "हिन्दी") uses
 // the system's font rather than fetching 119 KB for it.
-export const fontDevanagari = Noto_Sans_Devanagari({
+const fontDevanagari = Noto_Sans_Devanagari({
   subsets: ["devanagari"],
   preload: false,
   display: "optional",

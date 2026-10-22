@@ -1,0 +1,216 @@
+{
+  "category": "Light Pokémon",
+  "entries": [
+    {
+      "text": "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      "version": "gold"
+    },
+    {
+      "text": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
+      "version": "silver"
+    },
+    {
+      "text": "When it gets dark, the light from its bright, shiny tail can be seen from far away on the ocean's surface.",
+      "version": "crystal"
+    },
+    {
+      "text": "AMPHAROS gives off so much light that it can be seen even from space. People in the old days used the light of this POKéMON to send signals back and forth with others far away.",
+      "version": "ruby"
+    },
+    {
+      "text": "AMPHAROS gives off so much light that it can be seen even from space. People in the old days used the light of this POKéMON to send signals back and forth with others far away.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It gives off so much light that it can be seen even from space. People in the old days used its light to send signals back and forth with others far away.",
+      "version": "emerald"
+    },
+    {
+      "text": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
+      "version": "firered"
+    },
+    {
+      "text": "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light.",
+      "version": "diamond"
+    },
+    {
+      "text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light.",
+      "version": "pearl"
+    },
+    {
+      "text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light.",
+      "version": "platinum"
+    },
+    {
+      "text": "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The bright light on its tail can be seen far away. It has been treasured since ancient times as a beacon.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light.",
+      "version": "black"
+    },
+    {
+      "text": "The tip of its tail shines brightly. In the olden days, people sent signals using the tail’s light.",
+      "version": "white"
+    },
+    {
+      "text": "The tip of its tail shines so brightly it can be used to send sea-navigation beacons to distant foreign shores.",
+      "version": "black-2"
+    },
+    {
+      "text": "The tip of its tail shines so brightly it can be used to send sea-navigation beacons to distant foreign shores.",
+      "version": "white-2"
+    },
+    {
+      "text": "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      "version": "x"
+    },
+    {
+      "text": "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+      "version": "y"
+    },
+    {
+      "text": "Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pokémon to send signals back and forth with others far away.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Ampharos gives off so much light that it can be seen even from space. People in the old days used the light of this Pokémon to send signals back and forth with others far away.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The light from its tail can be seen from space. This is why you can always tell exactly where it is, which is why it usually keeps the light off.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mareep",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "mareep",
+      "to": "flaaffy",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "flaaffy",
+      "to": "ampharos",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "plus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ampharos.webp",
+      "encounters": {},
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ampharos",
+      "kind": "default",
+      "name": "Ampharos",
+      "number": 181,
+      "pokemon": "ampharos",
+      "sourceId": 181,
+      "sprite": "/dex-images/sprites/ampharos.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 75,
+        "defense": 85,
+        "hp": 90,
+        "special-attack": 115,
+        "special-defense": 90,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 615
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ampharos-mega.webp",
+      "encounters": {},
+      "formName": "Mega Ampharos",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 14,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "ampharos-mega",
+      "kind": "mega",
+      "name": "Ampharos-Mega",
+      "number": 181,
+      "pokemon": "ampharos",
+      "sourceId": 10045,
+      "sprite": "/dex-images/sprites/ampharos-mega.webp",
+      "statTotal": 610,
+      "stats": {
+        "attack": 95,
+        "defense": 105,
+        "hp": 90,
+        "special-attack": 165,
+        "special-defense": 110,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["electric", "dragon"],
+      "weight": 615
+    }
+  ],
+  "generation": 2,
+  "key": "ampharos",
+  "name": "Ampharos",
+  "names": {
+    "de": "Ampharos",
+    "en": "Ampharos",
+    "es": "Ampharos",
+    "es-419": "Ampharos",
+    "fr": "Pharamp",
+    "it": "Ampharos",
+    "ja": "デンリュウ",
+    "ja-hrkt": "デンリュウ",
+    "ja-roma": "Denryu",
+    "ko": "전룡",
+    "zh-hans": "电龙",
+    "zh-hant": "電龍"
+  },
+  "number": 181
+}

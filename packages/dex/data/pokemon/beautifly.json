@@ -1,0 +1,281 @@
+{
+  "category": "Butterfly Pokémon",
+  "entries": [
+    {
+      "text": "BEAUTIFLY’s favorite food is the sweet pollen of flowers. If you want to see this POKéMON, just leave a potted flower by an open window. BEAUTIFLY is sure to come looking for pollen.",
+      "version": "ruby"
+    },
+    {
+      "text": "BEAUTIFLY has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This POKéMON rides the spring winds as it flits around gathering pollen.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its colorfully patterned wings are its most prominent feature. It flies through flower-covered fields collecting pollen. It attacks ferociously when angered.",
+      "version": "emerald"
+    },
+    {
+      "text": "Despite its appearance, it has an aggressive nature. It attacks by jabbing with its long, thin mouth.",
+      "version": "firered"
+    },
+    {
+      "text": "Despite its appearance, it has an aggressive nature. It attacks by jabbing with its long, thin mouth.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey’s fluids.",
+      "version": "diamond"
+    },
+    {
+      "text": "When flower fields bloom, it flits around, collecting pollen. Despite its appearance, it is savage.",
+      "version": "pearl"
+    },
+    {
+      "text": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "version": "platinum"
+    },
+    {
+      "text": "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "version": "black"
+    },
+    {
+      "text": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "version": "white"
+    },
+    {
+      "text": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "version": "black-2"
+    },
+    {
+      "text": "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+      "version": "white-2"
+    },
+    {
+      "text": "Vibrantly patterned wings are its prominent feature. It sucks sweet flower nectar with its long mouth.",
+      "version": "x"
+    },
+    {
+      "text": "It has an aggressive nature. It stabs prey with its long, narrow mouth to drain the prey’s fluids.",
+      "version": "y"
+    },
+    {
+      "text": "Beautifly’s favorite food is the sweet pollen of flowers. If you want to see this Pokémon, just leave a potted flower by an open window. Beautifly is sure to come looking for pollen.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Beautifly has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This Pokémon rides the spring winds as it flits around gathering pollen.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A colorful and incredibly beautiful but also greedy Pokémon. In an effort to keep its favorite food all to itself, it will chase away Combee as they try to gather nectar.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "wurmple",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 50,
+        "min_level": 7
+      },
+      "from": "wurmple",
+      "to": "silcoon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "silcoon",
+      "to": "beautifly",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "chance": 50,
+        "min_level": 7
+      },
+      "from": "wurmple",
+      "to": "cascoon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "cascoon",
+      "to": "dustox",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": true,
+          "key": "rivalry"
+        }
+      ],
+      "artwork": "/dex-images/artwork/beautifly.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 2,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 21,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "national-park-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 21,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 1,
+            "location": "eterna-forest-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 1,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 21,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 13,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "national-park-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "omega-ruby-alpha-sapphire", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 3,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "beautifly",
+      "kind": "default",
+      "name": "Beautifly",
+      "number": 267,
+      "pokemon": "beautifly",
+      "sourceId": 267,
+      "sprite": "/dex-images/sprites/beautifly.webp",
+      "statTotal": 395,
+      "stats": {
+        "attack": 70,
+        "defense": 50,
+        "hp": 60,
+        "special-attack": 100,
+        "special-defense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 284
+    }
+  ],
+  "generation": 3,
+  "key": "beautifly",
+  "name": "Beautifly",
+  "names": {
+    "de": "Papinella",
+    "en": "Beautifly",
+    "es": "Beautifly",
+    "es-419": "Beautifly",
+    "fr": "Charmillon",
+    "it": "Beautifly",
+    "ja": "アゲハント",
+    "ja-hrkt": "アゲハント",
+    "ja-roma": "Agehunt",
+    "ko": "뷰티플라이",
+    "zh-hans": "狩猎凤蝶",
+    "zh-hant": "狩獵鳳蝶"
+  },
+  "number": 267
+}

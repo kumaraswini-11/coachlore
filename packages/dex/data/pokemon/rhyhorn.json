@@ -1,0 +1,934 @@
+{
+  "category": "Spikes Pokémon",
+  "entries": [
+    {
+      "text": "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
+      "version": "red"
+    },
+    {
+      "text": "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.",
+      "version": "blue"
+    },
+    {
+      "text": "A POKéMON with a one-track mind. Once it charges, it won't stop running until it falls asleep.",
+      "version": "yellow"
+    },
+    {
+      "text": "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+      "version": "gold"
+    },
+    {
+      "text": "It doesn't care if there is anything in its way. It just charges and destroys all obstacles.",
+      "version": "silver"
+    },
+    {
+      "text": "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
+      "version": "crystal"
+    },
+    {
+      "text": "RHYHORN runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This POKéMON may feel some pain from the collision the next day, however.",
+      "version": "ruby"
+    },
+    {
+      "text": "RHYHORN’s brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Once it starts running, it doesn’t stop. Its tiny brain makes it so stupid that it can’t remember why it started running in the first place.",
+      "version": "emerald"
+    },
+    {
+      "text": "Strong, but not too bright, this POKéMON can shatter even a skyscraper with its charging TACKLES.",
+      "version": "firered"
+    },
+    {
+      "text": "Its massive bones are 1,000 times harder than human bones. Its TACKLE can knock a semitrailer flying.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its body is clad in a thick hide, and its tackles topple buildings. Unfortunately, it is not smart.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its body is clad in a thick hide, and its tackles topple buildings. Unfortunately, it is not smart.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It doesn’t care if there is anything in its way. It just charges and destroys all obstacles.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+      "version": "black"
+    },
+    {
+      "text": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+      "version": "white"
+    },
+    {
+      "text": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its powerful tackles can destroy anything. However, it is too slow witted to help people work.",
+      "version": "white-2"
+    },
+    {
+      "text": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+      "version": "x"
+    },
+    {
+      "text": "It is inept at turning because of its four short legs. It can only charge and run in one direction.",
+      "version": "y"
+    },
+    {
+      "text": "Rhyhorn runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This Pokémon may feel some pain from the collision the next day, however.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Rhyhorn’s brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A Pokémon with a one-track mind. Once it charges, it won’t stop running until it falls asleep.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "A Pokémon with a one-track mind. Once it charges, it won’t stop running until it falls asleep.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
+      "version": "sword"
+    },
+    {
+      "text": "It can remember only one thing at a time. Once it starts rushing, it forgets why it started.",
+      "version": "shield"
+    },
+    {
+      "text": "Ludicrously strong—when it butts heads with a mountain, it is the mountain that shatters. But its short legs struggle with turns, and it is incapable of stopping unless it collides with something.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rhyhorn",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "rhyhorn",
+      "to": "rhydon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "protector"
+      },
+      "from": "rhydon",
+      "to": "rhyperior",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rhyhorn.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 60,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 60,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 60,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 17,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 17,
+            "location": "stark-mountain-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "firered": [
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "digletts-cave-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 1
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "rock-tunnel-b1f",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "blush-mountain-area",
+            "maxLevel": 30,
+            "method": "island-scan",
+            "minLevel": 30
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 17,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 17,
+            "location": "stark-mountain-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 56,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-victory-road-1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 5,
+            "location": "stark-mountain-entrance",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "red": [
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-nwmach-bike-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 580,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 200,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 200,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "digletts-cave-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 1
+          },
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-1f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-2f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "kanto-victory-road-1-3f",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "blush-mountain-area",
+            "maxLevel": 30,
+            "method": "island-scan",
+            "minLevel": 30
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 780,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 270,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 270,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 80,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 120,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 448,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 120,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 448,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 120,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "island-scan",
+            "minLevel": 32
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "island-scan",
+            "minLevel": 32
+          }
+        ],
+        "x": [
+          {
+            "chance": 10,
+            "location": "glittering-cave-unknown-area-303",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "y": [
+          {
+            "chance": 10,
+            "location": "glittering-cave-unknown-area-303",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "platinum", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rhyhorn",
+      "kind": "default",
+      "name": "Rhyhorn",
+      "number": 111,
+      "pokemon": "rhyhorn",
+      "sourceId": 111,
+      "sprite": "/dex-images/sprites/rhyhorn.webp",
+      "statTotal": 345,
+      "stats": {
+        "attack": 85,
+        "defense": 95,
+        "hp": 80,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["ground", "rock"],
+      "weight": 1150
+    }
+  ],
+  "generation": 1,
+  "key": "rhyhorn",
+  "name": "Rhyhorn",
+  "names": {
+    "de": "Rihorn",
+    "en": "Rhyhorn",
+    "es": "Rhyhorn",
+    "es-419": "Rhyhorn",
+    "fr": "Rhinocorne",
+    "it": "Rhyhorn",
+    "ja": "サイホーン",
+    "ja-hrkt": "サイホーン",
+    "ja-roma": "Sihorn",
+    "ko": "뿔카노",
+    "zh-hans": "独角犀牛",
+    "zh-hant": "獨角犀牛"
+  },
+  "number": 111
+}

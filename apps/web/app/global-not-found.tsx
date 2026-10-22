@@ -4,14 +4,15 @@ import { getLocale, getTranslations } from "next-intl/server"
 
 import "@workspace/ui/globals.css"
 
+import { EmptyState } from "@workspace/ui/components/empty-state"
 import { buttonVariants } from "@workspace/ui/components/shadcn-ui/button"
-import { cn } from "@workspace/ui/lib/utils"
 
+import { Page } from "@/components/page"
 import { ThemeProvider } from "@/components/theme-provider"
 import { dir } from "@/i18n/locales"
 import { localeHref } from "@/i18n/paths"
 import { fontStyle, rootClassName } from "@/lib/fonts"
-import { SITE } from "@/lib/site"
+import { pageTitle } from "@/lib/site"
 import { siteUrl } from "@/lib/site-url"
 
 // Every address that matches no page. The Proxy first gives an address its
@@ -33,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
     // No layout sits above this page, so it sets its own base for the
     // share image.
     metadataBase: new URL(siteUrl()),
-    title: `${t("title")} · ${SITE.name}`,
+    title: pageTitle(t("title")),
     description: t("metaDescription"),
   }
 }
@@ -51,15 +52,23 @@ export default async function GlobalNotFound() {
     >
       <body>
         <ThemeProvider>
-          <main className="mx-auto flex min-h-svh max-w-prose flex-col justify-center gap-3 px-4 py-6 md:px-6">
-            <h1 className="text-lg font-medium">{t("title")}</h1>
-            <p className="text-muted-foreground">{t("description")}</p>
-            <Link
-              href={localeHref(locale, "/")}
-              className={cn(buttonVariants(), "h-11 w-fit px-4")}
-            >
-              {t("home")}
-            </Link>
+          {/* The same as the language's not-found page, centred in a
+              screen of its own, since no shell sits around it. */}
+          <main className="flex min-h-svh flex-col">
+            <Page>
+              <EmptyState
+                titleAs="h1"
+                title={t("title")}
+                description={t("description")}
+              >
+                <Link
+                  href={localeHref(locale, "/")}
+                  className={buttonVariants({ size: "touch" })}
+                >
+                  {t("home")}
+                </Link>
+              </EmptyState>
+            </Page>
           </main>
         </ThemeProvider>
       </body>

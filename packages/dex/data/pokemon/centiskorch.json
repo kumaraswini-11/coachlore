@@ -1,0 +1,434 @@
+{
+  "category": "Radiator Pokémon",
+  "entries": [
+    {
+      "text": "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+      "version": "sword"
+    },
+    {
+      "text": "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sizzlipede",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "sizzlipede",
+      "to": "centiskorch",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": false,
+          "key": "white-smoke"
+        },
+        {
+          "hidden": true,
+          "key": "flame-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/centiskorch.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 30,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 45,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 90,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 75,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 230,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 230,
+            "location": "giants-foot-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 75,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 75,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 230,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 230,
+            "location": "giants-foot-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 75,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 8,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "centiskorch",
+      "kind": "default",
+      "name": "Centiskorch",
+      "number": 851,
+      "pokemon": "centiskorch",
+      "sourceId": 851,
+      "sprite": "/dex-images/sprites/centiskorch.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 115,
+        "defense": 65,
+        "hp": 100,
+        "special-attack": 90,
+        "special-defense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fire", "bug"],
+      "weight": 1200
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": false,
+          "key": "white-smoke"
+        },
+        {
+          "hidden": true,
+          "key": "flame-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/centiskorch-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 750,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "centiskorch-gmax",
+      "kind": "gigantamax",
+      "name": "Centiskorch-Gmax",
+      "number": 851,
+      "pokemon": "centiskorch",
+      "sourceId": 10220,
+      "sprite": "/dex-images/sprites/centiskorch-gmax.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 115,
+        "defense": 65,
+        "hp": 100,
+        "special-attack": 90,
+        "special-defense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fire", "bug"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "centiskorch",
+  "name": "Centiskorch",
+  "names": {
+    "de": "Infernopod",
+    "en": "Centiskorch",
+    "es": "Centiskorch",
+    "es-419": "Centiskorch",
+    "fr": "Scolocendre",
+    "it": "Centiskorch",
+    "ja": "マルヤクデ",
+    "ja-hrkt": "マルヤクデ",
+    "ja-roma": "Maruyakude",
+    "ko": "다태우지네",
+    "zh-hans": "焚焰蚣",
+    "zh-hant": "焚焰蚣"
+  },
+  "number": 851
+}

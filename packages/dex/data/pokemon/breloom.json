@@ -1,0 +1,211 @@
+{
+  "category": "Mushroom Pokémon",
+  "entries": [
+    {
+      "text": "BRELOOM closes in on its foe with light and sprightly footwork, then throws punches with its stretchy arms. This POKéMON’s fighting technique puts boxers to shame.",
+      "version": "ruby"
+    },
+    {
+      "text": "The seeds ringing BRELOOM’s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this POKéMON’s seed will cause your stomach to rumble.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It scatters spores from holes in the cap on its head. It loves warm and humid climates. It feeds on trees and plants in fields and forests.",
+      "version": "emerald"
+    },
+    {
+      "text": "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+      "version": "firered"
+    },
+    {
+      "text": "The seeds on its tail are made of toxic spores. It knocks out foes with quick, virtually invisible punches.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "platinum"
+    },
+    {
+      "text": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "black"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "white"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+      "version": "x"
+    },
+    {
+      "text": "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+      "version": "y"
+    },
+    {
+      "text": "Breloom closes in on its foe with light and sprightly footwork, then throws punches with its stretchy arms. This Pokémon’s fighting technique puts boxers to shame.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The seeds ringing Breloom’s tail are made of hardened toxic spores. It is horrible to eat the seeds. Just taking a bite of this Pokémon’s seed will cause your stomach to rumble.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shroomish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 23
+      },
+      "from": "shroomish",
+      "to": "breloom",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "effect-spore"
+        },
+        {
+          "hidden": false,
+          "key": "poison-heal"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/breloom.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 19,
+            "location": "pinwheel-forest-hidden-grotto-inner-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-wasteland",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 19,
+            "location": "pinwheel-forest-hidden-grotto-inner-area",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet"],
+      "gen9": true,
+      "generation": 3,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "breloom",
+      "kind": "default",
+      "name": "Breloom",
+      "number": 286,
+      "pokemon": "breloom",
+      "sourceId": 286,
+      "sprite": "/dex-images/sprites/breloom.webp",
+      "statTotal": 460,
+      "stats": {
+        "attack": 130,
+        "defense": 80,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass", "fighting"],
+      "weight": 392
+    }
+  ],
+  "generation": 3,
+  "key": "breloom",
+  "name": "Breloom",
+  "names": {
+    "de": "Kapilz",
+    "en": "Breloom",
+    "es": "Breloom",
+    "es-419": "Breloom",
+    "fr": "Chapignon",
+    "it": "Breloom",
+    "ja": "キノガッサ",
+    "ja-hrkt": "キノガッサ",
+    "ja-roma": "Kinogassa",
+    "ko": "버섯모",
+    "zh-hans": "斗笠菇",
+    "zh-hant": "斗笠菇"
+  },
+  "number": 286
+}

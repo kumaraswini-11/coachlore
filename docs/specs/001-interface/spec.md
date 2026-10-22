@@ -446,10 +446,11 @@ game, generation, ability or stats.
 - Components: Input Group, Badge, Button, Toggle Group (grid or list),
   Select, Sheet (filters on a phone), Accordion (filter groups), Checkbox,
   Slider (stat ranges), Card, Table, Skeleton.
-- States: no match ("No Pokémon match these filters", and "Clear filters").
+- States: no match ("No Pokémon match these filters", and "Clear all").
 - Accessibility: the count is announced when the filters change; each card
-  is one link named "#0208 Steelix, Steel and Ground"; sliders have
-  number inputs beside them.
+  is one link named "#0208 Steelix, Steel and Ground"; a slider is set
+  without dragging by a click on its track or the arrow keys (WCAG 2.5.7),
+  its values written beside its name.
 
 ### A game's Dex `/games/[game]`
 
@@ -1131,9 +1132,10 @@ This spec is done when:
 3. The search palette opens with the button, and with Ctrl K or ⌘ K; no
    single key opens it or changes the theme. The theme button switches
    between light and dark, and the choice survives a reload.
-4. Every state in [States every view has](#4-states-every-view-has) has a
-   fixture page that shows it, reviewed by the owner on a desktop and a
-   phone.
+4. Every state in [States every view has](#4-states-every-view-has) is
+   shown on the real view that has it, reviewed by the owner on a desktop
+   and a phone (the fixture page was removed:
+   [ADR 0010](../../adr/0010-only-real-routes.md)).
 5. `/about`, `/legal`, not found and `/offline` are built, server-rendered,
    with titles and descriptions as `apps/web/README.md` describes.
 6. An automated accessibility check finds no WCAG 2.2 AA violations on every page this
@@ -1141,7 +1143,7 @@ This spec is done when:
 7. With reduced motion on, nothing moves across the screen.
 8. A mobile lab measurement shows no layout shift on these pages
    (CLS 0), and the owner's `/interface-review` passes.
-9. On a fixture page with the shell's sticky bars and a long list, at
+9. On a long list under the shell's sticky bars (the Dex's list), at
    360 × 640, tabbing to the last row keeps the focused row in view, never
    under a sticky bar (WCAG 2.4.11); spec 008 repeats the test in the draft
    room.
@@ -1204,3 +1206,8 @@ From the screens research, left out of v1:
   lore. It is in `apps/web/app/icon.svg` and the top bar
   (`components/shell/logo-mark.tsx`); the favicon, touch icon and share
   image are rendered from it by `packages/playwright-web/scripts/make-icons.mjs`.
+- 2026-10-22: the fixture pages removed; criteria 4 and 9 met on real
+  views ([ADR 0010](../../adr/0010-only-real-routes.md)).
+- 2026-10-22: the Dex's stat sliders show their values as text, without
+  number fields (the owner's call): a click on the track and the arrow
+  keys set them without dragging.

@@ -1,0 +1,144 @@
+{
+  "category": "Flame Pokémon",
+  "entries": [
+    {
+      "text": "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+      "version": "pearl"
+    },
+    {
+      "text": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
+      "version": "platinum"
+    },
+    {
+      "text": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
+      "version": "black"
+    },
+    {
+      "text": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
+      "version": "white"
+    },
+    {
+      "text": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
+      "version": "black-2"
+    },
+    {
+      "text": "It uses unique fighting moves with fire on its hands and feet. It will take on any opponent.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+      "version": "x"
+    },
+    {
+      "text": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+      "version": "y"
+    },
+    {
+      "text": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It tosses its enemies around with agility. It uses all its limbs to fight in its own unique style.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A tall, hardy Pokémon with a dazzling appearance. It shrouds itself in flame and battles as if engaged in dance—truly a sight to behold.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chimchar",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "chimchar",
+      "to": "monferno",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "monferno",
+      "to": "infernape",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "iron-fist"
+        }
+      ],
+      "artwork": "/dex-images/artwork/infernape.webp",
+      "encounters": {},
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "infernape",
+      "kind": "default",
+      "name": "Infernape",
+      "number": 392,
+      "pokemon": "infernape",
+      "sourceId": 392,
+      "sprite": "/dex-images/sprites/infernape.webp",
+      "statTotal": 534,
+      "stats": {
+        "attack": 104,
+        "defense": 71,
+        "hp": 76,
+        "special-attack": 104,
+        "special-defense": 71,
+        "speed": 108
+      },
+      "tags": [],
+      "types": ["fire", "fighting"],
+      "weight": 550
+    }
+  ],
+  "generation": 4,
+  "key": "infernape",
+  "name": "Infernape",
+  "names": {
+    "de": "Panferno",
+    "en": "Infernape",
+    "es": "Infernape",
+    "es-419": "Infernape",
+    "fr": "Simiabraz",
+    "it": "Infernape",
+    "ja": "ゴウカザル",
+    "ja-hrkt": "ゴウカザル",
+    "ja-roma": "Goukazaru",
+    "ko": "초염몽",
+    "zh-hans": "烈焰猴",
+    "zh-hant": "烈焰猴"
+  },
+  "number": 392
+}

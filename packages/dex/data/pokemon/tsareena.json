@@ -1,0 +1,227 @@
+{
+  "category": "Fruit Pokémon",
+  "entries": [
+    {
+      "text": "Its long, striking legs aren’t just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+      "version": "sun"
+    },
+    {
+      "text": "A Pokémon known for the beauty of its well-shaped legs, it sometimes appears as a mascot in advertisements for beauty salons.",
+      "version": "moon"
+    },
+    {
+      "text": "A master of grand and beautiful kicks, it can knock out even kickboxing champions with a single blow.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "A Pokémon with an aggressive personality and a mastery of kicking, it cackles every time it kicks an opponent.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
+      "version": "sword"
+    },
+    {
+      "text": "A kick from the hardened tips of this Pokémon’s legs leaves a wound in the opponent’s body and soul that will never heal.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bounsweet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "bounsweet",
+      "to": "steenee",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "known_move": "stomp"
+      },
+      "from": "steenee",
+      "to": "tsareena",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "leaf-guard"
+        },
+        {
+          "hidden": false,
+          "key": "queenly-majesty"
+        },
+        {
+          "hidden": true,
+          "key": "sweet-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tsareena.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1400,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1400,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 7,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tsareena",
+      "kind": "default",
+      "name": "Tsareena",
+      "number": 763,
+      "pokemon": "tsareena",
+      "sourceId": 763,
+      "sprite": "/dex-images/sprites/tsareena.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 120,
+        "defense": 98,
+        "hp": 72,
+        "special-attack": 50,
+        "special-defense": 98,
+        "speed": 72
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 214
+    }
+  ],
+  "generation": 7,
+  "key": "tsareena",
+  "name": "Tsareena",
+  "names": {
+    "de": "Fruyal",
+    "en": "Tsareena",
+    "es": "Tsareena",
+    "es-419": "Tsareena",
+    "fr": "Sucreine",
+    "it": "Tsareena",
+    "ja": "アマージョ",
+    "ja-hrkt": "アマージョ",
+    "ja-roma": "Amajo",
+    "ko": "달코퀸",
+    "zh-hans": "甜冷美后",
+    "zh-hant": "甜冷美后"
+  },
+  "number": 763
+}

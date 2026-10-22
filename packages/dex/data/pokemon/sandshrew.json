@@ -1,0 +1,873 @@
+{
+  "category": "Mouse Pokémon",
+  "entries": [
+    {
+      "text": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+      "version": "red"
+    },
+    {
+      "text": "Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
+      "version": "blue"
+    },
+    {
+      "text": "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew.",
+      "version": "yellow"
+    },
+    {
+      "text": "If it fell from a great height, this POKéMON could save itself by rolling into a ball and bouncing.",
+      "version": "gold"
+    },
+    {
+      "text": "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.",
+      "version": "silver"
+    },
+    {
+      "text": "It prefers dry, sandy places because it uses the sand to protect itself when threatened.",
+      "version": "crystal"
+    },
+    {
+      "text": "SANDSHREW’s body is configured to absorb water without waste, enabling it to survive in an arid desert. This POKéMON curls up to protect itself from its enemies.",
+      "version": "ruby"
+    },
+    {
+      "text": "SANDSHREW has a very dry hide that is extremely tough. The POKéMON can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.",
+      "version": "sapphire"
+    },
+    {
+      "text": "When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert.",
+      "version": "emerald"
+    },
+    {
+      "text": "It burrows and lives underground. If threatened, it curls itself up into a ball for protection.",
+      "version": "firered"
+    },
+    {
+      "text": "Burrows deep underground in arid locations far from water. It only emerges to hunt for prey.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
+      "version": "diamond"
+    },
+    {
+      "text": "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
+      "version": "pearl"
+    },
+    {
+      "text": "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
+      "version": "platinum"
+    },
+    {
+      "text": "If it fell from a great height, this Pokémon could save itself by rolling into a ball and bouncing.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
+      "version": "black"
+    },
+    {
+      "text": "To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.",
+      "version": "white"
+    },
+    {
+      "text": "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
+      "version": "black-2"
+    },
+    {
+      "text": "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
+      "version": "white-2"
+    },
+    {
+      "text": "It burrows and lives underground. If threatened, it curls itself up into a ball for protection.",
+      "version": "x"
+    },
+    {
+      "text": "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.",
+      "version": "y"
+    },
+    {
+      "text": "Sandshrew’s body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Sandshrew has a very dry hide that is extremely tough. The Pokémon can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It can roll its body into a ball. It moves through the desert by rolling at high speeds.",
+      "version": "sun"
+    },
+    {
+      "text": "It usually makes its home in deserts and arid zones, where rain does not fall. It digs holes to catch Bug-type Pokémon.",
+      "version": "moon"
+    },
+    {
+      "text": "It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "It loves to bathe in the grit of dry, sandy areas. By sand bathing, the Pokémon rids itself of dirt and moisture clinging to its body.",
+      "version": "sword"
+    },
+    {
+      "text": "It burrows into the ground to create its nest. If hard stones impede its tunneling, it uses its sharp claws to shatter them and then carries on digging.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sandshrew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "sandshrew",
+      "to": "sandslash",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sandslash-alola",
+        "item": "ice-stone",
+        "required_pokemon_form": "sandshrew-alola"
+      },
+      "from": "sandshrew",
+      "to": "sandslash",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "sand-rush"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sandshrew.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 15,
+            "location": "desert-resort-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "desert-resort-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "relic-castle-a",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "blue": [
+          {
+            "chance": 25,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-23-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-9-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 40,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 60,
+            "location": "union-cave-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "wayward-cave-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 8,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 50,
+            "location": "mirage-tower-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "gold": [
+          {
+            "chance": 20,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 25,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-23-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-9-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 120,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "mt-moon-1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "mt-moon-2f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-1f",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 30,
+            "location": "union-cave-b1f",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 25,
+            "location": "kanto-route-10-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-11-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-23-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-9-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-3-area",
+            "maxLevel": 8,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-4-area",
+            "maxLevel": 12,
+            "method": "overworld",
+            "minLevel": 7
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "wayward-cave-1f",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 8,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 8,
+            "location": "wayward-cave-1f",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 8,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-route-113-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 35,
+            "location": "hoenn-route-111-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 25,
+            "location": "hoenn-route-113-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "goldenrod-city-game-corner",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "goldenrod-city-game-corner",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "johto-safari-zone-desert",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 225,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 225,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 225,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 225,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 784,
+            "location": "warm-up-tunnel-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 225,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 225,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 225,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 225,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 784,
+            "location": "warm-up-tunnel-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "desert-resort-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "desert-resort-entrance",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 20,
+            "location": "relic-castle-a",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 50,
+            "location": "pokespot-rock",
+            "maxLevel": 23,
+            "method": "pokespot",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 15,
+            "location": "kanto-route-3-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-4-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 4,
+            "location": "mt-moon-1f",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sandshrew",
+      "kind": "default",
+      "name": "Sandshrew",
+      "number": 27,
+      "pokemon": "sandshrew",
+      "sourceId": 27,
+      "sprite": "/dex-images/sprites/sandshrew.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 75,
+        "defense": 85,
+        "hp": 50,
+        "special-attack": 20,
+        "special-defense": 30,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["ground"],
+      "weight": 120
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "slush-rush"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sandshrew-alola.webp",
+      "encounters": {
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "celadon-city-area",
+            "maxLevel": 27,
+            "method": "npc-trade",
+            "minLevel": 27
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-14-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 10,
+            "location": "tapu-village-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "fields-of-honor-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-14-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-base",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 10,
+            "location": "tapu-village-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "sandshrew-alola",
+      "kind": "regional",
+      "name": "Sandshrew-Alola",
+      "number": 27,
+      "pokemon": "sandshrew",
+      "sourceId": 10101,
+      "sprite": "/dex-images/sprites/sandshrew-alola.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 75,
+        "defense": 90,
+        "hp": 50,
+        "special-attack": 10,
+        "special-defense": 35,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["ice", "steel"],
+      "weight": 400
+    }
+  ],
+  "generation": 1,
+  "key": "sandshrew",
+  "name": "Sandshrew",
+  "names": {
+    "de": "Sandan",
+    "en": "Sandshrew",
+    "es": "Sandshrew",
+    "es-419": "Sandshrew",
+    "fr": "Sabelette",
+    "it": "Sandshrew",
+    "ja": "サンド",
+    "ja-hrkt": "サンド",
+    "ja-roma": "Sand",
+    "ko": "모래두지",
+    "zh-hans": "穿山鼠",
+    "zh-hant": "穿山鼠"
+  },
+  "number": 27
+}

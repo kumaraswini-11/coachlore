@@ -1,0 +1,96 @@
+{
+  "category": "Wild Horse Pokémon",
+  "entries": [
+    {
+      "text": "Glastrier emits intense cold from its hooves. It’s also a belligerent Pokémon—anything it wants, it takes by force.",
+      "version": "sword"
+    },
+    {
+      "text": "Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "glastrier",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chilling-neigh"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glastrier.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "crown-shrine-area",
+            "maxLevel": 75,
+            "method": "static",
+            "minLevel": 75
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "crown-shrine-area",
+            "maxLevel": 75,
+            "method": "static",
+            "minLevel": 75
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": true,
+      "generation": 8,
+      "height": 22,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "glastrier",
+      "kind": "default",
+      "legendary": true,
+      "name": "Glastrier",
+      "number": 896,
+      "pokemon": "glastrier",
+      "sourceId": 896,
+      "sprite": "/dex-images/sprites/glastrier.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 145,
+        "defense": 130,
+        "hp": 100,
+        "special-attack": 65,
+        "special-defense": 110,
+        "speed": 30
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["ice"],
+      "weight": 8000
+    }
+  ],
+  "generation": 8,
+  "key": "glastrier",
+  "name": "Glastrier",
+  "names": {
+    "de": "Polaross",
+    "en": "Glastrier",
+    "es": "Glastrier",
+    "es-419": "Glastrier",
+    "fr": "Blizzeval",
+    "it": "Glastrier",
+    "ja": "ブリザポス",
+    "ja-hrkt": "ブリザポス",
+    "ja-roma": "Blizzapos",
+    "ko": "블리자포스",
+    "zh-hans": "雪暴马",
+    "zh-hant": "雪暴馬"
+  },
+  "number": 896
+}

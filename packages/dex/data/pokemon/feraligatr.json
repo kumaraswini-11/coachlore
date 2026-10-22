@@ -1,0 +1,208 @@
+{
+  "category": "Big Jaw Pokémon",
+  "entries": [
+    {
+      "text": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+      "version": "gold"
+    },
+    {
+      "text": "It is hard for it to support its own weight out of water, so it gets down on all fours. But it moves fast.",
+      "version": "silver"
+    },
+    {
+      "text": "Although it has a massive body, its powerful hind legs enable it to move quickly, even on the ground.",
+      "version": "crystal"
+    },
+    {
+      "text": "FERALIGATR intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
+      "version": "ruby"
+    },
+    {
+      "text": "FERALIGATR intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It opens its huge mouth to intimidate enemies. In battle, it runs using its thick and powerful hind legs to charge the foe with incredible speed.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is hard for it to support its own weight out of water, so it gets down on all fours. But it moves fast.",
+      "version": "firered"
+    },
+    {
+      "text": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears up its victim.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "diamond"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "pearl"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "platinum"
+    },
+    {
+      "text": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is hard for it to support its weight out of water, so it sometimes gets down on all fours. But it moves fast.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "black"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "white"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "black-2"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "white-2"
+    },
+    {
+      "text": "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+      "version": "x"
+    },
+    {
+      "text": "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+      "version": "y"
+    },
+    {
+      "text": "Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "totodile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "totodile",
+      "to": "croconaw",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "croconaw",
+      "to": "feraligatr",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/feraligatr.webp",
+      "encounters": {},
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 23,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "feraligatr",
+      "kind": "default",
+      "name": "Feraligatr",
+      "number": 160,
+      "pokemon": "feraligatr",
+      "sourceId": 160,
+      "sprite": "/dex-images/sprites/feraligatr.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 105,
+        "defense": 100,
+        "hp": 85,
+        "special-attack": 79,
+        "special-defense": 83,
+        "speed": 78
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 888
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dragonize"
+        }
+      ],
+      "artwork": "/dex-images/artwork/feraligatr-mega.webp",
+      "encounters": {},
+      "formName": "Mega Feraligatr",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 23,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "feraligatr-mega",
+      "kind": "mega",
+      "name": "Feraligatr-Mega",
+      "number": 160,
+      "pokemon": "feraligatr",
+      "sourceId": 10283,
+      "sprite": "/dex-images/sprites/feraligatr-mega.webp",
+      "statTotal": 630,
+      "stats": {
+        "attack": 160,
+        "defense": 125,
+        "hp": 85,
+        "special-attack": 89,
+        "special-defense": 93,
+        "speed": 78
+      },
+      "tags": [],
+      "types": ["water", "dragon"],
+      "weight": 1088
+    }
+  ],
+  "generation": 2,
+  "key": "feraligatr",
+  "name": "Feraligatr",
+  "names": {
+    "de": "Impergator",
+    "en": "Feraligatr",
+    "es": "Feraligatr",
+    "es-419": "Feraligatr",
+    "fr": "Aligatueur",
+    "it": "Feraligatr",
+    "ja": "オーダイル",
+    "ja-hrkt": "オーダイル",
+    "ja-roma": "Ordile",
+    "ko": "장크로다일",
+    "zh-hans": "大力鳄",
+    "zh-hant": "大力鱷"
+  },
+  "number": 160
+}

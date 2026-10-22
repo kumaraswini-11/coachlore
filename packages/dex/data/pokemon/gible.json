@@ -1,0 +1,306 @@
+{
+  "category": "Land Shark Pokémon",
+  "entries": [
+    {
+      "text": "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+      "version": "diamond"
+    },
+    {
+      "text": "It once lived in the tropics. To avoid the cold, it lives in caves warmed by geothermal heat.",
+      "version": "pearl"
+    },
+    {
+      "text": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+      "version": "platinum"
+    },
+    {
+      "text": "It nests in horizontal holes warmed by geothermal heat. Foes who get too close can expect to be pounced on and bitten.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It nests in horizontal holes warmed by geothermal heat. Foes who get too close can expect to be pounced on and bitten.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+      "version": "black"
+    },
+    {
+      "text": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+      "version": "white"
+    },
+    {
+      "text": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+      "version": "black-2"
+    },
+    {
+      "text": "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+      "version": "white-2"
+    },
+    {
+      "text": "It nests in horizontal holes warmed by geothermal heat. Foes who get too close can expect to be pounced on and bitten.",
+      "version": "x"
+    },
+    {
+      "text": "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+      "version": "y"
+    },
+    {
+      "text": "It nests in horizontal holes warmed by geothermal heat. Foes who get too close can expect to be pounced on and bitten.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It lives in caves warmed by geothermal heat. Even so, when the weather gets cold, it will huddle close with others of its kind.",
+      "version": "sun"
+    },
+    {
+      "text": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+      "version": "moon"
+    },
+    {
+      "text": "It reacts to anything that moves—flies right at it and bites it. Sometimes it injures itself, but it doesn’t care too much.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its original home is an area much hotter than Alola. If you’re planning to live with one, your heating bill will soar.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Gible prefers to stay in narrow holes in the sides of caves heated by geothermal energy. This way, Gible can stay warm even during a blizzard.",
+      "version": "sword"
+    },
+    {
+      "text": "Gible attacks anything that moves, and it drags whatever it catches into the crevice that is its lair. Despite the big mouth, Gible’s stomach is small.",
+      "version": "shield"
+    },
+    {
+      "text": "It nests in caves untouched by sunlight. Its sharp teeth may fall out when worn away or after an impact, but they regrow within a few days.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gible",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "gible",
+      "to": "gabite",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 48
+      },
+      "from": "gabite",
+      "to": "garchomp",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "rough-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gible.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "floccesy-town-area",
+            "maxLevel": 1,
+            "method": "gift",
+            "minLevel": 1
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 31,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 31,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 36,
+            "location": "wayward-cave-b1f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 185,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 185,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 110,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "ground-ambush",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rough-terrain",
+            "minLevel": 26
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "ground-ambush",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-13-area",
+            "maxLevel": 28,
+            "method": "rough-terrain",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 4,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gible",
+      "kind": "default",
+      "name": "Gible",
+      "number": 443,
+      "pokemon": "gible",
+      "sourceId": 443,
+      "sprite": "/dex-images/sprites/gible.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 70,
+        "defense": 45,
+        "hp": 58,
+        "special-attack": 40,
+        "special-defense": 45,
+        "speed": 42
+      },
+      "tags": [],
+      "types": ["dragon", "ground"],
+      "weight": 205
+    }
+  ],
+  "generation": 4,
+  "key": "gible",
+  "name": "Gible",
+  "names": {
+    "de": "Kaumalat",
+    "en": "Gible",
+    "es": "Gible",
+    "es-419": "Gible",
+    "fr": "Griknot",
+    "it": "Gible",
+    "ja": "フカマル",
+    "ja-hrkt": "フカマル",
+    "ja-roma": "Fukamaru",
+    "ko": "딥상어동",
+    "zh-hans": "圆陆鲨",
+    "zh-hant": "圓陸鯊"
+  },
+  "number": 443
+}

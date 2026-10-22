@@ -1,0 +1,88 @@
+{
+  "category": "Rolling Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rellor",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_steps": 1000
+      },
+      "from": "rellor",
+      "to": "rabsca",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "compound-eyes"
+        },
+        {
+          "hidden": true,
+          "key": "shed-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rellor.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 9,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rellor",
+      "kind": "default",
+      "name": "Rellor",
+      "number": 953,
+      "pokemon": "rellor",
+      "sourceId": 953,
+      "sprite": "/dex-images/sprites/rellor.webp",
+      "statTotal": 270,
+      "stats": {
+        "attack": 50,
+        "defense": 60,
+        "hp": 41,
+        "special-attack": 31,
+        "special-defense": 58,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 10
+    }
+  ],
+  "generation": 9,
+  "key": "rellor",
+  "name": "Rellor",
+  "names": {
+    "de": "Relluk",
+    "en": "Rellor",
+    "es": "Rellor",
+    "es-419": "Rellor",
+    "fr": "Léboulérou",
+    "it": "Rellor",
+    "ja": "シガロコ",
+    "ja-hrkt": "シガロコ",
+    "ja-roma": "Shigaroko",
+    "ko": "구르데",
+    "zh-hans": "虫滚泥",
+    "zh-hant": "蟲滾泥"
+  },
+  "number": 953
+}

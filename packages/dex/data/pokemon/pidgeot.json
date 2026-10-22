@@ -1,0 +1,535 @@
+{
+  "category": "Bird Pokémon",
+  "entries": [
+    {
+      "text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+      "version": "red"
+    },
+    {
+      "text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+      "version": "blue"
+    },
+    {
+      "text": "This POKéMON flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+      "version": "yellow"
+    },
+    {
+      "text": "Its well-developed chest muscles make it strong enough to whip up a gusty windstorm with just a few flaps.",
+      "version": "gold"
+    },
+    {
+      "text": "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.",
+      "version": "silver"
+    },
+    {
+      "text": "Its outstanding vision allows it to spot splashing MAGIKARP, even while flying at 3300 feet.",
+      "version": "crystal"
+    },
+    {
+      "text": "This POKéMON has a dazzling plumage of beautifully glossy feathers. Many TRAINERS are captivated by the striking beauty of the feathers on its head, compelling them to choose PIDGEOT as their POKéMON.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON has a dazzling plumage of beautifully glossy feathers. Many TRAINERS are captivated by the striking beauty of the feathers on its head, compelling them to choose PIDGEOT as their POKéMON.",
+      "version": "sapphire"
+    },
+    {
+      "text": "This POKéMON has gorgeous, glossy feathers. Many TRAINERS are so captivated by the beautiful feathers on its head that they choose PIDGEOT as their POKéMON.",
+      "version": "emerald"
+    },
+    {
+      "text": "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
+      "version": "firered"
+    },
+    {
+      "text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as MAGIKARP.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "By flapping its wings with all its might, PIDGEOT can make a gust of wind capable of bending tall trees.",
+      "version": "diamond"
+    },
+    {
+      "text": "By flapping its wings with all its might, PIDGEOT can make a gust of wind capable of bending tall trees.",
+      "version": "pearl"
+    },
+    {
+      "text": "By flapping its wings with all its might, PIDGEOT can make a gust of wind capable of bending tall trees.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its well-developed chest muscles make it strong enough to whip up a gusty windstorm with just a few flaps.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "By flapping its wings with all its might, Pidgeot can make a gust of wind capable of bending tall trees.",
+      "version": "black"
+    },
+    {
+      "text": "By flapping its wings with all its might, Pidgeot can make a gust of wind capable of bending tall trees.",
+      "version": "white"
+    },
+    {
+      "text": "By flapping its wings with all its might, Pidgeot can make a gust of wind capable of bending tall trees.",
+      "version": "black-2"
+    },
+    {
+      "text": "By flapping its wings with all its might, Pidgeot can make a gust of wind capable of bending tall trees.",
+      "version": "white-2"
+    },
+    {
+      "text": "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+      "version": "x"
+    },
+    {
+      "text": "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
+      "version": "y"
+    },
+    {
+      "text": "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "This Pokémon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pidgey",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "pidgey",
+      "to": "pidgeotto",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "pidgeotto",
+      "to": "pidgeot",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "tangled-feet"
+        },
+        {
+          "hidden": true,
+          "key": "big-pecks"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pidgeot.webp",
+      "encounters": {
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-5-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-5-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "island-scan",
+            "minLevel": 29
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 29,
+            "method": "island-scan",
+            "minLevel": 29
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 1,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pidgeot",
+      "kind": "default",
+      "name": "Pidgeot",
+      "number": 18,
+      "pokemon": "pidgeot",
+      "sourceId": 18,
+      "sprite": "/dex-images/sprites/pidgeot.webp",
+      "statTotal": 479,
+      "stats": {
+        "attack": 80,
+        "defense": 75,
+        "hp": 83,
+        "special-attack": 70,
+        "special-defense": 70,
+        "speed": 101
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 395
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "no-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pidgeot-mega.webp",
+      "encounters": {},
+      "formName": "Mega Pidgeot",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 22,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "pidgeot-mega",
+      "kind": "mega",
+      "name": "Pidgeot-Mega",
+      "number": 18,
+      "pokemon": "pidgeot",
+      "sourceId": 10073,
+      "sprite": "/dex-images/sprites/pidgeot-mega.webp",
+      "statTotal": 579,
+      "stats": {
+        "attack": 80,
+        "defense": 80,
+        "hp": 83,
+        "special-attack": 135,
+        "special-defense": 80,
+        "speed": 121
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 505
+    }
+  ],
+  "generation": 1,
+  "key": "pidgeot",
+  "name": "Pidgeot",
+  "names": {
+    "de": "Tauboss",
+    "en": "Pidgeot",
+    "es": "Pidgeot",
+    "es-419": "Pidgeot",
+    "fr": "Roucarnage",
+    "it": "Pidgeot",
+    "ja": "ピジョット",
+    "ja-hrkt": "ピジョット",
+    "ja-roma": "Pigeot",
+    "ko": "피죤투",
+    "zh-hans": "大比鸟",
+    "zh-hant": "大比鳥"
+  },
+  "number": 18
+}

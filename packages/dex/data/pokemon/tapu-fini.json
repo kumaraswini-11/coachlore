@@ -1,0 +1,144 @@
+{
+  "category": "Land Spirit Pokémon",
+  "entries": [
+    {
+      "text": "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
+      "version": "sun"
+    },
+    {
+      "text": "The guardian deity of Poni, it can control water. People say it can create pure water that will wash away any uncleanness.",
+      "version": "moon"
+    },
+    {
+      "text": "This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although it’s called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tapu-fini",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "misty-surge"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tapu-fini.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-hope-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-hope-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-hope-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-hope-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tapu-fini",
+      "kind": "default",
+      "legendary": true,
+      "name": "Tapu Fini",
+      "number": 788,
+      "pokemon": "tapu-fini",
+      "sourceId": 788,
+      "sprite": "/dex-images/sprites/tapu-fini.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 75,
+        "defense": 115,
+        "hp": 70,
+        "special-attack": 95,
+        "special-defense": 130,
+        "speed": 85
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["water", "fairy"],
+      "weight": 212
+    }
+  ],
+  "generation": 7,
+  "key": "tapu-fini",
+  "name": "Tapu Fini",
+  "names": {
+    "de": "Kapu-Kime",
+    "en": "Tapu Fini",
+    "es": "Tapu Fini",
+    "es-419": "Tapu Fini",
+    "fr": "Tokopisco",
+    "it": "Tapu Fini",
+    "ja": "カプ・レヒレ",
+    "ja-hrkt": "カプ・レヒレ",
+    "ja-roma": "Kapu-Rehire",
+    "ko": "카푸느지느",
+    "zh-hans": "卡璞・鳍鳍",
+    "zh-hant": "卡璞・鰭鰭"
+  },
+  "number": 788
+}

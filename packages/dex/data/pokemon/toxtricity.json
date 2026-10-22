@@ -1,0 +1,587 @@
+{
+  "category": "Punk Pokémon",
+  "entries": [
+    {
+      "text": "When this Pokémon sounds as if it’s strumming a guitar, it’s actually clawing at the protrusions on its chest to generate electricity.",
+      "version": "sword"
+    },
+    {
+      "text": "This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "toxel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "allowed_natures": ["hardy", "docile", "hasty", "adamant", "impish", "rash", "jolly", "naughty", "lax", "quirky", "naive", "brave", "sassy"],
+        "evolved_pokemon_form": "toxtricity-amped",
+        "min_level": 30
+      },
+      "from": "toxel",
+      "to": "toxtricity",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "allowed_natures": ["bold", "modest", "calm", "timid", "lonely", "mild", "gentle", "bashful", "careful", "relaxed", "quiet", "serious"],
+        "evolved_pokemon_form": "toxtricity-low-key",
+        "min_level": 30
+      },
+      "from": "toxel",
+      "to": "toxtricity",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "punk-rock"
+        },
+        {
+          "hidden": false,
+          "key": "plus"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toxtricity-amped.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 135,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 135,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 135,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 135,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Amped Form",
+      "games": ["sword-shield", "scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "toxtricity-amped",
+      "kind": "default",
+      "name": "Toxtricity",
+      "number": 849,
+      "pokemon": "toxtricity",
+      "sourceId": 849,
+      "sprite": "/dex-images/sprites/toxtricity-amped.webp",
+      "statTotal": 502,
+      "stats": {
+        "attack": 98,
+        "defense": 70,
+        "hp": 75,
+        "special-attack": 114,
+        "special-defense": 70,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["electric", "poison"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "punk-rock"
+        },
+        {
+          "hidden": false,
+          "key": "plus"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toxtricity-amped-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 240,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "toxtricity-amped-gmax",
+      "kind": "gigantamax",
+      "name": "Toxtricity-Amped-Gmax",
+      "number": 849,
+      "pokemon": "toxtricity",
+      "sourceId": 10219,
+      "sprite": "/dex-images/sprites/toxtricity-amped-gmax.webp",
+      "statTotal": 502,
+      "stats": {
+        "attack": 98,
+        "defense": 70,
+        "hp": 75,
+        "special-attack": 114,
+        "special-defense": 70,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["electric", "poison"],
+      "weight": 10000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "punk-rock"
+        },
+        {
+          "hidden": false,
+          "key": "minus"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toxtricity-low-key.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "formName": "Low Key Form",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "toxtricity-low-key",
+      "kind": "other",
+      "name": "Toxtricity-Low-Key",
+      "number": 849,
+      "pokemon": "toxtricity",
+      "sourceId": 10184,
+      "sprite": "/dex-images/sprites/toxtricity-low-key.webp",
+      "statTotal": 502,
+      "stats": {
+        "attack": 98,
+        "defense": 70,
+        "hp": 75,
+        "special-attack": 114,
+        "special-defense": 70,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["electric", "poison"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "punk-rock"
+        },
+        {
+          "hidden": false,
+          "key": "minus"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/toxtricity-low-key-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 240,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "toxtricity-low-key-gmax",
+      "kind": "gigantamax",
+      "name": "Toxtricity-Low-Key-Gmax",
+      "number": 849,
+      "pokemon": "toxtricity",
+      "sourceId": 10228,
+      "sprite": "/dex-images/sprites/toxtricity-low-key-gmax.webp",
+      "statTotal": 502,
+      "stats": {
+        "attack": 98,
+        "defense": 70,
+        "hp": 75,
+        "special-attack": 114,
+        "special-defense": 70,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["electric", "poison"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "toxtricity",
+  "name": "Toxtricity",
+  "names": {
+    "de": "Riffex",
+    "en": "Toxtricity",
+    "es": "Toxtricity",
+    "es-419": "Toxtricity",
+    "fr": "Salarsen",
+    "it": "Toxtricity",
+    "ja": "ストリンダー",
+    "ja-hrkt": "ストリンダー",
+    "ja-roma": "Strinder",
+    "ko": "스트린더",
+    "zh-hans": "颤弦蝾螈",
+    "zh-hant": "顫弦蠑螈"
+  },
+  "number": 849
+}

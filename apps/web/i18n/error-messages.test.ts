@@ -2,7 +2,8 @@ import { parse, TYPE } from "@formatjs/icu-messageformat-parser"
 import { createTranslator } from "next-intl"
 import { describe, expect, it } from "vitest"
 
-import { errorMessages, fill } from "@/i18n/error-messages"
+import { errorMessages } from "@/i18n/error-messages"
+import { fill } from "@/i18n/fill"
 import { routing } from "@/i18n/routing"
 
 describe.each(routing.locales)("the %s error messages", (locale) => {

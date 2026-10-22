@@ -1,0 +1,197 @@
+{
+  "category": "Mud Fish Pokémon",
+  "entries": [
+    {
+      "text": "The surface of MARSHTOMP’s body is enveloped by a thin, sticky film that enables it to live on land. This POKéMON plays in mud on beaches when the ocean tide is low.",
+      "version": "ruby"
+    },
+    {
+      "text": "MARSHTOMP is much faster at traveling through mud than it is at swimming. This POKéMON’s hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is at its best when on muddy ground with poor footing. It quickly overwhelms foes struggling in mud.",
+      "version": "firered"
+    },
+    {
+      "text": "It is at its best when on muddy ground with poor footing. It quickly overwhelms foes struggling in mud.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "platinum"
+    },
+    {
+      "text": "Living on muddy ground that provides poor footing has made its legs sturdy.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Living on muddy ground that provides poor footing has made its legs sturdy.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "black"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "white"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+      "version": "x"
+    },
+    {
+      "text": "Living on muddy ground that provides poor footing has made its legs sturdy.",
+      "version": "y"
+    },
+    {
+      "text": "The surface of Marshtomp’s body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches when the ocean tide is low.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Marshtomp is much faster at traveling through mud than it is at swimming. This Pokémon’s hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mudkip",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "mudkip",
+      "to": "marshtomp",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "marshtomp",
+      "to": "swampert",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/marshtomp.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "brooklet-hill-main",
+            "maxLevel": 17,
+            "method": "island-scan",
+            "minLevel": 17
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "brooklet-hill-main",
+            "maxLevel": 17,
+            "method": "island-scan",
+            "minLevel": 17
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 3,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "marshtomp",
+      "kind": "default",
+      "name": "Marshtomp",
+      "number": 259,
+      "pokemon": "marshtomp",
+      "sourceId": 259,
+      "sprite": "/dex-images/sprites/marshtomp.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 85,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["water", "ground"],
+      "weight": 280
+    }
+  ],
+  "generation": 3,
+  "key": "marshtomp",
+  "name": "Marshtomp",
+  "names": {
+    "de": "Moorabbel",
+    "en": "Marshtomp",
+    "es": "Marshtomp",
+    "es-419": "Marshtomp",
+    "fr": "Flobio",
+    "it": "Marshtomp",
+    "ja": "ヌマクロー",
+    "ja-hrkt": "ヌマクロー",
+    "ja-roma": "Numacraw",
+    "ko": "늪짱이",
+    "zh-hans": "沼跃鱼",
+    "zh-hant": "沼躍魚"
+  },
+  "number": 259
+}

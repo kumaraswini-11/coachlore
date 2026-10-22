@@ -1,0 +1,120 @@
+{
+  "category": "Destruction Pokémon",
+  "entries": [
+    {
+      "text": "When this legendary Pokémon’s wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+      "version": "x"
+    },
+    {
+      "text": "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+      "version": "y"
+    },
+    {
+      "text": "When this legendary Pokémon’s wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "yveltal",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dark-aura"
+        }
+      ],
+      "artwork": "/dex-images/artwork/yveltal.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "y": [
+          {
+            "chance": 100,
+            "location": "team-flare-secret-hq-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["x-y", "legends-za"],
+      "gen9": false,
+      "generation": 6,
+      "height": 58,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "yveltal",
+      "kind": "default",
+      "legendary": true,
+      "name": "Yveltal",
+      "number": 717,
+      "pokemon": "yveltal",
+      "sourceId": 717,
+      "sprite": "/dex-images/sprites/yveltal.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 131,
+        "defense": 95,
+        "hp": 126,
+        "special-attack": 131,
+        "special-defense": 98,
+        "speed": 99
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dark", "flying"],
+      "weight": 2030
+    }
+  ],
+  "generation": 6,
+  "key": "yveltal",
+  "name": "Yveltal",
+  "names": {
+    "de": "Yveltal",
+    "en": "Yveltal",
+    "es": "Yveltal",
+    "es-419": "Yveltal",
+    "fr": "Yveltal",
+    "it": "Yveltal",
+    "ja": "イベルタル",
+    "ja-hrkt": "イベルタル",
+    "ja-roma": "Yveltal",
+    "ko": "이벨타르",
+    "zh-hans": "伊裴尔塔尔",
+    "zh-hant": "伊裴爾塔爾"
+  },
+  "number": 717
+}

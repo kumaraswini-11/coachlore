@@ -1,0 +1,121 @@
+{
+  "category": "Fossil Pokémon",
+  "entries": [
+    {
+      "text": "Though it’s able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
+      "version": "sword"
+    },
+    {
+      "text": "The skin on its face is impervious to attack, but breathing difficulties made this Pokémon go extinct anyway.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "arctovish",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "ice-body"
+        },
+        {
+          "hidden": true,
+          "key": "slush-rush"
+        }
+      ],
+      "artwork": "/dex-images/artwork/arctovish.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 80,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 17,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield"],
+      "gen9": false,
+      "generation": 8,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "arctovish",
+      "kind": "default",
+      "name": "Arctovish",
+      "number": 883,
+      "pokemon": "arctovish",
+      "sourceId": 883,
+      "sprite": "/dex-images/sprites/arctovish.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 90,
+        "defense": 100,
+        "hp": 90,
+        "special-attack": 80,
+        "special-defense": 90,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["water", "ice"],
+      "weight": 1750
+    }
+  ],
+  "generation": 8,
+  "key": "arctovish",
+  "name": "Arctovish",
+  "names": {
+    "de": "Pescryodon",
+    "en": "Arctovish",
+    "es": "Arctovish",
+    "es-419": "Arctovish",
+    "fr": "Hydragla",
+    "it": "Arctovish",
+    "ja": "ウオチルドン",
+    "ja-hrkt": "ウオチルドン",
+    "ja-roma": "Uochilldon",
+    "ko": "어치르돈",
+    "zh-hans": "鳃鱼海兽",
+    "zh-hant": "鰓魚海獸"
+  },
+  "number": 883
+}

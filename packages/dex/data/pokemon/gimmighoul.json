@@ -1,0 +1,119 @@
+{
+  "category": "Coin Chest Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It lives inside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gimmighoul",
+      "trigger": null
+    },
+    {
+      "conditions": {},
+      "from": "gimmighoul",
+      "to": "gholdengo",
+      "trigger": "gimmighoul-coins"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gimmighoul.webp",
+      "encounters": {},
+      "formName": "Chest Form",
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gimmighoul",
+      "kind": "default",
+      "name": "Gimmighoul",
+      "number": 999,
+      "pokemon": "gimmighoul",
+      "sourceId": 999,
+      "sprite": "/dex-images/sprites/gimmighoul.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 30,
+        "defense": 70,
+        "hp": 45,
+        "special-attack": 75,
+        "special-defense": 70,
+        "speed": 10
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 50
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gimmighoul-roaming.webp",
+      "encounters": {},
+      "formName": "Roaming Form",
+      "games": [],
+      "gen9": true,
+      "generation": 9,
+      "height": 1,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "gimmighoul-roaming",
+      "kind": "other",
+      "name": "Gimmighoul-Roaming",
+      "number": 999,
+      "pokemon": "gimmighoul",
+      "sourceId": 10263,
+      "sprite": "/dex-images/sprites/gimmighoul-roaming.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 30,
+        "defense": 25,
+        "hp": 45,
+        "special-attack": 75,
+        "special-defense": 45,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 10
+    }
+  ],
+  "generation": 9,
+  "key": "gimmighoul",
+  "name": "Gimmighoul",
+  "names": {
+    "de": "Gierspenst",
+    "en": "Gimmighoul",
+    "es": "Gimmighoul",
+    "es-419": "Gimmighoul",
+    "fr": "Mordudor",
+    "it": "Gimmighoul",
+    "ja": "コレクレー",
+    "ja-hrkt": "コレクレー",
+    "ja-roma": "Collecurei",
+    "ko": "모으령",
+    "zh-hans": "索财灵",
+    "zh-hant": "索財靈"
+  },
+  "number": 999
+}

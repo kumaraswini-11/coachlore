@@ -1,0 +1,304 @@
+{
+  "category": "Happiness Pokémon",
+  "entries": [
+    {
+      "text": "They say that it will appear before kindhearted, car ing people and shower them with happiness.",
+      "version": "gold"
+    },
+    {
+      "text": "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+      "version": "silver"
+    },
+    {
+      "text": "Although it does not flap its wings very much, it can stay up in the air as it tags along after its trainer.",
+      "version": "crystal"
+    },
+    {
+      "text": "TOGETIC is said to be a POKéMON that brings good fortune. When the POKéMON spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
+      "version": "ruby"
+    },
+    {
+      "text": "TOGETIC is said to be a POKéMON that brings good fortune. When the POKéMON spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It is said to be a POKéMON that brings good fortune. When it spots someone who is pure of heart, a TOGETIC appears and shares its happiness with that person.",
+      "version": "emerald"
+    },
+    {
+      "text": "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+      "version": "firered"
+    },
+    {
+      "text": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is said to appear in front of kindly people to scatter a glowing down called “joy dust.”",
+      "version": "diamond"
+    },
+    {
+      "text": "It is said to appear in front of kindly people to scatter a glowing down called “joy dust.”",
+      "version": "pearl"
+    },
+    {
+      "text": "To share its happiness, it flies around the world seeking kindhearted people.",
+      "version": "platinum"
+    },
+    {
+      "text": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "To share its happiness, it flies around the world seeking kind- hearted people.",
+      "version": "black"
+    },
+    {
+      "text": "To share its happiness, it flies around the world seeking kind- hearted people.",
+      "version": "white"
+    },
+    {
+      "text": "To share its happiness, it flies around the world seeking kind- hearted people.",
+      "version": "black-2"
+    },
+    {
+      "text": "To share its happiness, it flies around the world seeking kind- hearted people.",
+      "version": "white-2"
+    },
+    {
+      "text": "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+      "version": "x"
+    },
+    {
+      "text": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+      "version": "y"
+    },
+    {
+      "text": "Togetic is said to be a Pokémon that brings good fortune. When the Pokémon spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Togetic is said to be a Pokémon that brings good fortune. When the Pokémon spots someone who is pure of heart, it is said to appear and share its happiness with that person.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+      "version": "sword"
+    },
+    {
+      "text": "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+      "version": "shield"
+    },
+    {
+      "text": "No records exist of Togetic being seen in the wilds. Rumors abound that it evolves under the loving care of a trusted human companion, upon whom the Pokémon then bestows great joy.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "togepi",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "togepi",
+      "to": "togetic",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "togetic",
+      "to": "togekiss",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": true,
+          "key": "super-luck"
+        }
+      ],
+      "artwork": "/dex-images/artwork/togetic.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "outskirt-stand-outside",
+            "maxLevel": 20,
+            "method": "snag",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sword": [
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "sword-shield", "legends-arceus"],
+      "gen9": false,
+      "generation": 2,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "togetic",
+      "kind": "default",
+      "name": "Togetic",
+      "number": 176,
+      "pokemon": "togetic",
+      "sourceId": 176,
+      "sprite": "/dex-images/sprites/togetic.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 40,
+        "defense": 85,
+        "hp": 55,
+        "special-attack": 80,
+        "special-defense": 105,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["fairy", "flying"],
+      "weight": 32
+    }
+  ],
+  "generation": 2,
+  "key": "togetic",
+  "name": "Togetic",
+  "names": {
+    "de": "Togetic",
+    "en": "Togetic",
+    "es": "Togetic",
+    "es-419": "Togetic",
+    "fr": "Togetic",
+    "it": "Togetic",
+    "ja": "トゲチック",
+    "ja-hrkt": "トゲチック",
+    "ja-roma": "Togechick",
+    "ko": "토게틱",
+    "zh-hans": "波克基古",
+    "zh-hant": "波克基古"
+  },
+  "number": 176
+}

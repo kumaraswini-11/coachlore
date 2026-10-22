@@ -1,0 +1,96 @@
+{
+  "category": "Dragon Orb Pokémon",
+  "entries": [
+    {
+      "text": "An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+      "version": "sword"
+    },
+    {
+      "text": "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "regidrago",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dragons-maw"
+        }
+      ],
+      "artwork": "/dex-images/artwork/regidrago.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "split-decision-ruins-area",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "split-decision-ruins-area",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": true,
+      "generation": 8,
+      "height": 21,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "regidrago",
+      "kind": "default",
+      "legendary": true,
+      "name": "Regidrago",
+      "number": 895,
+      "pokemon": "regidrago",
+      "sourceId": 895,
+      "sprite": "/dex-images/sprites/regidrago.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 100,
+        "defense": 50,
+        "hp": 200,
+        "special-attack": 100,
+        "special-defense": 50,
+        "speed": 80
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["dragon"],
+      "weight": 2000
+    }
+  ],
+  "generation": 8,
+  "key": "regidrago",
+  "name": "Regidrago",
+  "names": {
+    "de": "Regidrago",
+    "en": "Regidrago",
+    "es": "Regidrago",
+    "es-419": "Regidrago",
+    "fr": "Regidrago",
+    "it": "Regidrago",
+    "ja": "レジドラゴ",
+    "ja-hrkt": "レジドラゴ",
+    "ja-roma": "Regidorago",
+    "ko": "레지드래고",
+    "zh-hans": "雷吉铎拉戈",
+    "zh-hant": "雷吉鐸拉戈"
+  },
+  "number": 895
+}

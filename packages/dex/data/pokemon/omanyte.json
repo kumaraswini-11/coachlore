@@ -1,0 +1,450 @@
+{
+  "category": "Spiral Pokémon",
+  "entries": [
+    {
+      "text": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+      "version": "red"
+    },
+    {
+      "text": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+      "version": "blue"
+    },
+    {
+      "text": "An ancient POKéMON that was recovered from a fossil. It swims by cleverly twisting its 10 tentacles about.",
+      "version": "yellow"
+    },
+    {
+      "text": "Revived from an ancient fossil, this POKéMON uses air stored in its shell to sink and rise in water.",
+      "version": "gold"
+    },
+    {
+      "text": "This POKéMON from ancient times is said to have navi gated the sea by adeptly twisting its 10 tentacles.",
+      "version": "silver"
+    },
+    {
+      "text": "In prehistoric times, it swam on the sea floor, eating plankton. Its fossils are sometimes found.",
+      "version": "crystal"
+    },
+    {
+      "text": "OMANYTE is one of the ancient and long- since-extinct POKéMON that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+      "version": "ruby"
+    },
+    {
+      "text": "OMANYTE is one of the ancient and long- since-extinct POKéMON that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+      "version": "sapphire"
+    },
+    {
+      "text": "One of the ancient and long-since-extinct POKéMON that have been regenerated from fossils by humans. If attacked, it withdraws into its hard shell.",
+      "version": "emerald"
+    },
+    {
+      "text": "A prehistoric POKéMON that lived in the primordial sea, it swims by twisting its 10 tentacles about.",
+      "version": "firered"
+    },
+    {
+      "text": "Although long extinct, in rare cases, it can be genetically regenerated from fossils.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "pearl"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "platinum"
+    },
+    {
+      "text": "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This Pokémon from ancient times is said to have navigated the sea by adeptly twisting its 10 tentacles.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "black"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "white"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "black-2"
+    },
+    {
+      "text": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+      "version": "white-2"
+    },
+    {
+      "text": "A prehistoric Pokémon that lived in the primordial sea, it swims by twisting its 10 tentacles about.",
+      "version": "x"
+    },
+    {
+      "text": "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
+      "version": "y"
+    },
+    {
+      "text": "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Omanyte lived in the seas of antiquity. Its fossils have been found bearing bite marks from Archeops, so apparently Archeops preyed on it.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It was restored from an ancient fossil. Those Helix Fossils are excavated from areas that were once oceans long, long ago.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "An ancient Pokémon that was recovered from a fossil. It swam by cleverly twisting its 10 tentacles about.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "An ancient Pokémon that was recovered from a fossil. It swam by cleverly twisting its 10 tentacles about.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it’s just drifting along.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "omanyte",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "omanyte",
+      "to": "omastar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "weak-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/omanyte.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "blue": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "oreburgh-city-oreburgh-mining-museum",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "pewter-city-pewter-museum-of-science",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 44,
+            "method": "gift",
+            "minLevel": 44
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 44,
+            "method": "gift",
+            "minLevel": 44
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "oreburgh-city-oreburgh-mining-museum",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "oreburgh-city-oreburgh-mining-museum",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "red": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "pewter-city-pewter-museum-of-science",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 210,
+            "location": "ballimere-lake-max-den-n",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "frigid-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "giants-bed-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "giants-bed-max-den-p",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 984,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 984,
+            "location": "giants-foot-area",
+            "maxLevel": 63,
+            "method": "wanderer-water",
+            "minLevel": 63
+          },
+          {
+            "chance": 210,
+            "location": "giants-foot-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 184,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 290,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 30,
+            "method": "gift",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-crown-tundra", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "omanyte",
+      "kind": "default",
+      "name": "Omanyte",
+      "number": 138,
+      "pokemon": "omanyte",
+      "sourceId": 138,
+      "sprite": "/dex-images/sprites/omanyte.webp",
+      "statTotal": 355,
+      "stats": {
+        "attack": 40,
+        "defense": 100,
+        "hp": 35,
+        "special-attack": 90,
+        "special-defense": 55,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["rock", "water"],
+      "weight": 75
+    }
+  ],
+  "generation": 1,
+  "key": "omanyte",
+  "name": "Omanyte",
+  "names": {
+    "de": "Amonitas",
+    "en": "Omanyte",
+    "es": "Omanyte",
+    "es-419": "Omanyte",
+    "fr": "Amonita",
+    "it": "Omanyte",
+    "ja": "オムナイト",
+    "ja-hrkt": "オムナイト",
+    "ja-roma": "Omnite",
+    "ko": "암나이트",
+    "zh-hans": "菊石兽",
+    "zh-hant": "菊石獸"
+  },
+  "number": 138
+}

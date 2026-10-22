@@ -1,0 +1,1319 @@
+{
+  "category": "Bird Pokémon",
+  "entries": [
+    {
+      "text": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+      "version": "red"
+    },
+    {
+      "text": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+      "version": "blue"
+    },
+    {
+      "text": "This POKéMON is full of vitality. It constantly flies around its large territory in search of prey.",
+      "version": "yellow"
+    },
+    {
+      "text": "It has outstanding vision. However high it flies, it is able to distinguish the movements of its prey.",
+      "version": "gold"
+    },
+    {
+      "text": "It immobilizes its prey using well- developed claws, then carries the prey more than 60 miles to its nest.",
+      "version": "silver"
+    },
+    {
+      "text": "It slowly flies in a circular pattern, all the while keeping a sharp lookout for prey.",
+      "version": "crystal"
+    },
+    {
+      "text": "PIDGEOTTO claims a large area as its own territory. This POKéMON flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+      "version": "ruby"
+    },
+    {
+      "text": "PIDGEOTTO claims a large area as its own territory. This POKéMON flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+      "version": "sapphire"
+    },
+    {
+      "text": "This POKéMON flies around, patrolling its large territory. If its living space is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+      "version": "emerald"
+    },
+    {
+      "text": "The claws on its feet are well developed. It can carry prey such as an EXEGGCUTE to its nest over 60 miles away.",
+      "version": "firered"
+    },
+    {
+      "text": "Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "diamond"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "pearl"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "platinum"
+    },
+    {
+      "text": "It has outstanding vision. However high it flies, it is able to distinguish the movements of its prey.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "black"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "white"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "black-2"
+    },
+    {
+      "text": "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+      "version": "white-2"
+    },
+    {
+      "text": "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+      "version": "x"
+    },
+    {
+      "text": "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.",
+      "version": "y"
+    },
+    {
+      "text": "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "This Pokémon is full of vitality. It constantly flies around its large territory in search of prey.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pidgey",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "pidgey",
+      "to": "pidgeotto",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "pidgeotto",
+      "to": "pidgeot",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "tangled-feet"
+        },
+        {
+          "hidden": true,
+          "key": "big-pecks"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pidgeotto.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-43-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-11-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-25-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "firered": [
+          {
+            "chance": 20,
+            "location": "berry-forest-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "bond-bridge-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 15,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-25-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 14,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 14,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 130,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 13,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 20,
+            "location": "berry-forest-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 15,
+            "location": "bond-bridge-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 15,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-1-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 18,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-11-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-12-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-13-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-14-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-15-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-16-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-17-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-18-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-24-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-25-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-5-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-6-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-7-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 27,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "kanto-route-8-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 200,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 56,
+            "method": "overworld-flying",
+            "minLevel": 3
+          }
+        ],
+        "red": [
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-25-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-plains",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 13,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-key-lair-3f",
+            "maxLevel": 30,
+            "method": "snag",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 10,
+            "location": "kanto-route-11-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-12-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-13-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-15-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-24-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-25-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-5-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-6-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-7-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-8-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "viridian-forest-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": false,
+      "generation": 1,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pidgeotto",
+      "kind": "default",
+      "name": "Pidgeotto",
+      "number": 17,
+      "pokemon": "pidgeotto",
+      "sourceId": 17,
+      "sprite": "/dex-images/sprites/pidgeotto.webp",
+      "statTotal": 349,
+      "stats": {
+        "attack": 60,
+        "defense": 55,
+        "hp": 63,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 71
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 300
+    }
+  ],
+  "generation": 1,
+  "key": "pidgeotto",
+  "name": "Pidgeotto",
+  "names": {
+    "de": "Tauboga",
+    "en": "Pidgeotto",
+    "es": "Pidgeotto",
+    "es-419": "Pidgeotto",
+    "fr": "Roucoups",
+    "it": "Pidgeotto",
+    "ja": "ピジョン",
+    "ja-hrkt": "ピジョン",
+    "ja-roma": "Pigeon",
+    "ko": "피죤",
+    "zh-hans": "比比鸟",
+    "zh-hant": "比比鳥"
+  },
+  "number": 17
+}

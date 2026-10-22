@@ -1,0 +1,238 @@
+{
+  "category": "Flycatcher Pokémon",
+  "entries": [
+    {
+      "text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+      "version": "red"
+    },
+    {
+      "text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+      "version": "blue"
+    },
+    {
+      "text": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all.",
+      "version": "yellow"
+    },
+    {
+      "text": "ACID that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.",
+      "version": "gold"
+    },
+    {
+      "text": "This horrifying plant POKéMON attracts prey with aromatic honey, then melts them in its mouth.",
+      "version": "silver"
+    },
+    {
+      "text": "Once ingested into this POKéMON's body, even the hardest object will melt into nothing.",
+      "version": "crystal"
+    },
+    {
+      "text": "VICTREEBEL has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this POKéMON swallows it whole.",
+      "version": "ruby"
+    },
+    {
+      "text": "VICTREEBEL has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this POKéMON swallows it whole.",
+      "version": "sapphire"
+    },
+    {
+      "text": "The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.",
+      "version": "emerald"
+    },
+    {
+      "text": "Lures prey into its mouth with a honeylike aroma. The helpless prey is melted with a dissolving fluid.",
+      "version": "firered"
+    },
+    {
+      "text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
+      "version": "diamond"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
+      "version": "pearl"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
+      "version": "platinum"
+    },
+    {
+      "text": "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This horrifying plant Pokémon attracts prey with aromatic honey, then melts them in its mouth.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
+      "version": "black"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.",
+      "version": "white"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honey-like scent, which is really an acid that dissolves anything.",
+      "version": "black-2"
+    },
+    {
+      "text": "It pools in its mouth a fluid with a honey-like scent, which is really an acid that dissolves anything.",
+      "version": "white-2"
+    },
+    {
+      "text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+      "version": "x"
+    },
+    {
+      "text": "Once ingested into this Pokémon’s body, even the hardest object will melt into nothing.",
+      "version": "y"
+    },
+    {
+      "text": "Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bellsprout",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "bellsprout",
+      "to": "weepinbell",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "weepinbell",
+      "to": "victreebel",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "gluttony"
+        }
+      ],
+      "artwork": "/dex-images/artwork/victreebel.webp",
+      "encounters": {
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "victreebel",
+      "kind": "default",
+      "name": "Victreebel",
+      "number": 71,
+      "pokemon": "victreebel",
+      "sourceId": 71,
+      "sprite": "/dex-images/sprites/victreebel.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 105,
+        "defense": 65,
+        "hp": 80,
+        "special-attack": 100,
+        "special-defense": 70,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 155
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "innards-out"
+        }
+      ],
+      "artwork": "/dex-images/artwork/victreebel-mega.webp",
+      "encounters": {},
+      "formName": "Mega Victreebel",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 45,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "victreebel-mega",
+      "kind": "mega",
+      "name": "Victreebel-Mega",
+      "number": 71,
+      "pokemon": "victreebel",
+      "sourceId": 10279,
+      "sprite": "/dex-images/sprites/victreebel-mega.webp",
+      "statTotal": 590,
+      "stats": {
+        "attack": 125,
+        "defense": 85,
+        "hp": 80,
+        "special-attack": 135,
+        "special-defense": 95,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 1255
+    }
+  ],
+  "generation": 1,
+  "key": "victreebel",
+  "name": "Victreebel",
+  "names": {
+    "de": "Sarzenia",
+    "en": "Victreebel",
+    "es": "Victreebel",
+    "es-419": "Victreebel",
+    "fr": "Empiflor",
+    "it": "Victreebel",
+    "ja": "ウツボット",
+    "ja-hrkt": "ウツボット",
+    "ja-roma": "Utsubot",
+    "ko": "우츠보트",
+    "zh-hans": "大食花",
+    "zh-hant": "大食花"
+  },
+  "number": 71
+}

@@ -1,0 +1,442 @@
+{
+  "category": "Spike Ball Pokémon",
+  "entries": [
+    {
+      "text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+      "version": "gold"
+    },
+    {
+      "text": "A proverb claims that happiness will come to any one who can make a sleeping TOGEPI stand up.",
+      "version": "silver"
+    },
+    {
+      "text": "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
+      "version": "crystal"
+    },
+    {
+      "text": "As its energy, TOGEPI uses the positive emotions of compassion and pleasure exuded by people and POKéMON. This POKéMON stores up feelings of happiness inside its shell, then shares them with others.",
+      "version": "ruby"
+    },
+    {
+      "text": "As its energy, TOGEPI uses the positive emotions of compassion and pleasure exuded by people and POKéMON. This POKéMON stores up feelings of happiness inside its shell, then shares them with others.",
+      "version": "sapphire"
+    },
+    {
+      "text": "As its energy, it uses the feelings of compassion and pleasure exuded by people and POKéMON. It stores up happy feelings in its shell, then shares them out.",
+      "version": "emerald"
+    },
+    {
+      "text": "A proverb claims that happiness will come to anyone who can make a sleeping TOGEPI stand up.",
+      "version": "firered"
+    },
+    {
+      "text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its shell is said to be stuffed with happiness that it shares with kindhearted people.",
+      "version": "pearl"
+    },
+    {
+      "text": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+      "version": "platinum"
+    },
+    {
+      "text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A proverb claims that happiness will come to anyone who can make a sleeping TOGEPI stand up.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+      "version": "black"
+    },
+    {
+      "text": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+      "version": "white"
+    },
+    {
+      "text": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+      "version": "black-2"
+    },
+    {
+      "text": "It transforms the kindness and joy of others into happiness, which it stores in its shell.",
+      "version": "white-2"
+    },
+    {
+      "text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+      "version": "x"
+    },
+    {
+      "text": "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
+      "version": "y"
+    },
+    {
+      "text": "As its energy, Togepi uses the positive emotions of compassion and pleasure exuded by people and Pokémon. This Pokémon stores up feelings of happiness inside its shell, then shares them with others.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "As its energy, Togepi uses the positive emotions of compassion and pleasure exuded by people and Pokémon. This Pokémon stores up feelings of happiness inside its shell, then shares them with others.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+      "version": "sword"
+    },
+    {
+      "text": "It is considered to be a symbol of good luck. Its shell is said to be filled with happiness.",
+      "version": "shield"
+    },
+    {
+      "text": "This ovate creature is frequently mistaken for a moving egg when encountered out in the fields or in the mountains. Its guileless smile soothes the soul.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "togepi",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "togepi",
+      "to": "togetic",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "togetic",
+      "to": "togekiss",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hustle"
+        },
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": true,
+          "key": "super-luck"
+        }
+      ],
+      "artwork": "/dex-images/artwork/togepi.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "phenac-city-card-e-room",
+            "maxLevel": 20,
+            "method": "snag",
+            "minLevel": 20
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "violet-city-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "water-labyrinth-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "violet-city-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "violet-city-poke-mart",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "water-labyrinth-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "eterna-city-west-gate",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "shield": [
+          {
+            "chance": 18,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "hammerlocke-area",
+            "maxLevel": 25,
+            "method": "npc-trade",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "violet-city-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "violet-city-poke-mart",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "sword": [
+          {
+            "chance": 18,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "hammerlocke-area",
+            "maxLevel": 25,
+            "method": "npc-trade",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fairy",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "outskirt-stand-inside",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fairy",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "sword-shield", "legends-arceus"],
+      "gen9": false,
+      "generation": 2,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "togepi",
+      "kind": "default",
+      "name": "Togepi",
+      "number": 175,
+      "pokemon": "togepi",
+      "sourceId": 175,
+      "sprite": "/dex-images/sprites/togepi.webp",
+      "statTotal": 245,
+      "stats": {
+        "attack": 20,
+        "defense": 65,
+        "hp": 35,
+        "special-attack": 40,
+        "special-defense": 65,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 15
+    }
+  ],
+  "generation": 2,
+  "key": "togepi",
+  "name": "Togepi",
+  "names": {
+    "de": "Togepi",
+    "en": "Togepi",
+    "es": "Togepi",
+    "es-419": "Togepi",
+    "fr": "Togepi",
+    "it": "Togepi",
+    "ja": "トゲピー",
+    "ja-hrkt": "トゲピー",
+    "ja-roma": "Togepy",
+    "ko": "토게피",
+    "zh-hans": "波克比",
+    "zh-hant": "波克比"
+  },
+  "number": 175
+}

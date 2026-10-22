@@ -1,0 +1,145 @@
+{
+  "category": "Sunne Pokémon",
+  "entries": [
+    {
+      "text": "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.",
+      "version": "moon"
+    },
+    {
+      "text": "Sometimes the result of its opening an Ultra Wormhole is that energy and life-forms from other worlds are called here to this world.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "In writings from the distant past, it’s called by the name “the beast that devours the sun.”",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "When light radiates from its body, this Pokémon could almost appear to be the sun. It will dispel any darkness and light up the world.",
+      "version": "sword"
+    },
+    {
+      "text": "Solgaleo was once known as the Beast That Devours the Sun. Energy in the form of light radiates boundlessly from it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cosmog",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 43
+      },
+      "from": "cosmog",
+      "to": "cosmoem",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "solgaleo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 53
+      },
+      "from": "cosmoem",
+      "to": "lunala",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "full-metal-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/solgaleo.webp",
+      "encounters": {
+        "sun": [
+          {
+            "chance": 100,
+            "location": "altar-of-the-sunne-area",
+            "maxLevel": 55,
+            "method": "static",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "mahalo-trail-area",
+            "maxLevel": 60,
+            "method": "gift",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 34,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "solgaleo",
+      "kind": "default",
+      "legendary": true,
+      "name": "Solgaleo",
+      "number": 791,
+      "pokemon": "solgaleo",
+      "sourceId": 791,
+      "sprite": "/dex-images/sprites/solgaleo.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 137,
+        "defense": 107,
+        "hp": 137,
+        "special-attack": 113,
+        "special-defense": 89,
+        "speed": 97
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "steel"],
+      "weight": 2300
+    }
+  ],
+  "generation": 7,
+  "key": "solgaleo",
+  "name": "Solgaleo",
+  "names": {
+    "de": "Solgaleo",
+    "en": "Solgaleo",
+    "es": "Solgaleo",
+    "es-419": "Solgaleo",
+    "fr": "Solgaleo",
+    "it": "Solgaleo",
+    "ja": "ソルガレオ",
+    "ja-hrkt": "ソルガレオ",
+    "ja-roma": "Solgaleo",
+    "ko": "솔가레오",
+    "zh-hans": "索尔迦雷欧",
+    "zh-hant": "索爾迦雷歐"
+  },
+  "number": 791
+}

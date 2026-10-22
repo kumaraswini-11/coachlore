@@ -1,0 +1,317 @@
+{
+  "category": "Dragon Pokémon",
+  "entries": [
+    {
+      "text": "SALAMENCE came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this POKéMON’s cells, causing it to sprout its magnificent wings.",
+      "version": "ruby"
+    },
+    {
+      "text": "By evolving into SALAMENCE, this POKéMON finally realizes its long-held dream of growing wings. To express its joy, it flies and wheels all over the sky while spouting flames from its mouth.",
+      "version": "sapphire"
+    },
+    {
+      "text": "After many long years, its cellular structure underwent a sudden mutation to grow wings. When angered, it loses all thought and rampages out of control.",
+      "version": "emerald"
+    },
+    {
+      "text": "It becomes uncontrollable if it is enraged. It destroys everything with shredding claws and fire.",
+      "version": "firered"
+    },
+    {
+      "text": "It becomes uncontrollable if it is enraged. It destroys everything with shredding claws and fire.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "diamond"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "pearl"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "platinum"
+    },
+    {
+      "text": "It’s uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It’s uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "black"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "white"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "black-2"
+    },
+    {
+      "text": "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+      "version": "white-2"
+    },
+    {
+      "text": "It becomes uncontrollable if it is enraged. It destroys everything with shredding claws and fire.",
+      "version": "x"
+    },
+    {
+      "text": "It’s uncontrollable if enraged. It flies around spouting flames and scorching fields and mountains.",
+      "version": "y"
+    },
+    {
+      "text": "Salamence came about as a result of a strong, long-held dream of growing wings. It is said that this powerful desire triggered a sudden mutation in this Pokémon’s cells, causing it to sprout its magnificent wings.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "By evolving into Salamence, this Pokémon finally realizes its long-held dream of growing wings. To express its joy, it flies and wheels all over the sky while spouting flames from its mouth.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When angered, it loses all sense of itself and destroys everything around it. The destruction will continue until Salamence has tired itself out.",
+      "version": "sun"
+    },
+    {
+      "text": "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up the fields it passes over.",
+      "version": "moon"
+    },
+    {
+      "text": "Overjoyed at finally being able to fly, it flies all over the place and usually doesn’t land until it’s completely exhausted and needs to sleep.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart’s desire—wings.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Salamence is an unusual Pokémon in that it was able to evolve a body with wings just by constantly wishing to be able to fly.",
+      "version": "sword"
+    },
+    {
+      "text": "While basking in the joy of flight generally keeps this Pokémon in high spirits, Salamence turns into an uncontrollable menace if something angers it.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bagon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "bagon",
+      "to": "shelgon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 50
+      },
+      "from": "shelgon",
+      "to": "salamence",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": true,
+          "key": "moxie"
+        }
+      ],
+      "artwork": "/dex-images/artwork/salamence.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-3-south",
+            "maxLevel": 12,
+            "method": "sos",
+            "minLevel": 9
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-3-south",
+            "maxLevel": 12,
+            "method": "sos",
+            "minLevel": 9
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 85,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 85,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-3-south",
+            "maxLevel": 12,
+            "method": "sos",
+            "minLevel": 9
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-3-south",
+            "maxLevel": 12,
+            "method": "sos",
+            "minLevel": 9
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-dome-1f",
+            "maxLevel": 50,
+            "method": "snag",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "salamence",
+      "kind": "default",
+      "name": "Salamence",
+      "number": 373,
+      "pokemon": "salamence",
+      "sourceId": 373,
+      "sprite": "/dex-images/sprites/salamence.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 135,
+        "defense": 80,
+        "hp": 95,
+        "special-attack": 110,
+        "special-defense": 80,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["dragon", "flying"],
+      "weight": 1026
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aerilate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/salamence-mega.webp",
+      "encounters": {},
+      "formName": "Mega Salamence",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 18,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "salamence-mega",
+      "kind": "mega",
+      "name": "Salamence-Mega",
+      "number": 373,
+      "pokemon": "salamence",
+      "sourceId": 10089,
+      "sprite": "/dex-images/sprites/salamence-mega.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 145,
+        "defense": 130,
+        "hp": 95,
+        "special-attack": 120,
+        "special-defense": 90,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["dragon", "flying"],
+      "weight": 1126
+    }
+  ],
+  "generation": 3,
+  "key": "salamence",
+  "name": "Salamence",
+  "names": {
+    "de": "Brutalanda",
+    "en": "Salamence",
+    "es": "Salamence",
+    "es-419": "Salamence",
+    "fr": "Drattak",
+    "it": "Salamence",
+    "ja": "ボーマンダ",
+    "ja-hrkt": "ボーマンダ",
+    "ja-roma": "Bohmander",
+    "ko": "보만다",
+    "zh-hans": "暴飞龙",
+    "zh-hant": "暴飛龍"
+  },
+  "number": 373
+}

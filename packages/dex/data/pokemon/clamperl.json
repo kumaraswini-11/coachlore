@@ -1,0 +1,409 @@
+{
+  "category": "Bivalve Pokémon",
+  "entries": [
+    {
+      "text": "CLAMPERL’s sturdy shell is not only good for protection - it is also used for clamping and catching prey. A fully grown CLAMPERL’s shell will be scored with nicks and scratches all over.",
+      "version": "ruby"
+    },
+    {
+      "text": "CLAMPERL grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this POKéMON is getting close to evolution.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A CLAMPERL slams its shell closed on prey to prevent escape. The pearl it creates upon evolution is said to be infused with a mysterious energy.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+      "version": "firered"
+    },
+    {
+      "text": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "diamond"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "pearl"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "platinum"
+    },
+    {
+      "text": "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it’s held.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it’s held.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "black"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "white"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "black-2"
+    },
+    {
+      "text": "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+      "version": "white-2"
+    },
+    {
+      "text": "When it evolves, it makes a mysterious pearl that amplifies psychic powers when it’s held.",
+      "version": "x"
+    },
+    {
+      "text": "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+      "version": "y"
+    },
+    {
+      "text": "Clamperl’s sturdy shell is not only good for protection—it is also used for clamping and catching prey. A fully grown Clamperl’s shell will be scored with nicks and scratches all over.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Clamperl grows while being protected by its rock-hard shell. When its body becomes too large to fit inside the shell, it is sure evidence that this Pokémon is getting close to evolution.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Despite its appearance, it’s carnivorous. It clamps down on its prey with both sides of its shell and doesn’t let go until they stop moving.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Clamperl’s pearls are exceedingly precious. They can be more than 10 times as costly as Shellder’s pearls.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "clamperl",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "deep-sea-tooth"
+      },
+      "from": "clamperl",
+      "to": "huntail",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "held_item": "deep-sea-scale"
+      },
+      "from": "clamperl",
+      "to": "gorebyss",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/clamperl.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 65,
+            "location": "hoenn-route-124-underwater",
+            "maxLevel": 35,
+            "method": "seaweed",
+            "minLevel": 20
+          },
+          {
+            "chance": 65,
+            "location": "hoenn-route-126-underwater",
+            "maxLevel": 35,
+            "method": "seaweed",
+            "minLevel": 20
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 15,
+            "location": "sinnoh-route-219-area",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 65,
+            "location": "hoenn-route-124-underwater",
+            "maxLevel": 35,
+            "method": "seaweed",
+            "minLevel": 20
+          },
+          {
+            "chance": 65,
+            "location": "hoenn-route-126-underwater",
+            "maxLevel": 35,
+            "method": "seaweed",
+            "minLevel": 20
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 65,
+            "location": "hoenn-route-124-underwater",
+            "maxLevel": 35,
+            "method": "seaweed",
+            "minLevel": 20
+          },
+          {
+            "chance": 65,
+            "location": "hoenn-route-126-underwater",
+            "maxLevel": 35,
+            "method": "seaweed",
+            "minLevel": 20
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-19-area",
+            "maxLevel": 35,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 40,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 17,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "melemele-sea-area",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "melemele-sea-area",
+            "maxLevel": 17,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 40,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-15-main",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 17,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "melemele-sea-area",
+            "maxLevel": 22,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 60,
+            "location": "melemele-sea-area",
+            "maxLevel": 17,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "unova-route-4-area",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-12-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-12-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 3,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "clamperl",
+      "kind": "default",
+      "name": "Clamperl",
+      "number": 366,
+      "pokemon": "clamperl",
+      "sourceId": 366,
+      "sprite": "/dex-images/sprites/clamperl.webp",
+      "statTotal": 345,
+      "stats": {
+        "attack": 64,
+        "defense": 85,
+        "hp": 35,
+        "special-attack": 74,
+        "special-defense": 55,
+        "speed": 32
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 525
+    }
+  ],
+  "generation": 3,
+  "key": "clamperl",
+  "name": "Clamperl",
+  "names": {
+    "de": "Perlu",
+    "en": "Clamperl",
+    "es": "Clamperl",
+    "es-419": "Clamperl",
+    "fr": "Coquiperl",
+    "it": "Clamperl",
+    "ja": "パールル",
+    "ja-hrkt": "パールル",
+    "ja-roma": "Pearlulu",
+    "ko": "진주몽",
+    "zh-hans": "珍珠贝",
+    "zh-hant": "珍珠貝"
+  },
+  "number": 366
+}

@@ -1,0 +1,203 @@
+{
+  "category": "Sun Pokémon",
+  "entries": [
+    {
+      "text": "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
+      "version": "gold"
+    },
+    {
+      "text": "In the daytime, it rushes about in a hectic manner, but it comes to a complete stop when the sun sets.",
+      "version": "silver"
+    },
+    {
+      "text": "As the hot season approaches, the petals on this POKéMON's face become more vivid and lively.",
+      "version": "crystal"
+    },
+    {
+      "text": "SUNFLORA converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+      "version": "ruby"
+    },
+    {
+      "text": "SUNFLORA converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+      "version": "sapphire"
+    },
+    {
+      "text": "SUNFLORA convert solar energy into nutrition. They are highly active in the warm daytime but suddenly stop moving as soon as the sun sets.",
+      "version": "emerald"
+    },
+    {
+      "text": "In the daytime, it rushes about in a hectic manner, but it comes to a complete stop when the sun sets.",
+      "version": "firered"
+    },
+    {
+      "text": "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+      "version": "diamond"
+    },
+    {
+      "text": "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+      "version": "pearl"
+    },
+    {
+      "text": "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+      "version": "platinum"
+    },
+    {
+      "text": "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
+      "version": "heartgold"
+    },
+    {
+      "text": "In the daytime, it rushes about in a hectic manner, but it comes to a complete stop when the sun sets.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+      "version": "black"
+    },
+    {
+      "text": "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+      "version": "white"
+    },
+    {
+      "text": "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+      "version": "black-2"
+    },
+    {
+      "text": "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+      "version": "white-2"
+    },
+    {
+      "text": "As the hot season approaches, the petals on this Pokémon’s face become more vivid and lively.",
+      "version": "x"
+    },
+    {
+      "text": "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+      "version": "y"
+    },
+    {
+      "text": "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sunkern",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "sunkern",
+      "to": "sunflora",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "solar-power"
+        },
+        {
+          "hidden": true,
+          "key": "early-bird"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sunflora.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "realgam-tower-area",
+            "maxLevel": 45,
+            "method": "snag",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 45,
+            "method": "snag-rematch",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-route-12-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sunflora",
+      "kind": "default",
+      "name": "Sunflora",
+      "number": 192,
+      "pokemon": "sunflora",
+      "sourceId": 192,
+      "sprite": "/dex-images/sprites/sunflora.webp",
+      "statTotal": 425,
+      "stats": {
+        "attack": 75,
+        "defense": 55,
+        "hp": 75,
+        "special-attack": 105,
+        "special-defense": 85,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 85
+    }
+  ],
+  "generation": 2,
+  "key": "sunflora",
+  "name": "Sunflora",
+  "names": {
+    "de": "Sonnflora",
+    "en": "Sunflora",
+    "es": "Sunflora",
+    "es-419": "Sunflora",
+    "fr": "Héliatronc",
+    "it": "Sunflora",
+    "ja": "キマワリ",
+    "ja-hrkt": "キマワリ",
+    "ja-roma": "Kimawari",
+    "ko": "해루미",
+    "zh-hans": "向日花怪",
+    "zh-hant": "向日花怪"
+  },
+  "number": 192
+}

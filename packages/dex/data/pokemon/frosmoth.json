@@ -1,0 +1,252 @@
+{
+  "category": "Frost Moth Pokémon",
+  "entries": [
+    {
+      "text": "Icy scales fall from its wings like snow as it flies over fields and mountains. The temperature of its wings is less than −290 degrees Fahrenheit.",
+      "version": "sword"
+    },
+    {
+      "text": "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snom",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "night"
+      },
+      "from": "snom",
+      "to": "frosmoth",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shield-dust"
+        },
+        {
+          "hidden": true,
+          "key": "ice-scales"
+        }
+      ],
+      "artwork": "/dex-images/artwork/frosmoth.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 35,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 120,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 45,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 130,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 140,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 1040,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 1040,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 140,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 140,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 70,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 1040,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 1040,
+            "location": "path-to-the-peak-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 70,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet"],
+      "gen9": true,
+      "generation": 8,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "frosmoth",
+      "kind": "default",
+      "name": "Frosmoth",
+      "number": 873,
+      "pokemon": "frosmoth",
+      "sourceId": 873,
+      "sprite": "/dex-images/sprites/frosmoth.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 65,
+        "defense": 60,
+        "hp": 70,
+        "special-attack": 125,
+        "special-defense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["ice", "bug"],
+      "weight": 420
+    }
+  ],
+  "generation": 8,
+  "key": "frosmoth",
+  "name": "Frosmoth",
+  "names": {
+    "de": "Mottineva",
+    "en": "Frosmoth",
+    "es": "Frosmoth",
+    "es-419": "Frosmoth",
+    "fr": "Beldeneige",
+    "it": "Frosmoth",
+    "ja": "モスノウ",
+    "ja-hrkt": "モスノウ",
+    "ja-roma": "Mothnow",
+    "ko": "모스노우",
+    "zh-hans": "雪绒蛾",
+    "zh-hant": "雪絨蛾"
+  },
+  "number": 873
+}

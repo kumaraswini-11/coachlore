@@ -1,0 +1,624 @@
+{
+  "category": "Revolving Pokémon",
+  "entries": [
+    {
+      "text": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+      "version": "x"
+    },
+    {
+      "text": "It flashes the light-emitting spots on its body, which drains its opponent’s will to fight. It takes the opportunity to scuttle away and hide.",
+      "version": "y"
+    },
+    {
+      "text": "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It flashes the light-emitting spots on its body, which drains its opponent’s will to fight. It takes the opportunity to scuttle away and hide.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When exchanging information with others of its kind, it flashes the light-emitting spots on its body in a complex rhythm.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It spins while making its luminescent spots flash. These spots allow it to communicate with others by using different patterns of light.",
+      "version": "sword"
+    },
+    {
+      "text": "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "inkay",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30,
+        "turn_upside_down": true
+      },
+      "from": "inkay",
+      "to": "malamar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "contrary"
+        },
+        {
+          "hidden": false,
+          "key": "suction-cups"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/inkay.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 490,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 490,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-7-area",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 280,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 490,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 490,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-7-area",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 280,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 45,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 45,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 45,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 45,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 70,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 45,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-1-hauoli-outskirts",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "poni-gauntlet-area",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "x": [
+          {
+            "chance": 15,
+            "location": "azure-bay-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "yellow-flowers",
+            "minLevel": 14
+          }
+        ],
+        "y": [
+          {
+            "chance": 15,
+            "location": "azure-bay-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-8-area",
+            "maxLevel": 15,
+            "method": "yellow-flowers",
+            "minLevel": 14
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "inkay",
+      "kind": "default",
+      "name": "Inkay",
+      "number": 686,
+      "pokemon": "inkay",
+      "sourceId": 686,
+      "sprite": "/dex-images/sprites/inkay.webp",
+      "statTotal": 288,
+      "stats": {
+        "attack": 54,
+        "defense": 53,
+        "hp": 53,
+        "special-attack": 37,
+        "special-defense": 46,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["dark", "psychic"],
+      "weight": 35
+    }
+  ],
+  "generation": 6,
+  "key": "inkay",
+  "name": "Inkay",
+  "names": {
+    "de": "Iscalar",
+    "en": "Inkay",
+    "es": "Inkay",
+    "es-419": "Inkay",
+    "fr": "Sepiatop",
+    "it": "Inkay",
+    "ja": "マーイーカ",
+    "ja-hrkt": "マーイーカ",
+    "ja-roma": "Maaiika",
+    "ko": "오케이징",
+    "zh-hans": "好啦鱿",
+    "zh-hant": "好啦魷"
+  },
+  "number": 686
+}

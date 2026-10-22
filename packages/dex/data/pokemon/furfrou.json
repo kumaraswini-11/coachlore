@@ -1,0 +1,186 @@
+{
+  "category": "Poodle Pokémon",
+  "entries": [
+    {
+      "text": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+      "version": "x"
+    },
+    {
+      "text": "Historically, in the Kalos region, these Pokémon were the designated guardians of the king.",
+      "version": "y"
+    },
+    {
+      "text": "Trimming its fluffy fur not only makes it more elegant but also increases the swiftness of its movements.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Historically, in the Kalos region, these Pokémon were the designated guardians of the king.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "There was an era when aristocrats would compete to see who could trim their Furfrou’s fur into the most exquisite style.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Left alone, its fur will grow longer and longer, but it will only allow someone it trusts to cut it.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "furfrou",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "fur-coat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/furfrou.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-2-south",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 25,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-2-south",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 25,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "poni-wilds-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "x": [
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "purple-flowers",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "y": [
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 10,
+            "method": "purple-flowers",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-5-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ]
+      },
+      "formName": "Natural Form",
+      "games": ["x-y", "ultra-sun-ultra-moon", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "furfrou",
+      "kind": "default",
+      "name": "Furfrou",
+      "number": 676,
+      "pokemon": "furfrou",
+      "sourceId": 676,
+      "sprite": "/dex-images/sprites/furfrou.webp",
+      "statTotal": 472,
+      "stats": {
+        "attack": 80,
+        "defense": 60,
+        "hp": 75,
+        "special-attack": 65,
+        "special-defense": 90,
+        "speed": 102
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 280
+    }
+  ],
+  "generation": 6,
+  "key": "furfrou",
+  "name": "Furfrou",
+  "names": {
+    "de": "Coiffwaff",
+    "en": "Furfrou",
+    "es": "Furfrou",
+    "es-419": "Furfrou",
+    "fr": "Couafarel",
+    "it": "Furfrou",
+    "ja": "トリミアン",
+    "ja-hrkt": "トリミアン",
+    "ja-roma": "Trimmien",
+    "ko": "트리미앙",
+    "zh-hans": "多丽米亚",
+    "zh-hant": "多麗米亞"
+  },
+  "number": 676
+}

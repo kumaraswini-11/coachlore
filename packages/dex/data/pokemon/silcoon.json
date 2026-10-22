@@ -1,0 +1,396 @@
+{
+  "category": "Cocoon Pokémon",
+  "entries": [
+    {
+      "text": "SILCOON tethers itself to a tree branch using silk to keep from falling. There, this POKéMON hangs quietly while it awaits evolution. It peers out of the silk cocoon through a small hole.",
+      "version": "ruby"
+    },
+    {
+      "text": "SILCOON was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this POKéMON slakes its thirst by drinking rainwater that collects on its silk.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It prepares for evolution using the energy it stored while it was a WURMPLE. It keeps watch over the surroundings with its two eyes.",
+      "version": "emerald"
+    },
+    {
+      "text": "It conserves its energy by moving as little as possible. It awaits evolution while drinking only a little rainwater.",
+      "version": "firered"
+    },
+    {
+      "text": "It conserves its energy by moving as little as possible. It awaits evolution while drinking only a little rainwater.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It anchors itself by wrapping twigs with the silk from its body. It motionlessly awaits evolution.",
+      "version": "diamond"
+    },
+    {
+      "text": "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.",
+      "version": "pearl"
+    },
+    {
+      "text": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+      "version": "platinum"
+    },
+    {
+      "text": "Having wrapped silk around the branches of a tree, it quiescently awaits evolution.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Having wrapped silk around the branches of a tree, it quiescently awaits evolution.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+      "version": "black"
+    },
+    {
+      "text": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+      "version": "white"
+    },
+    {
+      "text": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+      "version": "black-2"
+    },
+    {
+      "text": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+      "version": "white-2"
+    },
+    {
+      "text": "It wraps silk around the branches of a tree. It drinks rainwater on its silk while awaiting evolution.",
+      "version": "x"
+    },
+    {
+      "text": "It drinks dew that collects on its silk and waits for evolution. Its hard cocoon repels attacks.",
+      "version": "y"
+    },
+    {
+      "text": "Silcoon tethers itself to a tree branch using silk to keep from falling. There, this Pokémon hangs quietly while it awaits evolution. It peers out of the silk cocoon through a small hole.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Silcoon was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this Pokémon slakes its thirst by drinking rainwater that collects on its silk.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Wraps itself in thin strings of silk while it stores energy for evolution. It can't extend its limbs and its movement is slow, but its eyes keep a sharp lookout—Silcoon is always on guard.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "wurmple",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 50,
+        "min_level": 7
+      },
+      "from": "wurmple",
+      "to": "silcoon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "silcoon",
+      "to": "beautifly",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "chance": 50,
+        "min_level": 7
+      },
+      "from": "wurmple",
+      "to": "cascoon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 10
+      },
+      "from": "cascoon",
+      "to": "dustox",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shed-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/silcoon.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "floaroma-meadow-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-212-east-towards-pastoria-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-213-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-218-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "valley-windworks-area",
+            "maxLevel": 15,
+            "method": "honey-tree",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "petalburg-woods-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "petalburg-woods-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "petalburg-woods-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "national-park-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "omega-ruby-alpha-sapphire", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "silcoon",
+      "kind": "default",
+      "name": "Silcoon",
+      "number": 266,
+      "pokemon": "silcoon",
+      "sourceId": 266,
+      "sprite": "/dex-images/sprites/silcoon.webp",
+      "statTotal": 205,
+      "stats": {
+        "attack": 35,
+        "defense": 55,
+        "hp": 50,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 100
+    }
+  ],
+  "generation": 3,
+  "key": "silcoon",
+  "name": "Silcoon",
+  "names": {
+    "de": "Schaloko",
+    "en": "Silcoon",
+    "es": "Silcoon",
+    "es-419": "Silcoon",
+    "fr": "Armulys",
+    "it": "Silcoon",
+    "ja": "カラサリス",
+    "ja-hrkt": "カラサリス",
+    "ja-roma": "Karasalis",
+    "ko": "실쿤",
+    "zh-hans": "甲壳茧",
+    "zh-hant": "甲殼繭"
+  },
+  "number": 266
+}

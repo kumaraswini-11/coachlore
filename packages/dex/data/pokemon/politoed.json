@@ -1,0 +1,475 @@
+{
+  "category": "Frog Pokémon",
+  "entries": [
+    {
+      "text": "If POLIWAG and POLIWHIRL hear its echoing cry, they respond by gathering from far and wide.",
+      "version": "gold"
+    },
+    {
+      "text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+      "version": "silver"
+    },
+    {
+      "text": "When it expands its throat to croak out a tune, nearby POLIWAG and POLIWHIRL gather immediately.",
+      "version": "crystal"
+    },
+    {
+      "text": "The curled hair on POLITOED’s head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this POKéMON earns from its peers.",
+      "version": "ruby"
+    },
+    {
+      "text": "The curled hair on POLITOED’s head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this POKéMON earns from its peers.",
+      "version": "sapphire"
+    },
+    {
+      "text": "The curled hair on its head proves its status as a king. It is said that the longer and curlier the hair, the more respect it earns from its peers.",
+      "version": "emerald"
+    },
+    {
+      "text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+      "version": "firered"
+    },
+    {
+      "text": "If POLIWAG and POLIWHIRL hear its echoing cry, they respond by gathering from far and wide.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make POLIWAG obey.",
+      "version": "diamond"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make POLIWAG obey.",
+      "version": "pearl"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make POLIWAG obey.",
+      "version": "platinum"
+    },
+    {
+      "text": "If POLIWAG and POLIWHIRL hear its echoing cry, they respond by gathering from far and wide.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make Poliwag obey.",
+      "version": "black"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make Poliwag obey.",
+      "version": "white"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make Poliwag obey.",
+      "version": "black-2"
+    },
+    {
+      "text": "It gathers groups of others as their leader. Its cries make Poliwag obey.",
+      "version": "white-2"
+    },
+    {
+      "text": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+      "version": "x"
+    },
+    {
+      "text": "If Poliwag and Poliwhirl hear its echoing cry, they respond by gathering from far and wide.",
+      "version": "y"
+    },
+    {
+      "text": "The curled hair on Politoed’s head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this Pokémon earns from its peers.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The curled hair on Politoed’s head is proof of its status as a king. It is said that the longer and more curled the hair, the more respect this Pokémon earns from its peers.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.",
+      "version": "sun"
+    },
+    {
+      "text": "It’s the leader of Poliwag and Poliwhirl. When Politoed roars, they all cower in fear.",
+      "version": "moon"
+    },
+    {
+      "text": "Although its cries sound like screams, a composer created a beautiful ballad that was influenced by the sounds.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The longer and more luxurious the curled hair on its head, the greater the number of Poliwag and Poliwhirl that will obey it.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "At nightfall, these Pokémon appear on the shores of lakes. They announce their territorial claims by letting out cries that sound like shouting.",
+      "version": "sword"
+    },
+    {
+      "text": "The cry of a male is louder than that of a female. Male Politoed with deep, menacing voices find more popularity with the opposite gender.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poliwag",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "poliwag",
+      "to": "poliwhirl",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "water-stone"
+      },
+      "from": "poliwhirl",
+      "to": "poliwrath",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "held_item": "kings-rock"
+      },
+      "from": "poliwhirl",
+      "to": "politoed",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "damp"
+        },
+        {
+          "hidden": true,
+          "key": "drizzle"
+        }
+      ],
+      "artwork": "/dex-images/artwork/politoed.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-19-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-20-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          }
+        ],
+        "moon": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          }
+        ],
+        "sun": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 30,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 30,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 30,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "sos",
+            "minLevel": 25
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "sos",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-outer",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-19-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-20-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          }
+        ],
+        "x": [
+          {
+            "chance": 5,
+            "location": "kalos-route-19-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "kalos-route-19-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 2,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "politoed",
+      "kind": "default",
+      "name": "Politoed",
+      "number": 186,
+      "pokemon": "politoed",
+      "sourceId": 186,
+      "sprite": "/dex-images/sprites/politoed.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 75,
+        "defense": 75,
+        "hp": 90,
+        "special-attack": 90,
+        "special-defense": 100,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 339
+    }
+  ],
+  "generation": 2,
+  "key": "politoed",
+  "name": "Politoed",
+  "names": {
+    "de": "Quaxo",
+    "en": "Politoed",
+    "es": "Politoed",
+    "es-419": "Politoed",
+    "fr": "Tarpaud",
+    "it": "Politoed",
+    "ja": "ニョロトノ",
+    "ja-hrkt": "ニョロトノ",
+    "ja-roma": "Nyorotono",
+    "ko": "왕구리",
+    "zh-hans": "蚊香蛙皇",
+    "zh-hant": "蚊香蛙皇"
+  },
+  "number": 186
+}

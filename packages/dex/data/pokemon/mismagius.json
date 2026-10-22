@@ -1,0 +1,176 @@
+{
+  "category": "Magical Pokémon",
+  "entries": [
+    {
+      "text": "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
+      "version": "diamond"
+    },
+    {
+      "text": "It chants incantations. While they usually torment targets, some chants bring happiness.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+      "version": "black"
+    },
+    {
+      "text": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+      "version": "white"
+    },
+    {
+      "text": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+      "version": "white-2"
+    },
+    {
+      "text": "It chants incantations. While they usually torment targets, some chants bring happiness.",
+      "version": "x"
+    },
+    {
+      "text": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+      "version": "y"
+    },
+    {
+      "text": "It chants incantations. While they usually torment targets, some chants bring happiness.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It appears as if from nowhere—muttering incantations, placing curses, and giving people terrifying visions.",
+      "version": "sun"
+    },
+    {
+      "text": "Mismagius have been known to cast spells to make people fall in love, so some people search for this Pokémon as if their life depended on it.",
+      "version": "moon"
+    },
+    {
+      "text": "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its muttered curses can cause awful headaches or terrifying visions that torment others.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The incantations Mismagius chants can ward against misfortune, so a custom exists of inviting it into one's home. Incur the Pokémon's displeasure, however, and disaster will surely ensue.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "misdreavus",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "misdreavus",
+      "to": "mismagius",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mismagius.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          }
+        ],
+        "sun": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "sun-moon", "ultra-sun-ultra-moon", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mismagius",
+      "kind": "default",
+      "name": "Mismagius",
+      "number": 429,
+      "pokemon": "mismagius",
+      "sourceId": 429,
+      "sprite": "/dex-images/sprites/mismagius.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 60,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 105,
+        "special-defense": 105,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 44
+    }
+  ],
+  "generation": 4,
+  "key": "mismagius",
+  "name": "Mismagius",
+  "names": {
+    "de": "Traunmagil",
+    "en": "Mismagius",
+    "es": "Mismagius",
+    "es-419": "Mismagius",
+    "fr": "Magirêve",
+    "it": "Mismagius",
+    "ja": "ムウマージ",
+    "ja-hrkt": "ムウマージ",
+    "ja-roma": "Mumargi",
+    "ko": "무우마직",
+    "zh-hans": "梦妖魔",
+    "zh-hant": "夢妖魔"
+  },
+  "number": 429
+}

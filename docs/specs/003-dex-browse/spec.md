@@ -38,7 +38,7 @@ the search palette and the offline page.
 
 ### 2. Browse the Dex `/dex`
 
-1. Every form in the data, as a grid of cards (sprite, national number, name,
+1. Every form in the data, as a grid of cards (artwork, national number, name,
    type badges) or a list (a table with the base stats and total).
 2. **Default forms only** at first; a "Forms" filter shows other forms
    (regional, Mega, Gigantamax, other).
@@ -111,11 +111,11 @@ example), rather than only "No results".
 
 ### 6. Images
 
-Each card shows the form's small sprite, at a fixed size, so nothing shifts
-as images load. Images are served from our own site, never linked from
-another's (the project doc: "as few official images as possible"; ADR 0006,
-"Images"). A form without a sprite shows a neutral placeholder with its
-name.
+Each card shows the form's artwork (its small sprite where it has none) in a
+square of fixed size, so nothing shifts as images load. Images are served
+from our own site, never linked from another's (the project doc: "as few
+official images as possible"; ADR 0006, "Images"). A form without either
+shows a neutral placeholder.
 
 ### 7. Titles, descriptions and the sitemap
 
@@ -163,13 +163,27 @@ filtered view's link works in either.
 Spec 001's wireframes for Home, Browse the Dex and A game's Dex, with these
 details:
 
-- Filters: on a phone, "+ Filter" opens the filters in a bottom sheet with
-  "Show N Pokémon" at the bottom; each active filter is a removable chip
-  above the results. On desktop, the filters are a panel on the left and the
-  chips sit above the grid. "Clear all" removes every filter.
-- Grid columns: 3 at 360 px, 4 from 600 px, 6 from 1024 px, 8 from 1440 px.
+- The page opens with its title and the count, with no breadcrumb: `/dex`
+  is a top-level page. On desktop they head the filters panel, level with
+  the pinned bar, with "Clear all" at the line's end.
+- A bar pinned under the top bar holds the name field. On a phone, beside
+  it, "Filter" (with the number of active filters) opens a bottom sheet
+  with the sort, grid or list, the filters, and "Show N Pokémon" at the
+  bottom. On desktop, the sort and grid or list sit in the bar, and the
+  filters are a panel on the left that stays in view and scrolls on its
+  own. Each active filter is a removable chip above the results; "Clear
+  all" removes every filter.
+- Each filter is a group that opens and closes. Types are pills in their
+  colours, each named; a chosen one has a ring and a check. Generations are
+  checkboxes, three to a row ("Gen I"); each stat is a slider, its values beside its name;
+  the forms are radio buttons, two to a row.
+- Grid columns, by the results' own width: 2 on a phone, 3 from 576 px, 4
+  from 896 px, 5 from 1280 px.
 - List view on a phone: number, name, types and total, with the six stats on
-  a second line; on desktop, one column per stat, each sortable.
+  a second line; on desktop, one column per stat, each sortable. The table
+  is a bordered card, each name with its small sprite, the numbers centred;
+  a click anywhere on a row opens the form.
+- Grid or list is a segmented switch: the chosen view on a raised tile.
 - The offline notice is an Alert under the top bar, dismissible.
 
 ## Acceptance criteria
@@ -224,3 +238,7 @@ details:
   signed-out league card's copy; the manifest's 192 and 512 px icons.
 - 2026-10-21: languages (ADR 0007): both languages, English names in
   search, offline per language.
+- 2026-10-22: the owner's review of `/dex` on screen. Cards show the
+  artwork, larger, in 2 to 5 columns; the bar with the name field, sort and
+  view stays pinned, and the filters panel stays in view; type pills and
+  generation checkboxes; no breadcrumb.

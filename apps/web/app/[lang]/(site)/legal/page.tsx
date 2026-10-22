@@ -5,6 +5,7 @@ import { buttonVariants } from "@workspace/ui/components/shadcn-ui/button"
 import { Separator } from "@workspace/ui/components/shadcn-ui/separator"
 import { cn } from "@workspace/ui/lib/utils"
 
+import { Page, PageTitle, SectionTitle } from "@/components/page"
 import { PageCrumbs } from "@/components/page-crumbs"
 import { pageMetadata } from "@/i18n/metadata"
 
@@ -45,63 +46,71 @@ export default async function LegalPage() {
   ]
 
   return (
-    <div className="mx-auto flex max-w-5xl gap-10 p-4 md:p-6">
-      <article className="flex max-w-prose min-w-0 flex-col gap-6">
-        <PageCrumbs current={t("title")} />
-        <h1 className="text-2xl font-semibold">{t("title")}</h1>
+    <Page>
+      <div className="mx-auto flex w-full max-w-5xl gap-10">
+        <article className="flex max-w-prose min-w-0 flex-col gap-6">
+          <PageCrumbs current={t("title")} />
+          <PageTitle>{t("title")}</PageTitle>
 
-        <section id="notice" className="flex flex-col gap-2">
-          <h2 className="text-lg font-medium">{t("noticeHeading")}</h2>
-          <p>{t("notice")}</p>
-        </section>
-        <Separator />
+          <section id="notice" className="flex flex-col gap-2">
+            <SectionTitle>{t("noticeHeading")}</SectionTitle>
+            <p>{t("notice")}</p>
+          </section>
+          <Separator />
 
-        <section id="licences" className="flex flex-col gap-2">
-          <h2 className="text-lg font-medium">{t("licencesHeading")}</h2>
-          <ul className="flex flex-col gap-3">
-            {SOURCES.map((source) => (
-              <li key={source.key} className="flex flex-col">
+          <section id="licences" className="flex flex-col gap-2">
+            <SectionTitle>{t("licencesHeading")}</SectionTitle>
+            <ul className="flex flex-col gap-3">
+              {SOURCES.map((source) => (
+                <li key={source.key} className="flex flex-col">
+                  <a
+                    href={source.url}
+                    lang="en"
+                    className={cn(
+                      buttonVariants({ variant: "link", size: "touch" }),
+                      "self-start px-0"
+                    )}
+                  >
+                    {source.name}
+                  </a>
+                  <span className="text-muted-foreground">
+                    {t(`licences.${source.key}`)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+          <Separator />
+
+          <section id="privacy" className="flex flex-col gap-2">
+            <SectionTitle>{t("privacyHeading")}</SectionTitle>
+            <p>{t("privacy")}</p>
+          </section>
+        </article>
+
+        {/* On this page, beside the text from 1024 px (spec 001's wireframe). */}
+        {/* Named by its visible heading; its links a list, as the footer's. */}
+        <nav
+          aria-labelledby="on-this-page"
+          className="sticky top-[calc(var(--sticky-top)+1.5rem)] hidden h-fit flex-col gap-1 text-sm lg:flex"
+        >
+          <p id="on-this-page" className="font-medium">
+            {t("onThisPage")}
+          </p>
+          <ul className="flex flex-col">
+            {sections.map((section) => (
+              <li key={section.id}>
                 <a
-                  href={source.url}
-                  lang="en"
-                  className={cn(
-                    buttonVariants({ variant: "link" }),
-                    "h-11 self-start px-0"
-                  )}
+                  href={`#${section.id}`}
+                  className="inline-flex min-h-11 items-center text-muted-foreground hover:text-foreground"
                 >
-                  {source.name}
+                  {section.heading}
                 </a>
-                <span className="text-muted-foreground">
-                  {t(`licences.${source.key}`)}
-                </span>
               </li>
             ))}
           </ul>
-        </section>
-        <Separator />
-
-        <section id="privacy" className="flex flex-col gap-2">
-          <h2 className="text-lg font-medium">{t("privacyHeading")}</h2>
-          <p>{t("privacy")}</p>
-        </section>
-      </article>
-
-      {/* On this page, beside the text from 1024 px (spec 001's wireframe). */}
-      <nav
-        aria-label={t("onThisPage")}
-        className="sticky top-[calc(var(--sticky-top)+1.5rem)] hidden h-fit flex-col gap-1 text-sm lg:flex"
-      >
-        <p className="font-medium">{t("onThisPage")}</p>
-        {sections.map((section) => (
-          <a
-            key={section.id}
-            href={`#${section.id}`}
-            className="inline-flex min-h-11 items-center text-muted-foreground hover:text-foreground"
-          >
-            {section.heading}
-          </a>
-        ))}
-      </nav>
-    </div>
+        </nav>
+      </div>
+    </Page>
   )
 }

@@ -1,0 +1,479 @@
+{
+  "category": "Lookout Pokémon",
+  "entries": [
+    {
+      "text": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+      "version": "black"
+    },
+    {
+      "text": "They make the patterns on their bodies shine in order to threaten predators. Keen eyesight lets them see in the dark.",
+      "version": "white"
+    },
+    {
+      "text": "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+      "version": "black-2"
+    },
+    {
+      "text": "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+      "version": "white-2"
+    },
+    {
+      "text": "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+      "version": "x"
+    },
+    {
+      "text": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+      "version": "y"
+    },
+    {
+      "text": "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "patrat",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "patrat",
+      "to": "watchog",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "illuminate"
+        },
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "analytic"
+        }
+      ],
+      "artwork": "/dex-images/artwork/watchog.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "dreamyard-area",
+            "maxLevel": 47,
+            "method": "dark-grass",
+            "minLevel": 47
+          },
+          {
+            "chance": 36,
+            "location": "p2-laboratory-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 36,
+            "location": "unova-route-1-area",
+            "maxLevel": 35,
+            "method": "dark-grass",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 34,
+            "method": "dark-grass",
+            "minLevel": 32
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "dark-grass",
+            "minLevel": 31
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 50,
+            "location": "dreamyard-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 50,
+            "location": "dreamyard-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 10,
+            "location": "dreamyard-b1f",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "p2-laboratory-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 80,
+            "location": "unova-route-1-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 80,
+            "location": "unova-route-1-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-2-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-2-hidden-grotto",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 63,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-7-hidden-grotto",
+            "maxLevel": 34,
+            "method": "hidden-grotto",
+            "minLevel": 30
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "dreamyard-area",
+            "maxLevel": 47,
+            "method": "dark-grass",
+            "minLevel": 47
+          },
+          {
+            "chance": 36,
+            "location": "p2-laboratory-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 36,
+            "location": "unova-route-1-area",
+            "maxLevel": 35,
+            "method": "dark-grass",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 60
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 34,
+            "method": "dark-grass",
+            "minLevel": 32
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "dark-grass",
+            "minLevel": 31
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 50,
+            "location": "dreamyard-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 50,
+            "location": "dreamyard-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 10,
+            "location": "dreamyard-b1f",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "p2-laboratory-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 80,
+            "location": "unova-route-1-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 80,
+            "location": "unova-route-1-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-2-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 75,
+            "location": "unova-route-2-hidden-grotto",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 63,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-7-hidden-grotto",
+            "maxLevel": 34,
+            "method": "hidden-grotto",
+            "minLevel": 30
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-15-area",
+            "maxLevel": 36,
+            "method": "red-flowers",
+            "minLevel": 34
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-15-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-15-area",
+            "maxLevel": 36,
+            "method": "red-flowers",
+            "minLevel": 34
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-15-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "watchog",
+      "kind": "default",
+      "name": "Watchog",
+      "number": 505,
+      "pokemon": "watchog",
+      "sourceId": 505,
+      "sprite": "/dex-images/sprites/watchog.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 85,
+        "defense": 69,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 69,
+        "speed": 77
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 270
+    }
+  ],
+  "generation": 5,
+  "key": "watchog",
+  "name": "Watchog",
+  "names": {
+    "de": "Kukmarda",
+    "en": "Watchog",
+    "es": "Watchog",
+    "es-419": "Watchog",
+    "fr": "Miradar",
+    "it": "Watchog",
+    "ja": "ミルホッグ",
+    "ja-hrkt": "ミルホッグ",
+    "ja-roma": "Miruhog",
+    "ko": "보르그",
+    "zh-hans": "步哨鼠",
+    "zh-hant": "步哨鼠"
+  },
+  "number": 505
+}

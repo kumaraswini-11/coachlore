@@ -1,0 +1,114 @@
+{
+  "category": "Wushu Pokémon",
+  "entries": [
+    {
+      "text": "Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.",
+      "version": "sword"
+    },
+    {
+      "text": "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "kubfu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "urshifu-single-strike",
+        "item": "scroll-of-darkness"
+      },
+      "from": "kubfu",
+      "to": "urshifu",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "urshifu-rapid-strike",
+        "item": "scroll-of-waters"
+      },
+      "from": "kubfu",
+      "to": "urshifu",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kubfu.webp",
+      "encounters": {
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 100,
+            "location": "master-dojo-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 100,
+            "location": "master-dojo-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor"],
+      "gen9": true,
+      "generation": 8,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kubfu",
+      "kind": "default",
+      "legendary": true,
+      "name": "Kubfu",
+      "number": 891,
+      "pokemon": "kubfu",
+      "sourceId": 891,
+      "sprite": "/dex-images/sprites/kubfu.webp",
+      "statTotal": 385,
+      "stats": {
+        "attack": 90,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 53,
+        "special-defense": 50,
+        "speed": 72
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["fighting"],
+      "weight": 120
+    }
+  ],
+  "generation": 8,
+  "key": "kubfu",
+  "name": "Kubfu",
+  "names": {
+    "de": "Dakuma",
+    "en": "Kubfu",
+    "es": "Kubfu",
+    "es-419": "Kubfu",
+    "fr": "Wushours",
+    "it": "Kubfu",
+    "ja": "ダクマ",
+    "ja-hrkt": "ダクマ",
+    "ja-roma": "Dakuma",
+    "ko": "치고마",
+    "zh-hans": "熊徒弟",
+    "zh-hant": "熊徒弟"
+  },
+  "number": 891
+}

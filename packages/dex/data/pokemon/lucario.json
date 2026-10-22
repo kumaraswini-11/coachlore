@@ -1,0 +1,465 @@
+{
+  "category": "Aura Pokémon",
+  "entries": [
+    {
+      "text": "It has the ability to sense the auras of all things. It understands human speech.",
+      "version": "diamond"
+    },
+    {
+      "text": "By catching the aura emanating from others, it can read their thoughts and movements.",
+      "version": "pearl"
+    },
+    {
+      "text": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+      "version": "platinum"
+    },
+    {
+      "text": "It’s said that no foe can remain invisible to LUCARIO, since it can detect auras. Even foes it could not otherwise see.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It’s said that no foe can remain invisible to LUCARIO, since it can detect auras. Even foes it could not otherwise see.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+      "version": "black"
+    },
+    {
+      "text": "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+      "version": "white"
+    },
+    {
+      "text": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+      "version": "black-2"
+    },
+    {
+      "text": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+      "version": "white-2"
+    },
+    {
+      "text": "By catching the aura emanating from others, it can read their thoughts and movements.",
+      "version": "x"
+    },
+    {
+      "text": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+      "version": "y"
+    },
+    {
+      "text": "By catching the aura emanating from others, it can read their thoughts and movements.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Not only does it perceive auras, but it has also gained the power to control them. It employs them in battle.",
+      "version": "sun"
+    },
+    {
+      "text": "They can detect the species of a living being— and its emotions—from over half a mile away. They control auras and hunt their prey in packs.",
+      "version": "moon"
+    },
+    {
+      "text": "It concentrates its mental energy and fires off mysterious waves called auras, which can crush boulders of large size to dust.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Lucario reads its opponent’s feelings with its aura waves. It finds out things it would rather not know, so it gets stressed out easily.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It controls waves known as auras, which are powerful enough to pulverize huge rocks. It uses these waves to take down its prey.",
+      "version": "sword"
+    },
+    {
+      "text": "It can tell what people are thinking. Only Trainers who have justice in their hearts can earn this Pokémon’s trust.",
+      "version": "shield"
+    },
+    {
+      "text": "A most gallant-looking creature. It emits energy waves and controls them with precision, using them to sense even faraway beings. I have given the name ”aura” to this power.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "riolu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "day"
+      },
+      "from": "riolu",
+      "to": "lucario",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "steadfast"
+        },
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "justified"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lucario.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "rolling-fields-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 59,
+            "location": "stony-wilderness-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 67,
+            "method": "wanderer",
+            "minLevel": 67
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "sos",
+            "minLevel": 52
+          }
+        ],
+        "x": [
+          {
+            "chance": 100,
+            "location": "tower-of-mastery-area",
+            "maxLevel": 32,
+            "method": "gift",
+            "minLevel": 32
+          }
+        ],
+        "y": [
+          {
+            "chance": 100,
+            "location": "tower-of-mastery-area",
+            "maxLevel": 32,
+            "method": "gift",
+            "minLevel": 32
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lucario",
+      "kind": "default",
+      "name": "Lucario",
+      "number": 448,
+      "pokemon": "lucario",
+      "sourceId": 448,
+      "sprite": "/dex-images/sprites/lucario.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 110,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 115,
+        "special-defense": 70,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["fighting", "steel"],
+      "weight": 540
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "adaptability"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lucario-mega.webp",
+      "encounters": {},
+      "formName": "Mega Lucario",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 13,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "lucario-mega",
+      "kind": "mega",
+      "name": "Lucario-Mega",
+      "number": 448,
+      "pokemon": "lucario",
+      "sourceId": 10059,
+      "sprite": "/dex-images/sprites/lucario-mega.webp",
+      "statTotal": 625,
+      "stats": {
+        "attack": 145,
+        "defense": 88,
+        "hp": 70,
+        "special-attack": 140,
+        "special-defense": 70,
+        "speed": 112
+      },
+      "tags": [],
+      "types": ["fighting", "steel"],
+      "weight": 575
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aura-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lucario-mega-z.webp",
+      "encounters": {},
+      "formName": "Mega Lucario Z",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 13,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "lucario-mega-z",
+      "kind": "mega",
+      "name": "Lucario-Mega-Z",
+      "number": 448,
+      "pokemon": "lucario",
+      "sourceId": 10310,
+      "sprite": "/dex-images/sprites/lucario-mega-z.webp",
+      "statTotal": 625,
+      "stats": {
+        "attack": 100,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 164,
+        "special-defense": 70,
+        "speed": 151
+      },
+      "tags": [],
+      "types": ["fighting", "steel"],
+      "weight": 494
+    }
+  ],
+  "generation": 4,
+  "key": "lucario",
+  "name": "Lucario",
+  "names": {
+    "de": "Lucario",
+    "en": "Lucario",
+    "es": "Lucario",
+    "es-419": "Lucario",
+    "fr": "Lucario",
+    "it": "Lucario",
+    "ja": "ルカリオ",
+    "ja-hrkt": "ルカリオ",
+    "ja-roma": "Lucario",
+    "ko": "루카리오",
+    "zh-hans": "路卡利欧",
+    "zh-hant": "路卡利歐"
+  },
+  "number": 448
+}

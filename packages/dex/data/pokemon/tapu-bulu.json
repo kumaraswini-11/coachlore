@@ -1,0 +1,144 @@
+{
+  "category": "Land Spirit Pokémon",
+  "entries": [
+    {
+      "text": "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
+      "version": "sun"
+    },
+    {
+      "text": "The guardian deity of Ula’ula is a lazy Pokémon. It commands plants to immobilize its foes and then deals them a savage blow with its horns.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s called a guardian deity, it’s violent enough to crush anyone it sees as an enemy.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It makes ringing sounds with its tail to let others know where it is, avoiding unneeded conflicts. This guardian deity of Ula’ula controls plants.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tapu-bulu",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "grassy-surge"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tapu-bulu.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-abundance-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-abundance-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-abundance-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-abundance-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tapu-bulu",
+      "kind": "default",
+      "legendary": true,
+      "name": "Tapu Bulu",
+      "number": 787,
+      "pokemon": "tapu-bulu",
+      "sourceId": 787,
+      "sprite": "/dex-images/sprites/tapu-bulu.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 130,
+        "defense": 115,
+        "hp": 70,
+        "special-attack": 85,
+        "special-defense": 95,
+        "speed": 75
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["grass", "fairy"],
+      "weight": 455
+    }
+  ],
+  "generation": 7,
+  "key": "tapu-bulu",
+  "name": "Tapu Bulu",
+  "names": {
+    "de": "Kapu-Toro",
+    "en": "Tapu Bulu",
+    "es": "Tapu Bulu",
+    "es-419": "Tapu Bulu",
+    "fr": "Tokotoro",
+    "it": "Tapu Bulu",
+    "ja": "カプ・ブルル",
+    "ja-hrkt": "カプ・ブルル",
+    "ja-roma": "Kapu-Bulul",
+    "ko": "카푸브루루",
+    "zh-hans": "卡璞・哞哞",
+    "zh-hant": "卡璞・哞哞"
+  },
+  "number": 787
+}

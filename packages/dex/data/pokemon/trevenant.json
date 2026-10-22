@@ -1,0 +1,405 @@
+{
+  "category": "Elder Tree Pokémon",
+  "entries": [
+    {
+      "text": "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+      "version": "x"
+    },
+    {
+      "text": "Using its roots as a nervous system, it controls the trees in the forest. It’s kind to the Pokémon that reside in its body.",
+      "version": "y"
+    },
+    {
+      "text": "It can control trees at will. It will trap people who harm the forest, so they can never leave.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Using its roots as a nervous system, it controls the trees in the forest. It’s kind to the Pokémon that reside in its body.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon is said to devour anyone daring to ravage the forest. To the creatures dwelling in the forest, it offers great kindness.",
+      "version": "sun"
+    },
+    {
+      "text": "Through its roots, it exerts control over other trees. A deadly curse falls upon anyone cutting down trees in forests where Trevenant dwell.",
+      "version": "moon"
+    },
+    {
+      "text": "It’s feared as a ghost of the forest. Lumberjacks bring along Fire types, which Trevenant hates, when they enter the forest.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This Pokémon controls trees via roots stretching from its feet, and it will attack anyone that dares to ravage the forest.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "People fear it due to a belief that it devours any who try to cut down trees in its forest, but to the Pokémon it shares its woods with, it’s kind.",
+      "version": "sword"
+    },
+    {
+      "text": "Small roots that extend from the tips of this Pokémon’s feet can tie into the trees of the forest and give Trevenant control over them.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "phantump",
+      "trigger": null
+    },
+    {
+      "conditions": {},
+      "from": "phantump",
+      "to": "trevenant",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "harvest"
+        }
+      ],
+      "artwork": "/dex-images/artwork/trevenant.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "shield": [
+          {
+            "chance": 75,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 55,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "old-cemetery-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 55,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 55,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "old-cemetery-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 90,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 90,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 70,
+            "location": "kalos-route-20-area",
+            "maxLevel": 25,
+            "method": "horde",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "kalos-route-20-area",
+            "maxLevel": 49,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 70,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 70,
+            "location": "kalos-route-20-area",
+            "maxLevel": 25,
+            "method": "horde",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "kalos-route-20-area",
+            "maxLevel": 49,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 70,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "trevenant",
+      "kind": "default",
+      "name": "Trevenant",
+      "number": 709,
+      "pokemon": "trevenant",
+      "sourceId": 709,
+      "sprite": "/dex-images/sprites/trevenant.webp",
+      "statTotal": 474,
+      "stats": {
+        "attack": 110,
+        "defense": 76,
+        "hp": 85,
+        "special-attack": 65,
+        "special-defense": 82,
+        "speed": 56
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 710
+    }
+  ],
+  "generation": 6,
+  "key": "trevenant",
+  "name": "Trevenant",
+  "names": {
+    "de": "Trombork",
+    "en": "Trevenant",
+    "es": "Trevenant",
+    "es-419": "Trevenant",
+    "fr": "Desséliande",
+    "it": "Trevenant",
+    "ja": "オーロット",
+    "ja-hrkt": "オーロット",
+    "ja-roma": "Ohrot",
+    "ko": "대로트",
+    "zh-hans": "朽木妖",
+    "zh-hant": "朽木妖"
+  },
+  "number": 709
+}

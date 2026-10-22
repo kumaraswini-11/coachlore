@@ -1,0 +1,371 @@
+{
+  "category": "Iron Armor Pokémon",
+  "entries": [
+    {
+      "text": "AGGRON claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This POKéMON vigilantly patrols its territory at all times.",
+      "version": "ruby"
+    },
+    {
+      "text": "AGGRON is surprisingly protective of its environment. If its mountain is ravaged by a landslide or a fire, this POKéMON will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its iron horns grow longer a little at a time. They are used to determine the AGGRON’s age. The gouges in its armor are worn with pride as mementos from battles.",
+      "version": "emerald"
+    },
+    {
+      "text": "It claims a large mountain as its sole territory. It mercilessly thrashes those that violate its space.",
+      "version": "firered"
+    },
+    {
+      "text": "It claims a large mountain as its sole territory. It mercilessly thrashes those that violate its space.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+      "version": "diamond"
+    },
+    {
+      "text": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+      "version": "pearl"
+    },
+    {
+      "text": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+      "version": "platinum"
+    },
+    {
+      "text": "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory.",
+      "version": "heartgold"
+    },
+    {
+      "text": "You can tell its age by the length of its iron horns. It claims an entire mountain as its territory.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+      "version": "black"
+    },
+    {
+      "text": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+      "version": "white"
+    },
+    {
+      "text": "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don’t take it lightly.",
+      "version": "black-2"
+    },
+    {
+      "text": "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don’t take it lightly.",
+      "version": "white-2"
+    },
+    {
+      "text": "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don’t take it lightly.",
+      "version": "x"
+    },
+    {
+      "text": "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+      "version": "y"
+    },
+    {
+      "text": "Aggron claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This Pokémon vigilantly patrols its territory at all times.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Aggron is protective of its environment. If its mountain is ravaged by a landslide or a fire, this Pokémon will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
+      "version": "sword"
+    },
+    {
+      "text": "Long ago, there was a king who wore a helmet meant to resemble the head of an Aggron. He was trying to channel the Pokémon’s strength.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "aron",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "aron",
+      "to": "lairon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "lairon",
+      "to": "aggron",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": true,
+          "key": "heavy-metal"
+        }
+      ],
+      "artwork": "/dex-images/artwork/aggron.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "lakeside-cave-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 65,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "slippery-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 70,
+            "location": "ballimere-lake-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "giants-bed-max-den-n",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "lakeside-cave-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 65,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "slippery-slope-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "snowslide-slope-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "island-scan",
+            "minLevel": 57
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "island-scan",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-crown-tundra", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 3,
+      "height": 21,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "aggron",
+      "kind": "default",
+      "name": "Aggron",
+      "number": 306,
+      "pokemon": "aggron",
+      "sourceId": 306,
+      "sprite": "/dex-images/sprites/aggron.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 110,
+        "defense": 180,
+        "hp": 70,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["steel", "rock"],
+      "weight": 3600
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "filter"
+        }
+      ],
+      "artwork": "/dex-images/artwork/aggron-mega.webp",
+      "encounters": {},
+      "formName": "Mega Aggron",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 22,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "aggron-mega",
+      "kind": "mega",
+      "name": "Aggron-Mega",
+      "number": 306,
+      "pokemon": "aggron",
+      "sourceId": 10053,
+      "sprite": "/dex-images/sprites/aggron-mega.webp",
+      "statTotal": 630,
+      "stats": {
+        "attack": 140,
+        "defense": 230,
+        "hp": 70,
+        "special-attack": 60,
+        "special-defense": 80,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["steel"],
+      "weight": 3950
+    }
+  ],
+  "generation": 3,
+  "key": "aggron",
+  "name": "Aggron",
+  "names": {
+    "de": "Stolloss",
+    "en": "Aggron",
+    "es": "Aggron",
+    "es-419": "Aggron",
+    "fr": "Galeking",
+    "it": "Aggron",
+    "ja": "ボスゴドラ",
+    "ja-hrkt": "ボスゴドラ",
+    "ja-roma": "Bossgodora",
+    "ko": "보스로라",
+    "zh-hans": "波士可多拉",
+    "zh-hant": "波士可多拉"
+  },
+  "number": 306
+}

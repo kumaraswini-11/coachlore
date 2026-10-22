@@ -39,7 +39,7 @@ function ToastViewport({ className, ...props }: ToastPrimitive.Viewport.Props) {
 }
 
 function Toast({ className, ...props }: ToastPrimitive.Root.Props) {
-  // Swiped down or towards the screen's nearer edge: the viewport sits at the
+  // Coachlore: swiped down or towards the screen's nearer edge: the viewport sits at the
   // inline end, which is the right in a left-to-right page and the left in a
   // right-to-left one (Base UI's default is ["down", "right"]).
   const direction = useDirection()
@@ -122,7 +122,7 @@ function ToastAction({
   )
 }
 
-// `label` names the button in the page's language.
+// Coachlore: `label` names the button in the page's language.
 function ToastClose({
   className,
   children,

@@ -37,6 +37,9 @@ function SheetOverlay({ className, ...props }: SheetPrimitive.Backdrop.Props) {
   )
 }
 
+// Coachlore: `closeLabel` names the close button in the page's language;
+// a physical `side` (left, right) keeps physical edges and slides, so a
+// right-to-left page doesn't put the border on the wrong side.
 function SheetContent({
   className,
   children,

@@ -1,0 +1,617 @@
+{
+  "category": "Bud Pokémon",
+  "entries": [
+    {
+      "text": "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives alongside clear ponds. It scatters pollen that induces harsh sneezing and runny noses.",
+      "version": "pearl"
+    },
+    {
+      "text": "Sensitive to changing temperature, the bud is said to bloom when it feels the sun’s warm touch.",
+      "version": "platinum"
+    },
+    {
+      "text": "When it feels the sun’s warm touch, it opens its bud to release pollen. It lives alongside clear pools.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When it feels the sun’s warm touch, it opens its bud to release pollen. It lives alongside clear pools.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Sensitive to changing temperature, the bud is said to bloom when it feels the sun’s warm touch.",
+      "version": "black"
+    },
+    {
+      "text": "Sensitive to changing temperature, the bud is said to bloom when it feels the sun’s warm touch.",
+      "version": "white"
+    },
+    {
+      "text": "Sensitive to changing temperatures, the bud blooms when it’s warm, releasing toxic pollen.",
+      "version": "black-2"
+    },
+    {
+      "text": "Sensitive to changing temperatures, the bud blooms when it’s warm, releasing toxic pollen.",
+      "version": "white-2"
+    },
+    {
+      "text": "When it feels the sun’s warm touch, it opens its bud to release pollen. It lives alongside clear pools.",
+      "version": "x"
+    },
+    {
+      "text": "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+      "version": "y"
+    },
+    {
+      "text": "When it feels the sun’s warm touch, it opens its bud to release pollen. It lives alongside clear pools.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon is highly sensitive to temperature changes. When its bud starts to open, that means spring is right around the corner.",
+      "version": "shield"
+    },
+    {
+      "text": "When the sun's light strengthens, the bud atop this Pokémon's head opens. This is a sign to the people that the harsh winter is over, and the season of budding has begun.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "budew",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "time_of_day": "day"
+      },
+      "from": "budew",
+      "to": "roselia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "roselia",
+      "to": "roserade",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/budew.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 43,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-1",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-2",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-3",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-4",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-5",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-6",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "viridian-forest-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 43,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-1",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-2",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-3",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-4",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-5",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-6",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 70,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 40,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 4,
+            "location": "galar-route-4-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "ilex-forest-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-rocky-beach",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "viridian-forest-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 4,
+            "location": "galar-route-4-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 8
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 8
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za"],
+      "gen9": false,
+      "generation": 4,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "budew",
+      "kind": "default",
+      "name": "Budew",
+      "number": 406,
+      "pokemon": "budew",
+      "sourceId": 406,
+      "sprite": "/dex-images/sprites/budew.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 30,
+        "defense": 35,
+        "hp": 40,
+        "special-attack": 50,
+        "special-defense": 70,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 12
+    }
+  ],
+  "generation": 4,
+  "key": "budew",
+  "name": "Budew",
+  "names": {
+    "de": "Knospi",
+    "en": "Budew",
+    "es": "Budew",
+    "es-419": "Budew",
+    "fr": "Rozbouton",
+    "it": "Budew",
+    "ja": "スボミー",
+    "ja-hrkt": "スボミー",
+    "ja-roma": "Subomie",
+    "ko": "꼬몽울",
+    "zh-hans": "含羞苞",
+    "zh-hant": "含羞苞"
+  },
+  "number": 406
+}

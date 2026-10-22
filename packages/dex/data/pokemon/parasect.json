@@ -1,0 +1,513 @@
+{
+  "category": "Mushroom Pokémon",
+  "entries": [
+    {
+      "text": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "version": "red"
+    },
+    {
+      "text": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "version": "blue"
+    },
+    {
+      "text": "The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking.",
+      "version": "yellow"
+    },
+    {
+      "text": "It stays mostly in dark, damp places, the preference not of the bug, but of the big mushrooms on its back.",
+      "version": "gold"
+    },
+    {
+      "text": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+      "version": "silver"
+    },
+    {
+      "text": "When nothing's left to extract from the bug, the mushrooms on its back leave spores on the bug's egg.",
+      "version": "crystal"
+    },
+    {
+      "text": "PARASECT is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+      "version": "ruby"
+    },
+    {
+      "text": "PARASECT is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+      "version": "sapphire"
+    },
+    {
+      "text": "PARASECT are known to infest the roots of large trees en masse and drain nutrients. When an infested tree dies, they move onto another tree all at once.",
+      "version": "emerald"
+    },
+    {
+      "text": "It scatters toxic spores from the mushroom cap. In China, the spores are used as herbal medicine.",
+      "version": "firered"
+    },
+    {
+      "text": "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls PARASECT. It scatters poisonous spores.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is controlled by a mushroom grown larger than the bug body. It is said to prefer damp places.",
+      "version": "pearl"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls PARASECT. It scatters poisonous spores.",
+      "version": "platinum"
+    },
+    {
+      "text": "It stays mostly in dark, damp places, the preference not of the bug, but of the big mushroom on its back.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "version": "black"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "version": "white"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "version": "black-2"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "version": "white-2"
+    },
+    {
+      "text": "A mushroom grown larger than the host’s body controls Parasect. It scatters poisonous spores.",
+      "version": "x"
+    },
+    {
+      "text": "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+      "version": "y"
+    },
+    {
+      "text": "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The large mushroom on its back controls it. It often fights over territory with Shiinotic.",
+      "version": "sun"
+    },
+    {
+      "text": "It scatters toxic spores from its mushroom cap. Once harvested, these spores can be steeped and boiled down to prepare herbal medicines.",
+      "version": "moon"
+    },
+    {
+      "text": "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its poisonous spores are also used in traditional medicine. Apparently, spores produced in Alola are not of very good quality.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "The bug host is drained of energy by the mushroom on its back. The mushroom appears to do all the thinking.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Mushroom-lacking specimens of this Pokémon lie unmoving in the forest, lending credence to the hypothesis that the large mushroom is in control of Parasect's actions.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "paras",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "paras",
+      "to": "parasect",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "effect-spore"
+        },
+        {
+          "hidden": false,
+          "key": "dry-skin"
+        },
+        {
+          "hidden": true,
+          "key": "damp"
+        }
+      ],
+      "artwork": "/dex-images/artwork/parasect.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 45,
+            "location": "mt-silver-2f",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "firered": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 14,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 14,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 50,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 25,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 14,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 14,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "red": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 10,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 50,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 25,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-18-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "legends-arceus", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "parasect",
+      "kind": "default",
+      "name": "Parasect",
+      "number": 47,
+      "pokemon": "parasect",
+      "sourceId": 47,
+      "sprite": "/dex-images/sprites/parasect.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 95,
+        "defense": 80,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 80,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["bug", "grass"],
+      "weight": 295
+    }
+  ],
+  "generation": 1,
+  "key": "parasect",
+  "name": "Parasect",
+  "names": {
+    "de": "Parasek",
+    "en": "Parasect",
+    "es": "Parasect",
+    "es-419": "Parasect",
+    "fr": "Parasect",
+    "it": "Parasect",
+    "ja": "パラセクト",
+    "ja-hrkt": "パラセクト",
+    "ja-roma": "Parasect",
+    "ko": "파라섹트",
+    "zh-hans": "派拉斯特",
+    "zh-hant": "派拉斯特"
+  },
+  "number": 47
+}

@@ -1,0 +1,587 @@
+{
+  "category": "Requiem Pokémon",
+  "entries": [
+    {
+      "text": "DUSKULL can pass through any wall no matter how thick it may be. Once this POKéMON chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
+      "version": "ruby"
+    },
+    {
+      "text": "DUSKULL wanders lost among the deep darkness of midnight. There is an oft- told admonishment given to misbehaving children that this POKéMON will spirit away bad children who earn scoldings from their mothers.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A glare from its single scarlet eye makes even burly grown-ups freeze in utter fear. It is a nocturnal POKéMON that roams about under the cloak of darkness.",
+      "version": "emerald"
+    },
+    {
+      "text": "Making itself invisible, it silently sneaks up to prey. It has the ability to slip through thick walls.",
+      "version": "firered"
+    },
+    {
+      "text": "Making itself invisible, it silently sneaks up to prey. It has the ability to slip through thick walls.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+      "version": "diamond"
+    },
+    {
+      "text": "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+      "version": "pearl"
+    },
+    {
+      "text": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+      "version": "platinum"
+    },
+    {
+      "text": "If it finds bad children who won’t listen to their parents, it will spirit them away--or so it’s said.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If it finds bad children who won’t listen to their parents, it will spirit them away--or so it’s said.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+      "version": "black"
+    },
+    {
+      "text": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+      "version": "white"
+    },
+    {
+      "text": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+      "version": "black-2"
+    },
+    {
+      "text": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+      "version": "white-2"
+    },
+    {
+      "text": "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+      "version": "x"
+    },
+    {
+      "text": "If it finds bad children who won’t listen to their parents, it will spirit them away--or so it’s said.",
+      "version": "y"
+    },
+    {
+      "text": "Duskull can pass through any wall no matter how thick it may be. Once this Pokémon chooses a target, it will doggedly pursue the intended victim until the break of dawn.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Duskull wanders lost among the deep darkness of midnight. There is an oft-told admonishment given to misbehaving children that this Pokémon will spirit away bad children who earn scoldings from their mothers.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "If it finds bad children who won’t listen to their parents, it will spirit them away—or so it’s said.",
+      "version": "sword"
+    },
+    {
+      "text": "Making itself invisible, it silently sneaks up to prey. It has the ability to slip through thick walls.",
+      "version": "shield"
+    },
+    {
+      "text": "I've heard that the children of Hisui all begin to behave once they've been told the story of how this Pokémon roams about before the witching hour to spirit away misbehaving children.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "duskull",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "duskull",
+      "to": "dusclops",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "reaper-cloth"
+      },
+      "from": "dusclops",
+      "to": "dusknoir",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/duskull.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "mt-pyre-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-6f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 13,
+            "location": "mt-pyre-summit",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 48,
+            "method": "surf",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "lost-tower-1f",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-2f",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-3f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-4f",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "lost-tower-5f",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "turnback-cave-before-pillar-1",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 4,
+            "location": "turnback-cave-between-pillars-1-and-2",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "turnback-cave-pillar-1",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-1f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-2f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-3f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-6f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "mt-pyre-outside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "mt-pyre-summit",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "mt-pyre-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-6f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 13,
+            "location": "mt-pyre-summit",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "shield": [
+          {
+            "chance": 18,
+            "location": "galar-route-6-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 996,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 996,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 48,
+            "method": "surf",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "sword": [
+          {
+            "chance": 70,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 18,
+            "location": "galar-route-6-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 70,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 40,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 996,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 996,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 30,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "onbs-3f",
+            "maxLevel": 19,
+            "method": "snag",
+            "minLevel": 19
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "platinum", "omega-ruby-alpha-sapphire", "sword-shield", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "duskull",
+      "kind": "default",
+      "name": "Duskull",
+      "number": 355,
+      "pokemon": "duskull",
+      "sourceId": 355,
+      "sprite": "/dex-images/sprites/duskull.webp",
+      "statTotal": 295,
+      "stats": {
+        "attack": 40,
+        "defense": 90,
+        "hp": 20,
+        "special-attack": 30,
+        "special-defense": 90,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 150
+    }
+  ],
+  "generation": 3,
+  "key": "duskull",
+  "name": "Duskull",
+  "names": {
+    "de": "Zwirrlicht",
+    "en": "Duskull",
+    "es": "Duskull",
+    "es-419": "Duskull",
+    "fr": "Skelénox",
+    "it": "Duskull",
+    "ja": "ヨマワル",
+    "ja-hrkt": "ヨマワル",
+    "ja-roma": "Yomawaru",
+    "ko": "해골몽",
+    "zh-hans": "夜巡灵",
+    "zh-hant": "夜巡靈"
+  },
+  "number": 355
+}

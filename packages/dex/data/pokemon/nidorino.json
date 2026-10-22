@@ -1,0 +1,723 @@
+{
+  "category": "Poison Pin Pokémon",
+  "entries": [
+    {
+      "text": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+      "version": "red"
+    },
+    {
+      "text": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+      "version": "blue"
+    },
+    {
+      "text": "Its horns contain venom. If they are stabbed into an enemy, the impact makes the poison leak out.",
+      "version": "yellow"
+    },
+    {
+      "text": "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
+      "version": "gold"
+    },
+    {
+      "text": "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated.",
+      "version": "silver"
+    },
+    {
+      "text": "It is easily agitated and uses its horn for offense as soon as it notices an attacker.",
+      "version": "crystal"
+    },
+    {
+      "text": "NIDORINO has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "version": "ruby"
+    },
+    {
+      "text": "NIDORINO has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its horn is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is easily angered. By swinging its well- developed horn wildly, it can even punch through diamond.",
+      "version": "firered"
+    },
+    {
+      "text": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "diamond"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "platinum"
+    },
+    {
+      "text": "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Quick to anger, it stabs enemies with its horn to inject a powerful poison when it becomes agitated.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "black"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "white"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "black-2"
+    },
+    {
+      "text": "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+      "version": "white-2"
+    },
+    {
+      "text": "It raises its big ears to check its surroundings. If it senses anything, it attacks immediately.",
+      "version": "x"
+    },
+    {
+      "text": "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+      "version": "y"
+    },
+    {
+      "text": "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its horn contains venom. If it stabs an enemy with the horn, the impact makes the poison leak out.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Its horn contains venom. If it stabs an enemy with the horn, the impact makes the poison leak out.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "With a horn that’s harder than diamond, this Pokémon goes around shattering boulders as it searches for a moon stone.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "nidoran-m",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "nidoran-m",
+      "to": "nidorino",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "moon-stone"
+      },
+      "from": "nidorino",
+      "to": "nidoking",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": true,
+          "key": "hustle"
+        }
+      ],
+      "artwork": "/dex-images/artwork/nidorino.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 17,
+            "method": "gift",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 60,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-14-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 2,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 2,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "firered": [
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "gold": [
+          {
+            "chance": 90,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-14-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 17,
+            "method": "gift",
+            "minLevel": 17
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "kanto-route-11-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 16
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-23-area",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-9-area",
+            "maxLevel": 22,
+            "method": "overworld",
+            "minLevel": 17
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-10-area",
+            "maxLevel": 23,
+            "method": "overworld",
+            "minLevel": 18
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-23-area",
+            "maxLevel": 46,
+            "method": "overworld",
+            "minLevel": 41
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-9-area",
+            "maxLevel": 22,
+            "method": "overworld",
+            "minLevel": 17
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 20,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 11,
+            "location": "sinnoh-route-221-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 11,
+            "location": "valor-lakefront-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "red": [
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-1-east",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "silver": [
+          {
+            "chance": 90,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-14-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 90,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-13-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-14-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-15-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 105,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 800,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 105,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 800,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 10,
+            "location": "kalos-route-11-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "y": [
+          {
+            "chance": 10,
+            "location": "kalos-route-11-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 30,
+            "location": "kanto-route-23-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-9-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 10,
+            "location": "kanto-safari-zone-middle",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-crown-tundra", "red-green-japan", "blue-japan"],
+      "gen9": false,
+      "generation": 1,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "nidorino",
+      "kind": "default",
+      "name": "Nidorino",
+      "number": 33,
+      "pokemon": "nidorino",
+      "sourceId": 33,
+      "sprite": "/dex-images/sprites/nidorino.webp",
+      "statTotal": 365,
+      "stats": {
+        "attack": 72,
+        "defense": 57,
+        "hp": 61,
+        "special-attack": 55,
+        "special-defense": 55,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 195
+    }
+  ],
+  "generation": 1,
+  "key": "nidorino",
+  "name": "Nidorino",
+  "names": {
+    "de": "Nidorino",
+    "en": "Nidorino",
+    "es": "Nidorino",
+    "es-419": "Nidorino",
+    "fr": "Nidorino",
+    "it": "Nidorino",
+    "ja": "ニドリーノ",
+    "ja-hrkt": "ニドリーノ",
+    "ja-roma": "Nidorino",
+    "ko": "니드리노",
+    "zh-hans": "尼多力诺",
+    "zh-hant": "尼多力諾"
+  },
+  "number": 33
+}

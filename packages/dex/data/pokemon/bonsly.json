@@ -1,0 +1,453 @@
+{
+  "category": "Bonsai Pokémon",
+  "entries": [
+    {
+      "text": "It looks as if it is always crying. It is actually adjusting its body’s fluid levels by eliminating excess.",
+      "version": "diamond"
+    },
+    {
+      "text": "It prefers arid environments. It leaks water from its eyes to adjust its body’s fluid levels.",
+      "version": "pearl"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "platinum"
+    },
+    {
+      "text": "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
+      "version": "heartgold"
+    },
+    {
+      "text": "In order to adjust the level of fluids in its body, it exudes water from its eyes. This makes it appear to be crying.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "black"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "white"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "black-2"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "white-2"
+    },
+    {
+      "text": "It prefers arid environments. It leaks water from its eyes to adjust its body’s fluid levels.",
+      "version": "x"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "y"
+    },
+    {
+      "text": "It prefers arid environments. It leaks water from its eyes to adjust its body’s fluid levels.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It prefers an arid atmosphere. It leaks water that looks like tears when adjusting its moisture level.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It does not deal well with water, so it lives in dry locales. Since its surroundings tend to lack greenery, it stands out noticeably.",
+      "version": "sun"
+    },
+    {
+      "text": "From its eyes, it can expel excess moisture from its body. This liquid is similar in composition to human sweat.",
+      "version": "moon"
+    },
+    {
+      "text": "It discharges moisture from its eyes, making it look like it’s crying—apparently an effective way of getting enemies to let down their guard.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "If its body gets too damp, it will die. So, in a process reminiscent of sweating, its eyes expel moisture.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It expels both sweat and tears from its eyes. The sweat is a little salty, while the tears have a slight bitterness.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon lives in dry, rocky areas. As its green spheres dry out, their dull luster increases.",
+      "version": "shield"
+    },
+    {
+      "text": "Its tears elicit sympathy from those who see them, but do not be deceived! This expulsion of body water is merely a physiological mechanism for keeping itself in good health.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bonsly",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "mimic"
+      },
+      "from": "bonsly",
+      "to": "sudowoodo",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "rock-head"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bonsly.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-south",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 41,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 37,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "shield": [
+          {
+            "chance": 80,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-south",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "sword": [
+          {
+            "chance": 80,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-1-south",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-1-south",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bonsly",
+      "kind": "default",
+      "name": "Bonsly",
+      "number": 438,
+      "pokemon": "bonsly",
+      "sourceId": 438,
+      "sprite": "/dex-images/sprites/bonsly.webp",
+      "statTotal": 290,
+      "stats": {
+        "attack": 80,
+        "defense": 95,
+        "hp": 50,
+        "special-attack": 10,
+        "special-defense": 45,
+        "speed": 10
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 150
+    }
+  ],
+  "generation": 4,
+  "key": "bonsly",
+  "name": "Bonsly",
+  "names": {
+    "de": "Mobai",
+    "en": "Bonsly",
+    "es": "Bonsly",
+    "es-419": "Bonsly",
+    "fr": "Manzaï",
+    "it": "Bonsly",
+    "ja": "ウソハチ",
+    "ja-hrkt": "ウソハチ",
+    "ja-roma": "Usohachi",
+    "ko": "꼬지지",
+    "zh-hans": "盆才怪",
+    "zh-hant": "盆才怪"
+  },
+  "number": 438
+}

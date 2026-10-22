@@ -1,0 +1,614 @@
+{
+  "category": "Kite Pokémon",
+  "entries": [
+    {
+      "text": "A friendly Pokémon that captures the subtle flows of seawater using its two antennae.",
+      "version": "diamond"
+    },
+    {
+      "text": "Scientists discovered that the distinctive patterns on its back differ by region.",
+      "version": "pearl"
+    },
+    {
+      "text": "People organize tours to see this Pokémon frolic and skim the tops of waves with REMORAID.",
+      "version": "platinum"
+    },
+    {
+      "text": "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "People organize tours to see this Pokémon frolic and skim the tops of waves with Remoraid.",
+      "version": "black"
+    },
+    {
+      "text": "People organize tours to see this Pokémon frolic and skim the tops of waves with Remoraid.",
+      "version": "white"
+    },
+    {
+      "text": "The pattern on its back varies by region. It often swims in a school of Remoraid.",
+      "version": "black-2"
+    },
+    {
+      "text": "The pattern on its back varies by region. It often swims in a school of Remoraid.",
+      "version": "white-2"
+    },
+    {
+      "text": "The pattern on its back varies by region. It often swims in a school of Remoraid.",
+      "version": "x"
+    },
+    {
+      "text": "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.",
+      "version": "y"
+    },
+    {
+      "text": "The pattern on its back varies by region. It often swims in a school of Remoraid.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it swims close to the surface of the ocean, people aboard ships are able to observe the pattern on its back.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It’s highly friendly and easily tamed. Tours that take people swimming with Mantyke are a super-popular beach activity.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Mantyke are friendly toward people and will approach boats closely. The patterns on their backs differ depending on their habitat.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Mantyke living in Galar seem to be somewhat sluggish. The colder waters of the seas in this region may be the cause.",
+      "version": "sword"
+    },
+    {
+      "text": "It swims along with a school of Remoraid, and they’ll all fight together to repel attackers.",
+      "version": "shield"
+    },
+    {
+      "text": "Though ball-like in shape, this Pokémon is a proficient swimmer. I have discovered that if a Mantyke spends much time with schools of Remoraid, it will eventually achieve evolution.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mantyke",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "party_species": "remoraid"
+      },
+      "from": "mantyke",
+      "to": "mantine",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": true,
+          "key": "water-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mantyke.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 90,
+            "location": "undella-bay-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "undella-town-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 90,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "sinnoh-sea-route-223-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "sunyshore-city-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "sinnoh-sea-route-223-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "sunyshore-city-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "sinnoh-sea-route-223-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "bubbling-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 85,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-9-main",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 68,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 930,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 68,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "bubbling-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 85,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-9-main",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 68,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 930,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 68,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 68,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 270,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 332,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 270,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 332,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "hauoli-city-beachfront",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "kalae-bay-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "melemele-sea-area",
+            "maxLevel": 18,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 90,
+            "location": "undella-bay-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "undella-town-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 90,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf",
+            "minLevel": 30
+          }
+        ],
+        "x": [
+          {
+            "chance": 15,
+            "location": "azure-bay-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 27
+          },
+          {
+            "chance": 15,
+            "location": "kalos-route-12-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 27
+          },
+          {
+            "chance": 16,
+            "location": "shalour-city-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 27
+          }
+        ],
+        "y": [
+          {
+            "chance": 15,
+            "location": "azure-bay-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 27
+          },
+          {
+            "chance": 15,
+            "location": "kalos-route-12-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 27
+          },
+          {
+            "chance": 16,
+            "location": "shalour-city-area",
+            "maxLevel": 27,
+            "method": "surf",
+            "minLevel": 27
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mantyke",
+      "kind": "default",
+      "name": "Mantyke",
+      "number": 458,
+      "pokemon": "mantyke",
+      "sourceId": 458,
+      "sprite": "/dex-images/sprites/mantyke.webp",
+      "statTotal": 345,
+      "stats": {
+        "attack": 20,
+        "defense": 50,
+        "hp": 45,
+        "special-attack": 60,
+        "special-defense": 120,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["water", "flying"],
+      "weight": 650
+    }
+  ],
+  "generation": 4,
+  "key": "mantyke",
+  "name": "Mantyke",
+  "names": {
+    "de": "Mantirps",
+    "en": "Mantyke",
+    "es": "Mantyke",
+    "es-419": "Mantyke",
+    "fr": "Babimanta",
+    "it": "Mantyke",
+    "ja": "タマンタ",
+    "ja-hrkt": "タマンタ",
+    "ja-roma": "Tamanta",
+    "ko": "타만타",
+    "zh-hans": "小球飞鱼",
+    "zh-hant": "小球飛魚"
+  },
+  "number": 458
+}

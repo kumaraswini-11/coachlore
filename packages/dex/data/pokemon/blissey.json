@@ -1,0 +1,1712 @@
+{
+  "category": "Happiness Pokémon",
+  "entries": [
+    {
+      "text": "Anyone who takes even one bite of BLISSEY's egg be comes unfailingly caring and pleasant to everyone.",
+      "version": "gold"
+    },
+    {
+      "text": "It has a very compassionate nature. If it sees a sick POKéMON, it will nurse the sufferer back to health.",
+      "version": "silver"
+    },
+    {
+      "text": "Biting into one of the delicious eggs that BLISSEY provides will make everyone around smile with joy.",
+      "version": "crystal"
+    },
+    {
+      "text": "BLISSEY senses sadness with its fluffy coat of fur. If it does so, this POKéMON will rush over to the sad person, however far they may be, to share an egg of happiness that brings a smile to any face.",
+      "version": "ruby"
+    },
+    {
+      "text": "BLISSEY senses sadness with its fluffy coat of fur. If it does so, this POKéMON will rush over to the sad person, however far they may be, to share an egg of happiness that brings a smile to any face.",
+      "version": "sapphire"
+    },
+    {
+      "text": "If it senses sadness with its fluffy fur, a BLISSEY will rush over to the sad person, however far away, to share an egg of happiness that brings a smile to any face.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has a very compassionate nature. If it sees a sick POKéMON, it will nurse the sufferer back to health.",
+      "version": "firered"
+    },
+    {
+      "text": "Anyone who takes even one bite of BLISSEY’s egg becomes unfailingly caring and pleasant to everyone.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "This kindhearted Pokémon nurses sick Pokémon to health. It senses feelings of sadness.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is a Pokémon that delivers happiness. Eating its egg is said to make one kind to everyone.",
+      "version": "pearl"
+    },
+    {
+      "text": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+      "version": "platinum"
+    },
+    {
+      "text": "Anyone who takes even one taste of BLISSEY’s egg becomes unfailingly caring and pleasant to everyone.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It has a very compassionate nature. If it sees a sick Pokémon, it will nurse the sufferer back to health.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+      "version": "black"
+    },
+    {
+      "text": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+      "version": "white"
+    },
+    {
+      "text": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+      "version": "black-2"
+    },
+    {
+      "text": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+      "version": "white-2"
+    },
+    {
+      "text": "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+      "version": "x"
+    },
+    {
+      "text": "This kindhearted Pokémon nurses sick Pokémon to health. It senses feelings of sadness.",
+      "version": "y"
+    },
+    {
+      "text": "Blissey senses sadness with its fluffy coat of fur. If it does so, this Pokémon will rush over to a sad person, no matter how far away, to share a Lucky Egg that brings a smile to any face.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Blissey senses sadness with its fluffy coat of fur. If it does so, this Pokémon will rush over to a sad person, no matter how far away, to share a Lucky Egg that brings a smile to any face.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Even the most ferocious Pokémon become calm when they eat Blissey’s egg, which is said to be filled with happiness.",
+      "version": "sun"
+    },
+    {
+      "text": "Its fluffy fur coat acts as a sensor, enabling it to read the feelings of people and Pokémon.",
+      "version": "moon"
+    },
+    {
+      "text": "Their eggs are such a delicacy that some say eating one will bring you happiness. These eggs fetch the highest prices on the market.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can evolve, so people say.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Whenever a Blissey finds a weakened Pokémon, it will share its egg and offer its care until the other Pokémon is all better.",
+      "version": "sword"
+    },
+    {
+      "text": "Blissey lays mysterious eggs that are filled with happiness. It’s said that anyone who eats a Blissey egg will start acting kindly to all others.",
+      "version": "shield"
+    },
+    {
+      "text": "A kindhearted Pokémon that will care for any sick person or Pokémon until their health improves. The eggs it lays are delicious and bring good fortune to those who eat them.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "happiny",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "oval-stone",
+        "time_of_day": "day"
+      },
+      "from": "happiny",
+      "to": "chansey",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "chansey",
+      "to": "blissey",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "natural-cure"
+        },
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": true,
+          "key": "healer"
+        }
+      ],
+      "artwork": "/dex-images/artwork/blissey.webp",
+      "encounters": {
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 4,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 15,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 204,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 204,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "stepping-stone-sea-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 4,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "warm-up-tunnel-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 4,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 4,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 15,
+            "location": "brawlers-cave-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "courageous-cavern-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 18,
+            "location": "honeycalm-island-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "loop-lagoon-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 204,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 204,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "stepping-stone-sea-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 4,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 4,
+            "location": "warm-up-tunnel-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 4,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "workout-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 54
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "sos-from-bubbling-spot",
+            "minLevel": 54
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "blissey",
+      "kind": "default",
+      "name": "Blissey",
+      "number": 242,
+      "pokemon": "blissey",
+      "sourceId": 242,
+      "sprite": "/dex-images/sprites/blissey.webp",
+      "statTotal": 540,
+      "stats": {
+        "attack": 10,
+        "defense": 10,
+        "hp": 255,
+        "special-attack": 75,
+        "special-defense": 135,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 468
+    }
+  ],
+  "generation": 2,
+  "key": "blissey",
+  "name": "Blissey",
+  "names": {
+    "de": "Heiteira",
+    "en": "Blissey",
+    "es": "Blissey",
+    "es-419": "Blissey",
+    "fr": "Leuphorie",
+    "it": "Blissey",
+    "ja": "ハピナス",
+    "ja-hrkt": "ハピナス",
+    "ja-roma": "Happinas",
+    "ko": "해피너스",
+    "zh-hans": "幸福蛋",
+    "zh-hant": "幸福蛋"
+  },
+  "number": 242
+}

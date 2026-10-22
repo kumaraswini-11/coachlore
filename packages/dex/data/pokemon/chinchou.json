@@ -1,0 +1,1538 @@
+{
+  "category": "Angler Pokémon",
+  "entries": [
+    {
+      "text": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+      "version": "gold"
+    },
+    {
+      "text": "On the dark ocean floor, its only means of communi cation is its constantly flashing lights.",
+      "version": "silver"
+    },
+    {
+      "text": "Its antennae, which evolved from a fin, have both po sitive and negative charges flowing through them.",
+      "version": "crystal"
+    },
+    {
+      "text": "CHINCHOU lets loose positive and negative electrical charges from its two antennas to make its prey faint. This POKéMON flashes its electric lights to exchange signals with others.",
+      "version": "ruby"
+    },
+    {
+      "text": "CHINCHOU’s two antennas are filled with cells that generate strong electricity. This POKéMON’s cells create so much electrical power, it even makes itself tingle slightly.",
+      "version": "sapphire"
+    },
+    {
+      "text": "When it senses danger, it discharges positive and negative electricity from its two antennae. It lives in depths beyond sunlight’s reach.",
+      "version": "emerald"
+    },
+    {
+      "text": "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+      "version": "firered"
+    },
+    {
+      "text": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "pearl"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+      "version": "heartgold"
+    },
+    {
+      "text": "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "black"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "white"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+      "version": "x"
+    },
+    {
+      "text": "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+      "version": "y"
+    },
+    {
+      "text": "Chinchou lets loose positive and negative electrical charges from its two antennas to make its prey faint. This Pokémon flashes its electric lights to exchange signals with others.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Chinchou’s two antennas are filled with cells that generate strong electricity. This Pokémon’s cells create so much electrical power, it even makes itself tingle slightly.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its two antennae were originally fins. It discharges electricity to stun its prey before attacking.",
+      "version": "sun"
+    },
+    {
+      "text": "It lives in the depths beyond the reach of sunlight. It flashes lights on its antennae to communicate with others of its kind.",
+      "version": "moon"
+    },
+    {
+      "text": "Its two antennae glow softly to lure in prey, making it a useful Pokémon for night fishing.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Chinchou blink their shining antennae at one another to claim their respective turf.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+      "version": "sword"
+    },
+    {
+      "text": "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chinchou",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 27
+      },
+      "from": "chinchou",
+      "to": "lanturn",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "volt-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "illuminate"
+        },
+        {
+          "hidden": true,
+          "key": "water-absorb"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chinchou.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 80,
+            "location": "driftveil-city-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "driftveil-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 1,
+            "location": "unova-route-18-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "undella-bay-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "undella-bay-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-124-underwater",
+            "maxLevel": 30,
+            "method": "seaweed",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-126-underwater",
+            "maxLevel": 30,
+            "method": "seaweed",
+            "minLevel": 20
+          }
+        ],
+        "gold": [
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-47-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-47-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "moon": [
+          {
+            "chance": 21,
+            "location": "alola-route-8-main",
+            "maxLevel": 25,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 21,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 25,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 15,
+            "location": "sinnoh-sea-route-220-area",
+            "maxLevel": 50,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-124-underwater",
+            "maxLevel": 30,
+            "method": "seaweed",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-126-underwater",
+            "maxLevel": 30,
+            "method": "seaweed",
+            "minLevel": 20
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-124-underwater",
+            "maxLevel": 30,
+            "method": "seaweed",
+            "minLevel": 20
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-126-underwater",
+            "maxLevel": 30,
+            "method": "seaweed",
+            "minLevel": 20
+          }
+        ],
+        "shield": [
+          {
+            "chance": 140,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 80,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "hulbury-area",
+            "maxLevel": 24,
+            "method": "bubbling-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 38
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "cinnabar-island-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-47-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-47-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-26-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-route-27-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-20-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "new-bark-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "pallet-town-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-area",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 20,
+            "method": "good-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "vermilion-city-ss-anne-dock",
+            "maxLevel": 40,
+            "method": "super-rod",
+            "minLevel": 40
+          }
+        ],
+        "sun": [
+          {
+            "chance": 21,
+            "location": "alola-route-8-main",
+            "maxLevel": 25,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 21,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 140,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 26
+          },
+          {
+            "chance": 80,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "hulbury-area",
+            "maxLevel": 24,
+            "method": "bubbling-spots",
+            "minLevel": 20
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 120,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 38
+          },
+          {
+            "chance": 40,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 90,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 40,
+            "location": "akala-outskirts-area",
+            "maxLevel": 29,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-8-main",
+            "maxLevel": 25,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 40,
+            "location": "akala-outskirts-area",
+            "maxLevel": 29,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "akala-outskirts-area",
+            "maxLevel": 24,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-8-main",
+            "maxLevel": 25,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 40,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 80,
+            "location": "driftveil-city-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "driftveil-city-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 1,
+            "location": "unova-route-18-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "undella-bay-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "undella-bay-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "azure-bay-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "shalour-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "azure-bay-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          },
+          {
+            "chance": 35,
+            "location": "shalour-city-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "chinchou",
+      "kind": "default",
+      "name": "Chinchou",
+      "number": 170,
+      "pokemon": "chinchou",
+      "sourceId": 170,
+      "sprite": "/dex-images/sprites/chinchou.webp",
+      "statTotal": 330,
+      "stats": {
+        "attack": 38,
+        "defense": 38,
+        "hp": 75,
+        "special-attack": 56,
+        "special-defense": 56,
+        "speed": 67
+      },
+      "tags": [],
+      "types": ["water", "electric"],
+      "weight": 120
+    }
+  ],
+  "generation": 2,
+  "key": "chinchou",
+  "name": "Chinchou",
+  "names": {
+    "de": "Lampi",
+    "en": "Chinchou",
+    "es": "Chinchou",
+    "es-419": "Chinchou",
+    "fr": "Loupio",
+    "it": "Chinchou",
+    "ja": "チョンチー",
+    "ja-hrkt": "チョンチー",
+    "ja-roma": "Chonchie",
+    "ko": "초라기",
+    "zh-hans": "灯笼鱼",
+    "zh-hant": "燈籠魚"
+  },
+  "number": 170
+}

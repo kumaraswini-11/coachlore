@@ -1,0 +1,292 @@
+{
+  "category": "Verdant Pokémon",
+  "entries": [
+    {
+      "text": "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+      "version": "diamond"
+    },
+    {
+      "text": "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+      "version": "pearl"
+    },
+    {
+      "text": "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+      "version": "platinum"
+    },
+    {
+      "text": "When you see LEAFEON asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When you see LEAFEON asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+      "version": "black"
+    },
+    {
+      "text": "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+      "version": "white"
+    },
+    {
+      "text": "With cells similar to those of plants, it performs photosynthesis inside its body and creates pure air.",
+      "version": "black-2"
+    },
+    {
+      "text": "With cells similar to those of plants, it performs photosynthesis inside its body and creates pure air.",
+      "version": "white-2"
+    },
+    {
+      "text": "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
+      "version": "x"
+    },
+    {
+      "text": "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+      "version": "y"
+    },
+    {
+      "text": "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its cellular composition is closer to that of a plant than an animal. It uses photosynthesis to produce its energy supply without eating food.",
+      "version": "sun"
+    },
+    {
+      "text": "The younger they are, the more they smell like fresh grass. With age, their fragrance takes on the odor of fallen leaves.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it doesn’t like disputes, it will sharpen the leaf on its tail into a blade and fight if it has to protect its friends.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It gets its nutrition from photosynthesis. It lives a quiet life deep in forests where clean rivers flow.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Galarians favor the distinctive aroma that drifts from this Pokémon’s leaves. There’s a popular perfume made using that scent.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon’s tail is blade sharp, with a fantastic cutting edge that can slice right though large trees.",
+      "version": "shield"
+    },
+    {
+      "text": "Cells similar to those of plants have been found in its fur. Its hard tail can fell a large tree with one stroke, and the tail's sharpness exceeds even that of a sword crafted by a master.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "eevee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "vaporeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "jolteon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "fire-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "flareon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "day"
+      },
+      "from": "eevee",
+      "to": "espeon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee",
+        "time_of_day": "night"
+      },
+      "from": "eevee",
+      "to": "umbreon",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "leafeon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "ice-stone",
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "glaceon",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "known_move_type": "fairy",
+        "min_happiness": 160,
+        "required_pokemon_form": "eevee"
+      },
+      "from": "eevee",
+      "to": "sylveon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "leaf-guard"
+        },
+        {
+          "hidden": true,
+          "key": "chlorophyll"
+        }
+      ],
+      "artwork": "/dex-images/artwork/leafeon.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "giants-mirror-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 46,
+            "location": "ballimere-lake-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "giants-bed-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ]
+      },
+      "games": ["platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "leafeon",
+      "kind": "default",
+      "name": "Leafeon",
+      "number": 470,
+      "pokemon": "leafeon",
+      "sourceId": 470,
+      "sprite": "/dex-images/sprites/leafeon.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 110,
+        "defense": 130,
+        "hp": 65,
+        "special-attack": 60,
+        "special-defense": 65,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 255
+    }
+  ],
+  "generation": 4,
+  "key": "leafeon",
+  "name": "Leafeon",
+  "names": {
+    "de": "Folipurba",
+    "en": "Leafeon",
+    "es": "Leafeon",
+    "es-419": "Leafeon",
+    "fr": "Phyllali",
+    "it": "Leafeon",
+    "ja": "リーフィア",
+    "ja-hrkt": "リーフィア",
+    "ja-roma": "Leafia",
+    "ko": "리피아",
+    "zh-hans": "叶伊布",
+    "zh-hant": "葉伊布"
+  },
+  "number": 470
+}

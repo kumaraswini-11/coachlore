@@ -1,0 +1,135 @@
+{
+  "category": "EleFish Pokémon",
+  "entries": [
+    {
+      "text": "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+      "version": "black"
+    },
+    {
+      "text": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+      "version": "white"
+    },
+    {
+      "text": "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+      "version": "black-2"
+    },
+    {
+      "text": "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+      "version": "white-2"
+    },
+    {
+      "text": "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+      "version": "x"
+    },
+    {
+      "text": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+      "version": "y"
+    },
+    {
+      "text": "It wraps itself around its prey and paralyzes it with electricity from the round spots on its sides. Then it chomps.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tynamo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39
+      },
+      "from": "tynamo",
+      "to": "eelektrik",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone"
+      },
+      "from": "eelektrik",
+      "to": "eelektross",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/eelektrik.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "seaside-cave-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "seaside-cave-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-teal-mask", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "eelektrik",
+      "kind": "default",
+      "name": "Eelektrik",
+      "number": 603,
+      "pokemon": "eelektrik",
+      "sourceId": 603,
+      "sprite": "/dex-images/sprites/eelektrik.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 85,
+        "defense": 70,
+        "hp": 65,
+        "special-attack": 75,
+        "special-defense": 70,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 220
+    }
+  ],
+  "generation": 5,
+  "key": "eelektrik",
+  "name": "Eelektrik",
+  "names": {
+    "de": "Zapplalek",
+    "en": "Eelektrik",
+    "es": "Eelektrik",
+    "es-419": "Eelektrik",
+    "fr": "Lampéroie",
+    "it": "Eelektrik",
+    "ja": "シビビール",
+    "ja-hrkt": "シビビール",
+    "ja-roma": "Shibibeel",
+    "ko": "저리릴",
+    "zh-hans": "麻麻鳗",
+    "zh-hant": "麻麻鰻"
+  },
+  "number": 603
+}

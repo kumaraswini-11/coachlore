@@ -1,0 +1,35 @@
+{
+  "damage_relations": {
+    "double_damage_from": [
+      {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+      }
+    ],
+    "double_damage_to": [],
+    "half_damage_from": [],
+    "half_damage_to": [
+      {
+        "name": "rock",
+        "url": "/api/v2/type/6/"
+      },
+      {
+        "name": "steel",
+        "url": "/api/v2/type/9/"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+      }
+    ],
+    "no_damage_to": [
+      {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+      }
+    ]
+  },
+  "name": "normal"
+}

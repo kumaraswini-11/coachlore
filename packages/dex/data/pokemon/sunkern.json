@@ -1,0 +1,476 @@
+{
+  "category": "Seed Pokémon",
+  "entries": [
+    {
+      "text": "It may drop out of the sky suddenly. If attacked by a SPEAROW, it will violently shake its leaves.",
+      "version": "gold"
+    },
+    {
+      "text": "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+      "version": "silver"
+    },
+    {
+      "text": "It is very weak. Its only means of defense is to shake its leaves desperately at its attacker.",
+      "version": "crystal"
+    },
+    {
+      "text": "SUNKERN tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+      "version": "ruby"
+    },
+    {
+      "text": "SUNKERN tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+      "version": "sapphire"
+    },
+    {
+      "text": "SUNKERN try to minimize movement to conserve the nutrients they have stored in their bodies for evolution. They will not eat, subsisting only on morning dew.",
+      "version": "emerald"
+    },
+    {
+      "text": "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+      "version": "firered"
+    },
+    {
+      "text": "It may drop out of the sky suddenly. If attacked by a SPEAROW, it will violently shake its leaves.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "version": "pearl"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It may plummet from the sky. If attacked by a SPEAROW, it will violently shake its leaves.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "version": "black"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. A year after a cold summer, their population explodes.",
+      "version": "white"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. Knowing it’s weak, it simply feeds until it evolves.",
+      "version": "black-2"
+    },
+    {
+      "text": "It suddenly falls out of the sky in the morning. Knowing it’s weak, it simply feeds until it evolves.",
+      "version": "white-2"
+    },
+    {
+      "text": "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves.",
+      "version": "x"
+    },
+    {
+      "text": "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+      "version": "y"
+    },
+    {
+      "text": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sunkern",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "sunkern",
+      "to": "sunflora",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "solar-power"
+        },
+        {
+          "hidden": true,
+          "key": "early-bird"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sunkern.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-forest-south-of-route-109",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-forest-south-of-route-132",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-west-of-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 76,
+            "location": "unova-route-20-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 9
+          },
+          {
+            "chance": 76,
+            "location": "unova-route-20-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "national-park-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 10,
+            "location": "hoenn-safari-zone-expansion-north",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-safari-zone-expansion-south",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          }
+        ],
+        "gold": [
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "national-park-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "national-park-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-lilycove",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-north-of-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-forest-south-of-route-109",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-forest-south-of-route-132",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-forest-west-of-route-114",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "silver": [
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "national-park-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-meadow",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "national-park-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-12-area",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 76,
+            "location": "unova-route-20-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 9
+          },
+          {
+            "chance": 76,
+            "location": "unova-route-20-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "scarlet-violet"],
+      "gen9": true,
+      "generation": 2,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sunkern",
+      "kind": "default",
+      "name": "Sunkern",
+      "number": 191,
+      "pokemon": "sunkern",
+      "sourceId": 191,
+      "sprite": "/dex-images/sprites/sunkern.webp",
+      "statTotal": 180,
+      "stats": {
+        "attack": 30,
+        "defense": 30,
+        "hp": 30,
+        "special-attack": 30,
+        "special-defense": 30,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 18
+    }
+  ],
+  "generation": 2,
+  "key": "sunkern",
+  "name": "Sunkern",
+  "names": {
+    "de": "Sonnkern",
+    "en": "Sunkern",
+    "es": "Sunkern",
+    "es-419": "Sunkern",
+    "fr": "Tournegrin",
+    "it": "Sunkern",
+    "ja": "ヒマナッツ",
+    "ja-hrkt": "ヒマナッツ",
+    "ja-roma": "Himanuts",
+    "ko": "해너츠",
+    "zh-hans": "向日种子",
+    "zh-hant": "向日種子"
+  },
+  "number": 191
+}

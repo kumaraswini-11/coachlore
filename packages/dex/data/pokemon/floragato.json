@@ -1,0 +1,96 @@
+{
+  "category": "Grass Cat Pokémon",
+  "entries": [
+    {
+      "text": "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The hardness of Floragato’s fur depends on the Pokémon’s mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sprigatito",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "sprigatito",
+      "to": "floragato",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "floragato",
+      "to": "meowscarada",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "protean"
+        }
+      ],
+      "artwork": "/dex-images/artwork/floragato.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "floragato",
+      "kind": "default",
+      "name": "Floragato",
+      "number": 907,
+      "pokemon": "floragato",
+      "sourceId": 907,
+      "sprite": "/dex-images/sprites/floragato.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 80,
+        "defense": 63,
+        "hp": 61,
+        "special-attack": 60,
+        "special-defense": 63,
+        "speed": 83
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 122
+    }
+  ],
+  "generation": 9,
+  "key": "floragato",
+  "name": "Floragato",
+  "names": {
+    "de": "Feliospa",
+    "en": "Floragato",
+    "es": "Floragato",
+    "es-419": "Floragato",
+    "fr": "Matourgeon",
+    "it": "Floragato",
+    "ja": "ニャローテ",
+    "ja-hrkt": "ニャローテ",
+    "ja-roma": "Nyarote",
+    "ko": "나로테",
+    "zh-hans": "蒂蕾喵",
+    "zh-hant": "蒂蕾喵"
+  },
+  "number": 907
+}

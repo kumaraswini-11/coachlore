@@ -1,0 +1,260 @@
+{
+  "category": "Season Pokémon",
+  "entries": [
+    {
+      "text": "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns.",
+      "version": "black"
+    },
+    {
+      "text": "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+      "version": "white"
+    },
+    {
+      "text": "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.",
+      "version": "black-2"
+    },
+    {
+      "text": "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.",
+      "version": "white-2"
+    },
+    {
+      "text": "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns.",
+      "version": "x"
+    },
+    {
+      "text": "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.",
+      "version": "y"
+    },
+    {
+      "text": "They migrate according to the seasons. People can tell the season by looking at Sawsbuck’s horns.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They migrate according to the seasons, so some people call Sawsbuck the harbingers of spring.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "deerling",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-spring",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-spring"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-summer",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-summer"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-autumn",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-autumn"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sawsbuck-winter",
+        "min_level": 34,
+        "required_pokemon_form": "deerling-winter"
+      },
+      "from": "deerling",
+      "to": "sawsbuck",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": false,
+          "key": "sap-sipper"
+        },
+        {
+          "hidden": true,
+          "key": "serene-grace"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sawsbuck.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 75,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 75,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 90,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 90,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 75,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 75,
+            "location": "dragonspiral-tower-entrance",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 90,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 90,
+            "location": "dragonspiral-tower-outside",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 55
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-grass",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Spring Form",
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sawsbuck",
+      "kind": "default",
+      "name": "Sawsbuck",
+      "number": 586,
+      "pokemon": "sawsbuck",
+      "sourceId": 586,
+      "sprite": "/dex-images/sprites/sawsbuck.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 100,
+        "defense": 70,
+        "hp": 80,
+        "special-attack": 60,
+        "special-defense": 70,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["normal", "grass"],
+      "weight": 925
+    }
+  ],
+  "generation": 5,
+  "key": "sawsbuck",
+  "name": "Sawsbuck",
+  "names": {
+    "de": "Kronjuwild",
+    "en": "Sawsbuck",
+    "es": "Sawsbuck",
+    "es-419": "Sawsbuck",
+    "fr": "Haydaim",
+    "it": "Sawsbuck",
+    "ja": "メブキジカ",
+    "ja-hrkt": "メブキジカ",
+    "ja-roma": "Mebukijika",
+    "ko": "바라철록",
+    "zh-hans": "萌芽鹿",
+    "zh-hant": "萌芽鹿"
+  },
+  "number": 586
+}

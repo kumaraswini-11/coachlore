@@ -1,0 +1,184 @@
+{
+  "category": "Big Boss Pokémon",
+  "entries": [
+    {
+      "text": "Becoming active at night, it is known to swarm with numerous MURKROW in tow.",
+      "version": "diamond"
+    },
+    {
+      "text": "It makes its MURKROW cronies bring it food. It idles its time away, grooming itself in its nest.",
+      "version": "pearl"
+    },
+    {
+      "text": "If one utters a deep cry, many MURKROW gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "platinum"
+    },
+    {
+      "text": "It is merciless by nature. It is said that it never forgives the mistakes of its MURKROW followers.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is merciless by nature. It is said that it never forgives the mistakes of its MURKROW followers.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "black"
+    },
+    {
+      "text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "white"
+    },
+    {
+      "text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "black-2"
+    },
+    {
+      "text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "white-2"
+    },
+    {
+      "text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "x"
+    },
+    {
+      "text": "Becoming active at night, it is known to swarm with numerous Murkrow in tow.",
+      "version": "y"
+    },
+    {
+      "text": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called “Summoner of Night.”",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Becoming active at night, it is known to swarm with numerous Murkrow in tow.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A single cry from this nocturnal Pokémon, and more than a hundred of its Murkrow cronies will assemble.",
+      "version": "sun"
+    },
+    {
+      "text": "If its Murkrow cronies fail to catch food for it, or if it feels they have betrayed it, it will hunt them down wherever they are and punish them.",
+      "version": "moon"
+    },
+    {
+      "text": "It will absolutely not forgive failure from or betrayal by its goons. It has no choice in this if it wants to maintain the order of the flock.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "One cry from this Pokémon, and a murder of Murkrow come flying. At such times, one would think the curtain of night had fallen, plunging the world into jet-black darkness.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "murkrow",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "murkrow",
+      "to": "honchkrow",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": false,
+          "key": "super-luck"
+        },
+        {
+          "hidden": true,
+          "key": "moxie"
+        }
+      ],
+      "artwork": "/dex-images/artwork/honchkrow.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "abundant-shrine-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "sun-moon", "ultra-sun-ultra-moon", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "honchkrow",
+      "kind": "default",
+      "name": "Honchkrow",
+      "number": 430,
+      "pokemon": "honchkrow",
+      "sourceId": 430,
+      "sprite": "/dex-images/sprites/honchkrow.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 125,
+        "defense": 52,
+        "hp": 100,
+        "special-attack": 105,
+        "special-defense": 52,
+        "speed": 71
+      },
+      "tags": [],
+      "types": ["dark", "flying"],
+      "weight": 273
+    }
+  ],
+  "generation": 4,
+  "key": "honchkrow",
+  "name": "Honchkrow",
+  "names": {
+    "de": "Kramshef",
+    "en": "Honchkrow",
+    "es": "Honchkrow",
+    "es-419": "Honchkrow",
+    "fr": "Corboss",
+    "it": "Honchkrow",
+    "ja": "ドンカラス",
+    "ja-hrkt": "ドンカラス",
+    "ja-roma": "Dongkarasu",
+    "ko": "돈크로우",
+    "zh-hans": "乌鸦头头",
+    "zh-hant": "烏鴉頭頭"
+  },
+  "number": 430
+}

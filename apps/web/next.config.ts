@@ -75,6 +75,18 @@ function appConfig(isDev: boolean): NextConfig {
     },
     partialPrefetching: true,
     typedRoutes: true,
+    // The owner reviews screens on a phone over the local network
+    // (docs/specs/README.md, "How a screen is built", step 3), and Next.js
+    // "blocks cross-origin requests to dev-only assets" from any host it
+    // wasn't started on. The host is this machine's address, so it comes
+    // from DEV_ORIGINS in .env.local, never this file.
+    ...(isDev && process.env.DEV_ORIGINS
+      ? {
+          allowedDevOrigins: process.env.DEV_ORIGINS.split(",")
+            .map((origin) => origin.trim())
+            .filter(Boolean),
+        }
+      : {}),
     poweredByHeader: false,
     async headers() {
       return [

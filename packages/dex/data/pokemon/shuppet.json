@@ -1,0 +1,509 @@
+{
+  "category": "Puppet Pokémon",
+  "entries": [
+    {
+      "text": "SHUPPET is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this POKéMON will appear in a swarm and line up beneath the eaves of that person’s home.",
+      "version": "ruby"
+    },
+    {
+      "text": "SHUPPET grows by feeding on dark emotions, such as vengefulness and envy, in the hearts of people. It roams through cities in search of grudges that taint people.",
+      "version": "sapphire"
+    },
+    {
+      "text": "This POKéMON roams about deep in the night seeking such negative emotions as grudges and envy. It retreats to its nest when the sun begins to rise.",
+      "version": "emerald"
+    },
+    {
+      "text": "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
+      "version": "firered"
+    },
+    {
+      "text": "It loves to feed on feelings like envy and malice. Its upright horn catches the emotions of people.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+      "version": "diamond"
+    },
+    {
+      "text": "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+      "version": "pearl"
+    },
+    {
+      "text": "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+      "version": "platinum"
+    },
+    {
+      "text": "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+      "version": "black"
+    },
+    {
+      "text": "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+      "version": "white"
+    },
+    {
+      "text": "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
+      "version": "black-2"
+    },
+    {
+      "text": "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
+      "version": "white-2"
+    },
+    {
+      "text": "It uses its horn to feed on envy and malice-- or so it’s said. It’s very active at night.",
+      "version": "x"
+    },
+    {
+      "text": "It loves vengeful emotions and hangs in rows under the eaves of houses where vengeful people live.",
+      "version": "y"
+    },
+    {
+      "text": "Shuppet is attracted by feelings of jealousy and vindictiveness. If someone develops strong feelings of vengeance, this Pokémon will appear in a swarm and line up beneath the eaves of that person’s home.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Shuppet grows by feeding on dark emotions, such as vengefulness and envy, in the hearts of people. It roams through cities in search of grudges that taint people.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It eats up emotions like malice, jealousy, and resentment, so some people are grateful for its presence.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "There’s a proverb that says, “Shun the house where Shuppet gather in the growing dusk.”",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shuppet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "shuppet",
+      "to": "banette",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "cursed-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/shuppet.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 60,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-1f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-2f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-3f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-4f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "mt-pyre-outside",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "mt-pyre-summit",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-1f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-2f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-3f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-6f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "mt-pyre-outside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "mt-pyre-summit",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 60,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-1f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-2f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-3f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-4f",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "mt-pyre-outside",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "mt-pyre-summit",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "mt-pyre-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "mt-pyre-6f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 13,
+            "location": "mt-pyre-summit",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 30,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-1f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-2f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 100,
+            "location": "mt-pyre-3f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 90,
+            "location": "mt-pyre-6f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "mt-pyre-outside",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "mt-pyre-summit",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "thrifty-megamart-abandoned-site",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "thrifty-megamart-abandoned-site",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "scarlet-violet", "legends-za"],
+      "gen9": true,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "shuppet",
+      "kind": "default",
+      "name": "Shuppet",
+      "number": 353,
+      "pokemon": "shuppet",
+      "sourceId": 353,
+      "sprite": "/dex-images/sprites/shuppet.webp",
+      "statTotal": 295,
+      "stats": {
+        "attack": 75,
+        "defense": 35,
+        "hp": 44,
+        "special-attack": 63,
+        "special-defense": 33,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["ghost"],
+      "weight": 23
+    }
+  ],
+  "generation": 3,
+  "key": "shuppet",
+  "name": "Shuppet",
+  "names": {
+    "de": "Shuppet",
+    "en": "Shuppet",
+    "es": "Shuppet",
+    "es-419": "Shuppet",
+    "fr": "Polichombr",
+    "it": "Shuppet",
+    "ja": "カゲボウズ",
+    "ja-hrkt": "カゲボウズ",
+    "ja-roma": "Kagebouzu",
+    "ko": "어둠대신",
+    "zh-hans": "怨影娃娃",
+    "zh-hant": "怨影娃娃"
+  },
+  "number": 353
+}

@@ -1,0 +1,123 @@
+{
+  "category": "Bubble Frog Pokémon",
+  "entries": [
+    {
+      "text": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+      "version": "x"
+    },
+    {
+      "text": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute’s time.",
+      "version": "y"
+    },
+    {
+      "text": "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute’s time.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "froakie",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "froakie",
+      "to": "frogadier",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "frogadier",
+      "to": "greninja",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "protean"
+        }
+      ],
+      "artwork": "/dex-images/artwork/frogadier.webp",
+      "encounters": {
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-water",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "frogadier",
+      "kind": "default",
+      "name": "Frogadier",
+      "number": 657,
+      "pokemon": "frogadier",
+      "sourceId": 657,
+      "sprite": "/dex-images/sprites/frogadier.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 63,
+        "defense": 52,
+        "hp": 54,
+        "special-attack": 83,
+        "special-defense": 56,
+        "speed": 97
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 109
+    }
+  ],
+  "generation": 6,
+  "key": "frogadier",
+  "name": "Frogadier",
+  "names": {
+    "de": "Amphizel",
+    "en": "Frogadier",
+    "es": "Frogadier",
+    "es-419": "Frogadier",
+    "fr": "Croâporal",
+    "it": "Frogadier",
+    "ja": "ゲコガシラ",
+    "ja-hrkt": "ゲコガシラ",
+    "ja-roma": "Gekogashira",
+    "ko": "개굴반장",
+    "zh-hans": "呱头蛙",
+    "zh-hant": "呱頭蛙"
+  },
+  "number": 657
+}

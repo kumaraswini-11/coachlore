@@ -1,0 +1,354 @@
+{
+  "category": "Spark Pokémon",
+  "entries": [
+    {
+      "text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+      "version": "diamond"
+    },
+    {
+      "text": "It rests its forelegs on others to communicate with rhythmic electric pulses from its claws.",
+      "version": "pearl"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "By gathering their tails together, they collectively generate powerful electricity from their claws.",
+      "version": "heartgold"
+    },
+    {
+      "text": "By gathering their tails together, they collectively generate powerful electricity from their claws.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "black"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "white"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+      "version": "x"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "y"
+    },
+    {
+      "text": "Its claws loose electricity with enough amperage to cause fainting. They live in small groups.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "By joining its tail with that of another Luxio, this Pokémon can receive some of the other Luxio’s electricity and power up its own electric blasts.",
+      "version": "sword"
+    },
+    {
+      "text": "Upon encountering an opponent, this Pokémon prepares for battle by extending its claws, which can put out 1,000,000 volts of electricity.",
+      "version": "shield"
+    },
+    {
+      "text": "Proudly uses its electrified claws as weapons. It seems to be a gracious Pokémon, evenly sharing the spoils of the hunt with others of its kind.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shinx",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "shinx",
+      "to": "luxio",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "luxio",
+      "to": "luxray",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": true,
+          "key": "guts"
+        }
+      ],
+      "artwork": "/dex-images/artwork/luxio.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "island-scan",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "fuego-ironworks-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-savannah",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-main",
+            "maxLevel": 20,
+            "method": "island-scan",
+            "minLevel": 20
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 30
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 30
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "luxio",
+      "kind": "default",
+      "name": "Luxio",
+      "number": 404,
+      "pokemon": "luxio",
+      "sourceId": 404,
+      "sprite": "/dex-images/sprites/luxio.webp",
+      "statTotal": 363,
+      "stats": {
+        "attack": 85,
+        "defense": 49,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 49,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 305
+    }
+  ],
+  "generation": 4,
+  "key": "luxio",
+  "name": "Luxio",
+  "names": {
+    "de": "Luxio",
+    "en": "Luxio",
+    "es": "Luxio",
+    "es-419": "Luxio",
+    "fr": "Luxio",
+    "it": "Luxio",
+    "ja": "ルクシオ",
+    "ja-hrkt": "ルクシオ",
+    "ja-roma": "Luxio",
+    "ko": "럭시오",
+    "zh-hans": "勒克猫",
+    "zh-hant": "勒克貓"
+  },
+  "number": 404
+}

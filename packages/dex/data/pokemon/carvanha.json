@@ -1,0 +1,610 @@
+{
+  "category": "Savage Pokémon",
+  "entries": [
+    {
+      "text": "CARVANHA’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this POKéMON.",
+      "version": "ruby"
+    },
+    {
+      "text": "If anything invades CARVANHA’s territory, it will swarm and tear at the intruder with its pointed fangs. On its own, however, this POKéMON turns suddenly timid.",
+      "version": "sapphire"
+    },
+    {
+      "text": "CARVANHA attack ships in swarms, making them sink. Although it is said to be a very vicious POKéMON, it timidly flees as soon as it finds itself alone.",
+      "version": "emerald"
+    },
+    {
+      "text": "It lives in massive rivers that course through jungles. It swarms prey that enter its territory.",
+      "version": "firered"
+    },
+    {
+      "text": "It lives in massive rivers that course through jungles. It swarms prey that enter its territory.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "diamond"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "pearl"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "platinum"
+    },
+    {
+      "text": "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle.",
+      "version": "heartgold"
+    },
+    {
+      "text": "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "black"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "white"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "black-2"
+    },
+    {
+      "text": "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+      "version": "white-2"
+    },
+    {
+      "text": "They form packs to attack boats and rip out their hulls to sink them. They live in rivers in the jungle.",
+      "version": "x"
+    },
+    {
+      "text": "It lives in massive rivers that course through jungles. It swarms prey that enter its territory.",
+      "version": "y"
+    },
+    {
+      "text": "Carvanha’s strongly developed jaws and its sharply pointed fangs pack the destructive power to rip out boat hulls. Many boats have been attacked and sunk by this Pokémon.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "If anything invades Carvanha’s territory, it will swarm and tear at the intruder with its pointed fangs. On its own, however, this Pokémon turns suddenly timid.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Each school has its own territory. Any intruders are mercilessly attacked with fangs bared.",
+      "version": "sun"
+    },
+    {
+      "text": "If they scent the faintest trace of blood, they rush to attack en masse. When alone, they’re rather cowardly.",
+      "version": "moon"
+    },
+    {
+      "text": "They’re such cowards that they won’t hunt alone. When five or so of them get together, they suddenly turn ferocious!",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It won’t attack while it’s alone—not even if it spots prey. Instead, it waits for other Carvanha to join it, and then the Pokémon attack as a group.",
+      "version": "sword"
+    },
+    {
+      "text": "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "carvanha",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "carvanha",
+      "to": "sharpedo",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rough-skin"
+        },
+        {
+          "hidden": true,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/carvanha.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 45,
+            "location": "great-marsh-area-1",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-2",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-3",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-4",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-6",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 80,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 45,
+            "location": "great-marsh-area-1",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-2",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-3",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-4",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-6",
+            "maxLevel": 30,
+            "method": "super-rod",
+            "minLevel": 15
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 45,
+            "location": "great-marsh-area-1",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-2",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-3",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-4",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-5",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          },
+          {
+            "chance": 45,
+            "location": "great-marsh-area-6",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 30
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 80,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 80,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 80,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "good-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 120,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 45,
+            "method": "super-rod",
+            "minLevel": 20
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 210,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 16
+          },
+          {
+            "chance": 210,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 210,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 210,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "bubbling-spots",
+            "minLevel": 16
+          },
+          {
+            "chance": 210,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 49,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 49,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 44,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 49,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "super-rod",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 49,
+            "method": "bubbling-spots",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 44,
+            "method": "super-rod",
+            "minLevel": 10
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 55,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 70,
+            "method": "super-rod",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 40
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-22-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-lab-bf1",
+            "maxLevel": 15,
+            "method": "snag",
+            "minLevel": 15
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-22-area",
+            "maxLevel": 25,
+            "method": "good-rod",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-za"],
+      "gen9": false,
+      "generation": 3,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "carvanha",
+      "kind": "default",
+      "name": "Carvanha",
+      "number": 318,
+      "pokemon": "carvanha",
+      "sourceId": 318,
+      "sprite": "/dex-images/sprites/carvanha.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 90,
+        "defense": 20,
+        "hp": 45,
+        "special-attack": 65,
+        "special-defense": 20,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["water", "dark"],
+      "weight": 208
+    }
+  ],
+  "generation": 3,
+  "key": "carvanha",
+  "name": "Carvanha",
+  "names": {
+    "de": "Kanivanha",
+    "en": "Carvanha",
+    "es": "Carvanha",
+    "es-419": "Carvanha",
+    "fr": "Carvanha",
+    "it": "Carvanha",
+    "ja": "キバニア",
+    "ja-hrkt": "キバニア",
+    "ja-roma": "Kibanha",
+    "ko": "샤프니아",
+    "zh-hans": "利牙鱼",
+    "zh-hant": "利牙魚"
+  },
+  "number": 318
+}

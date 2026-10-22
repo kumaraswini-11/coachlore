@@ -1,0 +1,411 @@
+{
+  "category": "Posy Picker Pokémon",
+  "entries": [
+    {
+      "text": "It attaches flowers to its highly nutritious vine. This revitalizes the flowers, and they give off an aromatic scent.",
+      "version": "sun"
+    },
+    {
+      "text": "Baths prepared with the flowers from its vine have a relaxing effect, so this Pokémon is a hit with many people.",
+      "version": "moon"
+    },
+    {
+      "text": "It stretches sticky vines out from its head and picks flowers to adorn itself with. When it doesn’t have any flowers, it feels uneasy.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It picks flowers and sticks them to its body with fluids it produces. The aroma that wafts from its petals has a healing effect.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Comfey picks flowers with its vine and decorates itself with them. For some reason, flowers won’t wither once they’re attached to a Comfey.",
+      "version": "sword"
+    },
+    {
+      "text": "These Pokémon smell very nice. All Comfey wear different flowers, so each of these Pokémon has its own individual scent.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "comfey",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flower-veil"
+        },
+        {
+          "hidden": false,
+          "key": "triage"
+        },
+        {
+          "hidden": true,
+          "key": "natural-cure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/comfey.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 5,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "sun": [
+          {
+            "chance": 5,
+            "location": "lush-jungle-north",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-south",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 5,
+            "location": "lush-jungle-west",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 600,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 400,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 145,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 400,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 145,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 200,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 145,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 800,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 145,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 600,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 400,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 145,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 400,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 145,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 200,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 145,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 800,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 145,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 8,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 10,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 4,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 8,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 7,
+      "height": 1,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "comfey",
+      "kind": "default",
+      "name": "Comfey",
+      "number": 764,
+      "pokemon": "comfey",
+      "sourceId": 764,
+      "sprite": "/dex-images/sprites/comfey.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 52,
+        "defense": 90,
+        "hp": 51,
+        "special-attack": 82,
+        "special-defense": 110,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 3
+    }
+  ],
+  "generation": 7,
+  "key": "comfey",
+  "name": "Comfey",
+  "names": {
+    "de": "Curelei",
+    "en": "Comfey",
+    "es": "Comfey",
+    "es-419": "Comfey",
+    "fr": "Guérilande",
+    "it": "Comfey",
+    "ja": "キュワワー",
+    "ja-hrkt": "キュワワー",
+    "ja-roma": "Cuwawa",
+    "ko": "큐아링",
+    "zh-hans": "花疗环环",
+    "zh-hant": "花療環環"
+  },
+  "number": 764
+}

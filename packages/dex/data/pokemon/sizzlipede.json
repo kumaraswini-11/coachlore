@@ -1,0 +1,311 @@
+{
+  "category": "Radiator Pokémon",
+  "entries": [
+    {
+      "text": "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+      "version": "sword"
+    },
+    {
+      "text": "It wraps prey up with its heated body, cooking them in its coils. Once they’re well-done, it will voraciously nibble them down to the last morsel.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sizzlipede",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "sizzlipede",
+      "to": "centiskorch",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": false,
+          "key": "white-smoke"
+        },
+        {
+          "hidden": true,
+          "key": "flame-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sizzlipede.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 70,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-3-east",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 50,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 17,
+            "method": "max-raid",
+            "minLevel": 17
+          },
+          {
+            "chance": 70,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "motostoke-gym",
+            "maxLevel": 25,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 70,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-3-east",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 50,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 17,
+            "method": "max-raid",
+            "minLevel": 17
+          },
+          {
+            "chance": 70,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "motostoke-gym",
+            "maxLevel": 25,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-t",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 8,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sizzlipede",
+      "kind": "default",
+      "name": "Sizzlipede",
+      "number": 850,
+      "pokemon": "sizzlipede",
+      "sourceId": 850,
+      "sprite": "/dex-images/sprites/sizzlipede.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 65,
+        "defense": 45,
+        "hp": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["fire", "bug"],
+      "weight": 10
+    }
+  ],
+  "generation": 8,
+  "key": "sizzlipede",
+  "name": "Sizzlipede",
+  "names": {
+    "de": "Thermopod",
+    "en": "Sizzlipede",
+    "es": "Sizzlipede",
+    "es-419": "Sizzlipede",
+    "fr": "Grillepattes",
+    "it": "Sizzlipede",
+    "ja": "ヤクデ",
+    "ja-hrkt": "ヤクデ",
+    "ja-roma": "Yakude",
+    "ko": "태우지네",
+    "zh-hans": "烧火蚣",
+    "zh-hant": "燒火蚣"
+  },
+  "number": 850
+}

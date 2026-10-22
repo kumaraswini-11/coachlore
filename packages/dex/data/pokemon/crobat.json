@@ -1,0 +1,445 @@
+{
+  "category": "Bat Pokémon",
+  "entries": [
+    {
+      "text": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
+      "version": "gold"
+    },
+    {
+      "text": "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest.",
+      "version": "silver"
+    },
+    {
+      "text": "As a result of its pursuit of faster, yet more silent flight, a new set of wings grew on its hind legs.",
+      "version": "crystal"
+    },
+    {
+      "text": "If this POKéMON is flying by fluttering only a pair of wings on either the forelegs or hind legs, it’s proof that CROBAT has been flying a long distance. It switches the wings it uses if it is tired.",
+      "version": "ruby"
+    },
+    {
+      "text": "CROBAT sneaks up on its intended prey using wings that barely make a sound. This POKéMON rests by hanging on a tree branch with its rear legs that serve as wings.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Over the course of evolution, its hind legs turned into wings. By alternately resting its front and rear wings, it can fly all day without having to stop.",
+      "version": "emerald"
+    },
+    {
+      "text": "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest.",
+      "version": "firered"
+    },
+    {
+      "text": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Having four wings enables it to fly faster and more quietly. It turns active when the night comes.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon that gained vastly enhanced flying performance by having its legs turn into wings.",
+      "version": "pearl"
+    },
+    {
+      "text": "The transformation of its legs into wings made it better at flying, but more clumsy at walking.",
+      "version": "platinum"
+    },
+    {
+      "text": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The transformation of its legs into wings made it better at flying, but more clumsy at walking.",
+      "version": "black"
+    },
+    {
+      "text": "The transformation of its legs into wings made it better at flying, but more clumsy at walking.",
+      "version": "white"
+    },
+    {
+      "text": "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+      "version": "black-2"
+    },
+    {
+      "text": "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+      "version": "white-2"
+    },
+    {
+      "text": "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
+      "version": "x"
+    },
+    {
+      "text": "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+      "version": "y"
+    },
+    {
+      "text": "If this Pokémon is flying by fluttering only a pair of wings on either the forelegs or hind legs, it’s proof that Crobat has been flying a long distance. It switches the wings it uses if it is tired.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Crobat sneaks up on its intended prey using wings that barely make a sound. This Pokémon rests by hanging on a tree branch with its rear legs that serve as wings.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Both its legs became wings, and as a result, it can’t move well on the ground. All it can do is crawl around.",
+      "version": "sun"
+    },
+    {
+      "text": "Silent and swift in its four-winged flight, it bites down on its prey before they realize what’s happening. In a heartbeat, it drains their blood.",
+      "version": "moon"
+    },
+    {
+      "text": "Its fangs are so sharp, if it bites you in the dark and sucks your blood, you won’t notice any pain or realize you’ve been bitten.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It feeds on the blood of living people and Pokémon. If it can’t drink any blood for even a short while, it becomes weak and unable to fly.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target’s neck.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+      "version": "shield"
+    },
+    {
+      "text": "Its hind limbs have become another set of wings. Crobat expertly maneuvers its four wings to dart in exquisite fashion through even the most confined caves without losing any speed.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "zubat",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "zubat",
+      "to": "golbat",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "golbat",
+      "to": "crobat",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/crobat.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-outside",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "dreamyard-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 57,
+            "method": "sos",
+            "minLevel": 54
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "dyna-tree-hill-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "frostpoint-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-u",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "dyna-tree-hill-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-m",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "frostpoint-field-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-u",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "lush-jungle-east-cave",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 59,
+            "method": "sos",
+            "minLevel": 56
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "lush-jungle-east-cave",
+            "maxLevel": 44,
+            "method": "sos",
+            "minLevel": 41
+          },
+          {
+            "chance": 15,
+            "location": "resolution-cave-area",
+            "maxLevel": 59,
+            "method": "sos",
+            "minLevel": 56
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-outside",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-13-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "dreamyard-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 2,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "crobat",
+      "kind": "default",
+      "name": "Crobat",
+      "number": 169,
+      "pokemon": "crobat",
+      "sourceId": 169,
+      "sprite": "/dex-images/sprites/crobat.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 90,
+        "defense": 80,
+        "hp": 85,
+        "special-attack": 70,
+        "special-defense": 80,
+        "speed": 130
+      },
+      "tags": [],
+      "types": ["poison", "flying"],
+      "weight": 750
+    }
+  ],
+  "generation": 2,
+  "key": "crobat",
+  "name": "Crobat",
+  "names": {
+    "de": "Iksbat",
+    "en": "Crobat",
+    "es": "Crobat",
+    "es-419": "Crobat",
+    "fr": "Nostenfer",
+    "it": "Crobat",
+    "ja": "クロバット",
+    "ja-hrkt": "クロバット",
+    "ja-roma": "Crobat",
+    "ko": "크로뱃",
+    "zh-hans": "叉字蝠",
+    "zh-hant": "叉字蝠"
+  },
+  "number": 169
+}

@@ -1,0 +1,170 @@
+{
+  "category": "King Pokémon",
+  "entries": [
+    {
+      "text": "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+      "version": "sword"
+    },
+    {
+      "text": "Calyrex is known in legend as a king that ruled over Galar in ancient times. It has the power to cause hearts to mend and plants to spring forth.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "calyrex",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unnerve"
+        }
+      ],
+      "artwork": "/dex-images/artwork/calyrex.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "crown-shrine-area",
+            "maxLevel": 80,
+            "method": "static",
+            "minLevel": 80
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "crown-shrine-area",
+            "maxLevel": 80,
+            "method": "static",
+            "minLevel": 80
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra"],
+      "gen9": true,
+      "generation": 8,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "calyrex",
+      "kind": "default",
+      "legendary": true,
+      "name": "Calyrex",
+      "number": 898,
+      "pokemon": "calyrex",
+      "sourceId": 898,
+      "sprite": "/dex-images/sprites/calyrex.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 80,
+        "defense": 80,
+        "hp": 100,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 80
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "grass"],
+      "weight": 77
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "as-one-glastrier"
+        }
+      ],
+      "artwork": "/dex-images/artwork/calyrex-ice.webp",
+      "encounters": {},
+      "formName": "Ice Rider",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 24,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "calyrex-ice",
+      "kind": "other",
+      "legendary": true,
+      "name": "Calyrex-Ice",
+      "number": 898,
+      "pokemon": "calyrex",
+      "sourceId": 10193,
+      "sprite": "/dex-images/sprites/calyrex-ice.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 165,
+        "defense": 150,
+        "hp": 100,
+        "special-attack": 85,
+        "special-defense": 130,
+        "speed": 50
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "ice"],
+      "weight": 8091
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "as-one-spectrier"
+        }
+      ],
+      "artwork": "/dex-images/artwork/calyrex-shadow.webp",
+      "encounters": {},
+      "formName": "Shadow Rider",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 24,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "calyrex-shadow",
+      "kind": "other",
+      "legendary": true,
+      "name": "Calyrex-Shadow",
+      "number": 898,
+      "pokemon": "calyrex",
+      "sourceId": 10194,
+      "sprite": "/dex-images/sprites/calyrex-shadow.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 85,
+        "defense": 80,
+        "hp": 100,
+        "special-attack": 165,
+        "special-defense": 100,
+        "speed": 150
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["psychic", "ghost"],
+      "weight": 536
+    }
+  ],
+  "generation": 8,
+  "key": "calyrex",
+  "name": "Calyrex",
+  "names": {
+    "de": "Coronospa",
+    "en": "Calyrex",
+    "es": "Calyrex",
+    "es-419": "Calyrex",
+    "fr": "Sylveroy",
+    "it": "Calyrex",
+    "ja": "バドレックス",
+    "ja-hrkt": "バドレックス",
+    "ja-roma": "Budrex",
+    "ko": "버드렉스",
+    "zh-hans": "蕾冠王",
+    "zh-hant": "蕾冠王"
+  },
+  "number": 898
+}

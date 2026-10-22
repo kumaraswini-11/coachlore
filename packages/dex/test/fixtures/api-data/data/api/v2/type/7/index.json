@@ -1,0 +1,79 @@
+{
+  "damage_relations": {
+    "double_damage_from": [
+      {
+        "name": "flying",
+        "url": "/api/v2/type/3/"
+      },
+      {
+        "name": "rock",
+        "url": "/api/v2/type/6/"
+      },
+      {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+      }
+    ],
+    "double_damage_to": [
+      {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+      },
+      {
+        "name": "psychic",
+        "url": "/api/v2/type/14/"
+      },
+      {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+      }
+    ],
+    "half_damage_from": [
+      {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+      },
+      {
+        "name": "ground",
+        "url": "/api/v2/type/5/"
+      },
+      {
+        "name": "grass",
+        "url": "/api/v2/type/12/"
+      }
+    ],
+    "half_damage_to": [
+      {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+      },
+      {
+        "name": "flying",
+        "url": "/api/v2/type/3/"
+      },
+      {
+        "name": "poison",
+        "url": "/api/v2/type/4/"
+      },
+      {
+        "name": "ghost",
+        "url": "/api/v2/type/8/"
+      },
+      {
+        "name": "steel",
+        "url": "/api/v2/type/9/"
+      },
+      {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+      },
+      {
+        "name": "fairy",
+        "url": "/api/v2/type/18/"
+      }
+    ],
+    "no_damage_from": [],
+    "no_damage_to": []
+  },
+  "name": "bug"
+}

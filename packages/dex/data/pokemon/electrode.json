@@ -1,0 +1,708 @@
+{
+  "category": "Ball Pokémon",
+  "entries": [
+    {
+      "text": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+      "version": "red"
+    },
+    {
+      "text": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+      "version": "blue"
+    },
+    {
+      "text": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.",
+      "version": "yellow"
+    },
+    {
+      "text": "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding.",
+      "version": "gold"
+    },
+    {
+      "text": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.",
+      "version": "silver"
+    },
+    {
+      "text": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+      "version": "crystal"
+    },
+    {
+      "text": "ELECTRODE eats electricity in the atmosphere. On days when lightning strikes, you can see this POKéMON exploding all over the place from eating too much electricity.",
+      "version": "ruby"
+    },
+    {
+      "text": "One of ELECTRODE’s characteristics is its attraction to electricity. It is a problematical POKéMON that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
+      "version": "sapphire"
+    },
+    {
+      "text": "They appear in great numbers at electric power plants. Because they feed on electricity, they cause massive and chaotic blackouts in nearby cities.",
+      "version": "emerald"
+    },
+    {
+      "text": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”",
+      "version": "firered"
+    },
+    {
+      "text": "It stores electric energy under very high pressure. It often explodes with little or no provocation.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is dangerous. If it has too much electricity and has nothing to do, it amuses itself by exploding.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "black"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "white"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "black-2"
+    },
+    {
+      "text": "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+      "version": "white-2"
+    },
+    {
+      "text": "It explodes in response to even minor stimuli. It is feared, with the nickname of “The Bomb Ball.”",
+      "version": "x"
+    },
+    {
+      "text": "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.",
+      "version": "y"
+    },
+    {
+      "text": "Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "One of Electrode’s characteristics is its attraction to electricity. It is a problematical Pokémon that congregates mostly at electrical power plants to feed on electricity that has just been generated.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "voltorb",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "voltorb",
+      "to": "electrode",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "electrode-hisui",
+        "item": "leaf-stone",
+        "required_pokemon_form": "voltorb-hisui"
+      },
+      "from": "voltorb",
+      "to": "electrode",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "aftermath"
+        }
+      ],
+      "artwork": "/dex-images/artwork/electrode.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 200,
+            "location": "team-aqua-hideout-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          }
+        ],
+        "blue": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 300,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 201,
+            "location": "new-mauville-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          },
+          {
+            "chance": 201,
+            "location": "new-mauville-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "team-aqua-hideout-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          },
+          {
+            "chance": 200,
+            "location": "team-magma-hideout-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 4,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 61
+          },
+          {
+            "chance": 4,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 34,
+            "method": "static",
+            "minLevel": 34
+          }
+        ],
+        "gold": [
+          {
+            "chance": 300,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 600,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 4,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 61,
+            "method": "walk",
+            "minLevel": 61
+          },
+          {
+            "chance": 4,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 64,
+            "method": "walk",
+            "minLevel": 64
+          },
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 34,
+            "method": "static",
+            "minLevel": 34
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 200,
+            "location": "team-magma-hideout-area",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          }
+        ],
+        "red": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 3
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 15,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 201,
+            "location": "new-mauville-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          },
+          {
+            "chance": 201,
+            "location": "new-mauville-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "team-magma-hideout-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 1,
+            "location": "new-mauville-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "team-aqua-hideout-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          },
+          {
+            "chance": 200,
+            "location": "team-magma-hideout-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "silver": [
+          {
+            "chance": 300,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 600,
+            "location": "team-rocket-hq-area",
+            "maxLevel": 23,
+            "method": "static",
+            "minLevel": 23
+          }
+        ],
+        "sun": [
+          {
+            "chance": 200,
+            "location": "new-mauville-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 115,
+            "location": "team-rockets-castle-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 115,
+            "location": "team-rockets-castle-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "lost-hotel-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "lost-hotel-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 200,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 43,
+            "method": "static",
+            "minLevel": 43
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "electrode",
+      "kind": "default",
+      "name": "Electrode",
+      "number": 101,
+      "pokemon": "electrode",
+      "sourceId": 101,
+      "sprite": "/dex-images/sprites/electrode.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 50,
+        "defense": 70,
+        "hp": 60,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 150
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 666
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "aftermath"
+        }
+      ],
+      "artwork": "/dex-images/artwork/electrode-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "electrode-hisui",
+      "kind": "regional",
+      "name": "Electrode-Hisui",
+      "number": 101,
+      "pokemon": "electrode",
+      "sourceId": 10232,
+      "sprite": "/dex-images/sprites/electrode-hisui.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 50,
+        "defense": 70,
+        "hp": 60,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 150
+      },
+      "tags": [],
+      "types": ["electric", "grass"],
+      "weight": 710
+    }
+  ],
+  "generation": 1,
+  "key": "electrode",
+  "name": "Electrode",
+  "names": {
+    "de": "Lektrobal",
+    "en": "Electrode",
+    "es": "Electrode",
+    "es-419": "Electrode",
+    "fr": "Électrode",
+    "it": "Electrode",
+    "ja": "マルマイン",
+    "ja-hrkt": "マルマイン",
+    "ja-roma": "Marumine",
+    "ko": "붐볼",
+    "zh-hans": "顽皮雷弹",
+    "zh-hant": "頑皮雷彈"
+  },
+  "number": 101
+}

@@ -1,0 +1,259 @@
+{
+  "category": "Tiny Bird Pokémon",
+  "entries": [
+    {
+      "text": "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit.",
+      "version": "sword"
+    },
+    {
+      "text": "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rookidee",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "rookidee",
+      "to": "corvisquire",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "corvisquire",
+      "to": "corviknight",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "unnerve"
+        },
+        {
+          "hidden": true,
+          "key": "big-pecks"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rookidee.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-1-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 55,
+            "location": "galar-route-2-main",
+            "maxLevel": 7,
+            "method": "overworld",
+            "minLevel": 5
+          },
+          {
+            "chance": 55,
+            "location": "galar-route-2-main",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 35,
+            "location": "galar-route-3-east",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 85,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 50,
+            "location": "slumbering-weald-main",
+            "maxLevel": 3,
+            "method": "overworld",
+            "minLevel": 2
+          },
+          {
+            "chance": 50,
+            "location": "slumbering-weald-main",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-1-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          },
+          {
+            "chance": 55,
+            "location": "galar-route-2-main",
+            "maxLevel": 7,
+            "method": "overworld",
+            "minLevel": 5
+          },
+          {
+            "chance": 55,
+            "location": "galar-route-2-main",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 35,
+            "location": "galar-route-3-east",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 85,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 85,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "slumbering-weald-main",
+            "maxLevel": 3,
+            "method": "overworld",
+            "minLevel": 2
+          },
+          {
+            "chance": 50,
+            "location": "slumbering-weald-main",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-crown-tundra", "scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 8,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rookidee",
+      "kind": "default",
+      "name": "Rookidee",
+      "number": 821,
+      "pokemon": "rookidee",
+      "sourceId": 821,
+      "sprite": "/dex-images/sprites/rookidee.webp",
+      "statTotal": 245,
+      "stats": {
+        "attack": 47,
+        "defense": 35,
+        "hp": 38,
+        "special-attack": 33,
+        "special-defense": 35,
+        "speed": 57
+      },
+      "tags": [],
+      "types": ["flying"],
+      "weight": 18
+    }
+  ],
+  "generation": 8,
+  "key": "rookidee",
+  "name": "Rookidee",
+  "names": {
+    "de": "Meikro",
+    "en": "Rookidee",
+    "es": "Rookidee",
+    "es-419": "Rookidee",
+    "fr": "Minisange",
+    "it": "Rookidee",
+    "ja": "ココガラ",
+    "ja-hrkt": "ココガラ",
+    "ja-roma": "Kokogara",
+    "ko": "파라꼬",
+    "zh-hans": "稚山雀",
+    "zh-hant": "稚山雀"
+  },
+  "number": 821
+}

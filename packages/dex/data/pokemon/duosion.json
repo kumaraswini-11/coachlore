@@ -1,0 +1,289 @@
+{
+  "category": "Mitosis Pokémon",
+  "entries": [
+    {
+      "text": "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+      "version": "black"
+    },
+    {
+      "text": "When their brains, now divided in two, are thinking the same thoughts, these Pokémon exhibit their maximum power.",
+      "version": "white"
+    },
+    {
+      "text": "When their two divided brains think the same thoughts, their psychic power is maximized.",
+      "version": "black-2"
+    },
+    {
+      "text": "When their two divided brains think the same thoughts, their psychic power is maximized.",
+      "version": "white-2"
+    },
+    {
+      "text": "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+      "version": "x"
+    },
+    {
+      "text": "When their two divided brains think the same thoughts, their psychic power is maximized.",
+      "version": "y"
+    },
+    {
+      "text": "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When their two divided brains think the same thoughts, their psychic power is maximized.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its psychic power can supposedly cover a range of more than half a mile—but only if its two brains can agree with each other.",
+      "version": "sword"
+    },
+    {
+      "text": "Its brain has split into two, and the two halves rarely think alike. Its actions are utterly unpredictable.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "solosis",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "solosis",
+      "to": "duosion",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "duosion",
+      "to": "reuniclus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overcoat"
+        },
+        {
+          "hidden": false,
+          "key": "magic-guard"
+        },
+        {
+          "hidden": true,
+          "key": "regenerator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/duosion.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "island-scan",
+            "minLevel": 33
+          }
+        ],
+        "shield": [
+          {
+            "chance": 20,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 50,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-16-main",
+            "maxLevel": 33,
+            "method": "island-scan",
+            "minLevel": 33
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white": [
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "strange-house-1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 15,
+            "location": "strange-house-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-9-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-9-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-psychic",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "duosion",
+      "kind": "default",
+      "name": "Duosion",
+      "number": 578,
+      "pokemon": "duosion",
+      "sourceId": 578,
+      "sprite": "/dex-images/sprites/duosion.webp",
+      "statTotal": 370,
+      "stats": {
+        "attack": 40,
+        "defense": 50,
+        "hp": 65,
+        "special-attack": 125,
+        "special-defense": 60,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 80
+    }
+  ],
+  "generation": 5,
+  "key": "duosion",
+  "name": "Duosion",
+  "names": {
+    "de": "Mitodos",
+    "en": "Duosion",
+    "es": "Duosion",
+    "es-419": "Duosion",
+    "fr": "Méios",
+    "it": "Duosion",
+    "ja": "ダブラン",
+    "ja-hrkt": "ダブラン",
+    "ja-roma": "Doublan",
+    "ko": "듀란",
+    "zh-hans": "双卵细胞球",
+    "zh-hant": "雙卵細胞球"
+  },
+  "number": 578
+}

@@ -1,0 +1,359 @@
+{
+  "category": "Illusion Fox Pokémon",
+  "entries": [
+    {
+      "text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+      "version": "black"
+    },
+    {
+      "text": "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+      "version": "white"
+    },
+    {
+      "text": "Stories say those who tried to catch Zoroark were trapped in an illusion and punished.",
+      "version": "black-2"
+    },
+    {
+      "text": "Stories say those who tried to catch Zoroark were trapped in an illusion and punished.",
+      "version": "white-2"
+    },
+    {
+      "text": "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+      "version": "x"
+    },
+    {
+      "text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+      "version": "y"
+    },
+    {
+      "text": "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It doesn’t just transform itself—it also has the power to make hundreds of people see its illusions.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon cares deeply about others of its kind, and it will conjure terrifying illusions to keep its den and pack safe.",
+      "version": "sword"
+    },
+    {
+      "text": "Seeking to ease the burden of their solitude, lonely Trainers tell Zoroark to show illusions to them.",
+      "version": "shield"
+    },
+    {
+      "text": "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "zorua",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "zorua",
+      "to": "zoroark",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "zoroark-hisui",
+        "min_level": 30,
+        "required_pokemon_form": "zorua-hisui"
+      },
+      "from": "zorua",
+      "to": "zoroark",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "illusion"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zoroark.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 50,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 400,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 50,
+            "location": "challenge-road-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "honeycalm-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 400,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "workout-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 10,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 48
+          }
+        ],
+        "y": [
+          {
+            "chance": 10,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 48
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 5,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "zoroark",
+      "kind": "default",
+      "name": "Zoroark",
+      "number": 571,
+      "pokemon": "zoroark",
+      "sourceId": 571,
+      "sprite": "/dex-images/sprites/zoroark.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 105,
+        "defense": 60,
+        "hp": 60,
+        "special-attack": 120,
+        "special-defense": 60,
+        "speed": 105
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 811
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "illusion"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zoroark-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "zoroark-hisui",
+      "kind": "regional",
+      "name": "Zoroark-Hisui",
+      "number": 571,
+      "pokemon": "zoroark",
+      "sourceId": 10239,
+      "sprite": "/dex-images/sprites/zoroark-hisui.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 100,
+        "defense": 60,
+        "hp": 55,
+        "special-attack": 125,
+        "special-defense": 60,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["normal", "ghost"],
+      "weight": 730
+    }
+  ],
+  "generation": 5,
+  "key": "zoroark",
+  "name": "Zoroark",
+  "names": {
+    "de": "Zoroark",
+    "en": "Zoroark",
+    "es": "Zoroark",
+    "es-419": "Zoroark",
+    "fr": "Zoroark",
+    "it": "Zoroark",
+    "ja": "ゾロアーク",
+    "ja-hrkt": "ゾロアーク",
+    "ja-roma": "Zoroark",
+    "ko": "조로아크",
+    "zh-hans": "索罗亚克",
+    "zh-hant": "索羅亞克"
+  },
+  "number": 571
+}

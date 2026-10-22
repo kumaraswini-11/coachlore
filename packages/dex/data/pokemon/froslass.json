@@ -1,0 +1,396 @@
+{
+  "category": "Snow Land Pokémon",
+  "entries": [
+    {
+      "text": "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+      "version": "diamond"
+    },
+    {
+      "text": "It freezes foes with an icy breath nearly -60 degrees F. What seems to be its body is actually hollow.",
+      "version": "pearl"
+    },
+    {
+      "text": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+      "version": "platinum"
+    },
+    {
+      "text": "Legends in snowy regions say that a woman who was lost on an icy mountain was reborn as FROSLASS.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Legends in snowy regions say that a woman who was lost on an icy mountain was reborn as FROSLASS",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+      "version": "black"
+    },
+    {
+      "text": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+      "version": "white"
+    },
+    {
+      "text": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+      "version": "black-2"
+    },
+    {
+      "text": "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+      "version": "white-2"
+    },
+    {
+      "text": "It freezes foes with an icy breath nearly -60 degrees Fahrenheit. What seems to be its body is actually hollow.",
+      "version": "x"
+    },
+    {
+      "text": "Legends in snowy regions say that a woman who was lost on an icy mountain was reborn as Froslass.",
+      "version": "y"
+    },
+    {
+      "text": "It freezes foes with an icy breath nearly -60 degrees Fahrenheit. What seems to be its body is actually hollow.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Legends in snowy regions say that a woman who was lost on an icy mountain was reborn as Froslass.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations.",
+      "version": "sun"
+    },
+    {
+      "text": "The soul of a woman lost on a snowy mountain possessed an icicle, becoming this Pokémon. The food it most relishes is the souls of men.",
+      "version": "moon"
+    },
+    {
+      "text": "It freezes hikers who have come to climb snowy mountains and carries them back to its home. It only goes after men it thinks are handsome.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It’s said that on nights of terrible blizzards, it comes down to human settlements. If you hear it knocking at your door, do not open it!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "After a woman met her end on a snowy mountain, her regrets lingered on. From them, this Pokémon was born. Its favorite food is frozen souls.",
+      "version": "sword"
+    },
+    {
+      "text": "It spits out cold air of nearly −60 degrees Fahrenheit to freeze its quarry. It brings frozen prey back to its lair and neatly lines them up.",
+      "version": "shield"
+    },
+    {
+      "text": "A Pokémon inhabited by the soul of a woman who died bearing a grudge in the snowy mountains. Legends of Froslass placing deathly curses on misbehaving men send shivers down my spine.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "snorunt",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 42
+      },
+      "from": "snorunt",
+      "to": "glalie",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "gender": 1,
+        "item": "dawn-stone"
+      },
+      "from": "snorunt",
+      "to": "froslass",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "cursed-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/froslass.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 15,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 25,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 200,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-p",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "giants-foot-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 200,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "old-cemetery-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "slippery-slope-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "tunnel-to-the-top-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["platinum", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "froslass",
+      "kind": "default",
+      "name": "Froslass",
+      "number": 478,
+      "pokemon": "froslass",
+      "sourceId": 478,
+      "sprite": "/dex-images/sprites/froslass.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 80,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 80,
+        "special-defense": 70,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["ice", "ghost"],
+      "weight": 266
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "snow-warning"
+        }
+      ],
+      "artwork": "/dex-images/artwork/froslass-mega.webp",
+      "encounters": {},
+      "formName": "Mega Froslass",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 26,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "froslass-mega",
+      "kind": "mega",
+      "name": "Froslass-Mega",
+      "number": 478,
+      "pokemon": "froslass",
+      "sourceId": 10285,
+      "sprite": "/dex-images/sprites/froslass-mega.webp",
+      "statTotal": 580,
+      "stats": {
+        "attack": 80,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 140,
+        "special-defense": 100,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["ice", "ghost"],
+      "weight": 296
+    }
+  ],
+  "generation": 4,
+  "key": "froslass",
+  "name": "Froslass",
+  "names": {
+    "de": "Frosdedje",
+    "en": "Froslass",
+    "es": "Froslass",
+    "es-419": "Froslass",
+    "fr": "Momartik",
+    "it": "Froslass",
+    "ja": "ユキメノコ",
+    "ja-hrkt": "ユキメノコ",
+    "ja-roma": "Yukimenoko",
+    "ko": "눈여아",
+    "zh-hans": "雪妖女",
+    "zh-hant": "雪妖女"
+  },
+  "number": 478
+}

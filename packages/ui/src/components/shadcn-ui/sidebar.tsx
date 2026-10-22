@@ -33,7 +33,7 @@ const SIDEBAR_WIDTH_MOBILE = "18rem"
 const SIDEBAR_WIDTH_ICON = "3rem"
 const SIDEBAR_KEYBOARD_SHORTCUT = "b"
 
-// The sidebar's names for screen readers, in the page's language.
+// Coachlore: the sidebar's names for screen readers, in the page's language.
 type SidebarLabels = { toggle: string; title: string; description: string }
 
 type SidebarContextProps = {

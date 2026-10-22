@@ -1,0 +1,121 @@
+{
+  "category": "Poison Pin Pokémon",
+  "entries": [
+    {
+      "text": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poipole",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "dragon-pulse"
+      },
+      "from": "poipole",
+      "to": "naganadel",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/poipole.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ultra-megalopolis-area",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ultra-megalopolis-area",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "poipole",
+      "kind": "default",
+      "name": "Poipole",
+      "number": 803,
+      "pokemon": "poipole",
+      "sourceId": 803,
+      "sprite": "/dex-images/sprites/poipole.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 73,
+        "defense": 67,
+        "hp": 67,
+        "special-attack": 73,
+        "special-defense": 67,
+        "speed": 73
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["poison"],
+      "weight": 18
+    }
+  ],
+  "generation": 7,
+  "key": "poipole",
+  "name": "Poipole",
+  "names": {
+    "de": "Venicro",
+    "en": "Poipole",
+    "es": "Poipole",
+    "es-419": "Poipole",
+    "fr": "Vémini",
+    "it": "Poipole",
+    "ja": "ベベノム",
+    "ja-hrkt": "ベベノム",
+    "ja-roma": "Bevenom",
+    "ko": "베베놈",
+    "zh-hans": "毒贝比",
+    "zh-hant": "毒貝比"
+  },
+  "number": 803
+}

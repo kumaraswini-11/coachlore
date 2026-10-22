@@ -1,0 +1,439 @@
+{
+  "category": "Starling Pokémon",
+  "entries": [
+    {
+      "text": "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+      "version": "pearl"
+    },
+    {
+      "text": "Recognizing their own weakness, they always live in a group. When alone, a STARAVIA cries noisily.",
+      "version": "platinum"
+    },
+    {
+      "text": "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+      "version": "heartgold"
+    },
+    {
+      "text": "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+      "version": "black"
+    },
+    {
+      "text": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+      "version": "white"
+    },
+    {
+      "text": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+      "version": "black-2"
+    },
+    {
+      "text": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+      "version": "white-2"
+    },
+    {
+      "text": "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+      "version": "x"
+    },
+    {
+      "text": "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+      "version": "y"
+    },
+    {
+      "text": "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They form remarkably large flocks and are constantly fighting amongst themselves. I suspect that those with magnificent plumes on their heads are the strong ones.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "starly",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "starly",
+      "to": "staravia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "staravia",
+      "to": "staraptor",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/staravia.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 57,
+            "location": "lake-valor-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 12,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 12,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 57,
+            "location": "sendoff-spring-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 40,
+            "location": "trophy-garden-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 25,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "island-scan",
+            "minLevel": 27
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 57,
+            "location": "lake-valor-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 12,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 12,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 57,
+            "location": "sendoff-spring-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 40,
+            "location": "trophy-garden-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 25,
+            "location": "valor-lakefront-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 47,
+            "location": "lake-valor-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "sendoff-spring-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-212-north-towards-hearthome-city",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 50,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "trophy-garden-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 45,
+            "location": "valor-lakefront-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-10-area",
+            "maxLevel": 27,
+            "method": "island-scan",
+            "minLevel": 27
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-11-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-11-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 4,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "staravia",
+      "kind": "default",
+      "name": "Staravia",
+      "number": 397,
+      "pokemon": "staravia",
+      "sourceId": 397,
+      "sprite": "/dex-images/sprites/staravia.webp",
+      "statTotal": 340,
+      "stats": {
+        "attack": 75,
+        "defense": 50,
+        "hp": 55,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 155
+    }
+  ],
+  "generation": 4,
+  "key": "staravia",
+  "name": "Staravia",
+  "names": {
+    "de": "Staravia",
+    "en": "Staravia",
+    "es": "Staravia",
+    "es-419": "Staravia",
+    "fr": "Étourvol",
+    "it": "Staravia",
+    "ja": "ムクバード",
+    "ja-hrkt": "ムクバード",
+    "ja-roma": "Mukubird",
+    "ko": "찌르버드",
+    "zh-hans": "姆克鸟",
+    "zh-hant": "姆克鳥"
+  },
+  "number": 397
+}

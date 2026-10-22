@@ -1,0 +1,96 @@
+{
+  "category": "Fire Child Pokémon",
+  "entries": [
+    {
+      "text": "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "charcadet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "auspicious-armor"
+      },
+      "from": "charcadet",
+      "to": "armarouge",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "malicious-armor"
+      },
+      "from": "charcadet",
+      "to": "ceruledge",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": true,
+          "key": "flame-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/charcadet.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "charcadet",
+      "kind": "default",
+      "name": "Charcadet",
+      "number": 935,
+      "pokemon": "charcadet",
+      "sourceId": 935,
+      "sprite": "/dex-images/sprites/charcadet.webp",
+      "statTotal": 255,
+      "stats": {
+        "attack": 50,
+        "defense": 40,
+        "hp": 40,
+        "special-attack": 50,
+        "special-defense": 40,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 105
+    }
+  ],
+  "generation": 9,
+  "key": "charcadet",
+  "name": "Charcadet",
+  "names": {
+    "de": "Knarbon",
+    "en": "Charcadet",
+    "es": "Charcadet",
+    "es-419": "Charcadet",
+    "fr": "Charbambin",
+    "it": "Charcadet",
+    "ja": "カルボウ",
+    "ja-hrkt": "カルボウ",
+    "ja-roma": "Carbou",
+    "ko": "카르본",
+    "zh-hans": "炭小侍",
+    "zh-hant": "炭小侍"
+  },
+  "number": 935
+}

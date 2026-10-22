@@ -1,0 +1,191 @@
+{
+  "category": "Ogre Darner Pokémon",
+  "entries": [
+    {
+      "text": "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
+      "version": "diamond"
+    },
+    {
+      "text": "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
+      "version": "platinum"
+    },
+    {
+      "text": "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The beat of its wings is so powerful that it accidentally dislodges full-grown trees when it takes off in flight.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
+      "version": "black"
+    },
+    {
+      "text": "Its jaw power is incredible. It is adept at biting apart foes while flying by at high speed.",
+      "version": "white"
+    },
+    {
+      "text": "It prefers to battle by biting apart foes’ heads instantly while flying by at high speed.",
+      "version": "black-2"
+    },
+    {
+      "text": "It prefers to battle by biting apart foes’ heads instantly while flying by at high speed.",
+      "version": "white-2"
+    },
+    {
+      "text": "It prefers to battle by biting apart foes’ heads instantly while flying by at high speed.",
+      "version": "x"
+    },
+    {
+      "text": "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+      "version": "y"
+    },
+    {
+      "text": "It prefers to battle by biting apart foes’ heads instantly while flying by at high speed.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Extremely violent. When hunting, it wastes none of its energy, aiming only for prey's most vulnerable spots. Any who manage to tame this Pokémon must be of incredible bravery.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "yanma",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "ancient-power"
+      },
+      "from": "yanma",
+      "to": "yanmega",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "speed-boost"
+        },
+        {
+          "hidden": false,
+          "key": "tinted-lens"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/yanmega.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-3-area",
+            "maxLevel": 58,
+            "method": "grass-spots",
+            "minLevel": 58
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-3-area",
+            "maxLevel": 58,
+            "method": "grass-spots",
+            "minLevel": 58
+          }
+        ]
+      },
+      "games": ["platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 4,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "yanmega",
+      "kind": "default",
+      "name": "Yanmega",
+      "number": 469,
+      "pokemon": "yanmega",
+      "sourceId": 469,
+      "sprite": "/dex-images/sprites/yanmega.webp",
+      "statTotal": 515,
+      "stats": {
+        "attack": 76,
+        "defense": 86,
+        "hp": 86,
+        "special-attack": 116,
+        "special-defense": 56,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["bug", "flying"],
+      "weight": 515
+    }
+  ],
+  "generation": 4,
+  "key": "yanmega",
+  "name": "Yanmega",
+  "names": {
+    "de": "Yanmega",
+    "en": "Yanmega",
+    "es": "Yanmega",
+    "es-419": "Yanmega",
+    "fr": "Yanmega",
+    "it": "Yanmega",
+    "ja": "メガヤンマ",
+    "ja-hrkt": "メガヤンマ",
+    "ja-roma": "Megayanma",
+    "ko": "메가자리",
+    "zh-hans": "远古巨蜓",
+    "zh-hant": "遠古巨蜓"
+  },
+  "number": 469
+}

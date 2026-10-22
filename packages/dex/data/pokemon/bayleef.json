@@ -1,0 +1,196 @@
+{
+  "category": "Leaf Pokémon",
+  "entries": [
+    {
+      "text": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+      "version": "gold"
+    },
+    {
+      "text": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+      "version": "silver"
+    },
+    {
+      "text": "The scent that wafts from the leaves on its neck causes anyone who smells it to become energetic.",
+      "version": "crystal"
+    },
+    {
+      "text": "BAYLEEF’s neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+      "version": "ruby"
+    },
+    {
+      "text": "BAYLEEF’s neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A BAYLEEF’s neck is ringed by curled-up leaves. Inside each leaf is a small tree shoot. The fragrance of this shoot makes people peppy.",
+      "version": "emerald"
+    },
+    {
+      "text": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+      "version": "firered"
+    },
+    {
+      "text": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "diamond"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "pearl"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "platinum"
+    },
+    {
+      "text": "The scent of spices comes from around its neck. Somehow, sniffing it makes you want to fight.",
+      "version": "heartgold"
+    },
+    {
+      "text": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "black"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "white"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "black-2"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "white-2"
+    },
+    {
+      "text": "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+      "version": "x"
+    },
+    {
+      "text": "The buds that ring its neck give off a spicy aroma that perks people up.",
+      "version": "y"
+    },
+    {
+      "text": "Bayleef’s neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Bayleef’s neck is ringed by curled-up leaves. Inside each tubular leaf is a small shoot of a tree. The fragrance of this shoot makes people peppy.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chikorita",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "chikorita",
+      "to": "bayleef",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "bayleef",
+      "to": "meganium",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "leaf-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bayleef.webp",
+      "encounters": {
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "phenac-city-west-exit",
+            "maxLevel": 30,
+            "method": "snag",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "shadow-pokemon-lab-bf2",
+            "maxLevel": 30,
+            "method": "snag-rematch",
+            "minLevel": 30
+          },
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 30,
+            "method": "snag-rematch",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bayleef",
+      "kind": "default",
+      "name": "Bayleef",
+      "number": 153,
+      "pokemon": "bayleef",
+      "sourceId": 153,
+      "sprite": "/dex-images/sprites/bayleef.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 62,
+        "defense": 80,
+        "hp": 60,
+        "special-attack": 63,
+        "special-defense": 80,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 158
+    }
+  ],
+  "generation": 2,
+  "key": "bayleef",
+  "name": "Bayleef",
+  "names": {
+    "de": "Lorblatt",
+    "en": "Bayleef",
+    "es": "Bayleef",
+    "es-419": "Bayleef",
+    "fr": "Macronium",
+    "it": "Bayleef",
+    "ja": "ベイリーフ",
+    "ja-hrkt": "ベイリーフ",
+    "ja-roma": "Bayleaf",
+    "ko": "베이리프",
+    "zh-hans": "月桂叶",
+    "zh-hant": "月桂葉"
+  },
+  "number": 153
+}

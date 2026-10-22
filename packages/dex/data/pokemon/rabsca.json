@@ -1,0 +1,88 @@
+{
+  "category": "Rolling Pokémon",
+  "entries": [
+    {
+      "text": "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+      "version": "scarlet"
+    },
+    {
+      "text": "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rellor",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_steps": 1000
+      },
+      "from": "rellor",
+      "to": "rabsca",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rabsca.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rabsca",
+      "kind": "default",
+      "name": "Rabsca",
+      "number": 954,
+      "pokemon": "rabsca",
+      "sourceId": 954,
+      "sprite": "/dex-images/sprites/rabsca.webp",
+      "statTotal": 470,
+      "stats": {
+        "attack": 50,
+        "defense": 85,
+        "hp": 75,
+        "special-attack": 115,
+        "special-defense": 100,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["bug", "psychic"],
+      "weight": 35
+    }
+  ],
+  "generation": 9,
+  "key": "rabsca",
+  "name": "Rabsca",
+  "names": {
+    "de": "Skarabaks",
+    "en": "Rabsca",
+    "es": "Rabsca",
+    "es-419": "Rabsca",
+    "fr": "Bérasca",
+    "it": "Rabsca",
+    "ja": "ベラカス",
+    "ja-hrkt": "ベラカス",
+    "ja-roma": "Beracas",
+    "ko": "베라카스",
+    "zh-hans": "虫甲圣",
+    "zh-hant": "蟲甲聖"
+  },
+  "number": 954
+}

@@ -1,0 +1,373 @@
+{
+  "category": "Digging Pokémon",
+  "entries": [
+    {
+      "text": "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
+      "version": "x"
+    },
+    {
+      "text": "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it’s finished digging, it lounges lazily.",
+      "version": "y"
+    },
+    {
+      "text": "With their powerful ears, they can heft boulders of a ton or more with ease. They can be a big help at construction sites.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it’s finished digging, it lounges lazily.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "With power equal to an excavator, it can dig through dense bedrock. It’s a huge help during tunnel construction.",
+      "version": "sword"
+    },
+    {
+      "text": "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bunnelby",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "bunnelby",
+      "to": "diggersby",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "cheek-pouch"
+        },
+        {
+          "hidden": true,
+          "key": "huge-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/diggersby.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 340,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 65,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 1800,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 800,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 340,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 65,
+            "location": "bridge-field-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 140,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 60,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 20,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 1800,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "rolling-fields-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 800,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 27,
+            "method": "yellow-flowers",
+            "minLevel": 27
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ground",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 27,
+            "method": "yellow-flowers",
+            "minLevel": 27
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "diggersby",
+      "kind": "default",
+      "name": "Diggersby",
+      "number": 660,
+      "pokemon": "diggersby",
+      "sourceId": 660,
+      "sprite": "/dex-images/sprites/diggersby.webp",
+      "statTotal": 423,
+      "stats": {
+        "attack": 56,
+        "defense": 77,
+        "hp": 85,
+        "special-attack": 50,
+        "special-defense": 77,
+        "speed": 78
+      },
+      "tags": [],
+      "types": ["normal", "ground"],
+      "weight": 424
+    }
+  ],
+  "generation": 6,
+  "key": "diggersby",
+  "name": "Diggersby",
+  "names": {
+    "de": "Grebbit",
+    "en": "Diggersby",
+    "es": "Diggersby",
+    "es-419": "Diggersby",
+    "fr": "Excavarenne",
+    "it": "Diggersby",
+    "ja": "ホルード",
+    "ja-hrkt": "ホルード",
+    "ja-roma": "Horudo",
+    "ko": "파르토",
+    "zh-hans": "掘地兔",
+    "zh-hant": "掘地兔"
+  },
+  "number": 660
+}

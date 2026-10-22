@@ -1,0 +1,121 @@
+{
+  "category": "Fossil Pokémon",
+  "entries": [
+    {
+      "text": "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon lived on prehistoric seashores and was able to preserve food with the ice on its body. It went extinct because it moved so slowly.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "arctozolt",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "volt-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "slush-rush"
+        }
+      ],
+      "artwork": "/dex-images/artwork/arctozolt.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "galar-route-6-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 17,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 80,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["sword-shield"],
+      "gen9": false,
+      "generation": 8,
+      "height": 23,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "arctozolt",
+      "kind": "default",
+      "name": "Arctozolt",
+      "number": 881,
+      "pokemon": "arctozolt",
+      "sourceId": 881,
+      "sprite": "/dex-images/sprites/arctozolt.webp",
+      "statTotal": 505,
+      "stats": {
+        "attack": 100,
+        "defense": 90,
+        "hp": 90,
+        "special-attack": 90,
+        "special-defense": 80,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["electric", "ice"],
+      "weight": 1500
+    }
+  ],
+  "generation": 8,
+  "key": "arctozolt",
+  "name": "Arctozolt",
+  "names": {
+    "de": "Lecryodon",
+    "en": "Arctozolt",
+    "es": "Arctozolt",
+    "es-419": "Arctozolt",
+    "fr": "Galvagla",
+    "it": "Arctozolt",
+    "ja": "パッチルドン",
+    "ja-hrkt": "パッチルドン",
+    "ja-roma": "Patchilldon",
+    "ko": "파치르돈",
+    "zh-hans": "雷鸟海兽",
+    "zh-hant": "雷鳥海獸"
+  },
+  "number": 881
+}

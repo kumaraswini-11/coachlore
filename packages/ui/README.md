@@ -106,21 +106,21 @@ Before writing markup, match each element to the registry. A raw
 `<button>`, a bordered `<div>` or a styled `<span>` where one of these fits
 is a defect.
 
-| Element                         | Component                                                       |
-| ------------------------------- | --------------------------------------------------------------- |
-| A button                        | `Button`                                                        |
-| A link that looks like a button | `Button` with its `render` prop (Base UI has no `asChild`)      |
-| A list or a row                 | `Item`                                                          |
-| A count, a status, a type       | `Badge`; a Pokémon type is `TypeBadge`                          |
-| A container                     | `Card`                                                          |
-| Nothing to show, an error       | `EmptyState` (on `Empty`), with `role="alert"` for an error     |
-| Loading                         | `Skeleton`, the size and shape of the content                   |
-| A message                       | `Alert`                                                         |
-| A link in a menu                | `DropdownMenuLinkItem` (Base UI's `Menu.LinkItem`, added here)  |
-| A menu                          | `DropdownMenu`                                                  |
-| A panel                         | `Sheet` (from the side), `Drawer` (from the bottom), `Dialog`   |
-| A key                           | `Kbd`                                                           |
-| A short notice that goes away   | `Toast` (Base UI's), never for something the person must act on |
+| Element                         | Component                                                                                                                        |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| A button                        | `Button`; a touch target at `size="touch"` or `"icon-touch"` (44 px)                                                             |
+| A link that looks like a button | The link with `buttonVariants`: it keeps its link role, as shadcn's Base UI Button docs advise (`render` would make it a button) |
+| A list or a row                 | `Item`                                                                                                                           |
+| A count, a status, a type       | `Badge`; a Pokémon type is `TypeBadge`, a form's types `TypeBadges`                                                              |
+| A container                     | `Card`                                                                                                                           |
+| Nothing to show, an error       | `EmptyState` (on `Empty`), with `role="alert"` for an error                                                                      |
+| Loading                         | `Skeleton`, the size and shape of the content                                                                                    |
+| A message                       | `Alert`                                                                                                                          |
+| A link in a menu                | `DropdownMenuLinkItem` (Base UI's `Menu.LinkItem`, added here)                                                                   |
+| A menu                          | `DropdownMenu`                                                                                                                   |
+| A panel                         | `Sheet` (from the side), `Drawer` (from the bottom), `Dialog`                                                                    |
+| A key                           | `Kbd`                                                                                                                            |
+| A short notice that goes away   | `Toast` (Base UI's), never for something the person must act on                                                                  |
 
 Check what the registry has with the CLI's `search` and `docs` commands, and every component's states in
 [spec 001](../../docs/specs/001-interface/spec.md) ("States every view has").
@@ -147,8 +147,10 @@ Three rules keep compositions honest
 - **Labels:** no component writes interface text. A close button's name
   (`closeLabel` on `DialogContent`, `SheetContent`, `Toaster`), the
   Sidebar's names (`labels` on `SidebarProvider`), `CommandDialog`'s
-  `title` and `description`, `Spinner`'s `label` and `Breadcrumb`'s
-  `aria-label` are required props, given in the page's language. ESLint
+  `title` and `description`, `Spinner`'s `label`, `Breadcrumb`'s
+  `aria-label`, `Slider`'s `thumbLabels`, `ComboboxInput`'s `triggerLabel`
+  (and `clearLabel` with `showClear`) and `ComboboxChip`'s `removeLabel` are
+  required props, given in the page's language. ESLint
   rejects a written accessible name (`@workspace/eslint-config`,
   `interface-text.js`).
 
@@ -166,13 +168,32 @@ comment at the change:
   tooltip opens at `inline-end`.
 - `toast.tsx`: swiped towards the nearer edge in either direction.
 - `button.tsx`: transitions named, at `--duration-fast`, and the press
-  nudge only without reduced motion.
-- `dialog.tsx`: `DialogTitle` at `leading-snug`, so Devanagari isn't
-  clipped.
+  nudge only without reduced motion; the `touch` and `icon-touch` sizes,
+  44 px.
+- `dialog.tsx`, `label.tsx`: `DialogTitle` and `Label` at `leading-snug`,
+  so Devanagari isn't clipped.
 - `dropdown-menu.tsx`: `DropdownMenuLinkItem` added.
+- `accordion.tsx`: the trigger's whole row highlights on hover
+  (`hover:bg-muted`) instead of underlining its label, and is at least 44
+  px tall; the panel reaches 4 px past each side, so a control's focus ring
+  at its edge isn't clipped.
+- `select.tsx`: the list opens below its trigger
+  (`alignItemWithTrigger` off), as the Combobox and the menus do, and starts
+  where the trigger starts (`align="start"`).
+- `select.tsx`, `combobox.tsx`: items 44 px tall on a touch screen
+  (`pointer-coarse:min-h-11`), the registry's compact rows with a mouse.
+- `checkbox.tsx`, `radio-group.tsx`: bordered with `--control-border`, which
+  reaches 3:1 in both themes (WCAG 1.4.11), where `--input` doesn't.
 - `breadcrumb.tsx`: the ellipsis's hidden "More" removed (its wrapper is
   `aria-hidden`).
-- `input-group.tsx`, `scroll-area.tsx`, `hooks/use-mobile.ts`: lint fixes.
+- `slider.tsx`: each thumb gets its `index` (Base UI needs it to
+  server-render a range slider) and its name from `thumbLabels`, and takes
+  touches 16 px around it, a 44 px target.
+- `combobox.tsx`: the trigger, clear and chip-remove buttons get their
+  names from the label props above; the registry's had none.
+- `input-group.tsx`, `scroll-area.tsx`, `hooks/use-mobile.ts`: lint fixes;
+  `label.tsx`: `label-has-associated-control` off for its one line, since
+  the control comes from where it's used.
 
 ## Shared compositions
 
@@ -181,10 +202,11 @@ ones. Each became shared on its third use; each presents what it's given and
 knows nothing about Next.js or routes, so actions (a link, a button) come in
 as `children`.
 
-| Composition  | For                                                                                                                                                                                                                                                                                                                                | Used by                                                                                    |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| `TypeBadge`  | a Pokémon type: its name (`children`, in the page's language) on its colour, from `type-colors.ts`. Shared from the start, since nearly every screen after spec 001 shows types (spec 001's plan)                                                                                                                                  | `apps/web`: the fixture pages                                                              |
-| `EmptyState` | anything with nothing to show: an empty list, no results, a page that isn't there, an error. A title (its heading level set by `titleAs`, `h2` by default, `h1` when it is the whole page), a description, an optional `media` icon, and the actions as `children`; built on `Empty`. Pass `role="alert"` when it reports an error | `apps/web`: `not-found.tsx`, and `error.tsx` and `global-error.tsx` (through `ErrorState`) |
+| Composition  | For                                                                                                                                                                                                                                                                                                                                | Used by                                                                                                                                                          |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `TypeBadge`  | a Pokémon type: its name (`children`, in the page's language) on its colour, from `type-colors.ts`. Shared from the start, since nearly every screen after spec 001 shows types (spec 001's plan)                                                                                                                                  | `apps/web`: through `TypeBadges`                                                                                                                                 |
+| `TypeBadges` | a form's types as `TypeBadge`s, in order, wrapping; `names` and `lang` give their words. Shared on its third use                                                                                                                                                                                                                   | `apps/web`: the Dex's cards and list (its phone and wide rows)                                                                                                   |
+| `EmptyState` | anything with nothing to show: an empty list, no results, a page that isn't there, an error. A title (its heading level set by `titleAs`, `h2` by default, `h1` when it is the whole page), a description, an optional `media` icon, and the actions as `children`; built on `Empty`. Pass `role="alert"` when it reports an error | `apps/web`: `not-found.tsx`, `global-not-found.tsx`, `offline/page.tsx`, the Dex's no-match state, and `error.tsx` and `global-error.tsx` (through `ErrorState`) |
 
 ## Status
 

@@ -39,7 +39,7 @@ function DialogOverlay({
   )
 }
 
-// A close button needs its name in the page's language, so it's required
+// Coachlore: a close button needs its name in the page's language, so it's required
 // whenever the button shows (AGENTS.md: every string from the messages).
 type CloseButtonProps =
   | { showCloseButton?: true; closeLabel: string }
@@ -129,6 +129,7 @@ function DialogTitle({ className, ...props }: DialogPrimitive.Title.Props) {
     <DialogPrimitive.Title
       data-slot="dialog-title"
       className={cn(
+        // Coachlore: leading-snug, so Devanagari isn't clipped.
         "font-heading text-base leading-snug font-medium",
         className
       )}

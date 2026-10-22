@@ -1,0 +1,292 @@
+{
+  "category": "Roly-Poly Pokémon",
+  "entries": [
+    {
+      "text": "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
+      "version": "sun"
+    },
+    {
+      "text": "The long hairs on its back act as lightning rods. The bolts of lightning it attracts are stored as energy in its electric sac.",
+      "version": "moon"
+    },
+    {
+      "text": "When it’s surprised or agitated, the 14 fur spikes on its back will stand up involuntarily.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its capacity to produce electricity is somewhat limited, so it gets charged up by letting lightning strike it!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "With the long hairs on its back, this Pokémon takes in electricity from other electric Pokémon. It stores what it absorbs in an electric sac.",
+      "version": "sword"
+    },
+    {
+      "text": "When it’s in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "togedemaru",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "iron-barbs"
+        },
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": true,
+          "key": "sturdy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/togedemaru.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-route-8-main",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 30,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-route-8-main",
+            "maxLevel": 41,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "giants-seat-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "hammerlocke-hills-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 26,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 25,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 100,
+            "location": "heahea-beach-area",
+            "maxLevel": 35,
+            "method": "gift",
+            "minLevel": 35
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "sos",
+            "minLevel": 29
+          },
+          {
+            "chance": 25,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "togedemaru",
+      "kind": "default",
+      "name": "Togedemaru",
+      "number": 777,
+      "pokemon": "togedemaru",
+      "sourceId": 777,
+      "sprite": "/dex-images/sprites/togedemaru.webp",
+      "statTotal": 435,
+      "stats": {
+        "attack": 98,
+        "defense": 63,
+        "hp": 65,
+        "special-attack": 40,
+        "special-defense": 73,
+        "speed": 96
+      },
+      "tags": [],
+      "types": ["electric", "steel"],
+      "weight": 33
+    }
+  ],
+  "generation": 7,
+  "key": "togedemaru",
+  "name": "Togedemaru",
+  "names": {
+    "de": "Togedemaru",
+    "en": "Togedemaru",
+    "es": "Togedemaru",
+    "es-419": "Togedemaru",
+    "fr": "Togedemaru",
+    "it": "Togedemaru",
+    "ja": "トゲデマル",
+    "ja-hrkt": "トゲデマル",
+    "ja-roma": "Togedemaru",
+    "ko": "토게데마루",
+    "zh-hans": "托戈德玛尔",
+    "zh-hant": "托戈德瑪爾"
+  },
+  "number": 777
+}

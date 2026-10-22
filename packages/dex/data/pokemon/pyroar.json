@@ -1,0 +1,182 @@
+{
+  "category": "Royal Pokémon",
+  "entries": [
+    {
+      "text": "The male with the largest mane of fire is the leader of the pride.",
+      "version": "x"
+    },
+    {
+      "text": "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride’s cubs.",
+      "version": "y"
+    },
+    {
+      "text": "The male with the largest mane of fire is the leader of the pride.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride’s cubs.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The males are usually lazy, but when attacked by a strong foe, a male will protect its friends with no regard for its own safety.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn’t use it on its prey. This Pokémon prefers to eat raw meat.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litleo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "litleo",
+      "to": "pyroar",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rivalry"
+        },
+        {
+          "hidden": false,
+          "key": "unnerve"
+        },
+        {
+          "hidden": true,
+          "key": "moxie"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pyroar-male.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "poni-plains-center",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fire",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "formName": "Male",
+      "games": ["x-y", "ultra-sun-ultra-moon", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pyroar-male",
+      "kind": "default",
+      "name": "Pyroar",
+      "number": 668,
+      "pokemon": "pyroar",
+      "sourceId": 668,
+      "sprite": "/dex-images/sprites/pyroar-male.webp",
+      "statTotal": 507,
+      "stats": {
+        "attack": 68,
+        "defense": 72,
+        "hp": 86,
+        "special-attack": 109,
+        "special-defense": 66,
+        "speed": 106
+      },
+      "tags": [],
+      "types": ["fire", "normal"],
+      "weight": 815
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "fire-mane"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pyroar-mega.webp",
+      "encounters": {},
+      "formName": "Mega Pyroar",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 15,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "pyroar-mega",
+      "kind": "mega",
+      "name": "Pyroar-Mega",
+      "number": 668,
+      "pokemon": "pyroar",
+      "sourceId": 10295,
+      "sprite": "/dex-images/sprites/pyroar-mega.webp",
+      "statTotal": 607,
+      "stats": {
+        "attack": 88,
+        "defense": 92,
+        "hp": 86,
+        "special-attack": 129,
+        "special-defense": 86,
+        "speed": 126
+      },
+      "tags": [],
+      "types": ["fire", "normal"],
+      "weight": 933
+    }
+  ],
+  "generation": 6,
+  "key": "pyroar",
+  "name": "Pyroar",
+  "names": {
+    "de": "Pyroleo",
+    "en": "Pyroar",
+    "es": "Pyroar",
+    "es-419": "Pyroar",
+    "fr": "Némélios",
+    "it": "Pyroar",
+    "ja": "カエンジシ",
+    "ja-hrkt": "カエンジシ",
+    "ja-roma": "Kaenjishi",
+    "ko": "화염레오",
+    "zh-hans": "火炎狮",
+    "zh-hant": "火炎獅"
+  },
+  "number": 668
+}

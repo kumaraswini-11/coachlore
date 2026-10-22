@@ -9,18 +9,18 @@
 
 ## Packages and files
 
-| Path                                                        | Change                                                                                                   |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| `apps/web/lib/site-url.ts`                                  | New, `import "server-only"`: the site's address (below); `lib/site.ts` keeps the name, line and colours  |
-| `apps/web/lib/site.ts`                                      | `SITE_URL` moves out to `site-url.ts`, so client components that import `SITE` don't carry it            |
-| `apps/web/instrumentation.ts`                               | New: Sentry's server and edge set-up, and `onRequestError`                                               |
-| `apps/web/instrumentation-client.ts`                        | New: Sentry's browser set-up                                                                             |
-| `apps/web/sentry.server.config.ts`, `sentry.edge.config.ts` | New, as Sentry's Next.js guide lays them out                                                             |
-| `apps/web/next.config.ts`                                   | Wrapped with Sentry's build plugin: source maps uploaded then deleted, and a tunnel route                |
-| `apps/web/app/error.tsx`, `global-error.tsx`                | `Sentry.captureException(error)` instead of `console.error`                                              |
-| `apps/web/app/(dev)/error-check/page.tsx`                   | New: throws on purpose; `notFound()` in production (`VERCEL_ENV === "production"`)                       |
-| `apps/web/.env.example`                                     | Every variable below                                                                                     |
-| `turbo.json`                                                | The build task declares the variables below in `env`, so Turborepo's strict environment mode passes them |
+| Path                                                        | Change                                                                                                                                                 |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `apps/web/lib/site-url.ts`                                  | New, `import "server-only"`: the site's address (below); `lib/site.ts` keeps the name, line and colours                                                |
+| `apps/web/lib/site.ts`                                      | `SITE_URL` moves out to `site-url.ts`, so client components that import `SITE` don't carry it                                                          |
+| `apps/web/instrumentation.ts`                               | New: Sentry's server and edge set-up, and `onRequestError`                                                                                             |
+| `apps/web/instrumentation-client.ts`                        | New: Sentry's browser set-up                                                                                                                           |
+| `apps/web/sentry.server.config.ts`, `sentry.edge.config.ts` | New, as Sentry's Next.js guide lays them out                                                                                                           |
+| `apps/web/next.config.ts`                                   | Wrapped with Sentry's build plugin: source maps uploaded then deleted, and a tunnel route                                                              |
+| `apps/web/app/error.tsx`, `global-error.tsx`                | `Sentry.captureException(error)` instead of `console.error`                                                                                            |
+| `apps/web/app/(dev)/error-check/page.tsx`                   | New: throws on purpose; `notFound()` in production (`VERCEL_ENV === "production"`). Removed 2026-10-22, [ADR 0010](../../adr/0010-only-real-routes.md) |
+| `apps/web/.env.example`                                     | Every variable below                                                                                                                                   |
+| `turbo.json`                                                | The build task declares the variables below in `env`, so Turborepo's strict environment mode passes them                                               |
 
 ## The site's address
 

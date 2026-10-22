@@ -1,0 +1,545 @@
+{
+  "category": "Stone Home Pokémon",
+  "entries": [
+    {
+      "text": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+      "version": "black"
+    },
+    {
+      "text": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+      "version": "white"
+    },
+    {
+      "text": "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
+      "version": "black-2"
+    },
+    {
+      "text": "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
+      "version": "white-2"
+    },
+    {
+      "text": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+      "version": "x"
+    },
+    {
+      "text": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+      "version": "y"
+    },
+    {
+      "text": "It possesses legs of enormous strength, enabling it to carry heavy slabs for many days, even when crossing arid land.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Competing for territory, Crustle fight viciously. The one whose boulder is broken is the loser of the battle.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This highly territorial Pokémon prefers dry climates. It won’t come out of its boulder on rainy days.",
+      "version": "sword"
+    },
+    {
+      "text": "Its thick claws are its greatest weapons. They’re mighty enough to crack Rhyperior’s carapace.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dwebble",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "dwebble",
+      "to": "crustle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "weak-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/crustle.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 15,
+            "location": "mirage-spot-mountain-south-east-of-route-129",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          }
+        ],
+        "black": [
+          {
+            "chance": 30,
+            "location": "unova-route-18-area",
+            "maxLevel": 35,
+            "method": "dark-grass",
+            "minLevel": 34
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "seaside-cave-1f",
+            "maxLevel": 42,
+            "method": "static",
+            "minLevel": 42
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 15,
+            "location": "mirage-spot-mountain-south-east-of-route-129",
+            "maxLevel": 37,
+            "method": "rock-smash",
+            "minLevel": 37
+          }
+        ],
+        "shield": [
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 30,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 70,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 1400,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 70,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 30,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "galar-route-8-main",
+            "maxLevel": 40,
+            "method": "static",
+            "minLevel": 40
+          },
+          {
+            "chance": 85,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 125,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 1400,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 125,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 95,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 95,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "training-lowlands-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 95,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "unova-route-18-area",
+            "maxLevel": 35,
+            "method": "dark-grass",
+            "minLevel": 34
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "seaside-cave-1f",
+            "maxLevel": 42,
+            "method": "static",
+            "minLevel": 42
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "crustle",
+      "kind": "default",
+      "name": "Crustle",
+      "number": 558,
+      "pokemon": "crustle",
+      "sourceId": 558,
+      "sprite": "/dex-images/sprites/crustle.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 105,
+        "defense": 125,
+        "hp": 70,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["bug", "rock"],
+      "weight": 2000
+    }
+  ],
+  "generation": 5,
+  "key": "crustle",
+  "name": "Crustle",
+  "names": {
+    "de": "Castellith",
+    "en": "Crustle",
+    "es": "Crustle",
+    "es-419": "Crustle",
+    "fr": "Crabaraque",
+    "it": "Crustle",
+    "ja": "イワパレス",
+    "ja-hrkt": "イワパレス",
+    "ja-roma": "Iwapalace",
+    "ko": "암팰리스",
+    "zh-hans": "岩殿居蟹",
+    "zh-hant": "岩殿居蟹"
+  },
+  "number": 558
+}

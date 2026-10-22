@@ -1,0 +1,96 @@
+{
+  "category": "Fire Blades Pokémon",
+  "entries": [
+    {
+      "text": "The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.",
+      "version": "scarlet"
+    },
+    {
+      "text": "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "charcadet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "auspicious-armor"
+      },
+      "from": "charcadet",
+      "to": "armarouge",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "malicious-armor"
+      },
+      "from": "charcadet",
+      "to": "ceruledge",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": true,
+          "key": "weak-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/ceruledge.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "ceruledge",
+      "kind": "default",
+      "name": "Ceruledge",
+      "number": 937,
+      "pokemon": "ceruledge",
+      "sourceId": 937,
+      "sprite": "/dex-images/sprites/ceruledge.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 125,
+        "defense": 80,
+        "hp": 75,
+        "special-attack": 60,
+        "special-defense": 100,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["fire", "ghost"],
+      "weight": 620
+    }
+  ],
+  "generation": 9,
+  "key": "ceruledge",
+  "name": "Ceruledge",
+  "names": {
+    "de": "Azugladis",
+    "en": "Ceruledge",
+    "es": "Ceruledge",
+    "es-419": "Ceruledge",
+    "fr": "Malvalame",
+    "it": "Ceruledge",
+    "ja": "ソウブレイズ",
+    "ja-hrkt": "ソウブレイズ",
+    "ja-roma": "Soublades",
+    "ko": "파라블레이즈",
+    "zh-hans": "苍炎刃鬼",
+    "zh-hant": "蒼炎刃鬼"
+  },
+  "number": 937
+}

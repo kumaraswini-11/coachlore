@@ -1,0 +1,1273 @@
+{
+  "category": "Sharp Claw Pokémon",
+  "entries": [
+    {
+      "text": "Its paws conceal sharp claws. If attacked, it sud denly extends the claws and startles its enemy.",
+      "version": "gold"
+    },
+    {
+      "text": "Vicious in nature, it drives PIDGEY from their nests and feasts on the eggs that are left behind.",
+      "version": "silver"
+    },
+    {
+      "text": "This cunning POKéMON hides under the cover of darkness, waiting to attack its prey.",
+      "version": "crystal"
+    },
+    {
+      "text": "SNEASEL scales trees by punching its hooked claws into the bark. This POKéMON seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "version": "ruby"
+    },
+    {
+      "text": "SNEASEL scales trees by punching its hooked claws into the bark. This POKéMON seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A SNEASEL scales trees by punching its hooked claws into the bark. It seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "version": "emerald"
+    },
+    {
+      "text": "Vicious in nature, it drives PIDGEY from their nests and feasts on the eggs that are left behind.",
+      "version": "firered"
+    },
+    {
+      "text": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
+      "version": "diamond"
+    },
+    {
+      "text": "It is extremely vicious and will not stop attacking until its foe is incapable of moving.",
+      "version": "pearl"
+    },
+    {
+      "text": "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Vicious in nature, it drives PIDGEY from their nests and scavenges any leftovers it can find.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+      "version": "black"
+    },
+    {
+      "text": "A smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+      "version": "white"
+    },
+    {
+      "text": "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+      "version": "black-2"
+    },
+    {
+      "text": "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+      "version": "white-2"
+    },
+    {
+      "text": "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
+      "version": "x"
+    },
+    {
+      "text": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+      "version": "y"
+    },
+    {
+      "text": "Sneasel scales trees by punching its hooked claws into the bark. This Pokémon seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Sneasel scales trees by punching its hooked claws into the bark. This Pokémon seeks out unguarded nests and steals eggs for food while the parents are away.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.",
+      "version": "sun"
+    },
+    {
+      "text": "It uses its claws to poke holes in eggs so it can slurp out the insides. Breeders consider it a scourge and will drive it away or eradicate it.",
+      "version": "moon"
+    },
+    {
+      "text": "They will cooperate to steal eggs from the nests of bird Pokémon, but fights break out to determine which one gets to eat the eggs.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It blends into the dark of night to ambush its prey. Sneasel will attack Sandshrew, but its hard skin can cause Sneasel’s claws to snap off.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+      "version": "sword"
+    },
+    {
+      "text": "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.",
+      "version": "shield"
+    },
+    {
+      "text": "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sneasel",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "razor-claw",
+        "time_of_day": "night"
+      },
+      "from": "sneasel",
+      "to": "weavile",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "razor-claw",
+        "required_pokemon_form": "sneasel-hisui",
+        "time_of_day": "day"
+      },
+      "from": "sneasel",
+      "to": "sneasler",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "pickpocket"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sneasel.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "giant-chasm-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "giant-chasm-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "giant-chasm-hidden-grotto",
+            "maxLevel": 49,
+            "method": "hidden-grotto",
+            "minLevel": 45
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 43,
+            "method": "snag-rematch",
+            "minLevel": 43
+          },
+          {
+            "chance": 100,
+            "location": "the-under-subway",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 1,
+            "location": "ice-path-b1f",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "ice-path-b2f",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "ice-path-b3f",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 25,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 33,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-4f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-top",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "icefall-cave-1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "icefall-cave-b1f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 25,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 33,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 35,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 51,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "lake-acuity-area",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 35,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 51,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b2f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b3f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b4f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 10,
+            "location": "snowpoint-temple-b5f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          }
+        ],
+        "shield": [
+          {
+            "chance": 220,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 220,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 14,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 45,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 120,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 120,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 150,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 65,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 100,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 65,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 290,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 290,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 240,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 240,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "kanto-route-28-area",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-1f-top",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-4f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "mt-silver-outside",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-top",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 45
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "sword": [
+          {
+            "chance": 220,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 220,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 14,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 45,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 45,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 120,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 120,
+            "location": "giants-cap-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 150,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "giants-cap-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 70,
+            "location": "giants-mirror-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 42
+          },
+          {
+            "chance": 100,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "hammerlocke-hills-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 290,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 290,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 120,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 130,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 240,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 240,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 240,
+            "location": "frigid-sea-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 240,
+            "location": "frostpoint-field-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 240,
+            "location": "giants-bed-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 240,
+            "location": "giants-foot-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 10,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 10,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 240,
+            "location": "snowslide-slope-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 240,
+            "location": "frigid-sea-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 240,
+            "location": "frostpoint-field-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 240,
+            "location": "giants-bed-max-den-l",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 240,
+            "location": "giants-foot-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 10,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 10,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 240,
+            "location": "snowslide-slope-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "mount-lanakila-cave",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "mount-lanakila-outside",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "giant-chasm-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 10,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "giant-chasm-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "giant-chasm-hidden-grotto",
+            "maxLevel": 49,
+            "method": "hidden-grotto",
+            "minLevel": 45
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 29,
+            "location": "kalos-route-17-area",
+            "maxLevel": 40,
+            "method": "rough-terrain",
+            "minLevel": 38
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 29,
+            "location": "kalos-route-17-area",
+            "maxLevel": 40,
+            "method": "rough-terrain",
+            "minLevel": 38
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sneasel",
+      "kind": "default",
+      "name": "Sneasel",
+      "number": 215,
+      "pokemon": "sneasel",
+      "sourceId": 215,
+      "sprite": "/dex-images/sprites/sneasel.webp",
+      "statTotal": 430,
+      "stats": {
+        "attack": 95,
+        "defense": 55,
+        "hp": 55,
+        "special-attack": 35,
+        "special-defense": 75,
+        "speed": 115
+      },
+      "tags": [],
+      "types": ["dark", "ice"],
+      "weight": 280
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "pickpocket"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sneasel-hisui.webp",
+      "encounters": {},
+      "formName": "Hisuian Form",
+      "games": ["legends-arceus"],
+      "gen9": true,
+      "generation": 8,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "sneasel-hisui",
+      "kind": "regional",
+      "name": "Sneasel-Hisui",
+      "number": 215,
+      "pokemon": "sneasel",
+      "sourceId": 10235,
+      "sprite": "/dex-images/sprites/sneasel-hisui.webp",
+      "statTotal": 430,
+      "stats": {
+        "attack": 95,
+        "defense": 55,
+        "hp": 55,
+        "special-attack": 35,
+        "special-defense": 75,
+        "speed": 115
+      },
+      "tags": [],
+      "types": ["fighting", "poison"],
+      "weight": 270
+    }
+  ],
+  "generation": 2,
+  "key": "sneasel",
+  "name": "Sneasel",
+  "names": {
+    "de": "Sniebel",
+    "en": "Sneasel",
+    "es": "Sneasel",
+    "es-419": "Sneasel",
+    "fr": "Farfuret",
+    "it": "Sneasel",
+    "ja": "ニューラ",
+    "ja-hrkt": "ニューラ",
+    "ja-roma": "Nyula",
+    "ko": "포푸니",
+    "zh-hans": "狃拉",
+    "zh-hant": "狃拉"
+  },
+  "number": 215
+}

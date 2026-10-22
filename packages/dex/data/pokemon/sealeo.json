@@ -1,0 +1,358 @@
+{
+  "category": "Ball Roll Pokémon",
+  "entries": [
+    {
+      "text": "SEALEO has the habit of always juggling on the tip of its nose anything it sees for the first time. This POKéMON occasionally entertains itself by balancing and rolling a SPHEAL on its nose.",
+      "version": "ruby"
+    },
+    {
+      "text": "SEALEO often balances and rolls things on the tip of its nose. While the POKéMON is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not.",
+      "version": "sapphire"
+    },
+    {
+      "text": "SEALEO live in herds on ice floes. Using its powerful flippers, it shatters ice. It dives into the sea to hunt prey five times a day.",
+      "version": "emerald"
+    },
+    {
+      "text": "It touches new things with its nose to test for smell and feel. It plays by spinning SPHEAL on its nose.",
+      "version": "firered"
+    },
+    {
+      "text": "It touches new things with its nose to test for smell and feel. It plays by spinning SPHEAL on its nose.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+      "version": "diamond"
+    },
+    {
+      "text": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+      "version": "pearl"
+    },
+    {
+      "text": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+      "version": "platinum"
+    },
+    {
+      "text": "It has a very sensitive nose. It touches new things with its nose to examine them.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It has a very sensitive nose. It touches new things with its nose to examine them.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+      "version": "black"
+    },
+    {
+      "text": "It habitually spins things on its nose. By doing so, it learns textures and odors.",
+      "version": "white"
+    },
+    {
+      "text": "Be it Spheal or Poké Ball, it will spin any round object on its nose with the greatest of ease.",
+      "version": "black-2"
+    },
+    {
+      "text": "Be it Spheal or Poké Ball, it will spin any round object on its nose with the greatest of ease.",
+      "version": "white-2"
+    },
+    {
+      "text": "It has a very sensitive nose. It touches new things with its nose to examine them.",
+      "version": "x"
+    },
+    {
+      "text": "Be it Spheal or Poké Ball, it will spin any round object on its nose with the greatest of ease.",
+      "version": "y"
+    },
+    {
+      "text": "Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. This Pokémon occasionally entertains itself by balancing and rolling a Spheal on its nose.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Sealeo often balances and rolls things on the tip of its nose. While the Pokémon is rolling something, it checks the object’s aroma and texture to determine whether it likes the object or not.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Sealeo live on top of drift ice. They go swimming when they’re on the hunt, seeking out their prey by scent.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon has a habit of spinning round things on its nose, whether those things are Poké Balls or Spheal.",
+      "version": "shield"
+    },
+    {
+      "text": "Its white whiskers are very sensitive. Sealeo will balance Spheal on the tip of its nose, checking its scent and its feel to be sure the Spheal is healthy.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "spheal",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "spheal",
+      "to": "sealeo",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 44
+      },
+      "from": "sealeo",
+      "to": "walrein",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "ice-body"
+        },
+        {
+          "hidden": true,
+          "key": "oblivious"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sealeo.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-226-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 40
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 60,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 55,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-mountain",
+            "maxLevel": 45,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 700,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 700,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "frigid-sea-max-den-n",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "giants-bed-max-den-o",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 150,
+            "location": "giants-bed-max-den-q",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 60,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "sword-shield", "the-crown-tundra", "legends-arceus"],
+      "gen9": false,
+      "generation": 3,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sealeo",
+      "kind": "default",
+      "name": "Sealeo",
+      "number": 364,
+      "pokemon": "sealeo",
+      "sourceId": 364,
+      "sprite": "/dex-images/sprites/sealeo.webp",
+      "statTotal": 410,
+      "stats": {
+        "attack": 60,
+        "defense": 70,
+        "hp": 90,
+        "special-attack": 75,
+        "special-defense": 70,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["ice", "water"],
+      "weight": 876
+    }
+  ],
+  "generation": 3,
+  "key": "sealeo",
+  "name": "Sealeo",
+  "names": {
+    "de": "Seejong",
+    "en": "Sealeo",
+    "es": "Sealeo",
+    "es-419": "Sealeo",
+    "fr": "Phogleur",
+    "it": "Sealeo",
+    "ja": "トドグラー",
+    "ja-hrkt": "トドグラー",
+    "ja-roma": "Todoggler",
+    "ko": "씨레오",
+    "zh-hans": "海魔狮",
+    "zh-hant": "海魔獅"
+  },
+  "number": 364
+}

@@ -1,0 +1,172 @@
+{
+  "category": "Virtual Pokémon",
+  "entries": [
+    {
+      "text": "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
+      "version": "diamond"
+    },
+    {
+      "text": "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error...",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error...",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+      "version": "black"
+    },
+    {
+      "text": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+      "version": "white"
+    },
+    {
+      "text": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+      "version": "white-2"
+    },
+    {
+      "text": "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
+      "version": "x"
+    },
+    {
+      "text": "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error...",
+      "version": "y"
+    },
+    {
+      "text": "Additional software was installed to make it a better Pokémon. It began acting oddly, however.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its programming was modified to enable it to travel through alien dimensions. Seems there might have been an error...",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "In order to create a more advanced Pokémon, an additional program was installed, but apparently it contained a defect that makes it move oddly.",
+      "version": "sun"
+    },
+    {
+      "text": "Its program was modified to facilitate extra-dimensional activities, but that led to noticeably strange behavior.",
+      "version": "moon"
+    },
+    {
+      "text": "Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who updated its programming.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Porygon-Z had a program installed to allow it to move between dimensions, but the program also caused instability in Porygon-Z’s behavior.",
+      "version": "sword"
+    },
+    {
+      "text": "Some say an additional program made this Pokémon evolve, but even academics can’t agree on whether Porygon-Z is really an evolution.",
+      "version": "shield"
+    },
+    {
+      "text": "A curious item induced this evolution. The Pokémon's offensive capabilities have greatly increased, but the strangeness of its behavior has magnified in equal measure. This worries me.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "porygon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "up-grade"
+      },
+      "from": "porygon",
+      "to": "porygon2",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "held_item": "dubious-disc"
+      },
+      "from": "porygon2",
+      "to": "porygon-z",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "adaptability"
+        },
+        {
+          "hidden": false,
+          "key": "download"
+        },
+        {
+          "hidden": true,
+          "key": "analytic"
+        }
+      ],
+      "artwork": "/dex-images/artwork/porygon-z.webp",
+      "encounters": {},
+      "games": ["platinum", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "legends-arceus", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 4,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "porygon-z",
+      "kind": "default",
+      "name": "Porygon-Z",
+      "number": 474,
+      "pokemon": "porygon-z",
+      "sourceId": 474,
+      "sprite": "/dex-images/sprites/porygon-z.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 80,
+        "defense": 70,
+        "hp": 85,
+        "special-attack": 135,
+        "special-defense": 75,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 340
+    }
+  ],
+  "generation": 4,
+  "key": "porygon-z",
+  "name": "Porygon-Z",
+  "names": {
+    "de": "Porygon-Z",
+    "en": "Porygon-Z",
+    "es": "Porygon-Z",
+    "es-419": "Porygon-Z",
+    "fr": "Porygon-Z",
+    "it": "Porygon-Z",
+    "ja": "ポリゴンＺ",
+    "ja-hrkt": "ポリゴンＺ",
+    "ja-roma": "Porygon-Z",
+    "ko": "폴리곤Z",
+    "zh-hans": "多边兽乙型",
+    "zh-hant": "多邊獸Ｚ"
+  },
+  "number": 474
+}

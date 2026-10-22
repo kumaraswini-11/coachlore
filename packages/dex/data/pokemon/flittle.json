@@ -1,0 +1,92 @@
+{
+  "category": "Frill Pokémon",
+  "entries": [
+    {
+      "text": "Flittle’s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon’s belly.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "flittle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "flittle",
+      "to": "espathra",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "anticipation"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/flittle.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "flittle",
+      "kind": "default",
+      "name": "Flittle",
+      "number": 955,
+      "pokemon": "flittle",
+      "sourceId": 955,
+      "sprite": "/dex-images/sprites/flittle.webp",
+      "statTotal": 255,
+      "stats": {
+        "attack": 35,
+        "defense": 30,
+        "hp": 30,
+        "special-attack": 55,
+        "special-defense": 30,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 15
+    }
+  ],
+  "generation": 9,
+  "key": "flittle",
+  "name": "Flittle",
+  "names": {
+    "de": "Flattutu",
+    "en": "Flittle",
+    "es": "Flittle",
+    "es-419": "Flittle",
+    "fr": "Flotillon",
+    "it": "Flittle",
+    "ja": "ヒラヒナ",
+    "ja-hrkt": "ヒラヒナ",
+    "ja-roma": "Hirahina",
+    "ko": "하느라기",
+    "zh-hans": "飘飘雏",
+    "zh-hant": "飄飄雛"
+  },
+  "number": 955
+}

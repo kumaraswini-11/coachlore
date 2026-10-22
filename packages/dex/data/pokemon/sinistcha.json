@@ -1,0 +1,101 @@
+{
+  "category": "Matcha Pokémon",
+  "entries": [
+    {
+      "text": "It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It prefers cool, dark places, such as the back of a shelf or the space beneath a home's floorboards. It wanders in search of prey after sunset.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poltchageist",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sinistcha-unremarkable",
+        "item": "unremarkable-teacup",
+        "required_pokemon_form": "poltchageist-counterfeit"
+      },
+      "from": "poltchageist",
+      "to": "sinistcha",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "sinistcha-masterpiece",
+        "item": "masterpiece-teacup",
+        "required_pokemon_form": "poltchageist-artisan"
+      },
+      "from": "poltchageist",
+      "to": "sinistcha",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hospitality"
+        },
+        {
+          "hidden": true,
+          "key": "heatproof"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sinistcha.webp",
+      "encounters": {},
+      "formName": "Unremarkable Form",
+      "games": ["scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 2,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sinistcha",
+      "kind": "default",
+      "name": "Sinistcha",
+      "number": 1013,
+      "pokemon": "sinistcha",
+      "sourceId": 1013,
+      "sprite": "/dex-images/sprites/sinistcha.webp",
+      "statTotal": 508,
+      "stats": {
+        "attack": 60,
+        "defense": 106,
+        "hp": 71,
+        "special-attack": 121,
+        "special-defense": 80,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["grass", "ghost"],
+      "weight": 22
+    }
+  ],
+  "generation": 9,
+  "key": "sinistcha",
+  "name": "Sinistcha",
+  "names": {
+    "de": "Fatalitcha",
+    "en": "Sinistcha",
+    "es": "Sinistcha",
+    "es-419": "Sinistcha",
+    "fr": "Théffroyable",
+    "it": "Sinistcha",
+    "ja": "ヤバソチャ",
+    "ja-hrkt": "ヤバソチャ",
+    "ja-roma": "Yabasocha",
+    "ko": "그우린차",
+    "zh-hans": "来悲粗茶",
+    "zh-hant": "來悲粗茶"
+  },
+  "number": 1013
+}

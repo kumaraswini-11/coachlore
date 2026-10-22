@@ -1,0 +1,124 @@
+{
+  "category": "Ore Pokémon",
+  "entries": [
+    {
+      "text": "When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Glimmora’s petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "glimmet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "glimmet",
+      "to": "glimmora",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "toxic-debris"
+        },
+        {
+          "hidden": true,
+          "key": "corrosion"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glimmora.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "glimmora",
+      "kind": "default",
+      "name": "Glimmora",
+      "number": 970,
+      "pokemon": "glimmora",
+      "sourceId": 970,
+      "sprite": "/dex-images/sprites/glimmora.webp",
+      "statTotal": 525,
+      "stats": {
+        "attack": 55,
+        "defense": 90,
+        "hp": 83,
+        "special-attack": 130,
+        "special-defense": 81,
+        "speed": 86
+      },
+      "tags": [],
+      "types": ["rock", "poison"],
+      "weight": 450
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "adaptability"
+        }
+      ],
+      "artwork": "/dex-images/artwork/glimmora-mega.webp",
+      "encounters": {},
+      "formName": "Mega Glimmora",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 28,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "glimmora-mega",
+      "kind": "mega",
+      "name": "Glimmora-Mega",
+      "number": 970,
+      "pokemon": "glimmora",
+      "sourceId": 10321,
+      "sprite": "/dex-images/sprites/glimmora-mega.webp",
+      "statTotal": 625,
+      "stats": {
+        "attack": 90,
+        "defense": 105,
+        "hp": 83,
+        "special-attack": 150,
+        "special-defense": 96,
+        "speed": 101
+      },
+      "tags": [],
+      "types": ["rock", "poison"],
+      "weight": 770
+    }
+  ],
+  "generation": 9,
+  "key": "glimmora",
+  "name": "Glimmora",
+  "names": {
+    "de": "Lumiflora",
+    "en": "Glimmora",
+    "es": "Glimmora",
+    "es-419": "Glimmora",
+    "fr": "Floréclat",
+    "it": "Glimmora",
+    "ja": "キラフロル",
+    "ja-hrkt": "キラフロル",
+    "ja-roma": "Kiraflor",
+    "ko": "킬라플로르",
+    "zh-hans": "晶光花",
+    "zh-hant": "晶光花"
+  },
+  "number": 970
+}

@@ -1,0 +1,652 @@
+{
+  "category": "Flycatcher Pokémon",
+  "entries": [
+    {
+      "text": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+      "version": "red"
+    },
+    {
+      "text": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+      "version": "blue"
+    },
+    {
+      "text": "When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids.",
+      "version": "yellow"
+    },
+    {
+      "text": "Even though it is filled with ACID, it does not melt because it also oozes a neutralizing fluid.",
+      "version": "gold"
+    },
+    {
+      "text": "If its prey is bigger than its mouth, it slices up the victim with sharp leaves, then eats every morsel.",
+      "version": "silver"
+    },
+    {
+      "text": "When it's hungry, it swings its razor-sharp leaves, slicing up any unlucky object nearby for food.",
+      "version": "crystal"
+    },
+    {
+      "text": "WEEPINBELL has a large hook on its rear end. At night, the POKéMON hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "version": "ruby"
+    },
+    {
+      "text": "WEEPINBELL has a large hook on its rear end. At night, the POKéMON hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "version": "sapphire"
+    },
+    {
+      "text": "At night, a WEEPINBELL hangs on to a tree branch with its hooked rear and sleeps. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "version": "emerald"
+    },
+    {
+      "text": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+      "version": "firered"
+    },
+    {
+      "text": "It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "pearl"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "platinum"
+    },
+    {
+      "text": "Even though it is filled with acid, it does not melt because it also oozes a protective fluid.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If its prey is bigger than its mouth, it slices up the victim with sharp leaves, then eats every morsel.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "black"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "white"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "black-2"
+    },
+    {
+      "text": "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+      "version": "white-2"
+    },
+    {
+      "text": "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+      "version": "x"
+    },
+    {
+      "text": "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+      "version": "y"
+    },
+    {
+      "text": "Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bellsprout",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "bellsprout",
+      "to": "weepinbell",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "weepinbell",
+      "to": "victreebel",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "gluttony"
+        }
+      ],
+      "artwork": "/dex-images/artwork/weepinbell.webp",
+      "encounters": {
+        "blue": [
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 30,
+            "location": "johto-route-44-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "gold": [
+          {
+            "chance": 35,
+            "location": "johto-route-44-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 35,
+            "location": "johto-route-44-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 20,
+            "location": "berry-forest-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "bond-bridge-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 15,
+            "location": "cape-brink-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "water-path-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-12-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 31
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-13-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 52,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 5,
+            "location": "sinnoh-route-224-area",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "sinnoh-sea-route-230-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "silver": [
+          {
+            "chance": 35,
+            "location": "johto-route-44-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 35,
+            "location": "johto-route-44-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 46
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-14-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "yellow-flowers",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "kalos-route-19-area",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          },
+          {
+            "chance": 90,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "purple-flowers",
+            "minLevel": 46
+          },
+          {
+            "chance": 90,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "yellow-flowers",
+            "minLevel": 48
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-key-lair-roof",
+            "maxLevel": 32,
+            "method": "snag",
+            "minLevel": 32
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-14-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-16-area",
+            "maxLevel": 36,
+            "method": "yellow-flowers",
+            "minLevel": 35
+          },
+          {
+            "chance": 90,
+            "location": "kalos-route-19-area",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          },
+          {
+            "chance": 90,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "purple-flowers",
+            "minLevel": 46
+          },
+          {
+            "chance": 90,
+            "location": "kalos-route-19-area",
+            "maxLevel": 48,
+            "method": "yellow-flowers",
+            "minLevel": 48
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-12-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-13-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za"],
+      "gen9": true,
+      "generation": 1,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "weepinbell",
+      "kind": "default",
+      "name": "Weepinbell",
+      "number": 70,
+      "pokemon": "weepinbell",
+      "sourceId": 70,
+      "sprite": "/dex-images/sprites/weepinbell.webp",
+      "statTotal": 390,
+      "stats": {
+        "attack": 90,
+        "defense": 50,
+        "hp": 65,
+        "special-attack": 85,
+        "special-defense": 45,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["grass", "poison"],
+      "weight": 64
+    }
+  ],
+  "generation": 1,
+  "key": "weepinbell",
+  "name": "Weepinbell",
+  "names": {
+    "de": "Ultrigaria",
+    "en": "Weepinbell",
+    "es": "Weepinbell",
+    "es-419": "Weepinbell",
+    "fr": "Boustiflor",
+    "it": "Weepinbell",
+    "ja": "ウツドン",
+    "ja-hrkt": "ウツドン",
+    "ja-roma": "Utsudon",
+    "ko": "우츠동",
+    "zh-hans": "口呆花",
+    "zh-hant": "口呆花"
+  },
+  "number": 70
+}

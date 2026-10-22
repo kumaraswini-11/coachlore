@@ -1,0 +1,567 @@
+{
+  "category": "Mantle Pokémon",
+  "entries": [
+    {
+      "text": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+      "version": "black"
+    },
+    {
+      "text": "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+      "version": "white"
+    },
+    {
+      "text": "The hexagonal-shaped hole is its ear. It has a tendency to walk in the direction the sound is coming from.",
+      "version": "black-2"
+    },
+    {
+      "text": "The hexagonal-shaped hole is its ear. It has a tendency to walk in the direction the sound is coming from.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+      "version": "x"
+    },
+    {
+      "text": "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+      "version": "y"
+    },
+    {
+      "text": "Its ear is hexagonal in shape. Compressed underground, its body is as hard as steel.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Born deep within the ground, it compares itself with similar species, such as Geodude and Carbink, to settle which has the hardest body.",
+      "version": "sun"
+    },
+    {
+      "text": "The hexagonal cavity is its ear. It walks in the direction of sounds it hears, but if the sounds cease, it panics and topples over.",
+      "version": "moon"
+    },
+    {
+      "text": "The hexagonal hole is its ear. Deep in that ear is an energy core, so if you stick your hand in there, Roggenrola will be very angry!",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It was found in a fissure in a layer of exposed rock. The material that makes up its body is dirt from several hundred years ago.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It’s as hard as steel, but apparently a long soak in water will cause it to soften a bit.",
+      "version": "sword"
+    },
+    {
+      "text": "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "roggenrola",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "roggenrola",
+      "to": "boldore",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {},
+      "from": "boldore",
+      "to": "gigalith",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "weak-armor"
+        },
+        {
+          "hidden": true,
+          "key": "sand-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/roggenrola.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 50,
+            "location": "wellspring-cave-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 34,
+            "location": "relic-passage-castelia-sewers-entrance",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "moon": [
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "ten-carat-hill-inside",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "shield": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "galar-mine-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 720,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 8
+          },
+          {
+            "chance": 90,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "ten-carat-hill-inside",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "galar-mine-area",
+            "maxLevel": 14,
+            "method": "overworld",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "giants-seat-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 720,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "overworld-dirt",
+            "minLevel": 8
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-h",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-l",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 1004,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 1004,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 1004,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 1004,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-inside",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-inside",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "white": [
+          {
+            "chance": 50,
+            "location": "wellspring-cave-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 34,
+            "location": "relic-passage-castelia-sewers-entrance",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "roggenrola",
+      "kind": "default",
+      "name": "Roggenrola",
+      "number": 524,
+      "pokemon": "roggenrola",
+      "sourceId": 524,
+      "sprite": "/dex-images/sprites/roggenrola.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 75,
+        "defense": 85,
+        "hp": 55,
+        "special-attack": 25,
+        "special-defense": 25,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 180
+    }
+  ],
+  "generation": 5,
+  "key": "roggenrola",
+  "name": "Roggenrola",
+  "names": {
+    "de": "Kiesling",
+    "en": "Roggenrola",
+    "es": "Roggenrola",
+    "es-419": "Roggenrola",
+    "fr": "Nodulithe",
+    "it": "Roggenrola",
+    "ja": "ダンゴロ",
+    "ja-hrkt": "ダンゴロ",
+    "ja-roma": "Dangoro",
+    "ko": "단굴",
+    "zh-hans": "石丸子",
+    "zh-hant": "石丸子"
+  },
+  "number": 524
+}

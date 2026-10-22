@@ -1,0 +1,96 @@
+{
+  "category": "Dancer Pokémon",
+  "entries": [
+    {
+      "text": "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "quaxly",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "quaxly",
+      "to": "quaxwell",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "quaxwell",
+      "to": "quaquaval",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "moxie"
+        }
+      ],
+      "artwork": "/dex-images/artwork/quaquaval.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "quaquaval",
+      "kind": "default",
+      "name": "Quaquaval",
+      "number": 914,
+      "pokemon": "quaquaval",
+      "sourceId": 914,
+      "sprite": "/dex-images/sprites/quaquaval.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 120,
+        "defense": 80,
+        "hp": 85,
+        "special-attack": 85,
+        "special-defense": 75,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["water", "fighting"],
+      "weight": 619
+    }
+  ],
+  "generation": 9,
+  "key": "quaquaval",
+  "name": "Quaquaval",
+  "names": {
+    "de": "Bailonda",
+    "en": "Quaquaval",
+    "es": "Quaquaval",
+    "es-419": "Quaquaval",
+    "fr": "Palmaval",
+    "it": "Quaquaval",
+    "ja": "ウェーニバル",
+    "ja-hrkt": "ウェーニバル",
+    "ja-roma": "Wanival",
+    "ko": "웨이니발",
+    "zh-hans": "狂欢浪舞鸭",
+    "zh-hant": "狂歡浪舞鴨"
+  },
+  "number": 914
+}

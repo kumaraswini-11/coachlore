@@ -1,0 +1,361 @@
+{
+  "category": "Big-Hearted Pokémon",
+  "entries": [
+    {
+      "text": "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+      "version": "black"
+    },
+    {
+      "text": "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
+      "version": "white"
+    },
+    {
+      "text": "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+      "version": "black-2"
+    },
+    {
+      "text": "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+      "version": "white-2"
+    },
+    {
+      "text": "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+      "version": "x"
+    },
+    {
+      "text": "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+      "version": "y"
+    },
+    {
+      "text": "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Intelligent, good-natured, and valiant, it’s a trustworthy partner on rescue teams.",
+      "version": "sun"
+    },
+    {
+      "text": "With this wise Pokémon, there could be no concern that it would ever attack people. Some parents even trust it to babysit.",
+      "version": "moon"
+    },
+    {
+      "text": "It pays no mind to the cold, thanks to its long warm coat. Stoutland in Alola look a little uncomfortable.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "These Pokémon seem to enjoy living with humans. Even a Stoutland caught in the wild will warm up to people in about three days.",
+      "version": "sword"
+    },
+    {
+      "text": "Stoutland is immensely proud of its impressive moustache. It’s said that moustache length is what determines social standing among this species.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "lillipup",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "lillipup",
+      "to": "herdier",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "herdier",
+      "to": "stoutland",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "sand-rush"
+        },
+        {
+          "hidden": true,
+          "key": "scrappy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/stoutland.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "cold-storage-area",
+            "maxLevel": 23,
+            "method": "grass-spots",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 31,
+            "method": "grass-spots",
+            "minLevel": 31
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-1-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-2-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-3-area",
+            "maxLevel": 58,
+            "method": "grass-spots",
+            "minLevel": 58
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "cold-storage-area",
+            "maxLevel": 23,
+            "method": "grass-spots",
+            "minLevel": 23
+          },
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 31,
+            "method": "grass-spots",
+            "minLevel": 31
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "p2-laboratory-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-1-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-2-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-3-area",
+            "maxLevel": 58,
+            "method": "grass-spots",
+            "minLevel": 58
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "stoutland",
+      "kind": "default",
+      "name": "Stoutland",
+      "number": 508,
+      "pokemon": "stoutland",
+      "sourceId": 508,
+      "sprite": "/dex-images/sprites/stoutland.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 110,
+        "defense": 90,
+        "hp": 85,
+        "special-attack": 45,
+        "special-defense": 90,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 610
+    }
+  ],
+  "generation": 5,
+  "key": "stoutland",
+  "name": "Stoutland",
+  "names": {
+    "de": "Bissbark",
+    "en": "Stoutland",
+    "es": "Stoutland",
+    "es-419": "Stoutland",
+    "fr": "Mastouffe",
+    "it": "Stoutland",
+    "ja": "ムーランド",
+    "ja-hrkt": "ムーランド",
+    "ja-roma": "Mooland",
+    "ko": "바랜드",
+    "zh-hans": "长毛狗",
+    "zh-hant": "長毛狗"
+  },
+  "number": 508
+}

@@ -1,0 +1,190 @@
+{
+  "category": "Tiny Leaf Pokémon",
+  "entries": [
+    {
+      "text": "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+      "version": "pearl"
+    },
+    {
+      "text": "The shell on its back is made of soil. On a very healthy TURTWIG, the shell should feel moist.",
+      "version": "platinum"
+    },
+    {
+      "text": "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+      "version": "black"
+    },
+    {
+      "text": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+      "version": "white"
+    },
+    {
+      "text": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+      "version": "black-2"
+    },
+    {
+      "text": "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+      "version": "white-2"
+    },
+    {
+      "text": "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+      "version": "x"
+    },
+    {
+      "text": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+      "version": "y"
+    },
+    {
+      "text": "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "This Pokémon becomes more energetic the more sunlight there is. The part resembling a shell is similar to silt and is slightly damp and warm to the touch.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "turtwig",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "turtwig",
+      "to": "grotle",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "grotle",
+      "to": "torterra",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "shell-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/turtwig.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 100,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 100,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 4,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "turtwig",
+      "kind": "default",
+      "name": "Turtwig",
+      "number": 387,
+      "pokemon": "turtwig",
+      "sourceId": 387,
+      "sprite": "/dex-images/sprites/turtwig.webp",
+      "statTotal": 318,
+      "stats": {
+        "attack": 68,
+        "defense": 64,
+        "hp": 55,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 31
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 102
+    }
+  ],
+  "generation": 4,
+  "key": "turtwig",
+  "name": "Turtwig",
+  "names": {
+    "de": "Chelast",
+    "en": "Turtwig",
+    "es": "Turtwig",
+    "es-419": "Turtwig",
+    "fr": "Tortipouss",
+    "it": "Turtwig",
+    "ja": "ナエトル",
+    "ja-hrkt": "ナエトル",
+    "ja-roma": "Naetle",
+    "ko": "모부기",
+    "zh-hans": "草苗龟",
+    "zh-hant": "草苗龜"
+  },
+  "number": 387
+}

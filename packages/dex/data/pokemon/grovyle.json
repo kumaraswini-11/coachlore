@@ -1,0 +1,197 @@
+{
+  "category": "Wood Gecko Pokémon",
+  "entries": [
+    {
+      "text": "The leaves growing out of GROVYLE’s body are convenient for camouflaging it from enemies in the forest. This POKéMON is a master at climbing trees in jungles.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON adeptly flies from branch to branch in trees. In a forest, no POKéMON can ever hope to catch a fleeing GROVYLE however fast they may be.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Leaves grow out of this POKéMON’s body. They help obscure a GROVYLE from the eyes of its enemies while it is in a thickly overgrown forest.",
+      "version": "emerald"
+    },
+    {
+      "text": "Its strongly developed thigh muscles give it astounding agility and jumping performance.",
+      "version": "firered"
+    },
+    {
+      "text": "Its strongly developed thigh muscles give it astounding agility and jumping performance.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "pearl"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "platinum"
+    },
+    {
+      "text": "It leaps from tree branch to tree branch quite swiftly. It shows astounding agility.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It leaps from tree branch to tree branch quite swiftly. It shows astounding agility.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "black"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "white"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its strongly developed thigh muscles give it astounding agility and jumping performance.",
+      "version": "x"
+    },
+    {
+      "text": "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+      "version": "y"
+    },
+    {
+      "text": "The leaves growing out of Grovyle’s body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon adeptly flies from branch to branch in trees. In a forest, no Pokémon can ever hope to catch a fleeing Grovyle however fast they may be.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "treecko",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "treecko",
+      "to": "grovyle",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "grovyle",
+      "to": "sceptile",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "unburden"
+        }
+      ],
+      "artwork": "/dex-images/artwork/grovyle.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "island-scan",
+            "minLevel": 16
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-5-area",
+            "maxLevel": 16,
+            "method": "island-scan",
+            "minLevel": 16
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-indigo-disk", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 3,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "grovyle",
+      "kind": "default",
+      "name": "Grovyle",
+      "number": 253,
+      "pokemon": "grovyle",
+      "sourceId": 253,
+      "sprite": "/dex-images/sprites/grovyle.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 65,
+        "defense": 45,
+        "hp": 50,
+        "special-attack": 85,
+        "special-defense": 65,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 216
+    }
+  ],
+  "generation": 3,
+  "key": "grovyle",
+  "name": "Grovyle",
+  "names": {
+    "de": "Reptain",
+    "en": "Grovyle",
+    "es": "Grovyle",
+    "es-419": "Grovyle",
+    "fr": "Massko",
+    "it": "Grovyle",
+    "ja": "ジュプトル",
+    "ja-hrkt": "ジュプトル",
+    "ja-roma": "Juptile",
+    "ko": "나무돌이",
+    "zh-hans": "森林蜥蜴",
+    "zh-hant": "森林蜥蜴"
+  },
+  "number": 253
+}

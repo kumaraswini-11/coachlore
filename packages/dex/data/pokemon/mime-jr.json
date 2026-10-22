@@ -1,0 +1,583 @@
+{
+  "category": "Mime Pokémon",
+  "entries": [
+    {
+      "text": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+      "version": "diamond"
+    },
+    {
+      "text": "It likes places where people gather. It mimics foes to confuse them, then makes its getaway.",
+      "version": "pearl"
+    },
+    {
+      "text": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+      "version": "platinum"
+    },
+    {
+      "text": "In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!",
+      "version": "heartgold"
+    },
+    {
+      "text": "In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+      "version": "black"
+    },
+    {
+      "text": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+      "version": "white"
+    },
+    {
+      "text": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+      "version": "black-2"
+    },
+    {
+      "text": "It mimics the expressions and motions of those it sees to understand the feelings of others.",
+      "version": "white-2"
+    },
+    {
+      "text": "In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!",
+      "version": "x"
+    },
+    {
+      "text": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+      "version": "y"
+    },
+    {
+      "text": "In an attempt to confuse its enemy, it mimics the enemy’s movements. Then it wastes no time in making itself scarce!",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It does its absolute best to mimic the movements and expressions of its opponents, but it’s still not very good at it.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When this gifted mimic surprises an opponent, Mime Jr. feels so happy that it ends up forgetting it was imitating something.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It mimics everyone it sees, but it puts extra effort into copying the graceful dance steps of Mr. Rime as practice.",
+      "version": "sword"
+    },
+    {
+      "text": "It looks for a Mr. Rime that’s a good dancer and carefully copies the Mr. Rime’s steps like an apprentice.",
+      "version": "shield"
+    },
+    {
+      "text": "Known to turn up in bustling marketplaces now and again. It mimics people much as a child would, then watches how they react, eyes sparkling.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mime-jr",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "mimic"
+      },
+      "from": "mime-jr",
+      "to": "mr-mime",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "mr-mime-galar",
+        "known_move": "mimic",
+        "region": "galar"
+      },
+      "from": "mime-jr",
+      "to": "mr-mime",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 42,
+        "required_pokemon_form": "mr-mime-galar"
+      },
+      "from": "mr-mime",
+      "to": "mr-rime",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": false,
+          "key": "filter"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mime-jr.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 41,
+            "location": "sinnoh-route-209-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 37,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 153,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 186,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 140,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 152,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 122,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 153,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 153,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 186,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 140,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 152,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 130,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 122,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 153,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 90,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 6
+          }
+        ],
+        "x": [
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          }
+        ],
+        "y": [
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-305",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-306",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-307",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          },
+          {
+            "chance": 60,
+            "location": "reflection-cave-unknown-area-308",
+            "maxLevel": 11,
+            "method": "horde",
+            "minLevel": 11
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 4,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mime-jr",
+      "kind": "default",
+      "name": "Mime Jr.",
+      "number": 439,
+      "pokemon": "mime-jr",
+      "sourceId": 439,
+      "sprite": "/dex-images/sprites/mime-jr.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 25,
+        "defense": 45,
+        "hp": 20,
+        "special-attack": 70,
+        "special-defense": 90,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["psychic", "fairy"],
+      "weight": 130
+    }
+  ],
+  "generation": 4,
+  "key": "mime-jr",
+  "name": "Mime Jr.",
+  "names": {
+    "de": "Pantimimi",
+    "en": "Mime Jr.",
+    "es": "Mime Jr.",
+    "es-419": "Mime Jr.",
+    "fr": "Mime Jr.",
+    "it": "Mime Jr.",
+    "ja": "マネネ",
+    "ja-hrkt": "マネネ",
+    "ja-roma": "Manene",
+    "ko": "흉내내",
+    "zh-hans": "魔尼尼",
+    "zh-hant": "魔尼尼"
+  },
+  "number": 439
+}

@@ -1,0 +1,134 @@
+{
+  "abilities": [
+    {
+      "ability": {
+        "name": "gluttony",
+        "url": "/api/v2/ability/82/"
+      },
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "ability": {
+        "name": "hustle",
+        "url": "/api/v2/ability/55/"
+      },
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "ability": {
+        "name": "thick-fat",
+        "url": "/api/v2/ability/47/"
+      },
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "forms": [
+    {
+      "name": "rattata-alola",
+      "url": "/api/v2/pokemon-form/10193/"
+    }
+  ],
+  "height": 3,
+  "id": 10091,
+  "is_default": false,
+  "moves": [],
+  "name": "rattata-alola",
+  "species": {
+    "name": "rattata",
+    "url": "/api/v2/pokemon-species/19/"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",
+    "other": {
+      "official-artwork": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10091.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10091.png",
+        "versions": {
+          "generation-i": {
+            "red-and-blue": {
+              "front_default": null
+            },
+            "red-and-green": {
+              "front_default": null
+            }
+          },
+          "generation-ii": {
+            "gold-and-silver": {
+              "front_default": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "stats": [
+    {
+      "base_stat": 30,
+      "effort": 0,
+      "stat": {
+        "name": "hp",
+        "url": "/api/v2/stat/1/"
+      }
+    },
+    {
+      "base_stat": 56,
+      "effort": 0,
+      "stat": {
+        "name": "attack",
+        "url": "/api/v2/stat/2/"
+      }
+    },
+    {
+      "base_stat": 35,
+      "effort": 0,
+      "stat": {
+        "name": "defense",
+        "url": "/api/v2/stat/3/"
+      }
+    },
+    {
+      "base_stat": 25,
+      "effort": 0,
+      "stat": {
+        "name": "special-attack",
+        "url": "/api/v2/stat/4/"
+      }
+    },
+    {
+      "base_stat": 35,
+      "effort": 0,
+      "stat": {
+        "name": "special-defense",
+        "url": "/api/v2/stat/5/"
+      }
+    },
+    {
+      "base_stat": 72,
+      "effort": 1,
+      "stat": {
+        "name": "speed",
+        "url": "/api/v2/stat/6/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "dark",
+        "url": "/api/v2/type/17/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "normal",
+        "url": "/api/v2/type/1/"
+      }
+    }
+  ],
+  "weight": 38
+}

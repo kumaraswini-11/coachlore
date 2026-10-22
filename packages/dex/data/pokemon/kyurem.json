@@ -1,0 +1,289 @@
+{
+  "category": "Boundary Pokémon",
+  "entries": [
+    {
+      "text": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+      "version": "black"
+    },
+    {
+      "text": "It can produce ultracold air. Its body is frozen.",
+      "version": "white"
+    },
+    {
+      "text": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+      "version": "black-2"
+    },
+    {
+      "text": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+      "version": "white-2"
+    },
+    {
+      "text": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+      "version": "x"
+    },
+    {
+      "text": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+      "version": "y"
+    },
+    {
+      "text": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Dwelling within it is a power even greater than that of Reshiram or Zekrom, but the extreme cold keeps that power bound.",
+      "version": "sword"
+    },
+    {
+      "text": "It appears that this Pokémon uses its powers over ice to freeze its own body in order to stabilize its cellular structure.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "kyurem",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kyurem.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "gnarled-den-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "black": [
+          {
+            "chance": 100,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 75,
+            "method": "static",
+            "minLevel": 75
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "gnarled-den-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-water",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-waterfall",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-water",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-waterfall",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 75,
+            "method": "static",
+            "minLevel": 75
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ]
+      },
+      "formName": "Kyurem",
+      "games": ["black-white", "black-2-white-2"],
+      "gen9": true,
+      "generation": 5,
+      "height": 30,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kyurem",
+      "kind": "default",
+      "legendary": true,
+      "name": "Kyurem",
+      "number": 646,
+      "pokemon": "kyurem",
+      "sourceId": 646,
+      "sprite": "/dex-images/sprites/kyurem.webp",
+      "statTotal": 660,
+      "stats": {
+        "attack": 130,
+        "defense": 90,
+        "hp": 125,
+        "special-attack": 130,
+        "special-defense": 90,
+        "speed": 95
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ice"],
+      "weight": 3250
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "teravolt"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kyurem-black.webp",
+      "encounters": {},
+      "formName": "Black Kyurem",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 33,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "kyurem-black",
+      "kind": "other",
+      "legendary": true,
+      "name": "Kyurem-Black",
+      "number": 646,
+      "pokemon": "kyurem",
+      "sourceId": 10022,
+      "sprite": "/dex-images/sprites/kyurem-black.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 170,
+        "defense": 100,
+        "hp": 125,
+        "special-attack": 120,
+        "special-defense": 90,
+        "speed": 95
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ice"],
+      "weight": 3250
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "turboblaze"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kyurem-white.webp",
+      "encounters": {},
+      "formName": "White Kyurem",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 36,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "kyurem-white",
+      "kind": "other",
+      "legendary": true,
+      "name": "Kyurem-White",
+      "number": 646,
+      "pokemon": "kyurem",
+      "sourceId": 10023,
+      "sprite": "/dex-images/sprites/kyurem-white.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 120,
+        "defense": 90,
+        "hp": 125,
+        "special-attack": 170,
+        "special-defense": 100,
+        "speed": 95
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["dragon", "ice"],
+      "weight": 3250
+    }
+  ],
+  "generation": 5,
+  "key": "kyurem",
+  "name": "Kyurem",
+  "names": {
+    "de": "Kyurem",
+    "en": "Kyurem",
+    "es": "Kyurem",
+    "es-419": "Kyurem",
+    "fr": "Kyurem",
+    "it": "Kyurem",
+    "ja": "キュレム",
+    "ja-hrkt": "キュレム",
+    "ja-roma": "Kyurem",
+    "ko": "큐레무",
+    "zh-hans": "酋雷姆",
+    "zh-hant": "酋雷姆"
+  },
+  "number": 646
+}

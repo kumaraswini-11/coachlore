@@ -1,0 +1,492 @@
+{
+  "category": "Star Shape Pokémon",
+  "entries": [
+    {
+      "text": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+      "version": "gold"
+    },
+    {
+      "text": "When numerous meteors illuminate the night sky, sightings of CLEFFA strangely increase.",
+      "version": "silver"
+    },
+    {
+      "text": "If the impact site of a meteorite is found, this POKéMON is certain to be within the immediate area.",
+      "version": "crystal"
+    },
+    {
+      "text": "On nights with many shooting stars, CLEFFA can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these POKéMON quench their thirst with the morning dew.",
+      "version": "ruby"
+    },
+    {
+      "text": "On nights with many shooting stars, CLEFFA can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these POKéMON quench their thirst with the morning dew.",
+      "version": "sapphire"
+    },
+    {
+      "text": "On nights with many shooting stars, CLEFFA can be seen dancing in a ring. They dance until daybreak, when they quench their thirst with the morning dew.",
+      "version": "emerald"
+    },
+    {
+      "text": "When numerous meteors illuminate the night sky, sightings of CLEFFA strangely increase.",
+      "version": "firered"
+    },
+    {
+      "text": "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its silhouette is like a star. It is believed to arrive riding on shooting stars.",
+      "version": "diamond"
+    },
+    {
+      "text": "Many appear when the night skies are filled with shooting stars. They disappear with sunrise.",
+      "version": "pearl"
+    },
+    {
+      "text": "It is often seen when shooting stars fill the night skies. It’s said to arrive riding on a shooting star.",
+      "version": "platinum"
+    },
+    {
+      "text": "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When numerous meteors illuminate the night sky, sightings of CLEFFA strangely increase.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It is often seen when shooting stars fill the night skies. It’s said to arrive riding on a shooting star.",
+      "version": "black"
+    },
+    {
+      "text": "It is often seen when shooting stars fill the night skies. It’s said to arrive riding on a shooting star.",
+      "version": "white"
+    },
+    {
+      "text": "According to local rumors, Cleffa are often seen in places where shooting stars have fallen.",
+      "version": "black-2"
+    },
+    {
+      "text": "According to local rumors, Cleffa are often seen in places where shooting stars have fallen.",
+      "version": "white-2"
+    },
+    {
+      "text": "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+      "version": "x"
+    },
+    {
+      "text": "Many appear when the night skies are filled with shooting stars. They disappear with sunrise.",
+      "version": "y"
+    },
+    {
+      "text": "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these Pokémon quench their thirst with the morning dew.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "On nights with many shooting stars, Cleffa can be seen dancing in a ring. They dance through the night and stop only at the break of day, when these Pokémon quench their thirst with the morning dew.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "On late nights illuminated by shooting stars, it gazes intently skyward, as if thinking of its home.",
+      "version": "sun"
+    },
+    {
+      "text": "Because of its silhouette, it’s believed to be a star reborn. For some reason, it loves Minior.",
+      "version": "moon"
+    },
+    {
+      "text": "On nights with many shooting stars, they gather in packs and dance in circles. If you should see them, something good will happen!",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Said to have ridden here on a shooting star, Cleffa seem to appear in places where meteorites have struck in the past.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "According to local rumors, Cleffa are often seen in places where shooting stars have fallen.",
+      "version": "sword"
+    },
+    {
+      "text": "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+      "version": "shield"
+    },
+    {
+      "text": "In silhouette, they resemble twinkling starlight. When shooting stars rain from the night sky, Cleffa gather in numbers and dance as though they are indeed incarnations of the stars.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cleffa",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "cleffa",
+      "to": "clefairy",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "moon-stone"
+      },
+      "from": "clefairy",
+      "to": "clefable",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cute-charm"
+        },
+        {
+          "hidden": false,
+          "key": "magic-guard"
+        },
+        {
+          "hidden": true,
+          "key": "friend-guard"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cleffa.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "johto-route-34-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 25,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 29,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "mount-hokulani-main",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 25,
+            "location": "mt-coronet-1f-route-207",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 29,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "mt-coronet-1f-route-211",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "mount-hokulani-main",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 135,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 135,
+            "location": "ballimere-lake-max-den-m",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "frigid-sea-max-den-j",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "frostpoint-field-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "giants-bed-max-den-m",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 135,
+            "location": "snowslide-slope-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 20,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "mount-hokulani-east",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 20,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 2,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cleffa",
+      "kind": "default",
+      "name": "Cleffa",
+      "number": 173,
+      "pokemon": "cleffa",
+      "sourceId": 173,
+      "sprite": "/dex-images/sprites/cleffa.webp",
+      "statTotal": 218,
+      "stats": {
+        "attack": 25,
+        "defense": 28,
+        "hp": 50,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 15
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 30
+    }
+  ],
+  "generation": 2,
+  "key": "cleffa",
+  "name": "Cleffa",
+  "names": {
+    "de": "Pii",
+    "en": "Cleffa",
+    "es": "Cleffa",
+    "es-419": "Cleffa",
+    "fr": "Mélo",
+    "it": "Cleffa",
+    "ja": "ピィ",
+    "ja-hrkt": "ピィ",
+    "ja-roma": "Py",
+    "ko": "삐",
+    "zh-hans": "皮宝宝",
+    "zh-hant": "皮寶寶"
+  },
+  "number": 173
+}

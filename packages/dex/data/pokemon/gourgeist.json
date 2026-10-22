@@ -1,0 +1,610 @@
+{
+  "category": "Pumpkin Pokémon",
+  "entries": [
+    {
+      "text": "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+      "version": "x"
+    },
+    {
+      "text": "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey.",
+      "version": "y"
+    },
+    {
+      "text": "Singing in eerie voices, they wander town streets on the night of the new moon. Anyone who hears their song is cursed.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It enwraps its prey in its hairlike arms. It sings joyfully as it observes the suffering of its prey.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Eerie cries emanate from its body in the dead of night. The sounds are said to be the wails of spirits who are suffering in the afterlife.",
+      "version": "sword"
+    },
+    {
+      "text": "In the darkness of a new-moon night, Gourgeist will come knocking. Whoever answers the door will be swept off to the afterlife.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pumpkaboo",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-average",
+        "required_pokemon_form": "pumpkaboo-average"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-small",
+        "required_pokemon_form": "pumpkaboo-small"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-large",
+        "required_pokemon_form": "pumpkaboo-large"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "gourgeist-super",
+        "required_pokemon_form": "pumpkaboo-super"
+      },
+      "from": "pumpkaboo",
+      "to": "gourgeist",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gourgeist-average.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 44,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 44,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1800,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 44,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 119,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1800,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 75,
+            "location": "south-lake-miloch-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 164,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Average Size",
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gourgeist-average",
+      "kind": "default",
+      "name": "Gourgeist",
+      "number": 711,
+      "pokemon": "gourgeist",
+      "sourceId": 711,
+      "sprite": "/dex-images/sprites/gourgeist-average.webp",
+      "statTotal": 494,
+      "stats": {
+        "attack": 90,
+        "defense": 122,
+        "hp": 65,
+        "special-attack": 58,
+        "special-defense": 75,
+        "speed": 84
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 125
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gourgeist-large.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Large Size",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "gourgeist-large",
+      "kind": "other",
+      "name": "Gourgeist-Large",
+      "number": 711,
+      "pokemon": "gourgeist",
+      "sourceId": 10031,
+      "sprite": "/dex-images/sprites/gourgeist-large.webp",
+      "statTotal": 494,
+      "stats": {
+        "attack": 95,
+        "defense": 122,
+        "hp": 75,
+        "special-attack": 58,
+        "special-defense": 75,
+        "speed": 69
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 140
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gourgeist-small.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "formName": "Small Size",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "gourgeist-small",
+      "kind": "other",
+      "name": "Gourgeist-Small",
+      "number": 711,
+      "pokemon": "gourgeist",
+      "sourceId": 10030,
+      "sprite": "/dex-images/sprites/gourgeist-small.webp",
+      "statTotal": 494,
+      "stats": {
+        "attack": 85,
+        "defense": 122,
+        "hp": 55,
+        "special-attack": 58,
+        "special-defense": 75,
+        "speed": 99
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 95
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pickup"
+        },
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": true,
+          "key": "insomnia"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gourgeist-super.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Super Size",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "gourgeist-super",
+      "kind": "other",
+      "name": "Gourgeist-Super",
+      "number": 711,
+      "pokemon": "gourgeist",
+      "sourceId": 10032,
+      "sprite": "/dex-images/sprites/gourgeist-super.webp",
+      "statTotal": 494,
+      "stats": {
+        "attack": 100,
+        "defense": 122,
+        "hp": 85,
+        "special-attack": 58,
+        "special-defense": 75,
+        "speed": 54
+      },
+      "tags": [],
+      "types": ["ghost", "grass"],
+      "weight": 390
+    }
+  ],
+  "generation": 6,
+  "key": "gourgeist",
+  "name": "Gourgeist",
+  "names": {
+    "de": "Pumpdjinn",
+    "en": "Gourgeist",
+    "es": "Gourgeist",
+    "es-419": "Gourgeist",
+    "fr": "Banshitrouye",
+    "it": "Gourgeist",
+    "ja": "パンプジン",
+    "ja-hrkt": "パンプジン",
+    "ja-roma": "Pumpjin",
+    "ko": "펌킨인",
+    "zh-hans": "南瓜怪人",
+    "zh-hant": "南瓜怪人"
+  },
+  "number": 711
+}

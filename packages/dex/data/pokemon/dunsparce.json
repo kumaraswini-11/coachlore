@@ -1,0 +1,754 @@
+{
+  "category": "Land Snake Pokémon",
+  "entries": [
+    {
+      "text": "When spotted, this POKéMON escapes backward by furi ously boring into the ground with its tail.",
+      "version": "gold"
+    },
+    {
+      "text": "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
+      "version": "silver"
+    },
+    {
+      "text": "It hides deep inside caves where no light ever reaches it and remains virtually motionless there.",
+      "version": "crystal"
+    },
+    {
+      "text": "DUNSPARCE has a drill for its tail. It uses this tail to burrow into the ground backwards. This POKéMON is known to make its nest in complex shapes deep under the ground.",
+      "version": "ruby"
+    },
+    {
+      "text": "DUNSPARCE has a drill for its tail. It uses this tail to burrow into the ground backwards. This POKéMON is known to make its nest in complex shapes deep under the ground.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its drill-tipped tail is used to burrow into the ground backwards. This POKéMON is known to make its nest in complex shapes deep under the ground.",
+      "version": "emerald"
+    },
+    {
+      "text": "If spotted, it escapes by burrowing with its tail. It can hover just slightly using its wings.",
+      "version": "firered"
+    },
+    {
+      "text": "When spotted, this POKéMON escapes backward by furiously boring into the ground with its tail.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+      "version": "diamond"
+    },
+    {
+      "text": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+      "version": "pearl"
+    },
+    {
+      "text": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+      "version": "platinum"
+    },
+    {
+      "text": "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+      "version": "black"
+    },
+    {
+      "text": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+      "version": "white"
+    },
+    {
+      "text": "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+      "version": "black-2"
+    },
+    {
+      "text": "It creates mazes in dark locations. When spotted, it flees into the ground by digging with its tail.",
+      "version": "white-2"
+    },
+    {
+      "text": "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+      "version": "x"
+    },
+    {
+      "text": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+      "version": "y"
+    },
+    {
+      "text": "Dunsparce has a drill for its tail. It uses this tail to burrow into the ground backward. This Pokémon is known to make its nest in complex shapes deep under the ground.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Dunsparce has a drill for its tail. It uses this tail to burrow into the ground backward. This Pokémon is known to make its nest in complex shapes deep under the ground.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It travels by digging through the ground. Diglett and Dunsparce share one another’s tunnels happily.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon’s tiny wings have some scientists saying that Dunsparce used to fly through the sky in ancient times.",
+      "version": "sword"
+    },
+    {
+      "text": "The nests Dunsparce live in are mazes of tunnels. They never get lost in their own nests—they can tell where they are by the scent of the dirt.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "dunsparce",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 99,
+        "evolved_pokemon_form": "dudunsparce-two-segment",
+        "known_move": "hyper-drill"
+      },
+      "from": "dunsparce",
+      "to": "dudunsparce",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "chance": 1,
+        "evolved_pokemon_form": "dudunsparce-three-segment",
+        "known_move": "hyper-drill"
+      },
+      "from": "dunsparce",
+      "to": "dudunsparce",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "serene-grace"
+        },
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": true,
+          "key": "rattled"
+        }
+      ],
+      "artwork": "/dex-images/artwork/dunsparce.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 10,
+            "location": "unova-route-12-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-12-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-hidden-grotto",
+            "maxLevel": 14,
+            "method": "hidden-grotto",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 5,
+            "method": "grass-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-1-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-12-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-18-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-2-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-20-area",
+            "maxLevel": 3,
+            "method": "grass-spots",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "grass-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-hidden-grotto-near-pokemon-breeder",
+            "maxLevel": 29,
+            "method": "hidden-grotto",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 49,
+            "method": "grass-spots",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 49,
+            "method": "grass-spots",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 49,
+            "method": "grass-spots",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "village-bridge-area",
+            "maxLevel": 37,
+            "method": "grass-spots",
+            "minLevel": 37
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-cave-south-sewers",
+            "maxLevel": 33,
+            "method": "snag",
+            "minLevel": 33
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 43,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "three-isle-port-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 41,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 131,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 8,
+            "method": "rock-smash",
+            "minLevel": 4
+          },
+          {
+            "chance": 131,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "three-isle-port-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "silver": [
+          {
+            "chance": 41,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 131,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 8,
+            "method": "rock-smash",
+            "minLevel": 4
+          },
+          {
+            "chance": 131,
+            "location": "dark-cave-violet-city-entrance",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 55,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 524,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 524,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 55,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 55,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 524,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 524,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 55,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-2-north",
+            "maxLevel": 11,
+            "method": "bubbling-spots",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-2-south",
+            "maxLevel": 10,
+            "method": "bubbling-spots",
+            "minLevel": 7
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-2-north",
+            "maxLevel": 11,
+            "method": "bubbling-spots",
+            "minLevel": 8
+          },
+          {
+            "chance": 15,
+            "location": "alola-route-2-south",
+            "maxLevel": 10,
+            "method": "bubbling-spots",
+            "minLevel": 7
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "unova-route-12-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-12-area",
+            "maxLevel": 48,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "floccesy-ranch-hidden-grotto",
+            "maxLevel": 14,
+            "method": "hidden-grotto",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "floccesy-ranch-inner",
+            "maxLevel": 5,
+            "method": "grass-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-1-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-12-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-18-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-2-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-20-area",
+            "maxLevel": 3,
+            "method": "grass-spots",
+            "minLevel": 3
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 25,
+            "method": "grass-spots",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-6-hidden-grotto-near-pokemon-breeder",
+            "maxLevel": 29,
+            "method": "hidden-grotto",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-2-unknown-area-72",
+            "maxLevel": 49,
+            "method": "grass-spots",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-2-unknown-area-73",
+            "maxLevel": 49,
+            "method": "grass-spots",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "unova-victory-road-2-unknown-area-79",
+            "maxLevel": 49,
+            "method": "grass-spots",
+            "minLevel": 49
+          },
+          {
+            "chance": 10,
+            "location": "village-bridge-area",
+            "maxLevel": 37,
+            "method": "grass-spots",
+            "minLevel": 37
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 26
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 26,
+            "method": "yellow-flowers",
+            "minLevel": 26
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "dunsparce",
+      "kind": "default",
+      "name": "Dunsparce",
+      "number": 206,
+      "pokemon": "dunsparce",
+      "sourceId": 206,
+      "sprite": "/dex-images/sprites/dunsparce.webp",
+      "statTotal": 415,
+      "stats": {
+        "attack": 70,
+        "defense": 70,
+        "hp": 100,
+        "special-attack": 65,
+        "special-defense": 65,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 140
+    }
+  ],
+  "generation": 2,
+  "key": "dunsparce",
+  "name": "Dunsparce",
+  "names": {
+    "de": "Dummisel",
+    "en": "Dunsparce",
+    "es": "Dunsparce",
+    "es-419": "Dunsparce",
+    "fr": "Insolourdo",
+    "it": "Dunsparce",
+    "ja": "ノコッチ",
+    "ja-hrkt": "ノコッチ",
+    "ja-roma": "Nokocchi",
+    "ko": "노고치",
+    "zh-hans": "土龙弟弟",
+    "zh-hant": "土龍弟弟"
+  },
+  "number": 206
+}

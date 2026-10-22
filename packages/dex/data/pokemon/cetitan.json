@@ -1,0 +1,92 @@
+{
+  "category": "Terra Whale Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cetoddle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "ice-stone"
+      },
+      "from": "cetoddle",
+      "to": "cetitan",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thick-fat"
+        },
+        {
+          "hidden": false,
+          "key": "slush-rush"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cetitan.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 45,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cetitan",
+      "kind": "default",
+      "name": "Cetitan",
+      "number": 975,
+      "pokemon": "cetitan",
+      "sourceId": 975,
+      "sprite": "/dex-images/sprites/cetitan.webp",
+      "statTotal": 521,
+      "stats": {
+        "attack": 113,
+        "defense": 65,
+        "hp": 170,
+        "special-attack": 45,
+        "special-defense": 55,
+        "speed": 73
+      },
+      "tags": [],
+      "types": ["ice"],
+      "weight": 7000
+    }
+  ],
+  "generation": 9,
+  "key": "cetitan",
+  "name": "Cetitan",
+  "names": {
+    "de": "Kolowal",
+    "en": "Cetitan",
+    "es": "Cetitan",
+    "es-419": "Cetitan",
+    "fr": "Balbalèze",
+    "it": "Cetitan",
+    "ja": "ハルクジラ",
+    "ja-hrkt": "ハルクジラ",
+    "ja-roma": "Hulkujira",
+    "ko": "우락고래",
+    "zh-hans": "浩大鲸",
+    "zh-hant": "浩大鯨"
+  },
+  "number": 975
+}

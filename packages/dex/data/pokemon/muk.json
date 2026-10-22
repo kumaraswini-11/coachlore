@@ -1,0 +1,781 @@
+{
+  "category": "Sludge Pokémon",
+  "entries": [
+    {
+      "text": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "version": "red"
+    },
+    {
+      "text": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "version": "blue"
+    },
+    {
+      "text": "Smells so awful, it can cause fainting. Through degeneration, it lost its sense of smell.",
+      "version": "yellow"
+    },
+    {
+      "text": "They love to gather in smelly areas where sludge ac cumulates, making the stench around them worse.",
+      "version": "gold"
+    },
+    {
+      "text": "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest.",
+      "version": "silver"
+    },
+    {
+      "text": "As it moves, a very strong poison leaks from it, making the ground there barren for three years.",
+      "version": "crystal"
+    },
+    {
+      "text": "From MUK’s body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this POKéMON’s body fluid can turn a pool stagnant and rancid.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON’s favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, MUK are certain to gather.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It prefers warm and humid habitats. In the summertime, the toxic substances in its body intensify, making MUK reek like putrid kitchen garbage.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning.",
+      "version": "firered"
+    },
+    {
+      "text": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+      "version": "diamond"
+    },
+    {
+      "text": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+      "version": "pearl"
+    },
+    {
+      "text": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+      "version": "platinum"
+    },
+    {
+      "text": "They love to gather in smelly areas where sludge accumulates, making the stench around them worse.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+      "version": "black"
+    },
+    {
+      "text": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+      "version": "white"
+    },
+    {
+      "text": "It’s so stinky! Muk’s body contains toxic elements, and any plant will wilt when it passes by.",
+      "version": "black-2"
+    },
+    {
+      "text": "It’s so stinky! Muk’s body contains toxic elements, and any plant will wilt when it passes by.",
+      "version": "white-2"
+    },
+    {
+      "text": "They love to gather in smelly areas where sludge accumulates, making the stench around them worse.",
+      "version": "x"
+    },
+    {
+      "text": "A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.",
+      "version": "y"
+    },
+    {
+      "text": "From Muk’s body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon’s body fluid can turn a pool stagnant and rancid.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon’s favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, Muk are certain to gather.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The stench it gives off will make your nose scrunch up. Still, there are Muk fans who think that’s a good thing.",
+      "version": "sun"
+    },
+    {
+      "text": "After recent environmental improvements, this Pokémon is now hardly seen at all. People speculate that it may go extinct at some point.",
+      "version": "moon"
+    },
+    {
+      "text": "Their food sources have decreased, and their numbers have declined sharply. Sludge ponds are being built to prevent their extinction.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Because they scatter germs everywhere, they’ve long been targeted for extermination, leading to a steep decline in their population.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "grimer",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38
+      },
+      "from": "grimer",
+      "to": "muk",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "muk-alola",
+        "min_level": 38,
+        "required_pokemon_form": "grimer-alola"
+      },
+      "from": "grimer",
+      "to": "muk",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stench"
+        },
+        {
+          "hidden": false,
+          "key": "sticky-hold"
+        },
+        {
+          "hidden": true,
+          "key": "poison-touch"
+        }
+      ],
+      "artwork": "/dex-images/artwork/muk.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 25,
+            "location": "castelia-sewers-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 25,
+            "location": "castelia-sewers-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 25,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 70
+          },
+          {
+            "chance": 25,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-area",
+            "maxLevel": 44,
+            "method": "dark-grass",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-hidden-grotto",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "blue": [
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "celadon-city-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-17-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "celadon-city-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-17-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 4,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 15,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "celadon-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 48,
+            "method": "surf",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-17-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 34,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 42,
+            "method": "overworld",
+            "minLevel": 37
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 39
+          }
+        ],
+        "red": [
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-1f",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 1,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          }
+        ],
+        "silver": [
+          {
+            "chance": 10,
+            "location": "celadon-city-area",
+            "maxLevel": 19,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 25,
+            "location": "kanto-route-17-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "celadon-city-area",
+            "maxLevel": 15,
+            "method": "surf",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 48,
+            "method": "surf",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "johto-safari-zone-marshland",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "kanto-route-16-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-17-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-18-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 25,
+            "location": "castelia-sewers-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 25,
+            "location": "castelia-sewers-area",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 25,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 70
+          },
+          {
+            "chance": 25,
+            "location": "castelia-sewers-unknown-area-38",
+            "maxLevel": 20,
+            "method": "surf-spots",
+            "minLevel": 5
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-area",
+            "maxLevel": 44,
+            "method": "dark-grass",
+            "minLevel": 44
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-hidden-grotto",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "cinnabar-island-cinnabar-lab",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-2f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "pokemon-mansion-3f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "pokemon-mansion-b1f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 41
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "heartgold-soulsilver", "black-2-white-2", "omega-ruby-alpha-sapphire", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "muk",
+      "kind": "default",
+      "name": "Muk",
+      "number": 89,
+      "pokemon": "muk",
+      "sourceId": 89,
+      "sprite": "/dex-images/sprites/muk.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 105,
+        "defense": 75,
+        "hp": 105,
+        "special-attack": 65,
+        "special-defense": 100,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 300
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-touch"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "power-of-alchemy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/muk-alola.webp",
+      "encounters": {},
+      "formName": "Alolan Form",
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": true,
+      "generation": 7,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "muk-alola",
+      "kind": "regional",
+      "name": "Muk-Alola",
+      "number": 89,
+      "pokemon": "muk",
+      "sourceId": 10113,
+      "sprite": "/dex-images/sprites/muk-alola.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 105,
+        "defense": 75,
+        "hp": 105,
+        "special-attack": 65,
+        "special-defense": 100,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["poison", "dark"],
+      "weight": 520
+    }
+  ],
+  "generation": 1,
+  "key": "muk",
+  "name": "Muk",
+  "names": {
+    "de": "Sleimok",
+    "en": "Muk",
+    "es": "Muk",
+    "es-419": "Muk",
+    "fr": "Grotadmorv",
+    "it": "Muk",
+    "ja": "ベトベトン",
+    "ja-hrkt": "ベトベトン",
+    "ja-roma": "Betbeton",
+    "ko": "질뻐기",
+    "zh-hans": "臭臭泥",
+    "zh-hant": "臭臭泥"
+  },
+  "number": 89
+}

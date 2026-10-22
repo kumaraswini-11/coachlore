@@ -1,0 +1,104 @@
+{
+  "category": "Hog Pokémon",
+  "entries": [
+    {
+      "text": "It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging.",
+      "version": "scarlet"
+    },
+    {
+      "text": "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "lechonk",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "oinkologne-male",
+        "gender": 2,
+        "min_level": 18
+      },
+      "from": "lechonk",
+      "to": "oinkologne",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "oinkologne-female",
+        "gender": 1,
+        "min_level": 18
+      },
+      "from": "lechonk",
+      "to": "oinkologne",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aroma-veil"
+        },
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/lechonk.webp",
+      "encounters": {},
+      "games": ["scarlet-violet"],
+      "gen9": true,
+      "generation": 9,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "lechonk",
+      "kind": "default",
+      "name": "Lechonk",
+      "number": 915,
+      "pokemon": "lechonk",
+      "sourceId": 915,
+      "sprite": "/dex-images/sprites/lechonk.webp",
+      "statTotal": 254,
+      "stats": {
+        "attack": 45,
+        "defense": 40,
+        "hp": 54,
+        "special-attack": 35,
+        "special-defense": 45,
+        "speed": 35
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 102
+    }
+  ],
+  "generation": 9,
+  "key": "lechonk",
+  "name": "Lechonk",
+  "names": {
+    "de": "Ferkuli",
+    "en": "Lechonk",
+    "es": "Lechonk",
+    "es-419": "Lechonk",
+    "fr": "Gourmelet",
+    "it": "Lechonk",
+    "ja": "グルトン",
+    "ja-hrkt": "グルトン",
+    "ja-roma": "Gourton",
+    "ko": "맛보돈",
+    "zh-hans": "爱吃豚",
+    "zh-hant": "愛吃豚"
+  },
+  "number": 915
+}

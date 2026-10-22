@@ -1,0 +1,534 @@
+{
+  "category": "Kite Pokémon",
+  "entries": [
+    {
+      "text": "As it majestically swims, it doesn't care if REMORAID attach to it for scavenging its leftovers.",
+      "version": "gold"
+    },
+    {
+      "text": "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
+      "version": "silver"
+    },
+    {
+      "text": "It swims along freely, eating things that swim into its mouth. Its whole body is very coarse.",
+      "version": "crystal"
+    },
+    {
+      "text": "On sunny days, schools of MANTINE can be seen elegantly leaping over the sea’s waves. This POKéMON is not bothered by the REMORAID that hitches rides.",
+      "version": "ruby"
+    },
+    {
+      "text": "On sunny days, schools of MANTINE can be seen elegantly leaping over the sea’s waves. This POKéMON is not bothered by the REMORAID that hitches rides.",
+      "version": "sapphire"
+    },
+    {
+      "text": "On sunny days, schools of MANTINE can be seen elegantly leaping over the waves. It is not bothered by the REMORAID that hitches rides.",
+      "version": "emerald"
+    },
+    {
+      "text": "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
+      "version": "firered"
+    },
+    {
+      "text": "As it majestically swims, it doesn’t care if REMORAID attach to it to scavenge for its leftovers.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "When the waves are calm, one may encounter a swarm of MANTINE swimming as if they are in flight.",
+      "version": "diamond"
+    },
+    {
+      "text": "It swims elegantly, mindless of REMORAID hitching on to its broad fins. It has a docile nature.",
+      "version": "pearl"
+    },
+    {
+      "text": "While elegantly swimming in the sea, it ignores REMORAID that cling to its fins seeking food scraps.",
+      "version": "platinum"
+    },
+    {
+      "text": "As it majestically swims, it doesn’t care if REMORAID attach to it for scavenging its leftovers.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Swimming freely in open seas, it may fly out of the water and over the waves if it builds up enough speed.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+      "version": "black"
+    },
+    {
+      "text": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+      "version": "white"
+    },
+    {
+      "text": "If it builds up enough speed swimming, it can fly over 300 feet out of the water from the surface of the ocean.",
+      "version": "black-2"
+    },
+    {
+      "text": "If it builds up enough speed swimming, it can fly over 300 feet out of the water from the surface of the ocean.",
+      "version": "white-2"
+    },
+    {
+      "text": "If it builds up enough speed swimming, it can fly over 300 feet out of the water from the surface of the ocean.",
+      "version": "x"
+    },
+    {
+      "text": "While elegantly swimming in the sea, it ignores Remoraid that cling to its fins seeking food scraps.",
+      "version": "y"
+    },
+    {
+      "text": "On sunny days, schools of Mantine can be seen elegantly leaping over the sea’s waves. This Pokémon is not bothered by the Remoraid that hitches rides.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "On sunny days, schools of Mantine can be seen elegantly leaping over the sea’s waves. This Pokémon is not bothered by the Remoraid that hitches rides.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Postcards and posters featuring Mantine leaping elegantly above the waves are popular souvenirs of Alola.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Many people have taken up surfing because they admire how magnificently Mantine swims.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet.",
+      "version": "sword"
+    },
+    {
+      "text": "As it majestically swims, it doesn’t care if Remoraid attach to it to scavenge for its leftovers.",
+      "version": "shield"
+    },
+    {
+      "text": "This calm and gentle Pokémon swims gracefully through the sea. After building speed, it can leap out of the water. It is often misidentified as a bird Pokémon due to this behavior.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "mantyke",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "party_species": "remoraid"
+      },
+      "from": "mantyke",
+      "to": "mantine",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": true,
+          "key": "water-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mantine.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 15,
+            "location": "undella-bay-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "undella-town-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 15,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-bldg-4f",
+            "maxLevel": 33,
+            "method": "snag",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "pyrite-cave-mirors-hideout",
+            "maxLevel": 33,
+            "method": "snag-rematch",
+            "minLevel": 33
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 10,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "gold": [
+          {
+            "chance": 10,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 24,
+            "method": "surf",
+            "minLevel": 20
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "johto-sea-route-41-area",
+            "maxLevel": 25,
+            "method": "surf",
+            "minLevel": 15
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "tanoby-ruins-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 35
+          },
+          {
+            "chance": 5,
+            "location": "trainer-tower-area",
+            "maxLevel": 40,
+            "method": "surf",
+            "minLevel": 35
+          }
+        ],
+        "shield": [
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "bubbling-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 550,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "east-lake-axewell-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "bubbling-spots",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld-water",
+            "minLevel": 39
+          },
+          {
+            "chance": 75,
+            "location": "giants-mirror-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 550,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 10,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 70,
+            "location": "challenge-beach-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "fields-of-honor-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "insular-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "loop-lagoon-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 15,
+            "location": "undella-bay-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "undella-town-area",
+            "maxLevel": 70,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "undella-bay-area",
+            "maxLevel": 40,
+            "method": "surf-spots",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-21-area",
+            "maxLevel": 45,
+            "method": "surf-spots",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 2,
+      "height": 21,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mantine",
+      "kind": "default",
+      "name": "Mantine",
+      "number": 226,
+      "pokemon": "mantine",
+      "sourceId": 226,
+      "sprite": "/dex-images/sprites/mantine.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 40,
+        "defense": 70,
+        "hp": 85,
+        "special-attack": 80,
+        "special-defense": 140,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["water", "flying"],
+      "weight": 2200
+    }
+  ],
+  "generation": 2,
+  "key": "mantine",
+  "name": "Mantine",
+  "names": {
+    "de": "Mantax",
+    "en": "Mantine",
+    "es": "Mantine",
+    "es-419": "Mantine",
+    "fr": "Démanta",
+    "it": "Mantine",
+    "ja": "マンタイン",
+    "ja-hrkt": "マンタイン",
+    "ja-roma": "Mantain",
+    "ko": "만타인",
+    "zh-hans": "巨翅飞鱼",
+    "zh-hant": "巨翅飛魚"
+  },
+  "number": 226
+}

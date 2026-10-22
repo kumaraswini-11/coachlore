@@ -1,0 +1,525 @@
+{
+  "category": "Candle Pokémon",
+  "entries": [
+    {
+      "text": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+      "version": "black"
+    },
+    {
+      "text": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+      "version": "white"
+    },
+    {
+      "text": "Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon.",
+      "version": "white-2"
+    },
+    {
+      "text": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+      "version": "x"
+    },
+    {
+      "text": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+      "version": "y"
+    },
+    {
+      "text": "While shining a light and pretending to be a guide, it leeches off the life force of any who follow it.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Litwick shines a light that absorbs the life energy of people and Pokémon, which becomes the fuel that it burns.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The flame on its head keeps its body slightly warm. This Pokémon takes lost children by the hand to guide them to the spirit world.",
+      "version": "sword"
+    },
+    {
+      "text": "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "litwick",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "litwick",
+      "to": "lampent",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "lampent",
+      "to": "chandelure",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "flash-fire"
+        },
+        {
+          "hidden": false,
+          "key": "flame-body"
+        },
+        {
+          "hidden": true,
+          "key": "infiltrator"
+        }
+      ],
+      "artwork": "/dex-images/artwork/litwick.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "celestial-tower-2f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 85,
+            "location": "celestial-tower-3f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 70,
+            "location": "celestial-tower-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "celestial-tower-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "celestial-tower-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 80,
+            "location": "celestial-tower-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 65,
+            "location": "celestial-tower-4f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "celestial-tower-5f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "strange-house-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "strange-house-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 10,
+            "method": "island-scan",
+            "minLevel": 10
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "motostoke-gym",
+            "maxLevel": 25,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 10,
+            "method": "island-scan",
+            "minLevel": 10
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "dusty-bowl-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "giants-cap-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "hammerlocke-hills-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "lake-of-outrage-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "motostoke-gym",
+            "maxLevel": 25,
+            "method": "wanderer",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 90,
+            "location": "stony-wilderness-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "stony-wilderness-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "loop-lagoon-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "potbottom-desert-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 9,
+            "method": "island-scan",
+            "minLevel": 9
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "hauoli-cemetery-area",
+            "maxLevel": 9,
+            "method": "island-scan",
+            "minLevel": 9
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "celestial-tower-2f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 85,
+            "location": "celestial-tower-3f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 70,
+            "location": "celestial-tower-4f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "celestial-tower-5f",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "celestial-tower-2f",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 80,
+            "location": "celestial-tower-3f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 65,
+            "location": "celestial-tower-4f",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 40,
+            "location": "celestial-tower-5f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "strange-house-1f",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "strange-house-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "lost-hotel-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "lost-hotel-area",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-teal-mask", "legends-za"],
+      "gen9": true,
+      "generation": 5,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "litwick",
+      "kind": "default",
+      "name": "Litwick",
+      "number": 607,
+      "pokemon": "litwick",
+      "sourceId": 607,
+      "sprite": "/dex-images/sprites/litwick.webp",
+      "statTotal": 275,
+      "stats": {
+        "attack": 30,
+        "defense": 55,
+        "hp": 50,
+        "special-attack": 65,
+        "special-defense": 55,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["ghost", "fire"],
+      "weight": 31
+    }
+  ],
+  "generation": 5,
+  "key": "litwick",
+  "name": "Litwick",
+  "names": {
+    "de": "Lichtel",
+    "en": "Litwick",
+    "es": "Litwick",
+    "es-419": "Litwick",
+    "fr": "Funécire",
+    "it": "Litwick",
+    "ja": "ヒトモシ",
+    "ja-hrkt": "ヒトモシ",
+    "ja-roma": "Hitomoshi",
+    "ko": "불켜미",
+    "zh-hans": "烛光灵",
+    "zh-hant": "燭光靈"
+  },
+  "number": 607
+}

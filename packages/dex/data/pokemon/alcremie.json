@@ -1,0 +1,965 @@
+{
+  "category": "Cream Pokémon",
+  "entries": [
+    {
+      "text": "When it trusts a Trainer, it will treat them to berries it’s decorated with cream.",
+      "version": "sword"
+    },
+    {
+      "text": "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "milcery",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-strawberry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-strawberry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-strawberry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-strawberry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-strawberry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-strawberry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-strawberry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-strawberry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-strawberry-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "strawberry-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-berry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-berry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-berry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-berry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-berry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-berry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-berry-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-berry-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "berry-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-berry-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "berry-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-love-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "love-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-love-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "love-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-love-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "love-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-love-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "love-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-love-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "love-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-love-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "love-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-love-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "love-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-love-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "love-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-love-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "love-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-star-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "star-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-star-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "star-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-star-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "star-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-star-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "star-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-star-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "star-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-star-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "star-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-star-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "star-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-star-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "star-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-star-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "star-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-clover-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-clover-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-clover-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-clover-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-clover-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-clover-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-clover-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-clover-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "clover-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-clover-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "clover-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-flower-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-flower-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-flower-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-flower-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-flower-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-flower-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-flower-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-flower-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "flower-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-flower-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "flower-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-vanilla-cream-ribbon-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-cream-ribbon-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-matcha-cream-ribbon-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 < &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-mint-cream-ribbon-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-lemon-cream-ribbon-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-salted-cream-ribbon-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 < &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "night"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-ruby-swirl-ribbon-sweet",
+        "expression": "SPIN_DIR 1 == SPIN_SEC 5 >= &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-caramel-swirl-ribbon-sweet",
+        "expression": "SPIN_DIR 0 == SPIN_SEC 5 >= &&",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "day"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "alcremie-rainbow-swirl-ribbon-sweet",
+        "expression": "SPIN_SEC 10 >=",
+        "held_item": "ribbon-sweet",
+        "time_of_day": "dusk"
+      },
+      "from": "milcery",
+      "to": "alcremie",
+      "trigger": "spin"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sweet-veil"
+        },
+        {
+          "hidden": true,
+          "key": "aroma-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/alcremie.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "lake-of-outrage-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 35,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "formName": "Vanilla Cream Strawberry Sweet",
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 8,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "alcremie",
+      "kind": "default",
+      "name": "Alcremie",
+      "number": 869,
+      "pokemon": "alcremie",
+      "sourceId": 869,
+      "sprite": "/dex-images/sprites/alcremie.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 60,
+        "defense": 75,
+        "hp": 65,
+        "special-attack": 110,
+        "special-defense": 121,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 5
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sweet-veil"
+        },
+        {
+          "hidden": true,
+          "key": "aroma-veil"
+        }
+      ],
+      "artwork": "/dex-images/artwork/alcremie-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-l",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "old-cemetery-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 300,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "alcremie-gmax",
+      "kind": "gigantamax",
+      "name": "Alcremie-Gmax",
+      "number": 869,
+      "pokemon": "alcremie",
+      "sourceId": 10223,
+      "sprite": "/dex-images/sprites/alcremie-gmax.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 60,
+        "defense": 75,
+        "hp": 65,
+        "special-attack": 110,
+        "special-defense": 121,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["fairy"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "alcremie",
+  "name": "Alcremie",
+  "names": {
+    "de": "Pokusan",
+    "en": "Alcremie",
+    "es": "Alcremie",
+    "es-419": "Alcremie",
+    "fr": "Charmilly",
+    "it": "Alcremie",
+    "ja": "マホイップ",
+    "ja-hrkt": "マホイップ",
+    "ja-roma": "Mawhip",
+    "ko": "마휘핑",
+    "zh-hans": "霜奶仙",
+    "zh-hant": "霜奶仙"
+  },
+  "number": 869
+}

@@ -1,0 +1,500 @@
+{
+  "category": "Chinchilla Pokémon",
+  "entries": [
+    {
+      "text": "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+      "version": "black"
+    },
+    {
+      "text": "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+      "version": "white"
+    },
+    {
+      "text": "Minccino greet each other by grooming one another thoroughly with their tails.",
+      "version": "black-2"
+    },
+    {
+      "text": "Minccino greet each other by grooming one another thoroughly with their tails.",
+      "version": "white-2"
+    },
+    {
+      "text": "Minccino greet each other by grooming one another thoroughly with their tails.",
+      "version": "x"
+    },
+    {
+      "text": "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+      "version": "y"
+    },
+    {
+      "text": "Minccino greet each other by grooming one another thoroughly with their tails.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A clean freak that will not allow even the slightest mess, it uses its tail like a mop to thoroughly clean any and all filth.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When its tail has gotten dirty from self-cleaning or from cleaning its nest, Minccino spends a whole day washing its tail in clean spring water.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+      "version": "sword"
+    },
+    {
+      "text": "They pet each other with their tails as a form of greeting. Of the two, the one whose tail is fluffier is a bit more boastful.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "minccino",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "shiny-stone"
+      },
+      "from": "minccino",
+      "to": "cinccino",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cute-charm"
+        },
+        {
+          "hidden": false,
+          "key": "technician"
+        },
+        {
+          "hidden": true,
+          "key": "skill-link"
+        }
+      ],
+      "artwork": "/dex-images/artwork/minccino.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 10,
+            "location": "mirage-spot-forest-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 40,
+            "location": "cold-storage-area",
+            "maxLevel": 24,
+            "method": "dark-grass",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "cold-storage-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-5-hidden-grotto",
+            "maxLevel": 24,
+            "method": "hidden-grotto",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 10,
+            "location": "mirage-spot-forest-east-of-mossdeep",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "shield": [
+          {
+            "chance": 220,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 180,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 90,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 220,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 40,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 15,
+            "location": "galar-route-5-area",
+            "maxLevel": 21,
+            "method": "overworld",
+            "minLevel": 19
+          },
+          {
+            "chance": 180,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 80,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "cold-storage-area",
+            "maxLevel": 24,
+            "method": "dark-grass",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "cold-storage-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 37
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 25,
+            "location": "unova-route-4-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-5-hidden-grotto",
+            "maxLevel": 24,
+            "method": "hidden-grotto",
+            "minLevel": 20
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-9-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "minccino",
+      "kind": "default",
+      "name": "Minccino",
+      "number": 572,
+      "pokemon": "minccino",
+      "sourceId": 572,
+      "sprite": "/dex-images/sprites/minccino.webp",
+      "statTotal": 300,
+      "stats": {
+        "attack": 50,
+        "defense": 40,
+        "hp": 55,
+        "special-attack": 40,
+        "special-defense": 40,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 58
+    }
+  ],
+  "generation": 5,
+  "key": "minccino",
+  "name": "Minccino",
+  "names": {
+    "de": "Picochilla",
+    "en": "Minccino",
+    "es": "Minccino",
+    "es-419": "Minccino",
+    "fr": "Chinchidou",
+    "it": "Minccino",
+    "ja": "チラーミィ",
+    "ja-hrkt": "チラーミィ",
+    "ja-roma": "Chillarmy",
+    "ko": "치라미",
+    "zh-hans": "泡沫栗鼠",
+    "zh-hant": "泡沫栗鼠"
+  },
+  "number": 572
+}

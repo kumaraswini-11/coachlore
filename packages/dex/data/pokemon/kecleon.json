@@ -1,0 +1,557 @@
+{
+  "category": "Color Swap Pokémon",
+  "entries": [
+    {
+      "text": "KECLEON is capable of changing its body colors at will to blend in with its surroundings. There is one exception - this POKéMON can’t change the zigzag pattern on its belly.",
+      "version": "ruby"
+    },
+    {
+      "text": "KECLEON alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A POKéMON that has the ability to alter its body colors to match its surroundings. A KECLEON reverts to its original colors if it is startled.",
+      "version": "emerald"
+    },
+    {
+      "text": "It changes body color to blend in with its surroundings. It also changes color if it is happy or sad.",
+      "version": "firered"
+    },
+    {
+      "text": "It changes body color to blend in with its surroundings. It also changes color if it is happy or sad.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "diamond"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "platinum"
+    },
+    {
+      "text": "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "black"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "white"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "black-2"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "white-2"
+    },
+    {
+      "text": "It can freely change its body’s color. The zigzag pattern on its belly doesn’t change, however.",
+      "version": "x"
+    },
+    {
+      "text": "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+      "version": "y"
+    },
+    {
+      "text": "Kecleon is capable of changing its body colors at will to blend in with its surroundings. There is one exception—this Pokémon can’t change the zigzag pattern on its belly.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Kecleon alters its body coloration to blend in with its surroundings, allowing it to sneak up on its prey unnoticed. Then it lashes out with its long, stretchy tongue to instantly ensnare the unsuspecting target.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It changes its hue to blend into its surroundings. If no one takes notice of it for too long, it will pout and never reveal itself.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "kecleon",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "color-change"
+        },
+        {
+          "hidden": true,
+          "key": "protean"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kecleon.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 305,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 305,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 40,
+            "method": "devon-scope",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "mossdeep-space-center-area",
+            "maxLevel": 45,
+            "method": "devon-scope",
+            "minLevel": 45
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 10,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 10,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 1,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 201,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 201,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 601,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 601,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 12,
+            "method": "horde",
+            "minLevel": 12
+          },
+          {
+            "chance": 100,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 305,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 305,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 13,
+            "method": "horde",
+            "minLevel": 13
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 15,
+            "method": "horde",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 40,
+            "method": "devon-scope",
+            "minLevel": 40
+          },
+          {
+            "chance": 100,
+            "location": "mossdeep-space-center-area",
+            "maxLevel": 45,
+            "method": "devon-scope",
+            "minLevel": 45
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-5",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-6",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 1,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 201,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 201,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 601,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 601,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 1,
+            "location": "hoenn-route-118-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 201,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 201,
+            "location": "hoenn-route-119-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 601,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 30,
+            "method": "devon-scope",
+            "minLevel": 30
+          },
+          {
+            "chance": 601,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 1,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "dividing-peak-tunnel-area",
+            "maxLevel": 20,
+            "method": "bubbling-spots",
+            "minLevel": 17
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "dividing-peak-tunnel-area",
+            "maxLevel": 20,
+            "method": "bubbling-spots",
+            "minLevel": 17
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 10,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 10,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 11
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rough-terrain",
+            "minLevel": 11
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 3,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kecleon",
+      "kind": "default",
+      "name": "Kecleon",
+      "number": 352,
+      "pokemon": "kecleon",
+      "sourceId": 352,
+      "sprite": "/dex-images/sprites/kecleon.webp",
+      "statTotal": 440,
+      "stats": {
+        "attack": 90,
+        "defense": 70,
+        "hp": 60,
+        "special-attack": 60,
+        "special-defense": 120,
+        "speed": 40
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 220
+    }
+  ],
+  "generation": 3,
+  "key": "kecleon",
+  "name": "Kecleon",
+  "names": {
+    "de": "Kecleon",
+    "en": "Kecleon",
+    "es": "Kecleon",
+    "es-419": "Kecleon",
+    "fr": "Kecleon",
+    "it": "Kecleon",
+    "ja": "カクレオン",
+    "ja-hrkt": "カクレオン",
+    "ja-roma": "Kakureon",
+    "ko": "켈리몬",
+    "zh-hans": "变隐龙",
+    "zh-hant": "變隱龍"
+  },
+  "number": 352
+}

@@ -1,0 +1,340 @@
+{
+  "category": "Mystic Pokémon",
+  "entries": [
+    {
+      "text": "FLYGON is nicknamed “the elemental spirit of the desert.” Because its flapping wings whip up a cloud of sand, this POKéMON is always enveloped in a sandstorm while flying.",
+      "version": "ruby"
+    },
+    {
+      "text": "FLYGON whips up a sandstorm by flapping its wings. The wings create a series of notes that sound like singing. Because the “singing” is the only thing that can be heard in a sandstorm, this POKéMON is said to be the desert spirit.",
+      "version": "sapphire"
+    },
+    {
+      "text": "The flapping of its wings sounds like singing. To prevent detection by enemies, it hides itself by flapping up a cloud of desert sand.",
+      "version": "emerald"
+    },
+    {
+      "text": "It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand.",
+      "version": "firered"
+    },
+    {
+      "text": "It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It whips up sandstorms with powerful flaps of its wings. It is known as “The Desert Spirit.”",
+      "version": "diamond"
+    },
+    {
+      "text": "It whips up sandstorms with powerful flaps of its wings. It is known as “The Desert Spirit.”",
+      "version": "pearl"
+    },
+    {
+      "text": "It whips up sandstorms with powerful flaps of its wings. It is known as “The Desert Spirit.”",
+      "version": "platinum"
+    },
+    {
+      "text": "It is nicknamed “The Desert Spirit” because the flapping of its wings sounds like a woman singing.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is nicknamed “The Desert Spirit” because the flapping of its wings sounds like a woman singing.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It whips up sandstorms with powerful flaps of its wings. It is known as “The Desert Spirit.”",
+      "version": "black"
+    },
+    {
+      "text": "It whips up sandstorms with powerful flaps of its wings. It is known as “The Desert Spirit.”",
+      "version": "white"
+    },
+    {
+      "text": "Known as “The Desert Spirit,” this Pokémon hides in the sandstorms it causes by beating its wings.",
+      "version": "black-2"
+    },
+    {
+      "text": "Known as “The Desert Spirit,” this Pokémon hides in the sandstorms it causes by beating its wings.",
+      "version": "white-2"
+    },
+    {
+      "text": "It hides itself by kicking up desert sand with its wings. Red covers shield its eyes from sand.",
+      "version": "x"
+    },
+    {
+      "text": "Known as “The Desert Spirit,” this Pokémon hides in the sandstorms it causes by beating its wings.",
+      "version": "y"
+    },
+    {
+      "text": "Flygon is nicknamed “the elemental spirit of the desert.” Because its flapping wings whip up a cloud of sand, this Pokémon is always enveloped in a sandstorm while flying.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Flygon whips up a sandstorm by flapping its wings. The wings create a series of notes that sound like singing. Because the “singing” is the only thing that can be heard in a sandstorm, this Pokémon is said to be the desert spirit.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The flapping of its wings sounds something like singing. Those lured by the sound are enveloped in a sandstorm, becoming Flygon’s prey.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+      "version": "moon"
+    },
+    {
+      "text": "By flapping their wings, Flygon cause sandstorms that conceal Krookodile. The team then splits the prey they catch.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "People continue to have their hearts stolen by its enchanting songs and find themselves stranded in the desert.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+      "version": "sword"
+    },
+    {
+      "text": "It is nicknamed the Desert Spirit because the flapping of its wings sounds like a woman singing.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "trapinch",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "trapinch",
+      "to": "vibrava",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 45
+      },
+      "from": "vibrava",
+      "to": "flygon",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/flygon.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 15,
+            "location": "axews-eye-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 400,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 51
+          },
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 10,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 90,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 400,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 51
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 2,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "challenge-beach-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "courageous-cavern-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "potbottom-desert-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "stepping-stone-sea-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 3,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "flygon",
+      "kind": "default",
+      "name": "Flygon",
+      "number": 330,
+      "pokemon": "flygon",
+      "sourceId": 330,
+      "sprite": "/dex-images/sprites/flygon.webp",
+      "statTotal": 520,
+      "stats": {
+        "attack": 100,
+        "defense": 80,
+        "hp": 80,
+        "special-attack": 80,
+        "special-defense": 80,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["ground", "dragon"],
+      "weight": 820
+    }
+  ],
+  "generation": 3,
+  "key": "flygon",
+  "name": "Flygon",
+  "names": {
+    "de": "Libelldra",
+    "en": "Flygon",
+    "es": "Flygon",
+    "es-419": "Flygon",
+    "fr": "Libégon",
+    "it": "Flygon",
+    "ja": "フライゴン",
+    "ja-hrkt": "フライゴン",
+    "ja-roma": "Flygon",
+    "ko": "플라이곤",
+    "zh-hans": "沙漠蜻蜓",
+    "zh-hant": "沙漠蜻蜓"
+  },
+  "number": 330
+}

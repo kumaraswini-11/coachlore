@@ -1,13 +1,14 @@
 {
   "name": "@workspace/eslint-config",
-  "description": "Coachlore's ESLint settings, one source for every package: base, Next.js and React-library configs.",
+  "description": "Coachlore's ESLint settings, one source for every package: base, core, Next.js and React-library configs.",
   "version": "0.0.0",
   "type": "module",
   "private": true,
   "exports": {
     "./base": "./base.js",
     "./next-js": "./next.js",
-    "./react-internal": "./react-internal.js"
+    "./react-internal": "./react-internal.js",
+    "./core": "./core.js"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",

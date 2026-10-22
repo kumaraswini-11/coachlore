@@ -1,0 +1,159 @@
+{
+  "category": "Spiny Armor Pokémon",
+  "entries": [
+    {
+      "text": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+      "version": "x"
+    },
+    {
+      "text": "When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.",
+      "version": "y"
+    },
+    {
+      "text": "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it takes a defensive posture with its fists guarding its face, it could withstand a bomb blast.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chespin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "chespin",
+      "to": "quilladin",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "quilladin",
+      "to": "chesnaught",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "overgrow"
+        },
+        {
+          "hidden": true,
+          "key": "bulletproof"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chesnaught.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "island-scan",
+            "minLevel": 45
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "exeggutor-island-area",
+            "maxLevel": 45,
+            "method": "island-scan",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "chesnaught",
+      "kind": "default",
+      "name": "Chesnaught",
+      "number": 652,
+      "pokemon": "chesnaught",
+      "sourceId": 652,
+      "sprite": "/dex-images/sprites/chesnaught.webp",
+      "statTotal": 530,
+      "stats": {
+        "attack": 107,
+        "defense": 122,
+        "hp": 88,
+        "special-attack": 74,
+        "special-defense": 75,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["grass", "fighting"],
+      "weight": 900
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "bulletproof"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chesnaught-mega.webp",
+      "encounters": {},
+      "formName": "Mega Chesnaught",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 16,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "chesnaught-mega",
+      "kind": "mega",
+      "name": "Chesnaught-Mega",
+      "number": 652,
+      "pokemon": "chesnaught",
+      "sourceId": 10292,
+      "sprite": "/dex-images/sprites/chesnaught-mega.webp",
+      "statTotal": 630,
+      "stats": {
+        "attack": 137,
+        "defense": 172,
+        "hp": 88,
+        "special-attack": 74,
+        "special-defense": 115,
+        "speed": 44
+      },
+      "tags": [],
+      "types": ["grass", "fighting"],
+      "weight": 900
+    }
+  ],
+  "generation": 6,
+  "key": "chesnaught",
+  "name": "Chesnaught",
+  "names": {
+    "de": "Brigaron",
+    "en": "Chesnaught",
+    "es": "Chesnaught",
+    "es-419": "Chesnaught",
+    "fr": "Blindépique",
+    "it": "Chesnaught",
+    "ja": "ブリガロン",
+    "ja-hrkt": "ブリガロン",
+    "ja-roma": "Brigarron",
+    "ko": "브리가론",
+    "zh-hans": "布里卡隆",
+    "zh-hant": "布里卡隆"
+  },
+  "number": 652
+}

@@ -1,0 +1,228 @@
+{
+  "category": "Bite Pokémon",
+  "entries": [
+    {
+      "text": "MIGHTYENA gives obvious signals when it is preparing to attack. It starts to growl deeply and then flattens its body. This POKéMON will bite savagely with its sharply pointed fangs.",
+      "version": "ruby"
+    },
+    {
+      "text": "MIGHTYENA travel and act as a pack in the wild. The memory of its life in the wild compels the POKéMON to obey only those TRAINERS that it recognizes to possess superior skill.",
+      "version": "sapphire"
+    },
+    {
+      "text": "In the wild, MIGHTYENA live in a pack. They never defy their leader’s orders. They defeat foes with perfectly coordinated teamwork.",
+      "version": "emerald"
+    },
+    {
+      "text": "It will always obey the commands of a skilled TRAINER. Its behavior arises from its living in packs in ancient times.",
+      "version": "firered"
+    },
+    {
+      "text": "It will always obey the commands of a skilled TRAINER. Its behavior arises from its living in packs in ancient times.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "diamond"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "pearl"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "platinum"
+    },
+    {
+      "text": "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "black"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "white"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "black-2"
+    },
+    {
+      "text": "It chases down prey in a pack. It will never disobey the commands of a skilled Trainer.",
+      "version": "white-2"
+    },
+    {
+      "text": "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+      "version": "x"
+    },
+    {
+      "text": "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+      "version": "y"
+    },
+    {
+      "text": "Mightyena gives obvious signals when it is preparing to attack. It starts to growl deeply and then flattens its body. This Pokémon will bite savagely with its sharply pointed fangs.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Mightyena travel and act as a pack in the wild. The memory of its life in the wild compels the Pokémon to obey only those Trainers that it recognizes to possess superior skill.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poochyena",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 18
+      },
+      "from": "poochyena",
+      "to": "mightyena",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": false,
+          "key": "quick-feet"
+        },
+        {
+          "hidden": true,
+          "key": "moxie"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mightyena.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 22,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 30,
+            "location": "hoenn-route-120-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-121-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "hoenn-route-123-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-15-area",
+            "maxLevel": 36,
+            "method": "red-flowers",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-15-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-dark",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 3,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mightyena",
+      "kind": "default",
+      "name": "Mightyena",
+      "number": 262,
+      "pokemon": "mightyena",
+      "sourceId": 262,
+      "sprite": "/dex-images/sprites/mightyena.webp",
+      "statTotal": 420,
+      "stats": {
+        "attack": 90,
+        "defense": 70,
+        "hp": 70,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 370
+    }
+  ],
+  "generation": 3,
+  "key": "mightyena",
+  "name": "Mightyena",
+  "names": {
+    "de": "Magnayen",
+    "en": "Mightyena",
+    "es": "Mightyena",
+    "es-419": "Mightyena",
+    "fr": "Grahyèna",
+    "it": "Mightyena",
+    "ja": "グラエナ",
+    "ja-hrkt": "グラエナ",
+    "ja-roma": "Graena",
+    "ko": "그라에나",
+    "zh-hans": "大狼犬",
+    "zh-hant": "大狼犬"
+  },
+  "number": 262
+}

@@ -1,0 +1,178 @@
+{
+  "category": "Royal Sword Pokémon",
+  "entries": [
+    {
+      "text": "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+      "version": "x"
+    },
+    {
+      "text": "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+      "version": "y"
+    },
+    {
+      "text": "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack.",
+      "version": "sword"
+    },
+    {
+      "text": "Its potent spectral powers allow it to manipulate others. It once used its powers to force people and Pokémon to build a kingdom to its liking.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "honedge",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "honedge",
+      "to": "doublade",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "dusk-stone"
+      },
+      "from": "doublade",
+      "to": "aegislash",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stance-change"
+        }
+      ],
+      "artwork": "/dex-images/artwork/aegislash-shield.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 200,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Shield Forme",
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "aegislash-shield",
+      "kind": "default",
+      "name": "Aegislash",
+      "number": 681,
+      "pokemon": "aegislash",
+      "sourceId": 681,
+      "sprite": "/dex-images/sprites/aegislash-shield.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 50,
+        "defense": 140,
+        "hp": 60,
+        "special-attack": 50,
+        "special-defense": 140,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["steel", "ghost"],
+      "weight": 530
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stance-change"
+        }
+      ],
+      "artwork": "/dex-images/artwork/aegislash-blade.webp",
+      "encounters": {},
+      "formName": "Blade Forme",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 17,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "aegislash-blade",
+      "kind": "other",
+      "name": "Aegislash-Blade",
+      "number": 681,
+      "pokemon": "aegislash",
+      "sourceId": 10026,
+      "sprite": "/dex-images/sprites/aegislash-blade.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 140,
+        "defense": 50,
+        "hp": 60,
+        "special-attack": 140,
+        "special-defense": 50,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["steel", "ghost"],
+      "weight": 530
+    }
+  ],
+  "generation": 6,
+  "key": "aegislash",
+  "name": "Aegislash",
+  "names": {
+    "de": "Durengard",
+    "en": "Aegislash",
+    "es": "Aegislash",
+    "es-419": "Aegislash",
+    "fr": "Exagide",
+    "it": "Aegislash",
+    "ja": "ギルガルド",
+    "ja-hrkt": "ギルガルド",
+    "ja-roma": "Gillgard",
+    "ko": "킬가르도",
+    "zh-hans": "坚盾剑怪",
+    "zh-hant": "堅盾劍怪"
+  },
+  "number": 681
+}

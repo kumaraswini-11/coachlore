@@ -1,0 +1,299 @@
+{
+  "category": "Fixation Pokémon",
+  "entries": [
+    {
+      "text": "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+      "version": "black"
+    },
+    {
+      "text": "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+      "version": "white"
+    },
+    {
+      "text": "It stares intently at everything. It can become so obsessed with watching that it doesn’t notice attacks.",
+      "version": "black-2"
+    },
+    {
+      "text": "It stares intently at everything. It can become so obsessed with watching that it doesn’t notice attacks.",
+      "version": "white-2"
+    },
+    {
+      "text": "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+      "version": "x"
+    },
+    {
+      "text": "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+      "version": "y"
+    },
+    {
+      "text": "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Though they’re still only babies, there’s psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight.",
+      "version": "sword"
+    },
+    {
+      "text": "Even when nobody seems to be around, Gothita can still be heard making a muted cry. Many believe it’s speaking to something only it can see.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gothita",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 32
+      },
+      "from": "gothita",
+      "to": "gothorita",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 41
+      },
+      "from": "gothorita",
+      "to": "gothitelle",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "frisk"
+        },
+        {
+          "hidden": false,
+          "key": "competitive"
+        },
+        {
+          "hidden": true,
+          "key": "shadow-tag"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gothita.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 25,
+            "method": "dark-grass",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "strange-house-1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 20,
+            "location": "strange-house-b1f",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-16-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-5-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 21
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "island-scan",
+            "minLevel": 17
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-6-north",
+            "maxLevel": 17,
+            "method": "island-scan",
+            "minLevel": 17
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "giants-cap-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 80,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 65,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "frostpoint-field-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 18,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 65,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gothita",
+      "kind": "default",
+      "name": "Gothita",
+      "number": 574,
+      "pokemon": "gothita",
+      "sourceId": 574,
+      "sprite": "/dex-images/sprites/gothita.webp",
+      "statTotal": 290,
+      "stats": {
+        "attack": 30,
+        "defense": 50,
+        "hp": 45,
+        "special-attack": 55,
+        "special-defense": 65,
+        "speed": 45
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 58
+    }
+  ],
+  "generation": 5,
+  "key": "gothita",
+  "name": "Gothita",
+  "names": {
+    "de": "Mollimorba",
+    "en": "Gothita",
+    "es": "Gothita",
+    "es-419": "Gothita",
+    "fr": "Scrutella",
+    "it": "Gothita",
+    "ja": "ゴチム",
+    "ja-hrkt": "ゴチム",
+    "ja-roma": "Gothimu",
+    "ko": "고디탱",
+    "zh-hans": "哥德宝宝",
+    "zh-hant": "哥德寶寶"
+  },
+  "number": 574
+}

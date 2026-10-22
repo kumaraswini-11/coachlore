@@ -1,0 +1,638 @@
+{
+  "category": "Trash Heap Pokémon",
+  "entries": [
+    {
+      "text": "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+      "version": "black"
+    },
+    {
+      "text": "They absorb garbage and make it part of their bodies. They shoot a poisonous liquid from their right-hand fingertips.",
+      "version": "white"
+    },
+    {
+      "text": "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+      "version": "black-2"
+    },
+    {
+      "text": "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+      "version": "white-2"
+    },
+    {
+      "text": "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+      "version": "x"
+    },
+    {
+      "text": "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+      "version": "y"
+    },
+    {
+      "text": "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Beware the poisonous liquid it shoots from its right arm. If even a little of it gets on you, you’ll experience the effects of the unidentified toxin.",
+      "version": "sun"
+    },
+    {
+      "text": "For a time, their numbers increased explosively in Alola. Since the arrival of Grimer, their population has decreased dramatically.",
+      "version": "moon"
+    },
+    {
+      "text": "It locks opponents in place with its left hand, immobilizing them by entirely dousing their bodies with poisonous liquid.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Some say the reason Garbodor in Alola are a little stronger than their counterparts elsewhere is the presence of Muk, their natural enemy.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
+      "version": "sword"
+    },
+    {
+      "text": "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "trubbish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "trubbish",
+      "to": "garbodor",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stench"
+        },
+        {
+          "hidden": false,
+          "key": "weak-armor"
+        },
+        {
+          "hidden": true,
+          "key": "aftermath"
+        }
+      ],
+      "artwork": "/dex-images/artwork/garbodor.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 38,
+            "method": "dark-grass",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-9-area",
+            "maxLevel": 44,
+            "method": "dark-grass",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-9-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-hidden-grotto",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          }
+        ],
+        "shield": [
+          {
+            "chance": 1800,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 800,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "malie-city-outer-cape",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          }
+        ],
+        "sword": [
+          {
+            "chance": 1800,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 800,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "giants-cap-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "motostoke-riverbank-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "north-lake-miloch-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 65,
+            "location": "north-lake-miloch-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 38,
+            "method": "dark-grass",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-9-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-9-area",
+            "maxLevel": 44,
+            "method": "dark-grass",
+            "minLevel": 42
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-9-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-9-hidden-grotto",
+            "maxLevel": 39,
+            "method": "hidden-grotto",
+            "minLevel": 35
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "lost-hotel-area",
+            "maxLevel": 38,
+            "method": "trash-can-ambush",
+            "minLevel": 36
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "trash-can-ambush",
+            "minLevel": 46
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "lost-hotel-area",
+            "maxLevel": 38,
+            "method": "trash-can-ambush",
+            "minLevel": 36
+          },
+          {
+            "chance": 100,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "trash-can-ambush",
+            "minLevel": 46
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 19,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "garbodor",
+      "kind": "default",
+      "name": "Garbodor",
+      "number": 569,
+      "pokemon": "garbodor",
+      "sourceId": 569,
+      "sprite": "/dex-images/sprites/garbodor.webp",
+      "statTotal": 474,
+      "stats": {
+        "attack": 95,
+        "defense": 82,
+        "hp": 80,
+        "special-attack": 60,
+        "special-defense": 82,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 1073
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stench"
+        },
+        {
+          "hidden": false,
+          "key": "weak-armor"
+        },
+        {
+          "hidden": true,
+          "key": "aftermath"
+        }
+      ],
+      "artwork": "/dex-images/artwork/garbodor-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "east-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 210,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "garbodor-gmax",
+      "kind": "gigantamax",
+      "name": "Garbodor-Gmax",
+      "number": 569,
+      "pokemon": "garbodor",
+      "sourceId": 10207,
+      "sprite": "/dex-images/sprites/garbodor-gmax.webp",
+      "statTotal": 474,
+      "stats": {
+        "attack": 95,
+        "defense": 82,
+        "hp": 80,
+        "special-attack": 60,
+        "special-defense": 82,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["poison"],
+      "weight": 10000
+    }
+  ],
+  "generation": 5,
+  "key": "garbodor",
+  "name": "Garbodor",
+  "names": {
+    "de": "Deponitox",
+    "en": "Garbodor",
+    "es": "Garbodor",
+    "es-419": "Garbodor",
+    "fr": "Miasmax",
+    "it": "Garbodor",
+    "ja": "ダストダス",
+    "ja-hrkt": "ダストダス",
+    "ja-roma": "Dustdas",
+    "ko": "더스트나",
+    "zh-hans": "灰尘山",
+    "zh-hant": "灰塵山"
+  },
+  "number": 569
+}

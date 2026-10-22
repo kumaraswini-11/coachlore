@@ -1,0 +1,883 @@
+{
+  "category": "Plump Mouse Pokémon",
+  "entries": [
+    {
+      "text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+      "version": "diamond"
+    },
+    {
+      "text": "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+      "version": "pearl"
+    },
+    {
+      "text": "A comparison revealed that BIDOOF’s front teeth grow at the same rate as RATTATA’s.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives in groups by the water. It chews up boulders and trees around its nest with its incisors.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives in groups by the water. It chews up boulders and trees around its nest with its incisors.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A comparison revealed that Bidoof’s front teeth grow at the same rate as Rattata’s.",
+      "version": "black"
+    },
+    {
+      "text": "A comparison revealed that Bidoof’s front teeth grow at the same rate as Rattata’s.",
+      "version": "white"
+    },
+    {
+      "text": "A comparison revealed that Bidoof’s front teeth grow at the same rate as Rattata’s.",
+      "version": "black-2"
+    },
+    {
+      "text": "A comparison revealed that Bidoof’s front teeth grow at the same rate as Rattata’s.",
+      "version": "white-2"
+    },
+    {
+      "text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+      "version": "x"
+    },
+    {
+      "text": "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+      "version": "y"
+    },
+    {
+      "text": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Bidoof has an unsophisticated face and is rarely flustered by anything. There have been incidents involving Bidoof sauntering into villages and gnawing on the houses without a single care.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "bidoof",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "bidoof",
+      "to": "bibarel",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "simple"
+        },
+        {
+          "hidden": false,
+          "key": "unaware"
+        },
+        {
+          "hidden": true,
+          "key": "moody"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bidoof.webp",
+      "encounters": {
+        "diamond": [
+          {
+            "chance": 11,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 46,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 23,
+            "location": "sinnoh-route-203-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 33,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 61,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 61,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "valley-windworks-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-34-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-42-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-45-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-10-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-22-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-26-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-4-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-9-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "ruins-of-alph-outside",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "unknown-all-rattata-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 11,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-3",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-4",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 31,
+            "location": "great-marsh-area-5",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 11,
+            "location": "great-marsh-area-6",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 46,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 23,
+            "location": "sinnoh-route-203-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 33,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 61,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 61,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "valley-windworks-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 62,
+            "location": "lake-verity-after-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 72,
+            "location": "lake-verity-before-galactic-intervention",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 76,
+            "location": "sinnoh-route-201-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 76,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 33,
+            "location": "sinnoh-route-203-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-north-towards-floaroma-town",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 25,
+            "location": "sinnoh-route-204-south-towards-jubilife-city",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 30,
+            "location": "sinnoh-route-205-east-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-208-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "sinnoh-route-211-west-towards-eterna-city",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 20,
+            "location": "johto-route-30-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-31-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-32-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-34-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-35-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-42-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-44-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-45-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "johto-safari-zone-forest",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-10-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-22-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-24-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-26-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-27-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-28-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-4-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-6-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-9-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 20,
+            "location": "kanto-sea-route-21-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "mt-silver-outside",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 42
+          },
+          {
+            "chance": 20,
+            "location": "ruins-of-alph-outside",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 40,
+            "location": "unknown-all-rattata-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "x": [
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-3-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "y": [
+          {
+            "chance": 10,
+            "location": "kalos-route-22-area",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-3-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "x-y", "brilliant-diamond-shining-pearl", "legends-arceus"],
+      "gen9": false,
+      "generation": 4,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bidoof",
+      "kind": "default",
+      "name": "Bidoof",
+      "number": 399,
+      "pokemon": "bidoof",
+      "sourceId": 399,
+      "sprite": "/dex-images/sprites/bidoof.webp",
+      "statTotal": 250,
+      "stats": {
+        "attack": 45,
+        "defense": 40,
+        "hp": 59,
+        "special-attack": 35,
+        "special-defense": 40,
+        "speed": 31
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 200
+    }
+  ],
+  "generation": 4,
+  "key": "bidoof",
+  "name": "Bidoof",
+  "names": {
+    "de": "Bidiza",
+    "en": "Bidoof",
+    "es": "Bidoof",
+    "es-419": "Bidoof",
+    "fr": "Keunotor",
+    "it": "Bidoof",
+    "ja": "ビッパ",
+    "ja-hrkt": "ビッパ",
+    "ja-roma": "Bippa",
+    "ko": "비버니",
+    "zh-hans": "大牙狸",
+    "zh-hant": "大牙狸"
+  },
+  "number": 399
+}

@@ -1,0 +1,315 @@
+{
+  "category": "Thunderbolt Pokémon",
+  "entries": [
+    {
+      "text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+      "version": "black"
+    },
+    {
+      "text": "This ill-tempered Pokémon is dangerous because when it’s angry, it shoots lightning from its mane in all directions.",
+      "version": "white"
+    },
+    {
+      "text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+      "version": "black-2"
+    },
+    {
+      "text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+      "version": "white-2"
+    },
+    {
+      "text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+      "version": "x"
+    },
+    {
+      "text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+      "version": "y"
+    },
+    {
+      "text": "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "blitzle",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 27
+      },
+      "from": "blitzle",
+      "to": "zebstrika",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "lightning-rod"
+        },
+        {
+          "hidden": false,
+          "key": "motor-drive"
+        },
+        {
+          "hidden": true,
+          "key": "sap-sipper"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zebstrika.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-west-of-dewford-town",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-mountain-south-of-route-129",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "dark-grass",
+            "minLevel": 31
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-3-hidden-grotto-dark-grass",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-west-of-dewford-town",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 60,
+            "location": "mirage-spot-mountain-south-of-route-129",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "dark-grass",
+            "minLevel": 31
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 64
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-3-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 56
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-3-hidden-grotto-dark-grass",
+            "maxLevel": 59,
+            "method": "hidden-grotto",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 36,
+            "method": "dark-grass",
+            "minLevel": 34
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-7-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 31
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "zebstrika",
+      "kind": "default",
+      "name": "Zebstrika",
+      "number": 523,
+      "pokemon": "zebstrika",
+      "sourceId": 523,
+      "sprite": "/dex-images/sprites/zebstrika.webp",
+      "statTotal": 497,
+      "stats": {
+        "attack": 100,
+        "defense": 63,
+        "hp": 75,
+        "special-attack": 80,
+        "special-defense": 63,
+        "speed": 116
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 795
+    }
+  ],
+  "generation": 5,
+  "key": "zebstrika",
+  "name": "Zebstrika",
+  "names": {
+    "de": "Zebritz",
+    "en": "Zebstrika",
+    "es": "Zebstrika",
+    "es-419": "Zebstrika",
+    "fr": "Zéblitz",
+    "it": "Zebstrika",
+    "ja": "ゼブライカ",
+    "ja-hrkt": "ゼブライカ",
+    "ja-roma": "Zebraika",
+    "ko": "제브라이카",
+    "zh-hans": "雷电斑马",
+    "zh-hant": "雷電斑馬"
+  },
+  "number": 523
+}

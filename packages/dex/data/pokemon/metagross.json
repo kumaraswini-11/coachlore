@@ -1,0 +1,410 @@
+{
+  "category": "Iron Leg Pokémon",
+  "entries": [
+    {
+      "text": "METAGROSS has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This POKéMON can float in the air by tucking in its four legs.",
+      "version": "ruby"
+    },
+    {
+      "text": "METAGROSS is the result of two METANG achieving fusion. When hunting, this POKéMON pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.",
+      "version": "sapphire"
+    },
+    {
+      "text": "METAGROSS has four brains that are joined by a complex neural network. As a result of integration, this POKéMON is smarter than a supercomputer.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is formed by two METANG fusing. Its four brains are said to be superior to a supercomputer.",
+      "version": "firered"
+    },
+    {
+      "text": "It is formed by two METANG fusing. Its four brains are said to be superior to a supercomputer.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "METANG combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      "version": "diamond"
+    },
+    {
+      "text": "METANG combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      "version": "pearl"
+    },
+    {
+      "text": "METANG combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      "version": "platinum"
+    },
+    {
+      "text": "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It folds its four legs when flying. Its four brains are said to be superior to a supercomputer.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      "version": "black"
+    },
+    {
+      "text": "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      "version": "white"
+    },
+    {
+      "text": "With four linked brains, it’s more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "With four linked brains, it’s more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "With four linked brains, it’s more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+      "version": "x"
+    },
+    {
+      "text": "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+      "version": "y"
+    },
+    {
+      "text": "Metagross has four brains in total. Combined, the four brains can breeze through difficult calculations faster than a supercomputer. This Pokémon can float in the air by tucking in its four legs.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Metagross is the result of two Metang achieving fusion. When hunting, this Pokémon pins the prey to the ground under its massive body. It then eats the helpless victim using the large mouth on its stomach.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It firmly pins its prey using its four claws and large body. Then the teeth in the mouth on its stomach chew the prey to bits.",
+      "version": "sun"
+    },
+    {
+      "text": "A linkage of two Metang, this Pokémon can perform any calculation in a flash by utilizing parallel processing in its four brains.",
+      "version": "moon"
+    },
+    {
+      "text": "It boasts not only psychic powers but also fantastic strength. It grabs its prey with its four legs and holds them in place with its claws.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Because the magnetic powers of these Pokémon get stronger in freezing temperatures, Metagross living on snowy mountains are full of energy.",
+      "version": "sword"
+    },
+    {
+      "text": "Metagross is the result of the fusion of two Metang. This Pokémon defeats its opponents through use of its supercomputer-level brain.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "beldum",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "beldum",
+      "to": "metang",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 45
+      },
+      "from": "metang",
+      "to": "metagross",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "clear-body"
+        },
+        {
+          "hidden": true,
+          "key": "light-metal"
+        }
+      ],
+      "artwork": "/dex-images/artwork/metagross.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "realgam-tower-colosseum",
+            "maxLevel": 50,
+            "method": "snag",
+            "minLevel": 50
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "snowslide-slope-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "frigid-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 55,
+            "location": "giants-bed-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 55,
+            "location": "path-to-the-peak-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 600,
+            "location": "snowslide-slope-area",
+            "maxLevel": 68,
+            "method": "wanderer",
+            "minLevel": 68
+          },
+          {
+            "chance": 55,
+            "location": "snowslide-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 55,
+            "method": "grass-spots",
+            "minLevel": 55
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 47,
+            "method": "grass-spots",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "metagross",
+      "kind": "default",
+      "name": "Metagross",
+      "number": 376,
+      "pokemon": "metagross",
+      "sourceId": 376,
+      "sprite": "/dex-images/sprites/metagross.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 135,
+        "defense": 130,
+        "hp": 80,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["steel", "psychic"],
+      "weight": 5500
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "tough-claws"
+        }
+      ],
+      "artwork": "/dex-images/artwork/metagross-mega.webp",
+      "encounters": {},
+      "formName": "Mega Metagross",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 25,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "metagross-mega",
+      "kind": "mega",
+      "name": "Metagross-Mega",
+      "number": 376,
+      "pokemon": "metagross",
+      "sourceId": 10076,
+      "sprite": "/dex-images/sprites/metagross-mega.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 145,
+        "defense": 150,
+        "hp": 80,
+        "special-attack": 105,
+        "special-defense": 110,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["steel", "psychic"],
+      "weight": 9429
+    }
+  ],
+  "generation": 3,
+  "key": "metagross",
+  "name": "Metagross",
+  "names": {
+    "de": "Metagross",
+    "en": "Metagross",
+    "es": "Metagross",
+    "es-419": "Metagross",
+    "fr": "Métalosse",
+    "it": "Metagross",
+    "ja": "メタグロス",
+    "ja-hrkt": "メタグロス",
+    "ja-roma": "Metagross",
+    "ko": "메타그로스",
+    "zh-hans": "巨金怪",
+    "zh-hant": "巨金怪"
+  },
+  "number": 376
+}

@@ -1,0 +1,363 @@
+{
+  "category": "Illuminating Pokémon",
+  "entries": [
+    {
+      "text": "Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.",
+      "version": "sun"
+    },
+    {
+      "text": "It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.",
+      "version": "moon"
+    },
+    {
+      "text": "It puts its prey to sleep and siphons off their vitality through the tip of its arms. If one of its kind is weakened, it helps by sending it vitality.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When it starts fighting for territory with Parasect, the entire area gets completely coated in spores!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
+      "version": "sword"
+    },
+    {
+      "text": "If you see a light deep in a forest at night, don’t go near. Shiinotic will make you fall fast asleep.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "morelull",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 24
+      },
+      "from": "morelull",
+      "to": "shiinotic",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "illuminate"
+        },
+        {
+          "hidden": false,
+          "key": "effect-spore"
+        },
+        {
+          "hidden": true,
+          "key": "rain-dish"
+        }
+      ],
+      "artwork": "/dex-images/artwork/shiinotic.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 15,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 95,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 600,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 95,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "bridge-field-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "dappled-grove-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "giants-mirror-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "glimwood-tangle-area",
+            "maxLevel": 36,
+            "method": "overworld",
+            "minLevel": 34
+          },
+          {
+            "chance": 95,
+            "location": "hammerlocke-hills-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 600,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 56
+          },
+          {
+            "chance": 95,
+            "location": "rolling-fields-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-j",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 20,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 20,
+            "location": "fields-of-honor-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "forest-of-focus-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "insular-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "soothing-wetlands-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 7,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "shiinotic",
+      "kind": "default",
+      "name": "Shiinotic",
+      "number": 756,
+      "pokemon": "shiinotic",
+      "sourceId": 756,
+      "sprite": "/dex-images/sprites/shiinotic.webp",
+      "statTotal": 405,
+      "stats": {
+        "attack": 45,
+        "defense": 80,
+        "hp": 60,
+        "special-attack": 90,
+        "special-defense": 100,
+        "speed": 30
+      },
+      "tags": [],
+      "types": ["grass", "fairy"],
+      "weight": 115
+    }
+  ],
+  "generation": 7,
+  "key": "shiinotic",
+  "name": "Shiinotic",
+  "names": {
+    "de": "Lamellux",
+    "en": "Shiinotic",
+    "es": "Shiinotic",
+    "es-419": "Shiinotic",
+    "fr": "Lampignon",
+    "it": "Shiinotic",
+    "ja": "マシェード",
+    "ja-hrkt": "マシェード",
+    "ja-roma": "Mashade",
+    "ko": "마셰이드",
+    "zh-hans": "灯罩夜菇",
+    "zh-hant": "燈罩夜菇"
+  },
+  "number": 756
+}

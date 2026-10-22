@@ -1,0 +1,144 @@
+{
+  "category": "Land Spirit Pokémon",
+  "entries": [
+    {
+      "text": "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+      "version": "sun"
+    },
+    {
+      "text": "It confuses its enemies by flying too quickly for the eye to follow. It has a hair-trigger temper but forgets what made it angry an instant later.",
+      "version": "moon"
+    },
+    {
+      "text": "Although it’s called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tapu-koko",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "electric-surge"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tapu-koko.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-conflict-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-conflict-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ruins-of-conflict-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ruins-of-conflict-area",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tapu-koko",
+      "kind": "default",
+      "legendary": true,
+      "name": "Tapu Koko",
+      "number": 785,
+      "pokemon": "tapu-koko",
+      "sourceId": 785,
+      "sprite": "/dex-images/sprites/tapu-koko.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 115,
+        "defense": 85,
+        "hp": 70,
+        "special-attack": 95,
+        "special-defense": 75,
+        "speed": 130
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["electric", "fairy"],
+      "weight": 205
+    }
+  ],
+  "generation": 7,
+  "key": "tapu-koko",
+  "name": "Tapu Koko",
+  "names": {
+    "de": "Kapu-Riki",
+    "en": "Tapu Koko",
+    "es": "Tapu Koko",
+    "es-419": "Tapu Koko",
+    "fr": "Tokorico",
+    "it": "Tapu Koko",
+    "ja": "カプ・コケコ",
+    "ja-hrkt": "カプ・コケコ",
+    "ja-roma": "Kapu-Kokeko",
+    "ko": "카푸꼬꼬꼭",
+    "zh-hans": "卡璞・鸣鸣",
+    "zh-hant": "卡璞・鳴鳴"
+  },
+  "number": 785
+}

@@ -1,0 +1,459 @@
+{
+  "category": "Courting Pokémon",
+  "entries": [
+    {
+      "text": "It emits sound waves of various frequencies from its nose, including some powerful enough to destroy rocks.",
+      "version": "black"
+    },
+    {
+      "text": "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+      "version": "white"
+    },
+    {
+      "text": "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+      "version": "black-2"
+    },
+    {
+      "text": "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+      "version": "white-2"
+    },
+    {
+      "text": "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+      "version": "x"
+    },
+    {
+      "text": "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+      "version": "y"
+    },
+    {
+      "text": "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Emitting powerful sound waves tires it out. Afterward, it won’t be able to fly for a little while.",
+      "version": "sword"
+    },
+    {
+      "text": "The auspicious shape of this Pokémon’s nose apparently led some regions to consider Swoobat a symbol of good luck.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "woobat",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "woobat",
+      "to": "swoobat",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "unaware"
+        },
+        {
+          "hidden": false,
+          "key": "klutz"
+        },
+        {
+          "hidden": true,
+          "key": "simple"
+        }
+      ],
+      "artwork": "/dex-images/artwork/swoobat.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "dyna-tree-hill-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-m",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "frostpoint-field-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-u",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "dyna-tree-hill-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-m",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "frostpoint-field-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-u",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 85,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 85,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 27
+          },
+          {
+            "chance": 85,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 85,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 85,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          },
+          {
+            "chance": 85,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 5,
+      "height": 9,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "swoobat",
+      "kind": "default",
+      "name": "Swoobat",
+      "number": 528,
+      "pokemon": "swoobat",
+      "sourceId": 528,
+      "sprite": "/dex-images/sprites/swoobat.webp",
+      "statTotal": 425,
+      "stats": {
+        "attack": 57,
+        "defense": 55,
+        "hp": 67,
+        "special-attack": 77,
+        "special-defense": 55,
+        "speed": 114
+      },
+      "tags": [],
+      "types": ["psychic", "flying"],
+      "weight": 105
+    }
+  ],
+  "generation": 5,
+  "key": "swoobat",
+  "name": "Swoobat",
+  "names": {
+    "de": "Fletiamo",
+    "en": "Swoobat",
+    "es": "Swoobat",
+    "es-419": "Swoobat",
+    "fr": "Rhinolove",
+    "it": "Swoobat",
+    "ja": "ココロモリ",
+    "ja-hrkt": "ココロモリ",
+    "ja-roma": "Kokoromori",
+    "ko": "맘박쥐",
+    "zh-hans": "心蝙蝠",
+    "zh-hant": "心蝙蝠"
+  },
+  "number": 528
+}

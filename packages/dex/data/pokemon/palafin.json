@@ -1,0 +1,122 @@
+{
+  "category": "Dolphin Pokémon",
+  "entries": [
+    {
+      "text": "This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.",
+      "version": "scarlet"
+    },
+    {
+      "text": "Its physical capabilities are no different than a Finizen’s, but when its allies are in danger, it transforms and powers itself up.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "finizen",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 38,
+        "needs_multiplayer": true
+      },
+      "from": "finizen",
+      "to": "palafin",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "zero-to-hero"
+        }
+      ],
+      "artwork": "/dex-images/artwork/palafin-zero.webp",
+      "encounters": {},
+      "formName": "Zero Form",
+      "games": ["scarlet-violet", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "palafin-zero",
+      "kind": "default",
+      "name": "Palafin",
+      "number": 964,
+      "pokemon": "palafin",
+      "sourceId": 964,
+      "sprite": "/dex-images/sprites/palafin-zero.webp",
+      "statTotal": 457,
+      "stats": {
+        "attack": 70,
+        "defense": 72,
+        "hp": 100,
+        "special-attack": 53,
+        "special-defense": 62,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 602
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "zero-to-hero"
+        }
+      ],
+      "artwork": "/dex-images/artwork/palafin-hero.webp",
+      "encounters": {},
+      "formName": "Hero Form",
+      "games": [],
+      "gen9": true,
+      "generation": 9,
+      "height": 18,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "palafin-hero",
+      "kind": "other",
+      "name": "Palafin-Hero",
+      "number": 964,
+      "pokemon": "palafin",
+      "sourceId": 10256,
+      "sprite": "/dex-images/sprites/palafin-hero.webp",
+      "statTotal": 650,
+      "stats": {
+        "attack": 160,
+        "defense": 97,
+        "hp": 100,
+        "special-attack": 106,
+        "special-defense": 87,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 974
+    }
+  ],
+  "generation": 9,
+  "key": "palafin",
+  "name": "Palafin",
+  "names": {
+    "de": "Delfinator",
+    "en": "Palafin",
+    "es": "Palafin",
+    "es-419": "Palafin",
+    "fr": "Superdofin",
+    "it": "Palafin",
+    "ja": "イルカマン",
+    "ja-hrkt": "イルカマン",
+    "ja-roma": "Irukaman",
+    "ko": "돌핀맨",
+    "zh-hans": "海豚侠",
+    "zh-hant": "海豚俠"
+  },
+  "number": 964
+}

@@ -1,0 +1,385 @@
+{
+  "category": "Wind Chime Pokémon",
+  "entries": [
+    {
+      "text": "CHIMECHO makes its cries echo inside its hollow body. When this POKéMON becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying.",
+      "version": "ruby"
+    },
+    {
+      "text": "In high winds, CHIMECHO cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This POKéMON plucks berries with its long tail and eats them.",
+      "version": "sapphire"
+    },
+    {
+      "text": "They fly about very actively when the hot season arrives. They communicate among themselves using seven different and distinguishing cries.",
+      "version": "emerald"
+    },
+    {
+      "text": "It travels by riding on winds. It cleverly uses its long tail to pluck nuts and berries, which it loves to eat.",
+      "version": "firered"
+    },
+    {
+      "text": "It travels by riding on winds. It cleverly uses its long tail to pluck nuts and berries, which it loves to eat.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "To knock foes flying, it makes the air shudder with its cries. It converses using seven cries.",
+      "version": "diamond"
+    },
+    {
+      "text": "Emitting ultrasonic cries, it floats on winds to travel great distances.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+      "version": "platinum"
+    },
+    {
+      "text": "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+      "version": "black"
+    },
+    {
+      "text": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+      "version": "white"
+    },
+    {
+      "text": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its cries echo inside its hollow body to emerge as beautiful notes for startling and repelling foes.",
+      "version": "white-2"
+    },
+    {
+      "text": "It uses the sucker on its head to hang from a tree or from eaves. It can produce seven different tones.",
+      "version": "x"
+    },
+    {
+      "text": "Emitting ultrasonic cries, it floats on winds to travel great distances.",
+      "version": "y"
+    },
+    {
+      "text": "Chimecho makes its cries echo inside its hollow body. When this Pokémon becomes enraged, its cries result in ultrasonic waves that have the power to knock foes flying.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "In high winds, Chimecho cries as it hangs from a tree branch or the eaves of a building using a suction cup on its head. This Pokémon plucks berries with its long tail and eats them.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Can emit waves of air powerful enough to knock out prey taller than itself. I hypothesize that it amplifies the faint sound of wind within its body.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "chingling",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 220,
+        "time_of_day": "night"
+      },
+      "from": "chingling",
+      "to": "chimecho",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chimecho.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 60,
+            "location": "abundant-shrine-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 60,
+            "location": "abundant-shrine-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-5f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-6f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "sendoff-spring-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 2,
+            "location": "mt-pyre-summit",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 5,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-5f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-6f",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 41
+          },
+          {
+            "chance": 10,
+            "location": "sendoff-spring-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 1,
+            "location": "mt-coronet-4f-small-room",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 17,
+            "location": "mt-coronet-5f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 22,
+            "location": "mt-coronet-6f",
+            "maxLevel": 41,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 22,
+            "location": "turnback-cave-after-pillar-3",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 45
+          },
+          {
+            "chance": 1,
+            "location": "turnback-cave-between-pillars-1-and-2",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 22,
+            "location": "turnback-cave-between-pillars-2-and-3",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 22,
+            "location": "turnback-cave-pillar-2",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 22,
+            "location": "turnback-cave-pillar-3",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 2,
+            "location": "mt-pyre-summit",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 2,
+            "location": "mt-pyre-summit",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 30,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 47,
+            "method": "walk",
+            "minLevel": 46
+          }
+        ],
+        "white": [
+          {
+            "chance": 60,
+            "location": "abundant-shrine-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 60,
+            "location": "abundant-shrine-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "diamond-pearl", "platinum", "x-y", "omega-ruby-alpha-sapphire", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "chimecho",
+      "kind": "default",
+      "name": "Chimecho",
+      "number": 358,
+      "pokemon": "chimecho",
+      "sourceId": 358,
+      "sprite": "/dex-images/sprites/chimecho.webp",
+      "statTotal": 455,
+      "stats": {
+        "attack": 50,
+        "defense": 80,
+        "hp": 75,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 10
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/chimecho-mega.webp",
+      "encounters": {},
+      "formName": "Mega Chimecho",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 12,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "chimecho-mega",
+      "kind": "mega",
+      "name": "Chimecho-Mega",
+      "number": 358,
+      "pokemon": "chimecho",
+      "sourceId": 10306,
+      "sprite": "/dex-images/sprites/chimecho-mega.webp",
+      "statTotal": 555,
+      "stats": {
+        "attack": 50,
+        "defense": 110,
+        "hp": 75,
+        "special-attack": 135,
+        "special-defense": 120,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["psychic", "steel"],
+      "weight": 80
+    }
+  ],
+  "generation": 3,
+  "key": "chimecho",
+  "name": "Chimecho",
+  "names": {
+    "de": "Palimpalim",
+    "en": "Chimecho",
+    "es": "Chimecho",
+    "es-419": "Chimecho",
+    "fr": "Éoko",
+    "it": "Chimecho",
+    "ja": "チリーン",
+    "ja-hrkt": "チリーン",
+    "ja-roma": "Chirean",
+    "ko": "치렁",
+    "zh-hans": "风铃铃",
+    "zh-hant": "風鈴鈴"
+  },
+  "number": 358
+}

@@ -1,0 +1,335 @@
+{
+  "category": "Centipede Pokémon",
+  "entries": [
+    {
+      "text": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+      "version": "black"
+    },
+    {
+      "text": "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+      "version": "white"
+    },
+    {
+      "text": "Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey’s location and state.",
+      "version": "black-2"
+    },
+    {
+      "text": "Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey’s location and state.",
+      "version": "white-2"
+    },
+    {
+      "text": "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+      "version": "x"
+    },
+    {
+      "text": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+      "version": "y"
+    },
+    {
+      "text": "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Venipede and Sizzlipede are similar species, but when the two meet, a huge fight ensues.",
+      "version": "sword"
+    },
+    {
+      "text": "Its fangs are highly venomous. If this Pokémon finds prey it thinks it can eat, it leaps for them without any thought of how things might turn out.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "venipede",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 22
+      },
+      "from": "venipede",
+      "to": "whirlipede",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "whirlipede",
+      "to": "scolipede",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "poison-point"
+        },
+        {
+          "hidden": false,
+          "key": "swarm"
+        },
+        {
+          "hidden": true,
+          "key": "speed-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/venipede.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-20-area",
+            "maxLevel": 10,
+            "method": "dark-grass",
+            "minLevel": 10
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "island-scan",
+            "minLevel": 14
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-4-area",
+            "maxLevel": 14,
+            "method": "island-scan",
+            "minLevel": 14
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 1004,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 1004,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 1004,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 1004,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 90,
+            "location": "forest-of-focus-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "soothing-wetlands-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "stepping-stone-sea-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "training-lowlands-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 24,
+            "method": "dark-grass",
+            "minLevel": 23
+          },
+          {
+            "chance": 30,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 15,
+            "location": "pinwheel-forest-inside",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "lostlorn-forest-area",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-20-area",
+            "maxLevel": 10,
+            "method": "dark-grass",
+            "minLevel": 10
+          }
+        ],
+        "x": [
+          {
+            "chance": 80,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rustling-bush-ambush",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 80,
+            "location": "kalos-route-6-area",
+            "maxLevel": 12,
+            "method": "rustling-bush-ambush",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "legends-za"],
+      "gen9": false,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "venipede",
+      "kind": "default",
+      "name": "Venipede",
+      "number": 543,
+      "pokemon": "venipede",
+      "sourceId": 543,
+      "sprite": "/dex-images/sprites/venipede.webp",
+      "statTotal": 260,
+      "stats": {
+        "attack": 45,
+        "defense": 59,
+        "hp": 30,
+        "special-attack": 30,
+        "special-defense": 39,
+        "speed": 57
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 53
+    }
+  ],
+  "generation": 5,
+  "key": "venipede",
+  "name": "Venipede",
+  "names": {
+    "de": "Toxiped",
+    "en": "Venipede",
+    "es": "Venipede",
+    "es-419": "Venipede",
+    "fr": "Venipatte",
+    "it": "Venipede",
+    "ja": "フシデ",
+    "ja-hrkt": "フシデ",
+    "ja-roma": "Fushide",
+    "ko": "마디네",
+    "zh-hans": "百足蜈蚣",
+    "zh-hant": "百足蜈蚣"
+  },
+  "number": 543
+}

@@ -1,0 +1,270 @@
+{
+  "category": "Renegade Pokémon",
+  "entries": [
+    {
+      "text": "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+      "version": "diamond"
+    },
+    {
+      "text": "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
+      "version": "pearl"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "platinum"
+    },
+    {
+      "text": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+      "version": "heartgold"
+    },
+    {
+      "text": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "black"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "white"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "black-2"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "white-2"
+    },
+    {
+      "text": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+      "version": "x"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "y"
+    },
+    {
+      "text": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "There is one Hisuian verse that tells of a powerful light creating a deep shadow. I imagine that this deep shadow is Giratina.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "giratina",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/giratina-altered.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "sinjoh-ruins-area",
+            "maxLevel": 1,
+            "method": "static",
+            "minLevel": 1
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 100,
+            "location": "distortion-world-area",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          },
+          {
+            "chance": 100,
+            "location": "turnback-cave-after-pillar-3",
+            "maxLevel": 47,
+            "method": "static",
+            "minLevel": 47
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "sinjoh-ruins-area",
+            "maxLevel": 1,
+            "method": "static",
+            "minLevel": 1
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cave",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "formName": "Altered Forme",
+      "games": ["platinum", "legends-arceus"],
+      "gen9": true,
+      "generation": 4,
+      "height": 45,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "giratina-altered",
+      "kind": "default",
+      "legendary": true,
+      "name": "Giratina",
+      "number": 487,
+      "pokemon": "giratina",
+      "sourceId": 487,
+      "sprite": "/dex-images/sprites/giratina-altered.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 100,
+        "defense": 120,
+        "hp": 150,
+        "special-attack": 100,
+        "special-defense": 120,
+        "speed": 90
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["ghost", "dragon"],
+      "weight": 7500
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/giratina-origin.webp",
+      "encounters": {},
+      "formName": "Origin Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 4,
+      "height": 69,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "giratina-origin",
+      "kind": "other",
+      "legendary": true,
+      "name": "Giratina-Origin",
+      "number": 487,
+      "pokemon": "giratina",
+      "sourceId": 10007,
+      "sprite": "/dex-images/sprites/giratina-origin.webp",
+      "statTotal": 680,
+      "stats": {
+        "attack": 120,
+        "defense": 100,
+        "hp": 150,
+        "special-attack": 120,
+        "special-defense": 100,
+        "speed": 90
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["ghost", "dragon"],
+      "weight": 6500
+    }
+  ],
+  "generation": 4,
+  "key": "giratina",
+  "name": "Giratina",
+  "names": {
+    "de": "Giratina",
+    "en": "Giratina",
+    "es": "Giratina",
+    "es-419": "Giratina",
+    "fr": "Giratina",
+    "it": "Giratina",
+    "ja": "ギラティナ",
+    "ja-hrkt": "ギラティナ",
+    "ja-roma": "Giratina",
+    "ko": "기라티나",
+    "zh-hans": "骑拉帝纳",
+    "zh-hant": "騎拉帝納"
+  },
+  "number": 487
+}

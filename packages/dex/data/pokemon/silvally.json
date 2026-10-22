@@ -1,0 +1,102 @@
+{
+  "category": "Synthetic Pokémon",
+  "entries": [
+    {
+      "text": "Its trust in its partner is what awakens it. This Pokémon is capable of changing its type, a flexibility that is well displayed in battle.",
+      "version": "sun"
+    },
+    {
+      "text": "Although its name was Type: Null at first, the boy who evolved it into this form gave it the name by which it is now known.",
+      "version": "moon"
+    },
+    {
+      "text": "This is its form once it has awakened and evolved. Freed from its heavy mask, its speed is greatly increased.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Through the bond it formed with its Trainer, its will was strengthened, and it was able to destroy its control mask.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "A solid bond of trust between this Pokémon and its Trainer awakened the strength hidden within Silvally. It can change its type at will.",
+      "version": "sword"
+    },
+    {
+      "text": "The final factor needed to release this Pokémon’s true power was a strong bond with a Trainer it trusts.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "type-null",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "type-null",
+      "to": "silvally",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "rks-system"
+        }
+      ],
+      "artwork": "/dex-images/artwork/silvally.webp",
+      "encounters": {},
+      "formName": "Type: Normal",
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield"],
+      "gen9": false,
+      "generation": 7,
+      "height": 23,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "silvally",
+      "kind": "default",
+      "legendary": true,
+      "name": "Silvally",
+      "number": 773,
+      "pokemon": "silvally",
+      "sourceId": 773,
+      "sprite": "/dex-images/sprites/silvally.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 95,
+        "defense": 95,
+        "hp": 95,
+        "special-attack": 95,
+        "special-defense": 95,
+        "speed": 95
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["normal"],
+      "weight": 1005
+    }
+  ],
+  "generation": 7,
+  "key": "silvally",
+  "name": "Silvally",
+  "names": {
+    "de": "Amigento",
+    "en": "Silvally",
+    "es": "Silvally",
+    "es-419": "Silvally",
+    "fr": "Silvallié",
+    "it": "Silvally",
+    "ja": "シルヴァディ",
+    "ja-hrkt": "シルヴァディ",
+    "ja-roma": "Silvady",
+    "ko": "실버디",
+    "zh-hans": "银伴战兽",
+    "zh-hant": "銀伴戰獸"
+  },
+  "number": 773
+}

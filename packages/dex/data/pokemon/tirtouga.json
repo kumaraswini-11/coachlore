@@ -1,0 +1,259 @@
+{
+  "category": "Prototurtle Pokémon",
+  "entries": [
+    {
+      "text": "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+      "version": "black"
+    },
+    {
+      "text": "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
+      "version": "white"
+    },
+    {
+      "text": "This Pokémon was restored from a fossil. It swam skillfully and dove to depths beyond half a mile.",
+      "version": "black-2"
+    },
+    {
+      "text": "This Pokémon was restored from a fossil. It swam skillfully and dove to depths beyond half a mile.",
+      "version": "white-2"
+    },
+    {
+      "text": "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
+      "version": "x"
+    },
+    {
+      "text": "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+      "version": "y"
+    },
+    {
+      "text": "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Based on studies of its skeletal structure, it can apparently dive to ocean depths of over half a mile.",
+      "version": "sun"
+    },
+    {
+      "text": "Reputed to be the ancestor of most turtle Pokémon, it lived in warm seas approximately a hundred million years ago.",
+      "version": "moon"
+    },
+    {
+      "text": "It was restored from an ancient fossil. Tirtouga lived in the sea but came up onto the land to search for prey.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its hunting grounds encompassed a broad area, from the land to more than half a mile deep in the ocean.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon inhabited ancient seas. Although it can only crawl, it still comes up onto land in search of prey.",
+      "version": "sword"
+    },
+    {
+      "text": "Tirtouga is considered to be the ancestor of many turtle Pokémon. It was restored to life from a fossil.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tirtouga",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "tirtouga",
+      "to": "carracosta",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "solid-rock"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "swift-swim"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tirtouga.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 640,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 640,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 640,
+            "location": "frigid-sea-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 640,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 640,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "overworld-water",
+            "minLevel": 60
+          },
+          {
+            "chance": 640,
+            "location": "frigid-sea-area",
+            "maxLevel": 63,
+            "method": "wanderer",
+            "minLevel": 63
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-8-fossil-restoration-center",
+            "maxLevel": 15,
+            "method": "gift",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 100,
+            "location": "nacrene-city-nacrene-museum",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 5,
+      "height": 7,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tirtouga",
+      "kind": "default",
+      "name": "Tirtouga",
+      "number": 564,
+      "pokemon": "tirtouga",
+      "sourceId": 564,
+      "sprite": "/dex-images/sprites/tirtouga.webp",
+      "statTotal": 355,
+      "stats": {
+        "attack": 78,
+        "defense": 103,
+        "hp": 54,
+        "special-attack": 53,
+        "special-defense": 45,
+        "speed": 22
+      },
+      "tags": [],
+      "types": ["water", "rock"],
+      "weight": 165
+    }
+  ],
+  "generation": 5,
+  "key": "tirtouga",
+  "name": "Tirtouga",
+  "names": {
+    "de": "Galapaflos",
+    "en": "Tirtouga",
+    "es": "Tirtouga",
+    "es-419": "Tirtouga",
+    "fr": "Carapagos",
+    "it": "Tirtouga",
+    "ja": "プロトーガ",
+    "ja-hrkt": "プロトーガ",
+    "ja-roma": "Protoga",
+    "ko": "프로토가",
+    "zh-hans": "原盖海龟",
+    "zh-hant": "原蓋海龜"
+  },
+  "number": 564
+}

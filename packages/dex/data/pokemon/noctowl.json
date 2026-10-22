@@ -1,0 +1,1204 @@
+{
+  "category": "Owl Pokémon",
+  "entries": [
+    {
+      "text": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+      "version": "gold"
+    },
+    {
+      "text": "When it needs to think, it rotates its head 180 de grees to sharpen its intellectual power.",
+      "version": "silver"
+    },
+    {
+      "text": "Its extremely soft feathers make no sound in flight. It silently sneaks up on prey without being detected.",
+      "version": "crystal"
+    },
+    {
+      "text": "NOCTOWL never fails at catching prey in darkness. This POKéMON owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight.",
+      "version": "ruby"
+    },
+    {
+      "text": "NOCTOWL never fails at catching prey in darkness. This POKéMON owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It unfailingly catches prey in darkness. NOCTOWL owe their success to superior vision that allows them to see in minimal light, and to their supple and silent wings.",
+      "version": "emerald"
+    },
+    {
+      "text": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+      "version": "firered"
+    },
+    {
+      "text": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its eyes are special. They can pick out objects as long as there is the tiniest amount of light.",
+      "version": "diamond"
+    },
+    {
+      "text": "If it flips its head upside down, it’s a sign that it is engaged in very complex thinking.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "version": "platinum"
+    },
+    {
+      "text": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "version": "black"
+    },
+    {
+      "text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "version": "white"
+    },
+    {
+      "text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "version": "black-2"
+    },
+    {
+      "text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+      "version": "x"
+    },
+    {
+      "text": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+      "version": "y"
+    },
+    {
+      "text": "Noctowl never fails at catching prey in darkness. This Pokémon owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Noctowl never fails at catching prey in darkness. This Pokémon owes its success to its superior vision that allows it to see in minimal light, and to its soft, supple wings that make no sound in flight.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "With eyes that can see in pitch-darkness, it never lets its prey escape. Some even call it “the emperor of dark nights.”",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When it turns its head entirely upside down, you know it’s troubled by something. If you don’t leave it be, it will peck you.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "version": "sword"
+    },
+    {
+      "text": "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "hoothoot",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "hoothoot",
+      "to": "noctowl",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "insomnia"
+        },
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "tinted-lens"
+        }
+      ],
+      "artwork": "/dex-images/artwork/noctowl.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 30,
+            "location": "abundant-shrine-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 66
+          },
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "pyrite-town-duel-square",
+            "maxLevel": 30,
+            "method": "snag",
+            "minLevel": 30
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 20,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-low",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "ilex-forest-area",
+            "maxLevel": 10,
+            "method": "headbutt-normal",
+            "minLevel": 10
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-37-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-38-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "johto-route-39-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-11-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 16
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-25-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 50,
+            "location": "kanto-route-26-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-27-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-5-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "kanto-route-8-area",
+            "maxLevel": 20,
+            "method": "walk",
+            "minLevel": 20
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 20,
+            "location": "lake-valor-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "sendoff-spring-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "gold": [
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 17
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 10,
+            "location": "ilex-forest-area",
+            "maxLevel": 8,
+            "method": "headbutt",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 14,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 14,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-8-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "acuity-lakefront-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-1",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-2",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 20,
+            "location": "lake-acuity-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 20,
+            "location": "lake-valor-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "sendoff-spring-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 53
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-216-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "great-marsh-area-1",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "great-marsh-area-2",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-3",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "great-marsh-area-4",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-210-south-towards-solaceon-town",
+            "maxLevel": 21,
+            "method": "walk",
+            "minLevel": 21
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-210-west-towards-celestic-town",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 10,
+            "location": "sinnoh-route-211-east-towards-celestic-town",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "shield": [
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 125,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 125,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 180,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 45,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "silver": [
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 15,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-8-area",
+            "maxLevel": 19,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 10,
+            "location": "ilex-forest-area",
+            "maxLevel": 8,
+            "method": "headbutt",
+            "minLevel": 6
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 20,
+            "location": "johto-route-47-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-14-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 14,
+            "location": "kanto-route-2-north-towards-pewter-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 14,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-8-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          },
+          {
+            "chance": 20,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "headbutt",
+            "minLevel": 5
+          },
+          {
+            "chance": 20,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "sword": [
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 50
+          },
+          {
+            "chance": 125,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 125,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 180,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 45,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 200,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 40,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 40,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "lush-jungle-north",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-south",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          },
+          {
+            "chance": 15,
+            "location": "lush-jungle-west",
+            "maxLevel": 22,
+            "method": "sos",
+            "minLevel": 19
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "abundant-shrine-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 30,
+            "location": "abundant-shrine-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 66,
+            "method": "dark-grass",
+            "minLevel": 66
+          },
+          {
+            "chance": 20,
+            "location": "nature-sanctuary-area",
+            "maxLevel": 58,
+            "method": "walk",
+            "minLevel": 58
+          }
+        ],
+        "x": [
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 50
+          }
+        ],
+        "y": [
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "red-flowers",
+            "minLevel": 50
+          },
+          {
+            "chance": 40,
+            "location": "kalos-route-20-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "purple-flowers",
+            "minLevel": 48
+          },
+          {
+            "chance": 40,
+            "location": "pokemon-village-area",
+            "maxLevel": 50,
+            "method": "yellow-flowers",
+            "minLevel": 50
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "ultra-sun-ultra-moon", "sword-shield", "brilliant-diamond-shining-pearl", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 16,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "noctowl",
+      "kind": "default",
+      "name": "Noctowl",
+      "number": 164,
+      "pokemon": "noctowl",
+      "sourceId": 164,
+      "sprite": "/dex-images/sprites/noctowl.webp",
+      "statTotal": 452,
+      "stats": {
+        "attack": 50,
+        "defense": 50,
+        "hp": 100,
+        "special-attack": 86,
+        "special-defense": 96,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 408
+    }
+  ],
+  "generation": 2,
+  "key": "noctowl",
+  "name": "Noctowl",
+  "names": {
+    "de": "Noctuh",
+    "en": "Noctowl",
+    "es": "Noctowl",
+    "es-419": "Noctowl",
+    "fr": "Noarfang",
+    "it": "Noctowl",
+    "ja": "ヨルノズク",
+    "ja-hrkt": "ヨルノズク",
+    "ja-roma": "Yorunozuku",
+    "ko": "야부엉",
+    "zh-hans": "猫头夜鹰",
+    "zh-hant": "貓頭夜鷹"
+  },
+  "number": 164
+}

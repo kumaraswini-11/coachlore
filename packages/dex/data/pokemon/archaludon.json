@@ -1,0 +1,92 @@
+{
+  "category": "Alloy Pokémon",
+  "entries": [
+    {
+      "text": "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+      "version": "scarlet"
+    },
+    {
+      "text": "It digs holes on mountains, searching for food. It’s so durable that being caught in a cave-in won’t faze it.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "duraludon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "metal-alloy"
+      },
+      "from": "duraludon",
+      "to": "archaludon",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "stamina"
+        },
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": true,
+          "key": "stalwart"
+        }
+      ],
+      "artwork": "/dex-images/artwork/archaludon.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "the-indigo-disk", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 20,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "archaludon",
+      "kind": "default",
+      "name": "Archaludon",
+      "number": 1018,
+      "pokemon": "archaludon",
+      "sourceId": 1018,
+      "sprite": "/dex-images/sprites/archaludon.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 105,
+        "defense": 130,
+        "hp": 90,
+        "special-attack": 125,
+        "special-defense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["steel", "dragon"],
+      "weight": 600
+    }
+  ],
+  "generation": 9,
+  "key": "archaludon",
+  "name": "Archaludon",
+  "names": {
+    "de": "Briduradon",
+    "en": "Archaludon",
+    "es": "Archaludon",
+    "es-419": "Archaludon",
+    "fr": "Pondralugon",
+    "it": "Archaludon",
+    "ja": "ブリジュラス",
+    "ja-hrkt": "ブリジュラス",
+    "ja-roma": "Briduras",
+    "ko": "브리두라스",
+    "zh-hans": "铝钢桥龙",
+    "zh-hant": "鋁鋼橋龍"
+  },
+  "number": 1018
+}

@@ -1,0 +1,123 @@
+{
+  "category": "Bubble Frog Pokémon",
+  "entries": [
+    {
+      "text": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+      "version": "x"
+    },
+    {
+      "text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+      "version": "y"
+    },
+    {
+      "text": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "froakie",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "froakie",
+      "to": "frogadier",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "frogadier",
+      "to": "greninja",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "torrent"
+        },
+        {
+          "hidden": true,
+          "key": "protean"
+        }
+      ],
+      "artwork": "/dex-images/artwork/froakie.webp",
+      "encounters": {
+        "x": [
+          {
+            "chance": 100,
+            "location": "aquacorde-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "y": [
+          {
+            "chance": 100,
+            "location": "aquacorde-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "the-indigo-disk", "legends-za"],
+      "gen9": true,
+      "generation": 6,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "froakie",
+      "kind": "default",
+      "name": "Froakie",
+      "number": 656,
+      "pokemon": "froakie",
+      "sourceId": 656,
+      "sprite": "/dex-images/sprites/froakie.webp",
+      "statTotal": 314,
+      "stats": {
+        "attack": 56,
+        "defense": 40,
+        "hp": 41,
+        "special-attack": 62,
+        "special-defense": 44,
+        "speed": 71
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 70
+    }
+  ],
+  "generation": 6,
+  "key": "froakie",
+  "name": "Froakie",
+  "names": {
+    "de": "Froxy",
+    "en": "Froakie",
+    "es": "Froakie",
+    "es-419": "Froakie",
+    "fr": "Grenousse",
+    "it": "Froakie",
+    "ja": "ケロマツ",
+    "ja-hrkt": "ケロマツ",
+    "ja-roma": "Keromatsu",
+    "ko": "개구마르",
+    "zh-hans": "呱呱泡蛙",
+    "zh-hant": "呱呱泡蛙"
+  },
+  "number": 656
+}

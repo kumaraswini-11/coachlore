@@ -36,8 +36,8 @@ function LanguageToggle({
       href={switchLocale(pathname, locale)}
       hrefLang={locale}
       className={cn(
-        buttonVariants({ variant: "outline", size: "icon" }),
-        "size-11 md:w-auto md:px-3"
+        buttonVariants({ variant: "outline", size: "icon-touch" }),
+        "md:w-auto md:px-3"
       )}
     >
       <LanguagesIcon aria-hidden />

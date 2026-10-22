@@ -1,0 +1,159 @@
+{
+  "category": "Fox Pokémon",
+  "entries": [
+    {
+      "text": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+      "version": "x"
+    },
+    {
+      "text": "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+      "version": "y"
+    },
+    {
+      "text": "It gazes into the flame at the tip of its branch to achieve a focused state, which allows it to see into the future.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "fennekin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 16
+      },
+      "from": "fennekin",
+      "to": "braixen",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "braixen",
+      "to": "delphox",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "magician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/delphox.webp",
+      "encounters": {
+        "ultra-moon": [
+          {
+            "chance": 100,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "island-scan",
+            "minLevel": 44
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 100,
+            "location": "ancient-poni-path-area",
+            "maxLevel": 44,
+            "method": "island-scan",
+            "minLevel": 44
+          }
+        ]
+      },
+      "games": ["x-y", "scarlet-violet", "the-indigo-disk", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "delphox",
+      "kind": "default",
+      "name": "Delphox",
+      "number": 655,
+      "pokemon": "delphox",
+      "sourceId": 655,
+      "sprite": "/dex-images/sprites/delphox.webp",
+      "statTotal": 534,
+      "stats": {
+        "attack": 69,
+        "defense": 72,
+        "hp": 75,
+        "special-attack": 114,
+        "special-defense": 100,
+        "speed": 104
+      },
+      "tags": [],
+      "types": ["fire", "psychic"],
+      "weight": 390
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/delphox-mega.webp",
+      "encounters": {},
+      "formName": "Mega Delphox",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 15,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "delphox-mega",
+      "kind": "mega",
+      "name": "Delphox-Mega",
+      "number": 655,
+      "pokemon": "delphox",
+      "sourceId": 10293,
+      "sprite": "/dex-images/sprites/delphox-mega.webp",
+      "statTotal": 634,
+      "stats": {
+        "attack": 69,
+        "defense": 72,
+        "hp": 75,
+        "special-attack": 159,
+        "special-defense": 125,
+        "speed": 134
+      },
+      "tags": [],
+      "types": ["fire", "psychic"],
+      "weight": 390
+    }
+  ],
+  "generation": 6,
+  "key": "delphox",
+  "name": "Delphox",
+  "names": {
+    "de": "Fennexis",
+    "en": "Delphox",
+    "es": "Delphox",
+    "es-419": "Delphox",
+    "fr": "Goupelin",
+    "it": "Delphox",
+    "ja": "マフォクシー",
+    "ja-hrkt": "マフォクシー",
+    "ja-roma": "Mahoxy",
+    "ko": "마폭시",
+    "zh-hans": "妖火红狐",
+    "zh-hant": "妖火紅狐"
+  },
+  "number": 655
+}

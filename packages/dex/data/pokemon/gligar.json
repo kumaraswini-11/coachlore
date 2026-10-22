@@ -1,0 +1,512 @@
+{
+  "category": "Fly Scorpion Pokémon",
+  "entries": [
+    {
+      "text": "It flies straight at its target's face then clamps down on the startled victim to inject poison.",
+      "version": "gold"
+    },
+    {
+      "text": "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+      "version": "silver"
+    },
+    {
+      "text": "It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest.",
+      "version": "crystal"
+    },
+    {
+      "text": "GLIGAR glides through the air without a sound as if it were sliding. This POKéMON hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
+      "version": "ruby"
+    },
+    {
+      "text": "GLIGAR glides through the air without a sound as if it were sliding. This POKéMON hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It glides without making a single sound. It grasps the face of its foe using its hind and large front claws, then stabs with its poison barb.",
+      "version": "emerald"
+    },
+    {
+      "text": "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+      "version": "firered"
+    },
+    {
+      "text": "It flies straight at its target’s face, then clamps down on the startled victim to inject poison.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It sails on the winds with its limbs extended to strike from the sky. It aims for the prey’s face.",
+      "version": "diamond"
+    },
+    {
+      "text": "It sails on the winds with its limbs extended to strike from the sky. It aims for the prey’s face.",
+      "version": "pearl"
+    },
+    {
+      "text": "It glides as if sliding. It startles foes by clamping on to their faces, then jabs with its poison stinger.",
+      "version": "platinum"
+    },
+    {
+      "text": "It flies straight at its target’s face, then clamps down on the startled victim to inject poison.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It glides as if sliding. It startles foes by clamping on to their faces, then jabs with its poison stinger.",
+      "version": "black"
+    },
+    {
+      "text": "It glides as if sliding. It startles foes by clamping on to their faces, then jabs with its poison stinger.",
+      "version": "white"
+    },
+    {
+      "text": "It clamps on to its chosen prey then jabs the stinger on its tail into the prey while it’s stunned with surprise.",
+      "version": "black-2"
+    },
+    {
+      "text": "It clamps on to its chosen prey then jabs the stinger on its tail into the prey while it’s stunned with surprise.",
+      "version": "white-2"
+    },
+    {
+      "text": "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+      "version": "x"
+    },
+    {
+      "text": "It flies straight at its target’s face, then clamps down on the startled victim to inject poison.",
+      "version": "y"
+    },
+    {
+      "text": "Gligar glides through the air without a sound as if it were sliding. This Pokémon hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Gligar glides through the air without a sound as if it were sliding. This Pokémon hangs on to the face of its foe using its clawed hind legs and the large pincers on its forelegs, then injects the prey with its poison barb.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its tail is tipped by a thick, horrible stinger. To bring down prey, it will first obscure their vision by covering their faces with its body, and then it will use the stinger to inject them with venom.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "gligar",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "held_item": "razor-fang",
+        "time_of_day": "night"
+      },
+      "from": "gligar",
+      "to": "gliscor",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hyper-cutter"
+        },
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "immunity"
+        }
+      ],
+      "artwork": "/dex-images/artwork/gligar.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 25,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 25,
+            "location": "unova-route-15-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-15-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-23-area",
+            "maxLevel": 54,
+            "method": "dark-grass",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-23-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-hidden-grotto",
+            "maxLevel": 54,
+            "method": "hidden-grotto",
+            "minLevel": 50
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 43,
+            "method": "snag-rematch",
+            "minLevel": 43
+          },
+          {
+            "chance": 100,
+            "location": "the-under-subway",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 60,
+            "location": "johto-route-45-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 8,
+            "location": "stark-mountain-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-expansion-south",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          }
+        ],
+        "gold": [
+          {
+            "chance": 20,
+            "location": "johto-route-45-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 20,
+            "location": "johto-route-45-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-207-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-214-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 24
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-215-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 8,
+            "location": "sinnoh-route-227-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 8,
+            "location": "stark-mountain-area",
+            "maxLevel": 22,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 30,
+            "location": "sinnoh-route-206-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 16
+          }
+        ],
+        "white": [
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 25,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "dark-grass",
+            "minLevel": 57
+          },
+          {
+            "chance": 25,
+            "location": "unova-route-15-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 41
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-15-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-23-area",
+            "maxLevel": 54,
+            "method": "dark-grass",
+            "minLevel": 54
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-23-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-hidden-grotto",
+            "maxLevel": 54,
+            "method": "hidden-grotto",
+            "minLevel": 50
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "kalos-route-19-area",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          }
+        ],
+        "xd": [
+          {
+            "chance": 35,
+            "location": "pokespot-rock",
+            "maxLevel": 20,
+            "method": "pokespot",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 35,
+            "location": "kalos-route-19-area",
+            "maxLevel": 24,
+            "method": "horde",
+            "minLevel": 24
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "gligar",
+      "kind": "default",
+      "name": "Gligar",
+      "number": 207,
+      "pokemon": "gligar",
+      "sourceId": 207,
+      "sprite": "/dex-images/sprites/gligar.webp",
+      "statTotal": 430,
+      "stats": {
+        "attack": 75,
+        "defense": 105,
+        "hp": 65,
+        "special-attack": 35,
+        "special-defense": 65,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["ground", "flying"],
+      "weight": 648
+    }
+  ],
+  "generation": 2,
+  "key": "gligar",
+  "name": "Gligar",
+  "names": {
+    "de": "Skorgla",
+    "en": "Gligar",
+    "es": "Gligar",
+    "es-419": "Gligar",
+    "fr": "Scorplane",
+    "it": "Gligar",
+    "ja": "グライガー",
+    "ja-hrkt": "グライガー",
+    "ja-roma": "Gliger",
+    "ko": "글라이거",
+    "zh-hans": "天蝎",
+    "zh-hant": "天蠍"
+  },
+  "number": 207
+}

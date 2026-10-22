@@ -1,0 +1,368 @@
+{
+  "category": "Puppy Pokémon",
+  "entries": [
+    {
+      "text": "It’s considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer’s side.",
+      "version": "moon"
+    },
+    {
+      "text": "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When it rubs the rocks on its neck against you, that’s proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon intimidates opponents by striking the ground with the rocks on its neck. The moment an opponent flinches, Rockruff attacks.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "rockruff",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lycanroc-midday",
+        "min_level": 25,
+        "required_pokemon_form": "rockruff",
+        "time_of_day": "day"
+      },
+      "from": "rockruff",
+      "to": "lycanroc",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lycanroc-midnight",
+        "min_level": 25,
+        "required_pokemon_form": "rockruff",
+        "time_of_day": "night"
+      },
+      "from": "rockruff",
+      "to": "lycanroc",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "lycanroc-dusk",
+        "min_level": 25,
+        "required_pokemon_form": "rockruff-own-tempo",
+        "time_of_day": "dusk"
+      },
+      "from": "rockruff",
+      "to": "lycanroc",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": false,
+          "key": "vital-spirit"
+        },
+        {
+          "hidden": true,
+          "key": "steadfast"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rockruff.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "sun": [
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 870,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 640,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 400,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 190,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 470,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 470,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 640,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 400,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "fields-of-honor-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 40
+          },
+          {
+            "chance": 190,
+            "location": "potbottom-desert-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 190,
+            "location": "training-lowlands-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-south",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "alola-route-1-south",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "ten-carat-hill-farthest-hollow",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 7,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "rockruff",
+      "kind": "default",
+      "name": "Rockruff",
+      "number": 744,
+      "pokemon": "rockruff",
+      "sourceId": 744,
+      "sprite": "/dex-images/sprites/rockruff.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 65,
+        "defense": 40,
+        "hp": 45,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 92
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "own-tempo"
+        }
+      ],
+      "artwork": "/dex-images/artwork/rockruff-own-tempo.webp",
+      "encounters": {
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 40,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 40,
+            "location": "challenge-road-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "rockruff-own-tempo",
+      "kind": "other",
+      "name": "Rockruff-Own-Tempo",
+      "number": 744,
+      "pokemon": "rockruff",
+      "sourceId": 10151,
+      "sprite": "/dex-images/sprites/rockruff-own-tempo.webp",
+      "statTotal": 280,
+      "stats": {
+        "attack": 65,
+        "defense": 40,
+        "hp": 45,
+        "special-attack": 30,
+        "special-defense": 40,
+        "speed": 60
+      },
+      "tags": [],
+      "types": ["rock"],
+      "weight": 92
+    }
+  ],
+  "generation": 7,
+  "key": "rockruff",
+  "name": "Rockruff",
+  "names": {
+    "de": "Wuffels",
+    "en": "Rockruff",
+    "es": "Rockruff",
+    "es-419": "Rockruff",
+    "fr": "Rocabot",
+    "it": "Rockruff",
+    "ja": "イワンコ",
+    "ja-hrkt": "イワンコ",
+    "ja-roma": "Iwanko",
+    "ko": "암멍이",
+    "zh-hans": "岩狗狗",
+    "zh-hant": "岩狗狗"
+  },
+  "number": 744
+}

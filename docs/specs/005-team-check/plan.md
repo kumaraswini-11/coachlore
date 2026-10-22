@@ -6,19 +6,20 @@
 - **Spec 002:** `packages/dex`: the browser index, learnsets, abilities,
   and the Showdown name tables.
 - **Spec 003:** the form search used by the palette, the service worker.
-- **Spec 004:** `packages/dex/src/matchups.ts` and the ability notes.
+- **Spec 004:** `packages/dex/src/type-chart.ts`'s `multiplier` and
+  `defensiveMatchups`, and the ability notes.
 
 ## Packages and files
 
-| Path                                               | What                                                                                                                                                                                                              |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `packages/dex/src/team.ts`                         | `teamWeaknesses(team)` (per attacking type: each member's multiplier, weak and resist counts, shared and uncovered) and `teamCoverage(team, learnedMoves)`; pure                                                  |
-| `packages/dex/src/showdown-team.ts`                | `parseShowdownTeam(text)` → `{ team, unknown[] }` and `formatShowdownTeam(team)`, using spec 002's Showdown name tables                                                                                           |
-| `apps/web/lib/team-link.ts`                        | The `team` query value to and from a team (`parseTeamParam`, `toTeamParam`); invalid parts returned as a list, never thrown                                                                                       |
-| `apps/web/app/[lang]/team-check/page.tsx`          | Static page; the checker sits in `<Suspense>` because it reads the address                                                                                                                                        |
-| `apps/web/components/team-check/team-check.tsx`    | Client: slots, matrix, coverage, import and export                                                                                                                                                                |
-| `apps/web/components/team-check/member-editor.tsx` | Client: moves and ability for one member (Sheet on a phone, Popover on desktop)                                                                                                                                   |
-| `apps/web/app/dex-data/learnable/[form]/route.ts`  | A static Route Handler per form: the moves it learns in any game, as JSON, built ahead with `generateStaticParams` ([Route Handlers](https://nextjs.org/docs/app/api-reference/functions/generate-static-params)) |
+| Path                                               | What                                                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `packages/dex/src/team.ts`                         | `teamWeaknesses(team)` (per attacking type: each member's multiplier, weak and resist counts, shared and uncovered) and `teamCoverage(team, learnedMoves)`; pure                                                                                                                                                                                               |
+| `packages/dex/src/showdown-team.ts`                | `parseShowdownTeam(text)` → `{ team, unknown[] }` and `formatShowdownTeam(team)`, using spec 002's Showdown name tables                                                                                                                                                                                                                                        |
+| `apps/web/lib/team-link.ts`                        | The `team` query value to and from a team (`parseTeamParam`, `toTeamParam`); invalid parts returned as a list, never thrown                                                                                                                                                                                                                                    |
+| `apps/web/app/[lang]/team-check/page.tsx`          | Static page; the checker sits in `<Suspense>` because it reads the address                                                                                                                                                                                                                                                                                     |
+| `apps/web/components/team-check/team-check.tsx`    | Client: slots, matrix, coverage, import and export                                                                                                                                                                                                                                                                                                             |
+| `apps/web/components/team-check/member-editor.tsx` | Client: moves and ability for one member (`Drawer` on a phone, `Popover` on desktop); moves and ability picked with `Combobox`                                                                                                                                                                                                                                 |
+| `apps/web/app/dex-data/learnable/[form]/route.ts`  | A static Route Handler per form: the moves it learns in any game, as JSON, built ahead with `generateStaticParams` and read through `lib/dex.ts`'s `"use cache"` functions, as "Route Handlers with Cache Components" asks ([Route Handlers](https://nextjs.org/docs/app/api-reference/functions/generate-static-params)); an unknown form returns its own 404 |
 
 ## Data model
 
@@ -56,8 +57,16 @@ opened before still shows its weaknesses and coverage, and a member's
 moves can be edited if they were loaded on an earlier visit; otherwise the
 editor says the move list needs a connection, and the rest of the checker
 works; types, abilities and the chart come from the browser index already
-loaded. Each change updates the address with `router.replace` (no new
-history entry per edit) and recomputes in a transition.
+loaded. Each change updates the address with `window.history.replaceState`
+(no new history entry per edit, and no request: Next.js documents it as
+updating the address "without reloading the page" and integrating "with
+`useSearchParams`", bundled docs `04-linking-and-navigating.md`) and
+recomputes in a transition.
+
+**Components,** from the shadcn registry: `Popover` and `Combobox` (added
+with the CLI into `packages/ui`; `Combobox` from spec 003), and the
+installed `Drawer`, `Dialog` for import and export, `Textarea`, `Card` and
+`Button`.
 
 ## API
 

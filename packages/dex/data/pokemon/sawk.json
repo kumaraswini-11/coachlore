@@ -1,0 +1,450 @@
+{
+  "category": "Karate Pokémon",
+  "entries": [
+    {
+      "text": "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+      "version": "black"
+    },
+    {
+      "text": "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+      "version": "white"
+    },
+    {
+      "text": "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+      "version": "black-2"
+    },
+    {
+      "text": "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+      "version": "white-2"
+    },
+    {
+      "text": "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+      "version": "x"
+    },
+    {
+      "text": "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+      "version": "y"
+    },
+    {
+      "text": "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "If you see a Sawk training in the mountains in its single-minded pursuit of strength, it’s best to quietly pass by.",
+      "version": "sword"
+    },
+    {
+      "text": "The karate chops of a Sawk that’s trained itself to the limit can cleave the ocean itself.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sawk",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sturdy"
+        },
+        {
+          "hidden": false,
+          "key": "inner-focus"
+        },
+        {
+          "hidden": true,
+          "key": "mold-breaker"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sawk.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 17,
+            "method": "dark-grass",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-area",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 41,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 33
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-15-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 35,
+            "method": "dark-grass",
+            "minLevel": 33
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-18-area",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 29
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 30,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 63
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 55
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 67,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "unova-route-18-area",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-23-area",
+            "maxLevel": 54,
+            "method": "dark-grass",
+            "minLevel": 53
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-23-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 48
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "circhester-area",
+            "maxLevel": 37,
+            "method": "npc-trade",
+            "minLevel": 37
+          }
+        ],
+        "sword": [
+          {
+            "chance": 10,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-8-steamdrift-way",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 20,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 5,
+            "location": "motostoke-outskirts-area",
+            "maxLevel": 26,
+            "method": "overworld",
+            "minLevel": 22
+          },
+          {
+            "chance": 10,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 60,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 90,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 90,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 15,
+            "method": "grass-spots",
+            "minLevel": 15
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-area",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-10-victory-road-gate",
+            "maxLevel": 36,
+            "method": "grass-spots",
+            "minLevel": 36
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 31,
+            "method": "grass-spots",
+            "minLevel": 31
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-15-area",
+            "maxLevel": 57,
+            "method": "grass-spots",
+            "minLevel": 57
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-18-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-area",
+            "maxLevel": 51,
+            "method": "grass-spots",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-76",
+            "maxLevel": 50,
+            "method": "grass-spots",
+            "minLevel": 50
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-11-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-fighting",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 5,
+      "height": 14,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sawk",
+      "kind": "default",
+      "name": "Sawk",
+      "number": 539,
+      "pokemon": "sawk",
+      "sourceId": 539,
+      "sprite": "/dex-images/sprites/sawk.webp",
+      "statTotal": 465,
+      "stats": {
+        "attack": 125,
+        "defense": 75,
+        "hp": 75,
+        "special-attack": 30,
+        "special-defense": 75,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 510
+    }
+  ],
+  "generation": 5,
+  "key": "sawk",
+  "name": "Sawk",
+  "names": {
+    "de": "Karadonis",
+    "en": "Sawk",
+    "es": "Sawk",
+    "es-419": "Sawk",
+    "fr": "Karaclée",
+    "it": "Sawk",
+    "ja": "ダゲキ",
+    "ja-hrkt": "ダゲキ",
+    "ja-roma": "Dageki",
+    "ko": "타격귀",
+    "zh-hans": "打击鬼",
+    "zh-hant": "打擊鬼"
+  },
+  "number": 539
+}

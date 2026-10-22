@@ -1,0 +1,267 @@
+{
+  "category": "Flower Pokémon",
+  "entries": [
+    {
+      "text": "BELLOSSOM gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+      "version": "gold"
+    },
+    {
+      "text": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+      "version": "silver"
+    },
+    {
+      "text": "When these dance together, their petals rub against each other, making pretty, relaxing sounds.",
+      "version": "crystal"
+    },
+    {
+      "text": "When BELLOSSOM gets exposed to plenty of sunlight, the leaves ringing its body begin to spin around. This POKéMON’s dancing is renowned in the southern lands.",
+      "version": "ruby"
+    },
+    {
+      "text": "A BELLOSSOM grows flowers more beautifully if it has evolved from a smelly GLOOM - the stinkier the better. At night, this POKéMON closes its petals and goes to sleep.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its flower petals deepen in color through exposure to sunlight. When cloudy weather persists, it does a dance that is thought to be a ritual for summoning the sun.",
+      "version": "emerald"
+    },
+    {
+      "text": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+      "version": "firered"
+    },
+    {
+      "text": "BELLOSSOM gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "diamond"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "pearl"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "platinum"
+    },
+    {
+      "text": "BELLOSSOM gather at times and seem to dance. They say that the dance is a ritual to summon the sun.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "black"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "white"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "black-2"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "white-2"
+    },
+    {
+      "text": "Bellossom gather at times and seem to dance. They say that the dance is a ritual to summon the sun.",
+      "version": "x"
+    },
+    {
+      "text": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+      "version": "y"
+    },
+    {
+      "text": "When Bellossom gets exposed to plenty of sunlight, the leaves ringing its body begin to spin around. This Pokémon’s dancing is renowned in the southern lands.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "A Bellossom grows flowers more beautifully if it has evolved from a smelly Gloom—the more stinky the better. At night, this Pokémon closes its petals and goes to sleep.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
+      "version": "sword"
+    },
+    {
+      "text": "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "oddish",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 21
+      },
+      "from": "oddish",
+      "to": "gloom",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "leaf-stone"
+      },
+      "from": "gloom",
+      "to": "vileplume",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "gloom",
+      "to": "bellossom",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "chlorophyll"
+        },
+        {
+          "hidden": true,
+          "key": "healer"
+        }
+      ],
+      "artwork": "/dex-images/artwork/bellossom.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "dappled-grove-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 200,
+            "location": "giants-mirror-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "ruby-sapphire", "emerald", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "bellossom",
+      "kind": "default",
+      "name": "Bellossom",
+      "number": 182,
+      "pokemon": "bellossom",
+      "sourceId": 182,
+      "sprite": "/dex-images/sprites/bellossom.webp",
+      "statTotal": 490,
+      "stats": {
+        "attack": 80,
+        "defense": 95,
+        "hp": 75,
+        "special-attack": 90,
+        "special-defense": 100,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["grass"],
+      "weight": 58
+    }
+  ],
+  "generation": 2,
+  "key": "bellossom",
+  "name": "Bellossom",
+  "names": {
+    "de": "Blubella",
+    "en": "Bellossom",
+    "es": "Bellossom",
+    "es-419": "Bellossom",
+    "fr": "Joliflor",
+    "it": "Bellossom",
+    "ja": "キレイハナ",
+    "ja-hrkt": "キレイハナ",
+    "ja-roma": "Kireihana",
+    "ko": "아르코",
+    "zh-hans": "美丽花",
+    "zh-hant": "美麗花"
+  },
+  "number": 182
+}

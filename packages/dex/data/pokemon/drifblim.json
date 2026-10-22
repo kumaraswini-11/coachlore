@@ -1,0 +1,641 @@
+{
+  "category": "Blimp Pokémon",
+  "entries": [
+    {
+      "text": "It’s drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+      "version": "diamond"
+    },
+    {
+      "text": "It carries people and Pokémon when it flies. But since it only drifts, it can end up anywhere.",
+      "version": "pearl"
+    },
+    {
+      "text": "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
+      "version": "platinum"
+    },
+    {
+      "text": "It can generate and release gas within its body. That’s how it can control the altitude of its drift.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It can generate and release gas within its body. That’s how it can control the altitude of its drift.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
+      "version": "black"
+    },
+    {
+      "text": "At dusk, swarms of them are carried aloft on winds. When noticed, they suddenly vanish.",
+      "version": "white"
+    },
+    {
+      "text": "They carry people and Pokémon, but the wind can catch them, so there can’t be a fixed destination.",
+      "version": "black-2"
+    },
+    {
+      "text": "They carry people and Pokémon, but the wind can catch them, so there can’t be a fixed destination.",
+      "version": "white-2"
+    },
+    {
+      "text": "It carries people and Pokémon when it flies. But since it only drifts, it can end up anywhere.",
+      "version": "x"
+    },
+    {
+      "text": "It’s drowsy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+      "version": "y"
+    },
+    {
+      "text": "It carries people and Pokémon when it flies. But since it only drifts, it can end up anywhere.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It’s drowsy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "There was once an incident in which a man took a trip riding a Drifblim, only to go missing.",
+      "version": "sun"
+    },
+    {
+      "text": "Even while under careful observation, large flocks of Drifblim flying at dusk will inexplicably disappear from view.",
+      "version": "moon"
+    },
+    {
+      "text": "There’s a rumor that if you catch a Drifblim floating on the wind at dusk, you’ll be carried away to the afterlife.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The raw material for the gas inside its body is souls. When its body starts to deflate, it’s thought to carry away people and Pokémon.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Some say this Pokémon is a collection of souls burdened with regrets, silently drifting through the dusk.",
+      "version": "sword"
+    },
+    {
+      "text": "It grabs people and Pokémon and carries them off somewhere. Where do they go? Nobody knows.",
+      "version": "shield"
+    },
+    {
+      "text": "It drifts along at dusk, perfectly silent. Its transient, melancholy aspect touches some people deeply—every so often, one will come upon a song or poem devoted to Drifblim.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "drifloon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 28
+      },
+      "from": "drifloon",
+      "to": "drifblim",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "aftermath"
+        },
+        {
+          "hidden": false,
+          "key": "unburden"
+        },
+        {
+          "hidden": true,
+          "key": "flare-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/drifblim.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 20,
+            "location": "giant-chasm-outside",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "giant-chasm-outside",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-13-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-13-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 40,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-13-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-13-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-14-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-14-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "moon": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "shield": [
+          {
+            "chance": 120,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 55,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 1000,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 31
+          },
+          {
+            "chance": 1000,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 46
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 90,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sun": [
+          {
+            "chance": 2,
+            "location": "poke-pelago-elite-four-defeated",
+            "maxLevel": 55,
+            "method": "gift",
+            "minLevel": 49
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-poni-island-reached",
+            "maxLevel": 43,
+            "method": "gift",
+            "minLevel": 37
+          },
+          {
+            "chance": 3,
+            "location": "poke-pelago-ulaula-island-reached",
+            "maxLevel": 27,
+            "method": "gift",
+            "minLevel": 21
+          }
+        ],
+        "sword": [
+          {
+            "chance": 120,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 55,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 55,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 1000,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 31
+          },
+          {
+            "chance": 1000,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "wanderer-water",
+            "minLevel": 46
+          },
+          {
+            "chance": 65,
+            "location": "stony-wilderness-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 600,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 34
+          },
+          {
+            "chance": 95,
+            "location": "watchtower-ruins-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 400,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 115,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 400,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "challenge-beach-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 115,
+            "location": "courageous-cavern-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 115,
+            "location": "stepping-stone-sea-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 28
+          }
+        ],
+        "white": [
+          {
+            "chance": 20,
+            "location": "giant-chasm-outside",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "giant-chasm-outside",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-13-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-13-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 59,
+            "method": "dark-grass",
+            "minLevel": 59
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-14-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 40,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 37,
+            "method": "dark-grass",
+            "minLevel": 36
+          },
+          {
+            "chance": 40,
+            "location": "reversal-mountain-unknown-area-48",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-13-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-13-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-14-area",
+            "maxLevel": 39,
+            "method": "dark-grass",
+            "minLevel": 38
+          },
+          {
+            "chance": 30,
+            "location": "unova-route-14-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ghost",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "x-y", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet"],
+      "gen9": true,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "drifblim",
+      "kind": "default",
+      "name": "Drifblim",
+      "number": 426,
+      "pokemon": "drifblim",
+      "sourceId": 426,
+      "sprite": "/dex-images/sprites/drifblim.webp",
+      "statTotal": 498,
+      "stats": {
+        "attack": 80,
+        "defense": 44,
+        "hp": 150,
+        "special-attack": 90,
+        "special-defense": 54,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["ghost", "flying"],
+      "weight": 150
+    }
+  ],
+  "generation": 4,
+  "key": "drifblim",
+  "name": "Drifblim",
+  "names": {
+    "de": "Drifzepeli",
+    "en": "Drifblim",
+    "es": "Drifblim",
+    "es-419": "Drifblim",
+    "fr": "Grodrive",
+    "it": "Drifblim",
+    "ja": "フワライド",
+    "ja-hrkt": "フワライド",
+    "ja-roma": "Fuwaride",
+    "ko": "둥실라이드",
+    "zh-hans": "随风球",
+    "zh-hant": "隨風球"
+  },
+  "number": 426
+}

@@ -1,0 +1,286 @@
+{
+  "category": "Fire Mouse Pokémon",
+  "entries": [
+    {
+      "text": "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+      "version": "gold"
+    },
+    {
+      "text": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+      "version": "silver"
+    },
+    {
+      "text": "The fire that spouts from its back burns hottest when it is angry. The flaring flames intimidate foes.",
+      "version": "crystal"
+    },
+    {
+      "text": "CYNDAQUIL protects itself by flaring up the flames on its back. The flames are vigorous if the POKéMON is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
+      "version": "ruby"
+    },
+    {
+      "text": "CYNDAQUIL protects itself by flaring up the flames on its back. The flames are vigorous if the POKéMON is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It flares flames from its back to protect itself. The fire burns vigorously if the POKéMON is angry. When it is tired, it sputters with incomplete combustion.",
+      "version": "emerald"
+    },
+    {
+      "text": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+      "version": "firered"
+    },
+    {
+      "text": "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "diamond"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "black"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "white"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "black-2"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "white-2"
+    },
+    {
+      "text": "It is timid and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+      "version": "x"
+    },
+    {
+      "text": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+      "version": "y"
+    },
+    {
+      "text": "Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cyndaquil",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "cyndaquil",
+      "to": "quilava",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "quilava",
+      "to": "typhlosion",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "typhlosion-hisui",
+        "min_level": 36,
+        "region": "hisui"
+      },
+      "from": "quilava",
+      "to": "typhlosion",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "blaze"
+        },
+        {
+          "hidden": true,
+          "key": "flash-fire"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cyndaquil.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "littleroot-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "gold": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "moon": [
+          {
+            "chance": 100,
+            "location": "alola-route-3-main",
+            "maxLevel": 12,
+            "method": "island-scan",
+            "minLevel": 12
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-101-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "silver": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "new-bark-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ],
+        "sun": [
+          {
+            "chance": 100,
+            "location": "alola-route-3-main",
+            "maxLevel": 12,
+            "method": "island-scan",
+            "minLevel": 12
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "mt-battle-lobby",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cyndaquil",
+      "kind": "default",
+      "name": "Cyndaquil",
+      "number": 155,
+      "pokemon": "cyndaquil",
+      "sourceId": 155,
+      "sprite": "/dex-images/sprites/cyndaquil.webp",
+      "statTotal": 309,
+      "stats": {
+        "attack": 52,
+        "defense": 43,
+        "hp": 39,
+        "special-attack": 60,
+        "special-defense": 50,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["fire"],
+      "weight": 79
+    }
+  ],
+  "generation": 2,
+  "key": "cyndaquil",
+  "name": "Cyndaquil",
+  "names": {
+    "de": "Feurigel",
+    "en": "Cyndaquil",
+    "es": "Cyndaquil",
+    "es-419": "Cyndaquil",
+    "fr": "Héricendre",
+    "it": "Cyndaquil",
+    "ja": "ヒノアラシ",
+    "ja-hrkt": "ヒノアラシ",
+    "ja-roma": "Hinoarashi",
+    "ko": "브케인",
+    "zh-hans": "火球鼠",
+    "zh-hant": "火球鼠"
+  },
+  "number": 155
+}

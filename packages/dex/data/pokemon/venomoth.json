@@ -1,0 +1,692 @@
+{
+  "category": "Poison Moth Pokémon",
+  "entries": [
+    {
+      "text": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+      "version": "red"
+    },
+    {
+      "text": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+      "version": "blue"
+    },
+    {
+      "text": "The powdery scales on its wings are hard to remove. They also contain poison that leaks out on contact.",
+      "version": "yellow"
+    },
+    {
+      "text": "When it attacks, it flaps its large wings violently to scatter its poisonous powder all around.",
+      "version": "gold"
+    },
+    {
+      "text": "The powder on its wings is poisonous if it is dark in color. If it is light, it causes paralysis.",
+      "version": "silver"
+    },
+    {
+      "text": "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+      "version": "crystal"
+    },
+    {
+      "text": "VENOMOTH is nocturnal - it is a POKéMON that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+      "version": "ruby"
+    },
+    {
+      "text": "VENOMOTH is nocturnal - it is a POKéMON that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+      "version": "sapphire"
+    },
+    {
+      "text": "VENOMOTH are nocturnal--they only are active at night. Their favorite prey are insects that gather around streetlights, attracted by the light in the darkness.",
+      "version": "emerald"
+    },
+    {
+      "text": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+      "version": "firered"
+    },
+    {
+      "text": "The dustlike scales covering its wings are color-coded to indicate the kinds of poison it has.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "diamond"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "pearl"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "platinum"
+    },
+    {
+      "text": "When it attacks, it flaps its large wings violently to scatter its poisonous powder all around.",
+      "version": "heartgold"
+    },
+    {
+      "text": "The powder on its wings is poisonous if it is dark in hue. If it is light in hue, it causes paralysis.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "black"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "white"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "black-2"
+    },
+    {
+      "text": "It flutters its wings to scatter dustlike scales. The scales leach toxins if they contact skin.",
+      "version": "white-2"
+    },
+    {
+      "text": "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+      "version": "x"
+    },
+    {
+      "text": "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+      "version": "y"
+    },
+    {
+      "text": "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "The powdery scales on its wings are hard to remove from skin. They also contain poison that leaks out on contact.",
+      "version": "lets-go-eevee"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "venonat",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 31
+      },
+      "from": "venonat",
+      "to": "venomoth",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shield-dust"
+        },
+        {
+          "hidden": false,
+          "key": "tinted-lens"
+        },
+        {
+          "hidden": true,
+          "key": "wonder-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/venomoth.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-island-west-of-dewford-town",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "black": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 48
+          }
+        ],
+        "blue": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 5,
+            "location": "johto-route-43-area",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 17
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-10-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-13-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-14-area",
+            "maxLevel": 28,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-15-area",
+            "maxLevel": 25,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-9-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "firered": [
+          {
+            "chance": 5,
+            "location": "berry-forest-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "gold": [
+          {
+            "chance": 5,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 5,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 5,
+            "location": "berry-forest-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "kanto-route-14-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          },
+          {
+            "chance": 100,
+            "location": "kanto-route-15-area",
+            "maxLevel": 38,
+            "method": "overworld",
+            "minLevel": 33
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-route-124",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-south-of-route-134",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "mirage-spot-island-west-of-dewford-town",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 30,
+            "location": "mirage-spot-island-west-of-route-104",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 50
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 20,
+            "location": "sinnoh-route-229-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          }
+        ],
+        "red": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 10,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 49
+          },
+          {
+            "chance": 20,
+            "location": "cerulean-cave-2f",
+            "maxLevel": 51,
+            "method": "walk",
+            "minLevel": 51
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-2-north",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 32
+          },
+          {
+            "chance": 5,
+            "location": "kanto-safari-zone-area-3-west",
+            "maxLevel": 31,
+            "method": "walk",
+            "minLevel": 31
+          },
+          {
+            "chance": 10,
+            "location": "kanto-victory-road-2-3f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "silver": [
+          {
+            "chance": 5,
+            "location": "kanto-route-24-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 5,
+            "location": "kanto-route-24-area",
+            "maxLevel": 14,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 20,
+            "location": "kanto-route-25-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "white": [
+          {
+            "chance": 10,
+            "location": "dreamyard-area",
+            "maxLevel": 50,
+            "method": "dark-grass",
+            "minLevel": 48
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "cipher-key-lair-roof",
+            "maxLevel": 32,
+            "method": "snag",
+            "minLevel": 32
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-bug",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 33,
+            "location": "friend-safari-poison",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 5,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 1,
+            "location": "kanto-route-15-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "lets-go-pikachu-lets-go-eevee", "scarlet-violet", "the-indigo-disk", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "venomoth",
+      "kind": "default",
+      "name": "Venomoth",
+      "number": 49,
+      "pokemon": "venomoth",
+      "sourceId": 49,
+      "sprite": "/dex-images/sprites/venomoth.webp",
+      "statTotal": 450,
+      "stats": {
+        "attack": 65,
+        "defense": 60,
+        "hp": 70,
+        "special-attack": 90,
+        "special-defense": 75,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["bug", "poison"],
+      "weight": 125
+    }
+  ],
+  "generation": 1,
+  "key": "venomoth",
+  "name": "Venomoth",
+  "names": {
+    "de": "Omot",
+    "en": "Venomoth",
+    "es": "Venomoth",
+    "es-419": "Venomoth",
+    "fr": "Aéromite",
+    "it": "Venomoth",
+    "ja": "モルフォン",
+    "ja-hrkt": "モルフォン",
+    "ja-roma": "Morphon",
+    "ko": "도나리",
+    "zh-hans": "摩鲁蛾",
+    "zh-hant": "摩魯蛾"
+  },
+  "number": 49
+}

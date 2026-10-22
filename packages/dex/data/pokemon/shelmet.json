@@ -1,0 +1,569 @@
+{
+  "category": "Snail Pokémon",
+  "entries": [
+    {
+      "text": "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+      "version": "black"
+    },
+    {
+      "text": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "version": "white"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "black-2"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "white-2"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "x"
+    },
+    {
+      "text": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "version": "y"
+    },
+    {
+      "text": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell.",
+      "version": "sword"
+    },
+    {
+      "text": "It has a strange physiology that responds to electricity. When together with Karrablast, Shelmet evolves for some reason.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shelmet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "trade_species": "karrablast"
+      },
+      "from": "shelmet",
+      "to": "accelgor",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": false,
+          "key": "shell-armor"
+        },
+        {
+          "hidden": true,
+          "key": "overcoat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/shelmet.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 120,
+            "location": "icirrus-city-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 120,
+            "location": "moor-of-icirrus-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 120,
+            "location": "unova-route-8-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 60,
+            "location": "icirrus-city-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 60,
+            "location": "moor-of-icirrus-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-11-area",
+            "maxLevel": 43,
+            "method": "dark-grass",
+            "minLevel": 40
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-11-area",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-6-area",
+            "maxLevel": 29,
+            "method": "dark-grass",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 60,
+            "location": "unova-route-8-area",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "shield": [
+          {
+            "chance": 20,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 25,
+            "location": "galar-route-7-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 20,
+            "location": "giants-cap-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 27
+          },
+          {
+            "chance": 90,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 70,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 45,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 45,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 20,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "galar-route-7-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "hammerlocke-hills-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 40,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 152,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 152,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 420,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 400,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 420,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          }
+        ],
+        "white": [
+          {
+            "chance": 120,
+            "location": "icirrus-city-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 120,
+            "location": "moor-of-icirrus-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 120,
+            "location": "unova-route-8-area",
+            "maxLevel": 33,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 15,
+            "location": "icirrus-city-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 15,
+            "location": "moor-of-icirrus-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-11-area",
+            "maxLevel": 40,
+            "method": "dark-grass",
+            "minLevel": 40
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-11-area",
+            "maxLevel": 36,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 26,
+            "method": "dark-grass",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "unova-route-6-area",
+            "maxLevel": 23,
+            "method": "walk",
+            "minLevel": 23
+          },
+          {
+            "chance": 15,
+            "location": "unova-route-8-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-14-area",
+            "maxLevel": 30,
+            "method": "rough-terrain",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "purple-flowers",
+            "minLevel": 47
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "rough-terrain",
+            "minLevel": 47
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "yellow-flowers",
+            "minLevel": 47
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-14-area",
+            "maxLevel": 30,
+            "method": "rough-terrain",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-14-area",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "purple-flowers",
+            "minLevel": 47
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "rough-terrain",
+            "minLevel": 47
+          },
+          {
+            "chance": 30,
+            "location": "kalos-route-19-area",
+            "maxLevel": 47,
+            "method": "yellow-flowers",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "shelmet",
+      "kind": "default",
+      "name": "Shelmet",
+      "number": 616,
+      "pokemon": "shelmet",
+      "sourceId": 616,
+      "sprite": "/dex-images/sprites/shelmet.webp",
+      "statTotal": 305,
+      "stats": {
+        "attack": 40,
+        "defense": 85,
+        "hp": 50,
+        "special-attack": 40,
+        "special-defense": 65,
+        "speed": 25
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 77
+    }
+  ],
+  "generation": 5,
+  "key": "shelmet",
+  "name": "Shelmet",
+  "names": {
+    "de": "Schnuthelm",
+    "en": "Shelmet",
+    "es": "Shelmet",
+    "es-419": "Shelmet",
+    "fr": "Escargaume",
+    "it": "Shelmet",
+    "ja": "チョボマキ",
+    "ja-hrkt": "チョボマキ",
+    "ja-roma": "Chobomaki",
+    "ko": "쪼마리",
+    "zh-hans": "小嘴蜗",
+    "zh-hant": "小嘴蝸"
+  },
+  "number": 616
+}

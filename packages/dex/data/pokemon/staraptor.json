@@ -1,0 +1,180 @@
+{
+  "category": "Predator Pokémon",
+  "entries": [
+    {
+      "text": "It has a savage nature. It will courageously challenge foes that are much larger.",
+      "version": "diamond"
+    },
+    {
+      "text": "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+      "version": "pearl"
+    },
+    {
+      "text": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+      "version": "platinum"
+    },
+    {
+      "text": "When STARAVIA evolve into STARAPTOR, they leave the flock to live alone. They have sturdy wings.",
+      "version": "heartgold"
+    },
+    {
+      "text": "When STARAVIA evolve into STARAPTOR, they leave the flock to live alone. They have sturdy wings.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+      "version": "black"
+    },
+    {
+      "text": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+      "version": "white"
+    },
+    {
+      "text": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+      "version": "black-2"
+    },
+    {
+      "text": "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+      "version": "white-2"
+    },
+    {
+      "text": "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+      "version": "x"
+    },
+    {
+      "text": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+      "version": "y"
+    },
+    {
+      "text": "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It has left the flock, having gained strength enough to survive on its own. The astounding force with which Staraptor flies through the air allows it to carry away large, burly targets.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "starly",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 14
+      },
+      "from": "starly",
+      "to": "staravia",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 34
+      },
+      "from": "staravia",
+      "to": "staraptor",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        },
+        {
+          "hidden": true,
+          "key": "reckless"
+        }
+      ],
+      "artwork": "/dex-images/artwork/staraptor.webp",
+      "encounters": {},
+      "games": ["diamond-pearl", "platinum", "x-y", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "legends-za", "mega-dimension", "champions"],
+      "gen9": true,
+      "generation": 4,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "staraptor",
+      "kind": "default",
+      "name": "Staraptor",
+      "number": 398,
+      "pokemon": "staraptor",
+      "sourceId": 398,
+      "sprite": "/dex-images/sprites/staraptor.webp",
+      "statTotal": 485,
+      "stats": {
+        "attack": 120,
+        "defense": 70,
+        "hp": 85,
+        "special-attack": 50,
+        "special-defense": 60,
+        "speed": 100
+      },
+      "tags": [],
+      "types": ["normal", "flying"],
+      "weight": 249
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "contrary"
+        }
+      ],
+      "artwork": "/dex-images/artwork/staraptor-mega.webp",
+      "encounters": {},
+      "formName": "Mega Staraptor",
+      "games": [],
+      "gen9": false,
+      "generation": 9,
+      "height": 19,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "staraptor-mega",
+      "kind": "mega",
+      "name": "Staraptor-Mega",
+      "number": 398,
+      "pokemon": "staraptor",
+      "sourceId": 10308,
+      "sprite": "/dex-images/sprites/staraptor-mega.webp",
+      "statTotal": 585,
+      "stats": {
+        "attack": 140,
+        "defense": 100,
+        "hp": 85,
+        "special-attack": 60,
+        "special-defense": 90,
+        "speed": 110
+      },
+      "tags": [],
+      "types": ["fighting", "flying"],
+      "weight": 500
+    }
+  ],
+  "generation": 4,
+  "key": "staraptor",
+  "name": "Staraptor",
+  "names": {
+    "de": "Staraptor",
+    "en": "Staraptor",
+    "es": "Staraptor",
+    "es-419": "Staraptor",
+    "fr": "Étouraptor",
+    "it": "Staraptor",
+    "ja": "ムクホーク",
+    "ja-hrkt": "ムクホーク",
+    "ja-roma": "Mukuhawk",
+    "ko": "찌르호크",
+    "zh-hans": "姆克鹰",
+    "zh-hant": "姆克鷹"
+  },
+  "number": 398
+}

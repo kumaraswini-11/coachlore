@@ -1,0 +1,453 @@
+{
+  "category": "Tadpole Pokémon",
+  "entries": [
+    {
+      "text": "They warn others of danger by vibrating their cheeks to create a high-pitched sound.",
+      "version": "black"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+      "version": "white"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+      "version": "black-2"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+      "version": "white-2"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+      "version": "x"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+      "version": "y"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Graceful ripples running across the water’s surface are a sure sign that Tympole are singing in high-pitched voices below.",
+      "version": "sword"
+    },
+    {
+      "text": "It uses sound waves to communicate with others of its kind. People and other Pokémon species can’t hear its cries of warning.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tympole",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "tympole",
+      "to": "palpitoad",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "palpitoad",
+      "to": "seismitoad",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "swift-swim"
+        },
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": true,
+          "key": "water-absorb"
+        }
+      ],
+      "artwork": "/dex-images/artwork/tympole.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 17,
+            "method": "dark-grass",
+            "minLevel": 14
+          },
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ],
+        "shield": [
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 286,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 286,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 430,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 430,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 320,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 14
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "north-lake-miloch-max-den-f",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 286,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 286,
+            "location": "south-lake-miloch-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "south-lake-miloch-max-den-e",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 430,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 430,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 7
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "west-lake-axewell-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 17,
+            "method": "dark-grass",
+            "minLevel": 14
+          },
+          {
+            "chance": 80,
+            "location": "pinwheel-forest-outside",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 12
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sword-shield"],
+      "gen9": false,
+      "generation": 5,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "tympole",
+      "kind": "default",
+      "name": "Tympole",
+      "number": 535,
+      "pokemon": "tympole",
+      "sourceId": 535,
+      "sprite": "/dex-images/sprites/tympole.webp",
+      "statTotal": 294,
+      "stats": {
+        "attack": 50,
+        "defense": 40,
+        "hp": 50,
+        "special-attack": 50,
+        "special-defense": 40,
+        "speed": 64
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 45
+    }
+  ],
+  "generation": 5,
+  "key": "tympole",
+  "name": "Tympole",
+  "names": {
+    "de": "Schallquap",
+    "en": "Tympole",
+    "es": "Tympole",
+    "es-419": "Tympole",
+    "fr": "Tritonde",
+    "it": "Tympole",
+    "ja": "オタマロ",
+    "ja-hrkt": "オタマロ",
+    "ja-roma": "Otamaro",
+    "ko": "동챙이",
+    "zh-hans": "圆蝌蚪",
+    "zh-hant": "圓蝌蚪"
+  },
+  "number": 535
+}

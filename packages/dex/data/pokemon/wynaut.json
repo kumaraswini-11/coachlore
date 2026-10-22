@@ -1,0 +1,294 @@
+{
+  "category": "Bright Pokémon",
+  "entries": [
+    {
+      "text": "WYNAUT can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this POKéMON will be slapping the ground with its tail.",
+      "version": "ruby"
+    },
+    {
+      "text": "WYNAUT gather on moonlit nights to play by squeezing up against each other. By being squeezed, this POKéMON gains endurance and is trained to dole out powerful counterattacks.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A WYNAUT loves to eat sweet fruits. It cleverly picks fruits using its earlike arms. They gather in fruit gardens, drawn by the fragrance.",
+      "version": "emerald"
+    },
+    {
+      "text": "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+      "version": "firered"
+    },
+    {
+      "text": "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "diamond"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "pearl"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "platinum"
+    },
+    {
+      "text": "It tends to move in a pack. Individuals squash against one another to toughen their spirits.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It tends to move in a pack. Individuals squash against one another to toughen their spirits.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "black"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "white"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "black-2"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "white-2"
+    },
+    {
+      "text": "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+      "version": "x"
+    },
+    {
+      "text": "It grows strong by pushing up against others en masse. It loves eating sweet fruit.",
+      "version": "y"
+    },
+    {
+      "text": "Wynaut can always be seen with a big, happy smile on its face. Look at its tail to determine if it is angry. When angered, this Pokémon will be slapping the ground with its tail.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Wynaut gather on moonlit nights to play by squeezing up against each other. By being squeezed, this Pokémon gains endurance and is trained to dole out powerful counterattacks.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It tends to move in a pack. Individuals squash against one another to toughen their spirits.",
+      "version": "sword"
+    },
+    {
+      "text": "It tends to move in a pack with others. They cluster in a tight group to sleep in a cave.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "wynaut",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "wynaut",
+      "to": "wobbuffet",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "shadow-tag"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/wynaut.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-130-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mirage-island-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 1,
+            "method": "gift-egg",
+            "minLevel": 1
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-130-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mirage-island-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-route-130-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "lavaridge-town-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "mirage-island-area",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 5
+          }
+        ],
+        "shield": [
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sword-shield"],
+      "gen9": false,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "wynaut",
+      "kind": "default",
+      "name": "Wynaut",
+      "number": 360,
+      "pokemon": "wynaut",
+      "sourceId": 360,
+      "sprite": "/dex-images/sprites/wynaut.webp",
+      "statTotal": 260,
+      "stats": {
+        "attack": 23,
+        "defense": 48,
+        "hp": 95,
+        "special-attack": 23,
+        "special-defense": 48,
+        "speed": 23
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 140
+    }
+  ],
+  "generation": 3,
+  "key": "wynaut",
+  "name": "Wynaut",
+  "names": {
+    "de": "Isso",
+    "en": "Wynaut",
+    "es": "Wynaut",
+    "es-419": "Wynaut",
+    "fr": "Okéoké",
+    "it": "Wynaut",
+    "ja": "ソーナノ",
+    "ja-hrkt": "ソーナノ",
+    "ja-roma": "Sohnano",
+    "ko": "마자",
+    "zh-hans": "小果然",
+    "zh-hant": "小果然"
+  },
+  "number": 360
+}

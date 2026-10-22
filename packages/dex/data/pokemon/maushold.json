@@ -1,0 +1,149 @@
+{
+  "category": "Family Pokémon",
+  "entries": [
+    {
+      "text": "The two little ones just appeared one day. The group might be a family of related Pokémon, but nobody knows for sure.",
+      "version": "scarlet"
+    },
+    {
+      "text": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "tandemaus",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "chance": 99,
+        "evolved_pokemon_form": "maushold-family-of-four",
+        "min_level": 25
+      },
+      "from": "tandemaus",
+      "to": "maushold",
+      "trigger": "in-battle-level-up"
+    },
+    {
+      "conditions": {
+        "chance": 1,
+        "evolved_pokemon_form": "maushold-family-of-three",
+        "min_level": 25
+      },
+      "from": "tandemaus",
+      "to": "maushold",
+      "trigger": "in-battle-level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "friend-guard"
+        },
+        {
+          "hidden": false,
+          "key": "cheek-pouch"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/maushold-family-of-four.webp",
+      "encounters": {},
+      "formName": "Family of Four",
+      "games": ["scarlet-violet", "the-teal-mask", "champions"],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "maushold-family-of-four",
+      "kind": "default",
+      "name": "Maushold",
+      "number": 925,
+      "pokemon": "maushold",
+      "sourceId": 925,
+      "sprite": "/dex-images/sprites/maushold-family-of-four.webp",
+      "statTotal": 470,
+      "stats": {
+        "attack": 75,
+        "defense": 70,
+        "hp": 74,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 111
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 28
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "friend-guard"
+        },
+        {
+          "hidden": false,
+          "key": "cheek-pouch"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/maushold-family-of-three.webp",
+      "encounters": {},
+      "formName": "Family of Three",
+      "games": [],
+      "gen9": true,
+      "generation": 9,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "maushold-family-of-three",
+      "kind": "other",
+      "name": "Maushold-Family-Of-Three",
+      "number": 925,
+      "pokemon": "maushold",
+      "sourceId": 10257,
+      "sprite": "/dex-images/sprites/maushold-family-of-three.webp",
+      "statTotal": 470,
+      "stats": {
+        "attack": 75,
+        "defense": 70,
+        "hp": 74,
+        "special-attack": 65,
+        "special-defense": 75,
+        "speed": 111
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 23
+    }
+  ],
+  "generation": 9,
+  "key": "maushold",
+  "name": "Maushold",
+  "names": {
+    "de": "Famieps",
+    "en": "Maushold",
+    "es": "Maushold",
+    "es-419": "Maushold",
+    "fr": "Famignol",
+    "it": "Maushold",
+    "ja": "イッカネズミ",
+    "ja-hrkt": "イッカネズミ",
+    "ja-roma": "Ikkanezumi",
+    "ko": "파밀리쥐",
+    "zh-hans": "一家鼠",
+    "zh-hant": "一家鼠"
+  },
+  "number": 925
+}

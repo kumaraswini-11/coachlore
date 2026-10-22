@@ -1,0 +1,434 @@
+{
+  "category": "Alloy Pokémon",
+  "entries": [
+    {
+      "text": "Its body resembles polished metal, and it’s both lightweight and strong. The only drawback is that it rusts easily.",
+      "version": "sword"
+    },
+    {
+      "text": "The special metal that composes its body is very light, so this Pokémon has considerable agility. It lives in caves because it dislikes the rain.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "duraludon",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "metal-alloy"
+      },
+      "from": "duraludon",
+      "to": "archaludon",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "light-metal"
+        },
+        {
+          "hidden": false,
+          "key": "heavy-metal"
+        },
+        {
+          "hidden": true,
+          "key": "stalwart"
+        }
+      ],
+      "artwork": "/dex-images/artwork/duraludon.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 900,
+            "location": "giants-seat-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "wyndon-area",
+            "maxLevel": 50,
+            "method": "npc-trade",
+            "minLevel": 50
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "dusty-bowl-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 1,
+            "location": "galar-route-10-main",
+            "maxLevel": 48,
+            "method": "overworld",
+            "minLevel": 45
+          },
+          {
+            "chance": 900,
+            "location": "giants-seat-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 4,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 15,
+            "location": "stony-wilderness-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "wyndon-area",
+            "maxLevel": 50,
+            "method": "npc-trade",
+            "minLevel": 50
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 130,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 130,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 130,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 130,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 130,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ]
+      },
+      "games": ["sword-shield", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 8,
+      "height": 18,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "duraludon",
+      "kind": "default",
+      "name": "Duraludon",
+      "number": 884,
+      "pokemon": "duraludon",
+      "sourceId": 884,
+      "sprite": "/dex-images/sprites/duraludon.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 95,
+        "defense": 115,
+        "hp": 70,
+        "special-attack": 120,
+        "special-defense": 50,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["steel", "dragon"],
+      "weight": 400
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "light-metal"
+        },
+        {
+          "hidden": false,
+          "key": "heavy-metal"
+        },
+        {
+          "hidden": true,
+          "key": "stalwart"
+        }
+      ],
+      "artwork": "/dex-images/artwork/duraludon-gmax.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 5,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-wild-area-max-dens-area",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "giants-seat-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 15,
+            "location": "ballimere-lake-max-den-q",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "frigid-sea-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "giants-bed-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "path-to-the-peak-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "three-point-pass-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 430,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "duraludon-gmax",
+      "kind": "gigantamax",
+      "name": "Duraludon-Gmax",
+      "number": 884,
+      "pokemon": "duraludon",
+      "sourceId": 10225,
+      "sprite": "/dex-images/sprites/duraludon-gmax.webp",
+      "statTotal": 535,
+      "stats": {
+        "attack": 95,
+        "defense": 115,
+        "hp": 70,
+        "special-attack": 120,
+        "special-defense": 50,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["steel", "dragon"],
+      "weight": 10000
+    }
+  ],
+  "generation": 8,
+  "key": "duraludon",
+  "name": "Duraludon",
+  "names": {
+    "de": "Duraludon",
+    "en": "Duraludon",
+    "es": "Duraludon",
+    "es-419": "Duraludon",
+    "fr": "Duralugon",
+    "it": "Duraludon",
+    "ja": "ジュラルドン",
+    "ja-hrkt": "ジュラルドン",
+    "ja-roma": "Duraludon",
+    "ko": "두랄루돈",
+    "zh-hans": "铝钢龙",
+    "zh-hant": "鋁鋼龍"
+  },
+  "number": 884
+}

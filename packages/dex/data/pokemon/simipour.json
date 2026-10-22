@@ -1,0 +1,112 @@
+{
+  "category": "Geyser Pokémon",
+  "entries": [
+    {
+      "text": "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+      "version": "black"
+    },
+    {
+      "text": "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+      "version": "white"
+    },
+    {
+      "text": "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+      "version": "black-2"
+    },
+    {
+      "text": "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+      "version": "white-2"
+    },
+    {
+      "text": "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+      "version": "x"
+    },
+    {
+      "text": "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+      "version": "y"
+    },
+    {
+      "text": "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "panpour",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "water-stone"
+      },
+      "from": "panpour",
+      "to": "simipour",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gluttony"
+        },
+        {
+          "hidden": true,
+          "key": "torrent"
+        }
+      ],
+      "artwork": "/dex-images/artwork/simipour.webp",
+      "encounters": {},
+      "games": ["black-white", "black-2-white-2", "x-y", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "simipour",
+      "kind": "default",
+      "name": "Simipour",
+      "number": 516,
+      "pokemon": "simipour",
+      "sourceId": 516,
+      "sprite": "/dex-images/sprites/simipour.webp",
+      "statTotal": 498,
+      "stats": {
+        "attack": 98,
+        "defense": 63,
+        "hp": 75,
+        "special-attack": 98,
+        "special-defense": 63,
+        "speed": 101
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 290
+    }
+  ],
+  "generation": 5,
+  "key": "simipour",
+  "name": "Simipour",
+  "names": {
+    "de": "Sodachita",
+    "en": "Simipour",
+    "es": "Simipour",
+    "es-419": "Simipour",
+    "fr": "Flotoutan",
+    "it": "Simipour",
+    "ja": "ヒヤッキー",
+    "ja-hrkt": "ヒヤッキー",
+    "ja-roma": "Hiyakkie",
+    "ko": "앗차키",
+    "zh-hans": "冷水猿",
+    "zh-hant": "冷水猿"
+  },
+  "number": 516
+}

@@ -1,0 +1,234 @@
+{
+  "category": "Abundance Pokémon",
+  "entries": [
+    {
+      "text": "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+      "version": "black"
+    },
+    {
+      "text": "The energy that comes pouring from its tail increases the nutrition in the soil, making crops grow to great size.",
+      "version": "white"
+    },
+    {
+      "text": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
+      "version": "black-2"
+    },
+    {
+      "text": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
+      "version": "white-2"
+    },
+    {
+      "text": "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+      "version": "x"
+    },
+    {
+      "text": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
+      "version": "y"
+    },
+    {
+      "text": "Lands visited by Landorus grant such bountiful crops that it has been hailed as “The Guardian of the Fields.”",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "From the forces of lightning and wind, it creates energy to give nutrients to the soil and make the land abundant.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When the incarnations of wind and of lightning clash, Landorus arrives to quell the conflict. After the tempests and thunderbolts abate, the land is sure to be blessed with bountiful harvests.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "landorus",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "sand-force"
+        },
+        {
+          "hidden": true,
+          "key": "sheer-force"
+        }
+      ],
+      "artwork": "/dex-images/artwork/landorus-incarnate.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "black": [
+          {
+            "chance": 100,
+            "location": "abundant-shrine-area",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "soaring-in-the-sky-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "ultra-space-wilds-cliff",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "abundant-shrine-area",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ]
+      },
+      "formName": "Incarnate Forme",
+      "games": ["black-white", "black-2-white-2", "legends-arceus"],
+      "gen9": true,
+      "generation": 5,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "landorus-incarnate",
+      "kind": "default",
+      "legendary": true,
+      "name": "Landorus",
+      "number": 645,
+      "pokemon": "landorus",
+      "sourceId": 645,
+      "sprite": "/dex-images/sprites/landorus-incarnate.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 125,
+        "defense": 90,
+        "hp": 89,
+        "special-attack": 115,
+        "special-defense": 80,
+        "speed": 101
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["ground", "flying"],
+      "weight": 680
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intimidate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/landorus-therian.webp",
+      "encounters": {},
+      "formName": "Therian Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 5,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "landorus-therian",
+      "kind": "other",
+      "legendary": true,
+      "name": "Landorus-Therian",
+      "number": 645,
+      "pokemon": "landorus",
+      "sourceId": 10021,
+      "sprite": "/dex-images/sprites/landorus-therian.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 145,
+        "defense": 90,
+        "hp": 89,
+        "special-attack": 105,
+        "special-defense": 80,
+        "speed": 91
+      },
+      "tags": ["Sub-Legendary"],
+      "types": ["ground", "flying"],
+      "weight": 680
+    }
+  ],
+  "generation": 5,
+  "key": "landorus",
+  "name": "Landorus",
+  "names": {
+    "de": "Demeteros",
+    "en": "Landorus",
+    "es": "Landorus",
+    "es-419": "Landorus",
+    "fr": "Démétéros",
+    "it": "Landorus",
+    "ja": "ランドロス",
+    "ja-hrkt": "ランドロス",
+    "ja-roma": "Landlos",
+    "ko": "랜드로스",
+    "zh-hans": "土地云",
+    "zh-hant": "土地雲"
+  },
+  "number": 645
+}

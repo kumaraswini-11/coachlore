@@ -1,0 +1,265 @@
+{
+  "category": "Tantrum Pokémon",
+  "entries": [
+    {
+      "text": "It’s very curious, but its means of investigating things is to try to punch them with its tentacles. The search for food is what brings it onto land.",
+      "version": "sword"
+    },
+    {
+      "text": "Its tentacles tear off easily, but it isn’t alarmed when that happens—it knows they’ll grow back. It’s about as smart as a three-year-old.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "clobbopus",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "known_move": "taunt"
+      },
+      "from": "clobbopus",
+      "to": "grapploct",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "limber"
+        },
+        {
+          "hidden": true,
+          "key": "technician"
+        }
+      ],
+      "artwork": "/dex-images/artwork/clobbopus.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 270,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "overworld",
+            "minLevel": 39
+          },
+          {
+            "chance": 270,
+            "location": "galar-route-9-outer-spikemuth",
+            "maxLevel": 44,
+            "method": "overworld",
+            "minLevel": 40
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 50,
+            "location": "north-lake-miloch-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1004,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 1004,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 65,
+            "location": "challenge-beach-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "challenge-road-max-den-a",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 80,
+            "location": "courageous-cavern-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 65,
+            "location": "fields-of-honor-max-den-h",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 65,
+            "location": "honeycalm-sea-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 1004,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 16
+          },
+          {
+            "chance": 1004,
+            "location": "loop-lagoon-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 19
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 8,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "clobbopus",
+      "kind": "default",
+      "name": "Clobbopus",
+      "number": 852,
+      "pokemon": "clobbopus",
+      "sourceId": 852,
+      "sprite": "/dex-images/sprites/clobbopus.webp",
+      "statTotal": 310,
+      "stats": {
+        "attack": 68,
+        "defense": 60,
+        "hp": 50,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 32
+      },
+      "tags": [],
+      "types": ["fighting"],
+      "weight": 40
+    }
+  ],
+  "generation": 8,
+  "key": "clobbopus",
+  "name": "Clobbopus",
+  "names": {
+    "de": "Klopptopus",
+    "en": "Clobbopus",
+    "es": "Clobbopus",
+    "es-419": "Clobbopus",
+    "fr": "Poulpaf",
+    "it": "Clobbopus",
+    "ja": "タタッコ",
+    "ja-hrkt": "タタッコ",
+    "ja-roma": "Tatakko",
+    "ko": "때때무노",
+    "zh-hans": "拳拳蛸",
+    "zh-hant": "拳拳蛸"
+  },
+  "number": 852
+}

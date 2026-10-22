@@ -1,0 +1,268 @@
+{
+  "category": "Shell Out Pokémon",
+  "entries": [
+    {
+      "text": "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+      "version": "black"
+    },
+    {
+      "text": "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+      "version": "white"
+    },
+    {
+      "text": "When its body dries out, it weakens. So it wraps a membrane around itself for protection while it spits poison.",
+      "version": "black-2"
+    },
+    {
+      "text": "When its body dries out, it weakens. So it wraps a membrane around itself for protection while it spits poison.",
+      "version": "white-2"
+    },
+    {
+      "text": "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+      "version": "x"
+    },
+    {
+      "text": "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+      "version": "y"
+    },
+    {
+      "text": "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When its body dries out, it weakens. So, to prevent dehydration, it wraps itself in many layers of thin membrane.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular.",
+      "version": "sword"
+    },
+    {
+      "text": "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "shelmet",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "trade_species": "karrablast"
+      },
+      "from": "shelmet",
+      "to": "accelgor",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "hydration"
+        },
+        {
+          "hidden": false,
+          "key": "sticky-hold"
+        },
+        {
+          "hidden": true,
+          "key": "unburden"
+        }
+      ],
+      "artwork": "/dex-images/artwork/accelgor.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 15,
+            "location": "bridge-field-max-den-h",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "bridge-field-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "dappled-grove-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "south-lake-miloch-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "fields-of-honor-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 35,
+            "location": "forest-of-focus-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 200,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 35,
+            "location": "workout-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "the-isle-of-armor", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 5,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "accelgor",
+      "kind": "default",
+      "name": "Accelgor",
+      "number": 617,
+      "pokemon": "accelgor",
+      "sourceId": 617,
+      "sprite": "/dex-images/sprites/accelgor.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 70,
+        "defense": 40,
+        "hp": 80,
+        "special-attack": 100,
+        "special-defense": 60,
+        "speed": 145
+      },
+      "tags": [],
+      "types": ["bug"],
+      "weight": 253
+    }
+  ],
+  "generation": 5,
+  "key": "accelgor",
+  "name": "Accelgor",
+  "names": {
+    "de": "Hydragil",
+    "en": "Accelgor",
+    "es": "Accelgor",
+    "es-419": "Accelgor",
+    "fr": "Limaspeed",
+    "it": "Accelgor",
+    "ja": "アギルダー",
+    "ja-hrkt": "アギルダー",
+    "ja-roma": "Agilder",
+    "ko": "어지리더",
+    "zh-hans": "敏捷虫",
+    "zh-hant": "敏捷蟲"
+  },
+  "number": 617
+}

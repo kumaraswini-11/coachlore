@@ -1,0 +1,375 @@
+{
+  "category": "Scout Pokémon",
+  "entries": [
+    {
+      "text": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+      "version": "gold"
+    },
+    {
+      "text": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "version": "silver"
+    },
+    {
+      "text": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+      "version": "crystal"
+    },
+    {
+      "text": "When SENTRET sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this POKéMON becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "version": "ruby"
+    },
+    {
+      "text": "When SENTRET sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this POKéMON becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "version": "sapphire"
+    },
+    {
+      "text": "They take turns standing guard when it is time to sleep. The sentry awakens the others if it senses danger. If one becomes separated, it turns sleepless with fear.",
+      "version": "emerald"
+    },
+    {
+      "text": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "version": "firered"
+    },
+    {
+      "text": "A very cautious POKéMON, it raises itself up using its tail to get a better view of its surroundings.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "diamond"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "pearl"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "platinum"
+    },
+    {
+      "text": "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "black"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "white"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "black-2"
+    },
+    {
+      "text": "It has a very nervous nature. It stands up high on its tail so it can scan wide areas.",
+      "version": "white-2"
+    },
+    {
+      "text": "When acting as a lookout, it warns others of danger by screeching and hitting the ground with its tail.",
+      "version": "x"
+    },
+    {
+      "text": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+      "version": "y"
+    },
+    {
+      "text": "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When Sentret sleeps, it does so while another stands guard. The sentry wakes the others at the first sign of danger. When this Pokémon becomes separated from its pack, it becomes incapable of sleep due to fear.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "sentret",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 15
+      },
+      "from": "sentret",
+      "to": "furret",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "keen-eye"
+        },
+        {
+          "hidden": true,
+          "key": "frisk"
+        }
+      ],
+      "artwork": "/dex-images/artwork/sentret.webp",
+      "encounters": {
+        "crystal": [
+          {
+            "chance": 80,
+            "location": "johto-route-29-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 60,
+            "location": "johto-route-43-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "firered": [
+          {
+            "chance": 30,
+            "location": "canyon-entrance-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "water-path-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "gold": [
+          {
+            "chance": 80,
+            "location": "johto-route-29-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 80,
+            "location": "johto-route-29-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 90,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 30,
+            "location": "canyon-entrance-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "five-isle-meadow-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 30,
+            "location": "water-path-area",
+            "maxLevel": 15,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-202-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          }
+        ],
+        "silver": [
+          {
+            "chance": 80,
+            "location": "johto-route-29-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 80,
+            "location": "johto-route-29-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 90,
+            "location": "johto-safari-zone-swamp",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 60,
+            "location": "johto-safari-zone-wetland",
+            "maxLevel": 17,
+            "method": "walk",
+            "minLevel": 15
+          },
+          {
+            "chance": 40,
+            "location": "kanto-route-1-area",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-6-area",
+            "maxLevel": 11,
+            "method": "rough-terrain",
+            "minLevel": 10
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-6-area",
+            "maxLevel": 11,
+            "method": "rough-terrain",
+            "minLevel": 10
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "heartgold-soulsilver", "x-y", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "sentret",
+      "kind": "default",
+      "name": "Sentret",
+      "number": 161,
+      "pokemon": "sentret",
+      "sourceId": 161,
+      "sprite": "/dex-images/sprites/sentret.webp",
+      "statTotal": 215,
+      "stats": {
+        "attack": 46,
+        "defense": 34,
+        "hp": 35,
+        "special-attack": 35,
+        "special-defense": 45,
+        "speed": 20
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 60
+    }
+  ],
+  "generation": 2,
+  "key": "sentret",
+  "name": "Sentret",
+  "names": {
+    "de": "Wiesor",
+    "en": "Sentret",
+    "es": "Sentret",
+    "es-419": "Sentret",
+    "fr": "Fouinette",
+    "it": "Sentret",
+    "ja": "オタチ",
+    "ja-hrkt": "オタチ",
+    "ja-roma": "Otachi",
+    "ko": "꼬리선",
+    "zh-hans": "尾立",
+    "zh-hant": "尾立"
+  },
+  "number": 161
+}

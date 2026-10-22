@@ -1,0 +1,135 @@
+{
+  "category": "Drawn Sword Pokémon",
+  "entries": [
+    {
+      "text": "This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.",
+      "version": "sun"
+    },
+    {
+      "text": "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
+      "version": "moon"
+    },
+    {
+      "text": "This Ultra Beast’s body, which is as thin as paper, is like a sharpened sword.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "kartana",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "beast-boost"
+        }
+      ],
+      "artwork": "/dex-images/artwork/kartana.webp",
+      "encounters": {
+        "sun": [
+          {
+            "chance": 200,
+            "location": "alola-route-17-all-areas",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          },
+          {
+            "chance": 200,
+            "location": "alola-route-17-all-areas",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 100,
+            "location": "malie-garden-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 70,
+            "method": "dynamax-adventure",
+            "minLevel": 70
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 115,
+            "location": "ultra-space-ultra-forest",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon"],
+      "gen9": false,
+      "generation": 7,
+      "height": 3,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "kartana",
+      "kind": "default",
+      "name": "Kartana",
+      "number": 798,
+      "pokemon": "kartana",
+      "sourceId": 798,
+      "sprite": "/dex-images/sprites/kartana.webp",
+      "statTotal": 570,
+      "stats": {
+        "attack": 181,
+        "defense": 131,
+        "hp": 59,
+        "special-attack": 59,
+        "special-defense": 31,
+        "speed": 109
+      },
+      "tags": ["Ultra Beast"],
+      "types": ["grass", "steel"],
+      "weight": 1
+    }
+  ],
+  "generation": 7,
+  "key": "kartana",
+  "name": "Kartana",
+  "names": {
+    "de": "Katagami",
+    "en": "Kartana",
+    "es": "Kartana",
+    "es-419": "Kartana",
+    "fr": "Katagami",
+    "it": "Kartana",
+    "ja": "カミツルギ",
+    "ja-hrkt": "カミツルギ",
+    "ja-roma": "Kamiturugi",
+    "ko": "종이신도",
+    "zh-hans": "纸御剑",
+    "zh-hant": "紙御劍"
+  },
+  "number": 798
+}

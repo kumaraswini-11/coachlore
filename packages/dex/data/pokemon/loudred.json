@@ -1,0 +1,361 @@
+{
+  "category": "Big Voice Pokémon",
+  "entries": [
+    {
+      "text": "LOUDRED’s bellowing can completely decimate a wood-frame house. It uses its voice to punish its foes. This POKéMON’s round ears serve as loudspeakers.",
+      "version": "ruby"
+    },
+    {
+      "text": "LOUDRED shouts while stamping its feet. After it finishes shouting, this POKéMON becomes incapable of hearing anything for a while. This is considered to be a weak point.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It positions the round speakers on its head to assail foes with ultrasonic waves at massive volume. It builds power by stomping the ground.",
+      "version": "emerald"
+    },
+    {
+      "text": "When it stamps its feet and bellows, it generates ultrasonic waves that can blow apart a house.",
+      "version": "firered"
+    },
+    {
+      "text": "When it stamps its feet and bellows, it generates ultrasonic waves that can blow apart a house.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "diamond"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "pearl"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "platinum"
+    },
+    {
+      "text": "It shouts loudly by inhaling air, and then uses its well-developed stomach muscles to exhale.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It shouts loudly by inhaling air, and then uses its well-developed stomach muscles to exhale.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "black"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "white"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "black-2"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "white-2"
+    },
+    {
+      "text": "It shouts loudly by inhaling air, and then uses its well-developed stomach muscles to exhale.",
+      "version": "x"
+    },
+    {
+      "text": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+      "version": "y"
+    },
+    {
+      "text": "Loudred’s bellowing can completely decimate a wood-frame house. It uses its voice to punish its foes. This Pokémon’s round ears serve as loudspeakers.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Loudred shouts while stamping its feet. After it finishes shouting, this Pokémon becomes incapable of hearing anything for a while. This is considered to be a weak point.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Loudred’s ears serve as speakers, and they can put out sound waves powerful enough to blow away a house.",
+      "version": "sword"
+    },
+    {
+      "text": "The force of this Pokémon’s loud voice isn’t just the sound—it’s also the wave of air pressure that blows opponents away and damages them.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "whismur",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "whismur",
+      "to": "loudred",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "loudred",
+      "to": "exploud",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "soundproof"
+        },
+        {
+          "hidden": true,
+          "key": "scrappy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/loudred.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 22,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 22,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 16,
+            "location": "desert-underpass-area",
+            "maxLevel": 44,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-victory-road-b1f",
+            "maxLevel": 20,
+            "method": "horde",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 22,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 22,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "mt-coronet-exterior-blizzard",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 22,
+            "location": "mt-coronet-exterior-snowfall",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 10,
+            "location": "hoenn-victory-road-1f",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 95,
+            "location": "courageous-cavern-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "soothing-wetlands-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "training-lowlands-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 95,
+            "location": "courageous-cavern-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "soothing-wetlands-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 95,
+            "location": "training-lowlands-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-normal",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "x-y", "omega-ruby-alpha-sapphire", "sword-shield", "the-isle-of-armor"],
+      "gen9": false,
+      "generation": 3,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "loudred",
+      "kind": "default",
+      "name": "Loudred",
+      "number": 294,
+      "pokemon": "loudred",
+      "sourceId": 294,
+      "sprite": "/dex-images/sprites/loudred.webp",
+      "statTotal": 360,
+      "stats": {
+        "attack": 71,
+        "defense": 43,
+        "hp": 84,
+        "special-attack": 71,
+        "special-defense": 43,
+        "speed": 48
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 405
+    }
+  ],
+  "generation": 3,
+  "key": "loudred",
+  "name": "Loudred",
+  "names": {
+    "de": "Krakeelo",
+    "en": "Loudred",
+    "es": "Loudred",
+    "es-419": "Loudred",
+    "fr": "Ramboum",
+    "it": "Loudred",
+    "ja": "ドゴーム",
+    "ja-hrkt": "ドゴーム",
+    "ja-roma": "Dogohmb",
+    "ko": "노공룡",
+    "zh-hans": "吼爆弹",
+    "zh-hant": "吼爆彈"
+  },
+  "number": 294
+}

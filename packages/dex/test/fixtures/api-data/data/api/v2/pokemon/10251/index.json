@@ -1,0 +1,207 @@
+{
+  "abilities": [
+    {
+      "ability": {
+        "name": "intimidate",
+        "url": "/api/v2/ability/22/"
+      },
+      "is_hidden": false,
+      "slot": 1
+    },
+    {
+      "ability": {
+        "name": "anger-point",
+        "url": "/api/v2/ability/83/"
+      },
+      "is_hidden": false,
+      "slot": 2
+    },
+    {
+      "ability": {
+        "name": "cud-chew",
+        "url": "/api/v2/ability/291/"
+      },
+      "is_hidden": true,
+      "slot": 3
+    }
+  ],
+  "forms": [
+    {
+      "name": "tauros-paldea-blaze-breed",
+      "url": "/api/v2/pokemon-form/10420/"
+    }
+  ],
+  "height": 14,
+  "id": 10251,
+  "is_default": false,
+  "moves": [
+    {
+      "move": {
+        "name": "double-kick",
+        "url": "/api/v2/move/24/"
+      },
+      "version_group_details": [
+        {
+          "level_learned_at": 10,
+          "move_learn_method": {
+            "name": "level-up",
+            "url": "/api/v2/move-learn-method/1/"
+          },
+          "order": null,
+          "version_group": {
+            "name": "scarlet-violet",
+            "url": "/api/v2/version-group/25/"
+          }
+        }
+      ]
+    },
+    {
+      "move": {
+        "name": "earthquake",
+        "url": "/api/v2/move/89/"
+      },
+      "version_group_details": [
+        {
+          "level_learned_at": 0,
+          "move_learn_method": {
+            "name": "machine",
+            "url": "/api/v2/move-learn-method/4/"
+          },
+          "order": null,
+          "version_group": {
+            "name": "scarlet-violet",
+            "url": "/api/v2/version-group/25/"
+          }
+        },
+        {
+          "level_learned_at": 0,
+          "move_learn_method": {
+            "name": "train",
+            "url": "/api/v2/move-learn-method/12/"
+          },
+          "order": null,
+          "version_group": {
+            "name": "champions",
+            "url": "/api/v2/version-group/32/"
+          }
+        }
+      ]
+    },
+    {
+      "move": {
+        "name": "tera-blast",
+        "url": "/api/v2/move/851/"
+      },
+      "version_group_details": [
+        {
+          "level_learned_at": 0,
+          "move_learn_method": {
+            "name": "machine",
+            "url": "/api/v2/move-learn-method/4/"
+          },
+          "order": null,
+          "version_group": {
+            "name": "scarlet-violet",
+            "url": "/api/v2/version-group/25/"
+          }
+        }
+      ]
+    }
+  ],
+  "name": "tauros-paldea-blaze-breed",
+  "species": {
+    "name": "tauros",
+    "url": "/api/v2/pokemon-species/128/"
+  },
+  "sprites": {
+    "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10251.png",
+    "other": {
+      "official-artwork": {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png",
+        "front_shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/10251.png",
+        "versions": {
+          "generation-i": {
+            "red-and-blue": {
+              "front_default": null
+            },
+            "red-and-green": {
+              "front_default": null
+            }
+          },
+          "generation-ii": {
+            "gold-and-silver": {
+              "front_default": null
+            }
+          }
+        }
+      }
+    }
+  },
+  "stats": [
+    {
+      "base_stat": 75,
+      "effort": 0,
+      "stat": {
+        "name": "hp",
+        "url": "/api/v2/stat/1/"
+      }
+    },
+    {
+      "base_stat": 110,
+      "effort": 2,
+      "stat": {
+        "name": "attack",
+        "url": "/api/v2/stat/2/"
+      }
+    },
+    {
+      "base_stat": 105,
+      "effort": 0,
+      "stat": {
+        "name": "defense",
+        "url": "/api/v2/stat/3/"
+      }
+    },
+    {
+      "base_stat": 30,
+      "effort": 0,
+      "stat": {
+        "name": "special-attack",
+        "url": "/api/v2/stat/4/"
+      }
+    },
+    {
+      "base_stat": 70,
+      "effort": 0,
+      "stat": {
+        "name": "special-defense",
+        "url": "/api/v2/stat/5/"
+      }
+    },
+    {
+      "base_stat": 100,
+      "effort": 0,
+      "stat": {
+        "name": "speed",
+        "url": "/api/v2/stat/6/"
+      }
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type": {
+        "name": "fighting",
+        "url": "/api/v2/type/2/"
+      }
+    },
+    {
+      "slot": 2,
+      "type": {
+        "name": "fire",
+        "url": "/api/v2/type/10/"
+      }
+    }
+  ],
+  "weight": 850
+}

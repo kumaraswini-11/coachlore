@@ -1,0 +1,307 @@
+{
+  "category": "Bone Vulture Pokémon",
+  "entries": [
+    {
+      "text": "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+      "version": "black"
+    },
+    {
+      "text": "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+      "version": "white"
+    },
+    {
+      "text": "They fly in circles around the sky. When they spot prey, they attack and carry it back to their nest with ease.",
+      "version": "black-2"
+    },
+    {
+      "text": "They fly in circles around the sky. When they spot prey, they attack and carry it back to their nest with ease.",
+      "version": "white-2"
+    },
+    {
+      "text": "They fly in circles around the sky. When they spot prey, they attack and carry it back to their nest with ease.",
+      "version": "x"
+    },
+    {
+      "text": "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+      "version": "y"
+    },
+    {
+      "text": "They fly in circles around the sky. When they spot prey, they attack and carry it back to their nest with ease.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "They adorn themselves beautifully with bones. This is supposedly an effort to attract males, but no male Mandibuzz have ever been found.",
+      "version": "sun"
+    },
+    {
+      "text": "It circles in the sky, keeping a keen eye out for Pokémon in a weakened state. Its choicest food is Cubone.",
+      "version": "moon"
+    },
+    {
+      "text": "It skillfully arranges the bones of its prey to construct its nest. Most of the bones are Cubone.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It’s always searching for food for Vullaby. When it finds a weak Pokémon, Mandibuzz swoops it right off to its nest.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Although it’s a bit of a ruffian, this Pokémon will take lost Vullaby under its wing and care for them till they’re ready to leave the nest.",
+      "version": "sword"
+    },
+    {
+      "text": "They adorn themselves with bones. There seem to be fashion trends among them, as different bones come into and fall out of popularity.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "vullaby",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 54
+      },
+      "from": "vullaby",
+      "to": "mandibuzz",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "big-pecks"
+        },
+        {
+          "hidden": false,
+          "key": "overcoat"
+        },
+        {
+          "hidden": true,
+          "key": "weak-armor"
+        }
+      ],
+      "artwork": "/dex-images/artwork/mandibuzz.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 25,
+            "location": "unova-route-11-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          },
+          {
+            "chance": 20,
+            "location": "village-bridge-area",
+            "maxLevel": 60,
+            "method": "dark-grass",
+            "minLevel": 58
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 100,
+            "location": "unova-route-4-area",
+            "maxLevel": 25,
+            "method": "static",
+            "minLevel": 25
+          }
+        ],
+        "moon": [
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1796,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "overworld-flying",
+            "minLevel": 54
+          },
+          {
+            "chance": 110,
+            "location": "dusty-bowl-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "east-lake-axewell-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "rolling-fields-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 65,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 65,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "challenge-road-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 26
+          },
+          {
+            "chance": 75,
+            "location": "challenge-road-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "loop-lagoon-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 1400,
+            "location": "potbottom-desert-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 75,
+            "location": "stepping-stone-sea-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 75,
+            "location": "workout-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "poni-plains-north",
+            "maxLevel": 57,
+            "method": "bubbling-spots",
+            "minLevel": 54
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 5,
+      "height": 12,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "mandibuzz",
+      "kind": "default",
+      "name": "Mandibuzz",
+      "number": 630,
+      "pokemon": "mandibuzz",
+      "sourceId": 630,
+      "sprite": "/dex-images/sprites/mandibuzz.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 65,
+        "defense": 105,
+        "hp": 110,
+        "special-attack": 55,
+        "special-defense": 95,
+        "speed": 80
+      },
+      "tags": [],
+      "types": ["dark", "flying"],
+      "weight": 395
+    }
+  ],
+  "generation": 5,
+  "key": "mandibuzz",
+  "name": "Mandibuzz",
+  "names": {
+    "de": "Grypheldis",
+    "en": "Mandibuzz",
+    "es": "Mandibuzz",
+    "es-419": "Mandibuzz",
+    "fr": "Vaututrice",
+    "it": "Mandibuzz",
+    "ja": "バルジーナ",
+    "ja-hrkt": "バルジーナ",
+    "ja-roma": "Vulgina",
+    "ko": "버랜지나",
+    "zh-hans": "秃鹰娜",
+    "zh-hant": "禿鷹娜"
+  },
+  "number": 630
+}

@@ -1,0 +1,514 @@
+{
+  "category": "Electric Pokémon",
+  "entries": [
+    {
+      "text": "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit.",
+      "version": "gold"
+    },
+    {
+      "text": "Even in the most vicious storm, this POKéMON plays happily if thunder rumbles in the sky.",
+      "version": "silver"
+    },
+    {
+      "text": "It loves violent thunder. The space between its horns flickers bluish- white when it is charging energy.",
+      "version": "crystal"
+    },
+    {
+      "text": "ELEKID stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this POKéMON begins swinging its arms in circles to recharge itself.",
+      "version": "ruby"
+    },
+    {
+      "text": "ELEKID stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this POKéMON begins swinging its arms in circles to recharge itself.",
+      "version": "sapphire"
+    },
+    {
+      "text": "If it touches metal and discharges the electricity it has stored in its body, an ELEKID begins swinging its arms in circles to recharge itself.",
+      "version": "emerald"
+    },
+    {
+      "text": "Even in the most vicious storm, this POKéMON plays happily if thunder rumbles in the sky.",
+      "version": "firered"
+    },
+    {
+      "text": "It rotates its arms to generate electricity, but it tires easily, so it charges up only a little bit.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It generates electricity by whirling its arms. However, it can’t store the energy it makes.",
+      "version": "diamond"
+    },
+    {
+      "text": "It generates electricity by whirling its arms. However, it can’t store the energy it makes.",
+      "version": "pearl"
+    },
+    {
+      "text": "A weak electric current flows between its horns. Sticking a hand there shocks the unwary.",
+      "version": "platinum"
+    },
+    {
+      "text": "It rotates its arms to generate electricity, but it tires easily, so it only charges up a little bit.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Even in the most vicious storm, this Pokémon plays happily if thunder rumbles in the sky.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "A weak electric current flows between its horns. Sticking a hand there shocks the unwary.",
+      "version": "black"
+    },
+    {
+      "text": "A weak electric current flows between its horns. Sticking a hand there shocks the unwary.",
+      "version": "white"
+    },
+    {
+      "text": "Spinning its arms around to generate electricity makes the area between its horns shine light blue.",
+      "version": "black-2"
+    },
+    {
+      "text": "Spinning its arms around to generate electricity makes the area between its horns shine light blue.",
+      "version": "white-2"
+    },
+    {
+      "text": "It generates electricity by whirling its arms. However, it can’t store the energy it makes.",
+      "version": "x"
+    },
+    {
+      "text": "Spinning its arms around to generate electricity makes the area between its horns shine light blue.",
+      "version": "y"
+    },
+    {
+      "text": "Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this Pokémon begins swinging its arms in circles to recharge itself.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Elekid stores electricity in its body. If it touches metal and accidentally discharges all its built-up electricity, this Pokémon begins swinging its arms in circles to recharge itself.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When it’s in a house, electrical outlets serve as its baby bottles. It sucks down electricity.",
+      "version": "sun"
+    },
+    {
+      "text": "This Pokémon is constantly fighting with Togedemaru that try to steal its electricity. It’s a pretty even match.",
+      "version": "moon"
+    },
+    {
+      "text": "When it hears the crash of thunder, Elekid’s mood improves. It can be useful to record that sound and play it when Elekid’s feeling down.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "When its horns shine a bluish white, that’s the sign it’s fully charged. You’ll get a shocking jolt if you touch it!",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "When a storm approaches, this Pokémon gets restless. Once Elekid hears the sound of thunder, it gets full-on rowdy.",
+      "version": "sword"
+    },
+    {
+      "text": "It’s not good at storing electricity yet. This Pokémon sneaks into people’s homes, looking for electrical outlets to eat electricity from.",
+      "version": "shield"
+    },
+    {
+      "text": "They generate electricity by spinning their arms. During a thunderstorm, if one hears the lively voices of children out in the wilderness, what one is actually hearing are the voices of Elekid.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "elekid",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 30
+      },
+      "from": "elekid",
+      "to": "electabuzz",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "held_item": "electirizer"
+      },
+      "from": "electabuzz",
+      "to": "electivire",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "vital-spirit"
+        }
+      ],
+      "artwork": "/dex-images/artwork/elekid.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-mountain-south-of-route-129",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "johto-route-34-area",
+            "maxLevel": 5,
+            "method": "gift-egg",
+            "minLevel": 5
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 8,
+            "location": "valley-windworks-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-12-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 40,
+            "location": "mirage-spot-mountain-south-of-route-129",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 8,
+            "location": "sinnoh-route-205-south-towards-floaroma-town",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 8,
+            "location": "valley-windworks-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-12-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          },
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 19,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 300,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 18,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 20,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 19,
+            "location": "ballimere-lake-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "ballimere-lake-max-den-i",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "frigid-sea-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "frigid-sea-max-den-l",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 300,
+            "location": "frostpoint-field-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 18,
+            "location": "giants-bed-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "giants-bed-max-den-s",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 20,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 15,
+            "location": "old-cemetery-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 20,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "walk",
+            "minLevel": 60
+          },
+          {
+            "chance": 300,
+            "location": "three-point-pass-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 10,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "blush-mountain-area",
+            "maxLevel": 32,
+            "method": "walk",
+            "minLevel": 29
+          },
+          {
+            "chance": 10,
+            "location": "mount-hokulani-west",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 27
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 50,
+            "location": "virbank-complex-inner",
+            "maxLevel": 13,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "virbank-complex-inner",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          },
+          {
+            "chance": 15,
+            "location": "virbank-complex-outer",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "outskirt-stand-inside",
+            "maxLevel": 20,
+            "method": "npc-trade",
+            "minLevel": 20
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "sun-moon", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-indigo-disk"],
+      "gen9": true,
+      "generation": 2,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "elekid",
+      "kind": "default",
+      "name": "Elekid",
+      "number": 239,
+      "pokemon": "elekid",
+      "sourceId": 239,
+      "sprite": "/dex-images/sprites/elekid.webp",
+      "statTotal": 360,
+      "stats": {
+        "attack": 63,
+        "defense": 37,
+        "hp": 45,
+        "special-attack": 65,
+        "special-defense": 55,
+        "speed": 95
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 235
+    }
+  ],
+  "generation": 2,
+  "key": "elekid",
+  "name": "Elekid",
+  "names": {
+    "de": "Elekid",
+    "en": "Elekid",
+    "es": "Elekid",
+    "es-419": "Elekid",
+    "fr": "Élekid",
+    "it": "Elekid",
+    "ja": "エレキッド",
+    "ja-hrkt": "エレキッド",
+    "ja-roma": "Elekid",
+    "ko": "에레키드",
+    "zh-hans": "电击怪",
+    "zh-hant": "電擊怪"
+  },
+  "number": 239
+}

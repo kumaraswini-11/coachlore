@@ -1,0 +1,668 @@
+{
+  "category": "Swine Pokémon",
+  "entries": [
+    {
+      "text": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+      "version": "gold"
+    },
+    {
+      "text": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+      "version": "silver"
+    },
+    {
+      "text": "Although its legs are short, its rugged hooves prevent it from slipping, even on icy ground.",
+      "version": "crystal"
+    },
+    {
+      "text": "PILOSWINE is covered by a thick coat of long hair that enables it to endure the freezing cold. This POKéMON uses its tusks to dig up food that has been buried under ice.",
+      "version": "ruby"
+    },
+    {
+      "text": "PILOSWINE is covered by a thick coat of long hair that enables it to endure the freezing cold. This POKéMON uses its tusks to dig up food that has been buried under ice.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A PILOSWINE is covered by a thick coat of long hair for enduring freezing cold. It uses its tusks to dig up food that has been buried under ice.",
+      "version": "emerald"
+    },
+    {
+      "text": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+      "version": "firered"
+    },
+    {
+      "text": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "Its shaggy coat makes it unable to see. It checks surroundings with its sensitive nose instead.",
+      "version": "diamond"
+    },
+    {
+      "text": "Its shaggy coat makes it unable to see. It checks surroundings with its sensitive nose instead.",
+      "version": "pearl"
+    },
+    {
+      "text": "Covered by a shaggy coat, it is strong against the cold. Its tusks of ice thicken when it snows.",
+      "version": "platinum"
+    },
+    {
+      "text": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+      "version": "heartgold"
+    },
+    {
+      "text": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Covered by a shaggy coat, it is strong against the cold. Its tusks of ice thicken when it snows.",
+      "version": "black"
+    },
+    {
+      "text": "Covered by a shaggy coat, it is strong against the cold. Its tusks of ice thicken when it snows.",
+      "version": "white"
+    },
+    {
+      "text": "With its excellent sense of smell, it’s even able to find mushrooms that are buried under frozen ground.",
+      "version": "black-2"
+    },
+    {
+      "text": "With its excellent sense of smell, it’s even able to find mushrooms that are buried under frozen ground.",
+      "version": "white-2"
+    },
+    {
+      "text": "Although its legs are short, its rugged hooves prevent it from slipping, even on icy ground.",
+      "version": "x"
+    },
+    {
+      "text": "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+      "version": "y"
+    },
+    {
+      "text": "Piloswine is covered by a thick coat of long hair that enables it to endure the freezing cold. This Pokémon uses its tusks to dig up food that has been buried under ice.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Piloswine is covered by a thick coat of long hair that enables it to endure the freezing cold. This Pokémon uses its tusks to dig up food that has been buried under ice.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+      "version": "sword"
+    },
+    {
+      "text": "Although its legs are short, its rugged hooves prevent it from slipping, even on icy ground.",
+      "version": "shield"
+    },
+    {
+      "text": "The long fur of this Pokémon covers its eyes, ears, and even limbs, allowing Piloswine to resist harshly frigid conditions. The Pokémon's white tusks can be used to defeat its enemies.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "swinub",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 33
+      },
+      "from": "swinub",
+      "to": "piloswine",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "known_move": "ancient-power"
+      },
+      "from": "piloswine",
+      "to": "mamoswine",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "oblivious"
+        },
+        {
+          "hidden": false,
+          "key": "snow-cloak"
+        },
+        {
+          "hidden": true,
+          "key": "thick-fat"
+        }
+      ],
+      "artwork": "/dex-images/artwork/piloswine.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 25,
+            "location": "giant-chasm-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 50,
+            "location": "giant-chasm-forest",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 62
+          },
+          {
+            "chance": 50,
+            "location": "giant-chasm-forest",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 25,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 25,
+            "location": "giant-chasm-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest",
+            "maxLevel": 51,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 51,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "colosseum": [
+          {
+            "chance": 100,
+            "location": "snagem-hideout-1f",
+            "maxLevel": 43,
+            "method": "snag-rematch",
+            "minLevel": 43
+          },
+          {
+            "chance": 100,
+            "location": "the-under-subway",
+            "maxLevel": 43,
+            "method": "snag",
+            "minLevel": 43
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 22,
+            "location": "sinnoh-route-217-area",
+            "maxLevel": 35,
+            "method": "walk",
+            "minLevel": 34
+          }
+        ],
+        "shield": [
+          {
+            "chance": 480,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 480,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 400,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 400,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "sword": [
+          {
+            "chance": 480,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 40
+          },
+          {
+            "chance": 480,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 30,
+            "location": "dusty-bowl-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 60,
+            "location": "dusty-bowl-max-den-h",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 400,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 400,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 32
+          },
+          {
+            "chance": 60,
+            "location": "stony-wilderness-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 150,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "roaring-sea-caves-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 150,
+            "location": "slippery-slope-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 50,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 50,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "white": [
+          {
+            "chance": 25,
+            "location": "giant-chasm-area",
+            "maxLevel": 49,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 50,
+            "location": "giant-chasm-forest",
+            "maxLevel": 64,
+            "method": "dark-grass",
+            "minLevel": 62
+          },
+          {
+            "chance": 50,
+            "location": "giant-chasm-forest",
+            "maxLevel": 54,
+            "method": "walk",
+            "minLevel": 52
+          },
+          {
+            "chance": 25,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 59,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 25,
+            "location": "giant-chasm-area",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest",
+            "maxLevel": 51,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 51,
+            "method": "dark-grass",
+            "minLevel": 49
+          },
+          {
+            "chance": 60,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 46,
+            "method": "walk",
+            "minLevel": 44
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-314",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-316",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-317",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-ice",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-314",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-315",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-316",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 20,
+            "location": "frost-cavern-unknown-area-317",
+            "maxLevel": 39,
+            "method": "walk",
+            "minLevel": 38
+          }
+        ]
+      },
+      "games": ["gold-silver", "crystal", "platinum", "heartgold-soulsilver", "black-2-white-2", "x-y", "sword-shield", "the-crown-tundra", "legends-arceus", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 2,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "piloswine",
+      "kind": "default",
+      "name": "Piloswine",
+      "number": 221,
+      "pokemon": "piloswine",
+      "sourceId": 221,
+      "sprite": "/dex-images/sprites/piloswine.webp",
+      "statTotal": 450,
+      "stats": {
+        "attack": 100,
+        "defense": 80,
+        "hp": 100,
+        "special-attack": 60,
+        "special-defense": 60,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["ice", "ground"],
+      "weight": 558
+    }
+  ],
+  "generation": 2,
+  "key": "piloswine",
+  "name": "Piloswine",
+  "names": {
+    "de": "Keifel",
+    "en": "Piloswine",
+    "es": "Piloswine",
+    "es-419": "Piloswine",
+    "fr": "Cochignon",
+    "it": "Piloswine",
+    "ja": "イノムー",
+    "ja-hrkt": "イノムー",
+    "ja-roma": "Inomoo",
+    "ko": "메꾸리",
+    "zh-hans": "长毛猪",
+    "zh-hant": "長毛豬"
+  },
+  "number": 221
+}

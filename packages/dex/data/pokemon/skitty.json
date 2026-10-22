@@ -1,0 +1,291 @@
+{
+  "category": "Kitten Pokémon",
+  "entries": [
+    {
+      "text": "SKITTY has the habit of becoming fascinated by moving objects and chasing them around. This POKéMON is known to chase after its own tail and become dizzy.",
+      "version": "ruby"
+    },
+    {
+      "text": "SKITTY is known to chase around playfully after its own tail. In the wild, this POKéMON lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A SKITTY’s adorably cute behavior makes it highly popular. In battle, it makes its tail puff out. It threatens foes with a sharp growl.",
+      "version": "emerald"
+    },
+    {
+      "text": "It is said to be difficult to earn its trust. However, it is extremely popular for its cute looks and behavior.",
+      "version": "firered"
+    },
+    {
+      "text": "It is said to be difficult to earn its trust. However, it is extremely popular for its cute looks and behavior.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "version": "diamond"
+    },
+    {
+      "text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "version": "pearl"
+    },
+    {
+      "text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "version": "platinum"
+    },
+    {
+      "text": "It’s adorable when it chases its own tail. It’s difficult to earn its trust.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It’s adorable when it chases its own tail. It’s difficult to earn its trust.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "version": "black"
+    },
+    {
+      "text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "version": "white"
+    },
+    {
+      "text": "It shows its cute side by chasing its own tail until it gets dizzy.",
+      "version": "black-2"
+    },
+    {
+      "text": "It shows its cute side by chasing its own tail until it gets dizzy.",
+      "version": "white-2"
+    },
+    {
+      "text": "It can’t stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+      "version": "x"
+    },
+    {
+      "text": "It shows its cute side by chasing its own tail until it gets dizzy.",
+      "version": "y"
+    },
+    {
+      "text": "Skitty has the habit of becoming fascinated by moving objects and chasing them around. This Pokémon is known to chase after its own tail and become dizzy.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Skitty is known to chase around playfully after its own tail. In the wild, this Pokémon lives in holes in the trees of forests. It is very popular as a pet because of its adorable looks.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "skitty",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "moon-stone"
+      },
+      "from": "skitty",
+      "to": "delcatty",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "cute-charm"
+        },
+        {
+          "hidden": false,
+          "key": "normalize"
+        },
+        {
+          "hidden": true,
+          "key": "wonder-skin"
+        }
+      ],
+      "artwork": "/dex-images/artwork/skitty.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-116-area",
+            "maxLevel": 4,
+            "method": "horde",
+            "minLevel": 4
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 2,
+            "location": "hoenn-route-116-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 5,
+            "location": "hoenn-route-116-area",
+            "maxLevel": 4,
+            "method": "horde",
+            "minLevel": 4
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 40
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 40,
+            "location": "sinnoh-route-222-area",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 39
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 100,
+            "location": "fortree-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-116-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 100,
+            "location": "fortree-city-area",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 5
+          },
+          {
+            "chance": 2,
+            "location": "hoenn-route-116-area",
+            "maxLevel": 8,
+            "method": "walk",
+            "minLevel": 7
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 30,
+            "location": "castelia-city-area",
+            "maxLevel": 17,
+            "method": "dark-grass",
+            "minLevel": 16
+          },
+          {
+            "chance": 30,
+            "location": "castelia-city-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "x": [
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 8
+          }
+        ],
+        "y": [
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "red-flowers",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "kalos-route-4-area",
+            "maxLevel": 8,
+            "method": "yellow-flowers",
+            "minLevel": 8
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "x-y", "omega-ruby-alpha-sapphire"],
+      "gen9": false,
+      "generation": 3,
+      "height": 6,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "skitty",
+      "kind": "default",
+      "name": "Skitty",
+      "number": 300,
+      "pokemon": "skitty",
+      "sourceId": 300,
+      "sprite": "/dex-images/sprites/skitty.webp",
+      "statTotal": 260,
+      "stats": {
+        "attack": 45,
+        "defense": 45,
+        "hp": 50,
+        "special-attack": 35,
+        "special-defense": 35,
+        "speed": 50
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 110
+    }
+  ],
+  "generation": 3,
+  "key": "skitty",
+  "name": "Skitty",
+  "names": {
+    "de": "Eneco",
+    "en": "Skitty",
+    "es": "Skitty",
+    "es-419": "Skitty",
+    "fr": "Skitty",
+    "it": "Skitty",
+    "ja": "エネコ",
+    "ja-hrkt": "エネコ",
+    "ja-roma": "Eneco",
+    "ko": "에나비",
+    "zh-hans": "向尾喵",
+    "zh-hant": "向尾喵"
+  },
+  "number": 300
+}

@@ -1,0 +1,498 @@
+{
+  "category": "Clay Doll Pokémon",
+  "entries": [
+    {
+      "text": "CLAYDOL are said to be dolls of mud made by primitive humans and brought to life by exposure to a mysterious ray. This POKéMON moves about while levitating.",
+      "version": "ruby"
+    },
+    {
+      "text": "CLAYDOL is an enigma that appeared from a clay statue made by an ancient civilization dating back 20,000 years. This POKéMON shoots beams from both its hands.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A CLAYDOL sleeps while hovering in midair. Its arms are separate from its body. They are kept floating by the POKéMON’s manipulation of psychic power.",
+      "version": "emerald"
+    },
+    {
+      "text": "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+      "version": "firered"
+    },
+    {
+      "text": "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+      "version": "diamond"
+    },
+    {
+      "text": "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+      "version": "pearl"
+    },
+    {
+      "text": "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+      "version": "platinum"
+    },
+    {
+      "text": "It is said that it originates from clay dolls made by an ancient civilization.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It is said that it originates from clay dolls made by an ancient civilization.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+      "version": "black"
+    },
+    {
+      "text": "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+      "version": "white"
+    },
+    {
+      "text": "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+      "version": "black-2"
+    },
+    {
+      "text": "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+      "version": "white-2"
+    },
+    {
+      "text": "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+      "version": "x"
+    },
+    {
+      "text": "It is said that it originates from clay dolls made by an ancient civilization.",
+      "version": "y"
+    },
+    {
+      "text": "Claydol are said to be dolls of mud made by primitive humans and brought to life by exposure to a mysterious ray. This Pokémon moves about while levitating.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Claydol is an enigma that appeared from a clay statue made by an ancient civilization dating back 20,000 years. This Pokémon shoots beams from both its hands.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "If it gets wet, its body melts. When rain starts to fall, it wraps its whole body up with its psychic powers to protect itself.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The ancient people who made it apparently modeled it after something that descended from the sky. It fires beams from both arms.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+      "version": "sword"
+    },
+    {
+      "text": "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "baltoy",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 36
+      },
+      "from": "baltoy",
+      "to": "claydol",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "levitate"
+        }
+      ],
+      "artwork": "/dex-images/artwork/claydol.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 100,
+            "location": "relic-castle-d",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 25,
+            "location": "sky-pillar-1f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 25,
+            "location": "sky-pillar-3f",
+            "maxLevel": 38,
+            "method": "walk",
+            "minLevel": 36
+          },
+          {
+            "chance": 19,
+            "location": "sky-pillar-5f",
+            "maxLevel": 37,
+            "method": "walk",
+            "minLevel": 36
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 25,
+            "location": "sky-pillar-1f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 25,
+            "location": "sky-pillar-3f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 19,
+            "location": "sky-pillar-5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 25,
+            "location": "sky-pillar-1f",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          },
+          {
+            "chance": 25,
+            "location": "sky-pillar-3f",
+            "maxLevel": 53,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 19,
+            "location": "sky-pillar-5f",
+            "maxLevel": 56,
+            "method": "walk",
+            "minLevel": 54
+          }
+        ],
+        "shield": [
+          {
+            "chance": 60,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 400,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 800,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 800,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 60,
+            "location": "axews-eye-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 36
+          },
+          {
+            "chance": 200,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 400,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 800,
+            "location": "dusty-bowl-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 41
+          },
+          {
+            "chance": 35,
+            "location": "hammerlocke-hills-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 70,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 35,
+            "location": "motostoke-riverbank-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 800,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 42
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 40,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 780,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 780,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 40,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 120,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 75,
+            "location": "ballimere-lake-max-den-o",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "giants-bed-max-den-r",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 780,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          },
+          {
+            "chance": 780,
+            "location": "giants-foot-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 75,
+            "location": "path-to-the-peak-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "snowslide-slope-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 120,
+            "location": "three-point-pass-area",
+            "maxLevel": 65,
+            "method": "overworld",
+            "minLevel": 60
+          }
+        ],
+        "white": [
+          {
+            "chance": 100,
+            "location": "relic-castle-d",
+            "maxLevel": 50,
+            "method": "walk",
+            "minLevel": 47
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "black-2-white-2", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 3,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "claydol",
+      "kind": "default",
+      "name": "Claydol",
+      "number": 344,
+      "pokemon": "claydol",
+      "sourceId": 344,
+      "sprite": "/dex-images/sprites/claydol.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 70,
+        "defense": 105,
+        "hp": 60,
+        "special-attack": 70,
+        "special-defense": 120,
+        "speed": 75
+      },
+      "tags": [],
+      "types": ["ground", "psychic"],
+      "weight": 1080
+    }
+  ],
+  "generation": 3,
+  "key": "claydol",
+  "name": "Claydol",
+  "names": {
+    "de": "Lepumentas",
+    "en": "Claydol",
+    "es": "Claydol",
+    "es-419": "Claydol",
+    "fr": "Kaorine",
+    "it": "Claydol",
+    "ja": "ネンドール",
+    "ja-hrkt": "ネンドール",
+    "ja-roma": "Nendoll",
+    "ko": "점토도리",
+    "zh-hans": "念力土偶",
+    "zh-hant": "念力土偶"
+  },
+  "number": 344
+}

@@ -1,0 +1,413 @@
+{
+  "category": "Gulp Pokémon",
+  "entries": [
+    {
+      "text": "It’s so strong that it can knock out some opponents in a single hit, but it also may forget what it’s battling midfight.",
+      "version": "sword"
+    },
+    {
+      "text": "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "cramorant",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gulp-missile"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cramorant.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 900,
+            "location": "axews-eye-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 4,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-9-main",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          }
+        ],
+        "sword": [
+          {
+            "chance": 900,
+            "location": "axews-eye-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 4,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 27
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-9-circhester-bay",
+            "maxLevel": 43,
+            "method": "walk",
+            "minLevel": 39
+          },
+          {
+            "chance": 40,
+            "location": "galar-route-9-main",
+            "maxLevel": 42,
+            "method": "walk",
+            "minLevel": 38
+          },
+          {
+            "chance": 5,
+            "location": "giants-cap-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 5,
+            "location": "hammerlocke-hills-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 50,
+            "location": "lake-of-outrage-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 50
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 1200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 820,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 820,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 1200,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 24
+          },
+          {
+            "chance": 40,
+            "location": "challenge-beach-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "courageous-cavern-max-den-c",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 820,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 820,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 20
+          },
+          {
+            "chance": 40,
+            "location": "forest-of-focus-max-den-e",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 40,
+            "location": "soothing-wetlands-max-den-a",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 20,
+            "location": "training-lowlands-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          }
+        ]
+      },
+      "games": ["sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask"],
+      "gen9": true,
+      "generation": 8,
+      "height": 8,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cramorant",
+      "kind": "default",
+      "name": "Cramorant",
+      "number": 845,
+      "pokemon": "cramorant",
+      "sourceId": 845,
+      "sprite": "/dex-images/sprites/cramorant.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 85,
+        "defense": 55,
+        "hp": 70,
+        "special-attack": 85,
+        "special-defense": 95,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["flying", "water"],
+      "weight": 180
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gulp-missile"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cramorant-gorging.webp",
+      "encounters": {},
+      "formName": "Gorging Form",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 8,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "cramorant-gorging",
+      "kind": "other",
+      "name": "Cramorant-Gorging",
+      "number": 845,
+      "pokemon": "cramorant",
+      "sourceId": 10183,
+      "sprite": "/dex-images/sprites/cramorant-gorging.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 85,
+        "defense": 55,
+        "hp": 70,
+        "special-attack": 85,
+        "special-defense": 95,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["flying", "water"],
+      "weight": 180
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "gulp-missile"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cramorant-gulping.webp",
+      "encounters": {},
+      "formName": "Gulping Form",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 8,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "cramorant-gulping",
+      "kind": "other",
+      "name": "Cramorant-Gulping",
+      "number": 845,
+      "pokemon": "cramorant",
+      "sourceId": 10182,
+      "sprite": "/dex-images/sprites/cramorant-gulping.webp",
+      "statTotal": 475,
+      "stats": {
+        "attack": 85,
+        "defense": 55,
+        "hp": 70,
+        "special-attack": 85,
+        "special-defense": 95,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["flying", "water"],
+      "weight": 180
+    }
+  ],
+  "generation": 8,
+  "key": "cramorant",
+  "name": "Cramorant",
+  "names": {
+    "de": "Urgl",
+    "en": "Cramorant",
+    "es": "Cramorant",
+    "es-419": "Cramorant",
+    "fr": "Nigosier",
+    "it": "Cramorant",
+    "ja": "ウッウ",
+    "ja-hrkt": "ウッウ",
+    "ja-roma": "Uu",
+    "ko": "윽우지",
+    "zh-hans": "古月鸟",
+    "zh-hant": "古月鳥"
+  },
+  "number": 845
+}

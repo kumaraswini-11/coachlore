@@ -1,0 +1,299 @@
+{
+  "category": "DNA Pokémon",
+  "entries": [
+    {
+      "text": "The DNA of a space virus underwent a sudden mutation upon exposure to a laser beam and resulted in DEOXYS. The crystalline organ on this POKéMON’s chest appears to be its brain.",
+      "version": "ruby"
+    },
+    {
+      "text": "DEOXYS emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This POKéMON shoots lasers from the crystalline organ on its chest.",
+      "version": "sapphire"
+    },
+    {
+      "text": "A POKéMON that mutated from an extraterrestrial virus exposed to a laser beam. Its body is configured for superior agility and speed.",
+      "version": "emerald"
+    },
+    {
+      "text": "This DEOXYS has transformed into its aggressive guise. It can fool enemies by altering its appearance.",
+      "version": "firered"
+    },
+    {
+      "text": "When it changes form, an aurora appears. It absorbs attacks by altering its cellular structure.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "diamond"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "pearl"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "platinum"
+    },
+    {
+      "text": "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+      "version": "heartgold"
+    },
+    {
+      "text": "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "black"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "white"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "black-2"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "white-2"
+    },
+    {
+      "text": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+      "version": "x"
+    },
+    {
+      "text": "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+      "version": "y"
+    },
+    {
+      "text": "The DNA of a space virus underwent a sudden mutation upon exposure to a laser beam and resulted in Deoxys. The crystalline organ on this Pokémon’s chest appears to be its brain.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Deoxys emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This Pokémon shoots lasers from the crystalline organ on its chest.",
+      "version": "alpha-sapphire"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "deoxys",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/deoxys-normal.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "sky-pillar-apex",
+            "maxLevel": 80,
+            "method": "static",
+            "minLevel": 80
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "birth-island-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "birth-island-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "birth-island-area",
+            "maxLevel": 30,
+            "method": "static",
+            "minLevel": 30
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "sky-pillar-apex",
+            "maxLevel": 80,
+            "method": "static",
+            "minLevel": 80
+          }
+        ]
+      },
+      "formName": "Normal Forme",
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire"],
+      "gen9": true,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "deoxys-normal",
+      "kind": "default",
+      "mythical": true,
+      "name": "Deoxys",
+      "number": 386,
+      "pokemon": "deoxys",
+      "sourceId": 386,
+      "sprite": "/dex-images/sprites/deoxys-normal.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 150,
+        "defense": 50,
+        "hp": 50,
+        "special-attack": 150,
+        "special-defense": 50,
+        "speed": 150
+      },
+      "tags": ["Mythical"],
+      "types": ["psychic"],
+      "weight": 608
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/deoxys-attack.webp",
+      "encounters": {},
+      "formName": "Attack Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "deoxys-attack",
+      "kind": "other",
+      "mythical": true,
+      "name": "Deoxys-Attack",
+      "number": 386,
+      "pokemon": "deoxys",
+      "sourceId": 10001,
+      "sprite": "/dex-images/sprites/deoxys-attack.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 180,
+        "defense": 20,
+        "hp": 50,
+        "special-attack": 180,
+        "special-defense": 20,
+        "speed": 150
+      },
+      "tags": ["Mythical"],
+      "types": ["psychic"],
+      "weight": 608
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/deoxys-defense.webp",
+      "encounters": {},
+      "formName": "Defense Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "deoxys-defense",
+      "kind": "other",
+      "mythical": true,
+      "name": "Deoxys-Defense",
+      "number": 386,
+      "pokemon": "deoxys",
+      "sourceId": 10002,
+      "sprite": "/dex-images/sprites/deoxys-defense.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 70,
+        "defense": 160,
+        "hp": 50,
+        "special-attack": 70,
+        "special-defense": 160,
+        "speed": 90
+      },
+      "tags": ["Mythical"],
+      "types": ["psychic"],
+      "weight": 608
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "pressure"
+        }
+      ],
+      "artwork": "/dex-images/artwork/deoxys-speed.webp",
+      "encounters": {},
+      "formName": "Speed Forme",
+      "games": [],
+      "gen9": true,
+      "generation": 3,
+      "height": 17,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "deoxys-speed",
+      "kind": "other",
+      "mythical": true,
+      "name": "Deoxys-Speed",
+      "number": 386,
+      "pokemon": "deoxys",
+      "sourceId": 10003,
+      "sprite": "/dex-images/sprites/deoxys-speed.webp",
+      "statTotal": 600,
+      "stats": {
+        "attack": 95,
+        "defense": 90,
+        "hp": 50,
+        "special-attack": 95,
+        "special-defense": 90,
+        "speed": 180
+      },
+      "tags": ["Mythical"],
+      "types": ["psychic"],
+      "weight": 608
+    }
+  ],
+  "generation": 3,
+  "key": "deoxys",
+  "name": "Deoxys",
+  "names": {
+    "de": "Deoxys",
+    "en": "Deoxys",
+    "es": "Deoxys",
+    "es-419": "Deoxys",
+    "fr": "Deoxys",
+    "it": "Deoxys",
+    "ja": "デオキシス",
+    "ja-hrkt": "デオキシス",
+    "ja-roma": "Deoxys",
+    "ko": "테오키스",
+    "zh-hans": "代欧奇希斯",
+    "zh-hant": "代歐奇希斯"
+  },
+  "number": 386
+}

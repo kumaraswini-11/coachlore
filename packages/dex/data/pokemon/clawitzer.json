@@ -1,0 +1,206 @@
+{
+  "category": "Howitzer Pokémon",
+  "entries": [
+    {
+      "text": "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+      "version": "x"
+    },
+    {
+      "text": "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
+      "version": "y"
+    },
+    {
+      "text": "Their enormous claws launch cannonballs of water powerful enough to pierce tanker hulls.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It compresses the water it has sucked up and then projects it with enough power to punch a hole right through a thick sheet of iron.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "Its right arm is packed with meat. When its pincer falls off, it’s exported to be used as a cooking ingredient.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "After using the feelers on its oversized claw to detect the location of prey, Clawitzer launches a cannonball of water at its target.",
+      "version": "sword"
+    },
+    {
+      "text": "Clawitzer’s right arm is a cannon that launches projectiles made of seawater. Shots from a Clawitzer’s cannon arm can sink a tanker.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "clauncher",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 37
+      },
+      "from": "clauncher",
+      "to": "clawitzer",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "mega-launcher"
+        }
+      ],
+      "artwork": "/dex-images/artwork/clawitzer.webp",
+      "encounters": {
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 14,
+            "location": "honeycalm-island-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 14,
+            "location": "honeycalm-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "honeycalm-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 14,
+            "location": "insular-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "insular-sea-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 14,
+            "location": "stepping-stone-sea-main",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "stepping-stone-sea-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 14,
+            "location": "workout-sea-area",
+            "maxLevel": 60,
+            "method": "overworld-water",
+            "minLevel": 40
+          },
+          {
+            "chance": 70,
+            "location": "workout-sea-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 20,
+            "location": "poni-breaker-coast-area",
+            "maxLevel": 44,
+            "method": "bubbling-spots",
+            "minLevel": 41
+          }
+        ],
+        "x": [
+          {
+            "chance": 35,
+            "location": "ambrette-town-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "cyllage-city-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "kalos-route-8-area",
+            "maxLevel": 35,
+            "method": "super-rod",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "scarlet-violet", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 6,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "clawitzer",
+      "kind": "default",
+      "name": "Clawitzer",
+      "number": 693,
+      "pokemon": "clawitzer",
+      "sourceId": 693,
+      "sprite": "/dex-images/sprites/clawitzer.webp",
+      "statTotal": 500,
+      "stats": {
+        "attack": 73,
+        "defense": 88,
+        "hp": 71,
+        "special-attack": 120,
+        "special-defense": 89,
+        "speed": 59
+      },
+      "tags": [],
+      "types": ["water"],
+      "weight": 353
+    }
+  ],
+  "generation": 6,
+  "key": "clawitzer",
+  "name": "Clawitzer",
+  "names": {
+    "de": "Wummer",
+    "en": "Clawitzer",
+    "es": "Clawitzer",
+    "es-419": "Clawitzer",
+    "fr": "Gamblast",
+    "it": "Clawitzer",
+    "ja": "ブロスター",
+    "ja-hrkt": "ブロスター",
+    "ja-roma": "Bloster",
+    "ko": "블로스터",
+    "zh-hans": "钢炮臂虾",
+    "zh-hant": "鋼炮臂蝦"
+  },
+  "number": 693
+}

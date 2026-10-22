@@ -55,7 +55,7 @@
   },
   "footer": {
     "notice": "Coachlore is an independent, non-commercial fan project, not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak or The Pokémon Company. Pokémon and its names are their trademarks.",
-    "credits": "Data from PokéAPI and Pokémon Showdown; usage statistics from Smogon.",
+    "credits": "Data from PokéAPI and Pokémon Showdown; usage statistics from Smogon; Pokémon images © The Pokémon Company, from PokéAPI’s sprites.",
     "about": "About",
     "legal": "Legal"
   },
@@ -69,12 +69,6 @@
     "close": "Close search",
     "escapeKey": "Esc",
     "searching": "Searching…"
-  },
-  "toast": {
-    "close": "Close this message"
-  },
-  "language": {
-    "writtenIn": "Written in {language}"
   },
   "notFound": {
     "title": "Page not found",
@@ -118,39 +112,123 @@
     "privacyHeading": "Your data",
     "privacy": "Reading Coachlore needs no account. Your language is remembered in a cookie on this browser, and your theme and shortcut settings in its storage. Error reports carry no IP address, cookies, account or page address. The full privacy notice arrives before the first league starts."
   },
-  "states": {
-    "title": "States",
-    "metaDescription": "Every state a Coachlore screen can show, with sample data.",
-    "loading": "Loading",
-    "emptyTitle": "No leagues yet",
-    "emptyDescription": "Create a league, or join one with an invitation link.",
-    "emptyAction": "Create a league",
-    "errorTitle": "The standings couldn’t load",
-    "errorDescription": "Check your connection and try again.",
-    "retry": "Try again",
-    "notFoundTitle": "There’s no league at this address",
-    "notFoundDescription": "Check the link, or search for it.",
-    "offlineTitle": "You’re offline",
-    "offlineDescription": "This shows the last data saved. Changes are off until you’re back online.",
-    "noPermissionTitle": "This league is private",
-    "noPermissionDescription": "Ask an admin for an invitation link to join it.",
-    "aiTitle": "Today’s AI allowance is used",
-    "aiDescription": "AI help returns tomorrow. Everything else works as usual.",
-    "liveAction": "Show the next pick",
-    "livePick": "<name>{coach}</name> picked <en>{pokemon}</en>",
-    "listTitle": "A long list",
-    "sections": {
-      "loading": "Loading",
-      "empty": "Empty",
-      "error": "Error",
-      "notFound": "Not found",
-      "offline": "Offline",
-      "noPermission": "No permission",
-      "ai": "AI unavailable",
-      "live": "Live update",
-      "types": "Type badges"
-    },
-    "row": "Row {n, number}",
-    "lastSaved": "Last saved standings"
+  "dex": {
+    "title": "Dex",
+    "metaDescription": "Every Pokémon and form, filtered by type, weakness, game, generation, ability and stats.",
+    "browser": {
+      "searchLabel": "Filter by name or number",
+      "searchPlaceholder": "Filter by name or #",
+      "count": {
+        "one": "{count} Pokémon",
+        "other": "{count} Pokémon"
+      },
+      "sortLabel": "Sort by",
+      "sortKeys": {
+        "number": "Number",
+        "name": "Name",
+        "hp": "HP",
+        "attack": "Attack",
+        "defense": "Defense",
+        "special-attack": "Sp. Atk",
+        "special-defense": "Sp. Def",
+        "speed": "Speed",
+        "total": "Total"
+      },
+      "descending": "High to low",
+      "viewLabel": "View",
+      "grid": "Grid",
+      "list": "List",
+      "filters": "Filters",
+      "openFilters": "Filter",
+      "clearAll": "Clear all",
+      "activeFilters": {
+        "one": "{count} active filter",
+        "other": "{count} active filters"
+      },
+      "showResults": {
+        "one": "Show {count} Pokémon",
+        "other": "Show {count} Pokémon"
+      },
+      "groups": {
+        "type": "Type",
+        "weak": "Weak to",
+        "resist": "Resists",
+        "game": "Game",
+        "generation": "Generation",
+        "ability": "Ability",
+        "stats": "Stats",
+        "forms": "Forms"
+      },
+      "upToTwo": "Choose up to two.",
+      "anyGame": "Any game",
+      "abilityPlaceholder": "Search abilities",
+      "abilityTrigger": "Show abilities",
+      "abilityClear": "Clear the ability",
+      "abilityEmpty": "No ability matches.",
+      "generationShort": "Gen {roman}",
+      "statMin": "{stat}, lowest",
+      "statMax": "{stat}, highest",
+      "statValues": "{min}–{max}",
+      "formKinds": {
+        "default": "Default forms",
+        "all": "All forms",
+        "regional": "Regional forms",
+        "mega": "Mega Evolutions",
+        "gigantamax": "Gigantamax",
+        "other": "Other forms"
+      },
+      "chips": {
+        "label": "Active filters",
+        "q": "Name or # “{q}”",
+        "weak": "Weak to {type}",
+        "resist": "Resists {type}",
+        "generation": "Generation {roman}",
+        "statMin": "{stat} ≥ {min}",
+        "statMax": "{stat} ≤ {max}",
+        "statRange": "{stat} {min}–{max}",
+        "remove": "Remove the filter {label}"
+      },
+      "card": "#{number} {name}, {types}",
+      "noImage": "No image",
+      "columns": {
+        "number": "#",
+        "name": "Name",
+        "types": "Types",
+        "hp": "HP",
+        "attack": "Atk",
+        "defense": "Def",
+        "special-attack": "SpA",
+        "special-defense": "SpD",
+        "speed": "Spe",
+        "total": "Total"
+      },
+      "statSeparator": " · ",
+      "sortColumn": "{short}, sort by {column}",
+      "tableCaption": "Pokémon and their base stats",
+      "emptyTitle": "No Pokémon match these filters",
+      "emptyDescription": "Try fewer filters, or clear them all.",
+      "englishNamesTitle": "Names are searched in English",
+      "englishNamesDescription": "Pokémon names here are their English ones. Try “Garchomp”."
+    }
+  },
+  "types": {
+    "normal": "Normal",
+    "fire": "Fire",
+    "water": "Water",
+    "electric": "Electric",
+    "grass": "Grass",
+    "ice": "Ice",
+    "fighting": "Fighting",
+    "poison": "Poison",
+    "ground": "Ground",
+    "flying": "Flying",
+    "psychic": "Psychic",
+    "bug": "Bug",
+    "rock": "Rock",
+    "ghost": "Ghost",
+    "dragon": "Dragon",
+    "dark": "Dark",
+    "steel": "Steel",
+    "fairy": "Fairy"
   }
 }

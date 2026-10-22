@@ -1,0 +1,257 @@
+{
+  "category": "Barnacle Pokémon",
+  "entries": [
+    {
+      "text": "CRADILY roams around the ocean floor in search of food. This POKéMON freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.",
+      "version": "ruby"
+    },
+    {
+      "text": "CRADILY’s body serves as an anchor, preventing it from being washed away in rough seas. This POKéMON secretes a strong digestive fluid from its tentacles.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It drags its heavy body along the seafloor. It makes its nest in the shallows of warm seas. CRADILY can be seen on beaches when the tide goes out.",
+      "version": "emerald"
+    },
+    {
+      "text": "It ensnares prey with its eight tentacles. It then melts the prey with a strong acid before feeding.",
+      "version": "firered"
+    },
+    {
+      "text": "It ensnares prey with its eight tentacles. It then melts the prey with a strong acid before feeding.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "diamond"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "pearl"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "platinum"
+    },
+    {
+      "text": "It lives in warm seas. Its heavy body weighs it down so it won’t get washed away in rough weather.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It lives in warm seas. Its heavy body weighs it down so it won’t get washed away in rough weather.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "black"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "white"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "black-2"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "white-2"
+    },
+    {
+      "text": "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+      "version": "x"
+    },
+    {
+      "text": "It ensnares prey with its eight tentacles. It then melts the prey with a strong acid before feeding.",
+      "version": "y"
+    },
+    {
+      "text": "Cradily roams around the ocean floor in search of food. This Pokémon freely extends its tree trunk-like neck and captures unwary prey using its eight tentacles.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Cradily’s body serves as an anchor, preventing it from being washed away in rough seas. This Pokémon secretes a strong digestive fluid from its tentacles.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Normally, it lived on shallow sea shoals. When the tide went out, this Pokémon came up on land to search for prey.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This carnivorous Pokémon lived in primordial seas. It catches prey in its eight tentacles and dissolves them with digestive fluid as it eats.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "It has short legs and can’t walk very fast, but its neck and tentacles can extend to over three times their usual length to nab distant prey.",
+      "version": "sword"
+    },
+    {
+      "text": "Once Cradily catches prey in its tentacles, it digests them whole and absorbs their nutrients.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "lileep",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 40
+      },
+      "from": "lileep",
+      "to": "cradily",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "suction-cups"
+        },
+        {
+          "hidden": true,
+          "key": "storm-drain"
+        }
+      ],
+      "artwork": "/dex-images/artwork/cradily.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 95,
+            "location": "ballimere-lake-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "crown-shrine-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 95,
+            "location": "giants-foot-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 95,
+            "location": "slippery-slope-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 85,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 50,
+            "location": "ballimere-lake-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "crown-shrine-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "giants-foot-max-den-d",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 50,
+            "location": "slippery-slope-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 40,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ]
+      },
+      "games": ["ruby-sapphire", "emerald", "omega-ruby-alpha-sapphire", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra"],
+      "gen9": false,
+      "generation": 3,
+      "height": 15,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "cradily",
+      "kind": "default",
+      "name": "Cradily",
+      "number": 346,
+      "pokemon": "cradily",
+      "sourceId": 346,
+      "sprite": "/dex-images/sprites/cradily.webp",
+      "statTotal": 495,
+      "stats": {
+        "attack": 81,
+        "defense": 97,
+        "hp": 86,
+        "special-attack": 81,
+        "special-defense": 107,
+        "speed": 43
+      },
+      "tags": [],
+      "types": ["rock", "grass"],
+      "weight": 604
+    }
+  ],
+  "generation": 3,
+  "key": "cradily",
+  "name": "Cradily",
+  "names": {
+    "de": "Wielie",
+    "en": "Cradily",
+    "es": "Cradily",
+    "es-419": "Cradily",
+    "fr": "Vacilys",
+    "it": "Cradily",
+    "ja": "ユレイドル",
+    "ja-hrkt": "ユレイドル",
+    "ja-roma": "Yuradle",
+    "ko": "릴리요",
+    "zh-hans": "摇篮百合",
+    "zh-hant": "搖籃百合"
+  },
+  "number": 346
+}

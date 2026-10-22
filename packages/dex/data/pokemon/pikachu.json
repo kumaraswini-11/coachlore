@@ -1,0 +1,1645 @@
+{
+  "category": "Mouse Pokémon",
+  "entries": [
+    {
+      "text": "When several of these POKéMON gather, their electricity could build and cause lightning storms.",
+      "version": "red"
+    },
+    {
+      "text": "When several of these POKéMON gather, their electricity could build and cause lightning storms.",
+      "version": "blue"
+    },
+    {
+      "text": "It keeps its tail raised to monitor its surroundings. If you yank its tail, it will try to bite you.",
+      "version": "yellow"
+    },
+    {
+      "text": "This intelligent POKéMON roasts hard BERRIES with electricity to make them tender enough to eat.",
+      "version": "gold"
+    },
+    {
+      "text": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+      "version": "silver"
+    },
+    {
+      "text": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+      "version": "crystal"
+    },
+    {
+      "text": "Whenever PIKACHU comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it’s evidence that this POKéMON mistook the intensity of its charge.",
+      "version": "ruby"
+    },
+    {
+      "text": "This POKéMON has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while PIKACHU sleeps. It occasionally discharges electricity when it is dozy after waking up.",
+      "version": "sapphire"
+    },
+    {
+      "text": "It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.",
+      "version": "emerald"
+    },
+    {
+      "text": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+      "version": "firered"
+    },
+    {
+      "text": "When several of these POKéMON gather, their electricity can build and cause lightning storms.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
+      "version": "diamond"
+    },
+    {
+      "text": "If it looses crackling power from the electric pouches on its cheeks, it is being wary.",
+      "version": "pearl"
+    },
+    {
+      "text": "It occasionally uses an electric shock to recharge a fellow PIKACHU that is in a weakened state.",
+      "version": "platinum"
+    },
+    {
+      "text": "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.",
+      "version": "heartgold"
+    },
+    {
+      "text": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+      "version": "black"
+    },
+    {
+      "text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+      "version": "white"
+    },
+    {
+      "text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+      "version": "black-2"
+    },
+    {
+      "text": "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+      "version": "white-2"
+    },
+    {
+      "text": "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+      "version": "x"
+    },
+    {
+      "text": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+      "version": "y"
+    },
+    {
+      "text": "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it’s evidence that this Pokémon mistook the intensity of its charge.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "This Pokémon has electricity-storing pouches on its cheeks. These appear to become electrically charged during the night while Pikachu sleeps. It occasionally discharges electricity when it is dozy after waking up.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+      "version": "sun"
+    },
+    {
+      "text": "It’s in its nature to store electricity. It feels stressed now and then if it’s unable to fully discharge the electricity.",
+      "version": "moon"
+    },
+    {
+      "text": "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "While sleeping, it generates electricity in the sacs in its cheeks. If it’s not getting enough sleep, it will be able to use only weak electricity.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "This forest-dwelling Pokémon stores electricity in its cheeks, so you’ll feel a tingly shock if you touch it.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "This forest-dwelling Pokémon stores electricity in its cheeks, so you’ll feel a tingly shock if you touch it.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+      "version": "sword"
+    },
+    {
+      "text": "When Pikachu meet, they’ll touch their tails together and exchange electricity through them as a form of greeting.",
+      "version": "shield"
+    },
+    {
+      "text": "Possesses cheek sacs in which it stores electricity. This clever forest-dweller roasts tough berries with an electric shock before consuming them.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "pichu",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 220
+      },
+      "from": "pichu",
+      "to": "pikachu",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "thunder-stone",
+        "required_pokemon_form": "pikachu"
+      },
+      "from": "pikachu",
+      "to": "raichu",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "evolved_pokemon_form": "raichu-alola",
+        "item": "thunder-stone",
+        "region": "alola",
+        "required_pokemon_form": "pikachu"
+      },
+      "from": "pikachu",
+      "to": "raichu",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu.webp",
+      "encounters": {
+        "alpha-sapphire": [
+          {
+            "chance": 100,
+            "location": "fallarbor-town-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "lilycove-city-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "slateport-city-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "verdanturf-town-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "blue": [
+          {
+            "chance": 25,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "blue-japan": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 12,
+            "method": "gift",
+            "minLevel": 12
+          }
+        ],
+        "crystal": [
+          {
+            "chance": 100,
+            "location": "celadon-city-prize-corner",
+            "maxLevel": 25,
+            "method": "gift",
+            "minLevel": 25
+          },
+          {
+            "chance": 10,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "emerald": [
+          {
+            "chance": 100,
+            "location": "hoenn-pokecenter-area",
+            "maxLevel": 10,
+            "method": "colosseum-bonus-disc-jpn",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "firered": [
+          {
+            "chance": 100,
+            "location": "kanto-pokecenter-area",
+            "maxLevel": 10,
+            "method": "colosseum-bonus-disc-jpn",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "gold": [
+          {
+            "chance": 15,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "green-japan": [
+          {
+            "chance": 25,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 100,
+            "location": "saffron-city-magnet-train-station",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 2
+          },
+          {
+            "chance": 7,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "leafgreen": [
+          {
+            "chance": 100,
+            "location": "kanto-pokecenter-area",
+            "maxLevel": 10,
+            "method": "colosseum-bonus-disc-jpn",
+            "minLevel": 10
+          },
+          {
+            "chance": 25,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 26,
+            "method": "walk",
+            "minLevel": 22
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          },
+          {
+            "chance": 100,
+            "location": "viridian-forest-area",
+            "maxLevel": 6,
+            "method": "overworld",
+            "minLevel": 3
+          }
+        ],
+        "moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "sos",
+            "minLevel": 3
+          },
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "sos",
+            "minLevel": 5
+          }
+        ],
+        "omega-ruby": [
+          {
+            "chance": 100,
+            "location": "fallarbor-town-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "lilycove-city-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "slateport-city-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          },
+          {
+            "chance": 100,
+            "location": "verdanturf-town-contest-hall",
+            "maxLevel": 20,
+            "method": "gift",
+            "minLevel": 20
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 18,
+            "method": "walk",
+            "minLevel": 18
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 10,
+            "location": "trophy-garden-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 22
+          }
+        ],
+        "red": [
+          {
+            "chance": 25,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "red-japan": [
+          {
+            "chance": 25,
+            "location": "kanto-power-plant-area",
+            "maxLevel": 24,
+            "method": "walk",
+            "minLevel": 20
+          },
+          {
+            "chance": 5,
+            "location": "viridian-forest-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "ruby": [
+          {
+            "chance": 100,
+            "location": "hoenn-pokecenter-area",
+            "maxLevel": 10,
+            "method": "colosseum-bonus-disc-jpn",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "sapphire": [
+          {
+            "chance": 100,
+            "location": "hoenn-pokecenter-area",
+            "maxLevel": 10,
+            "method": "colosseum-bonus-disc-jpn",
+            "minLevel": 10
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-se",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          },
+          {
+            "chance": 5,
+            "location": "hoenn-safari-zone-sw",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 25
+          }
+        ],
+        "shield": [
+          {
+            "chance": 1,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 115,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 85,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "meetup-spot-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 165,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "silver": [
+          {
+            "chance": 15,
+            "location": "kanto-route-2-south-towards-viridian-city",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 100,
+            "location": "saffron-city-magnet-train-station",
+            "maxLevel": 100,
+            "method": "npc-trade",
+            "minLevel": 2
+          },
+          {
+            "chance": 7,
+            "location": "viridian-forest-area",
+            "maxLevel": 7,
+            "method": "walk",
+            "minLevel": 4
+          }
+        ],
+        "sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-west",
+            "maxLevel": 5,
+            "method": "sos",
+            "minLevel": 3
+          },
+          {
+            "chance": 15,
+            "location": "hauoli-city-shopping-district",
+            "maxLevel": 8,
+            "method": "sos",
+            "minLevel": 5
+          }
+        ],
+        "sword": [
+          {
+            "chance": 5,
+            "location": "galar-route-4-area",
+            "maxLevel": 16,
+            "method": "overworld",
+            "minLevel": 14
+          },
+          {
+            "chance": 115,
+            "location": "giants-cap-max-den-d",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 85,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 110,
+            "location": "hammerlocke-hills-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 70,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 100,
+            "location": "meetup-spot-area",
+            "maxLevel": 10,
+            "method": "gift",
+            "minLevel": 10
+          },
+          {
+            "chance": 165,
+            "location": "motostoke-riverbank-max-den-b",
+            "maxLevel": 50,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 200,
+            "location": "rolling-fields-main",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 10,
+            "location": "stony-wilderness-area-2",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 20,
+            "location": "stony-wilderness-area-3",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 30,
+            "location": "stony-wilderness-main",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 55,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 870,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 55,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 55,
+            "location": "challenge-beach-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          },
+          {
+            "chance": 55,
+            "location": "fields-of-honor-max-den-e",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 870,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 870,
+            "location": "forest-of-focus-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 22
+          },
+          {
+            "chance": 55,
+            "location": "forest-of-focus-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 55,
+            "location": "honeycalm-sea-max-den-c",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 200,
+            "location": "soothing-wetlands-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 15
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "sos",
+            "minLevel": 2
+          },
+          {
+            "chance": 100,
+            "location": "heahea-city-surf-association",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "sos",
+            "minLevel": 2
+          },
+          {
+            "chance": 100,
+            "location": "heahea-city-surf-association",
+            "maxLevel": 40,
+            "method": "gift",
+            "minLevel": 40
+          }
+        ],
+        "x": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 6,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "y": [
+          {
+            "chance": 33,
+            "location": "friend-safari-electric",
+            "maxLevel": 30,
+            "method": "walk",
+            "minLevel": 30
+          },
+          {
+            "chance": 5,
+            "location": "kalos-route-3-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 6,
+            "location": "santalune-forest-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          }
+        ],
+        "yellow": [
+          {
+            "chance": 100,
+            "location": "pallet-town-area",
+            "maxLevel": 5,
+            "method": "gift",
+            "minLevel": 5
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "ruby-sapphire", "emerald", "firered-leafgreen", "diamond-pearl", "platinum", "heartgold-soulsilver", "x-y", "omega-ruby-alpha-sapphire", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan", "legends-za", "champions"],
+      "gen9": true,
+      "generation": 1,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "pikachu",
+      "kind": "default",
+      "name": "Pikachu",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 25,
+      "sprite": "/dex-images/sprites/pikachu.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-alola-cap.webp",
+      "encounters": {},
+      "formName": "Alola Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-alola-cap",
+      "kind": "other",
+      "name": "Pikachu-Alola-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10099,
+      "sprite": "/dex-images/sprites/pikachu-alola-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-belle.webp",
+      "encounters": {},
+      "formName": "Pikachu Belle",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-belle",
+      "kind": "other",
+      "name": "Pikachu-Belle",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10081,
+      "sprite": "/dex-images/sprites/pikachu-belle.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-cosplay.webp",
+      "encounters": {},
+      "formName": "Cosplay Pikachu",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-cosplay",
+      "kind": "other",
+      "name": "Pikachu-Cosplay",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10085,
+      "sprite": "/dex-images/sprites/pikachu-cosplay.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-gmax.webp",
+      "encounters": {},
+      "formName": "Gigantamax Form",
+      "games": [],
+      "gen9": false,
+      "generation": 8,
+      "height": 210,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "pikachu-gmax",
+      "kind": "gigantamax",
+      "name": "Pikachu-Gmax",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10199,
+      "sprite": "/dex-images/sprites/pikachu-gmax.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 10000
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-hoenn-cap.webp",
+      "encounters": {},
+      "formName": "Hoenn Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-hoenn-cap",
+      "kind": "other",
+      "name": "Pikachu-Hoenn-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10095,
+      "sprite": "/dex-images/sprites/pikachu-hoenn-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-kalos-cap.webp",
+      "encounters": {},
+      "formName": "Kalos Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-kalos-cap",
+      "kind": "other",
+      "name": "Pikachu-Kalos-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10098,
+      "sprite": "/dex-images/sprites/pikachu-kalos-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-libre.webp",
+      "encounters": {},
+      "formName": "Pikachu Libre",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-libre",
+      "kind": "other",
+      "name": "Pikachu-Libre",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10084,
+      "sprite": "/dex-images/sprites/pikachu-libre.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-original-cap.webp",
+      "encounters": {},
+      "formName": "Original Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-original-cap",
+      "kind": "other",
+      "name": "Pikachu-Original-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10094,
+      "sprite": "/dex-images/sprites/pikachu-original-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-partner-cap.webp",
+      "encounters": {},
+      "formName": "Partner Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-partner-cap",
+      "kind": "other",
+      "name": "Pikachu-Partner-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10148,
+      "sprite": "/dex-images/sprites/pikachu-partner-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-phd.webp",
+      "encounters": {},
+      "formName": "Pikachu Ph.D.",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-phd",
+      "kind": "other",
+      "name": "Pikachu-Phd",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10083,
+      "sprite": "/dex-images/sprites/pikachu-phd.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-pop-star.webp",
+      "encounters": {},
+      "formName": "Pikachu Pop Star",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-pop-star",
+      "kind": "other",
+      "name": "Pikachu-Pop-Star",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10082,
+      "sprite": "/dex-images/sprites/pikachu-pop-star.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-rock-star.webp",
+      "encounters": {},
+      "formName": "Pikachu Rock Star",
+      "games": [],
+      "gen9": false,
+      "generation": 6,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-rock-star",
+      "kind": "other",
+      "name": "Pikachu-Rock-Star",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10080,
+      "sprite": "/dex-images/sprites/pikachu-rock-star.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-sinnoh-cap.webp",
+      "encounters": {},
+      "formName": "Sinnoh Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-sinnoh-cap",
+      "kind": "other",
+      "name": "Pikachu-Sinnoh-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10096,
+      "sprite": "/dex-images/sprites/pikachu-sinnoh-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-starter.webp",
+      "encounters": {},
+      "games": [],
+      "gen9": false,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-starter",
+      "kind": "other",
+      "name": "Pikachu-Starter",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10158,
+      "sprite": "/dex-images/sprites/pikachu-starter.webp",
+      "statTotal": 430,
+      "stats": {
+        "attack": 80,
+        "defense": 50,
+        "hp": 45,
+        "special-attack": 75,
+        "special-defense": 60,
+        "speed": 120
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-unova-cap.webp",
+      "encounters": {},
+      "formName": "Unova Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-unova-cap",
+      "kind": "other",
+      "name": "Pikachu-Unova-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10097,
+      "sprite": "/dex-images/sprites/pikachu-unova-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "static"
+        },
+        {
+          "hidden": true,
+          "key": "lightning-rod"
+        }
+      ],
+      "artwork": "/dex-images/artwork/pikachu-world-cap.webp",
+      "encounters": {},
+      "formName": "World Cap",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": false,
+      "key": "pikachu-world-cap",
+      "kind": "other",
+      "name": "Pikachu-World-Cap",
+      "number": 25,
+      "pokemon": "pikachu",
+      "sourceId": 10160,
+      "sprite": "/dex-images/sprites/pikachu-world-cap.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 55,
+        "defense": 40,
+        "hp": 35,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+      },
+      "tags": [],
+      "types": ["electric"],
+      "weight": 60
+    }
+  ],
+  "generation": 1,
+  "key": "pikachu",
+  "name": "Pikachu",
+  "names": {
+    "de": "Pikachu",
+    "en": "Pikachu",
+    "es": "Pikachu",
+    "es-419": "Pikachu",
+    "fr": "Pikachu",
+    "it": "Pikachu",
+    "ja": "ピカチュウ",
+    "ja-hrkt": "ピカチュウ",
+    "ja-roma": "Pikachu",
+    "ko": "피카츄",
+    "zh-hans": "皮卡丘",
+    "zh-hant": "皮卡丘"
+  },
+  "number": 25
+}

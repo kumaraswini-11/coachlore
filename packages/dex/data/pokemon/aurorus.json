@@ -1,0 +1,230 @@
+{
+  "category": "Tundra Pokémon",
+  "entries": [
+    {
+      "text": "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+      "version": "x"
+    },
+    {
+      "text": "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent’s attack.",
+      "version": "y"
+    },
+    {
+      "text": "The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent’s attack.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "An Aurorus was found frozen solid within a glacier, just as it appeared long ago, which became quite a big event in the news.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "This usually quiet and kindly Pokémon has a surface temperature of around –240 degrees Fahrenheit.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Aurorus was restored from a fossil. It’s said that when this Pokémon howls, auroras appear in the night sky.",
+      "version": "sword"
+    },
+    {
+      "text": "When gripped by rage, Aurorus will emanate freezing air, covering everything around it in ice.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "amaura",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 39,
+        "time_of_day": "night"
+      },
+      "from": "amaura",
+      "to": "aurorus",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "refrigerate"
+        },
+        {
+          "hidden": true,
+          "key": "snow-warning"
+        }
+      ],
+      "artwork": "/dex-images/artwork/aurorus.webp",
+      "encounters": {
+        "the-crown-tundra-shield": [
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 500,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 35,
+            "location": "frigid-sea-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "giants-bed-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 35,
+            "location": "slippery-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 500,
+            "location": "snowslide-slope-area",
+            "maxLevel": 65,
+            "method": "wanderer",
+            "minLevel": 65
+          },
+          {
+            "chance": 35,
+            "location": "snowslide-slope-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          },
+          {
+            "chance": 15,
+            "location": "snowslide-slope-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 55
+          }
+        ]
+      },
+      "games": ["x-y", "ultra-sun-ultra-moon", "sword-shield", "the-crown-tundra", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 27,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "aurorus",
+      "kind": "default",
+      "name": "Aurorus",
+      "number": 699,
+      "pokemon": "aurorus",
+      "sourceId": 699,
+      "sprite": "/dex-images/sprites/aurorus.webp",
+      "statTotal": 521,
+      "stats": {
+        "attack": 77,
+        "defense": 72,
+        "hp": 123,
+        "special-attack": 99,
+        "special-defense": 92,
+        "speed": 58
+      },
+      "tags": [],
+      "types": ["rock", "ice"],
+      "weight": 2250
+    }
+  ],
+  "generation": 6,
+  "key": "aurorus",
+  "name": "Aurorus",
+  "names": {
+    "de": "Amagarga",
+    "en": "Aurorus",
+    "es": "Aurorus",
+    "es-419": "Aurorus",
+    "fr": "Dragmara",
+    "it": "Aurorus",
+    "ja": "アマルルガ",
+    "ja-hrkt": "アマルルガ",
+    "ja-roma": "Amaruruga",
+    "ko": "아마루르가",
+    "zh-hans": "冰雪巨龙",
+    "zh-hant": "冰雪巨龍"
+  },
+  "number": 699
+}

@@ -1,0 +1,366 @@
+{
+  "category": "Rabbit Pokémon",
+  "entries": [
+    {
+      "text": "It slams foes by sharply uncoiling its rolled ears. It stings enough to make a grown-up cry in pain.",
+      "version": "diamond"
+    },
+    {
+      "text": "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
+      "version": "pearl"
+    },
+    {
+      "text": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+      "version": "platinum"
+    },
+    {
+      "text": "You can tell how it feels by the way it rolls its ears. When it’s scared, both ears are rolled up.",
+      "version": "heartgold"
+    },
+    {
+      "text": "You can tell how it feels by the way it rolls its ears. When it’s scared, both ears are rolled up.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+      "version": "black"
+    },
+    {
+      "text": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+      "version": "white"
+    },
+    {
+      "text": "By extending its rolled-up ears and striking the ground, it can bound so high it surprises itself.",
+      "version": "black-2"
+    },
+    {
+      "text": "By extending its rolled-up ears and striking the ground, it can bound so high it surprises itself.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+      "version": "x"
+    },
+    {
+      "text": "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
+      "version": "y"
+    },
+    {
+      "text": "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Its arms and legs are weak, but when it rolls its ears up tight and then unleashes them with its full force, it can smash boulders to dust.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The reason it keeps one ear rolled up is so it can launch a swift counterattack if it’s attacked by an enemy.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "If both of Buneary’s ears are rolled up, something is wrong with its body or mind. It’s a sure sign the Pokémon is in need of care.",
+      "version": "sword"
+    },
+    {
+      "text": "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
+      "version": "shield"
+    },
+    {
+      "text": "My hypothesis as to why Buneary rolls up its ears is that its hearing is far too keen. I surmise that the Pokémon protects its hearing by limiting the sound that may enter its ears.",
+      "version": "legends-arceus"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "buneary",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_happiness": 160
+      },
+      "from": "buneary",
+      "to": "lopunny",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "run-away"
+        },
+        {
+          "hidden": false,
+          "key": "klutz"
+        },
+        {
+          "hidden": true,
+          "key": "limber"
+        }
+      ],
+      "artwork": "/dex-images/artwork/buneary.webp",
+      "encounters": {
+        "black-2": [
+          {
+            "chance": 30,
+            "location": "castelia-city-area",
+            "maxLevel": 17,
+            "method": "dark-grass",
+            "minLevel": 16
+          },
+          {
+            "chance": 30,
+            "location": "castelia-city-area",
+            "maxLevel": 16,
+            "method": "walk",
+            "minLevel": 15
+          }
+        ],
+        "diamond": [
+          {
+            "chance": 23,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "heartgold": [
+          {
+            "chance": 40,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "pearl": [
+          {
+            "chance": 23,
+            "location": "eterna-forest-area",
+            "maxLevel": 12,
+            "method": "walk",
+            "minLevel": 10
+          }
+        ],
+        "platinum": [
+          {
+            "chance": 28,
+            "location": "eterna-forest-area",
+            "maxLevel": 13,
+            "method": "walk",
+            "minLevel": 11
+          }
+        ],
+        "soulsilver": [
+          {
+            "chance": 40,
+            "location": "kanto-route-25-area",
+            "maxLevel": 10,
+            "method": "walk",
+            "minLevel": 8
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 420,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 1004,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 1004,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 420,
+            "location": "challenge-beach-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 1004,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 10
+          },
+          {
+            "chance": 1004,
+            "location": "fields-of-honor-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 13
+          },
+          {
+            "chance": 100,
+            "location": "fields-of-honor-max-den-a",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "insular-sea-max-den-b",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "soothing-wetlands-max-den-g",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          },
+          {
+            "chance": 100,
+            "location": "stepping-stone-sea-max-den-d",
+            "maxLevel": 40,
+            "method": "max-raid",
+            "minLevel": 25
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-1-west",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 50,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-1-east",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 30,
+            "location": "alola-route-1-west",
+            "maxLevel": 3,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 50,
+            "location": "poni-grove-area",
+            "maxLevel": 55,
+            "method": "walk",
+            "minLevel": 52
+          }
+        ]
+      },
+      "games": ["diamond-pearl", "platinum", "black-2-white-2", "ultra-sun-ultra-moon", "sword-shield", "the-isle-of-armor", "brilliant-diamond-shining-pearl", "legends-arceus", "legends-za"],
+      "gen9": false,
+      "generation": 4,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "buneary",
+      "kind": "default",
+      "name": "Buneary",
+      "number": 427,
+      "pokemon": "buneary",
+      "sourceId": 427,
+      "sprite": "/dex-images/sprites/buneary.webp",
+      "statTotal": 350,
+      "stats": {
+        "attack": 66,
+        "defense": 44,
+        "hp": 55,
+        "special-attack": 44,
+        "special-defense": 56,
+        "speed": 85
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 55
+    }
+  ],
+  "generation": 4,
+  "key": "buneary",
+  "name": "Buneary",
+  "names": {
+    "de": "Haspiror",
+    "en": "Buneary",
+    "es": "Buneary",
+    "es-419": "Buneary",
+    "fr": "Laporeille",
+    "it": "Buneary",
+    "ja": "ミミロル",
+    "ja-hrkt": "ミミロル",
+    "ja-roma": "Mimirol",
+    "ko": "이어롤",
+    "zh-hans": "卷卷耳",
+    "zh-hant": "捲捲耳"
+  },
+  "number": 427
+}

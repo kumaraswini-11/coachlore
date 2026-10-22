@@ -1,0 +1,121 @@
+{
+  "category": "Drowsing Pokémon",
+  "entries": [
+    {
+      "text": "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
+      "version": "sun"
+    },
+    {
+      "text": "The log it holds was given to it by its parents at birth. It has also been known to cling to the arm of a friendly Trainer.",
+      "version": "moon"
+    },
+    {
+      "text": "It stays asleep from the moment it’s born. When it falls into a deep sleep, it stops moving altogether.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "It remains asleep from birth to death as a result of the sedative properties of the leaves that form its diet.",
+      "version": "ultra-moon"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "komala",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "comatose"
+        }
+      ],
+      "artwork": "/dex-images/artwork/komala.webp",
+      "encounters": {
+        "moon": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "sun": [
+          {
+            "chance": 10,
+            "location": "alola-route-11-area",
+            "maxLevel": 27,
+            "method": "walk",
+            "minLevel": 24
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 30,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 30,
+            "location": "alola-route-11-area",
+            "maxLevel": 29,
+            "method": "walk",
+            "minLevel": 26
+          }
+        ]
+      },
+      "games": ["sun-moon", "ultra-sun-ultra-moon", "scarlet-violet"],
+      "gen9": true,
+      "generation": 7,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "komala",
+      "kind": "default",
+      "name": "Komala",
+      "number": 775,
+      "pokemon": "komala",
+      "sourceId": 775,
+      "sprite": "/dex-images/sprites/komala.webp",
+      "statTotal": 480,
+      "stats": {
+        "attack": 115,
+        "defense": 65,
+        "hp": 65,
+        "special-attack": 75,
+        "special-defense": 95,
+        "speed": 65
+      },
+      "tags": [],
+      "types": ["normal"],
+      "weight": 199
+    }
+  ],
+  "generation": 7,
+  "key": "komala",
+  "name": "Komala",
+  "names": {
+    "de": "Koalelu",
+    "en": "Komala",
+    "es": "Komala",
+    "es-419": "Komala",
+    "fr": "Dodoala",
+    "it": "Komala",
+    "ja": "ネッコアラ",
+    "ja-hrkt": "ネッコアラ",
+    "ja-roma": "Nekkoara",
+    "ko": "자말라",
+    "zh-hans": "树枕尾熊",
+    "zh-hant": "樹枕尾熊"
+  },
+  "number": 775
+}

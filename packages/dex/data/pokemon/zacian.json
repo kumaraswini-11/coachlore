@@ -1,0 +1,125 @@
+{
+  "category": "Warrior Pokémon",
+  "entries": [
+    {
+      "text": "Known as a legendary hero, this Pokémon absorbs metal particles, transforming them into a weapon it uses to battle.",
+      "version": "sword"
+    },
+    {
+      "text": "This Pokémon has slumbered for many years. Some say it’s Zamazenta’s elder sister—others say the two Pokémon are rivals.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "zacian",
+      "trigger": null
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intrepid-sword"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zacian.webp",
+      "encounters": {
+        "sword": [
+          {
+            "chance": 100,
+            "location": "energy-plant-tower-summit",
+            "maxLevel": 70,
+            "method": "static",
+            "minLevel": 70
+          }
+        ]
+      },
+      "formName": "Hero of Many Battles",
+      "games": ["sword-shield"],
+      "gen9": true,
+      "generation": 8,
+      "height": 28,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "zacian",
+      "kind": "default",
+      "legendary": true,
+      "name": "Zacian",
+      "number": 888,
+      "pokemon": "zacian",
+      "sourceId": 888,
+      "sprite": "/dex-images/sprites/zacian.webp",
+      "statTotal": 660,
+      "stats": {
+        "attack": 120,
+        "defense": 115,
+        "hp": 92,
+        "special-attack": 80,
+        "special-defense": 115,
+        "speed": 138
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["fairy"],
+      "weight": 1100
+    },
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "intrepid-sword"
+        }
+      ],
+      "artwork": "/dex-images/artwork/zacian-crowned.webp",
+      "encounters": {},
+      "formName": "Crowned Sword",
+      "games": [],
+      "gen9": true,
+      "generation": 8,
+      "height": 28,
+      "isBattleOnly": true,
+      "isDefault": false,
+      "key": "zacian-crowned",
+      "kind": "other",
+      "legendary": true,
+      "name": "Zacian-Crowned",
+      "number": 888,
+      "pokemon": "zacian",
+      "sourceId": 10188,
+      "sprite": "/dex-images/sprites/zacian-crowned.webp",
+      "statTotal": 700,
+      "stats": {
+        "attack": 150,
+        "defense": 115,
+        "hp": 92,
+        "special-attack": 80,
+        "special-defense": 115,
+        "speed": 148
+      },
+      "tags": ["Restricted Legendary"],
+      "types": ["fairy", "steel"],
+      "weight": 3550
+    }
+  ],
+  "generation": 8,
+  "key": "zacian",
+  "name": "Zacian",
+  "names": {
+    "de": "Zacian",
+    "en": "Zacian",
+    "es": "Zacian",
+    "es-419": "Zacian",
+    "fr": "Zacian",
+    "it": "Zacian",
+    "ja": "ザシアン",
+    "ja-hrkt": "ザシアン",
+    "ja-roma": "Zacian",
+    "ko": "자시안",
+    "zh-hans": "苍响",
+    "zh-hant": "蒼響"
+  },
+  "number": 888
+}

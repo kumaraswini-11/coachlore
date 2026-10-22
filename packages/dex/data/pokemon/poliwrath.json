@@ -1,0 +1,606 @@
+{
+  "category": "Tadpole Pokémon",
+  "entries": [
+    {
+      "text": "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
+      "version": "red"
+    },
+    {
+      "text": "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers.",
+      "version": "blue"
+    },
+    {
+      "text": "Swims powerfully using all the muscles in its body. It can even overtake champion swimmers.",
+      "version": "yellow"
+    },
+    {
+      "text": "This strong and skilled swimmer is even capable of crossing the Pacific Ocean just by kicking.",
+      "version": "gold"
+    },
+    {
+      "text": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+      "version": "silver"
+    },
+    {
+      "text": "It can use its well-developed arms and legs to run on the surface of the water for a split second.",
+      "version": "crystal"
+    },
+    {
+      "text": "POLIWRATH’s highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this POKéMON can swim back and forth across the Pacific Ocean without effort.",
+      "version": "ruby"
+    },
+    {
+      "text": "POLIWRATH’s highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this POKéMON can swim back and forth across the Pacific Ocean without effort.",
+      "version": "sapphire"
+    },
+    {
+      "text": "Its highly developed muscles never grow fatigued, however much it exercises. This POKéMON can swim back and forth across the Pacific Ocean without effort.",
+      "version": "emerald"
+    },
+    {
+      "text": "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
+      "version": "firered"
+    },
+    {
+      "text": "A swimmer adept at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+      "version": "leafgreen"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "diamond"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "pearl"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "platinum"
+    },
+    {
+      "text": "This strong and skilled swimmer is even capable of crossing the Pacific Ocean just by kicking.",
+      "version": "heartgold"
+    },
+    {
+      "text": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+      "version": "soulsilver"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "black"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "white"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "black-2"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "white-2"
+    },
+    {
+      "text": "With its extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+      "version": "x"
+    },
+    {
+      "text": "A swimmer adept at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+      "version": "y"
+    },
+    {
+      "text": "Poliwrath’s highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "Poliwrath’s highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "Poliwrath in the Alola region are strong swimmers that use the breaststroke. Many children learn to swim by imitating Poliwrath.",
+      "version": "sun"
+    },
+    {
+      "text": "Its percentage of body fat is nearly zero. Its body is entirely muscle, which makes it heavy and forces its swimming prowess to develop.",
+      "version": "moon"
+    },
+    {
+      "text": "It’s quite a gifted swimmer, even among Water-type Pokémon, but it normally spends its time on land.",
+      "version": "ultra-sun"
+    },
+    {
+      "text": "The muscles it has developed through swimming are thick and powerful. When it lands a square punch, it can turn huge boulders to dust.",
+      "version": "ultra-moon"
+    },
+    {
+      "text": "Swims powerfully using all the muscles in its body. It can even overtake world-class swimmers.",
+      "version": "lets-go-pikachu"
+    },
+    {
+      "text": "Swims powerfully using all the muscles in its body. It can even overtake world-class swimmers.",
+      "version": "lets-go-eevee"
+    },
+    {
+      "text": "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
+      "version": "sword"
+    },
+    {
+      "text": "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "poliwag",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 25
+      },
+      "from": "poliwag",
+      "to": "poliwhirl",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "item": "water-stone"
+      },
+      "from": "poliwhirl",
+      "to": "poliwrath",
+      "trigger": "use-item"
+    },
+    {
+      "conditions": {
+        "held_item": "kings-rock"
+      },
+      "from": "poliwhirl",
+      "to": "politoed",
+      "trigger": "trade"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "water-absorb"
+        },
+        {
+          "hidden": false,
+          "key": "damp"
+        },
+        {
+          "hidden": true,
+          "key": "swift-swim"
+        }
+      ],
+      "artwork": "/dex-images/artwork/poliwrath.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 5,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          }
+        ],
+        "lets-go-eevee": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld-water",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld-water",
+            "minLevel": 51
+          }
+        ],
+        "lets-go-pikachu": [
+          {
+            "chance": 100,
+            "location": "cerulean-cave-1f",
+            "maxLevel": 56,
+            "method": "overworld-water",
+            "minLevel": 51
+          },
+          {
+            "chance": 100,
+            "location": "cerulean-cave-b1f",
+            "maxLevel": 56,
+            "method": "overworld-water",
+            "minLevel": 51
+          }
+        ],
+        "moon": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          }
+        ],
+        "sun": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 27,
+            "method": "sos",
+            "minLevel": 24
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 200,
+            "location": "brawlers-cave-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 36
+          },
+          {
+            "chance": 50,
+            "location": "courageous-cavern-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "fields-of-honor-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 50,
+            "location": "soothing-wetlands-max-den-i",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "sos",
+            "minLevel": 25
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 1,
+            "location": "malie-garden-area",
+            "maxLevel": 28,
+            "method": "sos",
+            "minLevel": 25
+          }
+        ],
+        "white": [
+          {
+            "chance": 5,
+            "location": "challengers-cave-b2f",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-forest-cave",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-1f-unknown-room",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-unknown-area-53",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 45
+          },
+          {
+            "chance": 5,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 35
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "clay-tunnel-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          },
+          {
+            "chance": 5,
+            "location": "giant-chasm-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "relic-passage-relic-castle-entrance",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-route-23-area",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-71",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-75",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "unova-victory-road-2-unknown-area-78",
+            "maxLevel": 70,
+            "method": "super-rod-spots",
+            "minLevel": 50
+          },
+          {
+            "chance": 5,
+            "location": "wellspring-cave-area",
+            "maxLevel": 60,
+            "method": "super-rod-spots",
+            "minLevel": 60
+          }
+        ],
+        "x": [
+          {
+            "chance": 5,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 60
+          }
+        ],
+        "xd": [
+          {
+            "chance": 100,
+            "location": "citadark-isle-dome-exterior",
+            "maxLevel": 42,
+            "method": "snag",
+            "minLevel": 42
+          }
+        ],
+        "y": [
+          {
+            "chance": 5,
+            "location": "kalos-victory-road-unknown-area-328",
+            "maxLevel": 60,
+            "method": "super-rod",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["red-blue", "yellow", "gold-silver", "crystal", "firered-leafgreen", "heartgold-soulsilver", "x-y", "sun-moon", "ultra-sun-ultra-moon", "lets-go-pikachu-lets-go-eevee", "sword-shield", "the-isle-of-armor", "scarlet-violet", "the-teal-mask", "red-green-japan", "blue-japan"],
+      "gen9": true,
+      "generation": 1,
+      "height": 13,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "poliwrath",
+      "kind": "default",
+      "name": "Poliwrath",
+      "number": 62,
+      "pokemon": "poliwrath",
+      "sourceId": 62,
+      "sprite": "/dex-images/sprites/poliwrath.webp",
+      "statTotal": 510,
+      "stats": {
+        "attack": 95,
+        "defense": 95,
+        "hp": 90,
+        "special-attack": 70,
+        "special-defense": 90,
+        "speed": 70
+      },
+      "tags": [],
+      "types": ["water", "fighting"],
+      "weight": 540
+    }
+  ],
+  "generation": 1,
+  "key": "poliwrath",
+  "name": "Poliwrath",
+  "names": {
+    "de": "Quappo",
+    "en": "Poliwrath",
+    "es": "Poliwrath",
+    "es-419": "Poliwrath",
+    "fr": "Tartard",
+    "it": "Poliwrath",
+    "ja": "ニョロボン",
+    "ja-hrkt": "ニョロボン",
+    "ja-roma": "Nyorobon",
+    "ko": "강챙이",
+    "zh-hans": "蚊香泳士",
+    "zh-hant": "蚊香泳士"
+  },
+  "number": 62
+}

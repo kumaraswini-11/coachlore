@@ -1,0 +1,96 @@
+{
+  "category": "Ice Fin Pokémon",
+  "entries": [
+    {
+      "text": "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+      "version": "scarlet"
+    },
+    {
+      "text": "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator.",
+      "version": "violet"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "frigibax",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 35
+      },
+      "from": "frigibax",
+      "to": "arctibax",
+      "trigger": "level-up"
+    },
+    {
+      "conditions": {
+        "min_level": 54
+      },
+      "from": "arctibax",
+      "to": "baxcalibur",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "thermal-exchange"
+        },
+        {
+          "hidden": true,
+          "key": "ice-body"
+        }
+      ],
+      "artwork": "/dex-images/artwork/frigibax.webp",
+      "encounters": {},
+      "games": ["scarlet-violet", "legends-za", "mega-dimension"],
+      "gen9": true,
+      "generation": 9,
+      "height": 5,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "frigibax",
+      "kind": "default",
+      "name": "Frigibax",
+      "number": 996,
+      "pokemon": "frigibax",
+      "sourceId": 996,
+      "sprite": "/dex-images/sprites/frigibax.webp",
+      "statTotal": 320,
+      "stats": {
+        "attack": 75,
+        "defense": 45,
+        "hp": 65,
+        "special-attack": 35,
+        "special-defense": 45,
+        "speed": 55
+      },
+      "tags": [],
+      "types": ["dragon", "ice"],
+      "weight": 170
+    }
+  ],
+  "generation": 9,
+  "key": "frigibax",
+  "name": "Frigibax",
+  "names": {
+    "de": "Frospino",
+    "en": "Frigibax",
+    "es": "Frigibax",
+    "es-419": "Frigibax",
+    "fr": "Frigodo",
+    "it": "Frigibax",
+    "ja": "セビエ",
+    "ja-hrkt": "セビエ",
+    "ja-roma": "Sebie",
+    "ko": "드니차",
+    "zh-hans": "凉脊龙",
+    "zh-hant": "涼脊龍"
+  },
+  "number": 996
+}

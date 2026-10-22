@@ -1,0 +1,205 @@
+{
+  "category": "Generator Pokémon",
+  "entries": [
+    {
+      "text": "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+      "version": "x"
+    },
+    {
+      "text": "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+      "version": "y"
+    },
+    {
+      "text": "They flare their frills and generate energy. A single Heliolisk can generate sufficient electricity to power a skyscraper.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
+      "version": "sword"
+    },
+    {
+      "text": "One Heliolisk basking in the sun with its frill outspread is all it would take to produce enough electricity to power a city.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "helioptile",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "sun-stone"
+      },
+      "from": "helioptile",
+      "to": "heliolisk",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "dry-skin"
+        },
+        {
+          "hidden": false,
+          "key": "sand-veil"
+        },
+        {
+          "hidden": true,
+          "key": "solar-power"
+        }
+      ],
+      "artwork": "/dex-images/artwork/heliolisk.webp",
+      "encounters": {
+        "shield": [
+          {
+            "chance": 35,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 120,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "sword": [
+          {
+            "chance": 35,
+            "location": "east-lake-axewell-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 125,
+            "location": "giants-mirror-max-den-c",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 80,
+            "location": "lake-of-outrage-max-den-b",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 35,
+            "location": "rolling-fields-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "ultra-moon": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-crag",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ],
+        "ultra-sun": [
+          {
+            "chance": 15,
+            "location": "ultra-space-wilds-crag",
+            "maxLevel": 60,
+            "method": "static",
+            "minLevel": 60
+          }
+        ]
+      },
+      "games": ["x-y", "sword-shield", "legends-za", "champions"],
+      "gen9": false,
+      "generation": 6,
+      "height": 10,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "heliolisk",
+      "kind": "default",
+      "name": "Heliolisk",
+      "number": 695,
+      "pokemon": "heliolisk",
+      "sourceId": 695,
+      "sprite": "/dex-images/sprites/heliolisk.webp",
+      "statTotal": 481,
+      "stats": {
+        "attack": 55,
+        "defense": 52,
+        "hp": 62,
+        "special-attack": 109,
+        "special-defense": 94,
+        "speed": 109
+      },
+      "tags": [],
+      "types": ["electric", "normal"],
+      "weight": 210
+    }
+  ],
+  "generation": 6,
+  "key": "heliolisk",
+  "name": "Heliolisk",
+  "names": {
+    "de": "Elezard",
+    "en": "Heliolisk",
+    "es": "Heliolisk",
+    "es-419": "Heliolisk",
+    "fr": "Iguolta",
+    "it": "Heliolisk",
+    "ja": "エレザード",
+    "ja-hrkt": "エレザード",
+    "ja-roma": "Elezard",
+    "ko": "일레도리자드",
+    "zh-hans": "光电伞蜥",
+    "zh-hant": "光電傘蜥"
+  },
+  "number": 695
+}

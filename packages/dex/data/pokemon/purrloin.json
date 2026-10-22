@@ -1,0 +1,473 @@
+{
+  "category": "Devious Pokémon",
+  "entries": [
+    {
+      "text": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect.",
+      "version": "black"
+    },
+    {
+      "text": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
+      "version": "white"
+    },
+    {
+      "text": "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.",
+      "version": "black-2"
+    },
+    {
+      "text": "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.",
+      "version": "white-2"
+    },
+    {
+      "text": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
+      "version": "x"
+    },
+    {
+      "text": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect.",
+      "version": "y"
+    },
+    {
+      "text": "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "They steal from people for fun, but their victims can’t help but forgive them. Their deceptively cute act is perfect.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
+      "version": "sword"
+    },
+    {
+      "text": "Opponents that get drawn in by its adorable behavior come away with stinging scratches from its claws and stinging pride from its laughter.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "purrloin",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "min_level": 20
+      },
+      "from": "purrloin",
+      "to": "liepard",
+      "trigger": "level-up"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "limber"
+        },
+        {
+          "hidden": false,
+          "key": "unburden"
+        },
+        {
+          "hidden": true,
+          "key": "prankster"
+        }
+      ],
+      "artwork": "/dex-images/artwork/purrloin.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 40,
+            "location": "dreamyard-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-2-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 50,
+            "location": "unova-route-19-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 34,
+            "location": "unova-route-20-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 10
+          },
+          {
+            "chance": 34,
+            "location": "unova-route-20-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ],
+        "shield": [
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 160,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 160,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-2-lakeside",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-2-main",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 340,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 28
+          },
+          {
+            "chance": 230,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 150,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 150,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 35,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "sword": [
+          {
+            "chance": 50,
+            "location": "bridge-field-max-den-f",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 160,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 13
+          },
+          {
+            "chance": 160,
+            "location": "dappled-grove-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 50,
+            "location": "dusty-bowl-max-den-b",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 90,
+            "location": "east-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 30,
+            "location": "galar-route-2-lakeside",
+            "maxLevel": 40,
+            "method": "walk",
+            "minLevel": 37
+          },
+          {
+            "chance": 10,
+            "location": "galar-route-2-main",
+            "maxLevel": 6,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 50,
+            "location": "giants-mirror-max-den-d",
+            "maxLevel": 30,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 360,
+            "location": "motostoke-riverbank-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 230,
+            "location": "north-lake-miloch-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 35,
+            "location": "stony-wilderness-max-den-i",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          },
+          {
+            "chance": 150,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 26
+          },
+          {
+            "chance": 150,
+            "location": "watchtower-ruins-area",
+            "maxLevel": 60,
+            "method": "walk",
+            "minLevel": 11
+          },
+          {
+            "chance": 200,
+            "location": "west-lake-axewell-area",
+            "maxLevel": 60,
+            "method": "overworld",
+            "minLevel": 8
+          },
+          {
+            "chance": 35,
+            "location": "west-lake-axewell-max-den-d",
+            "maxLevel": 20,
+            "method": "max-raid",
+            "minLevel": 15
+          }
+        ],
+        "white": [
+          {
+            "chance": 40,
+            "location": "dreamyard-area",
+            "maxLevel": 11,
+            "method": "walk",
+            "minLevel": 8
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-2-area",
+            "maxLevel": 5,
+            "method": "walk",
+            "minLevel": 4
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 11
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 9,
+            "method": "walk",
+            "minLevel": 9
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 50,
+            "location": "unova-route-19-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 2
+          },
+          {
+            "chance": 34,
+            "location": "unova-route-20-area",
+            "maxLevel": 11,
+            "method": "dark-grass",
+            "minLevel": 10
+          },
+          {
+            "chance": 34,
+            "location": "unova-route-20-area",
+            "maxLevel": 4,
+            "method": "walk",
+            "minLevel": 3
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 65,
+            "method": "dark-grass",
+            "minLevel": 65
+          },
+          {
+            "chance": 20,
+            "location": "unova-route-3-area",
+            "maxLevel": 57,
+            "method": "walk",
+            "minLevel": 57
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "x-y", "sword-shield", "legends-za", "mega-dimension"],
+      "gen9": false,
+      "generation": 5,
+      "height": 4,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "purrloin",
+      "kind": "default",
+      "name": "Purrloin",
+      "number": 509,
+      "pokemon": "purrloin",
+      "sourceId": 509,
+      "sprite": "/dex-images/sprites/purrloin.webp",
+      "statTotal": 281,
+      "stats": {
+        "attack": 50,
+        "defense": 37,
+        "hp": 41,
+        "special-attack": 50,
+        "special-defense": 37,
+        "speed": 66
+      },
+      "tags": [],
+      "types": ["dark"],
+      "weight": 101
+    }
+  ],
+  "generation": 5,
+  "key": "purrloin",
+  "name": "Purrloin",
+  "names": {
+    "de": "Felilou",
+    "en": "Purrloin",
+    "es": "Purrloin",
+    "es-419": "Purrloin",
+    "fr": "Chacripan",
+    "it": "Purrloin",
+    "ja": "チョロネコ",
+    "ja-hrkt": "チョロネコ",
+    "ja-roma": "Choroneko",
+    "ko": "쌔비냥",
+    "zh-hans": "扒手猫",
+    "zh-hant": "扒手貓"
+  },
+  "number": 509
+}

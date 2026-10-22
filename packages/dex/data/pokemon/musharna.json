@@ -1,0 +1,327 @@
+{
+  "category": "Drowsing Pokémon",
+  "entries": [
+    {
+      "text": "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+      "version": "black"
+    },
+    {
+      "text": "With the mist from its forehead, it can create shapes of things from dreams it has eaten.",
+      "version": "white"
+    },
+    {
+      "text": "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+      "version": "black-2"
+    },
+    {
+      "text": "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+      "version": "white-2"
+    },
+    {
+      "text": "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+      "version": "x"
+    },
+    {
+      "text": "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+      "version": "y"
+    },
+    {
+      "text": "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+      "version": "omega-ruby"
+    },
+    {
+      "text": "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+      "version": "alpha-sapphire"
+    },
+    {
+      "text": "When dark mists emanate from its body, don’t get too near. If you do, your nightmares will become reality.",
+      "version": "sword"
+    },
+    {
+      "text": "It drowses and dreams all the time. It’s best to leave it be if it’s just woken up, as it’s a terrible grump when freshly roused from sleep.",
+      "version": "shield"
+    }
+  ],
+  "evolution": [
+    {
+      "conditions": {},
+      "from": null,
+      "to": "munna",
+      "trigger": null
+    },
+    {
+      "conditions": {
+        "item": "moon-stone"
+      },
+      "from": "munna",
+      "to": "musharna",
+      "trigger": "use-item"
+    }
+  ],
+  "forms": [
+    {
+      "abilities": [
+        {
+          "hidden": false,
+          "key": "forewarn"
+        },
+        {
+          "hidden": false,
+          "key": "synchronize"
+        },
+        {
+          "hidden": true,
+          "key": "telepathy"
+        }
+      ],
+      "artwork": "/dex-images/artwork/musharna.webp",
+      "encounters": {
+        "black": [
+          {
+            "chance": 105,
+            "location": "dreamyard-area",
+            "maxLevel": 11,
+            "method": "grass-spots",
+            "minLevel": 11
+          },
+          {
+            "chance": 105,
+            "location": "dreamyard-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          },
+          {
+            "chance": 100,
+            "location": "dreamyard-b1f",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "black-2": [
+          {
+            "chance": 5,
+            "location": "dreamyard-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ],
+        "shield": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 200,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "sword": [
+          {
+            "chance": 100,
+            "location": "bridge-field-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 60
+          },
+          {
+            "chance": 200,
+            "location": "giants-seat-area",
+            "maxLevel": 60,
+            "method": "wanderer",
+            "minLevel": 46
+          },
+          {
+            "chance": 75,
+            "location": "stony-wilderness-max-den-k",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          },
+          {
+            "chance": 75,
+            "location": "watchtower-ruins-max-den-a",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 35
+          }
+        ],
+        "the-crown-tundra-shield": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-crown-tundra-sword": [
+          {
+            "chance": 100,
+            "location": "max-lair-area",
+            "maxLevel": 65,
+            "method": "dynamax-adventure",
+            "minLevel": 65
+          }
+        ],
+        "the-isle-of-armor-shield": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "the-isle-of-armor-sword": [
+          {
+            "chance": 35,
+            "location": "challenge-beach-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "soothing-wetlands-max-den-f",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "stepping-stone-sea-max-den-e",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          },
+          {
+            "chance": 35,
+            "location": "training-lowlands-max-den-g",
+            "maxLevel": 60,
+            "method": "max-raid",
+            "minLevel": 45
+          }
+        ],
+        "white": [
+          {
+            "chance": 105,
+            "location": "dreamyard-area",
+            "maxLevel": 11,
+            "method": "grass-spots",
+            "minLevel": 11
+          },
+          {
+            "chance": 105,
+            "location": "dreamyard-area",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          },
+          {
+            "chance": 100,
+            "location": "dreamyard-b1f",
+            "maxLevel": 50,
+            "method": "static",
+            "minLevel": 50
+          }
+        ],
+        "white-2": [
+          {
+            "chance": 5,
+            "location": "dreamyard-area",
+            "maxLevel": 59,
+            "method": "grass-spots",
+            "minLevel": 59
+          }
+        ]
+      },
+      "games": ["black-white", "black-2-white-2", "sword-shield", "legends-za", "mega-dimension", "champions"],
+      "gen9": false,
+      "generation": 5,
+      "height": 11,
+      "isBattleOnly": false,
+      "isDefault": true,
+      "key": "musharna",
+      "kind": "default",
+      "name": "Musharna",
+      "number": 518,
+      "pokemon": "musharna",
+      "sourceId": 518,
+      "sprite": "/dex-images/sprites/musharna.webp",
+      "statTotal": 487,
+      "stats": {
+        "attack": 55,
+        "defense": 85,
+        "hp": 116,
+        "special-attack": 107,
+        "special-defense": 95,
+        "speed": 29
+      },
+      "tags": [],
+      "types": ["psychic"],
+      "weight": 605
+    }
+  ],
+  "generation": 5,
+  "key": "musharna",
+  "name": "Musharna",
+  "names": {
+    "de": "Somnivora",
+    "en": "Musharna",
+    "es": "Musharna",
+    "es-419": "Musharna",
+    "fr": "Mushana",
+    "it": "Musharna",
+    "ja": "ムシャーナ",
+    "ja-hrkt": "ムシャーナ",
+    "ja-roma": "Musharna",
+    "ko": "몽얌나",
+    "zh-hans": "梦梦蚀",
+    "zh-hant": "夢夢蝕"
+  },
+  "number": 518
+}
