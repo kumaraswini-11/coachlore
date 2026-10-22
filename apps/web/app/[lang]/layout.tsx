@@ -11,7 +11,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { dir } from "@/i18n/locales"
 import { routing } from "@/i18n/routing"
 import { fontStyle, rootClassName } from "@/lib/fonts"
-import { OPEN_GRAPH, SITE } from "@/lib/site"
+import { OPEN_GRAPH, pageTitle, SITE } from "@/lib/site"
 import { siteUrl } from "@/lib/site-url"
 
 // Both languages are built ahead; Cache Components needs every root
@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("meta")
   return {
     metadataBase: new URL(siteUrl()),
-    title: { default: t("title"), template: `%s · ${SITE.name}` },
+    title: { default: t("title"), template: pageTitle("%s") },
     description: t("description"),
     applicationName: SITE.name,
     openGraph: { ...OPEN_GRAPH, locale: t("openGraphLocale") },
@@ -52,10 +52,11 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
       suppressHydrationWarning
       // The sticky top bar's height, which scroll padding keeps focus clear
       // of (WCAG 2.4.11, spec 001 criterion 9), and a page's own sticky bar
-      // under it (`data-sticky-bar`, 3.75 rem: /dex's search and sort).
+      // under it (`data-sticky-bar`, as tall as --sticky-bar: /dex's search
+      // and sort), both defined here once.
       className={cn(
         rootClassName,
-        "scroll-pt-(--sticky-top) [--sticky-top:3.5rem] has-data-sticky-bar:scroll-pt-[calc(var(--sticky-top)+3.75rem)]"
+        "scroll-pt-(--sticky-top) [--sticky-bar:3.75rem] [--sticky-top:3.5rem] has-data-sticky-bar:scroll-pt-[calc(var(--sticky-top)+var(--sticky-bar))]"
       )}
       style={fontStyle(locale)}
     >

@@ -1,16 +1,14 @@
-import type { CSSProperties } from "react"
 import type { Route } from "next"
 
-import type { FormSummary, TypeKey } from "@workspace/dex/types"
+import type { FormSummary } from "@workspace/dex/types"
 import { Card } from "@workspace/ui/components/shadcn-ui/card"
-import { TypeBadge } from "@workspace/ui/components/type-badge"
+import { TypeBadges } from "@workspace/ui/components/type-badge"
+import { typeColorVars } from "@workspace/ui/lib/type-colors"
+
+import type { TypeWords } from "@/lib/dex-types"
 
 import { IntentLink } from "./intent-link"
-
-/** "#0082": the national number as the games write it. */
-export function dexNumber(number: number): string {
-  return `#${String(number).padStart(4, "0")}`
-}
+import { dexNumber } from "./words"
 
 /**
  * One form in the grid (spec 003, "Browse the Dex"): its artwork on its
@@ -25,14 +23,12 @@ export function FormCard({
   typeNames,
   typeLang,
   noImage,
-}: {
+}: TypeWords & {
   form: FormSummary
   href: Route
   /** The link's name, in the page's language. */
   label: string
-  typeNames: Record<TypeKey, string>
-  typeLang: string
-  /** The placeholder's text for a form without a sprite. */
+  /** The placeholder's text for a form without an image. */
   noImage: string
 }) {
   // The official artwork; the pixel sprite where a form has none.
@@ -43,12 +39,18 @@ export function FormCard({
       aria-label={label}
       className="group/form block h-full rounded-xl outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
     >
+      {/* Tinted with its first type's colour (`--type-color`). */}
       <Card
-        size="sm"
-        style={{ "--tint": `var(--type-${form.types[0]})` } as CSSProperties}
-        className="h-full gap-0 overflow-hidden p-0 transition-[translate,box-shadow] duration-(--duration-fast) group-hover/form:-translate-y-0.5 group-hover/form:shadow-lg group-hover/form:ring-[color-mix(in_oklab,var(--tint)_55%,transparent)] motion-reduce:transition-none motion-reduce:group-hover/form:translate-y-0"
+        style={typeColorVars(form.types[0])}
+        className="h-full gap-0 overflow-hidden p-0 transition-[translate,box-shadow] duration-(--duration-fast) group-hover/form:-translate-y-0.5 group-hover/form:shadow-lg group-hover/form:ring-[color-mix(in_oklab,var(--type-color)_55%,transparent)] motion-reduce:transition-none motion-reduce:group-hover/form:translate-y-0"
       >
-        <span className="flex aspect-square items-center justify-center bg-[radial-gradient(circle_at_50%_40%,color-mix(in_oklab,var(--tint)_30%,transparent),transparent_72%)]">
+        <span className="relative flex aspect-square items-center justify-center bg-[radial-gradient(circle_at_50%_40%,color-mix(in_oklab,var(--type-color)_30%,transparent),transparent_72%)]">
+          {/* On the image's corner, in a layer above the artwork (its drop
+              shadow puts it in a layer of its own), so a narrow card's
+              artwork never covers it. */}
+          <span className="inset-s-3 absolute top-3 z-10 text-xs text-muted-foreground tabular-nums">
+            {dexNumber(form.number)}
+          </span>
           {image === null ? (
             <span className="px-2 text-center text-xs text-muted-foreground">
               {noImage}
@@ -70,27 +72,14 @@ export function FormCard({
             />
           )}
         </span>
-        {/* The number sits with the name, not on the image: a narrow card's
-            artwork reached its corner and covered it. */}
         <span className="flex flex-col gap-2 border-t p-4">
-          <span className="flex flex-col gap-0.5">
-            <span className="text-xs text-muted-foreground tabular-nums">
-              {dexNumber(form.number)}
-            </span>
-            <span
-              lang="en"
-              className="text-base leading-snug font-semibold wrap-anywhere"
-            >
-              {form.name}
-            </span>
+          <span
+            lang="en"
+            className="text-base leading-snug font-semibold wrap-anywhere"
+          >
+            {form.name}
           </span>
-          <span className="flex flex-wrap gap-1.5">
-            {form.types.map((type) => (
-              <TypeBadge key={type} type={type} lang={typeLang}>
-                {typeNames[type]}
-              </TypeBadge>
-            ))}
-          </span>
+          <TypeBadges types={form.types} names={typeNames} lang={typeLang} />
         </span>
       </Card>
     </IntentLink>

@@ -446,10 +446,11 @@ game, generation, ability or stats.
 - Components: Input Group, Badge, Button, Toggle Group (grid or list),
   Select, Sheet (filters on a phone), Accordion (filter groups), Checkbox,
   Slider (stat ranges), Card, Table, Skeleton.
-- States: no match ("No Pokémon match these filters", and "Clear filters").
+- States: no match ("No Pokémon match these filters", and "Clear all").
 - Accessibility: the count is announced when the filters change; each card
-  is one link named "#0208 Steelix, Steel and Ground"; sliders have
-  number inputs beside them.
+  is one link named "#0208 Steelix, Steel and Ground"; a slider is set
+  without dragging by a click on its track or the arrow keys (WCAG 2.5.7),
+  its values written beside its name.
 
 ### A game's Dex `/games/[game]`
 
@@ -1207,3 +1208,6 @@ From the screens research, left out of v1:
   image are rendered from it by `packages/playwright-web/scripts/make-icons.mjs`.
 - 2026-10-22: the fixture pages removed; criteria 4 and 9 met on real
   views ([ADR 0010](../../adr/0010-only-real-routes.md)).
+- 2026-10-22: the Dex's stat sliders show their values as text, without
+  number fields (the owner's call): a click on the track and the arrow
+  keys set them without dragging.

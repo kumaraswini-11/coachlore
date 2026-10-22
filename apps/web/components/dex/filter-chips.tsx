@@ -1,14 +1,13 @@
 import { XIcon } from "lucide-react"
 
 import { STAT_FILTER_KEYS, type DexFilter } from "@workspace/dex/filter"
-import type { TypeKey } from "@workspace/dex/types"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 import { ItemGroup } from "@workspace/ui/components/shadcn-ui/item"
 
-import { fill } from "@/i18n/error-messages"
+import { fill } from "@/i18n/fill"
 import type { DexLabels } from "@/lib/dex-labels"
+import type { Named, TypeWords } from "@/lib/dex-types"
 
-import type { Named } from "./dex-filters"
 import { roman } from "./words"
 
 export type Chip = {
@@ -28,10 +27,8 @@ export function chipsFor(
     typeLang,
     games,
     abilities,
-  }: {
+  }: TypeWords & {
     labels: DexLabels
-    typeNames: Record<TypeKey, string>
-    typeLang: string
     games: readonly Named[]
     abilities: readonly Named[]
   }
@@ -150,13 +147,18 @@ export function FilterChips({
     return null
   }
   return (
-    <ItemGroup aria-label={label} className="flex-row flex-wrap gap-2">
+    // From 640 px a chip is 32 px, its touch area 44 (::after), so wrapped
+    // rows sit 12 px apart and the areas never overlap.
+    <ItemGroup
+      aria-label={label}
+      className="flex-row flex-wrap gap-x-2 gap-y-2 sm:gap-y-3"
+    >
       {chips.map((chip) => (
         <div key={chip.id} role="listitem">
           <Button
             variant="secondary"
             size="sm"
-            className="min-h-11 sm:min-h-8"
+            className="relative min-h-11 sm:min-h-8 sm:after:absolute sm:after:inset-x-0 sm:after:-inset-y-1.5 sm:after:content-['']"
             aria-label={fill(removeLabel, { label: chip.label })}
             onClick={() => onRemove(chip)}
           >

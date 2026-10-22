@@ -149,8 +149,8 @@ export default function SearchDialog({
               render={
                 <Button
                   variant="ghost"
-                  size="icon"
-                  className="size-11 md:hidden"
+                  size="icon-touch"
+                  className="md:hidden"
                 />
               }
             >

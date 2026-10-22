@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { getTranslations } from "next-intl/server"
 
 import { DexBrowserLoader, DexPreview } from "@/components/dex/dex-browser"
+import { Page } from "@/components/page"
 import { pageMetadata } from "@/i18n/metadata"
 import { dexBrowserData, dexPreview } from "@/lib/dex"
 import { dexWords } from "@/lib/dex-labels"
@@ -26,7 +27,7 @@ export default async function DexPage() {
   const preview = await dexPreview()
 
   return (
-    <div className="w-full px-4 py-4 md:px-6 md:py-6">
+    <Page>
       <Suspense
         fallback={
           <DexPreview
@@ -40,6 +41,6 @@ export default async function DexPage() {
       >
         <DexBrowserLoader title={t("title")} {...data} {...words} />
       </Suspense>
-    </div>
+    </Page>
   )
 }

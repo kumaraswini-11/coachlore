@@ -55,7 +55,7 @@
   },
   "footer": {
     "notice": "Coachlore एक स्वतंत्र, गैर-व्यावसायिक फ़ैन प्रोजेक्ट है। इसका Nintendo, Creatures, Game Freak या The Pokémon Company से कोई संबंध नहीं है, न ही उनका समर्थन या प्रायोजन। पोकेमॉन और उसके नाम उनके ट्रेडमार्क हैं।",
-    "credits": "डेटा PokéAPI और Pokémon Showdown से; उपयोग के आँकड़े Smogon से।",
+    "credits": "डेटा PokéAPI और Pokémon Showdown से; उपयोग के आँकड़े Smogon से; पोकेमॉन की तस्वीरें © The Pokémon Company, PokéAPI के स्प्राइट्स से।",
     "about": "परिचय",
     "legal": "क़ानूनी जानकारी"
   },
@@ -69,9 +69,6 @@
     "close": "खोज बंद करें",
     "escapeKey": "Esc",
     "searching": "खोज रहे हैं…"
-  },
-  "toast": {
-    "close": "यह संदेश बंद करें"
   },
   "notFound": {
     "title": "पेज नहीं मिला",
@@ -137,15 +134,12 @@
         "speed": "स्पीड",
         "total": "कुल"
       },
-      "directionLabel": "दिशा",
-      "ascending": "कम से ज़्यादा",
       "descending": "ज़्यादा से कम",
       "viewLabel": "दिखावट",
       "grid": "ग्रिड",
       "list": "सूची",
       "filters": "फ़िल्टर",
       "openFilters": "फ़िल्टर",
-      "closeFilters": "फ़िल्टर बंद करें",
       "clearAll": "सब हटाएँ",
       "activeFilters": {
         "one": "{count} फ़िल्टर लगा है",
@@ -174,6 +168,7 @@
       "generationShort": "पीढ़ी {roman}",
       "statMin": "{stat}, सबसे कम",
       "statMax": "{stat}, सबसे ज़्यादा",
+      "statValues": "{min}–{max}",
       "formKinds": {
         "default": "मूल रूप",
         "all": "सभी रूप",
@@ -207,7 +202,8 @@
         "speed": "स्पीड",
         "total": "कुल"
       },
-      "sortColumn": "{column} से क्रम में लगाएँ",
+      "statSeparator": " · ",
+      "sortColumn": "{short}, {column} से क्रम में लगाएँ",
       "tableCaption": "पोकेमॉन और उनके बेस स्टैट्स",
       "emptyTitle": "इन फ़िल्टर से कोई पोकेमॉन नहीं मिला",
       "emptyDescription": "कुछ फ़िल्टर हटाकर देखें, या सब हटा दें।",

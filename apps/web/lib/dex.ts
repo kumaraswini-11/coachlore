@@ -10,7 +10,7 @@ import {
   type StatFilterKey,
 } from "@workspace/dex"
 
-import type { DexData } from "@/components/dex/dex-browser"
+import type { DexData } from "@/lib/dex-types"
 
 // The web app's one reader of @workspace/dex (plan 003, "Packages and
 // files"). Pages read through these, each cached, so the build works each

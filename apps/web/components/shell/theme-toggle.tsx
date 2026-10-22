@@ -1,21 +1,15 @@
 "use client"
 
-import * as React from "react"
 import { MoonIcon, SunIcon } from "lucide-react"
 import { useTheme } from "next-themes"
 
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 
+import { useClientValue } from "@/lib/use-client-value"
+
 // The theme is known only in the browser: before hydration the button
 // claims no state, as next-themes' README asks ("Avoid Hydration Mismatch").
-const subscribeToNothing = () => () => {}
-function useMounted() {
-  return React.useSyncExternalStore(
-    subscribeToNothing,
-    () => true,
-    () => false
-  )
-}
+const mountedNow = () => true
 
 /**
  * The top bar's theme button (spec 001, "The app shell"): one press switches
@@ -26,14 +20,13 @@ function useMounted() {
  */
 function ThemeToggle({ label }: { label: string }) {
   const { resolvedTheme, setTheme } = useTheme()
-  const mounted = useMounted()
+  const mounted = useClientValue(mountedNow, false)
   const dark = resolvedTheme === "dark"
 
   return (
     <Button
       variant="outline"
-      size="icon"
-      className="size-11"
+      size="icon-touch"
       aria-pressed={mounted ? dark : undefined}
       onClick={() => setTheme(dark ? "light" : "dark")}
     >

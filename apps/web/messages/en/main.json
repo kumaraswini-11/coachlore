@@ -55,7 +55,7 @@
   },
   "footer": {
     "notice": "Coachlore is an independent, non-commercial fan project, not affiliated with, endorsed or sponsored by Nintendo, Creatures, Game Freak or The Pokémon Company. Pokémon and its names are their trademarks.",
-    "credits": "Data from PokéAPI and Pokémon Showdown; usage statistics from Smogon.",
+    "credits": "Data from PokéAPI and Pokémon Showdown; usage statistics from Smogon; Pokémon images © The Pokémon Company, from PokéAPI’s sprites.",
     "about": "About",
     "legal": "Legal"
   },
@@ -69,9 +69,6 @@
     "close": "Close search",
     "escapeKey": "Esc",
     "searching": "Searching…"
-  },
-  "toast": {
-    "close": "Close this message"
   },
   "notFound": {
     "title": "Page not found",
@@ -137,15 +134,12 @@
         "speed": "Speed",
         "total": "Total"
       },
-      "directionLabel": "Order",
-      "ascending": "Low to high",
       "descending": "High to low",
       "viewLabel": "View",
       "grid": "Grid",
       "list": "List",
       "filters": "Filters",
       "openFilters": "Filter",
-      "closeFilters": "Close filters",
       "clearAll": "Clear all",
       "activeFilters": {
         "one": "{count} active filter",
@@ -174,6 +168,7 @@
       "generationShort": "Gen {roman}",
       "statMin": "{stat}, lowest",
       "statMax": "{stat}, highest",
+      "statValues": "{min}–{max}",
       "formKinds": {
         "default": "Default forms",
         "all": "All forms",
@@ -207,7 +202,8 @@
         "speed": "Spe",
         "total": "Total"
       },
-      "sortColumn": "Sort by {column}",
+      "statSeparator": " · ",
+      "sortColumn": "{short}, sort by {column}",
       "tableCaption": "Pokémon and their base stats",
       "emptyTitle": "No Pokémon match these filters",
       "emptyDescription": "Try fewer filters, or clear them all.",

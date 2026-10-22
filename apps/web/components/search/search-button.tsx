@@ -7,6 +7,7 @@ import type { Locale } from "next-intl"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 import { Kbd } from "@workspace/ui/components/shadcn-ui/kbd"
 
+import { useClientValue } from "@/lib/use-client-value"
 import type messages from "@/messages/en/main.json"
 
 export type PaletteMessages = (typeof messages)["palette"]
@@ -27,13 +28,9 @@ const firstDialog = lazyDialog()
 // The shortcut as the keyboard labels it: ⌘ on a Mac, Ctrl elsewhere. The
 // server can't tell, so it says the other and a Mac corrects it on
 // hydration.
-const subscribeToNothing = () => () => {}
+const isMac = () => /Mac|iPhone|iPad/.test(navigator.platform)
 function useIsMac() {
-  return React.useSyncExternalStore(
-    subscribeToNothing,
-    () => /Mac|iPhone|iPad/.test(navigator.platform),
-    () => false
-  )
+  return useClientValue(isMac, false)
 }
 
 /**
@@ -122,7 +119,8 @@ function SearchButton({
         onClick={show}
         onPointerEnter={prefetch}
         onFocus={prefetch}
-        className="size-11 justify-center text-muted-foreground md:w-60 md:justify-start md:px-3"
+        size="icon-touch"
+        className="justify-center gap-1.5 text-muted-foreground md:w-60 md:justify-start md:px-3"
       >
         <SearchIcon aria-hidden />
         <span className="sr-only md:not-sr-only md:flex-1 md:truncate md:text-start">

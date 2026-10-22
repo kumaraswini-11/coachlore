@@ -15,6 +15,15 @@ export const SITE = {
 } as const
 
 /**
+ * A page's full title, "Not found · Coachlore". The layout's title template
+ * is this; the pages Next.js gives no template (not-found, the error
+ * pages) call it themselves.
+ */
+export function pageTitle(title: string): string {
+  return `${title} · ${SITE.name}`
+}
+
+/**
  * The Open Graph fields every page shares. A page that sets `openGraph`
  * replaces the layout's whole object (Next.js merges metadata shallowly), so
  * it spreads these back in and adds its own `url`, which Open Graph requires,

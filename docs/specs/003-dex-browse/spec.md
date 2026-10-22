@@ -164,7 +164,8 @@ Spec 001's wireframes for Home, Browse the Dex and A game's Dex, with these
 details:
 
 - The page opens with its title and the count, with no breadcrumb: `/dex`
-  is a top-level page.
+  is a top-level page. On desktop they head the filters panel, level with
+  the pinned bar, with "Clear all" at the line's end.
 - A bar pinned under the top bar holds the name field. On a phone, beside
   it, "Filter" (with the number of active filters) opens a bottom sheet
   with the sort, grid or list, the filters, and "Show N Pokémon" at the
@@ -174,12 +175,15 @@ details:
   all" removes every filter.
 - Each filter is a group that opens and closes. Types are pills in their
   colours, each named; a chosen one has a ring and a check. Generations are
-  checkboxes, three to a row ("Gen I"); each stat is a slider with a number
-  field at each end.
+  checkboxes, three to a row ("Gen I"); each stat is a slider, its values beside its name;
+  the forms are radio buttons, two to a row.
 - Grid columns, by the results' own width: 2 on a phone, 3 from 576 px, 4
   from 896 px, 5 from 1280 px.
 - List view on a phone: number, name, types and total, with the six stats on
-  a second line; on desktop, one column per stat, each sortable.
+  a second line; on desktop, one column per stat, each sortable. The table
+  is a bordered card, each name with its small sprite, the numbers centred;
+  a click anywhere on a row opens the form.
+- Grid or list is a segmented switch: the chosen view on a raised tile.
 - The offline notice is an Alert under the top bar, dismissible.
 
 ## Acceptance criteria

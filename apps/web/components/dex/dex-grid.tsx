@@ -18,8 +18,8 @@ const GAP = 12
 const GRID =
   "grid grid-cols-2 gap-3 @xl:grid-cols-3 @4xl:grid-cols-4 @7xl:grid-cols-5"
 // A card's height below its square image, before it's measured: the
-// footer's padding, the number, one line of name, the badges and the gaps.
-const CARD_TEXT = 114
+// footer's padding, one line of name, the badges and the gap.
+const CARD_TEXT = 96
 
 function columnsFor(width: number): number {
   const rem = width / 16

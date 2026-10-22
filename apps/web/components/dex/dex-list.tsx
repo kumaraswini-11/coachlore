@@ -1,10 +1,12 @@
 import { memo } from "react"
 import type { Route } from "next"
 import { ArrowDownIcon, ArrowUpIcon } from "lucide-react"
+import type { Locale } from "next-intl"
 
 import type { DexSort, StatFilterKey } from "@workspace/dex/filter"
-import { STAT_KEYS, type FormSummary, type TypeKey } from "@workspace/dex/types"
+import { STAT_KEYS, type FormSummary } from "@workspace/dex/types"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
+import { Card } from "@workspace/ui/components/shadcn-ui/card"
 import {
   Table,
   TableBody,
@@ -14,21 +16,30 @@ import {
   TableHeader,
   TableRow,
 } from "@workspace/ui/components/shadcn-ui/table"
-import { TypeBadge } from "@workspace/ui/components/type-badge"
+import { TypeBadges } from "@workspace/ui/components/type-badge"
+import { cn } from "@workspace/ui/lib/utils"
 
-import { fill } from "@/i18n/error-messages"
+import { fill } from "@/i18n/fill"
 import type { DexLabels } from "@/lib/dex-labels"
+import type { TypeWords } from "@/lib/dex-types"
 
-import { dexNumber } from "./form-card"
 import { IntentLink } from "./intent-link"
+import { dexNumber, statList } from "./words"
 
 const STAT_COLUMNS: StatFilterKey[] = [...STAT_KEYS, "total"]
 
+// Column headers: small, uppercase, muted; the sorted one in full colour,
+// with its arrow (the arrow and aria-sort say which, not the colour).
+const HEAD =
+  "text-xs font-medium tracking-wider text-muted-foreground uppercase"
+
 /**
- * The forms as a table with their base stats (spec 003, "Screens"): on a
- * phone, number, name, types and total, the six stats on a line under the
- * name; with room, a column per stat. Every stat column sorts by its
- * header; the number and name columns too.
+ * The forms as a table with their base stats (spec 003, "Screens"), in a
+ * card, the numbers centred in their columns: on a phone, number, name,
+ * types and total, the six stats on a line under the name; with room, a
+ * column per stat. Each name has its sprite beside it, and a click anywhere
+ * on a row opens the form. Every stat column sorts by its header; the
+ * number and name columns too.
  */
 export const DexList = memo(function DexList({
   forms,
@@ -36,19 +47,20 @@ export const DexList = memo(function DexList({
   sort,
   onSort,
   labels,
+  locale,
   typeNames,
   typeLang,
-}: {
+}: TypeWords & {
   forms: readonly FormSummary[]
   href: (form: FormSummary) => Route
   sort: DexSort
   onSort: (key: DexSort["key"]) => void
   labels: DexLabels
-  typeNames: Record<TypeKey, string>
-  typeLang: string
+  locale: Locale
 }) {
-  const header = (key: DexSort["key"], text: string, className?: string) => {
+  const header = (key: DexSort["key"], className?: string) => {
     const active = sort.key === key
+    const short = labels.columns[key]
     return (
       <TableHead
         key={key}
@@ -57,14 +69,19 @@ export const DexList = memo(function DexList({
           active ? (sort.descending ? "descending" : "ascending") : undefined
         }
       >
+        {/* Named from what it shows ("Atk, sort by Attack"), so a voice
+            command that says the shown text finds it (WCAG 2.5.3). */}
         <Button
           variant="ghost"
-          size="sm"
-          className="-mx-2"
+          size="touch"
+          className={cn("-mx-2 px-2", HEAD, active && "text-foreground")}
           onClick={() => onSort(key)}
-          aria-label={fill(labels.sortColumn, { column: labels.sortKeys[key] })}
+          aria-label={fill(labels.sortColumn, {
+            short,
+            column: labels.sortKeys[key],
+          })}
         >
-          {text}
+          {short}
           {active &&
             (sort.descending ? (
               <ArrowDownIcon aria-hidden="true" />
@@ -76,71 +93,115 @@ export const DexList = memo(function DexList({
     )
   }
   const wide = "hidden @2xl:table-cell"
+  const badges = (form: FormSummary, className?: string) => (
+    <TypeBadges
+      types={form.types}
+      names={typeNames}
+      lang={typeLang}
+      className={className}
+    />
+  )
 
   return (
-    <Table>
-      <TableCaption className="sr-only">{labels.tableCaption}</TableCaption>
-      <TableHeader>
-        <TableRow>
-          {header("number", labels.columns.number)}
-          {header("name", labels.columns.name)}
-          <TableHead className={wide}>{labels.columns.types}</TableHead>
-          {STAT_COLUMNS.map((key) =>
-            header(
-              key,
-              labels.columns[key],
-              key === "total" ? "text-end" : `${wide} text-end`
-            )
-          )}
-        </TableRow>
-      </TableHeader>
-      <TableBody>
-        {forms.map((form) => (
-          <TableRow key={form.key}>
-            <TableCell className="text-muted-foreground tabular-nums">
-              {dexNumber(form.number)}
-            </TableCell>
-            <TableCell className="whitespace-normal">
-              <IntentLink
-                href={href(form)}
-                lang="en"
-                className="font-medium underline-offset-4 hover:underline"
-              >
-                {form.name}
-              </IntentLink>
-              <span className="mt-1 flex flex-wrap gap-1 @2xl:hidden">
-                {form.types.map((type) => (
-                  <TypeBadge key={type} type={type} lang={typeLang}>
-                    {typeNames[type]}
-                  </TypeBadge>
-                ))}
-              </span>
-              <span className="mt-1 block text-xs text-muted-foreground tabular-nums @2xl:hidden">
-                {STAT_KEYS.map(
-                  (key) => `${labels.columns[key]} ${form.stats[key]}`
-                ).join(" · ")}
-              </span>
-            </TableCell>
-            <TableCell className={wide}>
-              <span className="flex flex-wrap gap-1">
-                {form.types.map((type) => (
-                  <TypeBadge key={type} type={type} lang={typeLang}>
-                    {typeNames[type]}
-                  </TypeBadge>
-                ))}
-              </span>
-            </TableCell>
-            {STAT_KEYS.map((key) => (
-              <TableCell key={key} className={`${wide} text-end tabular-nums`}>
-                {form.stats[key]}
-              </TableCell>
-            ))}
-            <TableCell className="text-end font-medium tabular-nums">
-              {form.statTotal}
-            </TableCell>
+    // A card like the grid's. Cells 8 px from their neighbours on a phone,
+    // where the row is narrow, 16 px once every column shows.
+    <Card className="gap-0 overflow-hidden p-0">
+      <Table className="[&_td]:px-2 @2xl:[&_td]:px-4 [&_th]:px-2 @2xl:[&_th]:px-4">
+        <TableCaption className="sr-only">{labels.tableCaption}</TableCaption>
+        <TableHeader className="bg-muted/40">
+          <TableRow className="hover:bg-transparent">
+            {header("number", "h-12")}
+            {header("name")}
+            <TableHead className={cn(wide, HEAD)}>
+              {labels.columns.types}
+            </TableHead>
+            {STAT_COLUMNS.map((key) =>
+              header(
+                key,
+                key === "total" ? "text-center" : `${wide} text-center`
+              )
+            )}
           </TableRow>
-        ))}
-      </TableBody>
-    </Table>
+        </TableHeader>
+        <TableBody>
+          {forms.map((form) => {
+            // The small sprite suits a row; the artwork where there's none.
+            const image = form.sprite ?? form.artwork
+            return (
+              // The whole row opens the form: the name's link stretches over
+              // it (its ::after), so it stays one real link, Ctrl-click and
+              // all, and its focus ring outlines the row.
+              <TableRow key={form.key} className="relative">
+                <TableCell className="py-2 text-muted-foreground tabular-nums">
+                  {dexNumber(form.number)}
+                </TableCell>
+                <TableCell className="py-2 whitespace-normal">
+                  <span className="flex items-center gap-3">
+                    {image === null ? (
+                      // The row names the form; a gap keeps names aligned.
+                      <span aria-hidden="true" className="size-10 shrink-0" />
+                    ) : (
+                      // A plain image, as on the cards (form-card.tsx).
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={image}
+                        alt=""
+                        width={40}
+                        height={40}
+                        loading="lazy"
+                        decoding="async"
+                        className="size-10 shrink-0 object-contain"
+                      />
+                    )}
+                    <span className="flex min-w-0 flex-col gap-1">
+                      <IntentLink
+                        href={href(form)}
+                        lang="en"
+                        className="font-semibold outline-none after:absolute after:inset-0 after:content-[''] focus-visible:after:ring-3 focus-visible:after:ring-ring/50 focus-visible:after:ring-inset"
+                      >
+                        {form.name}
+                      </IntentLink>
+                      {badges(form, "@2xl:hidden")}
+                      {/* The stats on a phone: abbreviated for the eye,
+                          named in full for a screen reader. */}
+                      <span className="text-xs text-muted-foreground tabular-nums @2xl:hidden">
+                        <span aria-hidden="true">
+                          {STAT_KEYS.map(
+                            (key) => `${labels.columns[key]} ${form.stats[key]}`
+                          ).join(labels.statSeparator)}
+                        </span>
+                        <span className="sr-only">
+                          {statList(form, labels.sortKeys, locale)}
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </TableCell>
+                <TableCell className={cn(wide, "py-2")}>
+                  {badges(form)}
+                </TableCell>
+                {STAT_KEYS.map((key) => (
+                  <TableCell
+                    key={key}
+                    className={cn(
+                      wide,
+                      "py-2 text-center tabular-nums",
+                      sort.key === key
+                        ? "font-medium text-foreground"
+                        : "text-muted-foreground"
+                    )}
+                  >
+                    {form.stats[key]}
+                  </TableCell>
+                ))}
+                <TableCell className="py-2 text-center font-semibold tabular-nums">
+                  {form.statTotal}
+                </TableCell>
+              </TableRow>
+            )
+          })}
+        </TableBody>
+      </Table>
+    </Card>
   )
 })

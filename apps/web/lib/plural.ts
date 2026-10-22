@@ -1,4 +1,4 @@
-import { fill } from "@/i18n/error-messages"
+import { fill } from "@/i18n/fill"
 
 /**
  * A count's words in a Client Component, which gets plain strings rather

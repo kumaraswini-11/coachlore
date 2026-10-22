@@ -1,13 +1,16 @@
 "use client"
 
-import { memo, useCallback, useId, useState, type CSSProperties } from "react"
+import { memo, useCallback, useId, useState } from "react"
 import { CheckIcon } from "lucide-react"
 
 import {
   FORM_KINDS,
   STAT_FILTER_KEYS,
+  TYPE_GROUPS,
   type DexFilter,
   type StatFilterKey,
+  type StatRange,
+  type TypeGroup,
 } from "@workspace/dex/filter"
 import { TYPE_KEYS, type TypeKey } from "@workspace/dex/types"
 import {
@@ -25,7 +28,6 @@ import {
   ComboboxItem,
   ComboboxList,
 } from "@workspace/ui/components/shadcn-ui/combobox"
-import { Input } from "@workspace/ui/components/shadcn-ui/input"
 import { Label } from "@workspace/ui/components/shadcn-ui/label"
 import {
   RadioGroup,
@@ -34,22 +36,23 @@ import {
 import {
   Select,
   SelectContent,
+  SelectGroup,
   SelectItem,
   SelectTrigger,
   SelectValue,
 } from "@workspace/ui/components/shadcn-ui/select"
 import { Slider } from "@workspace/ui/components/shadcn-ui/slider"
 import { Toggle } from "@workspace/ui/components/shadcn-ui/toggle"
+import { typeColorVars } from "@workspace/ui/lib/type-colors"
 import { cn } from "@workspace/ui/lib/utils"
 
-import { fill } from "@/i18n/error-messages"
+import { fill } from "@/i18n/fill"
 import type { DexLabels } from "@/lib/dex-labels"
+import type { Named, TypeWords } from "@/lib/dex-types"
 
 import { roman } from "./words"
 
-export type Named = { key: string; name: string }
-
-type Props = {
+type Props = TypeWords & {
   filter: DexFilter
   /**
    * Takes how the filter changes, not the new filter, so a control's
@@ -61,11 +64,16 @@ type Props = {
   abilities: readonly Named[]
   statMax: Record<StatFilterKey, number>
   labels: DexLabels
-  typeNames: Record<TypeKey, string>
-  typeLang: string
 }
 
 const GENERATIONS = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+// A grid of checkbox or radio rows. The rows touch, each a 44 px target
+// (AGENTS.md, "Interface") with its 20 px control centred, so 12 px of row
+// sits above the first control and below the last; the margins take most of
+// it back, so the group is spaced like the others, and the first row's
+// target starts at the group's heading rather than over it.
+const CHOICE_GRID = "-mt-1.5 -mb-2.5 grid gap-x-2 gap-y-0"
 
 /**
  * The Dex's filters (spec 003, "Browse the Dex"), one group each: the panel
@@ -79,7 +87,7 @@ export const DexFilters = memo(function DexFilters(props: Props) {
 
   return (
     <Accordion multiple defaultValue={["type"]} className="w-full">
-      {(["type", "weak", "resist"] as const).map((group) => (
+      {TYPE_GROUPS.map((group) => (
         <AccordionItem key={group} value={group}>
           <AccordionTrigger>{labels.groups[group]}</AccordionTrigger>
           <AccordionContent className="pt-1.5">
@@ -107,16 +115,21 @@ export const DexFilters = memo(function DexFilters(props: Props) {
             value={filter.game ?? ""}
             onValueChange={(game) => set({ game: game || undefined })}
           >
-            <SelectTrigger className="w-full" aria-label={labels.groups.game}>
+            <SelectTrigger
+              className="min-h-11 w-full"
+              aria-label={labels.groups.game}
+            >
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">{labels.anyGame}</SelectItem>
-              {props.games.map((game) => (
-                <SelectItem key={game.key} value={game.key} lang="en">
-                  {game.name}
-                </SelectItem>
-              ))}
+              <SelectGroup>
+                <SelectItem value="">{labels.anyGame}</SelectItem>
+                {props.games.map((game) => (
+                  <SelectItem key={game.key} value={game.key} lang="en">
+                    {game.name}
+                  </SelectItem>
+                ))}
+              </SelectGroup>
             </SelectContent>
           </Select>
         </AccordionContent>
@@ -128,8 +141,7 @@ export const DexFilters = memo(function DexFilters(props: Props) {
           <div
             role="group"
             aria-label={labels.groups.generation}
-            // Rows touch: each is already a 44 px target.
-            className="grid grid-cols-3 gap-x-2"
+            className={cn(CHOICE_GRID, "grid-cols-3")}
           >
             {GENERATIONS.map((generation) => {
               const chosen = filter.gen ?? []
@@ -162,9 +174,9 @@ export const DexFilters = memo(function DexFilters(props: Props) {
 
       <AccordionItem value="stats">
         <AccordionTrigger>{labels.groups.stats}</AccordionTrigger>
-        <AccordionContent className="flex flex-col gap-5 pt-1.5">
+        <AccordionContent className="flex flex-col gap-4 pt-1.5">
           {STAT_FILTER_KEYS.map((key) => (
-            <StatRange
+            <StatSlider
               key={key}
               stat={key}
               range={filter.stats?.[key]}
@@ -201,10 +213,12 @@ export const DexFilters = memo(function DexFilters(props: Props) {
                   kind === "default" ? undefined : (kind as DexFilter["forms"]),
               })
             }
+            // Two to a row, as the generations are three.
+            className={cn(CHOICE_GRID, "grid-cols-2")}
           >
             {FORM_KINDS.map((kind) => (
-              <Label key={kind} className="min-h-11">
-                <RadioGroupItem value={kind} />
+              <Label key={kind} className="min-h-11 font-normal">
+                <RadioGroupItem value={kind} className="size-5" />
                 {labels.formKinds[kind]}
               </Label>
             ))}
@@ -214,8 +228,6 @@ export const DexFilters = memo(function DexFilters(props: Props) {
     </Accordion>
   )
 })
-
-type TypeGroup = "type" | "weak" | "resist"
 
 /** Up to two of the eighteen types, each a checkbox labelled with its badge. */
 function TypeChoice({
@@ -307,14 +319,9 @@ const TypeOption = memo(function TypeOption({
       // hover and pressed styles too) keeps them. Pressed adds a ring and a
       // check; an unpressed pill isn't dimmed, which took its name under
       // 4.5:1 (WCAG 1.4.3).
-      style={
-        {
-          "--pill": `var(--type-${type})`,
-          "--pill-foreground": `var(--type-${type}-foreground)`,
-        } as CSSProperties
-      }
+      style={typeColorVars(type)}
       className={cn(
-        "relative h-6 min-h-6 min-w-0 gap-1 rounded-sm bg-(--pill) px-2 text-xs font-medium text-(--pill-foreground) after:absolute after:-inset-x-1 after:-inset-y-2.5 after:content-[''] hover:bg-(--pill) hover:text-(--pill-foreground) aria-pressed:bg-(--pill) [&_svg:not([class*='size-'])]:size-3",
+        "relative h-6 min-h-6 min-w-0 gap-1 rounded-sm bg-(--type-color) px-2 text-xs font-medium text-(--type-color-foreground) after:absolute after:-inset-x-1 after:-inset-y-2.5 after:content-[''] hover:bg-(--type-color) hover:text-(--type-color-foreground) aria-pressed:bg-(--type-color) [&_svg:not([class*='size-'])]:size-3",
         checked && "ring-2 ring-foreground ring-offset-2 ring-offset-background"
       )}
     >
@@ -341,7 +348,7 @@ function AbilityChoice({ filter, onChange, abilities, labels }: Props) {
       isItemEqualToValue={(item, value) => item.value === value.value}
     >
       <ComboboxInput
-        className="w-full"
+        className="h-11 w-full"
         aria-label={labels.groups.ability}
         placeholder={labels.abilityPlaceholder}
         triggerLabel={labels.abilityTrigger}
@@ -362,15 +369,14 @@ function AbilityChoice({ filter, onChange, abilities, labels }: Props) {
   )
 }
 
-type Range = { min?: number; max?: number }
-
 /**
- * One stat's range: a slider with two thumbs, and a number field beside
- * each end (spec 001: "sliders have number inputs beside them"). The
- * slider moves freely and writes when it's let go; an end at the slider's
- * edge is open.
+ * One stat's range: a slider with two thumbs, its values written beside
+ * its name. The slider moves freely and writes when it's let go; an end at
+ * the slider's edge is open. Without dragging, a click on the track moves
+ * the nearer thumb and the arrow keys step it (WCAG 2.5.7), so it needs no
+ * number fields (the owner's call, 2026-10-22; spec 001, "Browse the Dex").
  */
-function StatRange({
+function StatSlider({
   stat,
   range,
   max,
@@ -378,18 +384,16 @@ function StatRange({
   onRange,
 }: {
   stat: StatFilterKey
-  range: Range | undefined
+  range: StatRange | undefined
   max: number
   labels: DexLabels
-  onRange: (range: Range | undefined) => void
+  onRange: (range: StatRange | undefined) => void
 }) {
   const id = useId()
   const committed: [number, number] = [range?.min ?? 0, range?.max ?? max]
   const [dragging, setDragging] = useState<[number, number] | null>(null)
   const [low, high] = dragging ?? committed
   const name = labels.sortKeys[stat]
-  const lowLabel = fill(labels.statMin, { stat: name })
-  const highLabel = fill(labels.statMax, { stat: name })
 
   const commit = (from: number, to: number) => {
     setDragging(null)
@@ -404,22 +408,26 @@ function StatRange({
           }
     )
   }
-  const field = (
-    value: number,
-    label: string,
-    onValue: (value: number) => void
-  ) => <StatField value={value} max={max} label={label} onValue={onValue} />
 
   return (
-    <div role="group" aria-labelledby={id} className="flex flex-col gap-2">
-      <span id={id} className="font-medium">
-        {name}
-      </span>
+    <div role="group" aria-labelledby={id} className="flex flex-col gap-3">
+      <div className="flex items-baseline justify-between gap-2">
+        <span id={id} className="font-medium">
+          {name}
+        </span>
+        {/* The thumbs announce their own values; this is for the eye. */}
+        <span aria-hidden="true" className="text-muted-foreground tabular-nums">
+          {fill(labels.statValues, { min: String(low), max: String(high) })}
+        </span>
+      </div>
       <Slider
         min={0}
         max={max}
         value={[low, high]}
-        thumbLabels={[lowLabel, highLabel]}
+        thumbLabels={[
+          fill(labels.statMin, { stat: name }),
+          fill(labels.statMax, { stat: name }),
+        ]}
         onValueChange={(value) => {
           const [from = 0, to = max] = value as number[]
           setDragging([from, to])
@@ -429,61 +437,6 @@ function StatRange({
           commit(from, to)
         }}
       />
-      <div className="flex items-center gap-2">
-        {field(low, lowLabel, (value) => commit(value, high))}
-        <span aria-hidden="true" className="h-px flex-1 bg-border" />
-        {field(high, highLabel, (value) => commit(low, value))}
-      </div>
     </div>
-  )
-}
-
-/**
- * A stat's number field: what's typed stays in the field and applies when
- * the field is left or Enter is pressed, so typing "100" is one change, not
- * three. It follows the slider and the address when they change.
- */
-function StatField({
-  value,
-  max,
-  label,
-  onValue,
-}: {
-  value: number
-  max: number
-  label: string
-  onValue: (value: number) => void
-}) {
-  const [text, setText] = useState(String(value))
-  const [shown, setShown] = useState(value)
-  if (value !== shown) {
-    setShown(value)
-    setText(String(value))
-  }
-  const apply = () => {
-    const next = Number(text)
-    if (text.trim() === "" || !Number.isFinite(next)) {
-      setText(String(value))
-    } else if (next !== value) {
-      onValue(next)
-    }
-  }
-  return (
-    <Input
-      type="number"
-      inputMode="numeric"
-      min={0}
-      max={max}
-      value={text}
-      aria-label={label}
-      className="w-16 [appearance:textfield] text-center tabular-nums [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
-      onChange={(event) => setText(event.target.value)}
-      onBlur={apply}
-      onKeyDown={(event) => {
-        if (event.key === "Enter") {
-          apply()
-        }
-      }}
-    />
   )
 }

@@ -1,6 +1,8 @@
 import { EmptyState } from "@workspace/ui/components/empty-state"
 import { Button } from "@workspace/ui/components/shadcn-ui/button"
 
+import { Page } from "@/components/page"
+
 /**
  * What error.tsx and global-error.tsx show: what failed and a way to try
  * again, announced to screen readers as an alert, in strings the page has
@@ -26,7 +28,7 @@ function ErrorState({
   retry: () => void
 }) {
   return (
-    <div className="flex px-4 py-6 md:px-6">
+    <Page>
       <EmptyState
         titleAs="h1"
         role="alert"
@@ -38,11 +40,11 @@ function ErrorState({
           </>
         }
       >
-        <Button className="h-11 px-4" onClick={() => retry()}>
+        <Button size="touch" onClick={() => retry()}>
           {retryLabel}
         </Button>
       </EmptyState>
-    </div>
+    </Page>
   )
 }
 

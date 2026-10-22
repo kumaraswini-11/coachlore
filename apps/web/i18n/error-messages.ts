@@ -24,10 +24,3 @@ export function errorMessages(lang: string | string[] | undefined) {
     : routing.defaultLocale
   return ERRORS[locale]
 }
-
-/** A plain message with its `{name}` arguments filled in. */
-export function fill(message: string, values: Record<string, string>) {
-  return message.replace(/\{(\w+)\}/g, (match, name: string) =>
-    name in values ? (values[name] ?? match) : match
-  )
-}
